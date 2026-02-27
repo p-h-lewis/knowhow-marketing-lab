@@ -407,6 +407,14 @@ export default function Framework() {
             <Link href="/courses/google-ads" className="text-[#318599] hover:underline">Google Ads course</Link>, and{" "}
             <Link href="/blog" className="text-[#318599] hover:underline">free blog articles</Link>.
           </p>
+          <div className="mt-8 p-5 bg-gray-50 border border-gray-200 rounded-xl max-w-2xl mx-auto text-left">
+            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Deep Dive</p>
+            <p className="text-gray-800 font-semibold text-base mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read the full guide: Data-Driven SEO for Medium-Sized Businesses</p>
+            <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the KnowHow Data-First SEO Method — with step-by-step instructions, real examples, and a complete FAQ.</p>
+            <Link href="/blog/data-driven-seo-guide-medium-sized-businesses" className="inline-flex items-center gap-1 text-sm font-bold text-[#318599] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              Read the complete guide →
+            </Link>
+          </div>
         </div>
       </section>
 

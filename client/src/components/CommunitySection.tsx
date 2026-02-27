@@ -56,7 +56,7 @@ export default function CommunitySection() {
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
-              Join the Know How Marketing Lab Community
+              Join the KnowHow Marketing Lab Community
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
               The paid community for marketing professionals and business teams who want to go beyond the basics. Weekly live sessions, advanced courses, AI training, and a private group — all in one place on GoHighLevel.

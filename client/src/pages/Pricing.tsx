@@ -10,21 +10,14 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import { useSEO } from "@/hooks/useSEO";
 
 const freeFeatures = [
-  { label: 'Complete SEO Course (8 modules)', included: true },
-  { label: '60+ free YouTube video lessons', included: true },
-  { label: 'Google Search Console training', included: true },
-  { label: 'Google Analytics 4 (GA4) training', included: true },
-  { label: 'Google Business Profile training', included: true },
-  { label: 'Google Tag Manager intro', included: true },
-  { label: 'Weekly live Q&A & support (Thursdays)', included: false },
-  { label: 'Monthly deep-dive training session', included: false },
-  { label: 'Homework & fillable PDF worksheets', included: false },
-  { label: 'Google Ads Mastery course', included: false },
-  { label: 'AI Marketing & Automation course', included: false },
-  { label: 'Private community group access', included: false },
-  { label: 'Live Q&A with Pip & Phelan', included: false },
-  { label: 'All recorded session replays', included: false },
-  { label: 'Early access to new content', included: false },
+  { label: 'Complete SEO Course (8 modules)' },
+  { label: '60+ free YouTube video lessons' },
+  { label: 'Google Search Console training' },
+  { label: 'Google Analytics 4 (GA4) training' },
+  { label: 'Google Business Profile training' },
+  { label: 'Google Tag Manager intro' },
+  { label: 'No credit card required' },
+  { label: 'Watch at your own pace, forever' },
 ];
 
 const communityFeatures = [
@@ -187,16 +180,10 @@ export default function Pricing() {
                 <ul className="space-y-2.5 flex-1 mb-8" aria-label="Free plan features">
                   {freeFeatures.map(f => (
                     <li key={f.label} className="flex items-center gap-3">
-                      {f.included ? (
-                        <svg className="w-4 h-4 text-[#318599] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                        </svg>
-                      ) : (
-                        <svg className="w-4 h-4 text-gray-300 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                          <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"/>
-                        </svg>
-                      )}
-                      <span className={`text-sm ${f.included ? 'text-gray-700' : 'text-gray-400'}`} style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      <svg className="w-4 h-4 text-[#318599] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                      <span className="text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                         {f.label}
                       </span>
                     </li>

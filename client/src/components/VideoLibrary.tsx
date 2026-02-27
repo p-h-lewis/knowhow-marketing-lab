@@ -12,7 +12,6 @@ const CATEGORIES: Array<{ key: VideoCategory | 'all'; label: string }> = [
   { key: 'analytics', label: 'Analytics & GA4' },
   { key: 'ai', label: 'AI Marketing' },
   { key: 'live', label: 'Live Classes' },
-  { key: 'shorts', label: 'Shorts' },
 ];
 
 const INITIAL_SHOW = 12;
