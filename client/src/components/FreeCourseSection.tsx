@@ -161,7 +161,7 @@ export default function FreeCourseSection() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://learnwith.seymourdigitalmedia.com/"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"

@@ -46,7 +46,7 @@ export default function Home() {
               "url": "https://knowhowmarketinglab.com",
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
-                "https://learnwith.seymourdigitalmedia.com/",
+                "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
                 "https://seymourdigitalmedia.com/"
               ],
               "founder": [
@@ -78,7 +78,7 @@ export default function Home() {
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
             "description": "A complete 8-module SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization (GEO). Free with no credit card required.",
-            "url": "https://learnwith.seymourdigitalmedia.com/",
+            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
             "provider": {
               "@type": "Organization",
               "name": "KnowHow Marketing Lab",

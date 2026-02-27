@@ -74,10 +74,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Free SEO Course', href: '/#free-course', internal: false },
+                { label: 'Free SEO Course', href: '/courses/seo', internal: true },
+                { label: 'Google Ads Mastery', href: '/courses/google-ads', internal: true },
                 { label: 'Video Library', href: '/#videos', internal: false },
-                { label: 'Google Ads Course', href: '/#courses', internal: false },
-                { label: 'AI Marketing Training', href: '/#courses', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
                 { label: 'Free Resources', href: '/resources', internal: true },
                 { label: 'Pricing', href: '/pricing', internal: true },
@@ -113,8 +112,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Join the VIP Community', href: '/#community' },
-                { label: 'Log In to Platform', href: 'https://learnwith.seymourdigitalmedia.com/' },
+                { label: 'Join the VIP Community', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
+                { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },
                 { label: 'Weekly Live Classes', href: '/#community' },
                 { label: 'Community Pricing', href: '/pricing' },
                 { label: 'Meet the Instructors', href: '/about' },

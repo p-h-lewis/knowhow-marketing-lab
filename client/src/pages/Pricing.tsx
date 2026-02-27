@@ -98,7 +98,7 @@ export default function Pricing() {
                 "price": "0",
                 "priceCurrency": "USD",
                 "description": "Free access to the complete data-driven SEO course and 60+ YouTube video lessons.",
-                "url": "https://learnwith.seymourdigitalmedia.com/"
+                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               },
               {
                 "@type": "Offer",
@@ -106,7 +106,7 @@ export default function Pricing() {
                 "price": "29",
                 "priceCurrency": "USD",
                 "description": "Monthly membership with weekly live classes, Google Ads course, AI marketing course, private community, and all session replays.",
-                "url": "https://learnwith.seymourdigitalmedia.com/"
+                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               }
             ]
           })
@@ -196,7 +196,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://learnwith.seymourdigitalmedia.com/"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white transition-all duration-200"
@@ -248,7 +248,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://learnwith.seymourdigitalmedia.com/"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full justify-center pulse-cta"

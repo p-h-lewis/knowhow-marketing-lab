@@ -5,7 +5,13 @@ import { useState } from 'react';
 import { X } from 'lucide-react';
 
 export default function AnnouncementBar() {
-  const [dismissed, setDismissed] = useState(false);
+  const [dismissed, setDismissed] = useState(() => {
+    try { return sessionStorage.getItem('khml-bar-dismissed') === '1'; } catch { return false; }
+  });
+  const handleDismiss = () => {
+    try { sessionStorage.setItem('khml-bar-dismissed', '1'); } catch {}
+    setDismissed(true);
+  };
   if (dismissed) return null;
 
   return (
@@ -20,7 +26,7 @@ export default function AnnouncementBar() {
         <span className="sm:hidden font-bold">Live Q&amp;A every Thursday —</span>
         <span>get your marketing questions answered in real time.</span>
         <a
-          href="https://learnwith.seymourdigitalmedia.com/"
+          href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold underline underline-offset-2 hover:no-underline whitespace-nowrap"
@@ -30,7 +36,7 @@ export default function AnnouncementBar() {
         </a>
       </span>
       <button
-        onClick={() => setDismissed(true)}
+        onClick={handleDismiss}
         className="absolute right-3 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors p-1 rounded"
         aria-label="Dismiss announcement"
       >

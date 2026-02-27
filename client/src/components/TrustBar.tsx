@@ -8,7 +8,7 @@ export default function TrustBar() {
     { name: 'Google Tag Manager', abbr: 'GTM', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help center' },
     { name: 'Google Ads', abbr: 'Ads', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help center' },
     { name: 'ChatGPT / AI', abbr: 'AI', href: 'https://openai.com/chatgpt/', title: 'ChatGPT by OpenAI' },
-    { name: 'GoHighLevel', abbr: 'GHL', href: 'https://learnwith.seymourdigitalmedia.com/', title: 'KnowHow Marketing Lab community on GoHighLevel' },
+    { name: 'GoHighLevel', abbr: 'GHL', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login', title: 'KnowHow Marketing Lab community on GoHighLevel' },
   ];
 
   return (

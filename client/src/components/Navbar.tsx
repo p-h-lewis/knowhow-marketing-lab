@@ -22,14 +22,17 @@ export default function Navbar() {
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
   const navLinks = [
-    { label: 'Free SEO Course', href: anchorHref('#free-course') },
+    { label: 'Free SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
-    { label: 'Courses', href: anchorHref('#courses') },
-    { label: 'Community', href: anchorHref('#community') },
     { label: 'Blog', href: '/blog' },
     { label: 'Resources', href: '/resources' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
+  ];
+
+  const courseLinks = [
+    { label: 'Free SEO Course', href: '/courses/seo', badge: 'Free' },
+    { label: 'Google Ads Mastery', href: '/courses/google-ads', badge: '$29/mo' },
   ];
 
   return (
@@ -90,10 +93,36 @@ export default function Navbar() {
           ))}
         </ul>
 
+        {/* Courses Dropdown */}
+        <div className="hidden lg:block relative group">
+          <button
+            className="text-sm font-medium px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-all duration-150 flex items-center gap-1"
+            style={{ fontFamily: 'DM Sans, sans-serif' }}
+            aria-haspopup="true"
+            aria-label="Courses dropdown"
+          >
+            Courses
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl border border-gray-100 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50 py-1">
+            {courseLinks.map(cl => (
+              <Link
+                key={cl.href}
+                href={cl.href}
+                className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+              >
+                {cl.label}
+                <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="https://learnwith.seymourdigitalmedia.com/"
+            href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150"
@@ -160,6 +189,23 @@ export default function Navbar() {
             )
           ))}
 
+          {/* Course links in mobile */}
+          <div className="border-t border-gray-100 pt-2 mt-1">
+            <p className="text-xs font-bold text-gray-400 uppercase tracking-widest px-3 py-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Courses</p>
+            {courseLinks.map(cl => (
+              <Link
+                key={cl.href}
+                href={cl.href}
+                className="flex items-center justify-between text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                onClick={() => setMobileOpen(false)}
+              >
+                {cl.label}
+                <span className="text-xs font-bold text-[#E98C28]">{cl.badge}</span>
+              </Link>
+            ))}
+          </div>
+
           {/* SeymourDigitalMedia link in mobile */}
           <a
             href="https://seymourdigitalmedia.com/"
@@ -175,7 +221,7 @@ export default function Navbar() {
 
           <div className="pt-3 border-t border-gray-100 mt-2 flex flex-col gap-2">
             <a
-              href="https://learnwith.seymourdigitalmedia.com/"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 text-sm text-center py-2"

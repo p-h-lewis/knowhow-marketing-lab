@@ -83,7 +83,7 @@ export default function CommunitySection() {
                 ))}
               </ul>
               <a
-                href="https://learnwith.seymourdigitalmedia.com/"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full justify-center pulse-cta"

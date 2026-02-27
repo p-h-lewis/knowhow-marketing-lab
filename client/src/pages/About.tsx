@@ -35,7 +35,7 @@ export default function About() {
               "url": "https://knowhowmarketinglab.com",
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
-                "https://learnwith.seymourdigitalmedia.com/",
+                "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
                 "https://seymourdigitalmedia.com/"
               ],
               "founder": [

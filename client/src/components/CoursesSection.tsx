@@ -9,7 +9,7 @@ const courses = [
     tags: ['SEO', 'GSC', 'GA4', 'GTM'],
     level: 'Beginner → Advanced',
     cta: 'Enroll Free →',
-    href: 'https://learnwith.seymourdigitalmedia.com/',
+    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
     free: true,
     color: '#318599',
   },
@@ -20,7 +20,7 @@ const courses = [
     tags: ['Google Ads', 'PPC', 'Ads Editor', 'ROI'],
     level: 'Beginner → Advanced',
     cta: 'Access in Community →',
-    href: 'https://learnwith.seymourdigitalmedia.com/',
+    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
     free: false,
     color: '#E98C28',
   },
@@ -31,7 +31,7 @@ const courses = [
     tags: ['AI', 'ChatGPT', 'Automation', 'Scripts'],
     level: 'Intermediate → Advanced',
     cta: 'Access in Community →',
-    href: 'https://learnwith.seymourdigitalmedia.com/',
+    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
     free: false,
     color: '#4F37D8',
   },
@@ -154,7 +154,7 @@ export default function CoursesSection() {
           </div>
           <div className="flex flex-wrap gap-3 flex-shrink-0">
             <a
-              href="https://learnwith.seymourdigitalmedia.com/"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary whitespace-nowrap"

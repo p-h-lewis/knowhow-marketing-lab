@@ -13,7 +13,7 @@ export default function HeroSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    window.open(`https://learnwith.seymourdigitalmedia.com/`, '_blank');
+    window.open(`https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login`, '_blank');
     setSubmitted(true);
   };
 
