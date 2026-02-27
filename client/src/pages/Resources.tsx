@@ -71,6 +71,18 @@ const resourceCategories = [
         href: 'https://developers.google.com/analytics/devguides/collection/ga4',
         source: 'Google Developers',
       },
+      {
+        name: 'GA4 Dimensions & Metrics Explorer',
+        desc: 'Official reference for every dimension and metric available in GA4 — essential for building custom reports and understanding your data.',
+        href: 'https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema',
+        source: 'Google Developers',
+      },
+      {
+        name: 'Looker Studio Help Center',
+        desc: 'Official help documentation for Looker Studio (formerly Google Data Studio) — connect GA4, Google Ads, and Search Console to build live dashboards.',
+        href: 'https://support.google.com/looker-studio/',
+        source: 'Google Support',
+      },
     ],
   },
   {
@@ -102,6 +114,24 @@ const resourceCategories = [
         desc: 'Free official Google Ads certifications from Google Skillshop. Earn credentials in Search, Display, Video, and Shopping.',
         href: 'https://skillshop.withgoogle.com/',
         source: 'Google Skillshop',
+      },
+      {
+        name: 'Google Ads Keyword Planner',
+        desc: 'Official free keyword research tool inside Google Ads — find search volume, competition data, and bid estimates for any keyword.',
+        href: 'https://ads.google.com/home/tools/keyword-planner/',
+        source: 'Google Ads',
+      },
+      {
+        name: 'Google Ads Performance Planner',
+        desc: 'Official Google Ads forecasting tool — plan your budget, predict campaign performance, and find growth opportunities.',
+        href: 'https://support.google.com/google-ads/answer/9230124',
+        source: 'Google Support',
+      },
+      {
+        name: 'Google Merchant Center Help',
+        desc: 'Official help center for Google Merchant Center — set up product feeds, Shopping campaigns, and free product listings.',
+        href: 'https://support.google.com/merchants/',
+        source: 'Google Support',
       },
     ],
   },
@@ -155,6 +185,94 @@ const resourceCategories = [
         href: 'https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce',
         source: 'Google / Coursera',
       },
+      {
+        name: 'Google Trends',
+        desc: 'Free tool from Google to explore search interest over time — use it to find trending topics, seasonal demand, and content opportunities.',
+        href: 'https://trends.google.com/',
+        source: 'Google',
+      },
+      {
+        name: 'Google Market Finder',
+        desc: 'Official Google tool to identify new markets for your business — shows search demand, competition, and market readiness by country.',
+        href: 'https://marketfinder.thinkwithgoogle.com/',
+        source: 'Think with Google',
+      },
+    ],
+  },
+  {
+    title: 'Google Learning & Certifications',
+    color: '#4F37D8',
+    icon: '🎓',
+    description: 'Free official Google courses, certifications, and training programs. Learn directly from Google at your own pace.',
+    resources: [
+      {
+        name: 'Google Skillshop',
+        desc: 'Google\'s official learning platform — free courses and certifications for Google Ads, Analytics, Tag Manager, and more.',
+        href: 'https://skillshop.withgoogle.com/',
+        source: 'Google Skillshop',
+      },
+      {
+        name: 'Google Analytics Academy',
+        desc: 'Free official Google Analytics courses — from beginner to advanced. Covers GA4, data analysis, and reporting best practices.',
+        href: 'https://analytics.google.com/analytics/academy/',
+        source: 'Google Analytics Academy',
+      },
+      {
+        name: 'Grow with Google',
+        desc: 'Free tools, training, and resources from Google to help businesses grow online — includes workshops, guides, and certification prep.',
+        href: 'https://grow.google/',
+        source: 'Google',
+      },
+      {
+        name: 'Google Digital Garage',
+        desc: 'Free online courses from Google on digital marketing, data and tech, and career development. Includes a free Fundamentals of Digital Marketing certificate.',
+        href: 'https://learndigital.withgoogle.com/digitalgarage',
+        source: 'Google Digital Garage',
+      },
+      {
+        name: 'Google Search Central YouTube Channel',
+        desc: 'Official YouTube channel from Google\'s Search Relations team — SEO tips, algorithm updates, and best practices direct from Google.',
+        href: 'https://www.youtube.com/@GoogleSearchCentral',
+        source: 'Google Search Central',
+      },
+      {
+        name: 'Google Ads YouTube Channel',
+        desc: 'Official Google Ads YouTube channel — tutorials, campaign walkthroughs, and product updates direct from the Google Ads team.',
+        href: 'https://www.youtube.com/@GoogleAds',
+        source: 'Google Ads',
+      },
+    ],
+  },
+  {
+    title: 'AI & Generative Search',
+    color: '#318599',
+    icon: '🤖',
+    description: 'Official resources for understanding how AI is changing search, content discovery, and digital marketing.',
+    resources: [
+      {
+        name: 'Google Search Generative Experience (SGE) Overview',
+        desc: 'Official Google documentation on how AI Overviews work in Google Search — how content gets cited and what signals matter.',
+        href: 'https://support.google.com/websearch/answer/14901683',
+        source: 'Google Support',
+      },
+      {
+        name: 'Google Search Quality Rater Guidelines',
+        desc: 'The official 170-page document Google uses to evaluate search quality — the foundation of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).',
+        href: 'https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf',
+        source: 'Google',
+      },
+      {
+        name: 'Google\'s Helpful Content Guidance',
+        desc: 'Official Google guidance on creating helpful, people-first content that ranks well in both traditional and AI-powered search.',
+        href: 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content',
+        source: 'Google Search Central',
+      },
+      {
+        name: 'Google NotebookLM',
+        desc: 'Google\'s AI-powered research and note-taking tool — useful for summarising long documents, research papers, and marketing reports.',
+        href: 'https://notebooklm.google.com/',
+        source: 'Google',
+      },
     ],
   },
 ];
@@ -162,7 +280,7 @@ const resourceCategories = [
 export default function Resources() {
   useSEO({
     title: "Free Marketing Resources — Google Tools, Guides & Official Docs | KnowHow Marketing Lab",
-    description: "Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, and Tag Manager documentation. Curated by KnowHow Marketing Lab for medium-sized businesses.",
+    description: "Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, Tag Manager, Google Analytics Academy, Grow with Google, and AI search documentation. 30+ curated resources from official Google sources, hand-picked by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/resources",
     ogType: "website",
   });
@@ -173,20 +291,38 @@ export default function Resources() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Free Digital Marketing Resources — KnowHow Marketing Lab",
-            "description": "Curated authoritative resources for SEO, Google Ads, GA4, and Google Tag Manager — all from official Google documentation. No tools that compete with what we teach.",
-            "url": "https://knowhowmarketinglab.com/resources",
-            "breadcrumb": {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/" },
-                { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://knowhowmarketinglab.com/resources" }
-              ]
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Free Digital Marketing Resources — KnowHow Marketing Lab",
+              "description": "Curated authoritative resources for SEO, Google Ads, GA4, Google Tag Manager, and AI search — all from official Google documentation. Includes Google Analytics Academy, Grow with Google, Google Digital Garage, Google Skillshop, and more.",
+              "url": "https://knowhowmarketinglab.com/resources",
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/" },
+                  { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://knowhowmarketinglab.com/resources" }
+                ]
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": "Official Google Marketing Resources",
+              "description": "Curated list of official Google documentation and learning resources for digital marketers.",
+              "numberOfItems": resourceCategories.reduce((sum, cat) => sum + cat.resources.length, 0),
+              "itemListElement": resourceCategories.flatMap((cat, catIdx) =>
+                cat.resources.map((res, resIdx) => ({
+                  "@type": "ListItem",
+                  "position": catIdx * 10 + resIdx + 1,
+                  "name": res.name,
+                  "url": res.href,
+                  "description": res.desc
+                }))
+              )
             }
-          })
+          ])
         }}
       />
 

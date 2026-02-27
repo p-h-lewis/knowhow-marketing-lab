@@ -9,6 +9,7 @@ import { Link, useLocation } from 'wouter';
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [coursesOpen, setCoursesOpen] = useState(false);
   const [location] = useLocation();
   const isHome = location === '/';
 
@@ -100,12 +101,21 @@ export default function Navbar() {
             className="text-sm font-medium px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-all duration-150 flex items-center gap-1"
             style={{ fontFamily: 'DM Sans, sans-serif' }}
             aria-haspopup="true"
-            aria-label="Courses dropdown"
+            aria-expanded={coursesOpen}
+            aria-controls="courses-dropdown"
+            aria-label="Courses — expand menu"
+            onClick={() => setCoursesOpen(o => !o)}
+            onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCoursesOpen(false); }}
           >
             Courses
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
           </button>
-          <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl border border-gray-100 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50 py-1">
+          <div
+            id="courses-dropdown"
+            className={`absolute top-full left-0 mt-1 w-56 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
+              coursesOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
+            }`}
+          >
             {courseLinks.map(cl => (
               <Link
                 key={cl.href}

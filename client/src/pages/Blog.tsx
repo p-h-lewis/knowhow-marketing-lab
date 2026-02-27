@@ -439,7 +439,7 @@ export default function Blog() {
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-6">
                       Connect GA4 to Search Console for the most powerful combination. You will be able to see which organic search queries lead to the most conversions — not just the most traffic. This is the difference between vanity metrics and real business results. Our{' '}
-                      <a href="/blog/ga4-setup-guide" className="text-[#318599] hover:underline">GA4 setup guide</a>{' '}
+                      <a href="https://knowhowmarketinglab.com/ga4-setup-guide/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">GA4 setup guide</a>{' '}
                       walks you through the full configuration step by step.
                     </p>
 
@@ -463,7 +463,7 @@ export default function Blog() {
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-6">
                       The most overlooked on-page factor is <strong>internal linking</strong>. Every page on your website should link to at least 2 or 3 other relevant pages. This helps Google understand the structure of your site and passes authority between pages. It also keeps visitors on your site longer. For more on this, see our guide on{' '}
-                      <a href="/blog/url-redirects-seo-guide" className="text-[#318599] hover:underline">URL redirects and SEO</a>.
+                      <a href="https://knowhowmarketinglab.com/url-redirects-seo-guide/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">URL redirects and SEO</a>.
                     </p>
 
                     <h2 id="geo-ai-overviews" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -474,7 +474,7 @@ export default function Blog() {
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Comprehensive coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}
-                      <a href="/blog/complete-guide-ai-seo" className="text-[#318599] hover:underline">Complete Guide to AI SEO</a>.
+                      <a href="https://knowhowmarketinglab.com/complete-guide-ai-seo/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Complete Guide to AI SEO</a>.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-8">
                       The KnowHow Marketing Lab free SEO course covers all five steps of the Data-First SEO Method in detail, with hands-on exercises and real examples.{' '}

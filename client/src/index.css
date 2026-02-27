@@ -312,4 +312,25 @@
   .skip-to-content:focus {
     left: 0;
   }
+
+  /* ── Keyboard focus-visible (WCAG 2.4.7) ── */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 3px solid #E98C28;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* ── Reduced motion (WCAG 2.3.3) ── */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
 }

@@ -2,7 +2,7 @@
 // Full YouTube video library with category filters and modal player
 // Structured for LLM/AI indexing with semantic HTML and schema markup
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { videos, categoryLabels, getYouTubeThumbnail, getYouTubeEmbedUrl, type VideoCategory } from '@/lib/videos';
 
 const CATEGORIES: Array<{ key: VideoCategory | 'all'; label: string }> = [
@@ -40,6 +40,14 @@ export default function VideoLibrary() {
     setActiveTitle('');
     document.body.style.overflow = '';
   }, []);
+
+  // Close modal on Escape key (WCAG 2.1.2 — No Keyboard Trap)
+  useEffect(() => {
+    if (!activeVideo) return;
+    const handleKey = (e: KeyboardEvent) => { if (e.key === 'Escape') closeVideo(); };
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [activeVideo, closeVideo]);
 
   const tagClass = (cat: VideoCategory) => {
     const map: Record<VideoCategory, string> = {
