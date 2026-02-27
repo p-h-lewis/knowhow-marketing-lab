@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useState } from 'react';
+import { useSEO } from "@/hooks/useSEO";
 
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
@@ -33,6 +34,13 @@ const faqs = [
 ];
 
 export default function CourseGoogleAds() {
+  useSEO({
+    title: "Google Ads Course — Learn Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
+    description: "Learn Google Ads from scratch. Covers Search, Display, Shopping, and Performance Max campaigns. Data-driven approach using GA4 and Google Keyword Planner. By Pip Seymour and Phelan Lewis.",
+    canonical: "https://knowhowmarketinglab.com/courses/google-ads",
+    ogType: "course",
+  });
+
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (

@@ -6,8 +6,16 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
+import { useSEO } from "@/hooks/useSEO";
 
 export default function Terms() {
+  useSEO({
+    title: "Terms of Service | KnowHow Marketing Lab",
+    description: "KnowHow Marketing Lab terms of service. Read our terms for using our free courses, community membership, and website content.",
+    canonical: "https://knowhowmarketinglab.com/terms",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <script

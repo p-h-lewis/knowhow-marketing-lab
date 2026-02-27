@@ -78,6 +78,7 @@ export default function Footer() {
                 { label: 'Google Ads Mastery', href: '/courses/google-ads', internal: true },
                 { label: 'Video Library', href: '/#videos', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
+                { label: 'Our Framework', href: '/framework', internal: true },
                 { label: 'Free Resources', href: '/resources', internal: true },
                 { label: 'Pricing', href: '/pricing', internal: true },
                 { label: 'About Us', href: '/about', internal: true },

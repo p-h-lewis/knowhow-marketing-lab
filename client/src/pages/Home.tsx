@@ -16,8 +16,16 @@ import AboutSection from '@/components/AboutSection';
 import LeadCaptureSection from '@/components/LeadCaptureSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
+import { useSEO } from "@/hooks/useSEO";
 
 export default function Home() {
+  useSEO({
+    title: "KnowHow Marketing Lab — Free SEO, Google Ads & AI Marketing Training",
+    description: "Master SEO, Google Ads, GA4, and AI marketing with free expert-led courses. 60+ free video lessons, weekly live Q&A, and a data-driven community. Learn from 20+ year agency veterans.",
+    canonical: "https://knowhowmarketinglab.com/",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen bg-white">
 

@@ -7,8 +7,16 @@
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
+import { useSEO } from "@/hooks/useSEO";
 
 export default function About() {
+  useSEO({
+    title: "About KnowHow Marketing Lab — Pip Seymour & Phelan Lewis | Seymour Digital Media",
+    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis of Seymour Digital Media. 20+ years of digital marketing experience, helping medium-sized businesses grow with data-driven SEO and Google Ads.",
+    canonical: "https://knowhowmarketinglab.com/about",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen bg-white">
       {/* Structured data */}

@@ -25,6 +25,7 @@ export default function Navbar() {
     { label: 'Free SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
+    { label: 'Framework', href: '/framework' },
     { label: 'Resources', href: '/resources' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },

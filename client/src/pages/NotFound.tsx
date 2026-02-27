@@ -2,8 +2,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle, Home } from "lucide-react";
 import { useLocation } from "wouter";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function NotFound() {
+  useSEO({
+    title: "Page Not Found — KnowHow Marketing Lab",
+    description: "The page you are looking for could not be found. Browse our free SEO course, video library, blog, or community.",
+    canonical: "https://knowhowmarketinglab.com/404",
+    ogType: "website",
+  });
+
   const [, setLocation] = useLocation();
 
   const handleGoHome = () => {

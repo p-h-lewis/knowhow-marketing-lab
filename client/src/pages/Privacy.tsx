@@ -6,8 +6,16 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
+import { useSEO } from "@/hooks/useSEO";
 
 export default function Privacy() {
+  useSEO({
+    title: "Privacy Policy | KnowHow Marketing Lab",
+    description: "KnowHow Marketing Lab privacy policy. Learn how we collect, use, and protect your personal information in compliance with CASL and GDPR.",
+    canonical: "https://knowhowmarketinglab.com/privacy",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <script

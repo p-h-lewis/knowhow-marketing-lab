@@ -12,6 +12,7 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
 import { Link } from 'wouter';
+import { useSEO } from "@/hooks/useSEO";
 
 const categories = ['All', 'SEO', 'Google Ads', 'AI Marketing', 'Analytics'];
 
@@ -198,6 +199,13 @@ const pillarFaqs = [
 ];
 
 export default function Blog() {
+  useSEO({
+    title: "Digital Marketing Blog — Free SEO, Google Ads & GA4 Guides | KnowHow Marketing Lab",
+    description: "Free digital marketing guides covering SEO, Google Ads, GA4, and AI marketing. Written for medium-sized businesses by Pip Seymour and Phelan Lewis of Seymour Digital Media.",
+    canonical: "https://knowhowmarketinglab.com/blog",
+    ogType: "website",
+  });
+
   const [activeCategory, setActiveCategory] = useState('All');
   const [pillarExpanded, setPillarExpanded] = useState(false);
 

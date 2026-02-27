@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useState } from 'react';
+import { useSEO } from "@/hooks/useSEO";
 
 const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login';
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
@@ -34,6 +35,13 @@ const faqs = [
 ];
 
 export default function CourseSEO() {
+  useSEO({
+    title: "Free SEO Course — Learn Data-Driven SEO with Google Tools | KnowHow Marketing Lab",
+    description: "Free SEO course covering keyword research, Google Search Console, GA4, and content strategy. 8 modules, 60+ video lessons, no credit card required. By Pip Seymour and Phelan Lewis.",
+    canonical: "https://knowhowmarketinglab.com/courses/seo",
+    ogType: "course",
+  });
+
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (

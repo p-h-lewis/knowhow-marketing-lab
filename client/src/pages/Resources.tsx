@@ -6,6 +6,7 @@
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
+import { useSEO } from "@/hooks/useSEO";
 
 const resourceCategories = [
   {
@@ -159,6 +160,13 @@ const resourceCategories = [
 ];
 
 export default function Resources() {
+  useSEO({
+    title: "Free Marketing Resources — Google Tools, Guides & Official Docs | KnowHow Marketing Lab",
+    description: "Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, and Tag Manager documentation. Curated by KnowHow Marketing Lab for medium-sized businesses.",
+    canonical: "https://knowhowmarketinglab.com/resources",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen bg-white">
       {/* Structured data */}

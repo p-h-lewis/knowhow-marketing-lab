@@ -40,7 +40,7 @@ export default function HeroSection() {
             {/* H1 — clear, direct, grade 6 */}
             <h1
               id="hero-heading"
-              className="text-4xl md:text-5xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-5"
+              className="text-4xl md:text-5xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-5 speakable"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >

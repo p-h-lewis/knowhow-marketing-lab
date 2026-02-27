@@ -7,6 +7,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
+import { useSEO } from "@/hooks/useSEO";
 
 const freeFeatures = [
   { label: 'Complete SEO Course (8 modules)', included: true },
@@ -72,6 +73,13 @@ const pricingFaqs = [
 ];
 
 export default function Pricing() {
+  useSEO({
+    title: "Pricing — Free SEO Course & VIP Community | KnowHow Marketing Lab",
+    description: "Start free with our SEO course, or join the KnowHow Marketing Lab community for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
+    canonical: "https://knowhowmarketinglab.com/pricing",
+    ogType: "website",
+  });
+
   return (
     <div className="min-h-screen bg-white">
       {/* Structured data */}
