@@ -35,10 +35,45 @@
     <meta name="twitter:image" content="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" />
     <meta name="twitter:image:alt" content="KnowHow Marketing Lab — SEO, Google Ads, and AI Marketing Training" />
 
-    <!-- Fonts -->
+    <!-- Performance: DNS prefetch & preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://files.manuscdn.com" crossorigin />
+    <link rel="preconnect" href="https://img.youtube.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.youtube.com" />
+    <link rel="dns-prefetch" href="https://learnwith.seymourdigitalmedia.com" />
+    <!-- Preload hero image for LCP -->
+    <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" />
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+    <!-- Reduced motion for accessibility -->
+    <style>@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }</style>
+
+    <!-- WebSite Schema with SearchAction — enables Google Sitelinks Searchbox & LLM entity recognition -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "KnowHow Marketing Lab",
+      "alternateName": "KHML",
+      "url": "https://knowhowmarketinglab.com",
+      "description": "Free digital marketing education for medium-sized businesses. Free SEO course, Google Ads training, GA4 tutorials, and a $29/month VIP community with weekly live Q&A.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Seymour Digital Media",
+        "url": "https://seymourdigitalmedia.com/"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://knowhowmarketinglab.com/blog?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 
     <!-- Organization Schema — LLM/AI Overview optimization -->
     <script type="application/ld+json">

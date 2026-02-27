@@ -5,6 +5,7 @@
 // External links: → seymourdigitalmedia.com, youtube.com/@knowhowmarketinglab, skillshop.withgoogle.com
 
 import Navbar from '@/components/Navbar';
+import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 
 export default function About() {
@@ -58,6 +59,7 @@ export default function About() {
         }}
       />
 
+      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

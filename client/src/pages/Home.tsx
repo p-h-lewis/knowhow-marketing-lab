@@ -5,6 +5,7 @@
 // External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
 
 import Navbar from '@/components/Navbar';
+import AnnouncementBar from '@/components/AnnouncementBar';
 import HeroSection from '@/components/HeroSection';
 import TrustBar from '@/components/TrustBar';
 import FreeCourseSection from '@/components/FreeCourseSection';
@@ -131,6 +132,7 @@ export default function Home() {
         }}
       />
 
+      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
         <HeroSection />

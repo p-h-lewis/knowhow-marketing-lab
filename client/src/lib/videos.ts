@@ -38,7 +38,7 @@ export const videos: Video[] = [
   { id: extractId('https://www.youtube.com/watch?v=LOoTk2DxkrY'), title: 'SEO | On-Page SEO', url: 'https://www.youtube.com/watch?v=LOoTk2DxkrY', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=iBoxAbsEHOA'), title: 'On Site | On-Page SEO', url: 'https://www.youtube.com/watch?v=iBoxAbsEHOA', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=D7eS37odJps'), title: 'Website Structure | On-Page SEO', url: 'https://www.youtube.com/watch?v=D7eS37odJps', category: 'seo' },
-  { id: extractId('https://www.youtube.com/watch?v=XM_FD8FfbXI'), title: 'SEO Copy That Converts (Module 1 Class 5)', url: 'https://www.youtube.com/watch?v=XM_FD8FfbXI', category: 'seo' },
+  { id: extractId('https://www.youtube.com/watch?v=XM_FD8FfbXI'), title: 'SEO Copy That Converts (Module 1 Class 5)', url: 'https://www.youtube.com/watch?v=XM_FD8FfbXI', category: 'ai' },
   { id: extractId('https://www.youtube.com/watch?v=Z2Ci1UPFcKg'), title: 'Home Page | On-Page SEO', url: 'https://www.youtube.com/watch?v=Z2Ci1UPFcKg', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=Brvt0HSKH5s'), title: 'Contact Page SEO Best Practices – Convert More Visitors (Module 2 Class 5)', url: 'https://www.youtube.com/watch?v=Brvt0HSKH5s', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=pFrTNSUDIuU'), title: 'Headings | On-Page SEO', url: 'https://www.youtube.com/watch?v=pFrTNSUDIuU', category: 'seo' },
@@ -60,8 +60,8 @@ export const videos: Video[] = [
   { id: extractId('https://www.youtube.com/watch?v=99SzV4U8z78'), title: 'What Is Tag Manager | Tag Manager', url: 'https://www.youtube.com/watch?v=99SzV4U8z78', category: 'analytics' },
   { id: extractId('https://www.youtube.com/watch?v=Z5I4Oltwp5w'), title: 'Dashboard | Tag Manager', url: 'https://www.youtube.com/watch?v=Z5I4Oltwp5w', category: 'analytics' },
   { id: extractId('https://www.youtube.com/watch?v=aeRYCTWk96A'), title: 'Q&A | Tag Manager', url: 'https://www.youtube.com/watch?v=aeRYCTWk96A', category: 'analytics' },
-  { id: extractId('https://www.youtube.com/watch?v=J3iiuRnF4j8'), title: 'Live Class | Measure Set Up | Reporting | Data Studio', url: 'https://www.youtube.com/watch?v=J3iiuRnF4j8', category: 'analytics' },
-  { id: extractId('https://www.youtube.com/watch?v=cVA6BA_v4I4'), title: 'Q&A | Measure Set Up | Reporting | Data Studio', url: 'https://www.youtube.com/watch?v=cVA6BA_v4I4', category: 'analytics' },
+  { id: extractId('https://www.youtube.com/watch?v=J3iiuRnF4j8'), title: 'Live Class | Measure Set Up | Reporting | Data Studio', url: 'https://www.youtube.com/watch?v=J3iiuRnF4j8', category: 'ai' },
+  { id: extractId('https://www.youtube.com/watch?v=cVA6BA_v4I4'), title: 'Q&A | Measure Set Up | Reporting | Data Studio', url: 'https://www.youtube.com/watch?v=cVA6BA_v4I4', category: 'ai' },
 
   // Live Classes
   { id: extractId('https://www.youtube.com/watch?v=Rn6uiLO5QbI'), title: 'Live Class | Activation & Set Up', url: 'https://www.youtube.com/watch?v=Rn6uiLO5QbI', category: 'live' },
@@ -75,14 +75,14 @@ export const videos: Video[] = [
   { id: extractId('https://www.youtube.com/watch?v=7R_js1SZsIw'), title: 'Q&A | On-Page & Technical SEO Audit', url: 'https://www.youtube.com/watch?v=7R_js1SZsIw', category: 'live' },
   { id: extractId('https://www.youtube.com/watch?v=n6Lg9FaA6MM'), title: 'Live Class | On-Page & Technical SEO Audit (Part 2)', url: 'https://www.youtube.com/watch?v=n6Lg9FaA6MM', category: 'live' },
   { id: extractId('https://www.youtube.com/watch?v=KVCSJD0dmrU'), title: 'Q&A | On-Page & Technical SEO Audit (Part 2)', url: 'https://www.youtube.com/watch?v=KVCSJD0dmrU', category: 'live' },
-  { id: extractId('https://www.youtube.com/watch?v=W4Me-FLwBz8'), title: 'Q&A | Content Audit', url: 'https://www.youtube.com/watch?v=W4Me-FLwBz8', category: 'live' },
-  { id: extractId('https://www.youtube.com/watch?v=6LhVDA-uCOs'), title: 'Live Class | SEO Audit & Strategy Summary', url: 'https://www.youtube.com/watch?v=6LhVDA-uCOs', category: 'live' },
-  { id: extractId('https://www.youtube.com/watch?v=mCbZlEDOX_s'), title: 'Q&A Part 2 | SEO Audit & Strategy Summary', url: 'https://www.youtube.com/watch?v=mCbZlEDOX_s', category: 'live' },
+  { id: extractId('https://www.youtube.com/watch?v=W4Me-FLwBz8'), title: 'Q&A | Content Audit', url: 'https://www.youtube.com/watch?v=W4Me-FLwBz8', category: 'ai' },
+  { id: extractId('https://www.youtube.com/watch?v=6LhVDA-uCOs'), title: 'Live Class | SEO Audit & Strategy Summary', url: 'https://www.youtube.com/watch?v=6LhVDA-uCOs', category: 'ai' },
+  { id: extractId('https://www.youtube.com/watch?v=mCbZlEDOX_s'), title: 'Q&A Part 2 | SEO Audit & Strategy Summary', url: 'https://www.youtube.com/watch?v=mCbZlEDOX_s', category: 'ai' },
   { id: extractId('https://www.youtube.com/watch?v=QP1LCdRWfpo'), title: 'Coworking Space | Audit & Strategy Summary', url: 'https://www.youtube.com/watch?v=QP1LCdRWfpo', category: 'live' },
   { id: extractId('https://www.youtube.com/watch?v=eXeWobtz-NM'), title: 'Coworking Space | Keyword Planner', url: 'https://www.youtube.com/watch?v=eXeWobtz-NM', category: 'live' },
 
   // Google Business Profile
-  { id: extractId('https://www.youtube.com/watch?v=Gzh0UcU_C8A'), title: 'Knowledge Panel | Google Business Profile', url: 'https://www.youtube.com/watch?v=Gzh0UcU_C8A', category: 'seo' },
+  { id: extractId('https://www.youtube.com/watch?v=Gzh0UcU_C8A'), title: 'Knowledge Panel | Google Business Profile', url: 'https://www.youtube.com/watch?v=Gzh0UcU_C8A', category: 'ai' },
   { id: extractId('https://www.youtube.com/watch?v=sJF-eAr4MF8'), title: 'Google Business Profile | Complete Overview', url: 'https://www.youtube.com/watch?v=sJF-eAr4MF8', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=pUCgKDoUCBg'), title: 'Where Do We Find GBP | Google Business Profile', url: 'https://www.youtube.com/watch?v=pUCgKDoUCBg', category: 'seo' },
   { id: extractId('https://www.youtube.com/watch?v=c3UVqWi0L5U'), title: 'Communication | Google Business Profile', url: 'https://www.youtube.com/watch?v=c3UVqWi0L5U', category: 'seo' },

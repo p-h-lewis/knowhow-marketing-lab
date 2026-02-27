@@ -6,6 +6,7 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AnnouncementBar from '@/components/AnnouncementBar';
 
 const freeFeatures = [
   { label: 'Complete SEO Course (8 modules)', included: true },
@@ -126,11 +127,12 @@ export default function Pricing() {
         }}
       />
 
+      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-24 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
+        <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Simple, Transparent Pricing

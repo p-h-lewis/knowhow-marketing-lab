@@ -208,6 +208,8 @@ export default function Footer() {
             <Link href="/about" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>About</Link>
             <Link href="/pricing" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Pricing</Link>
             <Link href="/resources" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Resources</Link>
+            <Link href="/privacy" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Privacy</Link>
+            <Link href="/terms" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Terms</Link>
           </div>
         </div>
       </div>
