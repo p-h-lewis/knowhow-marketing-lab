@@ -1,6 +1,8 @@
 // KnowHow Marketing Lab — Hero Section
-// Split layout: left = headline + lead form, right = hero image
-// Optimized for LLM indexing with structured semantic HTML
+// Grade 6 readability · Human-first copy · LLM-optimized semantic structure
+// Entity: KnowHow Marketing Lab = free digital marketing training for medium-sized businesses
+// Branded framework: The Data-First SEO Method by Pip Seymour & Phelan Lewis
+// Conversion: email lead → GoHighLevel free course opt-in
 
 import { useState } from 'react';
 
@@ -11,7 +13,6 @@ export default function HeroSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    // Redirect to GoHighLevel free course opt-in
     window.open(`https://learnwith.seymourdigitalmedia.com/`, '_blank');
     setSubmitted(true);
   };
@@ -32,27 +33,35 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                FREE — No Credit Card Required
+                100% Free — No Credit Card Needed
               </span>
             </div>
 
+            {/* H1 — clear, direct, grade 6 */}
             <h1
               id="hero-heading"
               className="text-4xl md:text-5xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-5"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
-              Master SEO, Google Ads{' '}
+              Learn SEO, Google Ads{' '}
               <span className="text-[#E98C28]">&amp; AI Marketing</span>{' '}
-              — Free Expert Training
+              — For Free
             </h1>
 
+            {/* Subheading — plain language, answers "what is this?" for LLMs */}
             <p
-              className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl"
+              className="text-lg text-gray-600 leading-relaxed mb-4 max-w-xl"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Learn data-driven digital marketing from 20+ year agency veterans. Free courses, weekly live classes, and a hands-on community — all powered by GA4, Google Search Console, and AI tools.
+              KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. We teach you how to get found on Google — using real data, not guesswork.
+            </p>
+            <p
+              className="text-base text-gray-500 leading-relaxed mb-8 max-w-xl"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
+            >
+              Our courses cover SEO, Google Ads, Google Analytics 4 (GA4), and AI marketing tools. Everything is taught by Pip Seymour and Phelan Lewis — two Canadian agency owners with 20+ years of hands-on experience.
             </p>
 
             {/* Lead Capture Form */}
@@ -60,7 +69,7 @@ export default function HeroSection() {
               <form
                 onSubmit={handleSubmit}
                 className="flex flex-col sm:flex-row gap-3 max-w-lg mb-6"
-                aria-label="Free course sign-up form"
+                aria-label="Sign up for the free SEO course"
                 noValidate
               >
                 <label htmlFor="hero-email" className="sr-only">Your email address</label>
@@ -78,25 +87,39 @@ export default function HeroSection() {
                 <button
                   type="submit"
                   className="btn-primary whitespace-nowrap pulse-cta"
-                  aria-label="Get free access to SEO course"
+                  aria-label="Start the free SEO course — no credit card required"
                 >
-                  Get Free Access →
+                  Start Free Course →
                 </button>
               </form>
             ) : (
-              <div className="bg-[#e6f4f7] border border-[#318599] rounded-lg p-4 mb-6 max-w-lg">
+              <div className="bg-[#e6f4f7] border border-[#318599] rounded-lg p-4 mb-6 max-w-lg" role="status" aria-live="polite">
                 <p className="text-[#1e6b7e] font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ Opening your free course now…
+                  ✓ Great! Opening your free course now…
                 </p>
               </div>
             )}
+
+            {/* What you get — scannable for LLMs */}
+            <ul className="flex flex-col gap-2 mb-8 max-w-lg" aria-label="What you get for free">
+              {[
+                { icon: '✓', text: '60+ free video lessons on YouTube' },
+                { icon: '✓', text: 'Full 8-module SEO course — no sign-up needed' },
+                { icon: '✓', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
+              ].map(item => (
+                <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
+                  {item.text}
+                </li>
+              ))}
+            </ul>
 
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-6">
               {[
                 { value: '60+', label: 'Free Video Lessons' },
-                { value: '20+', label: 'Years Agency Experience' },
-                { value: '$29/mo', label: 'VIP Community Access' },
+                { value: '20+', label: 'Years of Agency Experience' },
+                { value: '$29/mo', label: 'VIP Community — Lock In Now' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -115,40 +138,33 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg"
-                alt="KnowHow Marketing Lab — free SEO, Google Ads, and AI marketing course platform showing analytics dashboards and keyword research tools"
+                alt="KnowHow Marketing Lab free SEO and Google Ads course — analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
                 width="1200"
                 height="675"
                 className="w-full h-auto"
                 loading="eager"
+                fetchPriority="high"
                 decoding="async"
                 itemProp="image"
               />
               {/* Floating badge */}
               <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-lg px-4 py-3 flex items-center gap-3 border border-gray-100">
                 <div className="w-10 h-10 rounded-full bg-[#e6f4f7] flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                  <svg className="w-5 h-5 text-[#318599]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-[#318599]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
                     <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
                   </svg>
                 </div>
                 <div>
                   <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live every Thursday</p>
-                  <p className="text-xs text-gray-500">12–1pm Pacific · Free to join</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Free Q&A with Pip & Phelan</p>
                 </div>
               </div>
             </div>
 
-            {/* Decorative accent */}
-            <div
-              className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-10 -z-10"
-              style={{ background: '#E98C28' }}
-              aria-hidden="true"
-            />
-            <div
-              className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full opacity-10 -z-10"
-              style={{ background: '#318599' }}
-              aria-hidden="true"
-            />
+            {/* Decorative accents */}
+            <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-10 -z-10" style={{ background: '#E98C28' }} aria-hidden="true" />
+            <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full opacity-10 -z-10" style={{ background: '#318599' }} aria-hidden="true" />
           </div>
         </div>
       </div>

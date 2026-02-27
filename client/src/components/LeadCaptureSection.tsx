@@ -1,36 +1,38 @@
 // KnowHow Marketing Lab — Lead Capture + FAQ Section
-// Structured for LLM/AI indexing with FAQ schema markup
+// Grade 6 readability · Human-first · LLM-optimized FAQ schema
+// FAQ answers written as complete, citable sentences for AI Overviews
+// Internal links: /pricing, /resources, /about, /blog
 
 import { useState } from 'react';
 
 const faqs = [
   {
     q: 'What is KnowHow Marketing Lab?',
-    a: 'KnowHow Marketing Lab is a free digital marketing education platform created by agency veterans Pip Seymour and Phelan Lewis. We offer free SEO courses, 60+ YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
+    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis — two Canadian digital marketing agency owners with over 20 years of experience. The platform offers free SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
   },
   {
     q: 'Is the SEO course really free?',
-    a: 'Yes — completely free. No credit card required. You get access to our full beginner-to-advanced SEO course including video lessons on keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile.',
+    a: 'Yes — the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 8 course modules, including lessons on keyword research, on-page SEO, Google Search Console, Google Analytics 4, and Google Business Profile.',
   },
   {
     q: 'What is the VIP Community?',
-    a: 'The VIP Community is our paid membership ($29/month) hosted on GoHighLevel. Members get weekly live classes every Thursday 12–1pm Pacific, homework assignments, fillable PDF worksheets, advanced courses on Google Ads and AI, and access to a private community group.',
+    a: 'The KnowHow Marketing Lab VIP Community is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
   },
   {
     q: 'Who is this training for?',
-    a: 'Our training is designed for medium-sized businesses, marketing managers, and agency professionals who want to master data-driven SEO, Google Ads, and AI marketing. We cover beginner through advanced topics.',
+    a: 'KnowHow Marketing Lab is designed for medium-sized businesses, marketing managers, and business owners who want to understand and control their own digital marketing. The training covers beginner through advanced topics, so you do not need any prior experience to get started.',
   },
   {
-    q: 'What tools will I learn?',
-    a: 'You will learn Google Analytics 4 (GA4), Google Search Console (GSC), Google Tag Manager (GTM), Google Ads and Google Ads Editor, ChatGPT and AI agents, and GoHighLevel for marketing automation.',
+    q: 'What tools will I learn to use?',
+    a: 'You will learn how to use Google Analytics 4 (GA4), Google Search Console, Google Tag Manager, Google Ads and Google Ads Editor, ChatGPT and AI agents for marketing, and GoHighLevel for marketing automation. All of these tools are free or have free versions.',
   },
   {
-    q: 'How is this different from other marketing courses?',
-    a: 'We focus exclusively on data-driven methods — using real analytics tools like GA4 and GSC to make decisions. We do not teach link building. Instead, we focus on content building, Generative Engine Optimization (GEO), and AI-powered strategies that work in 2025.',
+    q: 'How is KnowHow Marketing Lab different from other marketing courses?',
+    a: 'KnowHow Marketing Lab focuses on data-driven methods — using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimization (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
   },
   {
     q: 'What is Generative Engine Optimization (GEO)?',
-    a: 'Generative Engine Optimization (GEO) is the practice of optimizing your content to be cited and referenced by AI systems like ChatGPT, Google AI Overviews, and other large language models. It is a core part of our SEO curriculum.',
+    a: 'Generative Engine Optimization (GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions — the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 
@@ -56,7 +58,10 @@ export default function LeadCaptureSection() {
       >
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
-            <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <span
+              className="text-xs font-bold text-[#E98C28] uppercase tracking-widest"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            >
               Free Access · No Credit Card
             </span>
             <h2
@@ -64,17 +69,26 @@ export default function LeadCaptureSection() {
               className="text-3xl md:text-4xl font-extrabold text-white mt-3 mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Start Learning SEO &amp; Google Ads for Free Today
+              Ready to Learn? Start for Free Today.
             </h2>
-            <p className="text-gray-300 text-lg mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Join thousands of marketers learning data-driven digital marketing from real agency experts.
+            <p
+              className="text-gray-300 text-lg mb-3"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
+            >
+              Get instant access to the free SEO course — 8 modules, no credit card, no catch.
+            </p>
+            <p
+              className="text-gray-400 text-sm mb-8"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
+            >
+              Or join the VIP Community for weekly live Q&A, monthly training, and the full Google Ads course — all for $29/month.
             </p>
 
             {!submitted ? (
               <form
                 onSubmit={handleSubmit}
                 className="flex flex-col gap-3 max-w-md mx-auto"
-                aria-label="Free course registration form"
+                aria-label="Free course sign-up form"
                 noValidate
               >
                 <label htmlFor="lead-name" className="sr-only">Your first name</label>
@@ -102,20 +116,26 @@ export default function LeadCaptureSection() {
                 <button
                   type="submit"
                   className="btn-primary justify-center text-base py-4 pulse-cta"
-                  aria-label="Get free access to KnowHow Marketing Lab courses"
+                  aria-label="Start the free KnowHow Marketing Lab SEO course"
                 >
-                  Get Free Access Now →
+                  Start Free Course Now →
                 </button>
                 <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  We respect your privacy. Unsubscribe anytime.
+                  We respect your privacy. No spam. Unsubscribe anytime.
                 </p>
               </form>
             ) : (
-              <div className="bg-[#318599]/20 border border-[#318599] rounded-xl p-6 max-w-md mx-auto">
+              <div
+                className="bg-[#318599]/20 border border-[#318599] rounded-xl p-6 max-w-md mx-auto"
+                role="status"
+                aria-live="polite"
+              >
                 <p className="text-white font-bold text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ Welcome to KnowHow Marketing Lab!
+                  ✓ You are in! Welcome to KnowHow Marketing Lab.
                 </p>
-                <p className="text-gray-300 text-sm mt-2">Your free course is opening now. Check your email for access details.</p>
+                <p className="text-gray-300 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Your free course is opening now. Check your email for your access link.
+                </p>
               </div>
             )}
           </div>
@@ -130,29 +150,54 @@ export default function LeadCaptureSection() {
         itemType="https://schema.org/FAQPage"
       >
         <div className="container max-w-3xl">
-          <div className="text-center mb-12">
-            <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              FAQ
+          <div className="text-center mb-10">
+            <span
+              className="text-xs font-bold text-[#318599] uppercase tracking-widest"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            >
+              Got Questions?
             </span>
             <h2
               id="faq-heading"
-              className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2"
+              className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2 mb-3"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               Frequently Asked Questions
             </h2>
+            <p className="text-gray-500 text-base" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Everything you need to know about KnowHow Marketing Lab.
+            </p>
           </div>
 
-          {/* Internal navigation links for AI crawlers and users */}
+          {/* Quick-nav links for AI crawlers and users */}
           <div className="flex flex-wrap justify-center gap-3 mb-8">
-            <a href="/pricing" className="btn-outline text-sm py-2.5 px-4" aria-label="See pricing — free vs VIP community comparison">
+            <a
+              href="/pricing"
+              className="btn-outline text-sm py-2.5 px-4"
+              aria-label="Compare free vs VIP community plans and pricing"
+            >
               Compare Plans →
             </a>
-            <a href="/resources" className="btn-outline text-sm py-2.5 px-4" aria-label="Free official Google documentation resources">
+            <a
+              href="/resources"
+              className="btn-outline text-sm py-2.5 px-4"
+              aria-label="Browse free official Google documentation resources"
+            >
               Free Resources →
             </a>
-            <a href="/about" className="btn-outline text-sm py-2.5 px-4" aria-label="About Pip Seymour and Phelan Lewis">
+            <a
+              href="/about"
+              className="btn-outline text-sm py-2.5 px-4"
+              aria-label="About Pip Seymour and Phelan Lewis — KnowHow Marketing Lab instructors"
+            >
               About Us →
+            </a>
+            <a
+              href="/blog"
+              className="btn-outline text-sm py-2.5 px-4"
+              aria-label="Read free digital marketing guides on the KnowHow Marketing Lab blog"
+            >
+              Read the Blog →
             </a>
           </div>
 

@@ -14,7 +14,8 @@ const freeFeatures = [
   { label: 'Google Analytics 4 (GA4) training', included: true },
   { label: 'Google Business Profile training', included: true },
   { label: 'Google Tag Manager intro', included: true },
-  { label: 'Weekly live classes (Thursdays)', included: false },
+  { label: 'Weekly live Q&A & support (Thursdays)', included: false },
+  { label: 'Monthly deep-dive training session', included: false },
   { label: 'Homework & fillable PDF worksheets', included: false },
   { label: 'Google Ads Mastery course', included: false },
   { label: 'AI Marketing & Automation course', included: false },
@@ -31,7 +32,8 @@ const communityFeatures = [
   { label: 'Google Analytics 4 (GA4) training', included: true },
   { label: 'Google Business Profile training', included: true },
   { label: 'Google Tag Manager intro', included: true },
-  { label: 'Weekly live classes (Thursdays)', included: true },
+  { label: 'Weekly live Q&A & support (Thursdays)', included: true },
+  { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
   { label: 'Google Ads Mastery course', included: true },
   { label: 'AI Marketing & Automation course', included: true },
@@ -48,7 +50,7 @@ const pricingFaqs = [
   },
   {
     q: 'What do I get in the VIP Community that I cannot get for free?',
-    a: 'The VIP Community adds weekly live classes every Thursday (12–1pm Pacific), live Q&A with Pip and Phelan, homework assignments with fillable PDF worksheets, the Google Ads Mastery course, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
+    a: 'The VIP Community adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like Google Ads strategy, SEO audits, or AI tools), homework assignments with fillable PDF worksheets, the Google Ads Mastery course, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
   },
   {
     q: 'Can I cancel my community membership anytime?',

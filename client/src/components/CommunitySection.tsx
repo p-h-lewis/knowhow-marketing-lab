@@ -4,33 +4,33 @@
 const perks = [
   {
     icon: '🎥',
-    title: 'Weekly Live Classes',
-    desc: 'Every Thursday 12–1pm Pacific. Deep dives into SEO, Google Ads, GA4, and AI — with live Q&A.',
+    title: 'Weekly Live Q&A & Support',
+    desc: 'Every week, join a live session with Pip and Phelan. Bring your real campaigns, your questions, and your problems — and get answers in real time.',
+  },
+  {
+    icon: '📅',
+    title: 'Monthly Deep-Dive Training',
+    desc: 'Every month, a full-length training session on a specific topic — Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay.',
   },
   {
     icon: '📋',
     title: 'Homework & Worksheets',
-    desc: 'Fillable PDF worksheets and step-by-step homework for every class so you actually implement what you learn.',
+    desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn — not just watch.',
   },
   {
     icon: '🤖',
     title: 'AI & Automation Training',
-    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — built for 2025.',
-  },
-  {
-    icon: '📊',
-    title: 'Data-Driven SEO Toolkit',
-    desc: 'GA4, Google Search Console, Tag Manager, Google Ads Editor — all covered with real-world walkthroughs.',
+    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.',
   },
   {
     icon: '💬',
-    title: 'Private Community Access',
-    desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private group.',
+    title: 'Private Community Group',
+    desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel community.',
   },
   {
     icon: '🎓',
     title: 'Full Course Library',
-    desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime.',
+    desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime, so you never miss a training.',
   },
 ];
 
@@ -73,7 +73,7 @@ export default function CommunitySection() {
                 Price increases as the community grows. Lock in your rate today.
               </p>
               <ul className="space-y-2 mb-5">
-                {['Cancel anytime', 'Instant access to all content', 'Weekly live sessions', 'Private community group'].map(f => (
+                {['Weekly live Q&A and support', 'Monthly deep-dive training', 'Full course library on-demand', 'Private community group', 'Cancel anytime'].map(f => (
                   <li key={f} className="flex items-center gap-2 text-sm text-gray-700">
                     <svg className="w-4 h-4 text-[#318599] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>

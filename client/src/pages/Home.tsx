@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab — Home Page
-// Full conversion engine: Hero → Trust → Free Course → Videos → Courses → Community → About → Lead Capture → FAQ → Footer
+// Full conversion engine: Hero → Trust → Free Course → Videos → Courses → Community → Testimonials → About → Lead Capture → FAQ → Footer
 // Schema: WebPage, EducationalOrganization, Course, VideoObject, FAQPage, BreadcrumbList
 // Internal links: /pricing, /about, /resources, /#sections
 // External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
@@ -13,6 +13,7 @@ import CoursesSection from '@/components/CoursesSection';
 import CommunitySection from '@/components/CommunitySection';
 import AboutSection from '@/components/AboutSection';
 import LeadCaptureSection from '@/components/LeadCaptureSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -138,6 +139,7 @@ export default function Home() {
         <VideoLibrary />
         <CoursesSection />
         <CommunitySection />
+        <TestimonialsSection />
         <AboutSection />
         <LeadCaptureSection />
       </main>

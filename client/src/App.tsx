@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab — App Root
 // Light theme, conversion-optimized routing
-// Routes: / | /pricing | /resources | /about
+// Routes: / | /blog | /pricing | /resources | /about
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/pricing" component={Pricing} />
       <Route path="/resources" component={Resources} />
       <Route path="/about" component={About} />
+      <Route path="/blog" component={Blog} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

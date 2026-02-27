@@ -103,7 +103,8 @@ export default function About() {
                     'AI marketing tools: ChatGPT, AI agents, automation',
                     'Google Tag Manager and conversion tracking setup',
                     'Training for medium-sized businesses and marketing teams',
-                    'Weekly live classes with real Q&A — not pre-recorded lectures',
+                    'Weekly live Q&A and support sessions every Thursday',
+                    'Monthly deep-dive training on a specific topic',
                     'Actionable homework with fillable worksheets',
                   ].map(item => (
                     <li key={item} className="flex items-start gap-2.5 text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>

@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab — Navbar
 // White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
-// Internal links: /, /#free-course, /#videos, /#courses, /#community, /about, /pricing, /resources
+// Internal links: /, /blog, /#free-course, /#videos, /#courses, /#community, /about, /pricing, /resources
 // External: learnwith.seymourdigitalmedia.com (Log In)
 
 import { useState, useEffect } from 'react';
@@ -26,6 +26,7 @@ export default function Navbar() {
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Courses', href: anchorHref('#courses') },
     { label: 'Community', href: anchorHref('#community') },
+    { label: 'Blog', href: '/blog' },
     { label: 'Resources', href: '/resources' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
