@@ -2,6 +2,35 @@ User-agent: *
 Allow: /
 
 # KnowHow Marketing Lab — knowhowmarketinglab.com
-# Free SEO, Google Ads, GA4, and AI Marketing Training
+# Free SEO, Google Ads, GA4, and AI Marketing Training for Medium-Sized Businesses
+# Instructors: Pip Seymour and Phelan Lewis, Seymour Digital Media
 
+# Sitemaps
 Sitemap: https://knowhowmarketinglab.com/sitemap.xml
+Sitemap: https://knowhowmarketinglab.com/sitemap-images.xml
+Sitemap: https://knowhowmarketinglab.com/sitemap-videos.xml
+
+# AI Crawlers — explicitly allowed for GEO (Generative Engine Optimisation)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /

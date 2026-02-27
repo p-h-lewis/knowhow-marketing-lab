@@ -19,6 +19,7 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import CourseSEO from "./pages/CourseSEO";
 import CourseGoogleAds from "./pages/CourseGoogleAds";
+import CookieConsent from "./components/CookieConsent";
 
 function Router() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <CookieConsent />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

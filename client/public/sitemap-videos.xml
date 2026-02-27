@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Video Library Page (all videos hosted on YouTube, embedded on this page) -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/</loc>
+
+    <!-- SEO Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/gw-OAn5R4AY/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Finding Your First Keywords</video:title>
+      <video:description>Learn how to find your first target keywords for SEO. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=gw-OAn5R4AY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/gw-OAn5R4AY</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/eGN0oy0ynbE/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google's Secret Weapon for FREE Keyword Research (No One Talks About This!)</video:title>
+      <video:description>Discover Google's free keyword research tool that most marketers overlook. Free SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=eGN0oy0ynbE</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/eGN0oy0ynbE</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/vc3_tzeZ-cU/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Search Console Tutorial: See How People Find Your Website (Complete Guide)</video:title>
+      <video:description>Complete Google Search Console tutorial. Learn how to use GSC to see how people find your website and improve your SEO rankings.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=vc3_tzeZ-cU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/vc3_tzeZ-cU</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/TM0rB77AHiE/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Intro to Google Search Console</video:title>
+      <video:description>Introduction to Google Search Console for medium-sized businesses. Free SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=TM0rB77AHiE</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/TM0rB77AHiE</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/fAuyE8LEfNw/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>How to Link Google Search Console &amp; GA4</video:title>
+      <video:description>Step-by-step tutorial on how to connect Google Search Console with Google Analytics 4 (GA4) for better SEO insights.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=fAuyE8LEfNw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/fAuyE8LEfNw</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Wf_LyiG0SgI/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>How to Set Up Google Search Console | Step-by-Step Verification Tutorial</video:title>
+      <video:description>Learn how to set up and verify Google Search Console for your website. Step-by-step tutorial from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Wf_LyiG0SgI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Wf_LyiG0SgI</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/8pxWdKlQAsg/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Keyword Research</video:title>
+      <video:description>Keyword research fundamentals for SEO. Free lesson from KnowHow Marketing Lab's free SEO course.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=8pxWdKlQAsg</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/8pxWdKlQAsg</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/H0DbjpkqsaI/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | On-Page SEO</video:title>
+      <video:description>Live class on on-page SEO best practices for medium-sized businesses. Includes Q&amp;A from KnowHow Marketing Lab community.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=H0DbjpkqsaI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/H0DbjpkqsaI</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/UUhCi0ah5ZU/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Submitting Your Sitemap in Google Search Console</video:title>
+      <video:description>How to submit your XML sitemap in Google Search Console. Step-by-step tutorial from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=UUhCi0ah5ZU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/UUhCi0ah5ZU</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/JRDiDzQRAn4/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Search Console GSC | Complete Overview</video:title>
+      <video:description>Complete overview of Google Search Console (GSC) features and how to use them for SEO. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=JRDiDzQRAn4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/JRDiDzQRAn4</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/LOoTk2DxkrY/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>SEO | On-Page SEO</video:title>
+      <video:description>On-page SEO fundamentals for medium-sized businesses. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=LOoTk2DxkrY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/LOoTk2DxkrY</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/D7eS37odJps/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Website Structure | On-Page SEO</video:title>
+      <video:description>How to structure your website for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=D7eS37odJps</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/D7eS37odJps</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Z2Ci1UPFcKg/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Home Page | On-Page SEO</video:title>
+      <video:description>How to optimise your home page for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Z2Ci1UPFcKg</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Z2Ci1UPFcKg</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Brvt0HSKH5s/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Contact Page SEO Best Practices – Convert More Visitors</video:title>
+      <video:description>How to optimise your contact page for SEO and conversions. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Brvt0HSKH5s</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Brvt0HSKH5s</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/pFrTNSUDIuU/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Headings | On-Page SEO</video:title>
+      <video:description>How to use H1, H2, and H3 headings for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=pFrTNSUDIuU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/pFrTNSUDIuU</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Ae-msg0QGNw/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Links | On-Page SEO</video:title>
+      <video:description>How to use internal and external links for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Ae-msg0QGNw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Ae-msg0QGNw</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/ZTlGSUj4Tgc/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | Advanced Keyword Research Using Google Search Console</video:title>
+      <video:description>Advanced keyword research using Google Search Console data. Live class from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ZTlGSUj4Tgc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ZTlGSUj4Tgc</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/sJF-eAr4MF8/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Business Profile | Complete Overview</video:title>
+      <video:description>Complete overview of Google Business Profile (GBP) for local SEO. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=sJF-eAr4MF8</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/sJF-eAr4MF8</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Analytics Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/dwTFHna3NcE/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Analytics 4 Complete Tutorial: Master GA4 in Under 1 Hour (2025)</video:title>
+      <video:description>Complete Google Analytics 4 (GA4) tutorial for 2025. Learn how to set up, navigate, and use GA4 to improve your marketing results.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=dwTFHna3NcE</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/dwTFHna3NcE</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/DpBpp0UVcxU/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Analytics 4 GA | Complete Overview</video:title>
+      <video:description>Complete overview of Google Analytics 4 (GA4) features and reports. Free analytics lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=DpBpp0UVcxU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/DpBpp0UVcxU</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/mXcvavYb0ts/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Tag Manager | Complete Overview</video:title>
+      <video:description>Complete overview of Google Tag Manager (GTM). Learn how to set up and use GTM for conversion tracking and analytics.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=mXcvavYb0ts</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/mXcvavYb0ts</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Google Ads Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Ec79dFI_bq0/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Ads Intro Class</video:title>
+      <video:description>Introduction to Google Ads for medium-sized businesses. Free lesson from KnowHow Marketing Lab's Google Ads course.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Ec79dFI_bq0</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Ec79dFI_bq0</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/1cvo5VpEJKA/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Ads | Display Campaigns Class</video:title>
+      <video:description>How to set up and optimise Google Display campaigns. Free Google Ads lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=1cvo5VpEJKA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/1cvo5VpEJKA</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/m1DvSc46FDI/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | Google Ads | Optimization 2</video:title>
+      <video:description>Live Google Ads optimisation class. Advanced strategies for improving Google Ads performance from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=m1DvSc46FDI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/m1DvSc46FDI</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Live Classes -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/EXNB6zHug-k/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | Google Business Profile</video:title>
+      <video:description>Live class on Google Business Profile optimisation for local SEO. From KnowHow Marketing Lab's weekly live Q&amp;A series.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=EXNB6zHug-k</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/EXNB6zHug-k</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/m-IBiKxIh4U/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | Local SEO</video:title>
+      <video:description>Live class on local SEO strategy for medium-sized businesses. From KnowHow Marketing Lab's weekly live training series.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=m-IBiKxIh4U</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/m-IBiKxIh4U</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/C1wnh0aWSA4/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Live Class | On-Page &amp; Technical SEO Audit</video:title>
+      <video:description>Live class on conducting an on-page and technical SEO audit. Real website walkthrough from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=C1wnh0aWSA4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/C1wnh0aWSA4</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- AI Marketing Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/XM_FD8FfbXI/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>SEO Copy That Converts</video:title>
+      <video:description>How to write SEO copy that converts visitors into customers. Free lesson on AI-assisted content writing from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=XM_FD8FfbXI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/XM_FD8FfbXI</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Gzh0UcU_C8A/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Knowledge Panel | Google Business Profile</video:title>
+      <video:description>How to optimise your Google Knowledge Panel. Free lesson on AI and Google Business Profile from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Gzh0UcU_C8A</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Gzh0UcU_C8A</video:player_loc>
+      <video:publication_date>2023-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+
+  </url>
+
+  <!-- SEO Course Page -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/courses/seo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/vc3_tzeZ-cU/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Search Console Tutorial: See How People Find Your Website (Complete Guide)</video:title>
+      <video:description>Complete Google Search Console tutorial. Free SEO course lesson from KnowHow Marketing Lab.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=vc3_tzeZ-cU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/vc3_tzeZ-cU</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/dwTFHna3NcE/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Analytics 4 Complete Tutorial: Master GA4 in Under 1 Hour (2025)</video:title>
+      <video:description>Complete GA4 tutorial. Free analytics lesson from KnowHow Marketing Lab's SEO course.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=dwTFHna3NcE</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/dwTFHna3NcE</video:player_loc>
+      <video:publication_date>2025-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+
+  <!-- Google Ads Course Page -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/courses/google-ads</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Ec79dFI_bq0/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Ads Intro Class</video:title>
+      <video:description>Introduction to Google Ads. Free lesson from KnowHow Marketing Lab's Google Ads course.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Ec79dFI_bq0</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Ec79dFI_bq0</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/1cvo5VpEJKA/mqdefault.jpg</video:thumbnail_loc>
+      <video:title>Google Ads | Display Campaigns Class</video:title>
+      <video:description>Google Display Campaigns tutorial. Free lesson from KnowHow Marketing Lab's Google Ads course.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=1cvo5VpEJKA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/1cvo5VpEJKA</video:player_loc>
+      <video:publication_date>2024-01-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+
+</urlset>
