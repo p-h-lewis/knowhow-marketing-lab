@@ -143,6 +143,19 @@ export default function LeadCaptureSection() {
             </h2>
           </div>
 
+          {/* Internal navigation links for AI crawlers and users */}
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
+            <a href="/pricing" className="btn-outline text-sm py-2.5 px-4" aria-label="See pricing — free vs VIP community comparison">
+              Compare Plans →
+            </a>
+            <a href="/resources" className="btn-outline text-sm py-2.5 px-4" aria-label="Free official Google documentation resources">
+              Free Resources →
+            </a>
+            <a href="/about" className="btn-outline text-sm py-2.5 px-4" aria-label="About Pip Seymour and Phelan Lewis">
+              About Us →
+            </a>
+          </div>
+
           <div className="space-y-3">
             {faqs.map((faq, idx) => (
               <div

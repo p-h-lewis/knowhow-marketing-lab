@@ -83,7 +83,32 @@ export default function FreeCourseSection() {
             </div>
 
             <p className="text-xs text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              No credit card. No catch. Just free expert training.
+              No credit card. No catch. Just free expert training.{' '}
+              <a href="/resources" className="text-[#318599] hover:underline" aria-label="Browse free official Google documentation resources">
+                Browse official Google docs →
+              </a>
+            </p>
+            <p className="text-xs text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Our SEO training is built on the{' '}
+              <a
+                href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#318599] hover:underline"
+                aria-label="Google's official SEO Starter Guide on Search Central"
+              >
+                Google SEO Starter Guide
+              </a>{' '}
+              and official{' '}
+              <a
+                href="https://support.google.com/analytics/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#318599] hover:underline"
+                aria-label="Official Google Analytics 4 help center"
+              >
+                GA4 documentation
+              </a>.
             </p>
           </div>
 

@@ -146,18 +146,30 @@ export default function CoursesSection() {
               Not sure where to start?
             </h3>
             <p className="text-gray-300 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start with the free SEO course. No credit card, no commitment — just expert training.
+              Start with the free SEO course. No credit card, no commitment — just expert training.{' '}
+              <a href="/pricing" className="text-[#E98C28] hover:underline font-semibold" aria-label="Compare free vs community pricing">
+                Compare plans →
+              </a>
             </p>
           </div>
-          <a
-            href="https://learnwith.seymourdigitalmedia.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary whitespace-nowrap flex-shrink-0"
-            aria-label="Start the free SEO course now"
-          >
-            Start Free Course →
-          </a>
+          <div className="flex flex-wrap gap-3 flex-shrink-0">
+            <a
+              href="https://learnwith.seymourdigitalmedia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary whitespace-nowrap"
+              aria-label="Start the free SEO course now"
+            >
+              Start Free Course →
+            </a>
+            <a
+              href="/pricing"
+              className="btn-outline-light whitespace-nowrap"
+              aria-label="View pricing for VIP Community"
+            >
+              See Pricing
+            </a>
+          </div>
         </div>
       </div>
     </section>

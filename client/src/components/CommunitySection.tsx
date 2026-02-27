@@ -96,6 +96,10 @@ export default function CommunitySection() {
 
             <p className="text-xs text-gray-400 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Powered by GoHighLevel · Secure checkout · Cancel anytime
+              {' · '}
+              <a href="/pricing" className="text-[#318599] hover:underline" aria-label="Compare free vs community plan pricing">
+                Compare plans
+              </a>
             </p>
           </div>
 

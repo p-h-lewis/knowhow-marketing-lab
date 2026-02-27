@@ -1,5 +1,9 @@
 // KnowHow Marketing Lab — Footer
-// Clean footer with links, schema markup, and conversion CTA
+// Full internal linking strategy + authoritative external links (Google official docs only)
+// Internal: /, /pricing, /about, /resources, /#free-course, /#videos, /#courses, /#community
+// External (non-competing, authoritative): seymourdigitalmedia.com, youtube.com, support.google.com, developers.google.com, skillshop.withgoogle.com
+
+import { Link } from 'wouter';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -11,15 +15,15 @@ export default function Footer() {
       itemScope
       itemType="https://schema.org/WPFooter"
     >
-      {/* Main footer */}
+      {/* Main footer grid */}
       <div className="container py-12 md:py-16">
         <div className="grid md:grid-cols-4 gap-10">
 
           {/* Brand */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-2.5 mb-4">
+          <div className="md:col-span-1">
+            <Link href="/" className="flex items-center gap-2.5 mb-4" aria-label="KnowHow Marketing Lab home">
               <div
-                className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg"
+                className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
                 style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
                 aria-hidden="true"
               >
@@ -29,73 +33,150 @@ export default function Footer() {
                 <span className="font-bold text-sm text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>KnowHow</span>
                 <span className="font-bold text-sm text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Lab</span>
               </div>
-            </div>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-xs mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Free expert training in SEO, Google Ads, GA4, and AI marketing. Built by agency veterans for medium-sized businesses and marketing teams.
+            </Link>
+            <p className="text-gray-400 text-sm leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Free expert training in SEO, Google Ads, GA4, and AI marketing. Built by agency veterans for medium-sized businesses.
             </p>
-            <a
-              href="https://www.youtube.com/@knowhowmarketinglab"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-[#E98C28] hover:text-white transition-colors font-semibold"
-              aria-label="Subscribe to KnowHow Marketing Lab on YouTube"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-              </svg>
-              @knowhowmarketinglab
-            </a>
+            <div className="space-y-2">
+              <a
+                href="https://www.youtube.com/@knowhowmarketinglab"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-[#E98C28] hover:text-white transition-colors font-semibold"
+                aria-label="Subscribe to KnowHow Marketing Lab on YouTube — 60+ free marketing lessons"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+              >
+                <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                YouTube Channel
+              </a>
+              <a
+                href="https://seymourdigitalmedia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+                aria-label="Visit Seymour Digital Media — the agency behind KnowHow Marketing Lab"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+              >
+                <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                Seymour Digital Media
+              </a>
+            </div>
           </div>
 
-          {/* Learn */}
-          <nav aria-label="Learning resources">
+          {/* Learn — Internal links */}
+          <nav aria-label="Learning resources navigation">
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Learn
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Free SEO Course', href: '#free-course' },
-                { label: 'Video Library', href: '#videos' },
-                { label: 'Google Ads Course', href: '#courses' },
-                { label: 'AI Marketing Training', href: '#courses' },
-                { label: 'GA4 & Analytics', href: '#videos' },
-                { label: 'Google Tag Manager', href: '#videos' },
+                { label: 'Free SEO Course', href: '/#free-course', internal: false },
+                { label: 'Video Library', href: '/#videos', internal: false },
+                { label: 'Google Ads Course', href: '/#courses', internal: false },
+                { label: 'AI Marketing Training', href: '/#courses', internal: false },
+                { label: 'Free Resources', href: '/resources', internal: true },
+                { label: 'Pricing', href: '/pricing', internal: true },
+                { label: 'About Us', href: '/about', internal: true },
               ].map(link => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-gray-400 hover:text-white transition-colors"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  >
-                    {link.label}
-                  </a>
+                  {link.internal ? (
+                    <Link
+                      href={link.href}
+                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
           </nav>
 
-          {/* Community */}
+          {/* Community — Internal + GoHighLevel */}
           <nav aria-label="Community and platform links">
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Community
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Join the VIP Community', href: '#community' },
-                { label: 'GoHighLevel Platform', href: 'https://learnwith.seymourdigitalmedia.com/' },
-                { label: 'Weekly Live Classes', href: '#community' },
-                { label: 'About the Instructors', href: '#about' },
-                { label: 'Seymour Digital Media', href: 'https://seymourdigitalmedia.com/' },
+                { label: 'Join the VIP Community', href: '/#community' },
+                { label: 'Log In to Platform', href: 'https://learnwith.seymourdigitalmedia.com/' },
+                { label: 'Weekly Live Classes', href: '/#community' },
+                { label: 'Community Pricing', href: '/pricing' },
+                { label: 'Meet the Instructors', href: '/about' },
+              ].map(link => (
+                <li key={link.label}>
+                  {link.href.startsWith('http') ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      {link.label}
+                    </a>
+                  ) : link.href.startsWith('/') && !link.href.includes('#') ? (
+                    <Link
+                      href={link.href}
+                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      {link.label}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {/* Official Resources — External authoritative links (non-competing) */}
+          <nav aria-label="Official Google documentation links">
+            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              Official Google Docs
+            </h3>
+            <ul className="space-y-2.5 list-none p-0 m-0">
+              {[
+                { label: 'Google SEO Starter Guide', href: 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide', title: 'Official Google SEO documentation' },
+                { label: 'Google Search Console Help', href: 'https://support.google.com/webmasters/', title: 'Official Google Search Console help center' },
+                { label: 'Google Ads Help Center', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help center' },
+                { label: 'GA4 Analytics Help', href: 'https://support.google.com/analytics/', title: 'Official Google Analytics 4 help center' },
+                { label: 'Tag Manager Help', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help center' },
+                { label: 'Google Skillshop', href: 'https://skillshop.withgoogle.com/', title: 'Free official Google certifications' },
+                { label: 'Think with Google', href: 'https://www.thinkwithgoogle.com/', title: 'Google marketing research and insights' },
               ].map(link => (
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    target={link.href.startsWith('http') ? '_blank' : undefined}
-                    rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-gray-400 hover:text-white transition-colors"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    title={link.title}
+                    aria-label={`${link.label} — opens in new tab`}
                   >
-                    {link.label}
+                    {link.label} ↗
                   </a>
                 </li>
               ))}
@@ -108,11 +189,24 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            © {year} KnowHow Marketing Lab · Seymour Digital Media. All rights reserved.
+            © {year}{' '}
+            <a href="/" className="hover:text-gray-300 transition-colors">KnowHow Marketing Lab</a>
+            {' · '}
+            <a
+              href="https://seymourdigitalmedia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-300 transition-colors"
+              aria-label="Seymour Digital Media agency"
+            >
+              Seymour Digital Media
+            </a>
+            . All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Privacy Policy</a>
-            <a href="#" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Terms of Use</a>
+            <Link href="/about" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>About</Link>
+            <Link href="/pricing" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Pricing</Link>
+            <Link href="/resources" className="text-xs text-gray-500 hover:text-gray-300 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>Resources</Link>
           </div>
         </div>
       </div>

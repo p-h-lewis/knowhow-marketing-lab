@@ -1,6 +1,8 @@
 // KnowHow Marketing Lab — Home Page
 // Full conversion engine: Hero → Trust → Free Course → Videos → Courses → Community → About → Lead Capture → FAQ → Footer
-// Structured for LLM/AI indexing with semantic HTML and Schema.org markup
+// Schema: WebPage, EducationalOrganization, Course, VideoObject, FAQPage, BreadcrumbList
+// Internal links: /pricing, /about, /resources, /#sections
+// External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
 
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
@@ -16,49 +18,113 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Structured data for LLM/AI indexing */}
+
+      {/* WebPage schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "KnowHow Marketing Lab",
-            "description": "Free expert training in SEO, Google Ads, GA4, and AI marketing. Built by agency veterans Pip Seymour and Phelan Lewis for medium-sized businesses and marketing teams.",
-            "url": "https://knowhowmarketinglab.com",
-            "sameAs": [
-              "https://www.youtube.com/@knowhowmarketinglab",
-              "https://learnwith.seymourdigitalmedia.com/"
-            ],
-            "offers": [
-              {
-                "@type": "Offer",
-                "name": "Free SEO Course",
-                "price": "0",
-                "priceCurrency": "USD",
-                "description": "Complete data-driven SEO course covering keyword research, on-page SEO, GA4, Google Search Console, and Google Business Profile."
-              },
-              {
-                "@type": "Offer",
-                "name": "VIP Community Membership",
-                "price": "29",
-                "priceCurrency": "USD",
-                "billingIncrement": "P1M",
-                "description": "Monthly membership with weekly live classes, advanced courses, AI training, and private community access on GoHighLevel."
-              }
-            ],
-            "founder": [
-              {
-                "@type": "Person",
-                "name": "Pip Seymour",
-                "jobTitle": "SEO & Content Strategy Lead",
-                "worksFor": { "@type": "Organization", "name": "Seymour Digital Media" }
-              },
-              {
-                "@type": "Person",
-                "name": "Phelan Lewis",
-                "jobTitle": "Google Ads & Analytics Lead"
-              }
+            "@type": "WebPage",
+            "name": "KnowHow Marketing Lab — Free SEO, Google Ads & AI Marketing Training",
+            "description": "Free expert training in SEO, Google Ads, GA4, and AI marketing. 60+ free video lessons, weekly live classes, and a VIP community on GoHighLevel. Built by agency veterans Pip Seymour and Phelan Lewis.",
+            "url": "https://knowhowmarketinglab.com/",
+            "inLanguage": "en-US",
+            "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/" }
+              ]
+            },
+            "about": {
+              "@type": "EducationalOrganization",
+              "name": "KnowHow Marketing Lab",
+              "description": "Free digital marketing education for medium-sized businesses. Courses in SEO, Google Ads, GA4, Google Tag Manager, and AI marketing automation.",
+              "url": "https://knowhowmarketinglab.com",
+              "sameAs": [
+                "https://www.youtube.com/@knowhowmarketinglab",
+                "https://learnwith.seymourdigitalmedia.com/",
+                "https://seymourdigitalmedia.com/"
+              ],
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "Pip Seymour",
+                  "jobTitle": "SEO & Content Strategy Lead",
+                  "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
+                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimization", "Content Strategy"]
+                },
+                {
+                  "@type": "Person",
+                  "name": "Phelan Lewis",
+                  "jobTitle": "Google Ads & Analytics Lead",
+                  "knowsAbout": ["Google Ads", "Google Tag Manager", "GA4", "AI Marketing Automation", "PPC"]
+                }
+              ]
+            }
+          })
+        }}
+      />
+
+      {/* Course schema — Free SEO Course */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Free Data-Driven SEO Course",
+            "description": "A complete 8-module SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization (GEO). Free with no credit card required.",
+            "url": "https://learnwith.seymourdigitalmedia.com/",
+            "provider": {
+              "@type": "Organization",
+              "name": "KnowHow Marketing Lab",
+              "url": "https://knowhowmarketinglab.com",
+              "sameAs": "https://seymourdigitalmedia.com/"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "category": "Free"
+            },
+            "hasCourseInstance": {
+              "@type": "CourseInstance",
+              "courseMode": "online",
+              "instructor": [
+                { "@type": "Person", "name": "Pip Seymour" },
+                { "@type": "Person", "name": "Phelan Lewis" }
+              ]
+            },
+            "about": [
+              { "@type": "Thing", "name": "Search Engine Optimization" },
+              { "@type": "Thing", "name": "Google Search Console" },
+              { "@type": "Thing", "name": "Google Analytics 4" },
+              { "@type": "Thing", "name": "Google Business Profile" },
+              { "@type": "Thing", "name": "Generative Engine Optimization" }
+            ]
+          })
+        }}
+      />
+
+      {/* ItemList schema — internal page sections for AI navigation */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "KnowHow Marketing Lab — Page Sections",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Free SEO Course", "url": "https://knowhowmarketinglab.com/#free-course" },
+              { "@type": "ListItem", "position": 2, "name": "Free Video Library", "url": "https://knowhowmarketinglab.com/#videos" },
+              { "@type": "ListItem", "position": 3, "name": "Courses — Google Ads & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
+              { "@type": "ListItem", "position": 4, "name": "VIP Community on GoHighLevel", "url": "https://knowhowmarketinglab.com/#community" },
+              { "@type": "ListItem", "position": 5, "name": "Pricing — Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
+              { "@type": "ListItem", "position": 6, "name": "About Pip Seymour & Phelan Lewis", "url": "https://knowhowmarketinglab.com/about" },
+              { "@type": "ListItem", "position": 7, "name": "Free Resources — Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" }
             ]
           })
         }}

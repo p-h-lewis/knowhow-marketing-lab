@@ -29,9 +29,28 @@ export default function AboutSection() {
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
               KnowHow Marketing Lab was built by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> — two digital marketing veterans with over 20 years of combined agency experience. We've managed millions in Google Ads spend, ranked hundreds of businesses on Google, and built data-driven marketing strategies for medium-sized businesses across North America.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-gray-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               We created KnowHow Marketing Lab because we believe every business deserves access to the same strategies that enterprise brands pay agencies six figures for. Our approach is data-first, jargon-free, and always actionable.
             </p>
+            <div className="flex flex-wrap gap-3 mb-8">
+              <a
+                href="/about"
+                className="btn-outline text-sm py-2.5 px-4"
+                aria-label="Learn more about Pip Seymour and Phelan Lewis"
+              >
+                Meet the Team →
+              </a>
+              <a
+                href="https://seymourdigitalmedia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-[#318599] hover:underline py-2.5"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                aria-label="Visit Seymour Digital Media agency website"
+              >
+                Seymour Digital Media ↗
+              </a>
+            </div>
 
             {/* Credentials */}
             <div className="grid grid-cols-2 gap-4">

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# KnowHow Marketing Lab — knowhowmarketinglab.com
+# Free SEO, Google Ads, GA4, and AI Marketing Training
+
+Sitemap: https://knowhowmarketinglab.com/sitemap.xml

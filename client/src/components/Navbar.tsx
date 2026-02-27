@@ -1,11 +1,16 @@
 // KnowHow Marketing Lab — Navbar
-// White sticky nav with amber CTA, optimized for conversion
+// White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
+// Internal links: /, /#free-course, /#videos, /#courses, /#community, /about, /pricing, /resources
+// External: learnwith.seymourdigitalmedia.com (Log In)
 
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'wouter';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [location] = useLocation();
+  const isHome = location === '/';
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 10);
@@ -13,12 +18,17 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handler);
   }, []);
 
+  // Anchor links work on home page; on other pages navigate to /#section
+  const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
+
   const navLinks = [
-    { label: 'Free SEO Course', href: '#free-course' },
-    { label: 'Video Library', href: '#videos' },
-    { label: 'Courses', href: '#courses' },
-    { label: 'Community', href: '#community' },
-    { label: 'About', href: '#about' },
+    { label: 'Free SEO Course', href: anchorHref('#free-course') },
+    { label: 'Video Library', href: anchorHref('#videos') },
+    { label: 'Courses', href: anchorHref('#courses') },
+    { label: 'Community', href: anchorHref('#community') },
+    { label: 'Resources', href: '/resources' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'About', href: '/about' },
   ];
 
   return (
@@ -29,10 +39,12 @@ export default function Navbar() {
           : 'bg-white border-b border-gray-100'
       }`}
       role="banner"
+      itemScope
+      itemType="https://schema.org/SiteNavigationElement"
     >
-      <nav className="container flex items-center justify-between h-16 md:h-18" aria-label="Main navigation">
+      <nav className="container flex items-center justify-between h-16" aria-label="Main navigation">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2.5 group" aria-label="KnowHow Marketing Lab home">
+        <Link href="/" className="flex items-center gap-2.5 group" aria-label="KnowHow Marketing Lab — home">
           <div
             className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
             style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
@@ -44,38 +56,55 @@ export default function Navbar() {
             <span className="font-bold text-sm text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>KnowHow</span>
             <span className="font-bold text-sm text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Lab</span>
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex items-center gap-1 list-none m-0 p-0" role="list">
+        <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
           {navLinks.map(link => (
             <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-gray-600 hover:text-gray-900 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-50 transition-all duration-150"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
-              >
-                {link.label}
-              </a>
+              {link.href.startsWith('/') && !link.href.includes('#') ? (
+                <Link
+                  href={link.href}
+                  className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 ${
+                    location === link.href
+                      ? 'text-[#E98C28] bg-amber-50'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                  }`}
+                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  itemProp="url"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  href={link.href}
+                  className="text-gray-600 hover:text-gray-900 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-50 transition-all duration-150"
+                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  itemProp="url"
+                >
+                  {link.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>
 
         {/* CTA */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <a
             href="https://learnwith.seymourdigitalmedia.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150"
             style={{ fontFamily: 'DM Sans, sans-serif' }}
+            aria-label="Log in to the KnowHow Marketing Lab platform on GoHighLevel"
           >
             Log In
           </a>
           <a
-            href="#free-course"
+            href={anchorHref('#free-course')}
             className="btn-primary text-sm py-2.5 px-5 pulse-cta"
-            aria-label="Start the free SEO course"
+            aria-label="Start the free SEO course — no credit card required"
           >
             Start Free Course →
           </a>
@@ -83,10 +112,11 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100 transition-colors"
+          className="lg:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100 transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+          aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'}
           aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             {mobileOpen
@@ -99,18 +129,49 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-1 shadow-lg">
+        <div
+          id="mobile-menu"
+          className="lg:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-1 shadow-lg"
+          role="navigation"
+          aria-label="Mobile navigation"
+        >
           {navLinks.map(link => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-              onClick={() => setMobileOpen(false)}
-            >
-              {link.label}
-            </a>
+            link.href.startsWith('/') && !link.href.includes('#') ? (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                onClick={() => setMobileOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                onClick={() => setMobileOpen(false)}
+              >
+                {link.label}
+              </a>
+            )
           ))}
+
+          {/* SeymourDigitalMedia link in mobile */}
+          <a
+            href="https://seymourdigitalmedia.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-gray-600 text-sm font-medium py-2 px-3 transition-colors"
+            style={{ fontFamily: 'DM Sans, sans-serif' }}
+            onClick={() => setMobileOpen(false)}
+            aria-label="Visit Seymour Digital Media agency"
+          >
+            Seymour Digital Media ↗
+          </a>
+
           <div className="pt-3 border-t border-gray-100 mt-2 flex flex-col gap-2">
             <a
               href="https://learnwith.seymourdigitalmedia.com/"
@@ -118,13 +179,15 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="text-gray-500 text-sm text-center py-2"
               onClick={() => setMobileOpen(false)}
+              aria-label="Log in to the GoHighLevel platform"
             >
               Log In to Platform
             </a>
             <a
-              href="#free-course"
+              href={anchorHref('#free-course')}
               className="btn-primary text-sm text-center justify-center"
               onClick={() => setMobileOpen(false)}
+              aria-label="Start the free SEO course"
             >
               Start Free Course →
             </a>
