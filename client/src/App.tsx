@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab — App Root
 // Light theme, conversion-optimized routing
-// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads
+// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -19,6 +19,7 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import CourseSEO from "./pages/CourseSEO";
 import CourseGoogleAds from "./pages/CourseGoogleAds";
+import ThankYou from "./pages/ThankYou";
 import CookieConsent from "./components/CookieConsent";
 
 function Router() {
@@ -35,6 +36,7 @@ function Router() {
       <Route path="/terms" component={Terms} />
       <Route path="/courses/seo" component={CourseSEO} />
       <Route path="/courses/google-ads" component={CourseGoogleAds} />
+      <Route path="/thank-you" component={ThankYou} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

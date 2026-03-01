@@ -5,16 +5,31 @@
 // Conversion: email lead → GoHighLevel free course opt-in
 
 import { useState } from 'react';
+import { useLocation } from 'wouter';
 
 export default function HeroSection() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [, navigate] = useLocation();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    window.open(`https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login`, '_blank');
+    // Submit to GHL via external tracking script (window.GHLForm)
+    try {
+      const formData = new FormData();
+      formData.append('email', email);
+      formData.append('formId', 'l71tHQPMO7st6TFSPmo5');
+      formData.append('locationId', 'Bk3wb95yNZ5UAEn0KG00');
+      // Use GHL external tracking if available
+      if (typeof (window as any).GHLForm !== 'undefined') {
+        (window as any).GHLForm.submit({ email });
+      }
+    } catch (_) {
+      // Silent fail — redirect still happens
+    }
     setSubmitted(true);
+    navigate('/thank-you');
   };
 
   return (
@@ -70,11 +85,12 @@ export default function HeroSection() {
                 onSubmit={handleSubmit}
                 className="flex flex-col sm:flex-row gap-3 max-w-lg mb-6"
                 aria-label="Sign up for the free SEO course"
-                noValidate
+                data-ghl-form-id="l71tHQPMO7st6TFSPmo5"
               >
                 <label htmlFor="hero-email" className="sr-only">Your email address</label>
                 <input
                   id="hero-email"
+                  name="email"
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
@@ -104,7 +120,7 @@ export default function HeroSection() {
             <ul className="flex flex-col gap-2 mb-8 max-w-lg" aria-label="What you get for free">
               {[
                 { icon: '✓', text: '60+ free video lessons on YouTube' },
-                { icon: '✓', text: 'Full 8-module SEO course — no sign-up needed' },
+                { icon: '✓', text: 'Full 5-module SEO course — no credit card needed' },
                 { icon: '✓', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>

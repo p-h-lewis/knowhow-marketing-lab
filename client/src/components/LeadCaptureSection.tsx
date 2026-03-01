@@ -4,6 +4,7 @@
 // Internal links: /pricing, /resources, /about, /blog
 
 import { useState } from 'react';
+import { useLocation } from 'wouter';
 
 const faqs = [
   {
@@ -12,7 +13,7 @@ const faqs = [
   },
   {
     q: 'Is the SEO course really free?',
-    a: 'Yes — the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 8 course modules, including lessons on keyword research, on-page SEO, Google Search Console, Google Analytics 4, and Google Business Profile.',
+    a: 'Yes — the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
   },
   {
     q: 'What is the VIP Community?',
@@ -41,12 +42,21 @@ export default function LeadCaptureSection() {
   const [name, setName] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [, navigate] = useLocation();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    window.open('https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login', '_blank');
+    // Submit to GHL via external tracking
+    try {
+      if (typeof (window as any).GHLForm !== 'undefined') {
+        (window as any).GHLForm.submit({ firstName: name, email });
+      }
+    } catch (_) {
+      // Silent fail — redirect still happens
+    }
     setSubmitted(true);
+    navigate('/thank-you');
   };
 
   return (
@@ -94,6 +104,7 @@ export default function LeadCaptureSection() {
                 <label htmlFor="lead-name" className="sr-only">Your first name</label>
                 <input
                   id="lead-name"
+                  name="firstName"
                   type="text"
                   value={name}
                   onChange={e => setName(e.target.value)}
@@ -104,6 +115,7 @@ export default function LeadCaptureSection() {
                 <label htmlFor="lead-email" className="sr-only">Your email address</label>
                 <input
                   id="lead-email"
+                  name="email"
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}

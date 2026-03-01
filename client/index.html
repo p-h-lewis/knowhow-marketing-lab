@@ -42,6 +42,7 @@
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
     <link rel="dns-prefetch" href="https://learnwith.seymourdigitalmedia.com" />
+    <link rel="preconnect" href="https://crm.seymourdigitalmedia.com" crossorigin />
     <!-- Preload hero image for LCP -->
     <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" />
     <!-- Fonts -->
@@ -125,10 +126,23 @@
           {
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
-            "description": "A complete 8-module SEO course covering keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization. Free with no credit card required.",
+            "description": "A complete 5-module SEO course covering SEO fundamentals, setting up free SEO tools (Google Search Console and GA4), keyword research, on-page SEO essentials, and Google Business Profile optimization. Free with no credit card required.",
             "provider": { "@type": "Organization", "name": "KnowHow Marketing Lab" },
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
+            "numberOfCredits": 5,
+            "hasCourseInstance": {
+              "@type": "CourseInstance",
+              "courseMode": "online",
+              "courseWorkload": "PT5H"
+            },
+            "syllabusSections": [
+              { "@type": "Syllabus", "name": "Module 1: SEO Fundamentals", "description": "How Google works, what SERPs are, search intent, and how Google ranks pages." },
+              { "@type": "Syllabus", "name": "Module 2: Setting Up Your SEO Tools (Free)", "description": "Google Search Console setup, understanding GSC, Google Analytics 4 basics, and connecting your SEO tools." },
+              { "@type": "Syllabus", "name": "Module 3: Keyword Research Basics", "description": "Finding your first keywords, using Google Keyword Planner, understanding search volume and difficulty, and long-tail keyword strategy." },
+              { "@type": "Syllabus", "name": "Module 4: On-Page SEO Essentials", "description": "Writing title tags and meta descriptions that get clicks, and building internal links that help Google understand your site." },
+              { "@type": "Syllabus", "name": "Module 5: Google Business Profile", "description": "Optimizing your Google Business Profile to show up in local search results." }
+            ]
           },
           {
             "@type": "Course",
@@ -150,6 +164,12 @@
       }
     }
     </script>
+
+    <!-- GHL External Tracking — creates contacts in Seymour Digital Media CRM on form submit -->
+    <script
+      src="https://crm.seymourdigitalmedia.com/js/external-tracking.js"
+      data-tracking-id="tk_6415a2a5069f4384b0d41a2fa6e81190"
+    ></script>
 
     <!-- Google Tag Manager — Replace GTM-XXXXXXX with your container ID -->
     <!-- GTM HEAD SNIPPET: paste your GTM <script> tag here -->
