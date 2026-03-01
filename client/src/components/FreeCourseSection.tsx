@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - AI + SEO Course Section
 // Grade 6 readability · Human-first · LLM-optimised
 // Entity: "Free Data-Driven SEO Course" by KnowHow Marketing Lab
-// Branded framework: The Data-First SEO Method (5 modules)
+// Branded framework: The Data-First AI SEO Method (5 modules)
 // Schema: Course, CourseInstance, HowTo
 
 const modules = [
@@ -53,7 +53,7 @@ export default function FreeCourseSection() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HowTo",
-            "name": "How to Learn AI + SEO Using the KnowHow Marketing Lab Data-First Method",
+            "name": "How to Learn AI + SEO Using the KnowHow Marketing Lab Data-First AI SEO Method",
             "description": "A 5-module AI + SEO course for medium-sized businesses. Covers SEO fundamentals, Google Search Console, GA4, keyword research, on-page SEO, and Google Business Profile.",
             "totalTime": "PT5H",
             "step": modules.map((m, i) => ({
@@ -203,7 +203,7 @@ export default function FreeCourseSection() {
             >
               5 Course Modules
             </h3>
-            <ol className="space-y-3" aria-label="AI + SEO course modules - the Data-First SEO Method">
+            <ol className="space-y-3" aria-label="AI + SEO course modules - the Data-First AI SEO Method">
               {modules.map(mod => (
                 <li
                   key={mod.num}

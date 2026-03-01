@@ -21,7 +21,7 @@ const blogPosts = [
   {
     slug: 'data-driven-seo-guide-medium-sized-businesses',
     title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses (2026)',
-    excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses - the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the KnowHow Data-First SEO Method step by step.',
+    excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses - the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the Data-First AI SEO Method step by step.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'February 26, 2026',
@@ -339,7 +339,7 @@ export default function Blog() {
                       <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Jump to section</p>
                       <ul className="space-y-1 text-sm text-[#318599]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                         <li><a href="#what-is-data-driven-seo" className="hover:underline">What is data-driven SEO?</a></li>
-                        <li><a href="#the-knowhow-data-first-method" className="hover:underline">The KnowHow Data-First SEO Method</a></li>
+                        <li><a href="#the-knowhow-data-first-method" className="hover:underline">The Data-First AI SEO Method</a></li>
                         <li><a href="#google-search-console-setup" className="hover:underline">Step 1: Google Search Console setup</a></li>
                         <li><a href="#ga4-for-seo" className="hover:underline">Step 2: GA4 for SEO decisions</a></li>
                         <li><a href="#keyword-research" className="hover:underline">Step 3: Keyword research with real data</a></li>
@@ -399,10 +399,10 @@ export default function Blog() {
                     </p>
 
                     <h2 id="the-knowhow-data-first-method" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      The KnowHow Data-First SEO Method
+                      The Data-First AI SEO Method
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      At KnowHow Marketing Lab, we teach a five-step framework called the <strong>Data-First SEO Method</strong>. It is the same process we use with our agency clients at{' '}
+                      At KnowHow Marketing Lab, we teach a five-step framework called the <strong>Data-First AI SEO Method</strong>. It is the same process we use with our agency clients at{' '}
                       <a href="https://seymourdigitalmedia.com/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
                       Here is how it works:
                     </p>
@@ -477,7 +477,7 @@ export default function Blog() {
                       <a href="https://knowhowmarketinglab.com/complete-guide-ai-seo/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Complete Guide to AI SEO</a>.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-8">
-                      The KnowHow Marketing Lab AI + SEO course covers all five steps of the Data-First SEO Method in detail, with hands-on exercises and real examples.{' '}
+                      The KnowHow Marketing Lab AI + SEO course covers all five steps of the Data-First AI SEO Method in detail, with hands-on exercises and real examples.{' '}
                       <a href="/#free-course" className="text-[#E98C28] font-semibold hover:underline">Start the AI + SEO course →</a>
                     </p>
 
@@ -499,7 +499,7 @@ export default function Blog() {
                     {/* Internal CTA */}
                     <div className="mt-10 p-6 bg-amber-50 rounded-2xl border border-[#E98C28]/30 text-center">
                       <p className="font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                        Want to learn the full Data-First SEO Method?
+                        Want to learn the full Data-First AI SEO Method?
                       </p>
                       <p className="text-gray-500 text-sm mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                         The free KnowHow Marketing Lab SEO course covers all 5 modules - including Google Search Console, GA4, keyword research, and on-page optimisation.

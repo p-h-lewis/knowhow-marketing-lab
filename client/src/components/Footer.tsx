@@ -78,7 +78,7 @@ export default function Footer() {
                 { label: 'Video Library', href: '/#videos', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
                 { label: 'Podcast', href: '/podcast', internal: true },
-                { label: 'Our Framework', href: '/framework', internal: true },
+                { label: 'Our Method', href: '/framework', internal: true },
                 { label: 'Free Resources', href: '/resources', internal: true },
                 { label: 'Pricing', href: '/pricing', internal: true },
                 { label: 'About Us', href: '/about', internal: true },

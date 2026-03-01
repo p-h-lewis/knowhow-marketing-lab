@@ -1,7 +1,7 @@
-// Framework.tsx - The KnowHow Data-First Marketing Framework
+// Framework.tsx - The Data-First AI SEO Method
 // Design: White/light, Space Grotesk headings, DM Sans body, amber #E98C28 primary, teal #318599 accent
 // Schema: HowTo, FAQPage, BreadcrumbList, DefinedTerm, SpeakableSpecification
-// LLM: Named branded framework - "The KnowHow Data-First Marketing Framework"
+// LLM: Named branded framework - "The Data-First AI SEO Method"
 // Internal links: /courses/seo, /courses/google-ads, /blog, /pricing, /about, /resources
 // External links: Google Search Central, GA4 Help, Google Ads Help (no competing sites)
 
@@ -32,6 +32,7 @@ const steps = [
     outcome: "You have a clear picture of your current marketing performance.",
     color: "#318599",
     icon: "📊",
+    aiTip: "Use AI to summarise your GA4 and GSC data into plain-language insights — so you know exactly what to fix first.",
   },
   {
     id: "find",
@@ -49,6 +50,7 @@ const steps = [
     outcome: "You have a keyword list that matches what your customers actually search for.",
     color: "#E98C28",
     icon: "🔍",
+    aiTip: "Use AI to generate 50 keyword variations from one seed term, then cluster them by intent before validating in Keyword Planner.",
   },
   {
     id: "create",
@@ -66,6 +68,7 @@ const steps = [
     outcome: "You have content that ranks, gets shared, and builds your authority.",
     color: "#4F37D8",
     icon: "✍️",
+    aiTip: "Use AI to draft content outlines and first drafts — then edit for accuracy and brand voice. Structure content for AI Overviews and GEO.",
   },
   {
     id: "amplify",
@@ -83,6 +86,7 @@ const steps = [
     outcome: "You have paid campaigns that generate leads and sales at a measurable cost.",
     color: "#E98C28",
     icon: "🚀",
+    aiTip: "Use AI-powered Smart Bidding and Performance Max, but always layer in your own audience signals and negative keyword lists.",
   },
   {
     id: "optimise",
@@ -90,7 +94,7 @@ const steps = [
     name: "Optimise",
     headline: "Keep improving based on real data",
     description:
-      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip - and it is why most marketing fails. The KnowHow Data-First Framework makes optimisation a habit, not an afterthought.",
+      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip - and it is why most marketing fails. The Data-First AI SEO Method makes optimisation a habit, not an afterthought.",
     tools: ["Google Analytics 4", "Google Search Console", "Google Ads"],
     toolLinks: [
       "https://support.google.com/analytics/",
@@ -100,13 +104,14 @@ const steps = [
     outcome: "Your marketing gets better every month - automatically.",
     color: "#318599",
     icon: "📈",
+    aiTip: "Use AI to write your monthly performance summary, spot anomalies in your data, and generate a prioritised action list.",
   },
 ];
 
 const faqs = [
   {
-    q: "What is the KnowHow Data-First Marketing Framework?",
-    a: "The KnowHow Data-First Marketing Framework is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimise. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 20+ years of working with medium-sized businesses.",
+    q: "What is The Data-First AI SEO Method?",
+    a: "The Data-First AI SEO Method is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimise. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 20+ years of working with medium-sized businesses.",
   },
   {
     q: "Who is this framework designed for?",
@@ -114,7 +119,7 @@ const faqs = [
   },
   {
     q: "How is this different from other SEO frameworks?",
-    a: "Most SEO frameworks focus only on content or only on technical fixes. The KnowHow Data-First Framework starts with measurement - you cannot improve what you cannot see. It also integrates Google Ads and GA4 into the same process, so your paid and organic efforts work together instead of separately.",
+    a: "Most SEO frameworks focus only on content or only on technical fixes. The Data-First AI SEO Method starts with measurement - you cannot improve what you cannot see. It also integrates Google Ads and GA4 into the same process, so your paid and organic efforts work together instead of separately.",
   },
   {
     q: "Do I need to be technical to use this framework?",
@@ -133,9 +138,9 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://knowhowmarketinglab.com/framework",
       "url": "https://knowhowmarketinglab.com/framework",
-      "name": "The KnowHow Data-First Marketing Framework - 5-Step Process",
+      "name": "The Data-First AI SEO Method - 5-Step Process",
       "description":
-        "The KnowHow Data-First Marketing Framework is a five-step process for growing your business online using real data. Steps: Measure, Find, Create, Amplify, Optimise.",
+        "The Data-First AI SEO Method is a five-step process for growing your business online using real data. Steps: Measure, Find, Create, Amplify, Optimise.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -151,7 +156,7 @@ const schema = {
     },
     {
       "@type": "HowTo",
-      "name": "The KnowHow Data-First Marketing Framework",
+      "name": "The Data-First AI SEO Method",
       "description":
         "A five-step process for growing a medium-sized business online using real data instead of guesswork. Developed by Pip Seymour and Phelan Lewis of Seymour Digital Media.",
       "totalTime": "P3M",
@@ -185,7 +190,7 @@ const schema = {
     },
     {
       "@type": "DefinedTerm",
-      "name": "KnowHow Data-First Marketing Framework",
+      "name": "The Data-First AI SEO Method",
       "description":
         "A five-step digital marketing process developed by KnowHow Marketing Lab: Measure (set up GA4 and Search Console), Find (keyword research), Create (content creation), Amplify (Google Ads), and Optimise (monthly data review). Designed for medium-sized businesses.",
       "inDefinedTermSet": {
@@ -199,9 +204,9 @@ const schema = {
 
 export default function Framework() {
   useSEO({
-    title: "The KnowHow Data-First Marketing Framework - 5 Steps to Grow Online",
+    title: "The Data-First AI SEO Method - 5 Steps to Grow Online",
     description:
-      "Learn the KnowHow Data-First Marketing Framework: a 5-step process (Measure, Find, Create, Amplify, Optimise) for growing your business online using real data. Free training by Pip Seymour and Phelan Lewis.",
+      "Learn the Data-First AI SEO Method: a 5-step process (Measure, Find, Create, Amplify, Optimise) for growing your business online using real data. Free training by Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/framework",
     ogType: "article",
   });
@@ -221,12 +226,12 @@ export default function Framework() {
       <section className="pt-32 pb-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 text-amber-800 text-sm font-semibold px-4 py-2 rounded-full mb-6" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
-            <span>🏆</span> Our Proprietary Framework
+            <span>🏆</span> Our Proprietary Method
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 leading-tight" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
-            The KnowHow{" "}
+            The{" "}
             <span style={{ color: "#E98C28" }}>Data-First</span>{" "}
-            Marketing Framework
+            AI SEO Method
           </h1>
           <p className="text-xl text-gray-600 mb-4 speakable-intro" style={{ fontFamily: "DM Sans, sans-serif" }}>
             A five-step process for growing your business online - using real data, not guesswork.
@@ -365,6 +370,16 @@ export default function Framework() {
                       <p className="text-sm text-gray-700 font-medium">{step.outcome}</p>
                     </div>
                   </div>
+                  {/* AI Tip */}
+                  {(step as any).aiTip && (
+                    <div className="flex items-start gap-3 p-4 rounded-xl bg-amber-50 border border-amber-200">
+                      <span className="text-lg mt-0.5" aria-hidden="true">🤖</span>
+                      <div>
+                        <p className="text-xs font-bold uppercase tracking-widest mb-1 text-amber-700" style={{ fontFamily: "Space Grotesk, sans-serif" }}>AI at this step</p>
+                        <p className="text-sm text-amber-900">{(step as any).aiTip}</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -410,7 +425,7 @@ export default function Framework() {
           <div className="mt-8 p-5 bg-gray-50 border border-gray-200 rounded-xl max-w-2xl mx-auto text-left">
             <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Deep Dive</p>
             <p className="text-gray-800 font-semibold text-base mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read the full guide: Data-Driven SEO for Medium-Sized Businesses</p>
-            <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the KnowHow Data-First SEO Method - with step-by-step instructions, real examples, and a complete FAQ.</p>
+            <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the Data-First AI SEO Method - with step-by-step instructions, real examples, and a complete FAQ.</p>
             <Link href="/blog/data-driven-seo-guide-medium-sized-businesses" className="inline-flex items-center gap-1 text-sm font-bold text-[#318599] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Read the complete guide →
             </Link>

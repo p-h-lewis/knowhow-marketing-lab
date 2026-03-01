@@ -185,6 +185,7 @@ export default function About() {
                   role: 'SEO & Content Strategy Lead',
                   color: '#E98C28',
                   initials: 'PS',
+                  photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png',
                   bio: [
                     'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. With over 20 years of digital marketing agency experience, Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
                     'Pip specialises in Google Search Console analysis, GA4 reporting, content strategy, and Generative Engine Optimisation (GEO) - the practice of optimising content to be cited by AI systems like ChatGPT and Google AI Overviews.',
@@ -199,6 +200,7 @@ export default function About() {
                   role: 'Google Ads & Analytics Lead',
                   color: '#318599',
                   initials: 'PL',
+                  photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png',
                   bio: [
                     'Phelan Lewis is the Google Ads and marketing analytics lead at KnowHow Marketing Lab. He has managed millions of dollars in Google Ads spend across industries including retail, professional services, healthcare, and manufacturing.',
                     'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in The Lab.',
@@ -216,13 +218,24 @@ export default function About() {
                   itemType="https://schema.org/Person"
                 >
                   <div className="flex items-center gap-4 mb-5">
-                    <div
-                      className="w-16 h-16 rounded-full flex items-center justify-center text-white font-extrabold text-xl flex-shrink-0"
-                      style={{ background: instructor.color, fontFamily: 'Space Grotesk, sans-serif' }}
-                      aria-hidden="true"
-                    >
-                      {instructor.initials}
-                    </div>
+                    {(instructor as any).photo ? (
+                      <img
+                        src={(instructor as any).photo}
+                        alt={`${instructor.name}, ${instructor.role} at KnowHow Marketing Lab`}
+                        className="w-20 h-20 rounded-full object-cover flex-shrink-0 border-2 shadow-sm"
+                        style={{ borderColor: instructor.color }}
+                        itemProp="image"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div
+                        className="w-20 h-20 rounded-full flex items-center justify-center text-white font-extrabold text-xl flex-shrink-0"
+                        style={{ background: instructor.color, fontFamily: 'Space Grotesk, sans-serif' }}
+                        aria-hidden="true"
+                      >
+                        {instructor.initials}
+                      </div>
+                    )}
                     <div>
                       <h3 className="font-extrabold text-gray-900 text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
                         {instructor.name}

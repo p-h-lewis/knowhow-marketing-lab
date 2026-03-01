@@ -27,7 +27,7 @@ export default function Navbar() {
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Podcast', href: '/podcast' },
-    { label: 'Framework', href: '/framework' },
+    { label: 'Our Method', href: '/framework' },
     { label: 'Resources', href: '/resources' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },

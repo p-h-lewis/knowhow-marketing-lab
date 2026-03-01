@@ -15,11 +15,11 @@ const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login';
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
 const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.' },
-  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.' },
+  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds — before you write a single word.' },
+  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.', aiTip: 'Ask AI to explain your GA4 and GSC reports in plain language — no data analyst required.' },
+  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.', aiTip: 'Use AI to generate 50 keyword variations from one seed term — then validate them in Keyword Planner.' },
+  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.', aiTip: 'Use AI to draft title tags and meta descriptions at scale — then edit for brand voice in minutes.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.', aiTip: 'AI Overviews and Google AI now pull from your Business Profile — learn exactly how to optimise for both.' },
 ];
 
 const faqs = [
@@ -209,9 +209,13 @@ export default function CourseSEO() {
                   <div className="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0">
                     <span className="text-sm font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{m.num}</span>
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h3 className="font-bold text-gray-900 text-sm mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">{m.title}</h3>
-                    <p className="text-xs text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>
+                    <p className="text-xs text-gray-500 leading-relaxed mb-2.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>
+                    <div className="flex items-start gap-1.5 bg-amber-50 rounded-lg px-2.5 py-1.5">
+                      <span className="text-xs" aria-hidden="true">🤖</span>
+                      <p className="text-xs text-amber-800 leading-snug" style={{ fontFamily: 'DM Sans, sans-serif' }}><strong>AI tip:</strong> {m.aiTip}</p>
+                    </div>
                   </div>
                 </article>
               ))}

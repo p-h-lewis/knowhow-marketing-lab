@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - App Root
 // Light theme, conversion-optimized routing
 // Code-split with React.lazy: each page loads only when visited
-// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you
+// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -29,6 +29,7 @@ const CourseSEO = lazy(() => import("./pages/CourseSEO"));
 const CourseGoogleAds = lazy(() => import("./pages/CourseGoogleAds"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 const Podcast = lazy(() => import("./pages/Podcast"));
+const FreeCourse = lazy(() => import("./pages/FreeCourse"));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -68,6 +69,7 @@ function Router() {
         <Route path="/courses/google-ads" component={CourseGoogleAds} />
         <Route path="/thank-you" component={ThankYou} />
         <Route path="/podcast" component={Podcast} />
+        <Route path="/free-course" component={FreeCourse} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>
