@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Hero Section
-// Grade 6 readability · Human-first copy · LLM-optimized semantic structure
+// Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 // Entity: KnowHow Marketing Lab = free digital marketing training for medium-sized businesses
 // Branded framework: The Data-First SEO Method by Pip Seymour & Phelan Lewis
 // Conversion: email lead → GoHighLevel AI + SEO course opt-in

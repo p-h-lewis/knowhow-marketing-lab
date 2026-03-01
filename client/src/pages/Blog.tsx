@@ -5,7 +5,7 @@
 // External links: → Google Search Central, Google Ads Help, GA4 Help (non-competing authority only)
 // Target audience: Medium-sized businesses
 // Readability: Grade 5-6
-// GEO priority: Data-Driven SEO, Generative Engine Optimization
+// GEO priority: Data-Driven SEO, Generative Engine Optimisation
 
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
@@ -86,13 +86,13 @@ const blogPosts = [
     readTime: '9 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
-    imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximize Conversions, and Manual CPC explained',
+    imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximise Conversions, and Manual CPC explained',
     externalUrl: 'https://knowhowmarketinglab.com/ultimate-guide-google-ads-bidding-strategies-2026/',
   },
   {
     slug: 'complete-guide-ai-seo',
     title: 'The Complete Guide to AI SEO',
-    excerpt: 'All 7 AI search optimization acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
+    excerpt: 'All 7 AI search optimisation acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'October 19, 2025',
@@ -190,11 +190,11 @@ const pillarFaqs = [
   },
   {
     q: 'How long does it take to see results from SEO?',
-    a: 'For most medium-sized businesses, you can expect to see meaningful improvements in 3 to 6 months with consistent effort. Some quick wins - like fixing technical issues or optimizing existing pages - can show results in weeks. New content targeting low-competition keywords can rank in 1 to 3 months.',
+    a: 'For most medium-sized businesses, you can expect to see meaningful improvements in 3 to 6 months with consistent effort. Some quick wins - like fixing technical issues or optimising existing pages - can show results in weeks. New content targeting low-competition keywords can rank in 1 to 3 months.',
   },
   {
-    q: 'What is Generative Engine Optimization (GEO)?',
-    a: 'GEO is the practice of optimizing your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating comprehensive, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
+    q: 'What is Generative Engine Optimisation (GEO)?',
+    a: 'GEO is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating comprehensive, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
   },
 ];
 
@@ -343,7 +343,7 @@ export default function Blog() {
                         <li><a href="#google-search-console-setup" className="hover:underline">Step 1: Google Search Console setup</a></li>
                         <li><a href="#ga4-for-seo" className="hover:underline">Step 2: GA4 for SEO decisions</a></li>
                         <li><a href="#keyword-research" className="hover:underline">Step 3: Keyword research with real data</a></li>
-                        <li><a href="#on-page-optimization" className="hover:underline">Step 4: On-page optimization</a></li>
+                        <li><a href="#on-page-optimisation" className="hover:underline">Step 4: On-page optimisation</a></li>
                         <li><a href="#geo-ai-overviews" className="hover:underline">Step 5: GEO and AI Overviews</a></li>
                         <li><a href="#pillar-faqs" className="hover:underline">Frequently asked questions</a></li>
                       </ul>
@@ -410,7 +410,7 @@ export default function Blog() {
                       <li><strong>Measure first</strong> - set up Google Search Console and GA4 before doing anything else</li>
                       <li><strong>Find your baseline</strong> - understand what traffic and rankings you already have</li>
                       <li><strong>Identify opportunities</strong> - find keywords where you rank on page 2 or 3 and can realistically reach page 1</li>
-                      <li><strong>Optimize with intent</strong> - improve pages based on what the data tells you, not what you think looks good</li>
+                      <li><strong>Optimise with intent</strong> - improve pages based on what the data tells you, not what you think looks good</li>
                       <li><strong>Measure and repeat</strong> - track changes, learn from results, and keep improving</li>
                     </ol>
 
@@ -455,8 +455,8 @@ export default function Blog() {
                       (free with a Google Ads account) gives you real search volume data directly from Google. Focus on keywords with clear commercial intent - the ones people search when they are ready to buy or hire.
                     </p>
 
-                    <h2 id="on-page-optimization" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      Step 4: On-Page Optimization That Actually Works
+                    <h2 id="on-page-optimisation" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                      Step 4: On-Page Optimisation That Actually Works
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       On-page SEO is about making sure each page on your website clearly communicates its topic to both Google and your visitors. The basics are: a clear H1 heading that includes your target keyword, a meta title and description that make people want to click, and content that fully answers the question the searcher is asking.
@@ -470,7 +470,7 @@ export default function Blog() {
                       Step 5: GEO - Getting Cited in AI Overviews and ChatGPT
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Generative Engine Optimization (GEO) is the practice of optimizing your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
+                      Generative Engine Optimisation (GEO) is the practice of optimising your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Comprehensive coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}
@@ -502,7 +502,7 @@ export default function Blog() {
                         Want to learn the full Data-First SEO Method?
                       </p>
                       <p className="text-gray-500 text-sm mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                        The free KnowHow Marketing Lab SEO course covers all 5 modules - including Google Search Console, GA4, keyword research, and on-page optimization.
+                        The free KnowHow Marketing Lab SEO course covers all 5 modules - including Google Search Console, GA4, keyword research, and on-page optimisation.
                       </p>
                       <div className="flex flex-col sm:flex-row gap-3 justify-center">
                         <a href="/#free-course" className="btn-primary text-sm py-2.5 px-5">

@@ -63,7 +63,7 @@ export default function Home() {
                   "name": "Pip Seymour",
                   "jobTitle": "SEO & Content Strategy Lead",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
-                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimization", "Content Strategy"]
+                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimisation", "Content Strategy"]
                 },
                 {
                   "@type": "Person",
@@ -85,7 +85,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
-            "description": "A 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization (GEO). No credit card required.",
+            "description": "A 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimisation (GEO). No credit card required.",
             "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
             "provider": {
               "@type": "Organization",
@@ -109,11 +109,11 @@ export default function Home() {
               ]
             },
             "about": [
-              { "@type": "Thing", "name": "Search Engine Optimization" },
+              { "@type": "Thing", "name": "Search Engine Optimisation" },
               { "@type": "Thing", "name": "Google Search Console" },
               { "@type": "Thing", "name": "Google Analytics 4" },
               { "@type": "Thing", "name": "Google Business Profile" },
-              { "@type": "Thing", "name": "Generative Engine Optimization" }
+              { "@type": "Thing", "name": "Generative Engine Optimisation" }
             ]
           })
         }}

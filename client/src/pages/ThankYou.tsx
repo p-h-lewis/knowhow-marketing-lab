@@ -15,7 +15,7 @@ const modules = [
   { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 - the two free tools that show you exactly what is happening on your site.' },
   { num: '03', title: 'Keyword Research Basics', desc: 'Find the keywords your customers are actually searching for using Google\'s free Keyword Planner.' },
   { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags and meta descriptions that get clicks, and build internal links that help Google understand your site.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimize your Google Business Profile so you show up in local search results.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results.' },
 ];
 
 export default function ThankYou() {

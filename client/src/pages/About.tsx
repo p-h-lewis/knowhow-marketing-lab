@@ -66,7 +66,7 @@ export default function About() {
                   "name": "Pip Seymour",
                   "jobTitle": "SEO & Content Strategy Lead",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
-                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimization", "Content Strategy", "Digital Marketing"]
+                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimisation", "Content Strategy", "Digital Marketing"]
                 },
                 {
                   "@type": "Person",
@@ -123,7 +123,7 @@ export default function About() {
                   {[
                     'Data-driven SEO using GA4, GSC, and real analytics',
                     'Google Ads strategy built for ROI, not just clicks',
-                    'Content building and Generative Engine Optimization (GEO)',
+                    'Content building and Generative Engine Optimisation (GEO)',
                     'AI marketing tools: ChatGPT, AI agents, automation',
                     'Google Tag Manager and conversion tracking setup',
                     'Training for medium-sized businesses and marketing teams',
@@ -187,7 +187,7 @@ export default function About() {
                   initials: 'PS',
                   bio: [
                     'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. With over 20 years of digital marketing agency experience, Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
-                    'Pip specializes in Google Search Console analysis, GA4 reporting, content strategy, and Generative Engine Optimization (GEO) - the practice of optimizing content to be cited by AI systems like ChatGPT and Google AI Overviews.',
+                    'Pip specialises in Google Search Console analysis, GA4 reporting, content strategy, and Generative Engine Optimisation (GEO) - the practice of optimising content to be cited by AI systems like ChatGPT and Google AI Overviews.',
                     'Pip\'s approach is always data-first: no guessing, no vanity metrics, no link building. Just clear analysis of what Google is already telling you and a strategy to act on it.',
                   ],
                   expertise: ['SEO Strategy', 'Google Search Console', 'GA4 Analytics', 'GEO / AI SEO', 'Content Strategy', 'Google Business Profile'],

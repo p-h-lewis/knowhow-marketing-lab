@@ -13,11 +13,11 @@ const resourceCategories = [
     title: 'SEO & Google Search',
     color: '#318599',
     icon: '🔍',
-    description: 'Official Google documentation for understanding how search works, how to optimize your site, and how to use Google Search Console.',
+    description: 'Official Google documentation for understanding how search works, how to optimise your site, and how to use Google Search Console.',
     resources: [
       {
         name: 'Google SEO Starter Guide',
-        desc: 'The official Google guide to search engine optimization fundamentals. The best starting point for any business learning SEO.',
+        desc: 'The official Google guide to search engine optimisation fundamentals. The best starting point for any business learning SEO.',
         href: 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide',
         source: 'Google Search Central',
       },
@@ -35,7 +35,7 @@ const resourceCategories = [
       },
       {
         name: 'Google Business Profile Help Center',
-        desc: 'Official guide to setting up and optimizing your Google Business Profile for local search and Google Maps visibility.',
+        desc: 'Official guide to setting up and optimising your Google Business Profile for local search and Google Maps visibility.',
         href: 'https://support.google.com/business/',
         source: 'Google Support',
       },
@@ -89,7 +89,7 @@ const resourceCategories = [
     title: 'Google Ads',
     color: '#4F37D8',
     icon: '📢',
-    description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimization.',
+    description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimisation.',
     resources: [
       {
         name: 'Google Ads Help Center',

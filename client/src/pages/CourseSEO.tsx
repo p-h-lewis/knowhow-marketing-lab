@@ -18,8 +18,8 @@ const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.' },
   { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.' },
   { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimization without losing your brand voice.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimize your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.' },
+  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.' },
 ];
 
 const faqs = [

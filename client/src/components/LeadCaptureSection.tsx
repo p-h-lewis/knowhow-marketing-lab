@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Lead Capture + FAQ Section
-// Grade 6 readability · Human-first · LLM-optimized FAQ schema
+// Grade 6 readability · Human-first · LLM-optimised FAQ schema
 // FAQ answers written as complete, citable sentences for AI Overviews
 // Internal links: /pricing, /resources, /about, /blog
 
@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other marketing courses?',
-    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimization (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
+    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimisation (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
   },
   {
-    q: 'What is Generative Engine Optimization (GEO)?',
-    a: 'Generative Engine Optimization (GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
+    q: 'What is Generative Engine Optimisation (GEO)?',
+    a: 'Generative Engine Optimisation (GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 
