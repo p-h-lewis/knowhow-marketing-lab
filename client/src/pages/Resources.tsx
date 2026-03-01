@@ -12,7 +12,7 @@ const resourceCategories = [
   {
     title: 'SEO & Google Search',
     color: '#318599',
-    icon: '🔍',
+    icon: '',
     description: 'Official Google documentation for understanding how search works, how to optimise your site, and how to use Google Search Console.',
     resources: [
       {
@@ -44,7 +44,7 @@ const resourceCategories = [
   {
     title: 'Google Analytics 4 (GA4)',
     color: '#E98C28',
-    icon: '📊',
+    icon: '',
     description: 'Official Google documentation for setting up, configuring, and using Google Analytics 4 to understand your website traffic.',
     resources: [
       {
@@ -88,7 +88,7 @@ const resourceCategories = [
   {
     title: 'Google Ads',
     color: '#4F37D8',
-    icon: '📢',
+    icon: '',
     description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimisation.',
     resources: [
       {
@@ -138,7 +138,7 @@ const resourceCategories = [
   {
     title: 'Google Tag Manager',
     color: '#318599',
-    icon: '🏷️',
+    icon: '',
     description: 'Official Google Tag Manager documentation - how to set up containers, configure tags, and deploy tracking without touching code.',
     resources: [
       {
@@ -170,7 +170,7 @@ const resourceCategories = [
   {
     title: 'Marketing Research & Insights',
     color: '#E98C28',
-    icon: '💡',
+    icon: '',
     description: 'Official Google research and insights for marketers - consumer trends, digital marketing data, and industry benchmarks.',
     resources: [
       {
@@ -202,7 +202,7 @@ const resourceCategories = [
   {
     title: 'Google Learning & Certifications',
     color: '#4F37D8',
-    icon: '🎓',
+    icon: '',
     description: 'Free official Google courses, certifications, and training programs. Learn directly from Google at your own pace.',
     resources: [
       {
@@ -246,7 +246,7 @@ const resourceCategories = [
   {
     title: 'AI & Generative Search',
     color: '#318599',
-    icon: '🤖',
+    icon: '',
     description: 'Official resources for understanding how AI is changing search, content discovery, and digital marketing.',
     resources: [
       {

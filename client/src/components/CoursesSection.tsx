@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Courses Section
-// Google Ads Mastery course is coming soon - hidden until launch
+// Google Ads is taught as live monthly training inside The Lab
 // Currently shows: AI + SEO Course (free) + AI Marketing & Automation (community)
 
 const courses = [
@@ -54,7 +54,7 @@ export default function CoursesSection() {
           </p>
         </div>
 
-        {/* 2-column grid — Google Ads course coming soon */}
+        {/* 2-column grid — Google Ads taught live monthly in The Lab */}
         <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {courses.map(course => (
             <article
@@ -130,28 +130,28 @@ export default function CoursesSection() {
           ))}
         </div>
 
-        {/* Coming soon teaser for Google Ads course */}
-        <div className="mt-6 max-w-3xl mx-auto border border-dashed border-[#E98C28]/40 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-4 bg-amber-50/40">
-          <div className="w-10 h-10 rounded-xl bg-[#E98C28]/15 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-            <svg className="w-5 h-5 text-[#E98C28]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        {/* Google Ads live training teaser */}
+        <div className="mt-6 max-w-3xl mx-auto border border-[#318599]/30 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-4 bg-teal-50/40">
+          <div className="w-10 h-10 rounded-xl bg-[#318599]/15 flex items-center justify-center flex-shrink-0" aria-hidden="true">
+            <svg className="w-5 h-5 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
             </svg>
           </div>
           <div className="flex-1 text-center sm:text-left">
             <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Google Ads Mastery Course — Coming Soon
+              Google Ads — Live Monthly Training Inside The Lab
             </p>
             <p className="text-xs text-gray-500 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Search, Display & Performance Max. Launching soon exclusively for Lab members.
+              Search, Display & Performance Max. Taught live every month with full recordings for Lab members.
             </p>
           </div>
           <a
             href="/pricing"
-            className="text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap flex-shrink-0"
+            className="text-xs font-bold text-[#318599] hover:underline whitespace-nowrap flex-shrink-0"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-            aria-label="Join The Lab to get early access to the Google Ads course"
+            aria-label="Join The Lab to access live Google Ads training"
           >
-            Join to get early access →
+            Join The Lab →
           </a>
         </div>
 

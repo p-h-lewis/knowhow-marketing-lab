@@ -129,7 +129,7 @@ export default function ExitIntentPopup() {
                 className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold"
                 style={{ background: '#e8f4f7', color: '#318599' }}
               >
-                <span aria-hidden="true">🤖</span>
+                
                 Includes AI Marketing Tools
               </div>
             </div>

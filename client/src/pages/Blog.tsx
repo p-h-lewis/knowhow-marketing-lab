@@ -17,7 +17,7 @@ import { useSEO } from "@/hooks/useSEO";
 const categories = ['All', 'SEO', 'Google Ads', 'AI Marketing', 'Analytics'];
 
 const blogPosts = [
-  // ── PILLAR ARTICLE (new) ──
+  //  PILLAR ARTICLE (new) 
   {
     slug: 'data-driven-seo-guide-medium-sized-businesses',
     title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses (2026)',
@@ -32,7 +32,7 @@ const blogPosts = [
     imageAlt: 'Data-driven SEO analytics dashboard showing Google Search Console and GA4 metrics for a medium-sized business',
     externalUrl: null,
   },
-  // ── EXISTING POSTS ──
+  //  EXISTING POSTS 
   {
     slug: 'ultimate-guide-google-ads-campaign-types-2026',
     title: 'The Ultimate Guide to Google Ads Campaign Types (Updated for 2026)',

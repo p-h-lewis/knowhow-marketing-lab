@@ -30,7 +30,7 @@ const communityFeatures = [
   { label: 'Weekly live Q&A & support (Thursdays)', included: true },
   { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
-  { label: 'Google Ads Mastery course (coming soon)', included: true },
+  { label: 'Google Ads — live monthly training + recordings', included: true },
   { label: 'AI Marketing & Automation course', included: true },
   { label: 'Private community group access', included: true },
   { label: 'Live Q&A with Pip & Phelan', included: true },
@@ -45,7 +45,7 @@ const pricingFaqs = [
   },
   {
     q: 'What do I get in The Lab that I cannot get for free?',
-    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like SEO audits, AI tools, and soon Google Ads), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. The Google Ads Mastery course is coming soon and will be included for all members.',
+    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (Google Ads, SEO audits, AI tools, and more), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. Google Ads is taught live every month — no separate course needed.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -106,7 +106,7 @@ export default function Pricing() {
                 "name": "The Lab Membership",
                 "price": "29",
                 "priceCurrency": "USD",
-                "description": "Monthly membership with weekly live classes, AI marketing course, private community, and all session replays. Google Ads Mastery course coming soon.",
+                "description": "Monthly membership with weekly live Q&A, monthly Google Ads live training, AI marketing course, private community, and all session replays.",
                 "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               }
             ]

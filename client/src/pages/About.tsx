@@ -117,7 +117,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-[#f0faf7] rounded-2xl border border-[#318599]/20 p-6">
                 <h3 className="font-extrabold text-[#318599] text-lg mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ This is what we do
+                   This is what we do
                 </h3>
                 <ul className="space-y-2.5">
                   {[
@@ -142,7 +142,7 @@ export default function About() {
               </div>
               <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">
                 <h3 className="font-extrabold text-gray-500 text-lg mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✗ This is what we do not do
+                   This is what we do not do
                 </h3>
                 <ul className="space-y-2.5">
                   {[

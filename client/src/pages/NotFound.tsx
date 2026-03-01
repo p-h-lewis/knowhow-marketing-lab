@@ -98,7 +98,7 @@ export default function NotFound() {
                 style={{ animation: 'bounce 2s infinite' }}
                 aria-hidden="true"
               >
-                🔍
+                
               </span>
             </div>
           </div>

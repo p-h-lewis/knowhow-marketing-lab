@@ -213,7 +213,7 @@ export default function CourseSEO() {
                     <h3 className="font-bold text-gray-900 text-sm mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">{m.title}</h3>
                     <p className="text-xs text-gray-500 leading-relaxed mb-2.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>
                     <div className="flex items-start gap-1.5 bg-amber-50 rounded-lg px-2.5 py-1.5">
-                      <span className="text-xs" aria-hidden="true">🤖</span>
+                      
                       <p className="text-xs text-amber-800 leading-snug" style={{ fontFamily: 'DM Sans, sans-serif' }}><strong>AI tip:</strong> {m.aiTip}</p>
                     </div>
                   </div>

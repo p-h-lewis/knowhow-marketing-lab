@@ -395,7 +395,7 @@ export default function BlogPost() {
                   className="inline-flex items-center gap-1 text-sm font-semibold hover:underline"
                   style={{ color: "#318599" }}
                 >
-                  📖 {section.externalLink.text} ↗
+                   {section.externalLink.text} ↗
                 </a>
               )}
             </section>

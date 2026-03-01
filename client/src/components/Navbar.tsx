@@ -33,7 +33,7 @@ export default function Navbar() {
     { label: 'About', href: '/about' },
   ];
 
-  // Google Ads Mastery course is coming soon - hidden until launch
+  // Google Ads is taught as live monthly training inside The Lab
   const courseLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo', badge: 'Free' },
   ];

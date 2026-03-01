@@ -143,7 +143,7 @@ export default function LeadCaptureSection() {
                 aria-live="polite"
               >
                 <p className="text-white font-bold text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ You are in! Welcome to KnowHow Marketing Lab.
+                   You are in! Welcome to KnowHow Marketing Lab.
                 </p>
                 <p className="text-gray-300 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Your AI + SEO course is opening now. Check your email for your access link.

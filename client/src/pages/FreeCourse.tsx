@@ -23,7 +23,7 @@ const faqs = [
   { q: 'How long does it take?', a: 'Each module is 15–25 minutes. You can complete the full course in a weekend, or work through it at your own pace.' },
   { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to get more traffic from Google without guessing or paying for expensive agencies.' },
   { q: 'Do I need any prior SEO knowledge?', a: 'No. The course starts from the basics and builds up. If you know how to use Google, you can do this course.' },
-  { q: 'What happens after I complete the course?', a: 'You can join The Lab for $29/month to get access to the full training library, live Q&A sessions every Thursday, and the Google Ads training when it launches.' },
+  { q: 'What happens after I complete the course?', a: 'You can join The Lab for $29/month to get access to the full training library, live Q&A sessions every Thursday, and monthly live Google Ads training with full recordings.' },
 ];
 
 const schema = {
@@ -142,7 +142,7 @@ export default function FreeCourse() {
           <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
             {/* Trust badge */}
             <div className="inline-flex items-center gap-2 bg-white border border-amber-200 text-amber-800 text-xs font-bold px-4 py-2 rounded-full mb-6 shadow-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              <span>⭐</span> 5.0 stars · 79 Google reviews · Seymour Digital Media
+              5.0 stars · 79 Google reviews · Seymour Digital Media
             </div>
 
             <h1
@@ -160,10 +160,10 @@ export default function FreeCourse() {
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-sm text-gray-500">
-              <span className="flex items-center gap-1.5"><span className="text-green-500">✓</span> 100% free</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-500">✓</span> No credit card</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-500">✓</span> 5 modules · ~2.5 hours</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-500">✓</span> Instant access</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> 100% free</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> No credit card</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> 5 modules · ~2.5 hours</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> Instant access</span>
             </div>
 
             <a
@@ -207,7 +207,7 @@ export default function FreeCourse() {
                     <h3 className="font-bold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{m.title}</h3>
                     <p className="text-sm text-gray-500 leading-relaxed mb-2.5">{m.desc}</p>
                     <div className="flex items-start gap-1.5 bg-amber-50 rounded-lg px-2.5 py-1.5">
-                      <span className="text-xs" aria-hidden="true">🤖</span>
+                      
                       <p className="text-xs text-amber-800 leading-snug"><strong>AI tip:</strong> {m.aiTip}</p>
                     </div>
                   </div>

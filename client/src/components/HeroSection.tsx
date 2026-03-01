@@ -111,7 +111,7 @@ export default function HeroSection() {
             ) : (
               <div className="bg-[#e6f4f7] border border-[#318599] rounded-lg p-4 mb-6 max-w-lg" role="status" aria-live="polite">
                 <p className="text-[#1e6b7e] font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ Great! Opening your AI + SEO course now…
+                   Great! Opening your AI + SEO course now…
                 </p>
               </div>
             )}
@@ -119,9 +119,9 @@ export default function HeroSection() {
             {/* What you get - scannable for LLMs */}
             <ul className="flex flex-col gap-2 mb-8 max-w-lg" aria-label="What you get for free">
               {[
-                { icon: '✓', text: '60+ free video lessons on YouTube' },
-                { icon: '✓', text: 'Full 5-module SEO course - no credit card needed' },
-                { icon: '✓', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
+                { icon: '', text: '60+ free video lessons on YouTube' },
+                { icon: '', text: 'Full 5-module SEO course - no credit card needed' },
+                { icon: '', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>

@@ -31,7 +31,7 @@ const steps = [
     ],
     outcome: "You have a clear picture of your current marketing performance.",
     color: "#318599",
-    icon: "📊",
+    icon: "",
     aiTip: "Use AI to summarise your GA4 and GSC data into plain-language insights — so you know exactly what to fix first.",
   },
   {
@@ -49,7 +49,7 @@ const steps = [
     ],
     outcome: "You have a keyword list that matches what your customers actually search for.",
     color: "#E98C28",
-    icon: "🔍",
+    icon: "",
     aiTip: "Use AI to generate 50 keyword variations from one seed term, then cluster them by intent before validating in Keyword Planner.",
   },
   {
@@ -67,7 +67,7 @@ const steps = [
     ],
     outcome: "You have content that ranks, gets shared, and builds your authority.",
     color: "#4F37D8",
-    icon: "✍️",
+    icon: "",
     aiTip: "Use AI to draft content outlines and first drafts — then edit for accuracy and brand voice. Structure content for AI Overviews and GEO.",
   },
   {
@@ -85,7 +85,7 @@ const steps = [
     ],
     outcome: "You have paid campaigns that generate leads and sales at a measurable cost.",
     color: "#E98C28",
-    icon: "🚀",
+    icon: "",
     aiTip: "Use AI-powered Smart Bidding and Performance Max, but always layer in your own audience signals and negative keyword lists.",
   },
   {
@@ -103,7 +103,7 @@ const steps = [
     ],
     outcome: "Your marketing gets better every month - automatically.",
     color: "#318599",
-    icon: "📈",
+    icon: "",
     aiTip: "Use AI to write your monthly performance summary, spot anomalies in your data, and generate a prioritised action list.",
   },
 ];
@@ -226,7 +226,7 @@ export default function Framework() {
       <section className="pt-32 pb-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 text-amber-800 text-sm font-semibold px-4 py-2 rounded-full mb-6" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
-            <span>🏆</span> Our Proprietary Method
+            Our Proprietary Method
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 leading-tight" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
             The{" "}
@@ -364,7 +364,7 @@ export default function Framework() {
                     className="flex items-start gap-3 p-4 rounded-xl border-l-4"
                     style={{ borderColor: step.color, backgroundColor: `${step.color}08` }}
                   >
-                    <span className="text-lg mt-0.5">✅</span>
+                    <span className="text-lg mt-0.5"></span>
                     <div>
                       <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: step.color, fontFamily: "Space Grotesk, sans-serif" }}>Outcome</p>
                       <p className="text-sm text-gray-700 font-medium">{step.outcome}</p>
@@ -373,7 +373,7 @@ export default function Framework() {
                   {/* AI Tip */}
                   {(step as any).aiTip && (
                     <div className="flex items-start gap-3 p-4 rounded-xl bg-amber-50 border border-amber-200">
-                      <span className="text-lg mt-0.5" aria-hidden="true">🤖</span>
+                      
                       <div>
                         <p className="text-xs font-bold uppercase tracking-widest mb-1 text-amber-700" style={{ fontFamily: "Space Grotesk, sans-serif" }}>AI at this step</p>
                         <p className="text-sm text-amber-900">{(step as any).aiTip}</p>
