@@ -201,7 +201,7 @@ export default function About() {
                   initials: 'PL',
                   bio: [
                     'Phelan Lewis is the Google Ads and marketing analytics lead at KnowHow Marketing Lab. He has managed millions of dollars in Google Ads spend across industries including retail, professional services, healthcare, and manufacturing.',
-                    'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in The KnowHow Lab.',
+                    'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in The Lab.',
                     'Phelan believes that Google Ads only works when it is connected to solid analytics. His training always starts with GA4 and conversion tracking before touching a single campaign.',
                   ],
                   expertise: ['Google Ads Strategy', 'Google Ads Editor', 'GA4 & Conversion Tracking', 'Google Tag Manager', 'AI Marketing Automation', 'Performance Max'],
@@ -374,7 +374,7 @@ export default function About() {
               {[
                 { label: 'AI + SEO Course', href: '/#free-course', desc: '5 modules, no credit card' },
                 { label: 'Video Library', href: '/#videos', desc: '60+ free lessons' },
-                { label: 'The KnowHow Lab', href: '/pricing', desc: '$29/mo membership' },
+                { label: 'The Lab', href: '/pricing', desc: '$29/mo membership' },
                 { label: 'Free Resources', href: '/resources', desc: 'Official Google docs' },
               ].map(link => (
                 <a

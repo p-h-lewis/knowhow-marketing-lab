@@ -243,7 +243,7 @@ export default function FreeCourseSection() {
                 Want to go deeper?
               </p>
               <p className="text-xs text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                The KnowHow Lab adds weekly live Q&A, monthly deep-dive training, and the AI Marketing & Automation course.
+                The Lab adds weekly live Q&A, monthly deep-dive training, and the AI Marketing & Automation course.
               </p>
               <a
                 href="/pricing"

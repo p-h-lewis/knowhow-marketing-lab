@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Pricing Page
-// /pricing - Free vs The KnowHow Lab comparison
+// /pricing - Free vs The Lab comparison
 // Schema: PriceSpecification, Offer, FAQPage
 // Internal links: → /free-course, → /community, → /videos
 // External links: → skillshop.withgoogle.com (Google certifications - non-competing authority)
@@ -44,8 +44,8 @@ const pricingFaqs = [
     a: 'Yes, completely free. No credit card, no trial period, no hidden costs. The AI + SEO course and all 60+ YouTube videos are available with no sign-up required to watch.',
   },
   {
-    q: 'What do I get in The KnowHow Lab that I cannot get for free?',
-    a: 'The KnowHow Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like SEO audits, AI tools, and soon Google Ads), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. The Google Ads Mastery course is coming soon and will be included for all members.',
+    q: 'What do I get in The Lab that I cannot get for free?',
+    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like SEO audits, AI tools, and soon Google Ads), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. The Google Ads Mastery course is coming soon and will be included for all members.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -57,7 +57,7 @@ const pricingFaqs = [
   },
   {
     q: 'Is the community hosted on GoHighLevel?',
-    a: 'Yes. The KnowHow Lab is hosted on the GoHighLevel platform at learnwith.seymourdigitalmedia.com. GoHighLevel provides a secure, all-in-one community and course platform.',
+    a: 'Yes. The Lab is hosted on the GoHighLevel platform at learnwith.seymourdigitalmedia.com. GoHighLevel provides a secure, all-in-one community and course platform.',
   },
   {
     q: 'Do I need any prior marketing experience?',
@@ -67,8 +67,8 @@ const pricingFaqs = [
 
 export default function Pricing() {
   useSEO({
-    title: "Pricing - AI + SEO Course & The KnowHow Lab | KnowHow Marketing Lab",
-    description: "Start free with our SEO course, or join the KnowHow Marketing Lab community for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
+    title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
+    description: "Start free with our SEO course, or join The Lab for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });
@@ -82,8 +82,8 @@ export default function Pricing() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab Pricing - Free vs The KnowHow Lab",
-            "description": "Compare KnowHow Marketing Lab's AI + SEO course with The KnowHow Lab membership ($29/month). See exactly what is included in each plan.",
+            "name": "KnowHow Marketing Lab Pricing - Free vs The Lab",
+            "description": "Compare KnowHow Marketing Lab's free AI + SEO course with The Lab membership ($29/month). See exactly what is included in each plan.",
             "url": "https://knowhowmarketinglab.com/pricing",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -103,7 +103,7 @@ export default function Pricing() {
               },
               {
                 "@type": "Offer",
-                "name": "The KnowHow Lab Membership",
+                "name": "The Lab Membership",
                 "price": "29",
                 "priceCurrency": "USD",
                 "description": "Monthly membership with weekly live classes, AI marketing course, private community, and all session replays. Google Ads Mastery course coming soon.",
@@ -203,10 +203,10 @@ export default function Pricing() {
                 </a>
               </article>
 
-              {/* The KnowHow Lab */}
+              {/* The Lab */}
               <article
                 className="rounded-2xl border-2 border-[#E98C28] p-8 flex flex-col relative"
-                aria-label="The KnowHow Lab plan"
+                aria-label="The Lab plan"
                 itemScope
                 itemType="https://schema.org/Offer"
               >
@@ -217,9 +217,9 @@ export default function Pricing() {
                 </div>
 
                 <div className="mb-6">
-                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The KnowHow Lab</span>
+                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The Lab</span>
                   <h2 className="text-2xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
-                    The KnowHow Lab
+                    The Lab
                   </h2>
                   <div className="flex items-baseline gap-2 mt-3">
                     <span className="text-5xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$29</span>
@@ -231,7 +231,7 @@ export default function Pricing() {
                   </p>
                 </div>
 
-                <ul className="space-y-2.5 flex-1 mb-8" aria-label="The KnowHow Lab plan features">
+                <ul className="space-y-2.5 flex-1 mb-8" aria-label="The Lab plan features">
                   {communityFeatures.map(f => (
                     <li key={f.label} className="flex items-center gap-3">
                       <svg className="w-4 h-4 text-[#E98C28] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -247,7 +247,7 @@ export default function Pricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full justify-center pulse-cta"
-                  aria-label="Join The KnowHow Lab for $29 per month"
+                  aria-label="Join The Lab for $29 per month"
                   itemProp="url"
                 >
                   Join the Community - $29/mo →

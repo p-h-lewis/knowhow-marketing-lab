@@ -50,7 +50,7 @@ export default function CoursesSection() {
             Structured Learning Paths for Every Level
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Start free. Go deeper in The KnowHow Lab. Every course is taught by agency veterans with real-world results.
+            Start free. Go deeper in The Lab. Every course is taught by agency veterans with real-world results.
           </p>
         </div>
 
@@ -142,14 +142,14 @@ export default function CoursesSection() {
               Google Ads Mastery Course — Coming Soon
             </p>
             <p className="text-xs text-gray-500 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Search, Display & Performance Max. Launching soon exclusively for KnowHow Lab members.
+              Search, Display & Performance Max. Launching soon exclusively for Lab members.
             </p>
           </div>
           <a
             href="/pricing"
             className="text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap flex-shrink-0"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-            aria-label="Join The KnowHow Lab to get early access to the Google Ads course"
+            aria-label="Join The Lab to get early access to the Google Ads course"
           >
             Join to get early access →
           </a>
@@ -181,7 +181,7 @@ export default function CoursesSection() {
             <a
               href="/pricing"
               className="btn-outline-light whitespace-nowrap"
-              aria-label="View pricing for The KnowHow Lab"
+              aria-label="View pricing for The Lab"
             >
               See Pricing
             </a>

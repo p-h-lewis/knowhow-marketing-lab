@@ -13,11 +13,11 @@ const faqs = [
   },
   {
     q: 'Is the SEO course really free?',
-    a: 'Yes - the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
+    a: 'Yes - the KnowHow Marketing Lab free SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
   },
   {
-    q: 'What is The KnowHow Lab?',
-    a: 'The KnowHow Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
+    q: 'What is The Lab?',
+    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
   },
   {
     q: 'Who is this training for?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: 'What is Generative Engine Optimisation (GEO)?',
-    a: 'Generative Engine Optimisation (GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
+    a: 'Generative Engine Optimisation (GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 
@@ -91,7 +91,7 @@ export default function LeadCaptureSection() {
               className="text-gray-400 text-sm mb-8"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Or join The KnowHow Lab for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
+              Or join The Lab for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
             </p>
 
             {!submitted ? (

@@ -113,7 +113,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Join The KnowHow Lab', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
+                { label: 'Join The Lab', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },
                 { label: 'Weekly Live Classes', href: '/#community' },
                 { label: 'Community Pricing', href: '/pricing' },

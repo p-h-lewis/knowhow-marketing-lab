@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     q: "Where can I learn this framework in detail?",
-    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimisation, join the KnowHow Marketing Lab community for $29/month.",
+    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimisation, join The Lab for $29/month.",
   },
 ];
 

@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Thank You Page
 // Shown after AI + SEO course opt-in form submission
-// Confirms signup, delivers next steps, and soft-introduces The KnowHow Lab
+// Confirms signup, delivers next steps, and soft-introduces The Lab
 // Schema: WebPage (noindex)
 
 import { useEffect } from 'react';
@@ -180,7 +180,7 @@ export default function ThankYou() {
                 </a>
               </div>
 
-              {/* The KnowHow Lab */}
+              {/* The Lab */}
               <div className="bg-[#E98C28]/10 border border-[#E98C28]/30 rounded-xl p-6">
                 <div className="w-10 h-10 rounded-lg bg-[#E98C28]/20 flex items-center justify-center mb-4" aria-hidden="true">
                   <svg className="w-5 h-5 text-[#E98C28]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -188,7 +188,7 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  The KnowHow Lab - $29/month
+                  The Lab - $29/month
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Go deeper with weekly live training, AI marketing lessons, monthly deep-dive sessions, and a private community group. No contracts. Cancel anytime.

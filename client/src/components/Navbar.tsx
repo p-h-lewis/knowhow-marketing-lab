@@ -139,7 +139,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150"
             style={{ fontFamily: 'DM Sans, sans-serif' }}
-            aria-label="Log in to the KnowHow Marketing Lab platform on GoHighLevel"
+            aria-label="Log in to The Lab platform"
           >
             Log In
           </a>

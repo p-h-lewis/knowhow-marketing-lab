@@ -228,7 +228,7 @@ export default function Podcast() {
               Want to learn alongside us every week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The podcast is monthly. The KnowHow Lab is weekly — live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month.
+              The podcast is monthly. The Lab is weekly — live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -236,9 +236,9 @@ export default function Podcast() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Join The KnowHow Lab for $29 per month"
+                aria-label="Join The Lab for $29 per month"
               >
-                Join The KnowHow Lab - $29/mo →
+                Join The Lab - $29/mo →
               </a>
               <a
                 href={FREE_COURSE_URL}

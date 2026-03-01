@@ -29,7 +29,7 @@ export default function AnnouncementBar() {
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold underline underline-offset-2 hover:no-underline whitespace-nowrap"
-          aria-label="Join the KnowHow Marketing Lab community for $29 per month"
+          aria-label="Join The Lab for $29 per month"
         >
           Join for $29/mo →
         </a>
@@ -44,7 +44,7 @@ export default function AnnouncementBar() {
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold underline underline-offset-2 hover:no-underline whitespace-nowrap ml-1"
-          aria-label="Join the KnowHow Marketing Lab community for $29 per month"
+          aria-label="Join The Lab for $29 per month"
         >
           Join for $29/mo →
         </a>

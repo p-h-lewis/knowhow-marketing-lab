@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Community Section
-// Primary conversion point to GoHighLevel The KnowHow Lab
+// Primary conversion point to GoHighLevel The Lab
 
 const perks = [
   {
@@ -48,7 +48,7 @@ export default function CommunitySection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
           <div>
             <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              The KnowHow Lab
+              The Lab
             </span>
             <h2
               id="community-heading"
@@ -56,7 +56,7 @@ export default function CommunitySection() {
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
-              Join The KnowHow Lab
+              Join The Lab
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
               The paid community for marketing professionals and business teams who want to go beyond the basics. Weekly live sessions, advanced courses, AI training, and a private group - all in one place on GoHighLevel.
@@ -87,7 +87,7 @@ export default function CommunitySection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full justify-center pulse-cta"
-                aria-label="Join the KnowHow Marketing Lab VIP community on GoHighLevel"
+                aria-label="Join The Lab on GoHighLevel"
                 itemProp="url"
               >
                 Join the Community - $29/mo →

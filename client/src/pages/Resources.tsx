@@ -420,7 +420,7 @@ export default function Resources() {
               Want to Learn How to Use All These Tools Together?
             </h2>
             <p className="text-gray-300 text-sm mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Our AI + SEO course and The KnowHow Lab teach you how to use GA4, GSC, GTM, and Google Ads as a connected data-driven system. The Lab includes weekly live Q&A every Thursday, a monthly deep-dive training session, and the AI Marketing & Automation course — all for $29/month.
+              Our AI + SEO course and The Lab teach you how to use GA4, GSC, GTM, and Google Ads as a connected data-driven system. The Lab includes weekly live Q&A every Thursday, a monthly deep-dive training session, and the AI Marketing & Automation course — all for $29/month.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href="/#free-course" className="btn-primary" aria-label="Start the AI + SEO course">
