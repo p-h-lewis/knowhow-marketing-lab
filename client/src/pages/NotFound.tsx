@@ -39,7 +39,7 @@ const recoveryLinks = [
   {
     href: "/pricing",
     label: "Community - $29/mo",
-    desc: "Weekly live Q&A, Google Ads course, and private group.",
+    desc: "Weekly live Q&A, AI marketing training, and private group.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -58,20 +58,59 @@ export default function NotFound() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Page Not Found - KnowHow Marketing Lab",
+            "url": "https://knowhowmarketinglab.com/404",
+            "description": "The page you are looking for could not be found.",
+            "inLanguage": "en",
+            "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" }
+          })
+        }}
+      />
       <AnnouncementBar />
       <Navbar />
       <main id="main-content" className="flex-1 flex items-center py-24">
         <div className="container max-w-3xl text-center">
-          {/* 404 badge */}
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-[#fef3e2] border border-[#f5c87a] mb-8 mx-auto">
-            <span className="text-3xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>404</span>
+          {/* Fun 404 illustration */}
+          <div className="relative inline-flex flex-col items-center mb-8">
+            {/* Animated magnifying glass looking for the page */}
+            <div className="relative">
+              <div
+                className="text-8xl md:text-9xl font-extrabold select-none"
+                style={{
+                  fontFamily: 'Space Grotesk, sans-serif',
+                  background: 'linear-gradient(135deg, #E98C28 0%, #318599 100%)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text',
+                }}
+              >
+                404
+              </div>
+              {/* Floating emoji */}
+              <span
+                className="absolute -top-4 -right-6 text-3xl"
+                style={{ animation: 'bounce 2s infinite' }}
+                aria-hidden="true"
+              >
+                🔍
+              </span>
+            </div>
           </div>
 
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Page not found
+            Looks like this page has a higher bounce rate than your website
           </h1>
-          <p className="text-gray-500 text-lg mb-12 max-w-md mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            This page may have moved or been removed. Here are some helpful places to start:
+          <p className="text-gray-500 text-lg mb-3 max-w-lg mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            (We checked Google Analytics. It's gone.)
+          </p>
+          <p className="text-gray-400 text-sm mb-12 max-w-md mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            The page you're looking for may have moved or been removed. Here are some helpful places to start:
           </p>
 
           {/* Recovery links grid */}

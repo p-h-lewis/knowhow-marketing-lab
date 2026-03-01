@@ -38,9 +38,23 @@ export default function About() {
             },
             "about": {
               "@type": "Organization",
-              "name": "KnowHow Marketing Lab",
-              "description": "Free digital marketing education platform for medium-sized businesses. Courses in SEO, Google Ads, GA4, and AI marketing.",
-              "url": "https://knowhowmarketinglab.com",
+              "name": "Seymour Digital Media",
+              "description": "The agency behind KnowHow Marketing Lab. 20+ years of digital marketing experience.",
+              "url": "https://seymourdigitalmedia.com",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "79",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "review": [
+                { "@type": "Review", "author": { "@type": "Person", "name": "Rysa Koch" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "They have had a serious impact on our ability to get our therapists all full and further expand our reach within the community." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Robert Trasolini" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "We instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Jaime Hall" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Pip was absolutely amazing - super knowledgeable and always willing to go the extra mile." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Chloe Dertinger" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Pip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Jason McCormick" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Our goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas." }
+              ],
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
                 "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
@@ -187,7 +201,7 @@ export default function About() {
                   initials: 'PL',
                   bio: [
                     'Phelan Lewis is the Google Ads and marketing analytics lead at KnowHow Marketing Lab. He has managed millions of dollars in Google Ads spend across industries including retail, professional services, healthcare, and manufacturing.',
-                    'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in the VIP Community.',
+                    'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in The KnowHow Lab.',
                     'Phelan believes that Google Ads only works when it is connected to solid analytics. His training always starts with GA4 and conversion tracking before touching a single campaign.',
                   ],
                   expertise: ['Google Ads Strategy', 'Google Ads Editor', 'GA4 & Conversion Tracking', 'Google Tag Manager', 'AI Marketing Automation', 'Performance Max'],
@@ -309,6 +323,48 @@ export default function About() {
         </section>
 
         {/* Internal navigation */}
+        {/* Reviews from Seymour Digital Media clients */}
+        <section className="py-16 bg-[#0f2236]" aria-labelledby="reviews-heading">
+          <div className="container max-w-5xl">
+            <div className="text-center mb-10">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What Clients Say</span>
+              <h2 id="reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                5.0 Stars &middot; 79 Google Reviews
+              </h2>
+              <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a> &mdash; the agency behind KnowHow Marketing Lab
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {[
+                { name: 'Rysa Koch', role: 'Mental Health Group Practice, Chicago', review: 'They have had a serious impact on our ability to get our therapists all full and further expand our reach within the community. Highly recommend.' },
+                { name: 'Robert Trasolini', role: 'Business Owner', review: 'We instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic. I could not recommend them more highly.' },
+                { name: 'Jaime Hall', role: 'Client', review: 'Pip was absolutely amazing &mdash; super knowledgeable and always willing to go the extra mile. Exactly what we needed.' },
+                { name: 'Chloe Dertinger', role: 'Client', review: 'Pip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console. They explain everything clearly and get results.' },
+                { name: 'Jason McCormick', role: 'Coastal Power Vacuum', review: 'Our goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas. Great team to work with.' },
+              ].map((r, i) => (
+                <div key={i} className="bg-white/10 border border-white/15 rounded-2xl p-6 flex flex-col gap-3">
+                  <div className="flex gap-0.5" aria-label="5 stars">
+                    {[...Array(5)].map((_, s) => (
+                      <svg key={s} className="w-4 h-4 text-[#E98C28]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-200 text-sm leading-relaxed flex-1" style={{ fontFamily: 'DM Sans, sans-serif' }} dangerouslySetInnerHTML={{ __html: '&ldquo;' + r.review + '&rdquo;' }} />
+                  <div>
+                    <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{r.name}</p>
+                    <p className="text-gray-400 text-xs" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              <a href="https://www.google.com/maps/place/Seymour+Digital+Media" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-12 bg-gray-50 border-t border-gray-100" aria-label="Explore KnowHow Marketing Lab">
           <div className="container">
             <h2 className="text-lg font-bold text-gray-900 text-center mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -318,7 +374,7 @@ export default function About() {
               {[
                 { label: 'AI + SEO Course', href: '/#free-course', desc: '5 modules, no credit card' },
                 { label: 'Video Library', href: '/#videos', desc: '60+ free lessons' },
-                { label: 'Community & Pricing', href: '/pricing', desc: '$29/mo VIP membership' },
+                { label: 'The KnowHow Lab', href: '/pricing', desc: '$29/mo membership' },
                 { label: 'Free Resources', href: '/resources', desc: 'Official Google docs' },
               ].map(link => (
                 <a

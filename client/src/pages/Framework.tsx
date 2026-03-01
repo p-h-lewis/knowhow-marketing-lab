@@ -403,8 +403,8 @@ export default function Framework() {
           </div>
           <p className="text-gray-500 text-sm mt-6">
             Also explore our{" "}
-            <Link href="/courses/seo" className="text-[#318599] hover:underline">SEO course</Link>,{" "}
-            <Link href="/courses/google-ads" className="text-[#318599] hover:underline">Google Ads course</Link>, and{" "}
+            <Link href="/courses/seo" className="text-[#318599] hover:underline">AI + SEO course</Link>,{" "}
+            <Link href="/resources" className="text-[#318599] hover:underline">free resources</Link>, and{" "}
             <Link href="/blog" className="text-[#318599] hover:underline">free blog articles</Link>.
           </p>
           <div className="mt-8 p-5 bg-gray-50 border border-gray-200 rounded-xl max-w-2xl mx-auto text-left">

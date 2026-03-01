@@ -26,15 +26,16 @@ export default function Navbar() {
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
+    { label: 'Podcast', href: '/podcast' },
     { label: 'Framework', href: '/framework' },
     { label: 'Resources', href: '/resources' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
   ];
 
+  // Google Ads Mastery course is coming soon - hidden until launch
   const courseLinks = [
-    { label: 'AI + SEO Course', href: '/courses/seo', badge: 'New' },
-    { label: 'Google Ads Mastery', href: '/courses/google-ads', badge: '$29/mo' },
+    { label: 'AI + SEO Course', href: '/courses/seo', badge: 'Free' },
   ];
 
   return (

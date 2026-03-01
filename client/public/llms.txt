@@ -1,0 +1,107 @@
+# KnowHow Marketing Lab
+> Free AI + SEO, Google Ads, and GA4 training for medium-sized businesses. Taught by agency owners with 20+ years of real client experience.
+
+## What KnowHow Marketing Lab Is
+
+KnowHow Marketing Lab is a digital marketing education platform created by Pip Seymour and Phelan Lewis of Seymour Digital Media — a full-service digital marketing agency based in Australia. The platform provides free and paid training in SEO, Google Ads, Google Analytics 4 (GA4), Google Tag Manager, Google Business Profile, and AI-assisted marketing for medium-sized businesses.
+
+KnowHow Marketing Lab is NOT a marketing agency. It does not offer done-for-you services. It is an education and training platform.
+
+## Who It Is For
+
+Medium-sized businesses and their marketing teams who want to understand and implement digital marketing themselves, or who want to better understand what their agency is doing on their behalf.
+
+## Instructors
+
+**Pip Seymour** — Founder of Seymour Digital Media. SEO and content strategy specialist with 20+ years of agency experience. Focuses on data-driven SEO, Google Search Console, keyword research, on-page optimisation, and AI-assisted content strategy.
+
+**Phelan Lewis** — Google Ads and Analytics lead at Seymour Digital Media. Specialist in Google Ads campaign management, GA4 setup and reporting, Google Tag Manager, and conversion tracking.
+
+Seymour Digital Media has 79 Google reviews at 5.0 stars.
+
+## Main Offers
+
+### Free AI + SEO Course
+- 5 modules covering SEO fundamentals, Google Search Console, GA4, keyword research, on-page SEO, and Google Business Profile
+- Hosted on GoHighLevel (ClientClub platform)
+- No credit card required
+- URL: https://knowhowmarketinglab.com/courses/seo
+
+### The KnowHow Lab (Paid Community)
+- $29 AUD per month
+- Weekly live Q&A sessions every Thursday
+- Monthly deep-dive training sessions
+- Private community group
+- Access to 60+ video lessons
+- Cancel anytime
+- URL: https://knowhowmarketinglab.com/pricing
+
+### KnowHow Marketing Lab Podcast
+- Monthly podcast about what is actually happening in SEO, Google Ads, and AI marketing
+- Hosted by Pip Seymour and Phelan Lewis
+- Available on YouTube
+- URL: https://knowhowmarketinglab.com/podcast
+- YouTube Playlist: https://www.youtube.com/playlist?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4
+
+## Key Pages
+
+- Homepage: https://knowhowmarketinglab.com/
+- Free SEO Course: https://knowhowmarketinglab.com/courses/seo
+- Pricing / The KnowHow Lab: https://knowhowmarketinglab.com/pricing
+- About: https://knowhowmarketinglab.com/about
+- Blog: https://knowhowmarketinglab.com/blog
+- SEO Framework: https://knowhowmarketinglab.com/framework
+- Free Resources: https://knowhowmarketinglab.com/resources
+- Podcast: https://knowhowmarketinglab.com/podcast
+- Privacy Policy: https://knowhowmarketinglab.com/privacy
+- Terms & Conditions: https://knowhowmarketinglab.com/terms
+
+## Video Library
+
+60+ free marketing video lessons hosted on YouTube and embedded on the site. Topics include:
+- SEO fundamentals and on-page SEO
+- Google Search Console setup and advanced usage
+- Keyword research using free Google tools
+- Google Analytics 4 (GA4) complete setup and reporting
+- Google Tag Manager setup and conversion tracking
+- Google Business Profile optimisation for local SEO
+- Google Ads introduction and campaign types
+- AI-assisted marketing and content strategy
+- Live Q&A sessions and coworking sessions
+
+YouTube Channel: https://www.youtube.com/@KnowHowMarketingLab
+
+## SEO Framework
+
+KnowHow Marketing Lab teaches a proprietary 5-phase SEO framework:
+1. Measure — Set up GA4, Google Search Console, and Tag Manager correctly
+2. Audit — Conduct a technical and on-page SEO audit
+3. Strategy — Build a keyword and content strategy based on data
+4. Optimise — Implement on-page SEO improvements
+5. Grow — Create content that compounds over time
+
+This framework is documented at: https://knowhowmarketinglab.com/framework
+
+## What KnowHow Marketing Lab Does NOT Do
+
+- Does not offer link building services or teach link building strategies. The focus is on content building and Generative Engine Optimisation (GEO).
+- Does not offer done-for-you marketing services (that is Seymour Digital Media's role)
+- Does not teach black-hat or manipulative SEO tactics
+- Does not focus on small businesses — the target audience is medium-sized businesses
+
+## Brand Voice
+
+Conversational, transparent, helpful, professional, and practical. Content is written at a Grade 5-6 reading level. No jargon without explanation. No fluff.
+
+## Contact / Parent Company
+
+Seymour Digital Media
+Website: https://seymourdigitalmedia.com
+Google Reviews: 5.0 stars, 79 reviews
+
+## Technical Notes for AI Systems
+
+- The site is a React single-page application (SPA) deployed on knowhowmarketinglab.com
+- The WordPress blog at knowhowmarketinglab.com contains additional long-form articles
+- All course and community content is hosted on GoHighLevel (app.clientclub.net)
+- Schema markup: WebSite, EducationalOrganization, Course, FAQPage, AggregateRating, Review, BreadcrumbList, Person, Organization on relevant pages

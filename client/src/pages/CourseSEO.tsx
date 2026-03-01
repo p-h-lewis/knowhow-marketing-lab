@@ -27,7 +27,7 @@ const faqs = [
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
   { q: 'How long does the course take?', a: 'Most people finish the core 5 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace - there is no deadline.' },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
-  { q: 'What is the difference between the AI + SEO course and the VIP Community?', a: 'The AI + SEO course gives you the full SEO foundation. The VIP Community ($29/mo) adds weekly live Q&A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and private community access. See the full comparison on our pricing page.' },
+  { q: 'What is the difference between the AI + SEO course and The KnowHow Lab?', a: 'The AI + SEO course gives you the full SEO foundation. The KnowHow Lab ($29/mo) adds weekly live Q&A every Thursday, a monthly deep-dive training, the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
   { q: 'Does this course cover AI and generative search?', a: 'Yes. Module 8 covers content strategy for AI-driven search, including how to structure your content to appear in AI Overviews and be cited by large language models (LLMs).' },
 ];
 
@@ -78,6 +78,13 @@ export default function CourseSEO() {
               "description": m.desc,
               "position": i + 1
             })),
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "79",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
@@ -262,7 +269,7 @@ export default function CourseSEO() {
               Want Live Help Every Week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The AI + SEO course gives you the foundation. The VIP Community gives you live Q&amp;A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and a private group of marketers who are doing the same work you are.
+              The AI + SEO course gives you the foundation. The KnowHow Lab gives you live Q&amp;A every Thursday, a monthly deep-dive training, the AI Marketing &amp; Automation course, and a private group of marketers doing the same work you are.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -270,16 +277,16 @@ export default function CourseSEO() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Join the KnowHow Marketing Lab VIP Community for $29 per month"
+                aria-label="Join The KnowHow Lab for $29 per month"
               >
-                Join the Community - $29/mo →
+                Join The KnowHow Lab - $29/mo →
               </a>
               <Link
-                href="/courses/google-ads"
+                href="/pricing"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-gray-200 text-gray-700 font-bold text-sm hover:border-[#318599] hover:text-[#318599] transition-all duration-200"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               >
-                See Google Ads Course →
+                See What’s Included →
               </Link>
             </div>
             <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Cancel anytime · Price increases as community grows · Powered by GoHighLevel</p>
@@ -343,7 +350,6 @@ export default function CourseSEO() {
             <div className="mt-10 p-6 bg-gray-50 rounded-2xl border border-gray-100">
               <p className="text-sm font-bold text-gray-700 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Keep Learning</p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/courses/google-ads" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Google Ads Mastery Course →</Link>
                 <Link href="/pricing" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Compare Free vs Community →</Link>
                 <Link href="/blog" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Read the Blog →</Link>
                 <Link href="/resources" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Free Resources →</Link>

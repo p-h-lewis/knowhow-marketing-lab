@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /thank-you
+Disallow: /404
 
 # KnowHow Marketing Lab - knowhowmarketinglab.com
 # Free SEO, Google Ads, GA4, and AI Marketing Training for Medium-Sized Businesses
@@ -9,6 +11,9 @@ Allow: /
 Sitemap: https://knowhowmarketinglab.com/sitemap.xml
 Sitemap: https://knowhowmarketinglab.com/sitemap-images.xml
 Sitemap: https://knowhowmarketinglab.com/sitemap-videos.xml
+
+# LLMs.txt - structured site summary for AI systems and generative search
+# https://knowhowmarketinglab.com/llms.txt
 
 # AI Crawlers - explicitly allowed for GEO (Generative Engine Optimisation)
 User-agent: GPTBot
@@ -33,4 +38,10 @@ User-agent: CCBot
 Allow: /
 
 User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /

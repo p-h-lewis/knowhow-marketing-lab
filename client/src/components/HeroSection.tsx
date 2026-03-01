@@ -135,7 +135,7 @@ export default function HeroSection() {
               {[
                 { value: '60+', label: 'Free Video Lessons' },
                 { value: '20+', label: 'Years of Agency Experience' },
-                { value: '$29/mo', label: 'VIP Community - Lock In Now' },
+                { value: '$29/mo', label: 'The KnowHow Lab - Lock In Now' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>

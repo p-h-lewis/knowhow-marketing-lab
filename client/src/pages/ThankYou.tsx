@@ -1,11 +1,14 @@
 // KnowHow Marketing Lab - Thank You Page
 // Shown after AI + SEO course opt-in form submission
-// Confirms signup, delivers next steps, and soft-introduces VIP Community
+// Confirms signup, delivers next steps, and soft-introduces The KnowHow Lab
+// Schema: WebPage (noindex)
 
 import { useEffect } from 'react';
 import { Link } from 'wouter';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import AnnouncementBar from '@/components/AnnouncementBar';
+import { useSEO } from '@/hooks/useSEO';
 
 const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google works, what SERPs are, and why search intent matters.' },
@@ -16,13 +19,34 @@ const modules = [
 ];
 
 export default function ThankYou() {
+  useSEO({
+    title: "You're In - Start Your AI + SEO Course | KnowHow Marketing Lab",
+    description: "You have successfully signed up for the free AI + SEO course from KnowHow Marketing Lab. Check your email for your access link.",
+    canonical: "https://knowhowmarketinglab.com/thank-you",
+    ogType: "website",
+  });
+
   useEffect(() => {
-    // Scroll to top on mount
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Thank You - KnowHow Marketing Lab",
+            "url": "https://knowhowmarketinglab.com/thank-you",
+            "description": "Confirmation page after signing up for the free AI + SEO course.",
+            "inLanguage": "en",
+            "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" }
+          })
+        }}
+      />
+      <AnnouncementBar />
       <Navbar />
 
       <main id="main-content" className="flex-1">
@@ -156,7 +180,7 @@ export default function ThankYou() {
                 </a>
               </div>
 
-              {/* VIP Community */}
+              {/* The KnowHow Lab */}
               <div className="bg-[#E98C28]/10 border border-[#E98C28]/30 rounded-xl p-6">
                 <div className="w-10 h-10 rounded-lg bg-[#E98C28]/20 flex items-center justify-center mb-4" aria-hidden="true">
                   <svg className="w-5 h-5 text-[#E98C28]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -164,10 +188,10 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  VIP Community - $29/month
+                  The KnowHow Lab - $29/month
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Go deeper with weekly live training, the full Google Ads course, AI marketing lessons, and a private community group. No contracts. Cancel anytime.
+                  Go deeper with weekly live training, AI marketing lessons, monthly deep-dive sessions, and a private community group. No contracts. Cancel anytime.
                 </p>
                 <Link
                   href="/pricing"

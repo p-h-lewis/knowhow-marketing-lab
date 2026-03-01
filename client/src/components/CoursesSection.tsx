@@ -1,11 +1,12 @@
 // KnowHow Marketing Lab - Courses Section
-// Showcases paid courses on GoHighLevel platform
+// Google Ads Mastery course is coming soon - hidden until launch
+// Currently shows: AI + SEO Course (free) + AI Marketing & Automation (community)
 
 const courses = [
   {
-    title: 'Complete SEO Course',
+    title: 'Complete AI + SEO Course',
     subtitle: 'From Beginner to Data-Driven Pro',
-    desc: 'Everything you need to rank on Google - keyword research, on-page SEO, technical audits, GSC, and GA4. Built for medium-sized businesses and marketing teams.',
+    desc: 'Everything you need to rank on Google — keyword research, on-page SEO, technical audits, GSC, and GA4. Built for medium-sized businesses and marketing teams.',
     tags: ['SEO', 'GSC', 'GA4', 'GTM'],
     level: 'Beginner → Advanced',
     cta: 'Enroll Free →',
@@ -14,24 +15,13 @@ const courses = [
     color: '#318599',
   },
   {
-    title: 'Google Ads Mastery',
-    subtitle: 'Search, Display & Performance Max',
-    desc: 'Launch and optimize Google Ads campaigns that actually convert. Covers Search, Display, campaign structure, bidding strategy, and Google Ads Editor.',
-    tags: ['Google Ads', 'PPC', 'Ads Editor', 'ROI'],
-    level: 'Beginner → Advanced',
-    cta: 'Access in Community →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
-    free: false,
-    color: '#E98C28',
-  },
-  {
     title: 'AI Marketing & Automation',
     subtitle: 'ChatGPT, AI Agents & Scripts',
-    desc: 'Use AI to scale your marketing. Custom ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows for 2025 and beyond.',
+    desc: 'Use AI to scale your marketing. Custom ChatGPT for brands, AI agents, automation workflows, and the strategies we use in our own agency every day.',
     tags: ['AI', 'ChatGPT', 'Automation', 'Scripts'],
     level: 'Intermediate → Advanced',
-    cta: 'Access in Community →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
+    cta: 'Access in The Lab →',
+    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home',
     free: false,
     color: '#4F37D8',
   },
@@ -60,11 +50,12 @@ export default function CoursesSection() {
             Structured Learning Paths for Every Level
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Start free. Go deeper in the community. Every course is taught by agency veterans with real-world results.
+            Start free. Go deeper in The KnowHow Lab. Every course is taught by agency veterans with real-world results.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        {/* 2-column grid — Google Ads course coming soon */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {courses.map(course => (
             <article
               key={course.title}
@@ -77,7 +68,7 @@ export default function CoursesSection() {
               <div className="h-1.5 w-full" style={{ background: course.color }} aria-hidden="true" />
 
               <div className="p-6 flex flex-col flex-1">
-                {/* Badge */}
+                {/* Badge row */}
                 <div className="flex items-center justify-between mb-4">
                   <span
                     className="text-xs font-bold px-3 py-1 rounded-full"
@@ -139,14 +130,39 @@ export default function CoursesSection() {
           ))}
         </div>
 
+        {/* Coming soon teaser for Google Ads course */}
+        <div className="mt-6 max-w-3xl mx-auto border border-dashed border-[#E98C28]/40 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-4 bg-amber-50/40">
+          <div className="w-10 h-10 rounded-xl bg-[#E98C28]/15 flex items-center justify-center flex-shrink-0" aria-hidden="true">
+            <svg className="w-5 h-5 text-[#E98C28]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div className="flex-1 text-center sm:text-left">
+            <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              Google Ads Mastery Course — Coming Soon
+            </p>
+            <p className="text-xs text-gray-500 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Search, Display & Performance Max. Launching soon exclusively for KnowHow Lab members.
+            </p>
+          </div>
+          <a
+            href="/pricing"
+            className="text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap flex-shrink-0"
+            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            aria-label="Join The KnowHow Lab to get early access to the Google Ads course"
+          >
+            Join to get early access →
+          </a>
+        </div>
+
         {/* Bottom CTA */}
-        <div className="mt-12 bg-[#0f2236] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-10 bg-[#0f2236] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-2xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Not sure where to start?
             </h3>
             <p className="text-gray-300 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start with the AI + SEO course. No credit card, no commitment - just expert training.{' '}
+              Start with the AI + SEO course — free, no credit card.{' '}
               <a href="/pricing" className="text-[#E98C28] hover:underline font-semibold" aria-label="Compare free vs community pricing">
                 Compare plans →
               </a>
@@ -165,7 +181,7 @@ export default function CoursesSection() {
             <a
               href="/pricing"
               className="btn-outline-light whitespace-nowrap"
-              aria-label="View pricing for VIP Community"
+              aria-label="View pricing for The KnowHow Lab"
             >
               See Pricing
             </a>

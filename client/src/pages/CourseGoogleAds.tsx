@@ -25,12 +25,12 @@ const modules = [
 ];
 
 const faqs = [
-  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to VIP Community members at $29/mo. The free plan includes the full SEO course only.' },
+  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to The KnowHow Lab members at $29/mo. The free plan includes the full SEO course only.' },
   { q: 'Do I need a Google Ads account to take this course?', a: 'Yes, you will need a Google Ads account. You can create one for free at ads.google.com. We walk you through the setup in Module 2.' },
   { q: 'How much budget do I need to run Google Ads?', a: 'You can start with as little as $10 to $20 per day to test. We teach you how to get the most out of a small budget before scaling up.' },
   { q: 'Is this course for beginners or advanced marketers?', a: 'Both. We start from the very basics in Module 1 and build up to advanced strategies like Performance Max and ROAS bidding by Module 8.' },
   { q: 'Does this course cover Google Analytics 4 integration?', a: 'Yes. Module 6 covers linking Google Ads to GA4 for full conversion tracking. We also have a dedicated GA4 video series in the free video library.' },
-  { q: 'Can I ask questions while taking the course?', a: 'Yes - VIP Community members get weekly live Q&A every Thursday where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
+  { q: 'Can I ask questions while taking the course?', a: 'Yes - The KnowHow Lab members get weekly live Q&A every Thursday where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
 ];
 
 export default function CourseGoogleAds() {
@@ -65,7 +65,7 @@ export default function CourseGoogleAds() {
             "educationalLevel": "Beginner to Advanced",
             "inLanguage": "en",
             "isAccessibleForFree": false,
-            "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD", "billingIncrement": "P1M", "description": "Included with VIP Community membership at $29/month" },
+            "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD", "billingIncrement": "P1M", "description": "Included with The KnowHow Lab membership at $29/month" },
             "hasCourseInstance": {
               "@type": "CourseInstance",
               "courseMode": "online",
@@ -120,7 +120,7 @@ export default function CourseGoogleAds() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  VIP Community · 8 Modules · Included at $29/mo
+                  The KnowHow Lab · 8 Modules · Included at $29/mo
                 </span>
                 <h1 id="google-ads-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Google Ads<br />
@@ -130,7 +130,7 @@ export default function CourseGoogleAds() {
                   Stop wasting money on Google Ads that don't work. This course teaches you how to build campaigns that actually bring in customers - using the same strategies we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">VIP Community membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
+                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The KnowHow Lab membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -138,7 +138,7 @@ export default function CourseGoogleAds() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary pulse-cta"
-                    aria-label="Join the VIP Community to access the Google Ads Mastery Course for $29 per month"
+                    aria-label="Join The KnowHow Lab to access the Google Ads Mastery Course for $29 per month"
                   >
                     Join to Access - $29/mo →
                   </a>
@@ -210,7 +210,7 @@ export default function CourseGoogleAds() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Join the VIP Community to access the Google Ads Mastery Course"
+                aria-label="Join The KnowHow Lab to access the Google Ads Mastery Course"
               >
                 Join the Community - $29/mo →
               </a>

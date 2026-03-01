@@ -166,6 +166,36 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // React core - cached separately since it rarely changes
+          'react-vendor': ['react', 'react-dom'],
+          // Routing
+          'router': ['wouter'],
+          // UI component library
+          'ui-vendor': [
+            '@radix-ui/react-tooltip',
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-accordion',
+            '@radix-ui/react-dropdown-menu',
+            '@radix-ui/react-slot',
+            '@radix-ui/react-navigation-menu',
+            '@radix-ui/react-label',
+            '@radix-ui/react-separator',
+            'lucide-react',
+            'class-variance-authority',
+            'clsx',
+            'tailwind-merge',
+            'sonner',
+          ],
+          // Animation library - large, rarely changes
+          'animation': ['framer-motion'],
+          // Chart library
+          'charts': ['recharts'],
+        },
+      },
+    },
   },
   server: {
     port: 3000,

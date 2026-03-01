@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Pricing Page
-// /pricing - Free vs VIP Community comparison
+// /pricing - Free vs The KnowHow Lab comparison
 // Schema: PriceSpecification, Offer, FAQPage
 // Internal links: → /free-course, → /community, → /videos
 // External links: → skillshop.withgoogle.com (Google certifications - non-competing authority)
@@ -30,7 +30,7 @@ const communityFeatures = [
   { label: 'Weekly live Q&A & support (Thursdays)', included: true },
   { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
-  { label: 'Google Ads Mastery course', included: true },
+  { label: 'Google Ads Mastery course (coming soon)', included: true },
   { label: 'AI Marketing & Automation course', included: true },
   { label: 'Private community group access', included: true },
   { label: 'Live Q&A with Pip & Phelan', included: true },
@@ -44,8 +44,8 @@ const pricingFaqs = [
     a: 'Yes, completely free. No credit card, no trial period, no hidden costs. The AI + SEO course and all 60+ YouTube videos are available with no sign-up required to watch.',
   },
   {
-    q: 'What do I get in the VIP Community that I cannot get for free?',
-    a: 'The VIP Community adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like Google Ads strategy, SEO audits, or AI tools), homework assignments with fillable PDF worksheets, the Google Ads Mastery course, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
+    q: 'What do I get in The KnowHow Lab that I cannot get for free?',
+    a: 'The KnowHow Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (like SEO audits, AI tools, and soon Google Ads), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. The Google Ads Mastery course is coming soon and will be included for all members.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -57,7 +57,7 @@ const pricingFaqs = [
   },
   {
     q: 'Is the community hosted on GoHighLevel?',
-    a: 'Yes. The KnowHow Marketing Lab VIP Community is hosted on the GoHighLevel platform at learnwith.seymourdigitalmedia.com. GoHighLevel provides a secure, all-in-one community and course platform.',
+    a: 'Yes. The KnowHow Lab is hosted on the GoHighLevel platform at learnwith.seymourdigitalmedia.com. GoHighLevel provides a secure, all-in-one community and course platform.',
   },
   {
     q: 'Do I need any prior marketing experience?',
@@ -67,7 +67,7 @@ const pricingFaqs = [
 
 export default function Pricing() {
   useSEO({
-    title: "Pricing - AI + SEO Course & VIP Community | KnowHow Marketing Lab",
+    title: "Pricing - AI + SEO Course & The KnowHow Lab | KnowHow Marketing Lab",
     description: "Start free with our SEO course, or join the KnowHow Marketing Lab community for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
@@ -82,8 +82,8 @@ export default function Pricing() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab Pricing - Free vs VIP Community",
-            "description": "Compare KnowHow Marketing Lab's AI + SEO course with the VIP Community membership ($29/month). See exactly what is included in each plan.",
+            "name": "KnowHow Marketing Lab Pricing - Free vs The KnowHow Lab",
+            "description": "Compare KnowHow Marketing Lab's AI + SEO course with The KnowHow Lab membership ($29/month). See exactly what is included in each plan.",
             "url": "https://knowhowmarketinglab.com/pricing",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -103,10 +103,10 @@ export default function Pricing() {
               },
               {
                 "@type": "Offer",
-                "name": "VIP Community Membership",
+                "name": "The KnowHow Lab Membership",
                 "price": "29",
                 "priceCurrency": "USD",
-                "description": "Monthly membership with weekly live classes, Google Ads course, AI marketing course, private community, and all session replays.",
+                "description": "Monthly membership with weekly live classes, AI marketing course, private community, and all session replays. Google Ads Mastery course coming soon.",
                 "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               }
             ]
@@ -203,10 +203,10 @@ export default function Pricing() {
                 </a>
               </article>
 
-              {/* VIP Community */}
+              {/* The KnowHow Lab */}
               <article
                 className="rounded-2xl border-2 border-[#E98C28] p-8 flex flex-col relative"
-                aria-label="VIP Community plan"
+                aria-label="The KnowHow Lab plan"
                 itemScope
                 itemType="https://schema.org/Offer"
               >
@@ -217,9 +217,9 @@ export default function Pricing() {
                 </div>
 
                 <div className="mb-6">
-                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>VIP Community</span>
+                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The KnowHow Lab</span>
                   <h2 className="text-2xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
-                    Know How Marketing Lab Community
+                    The KnowHow Lab
                   </h2>
                   <div className="flex items-baseline gap-2 mt-3">
                     <span className="text-5xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$29</span>
@@ -231,7 +231,7 @@ export default function Pricing() {
                   </p>
                 </div>
 
-                <ul className="space-y-2.5 flex-1 mb-8" aria-label="VIP Community plan features">
+                <ul className="space-y-2.5 flex-1 mb-8" aria-label="The KnowHow Lab plan features">
                   {communityFeatures.map(f => (
                     <li key={f.label} className="flex items-center gap-3">
                       <svg className="w-4 h-4 text-[#E98C28] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -247,7 +247,7 @@ export default function Pricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full justify-center pulse-cta"
-                  aria-label="Join the KnowHow Marketing Lab VIP Community for $29 per month"
+                  aria-label="Join The KnowHow Lab for $29 per month"
                   itemProp="url"
                 >
                   Join the Community - $29/mo →
@@ -302,6 +302,48 @@ export default function Pricing() {
                 </a>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Reviews */}
+        <section className="py-16 bg-[#0f2236]" aria-labelledby="pricing-reviews-heading">
+          <div className="container max-w-5xl">
+            <div className="text-center mb-10">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Why People Trust Us</span>
+              <h2 id="pricing-reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                5.0 Stars &middot; 79 Google Reviews
+              </h2>
+              <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a> &mdash; the agency behind KnowHow Marketing Lab
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {[
+                { name: 'Rysa Koch', role: 'Mental Health Group Practice, Chicago', review: '\u201cThey have had a serious impact on our ability to get our therapists all full and further expand our reach within the community.\u201d' },
+                { name: 'Robert Trasolini', role: 'Business Owner', review: '\u201cWe instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.\u201d' },
+                { name: 'Jaime Hall', role: 'Client', review: '\u201cPip was absolutely amazing \u2014 super knowledgeable and always willing to go the extra mile.\u201d' },
+                { name: 'Chloe Dertinger', role: 'Client', review: '\u201cPip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.\u201d' },
+                { name: 'Jason McCormick', role: 'Coastal Power Vacuum', review: '\u201cOur goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.\u201d' },
+              ].map((r, i) => (
+                <div key={i} className="bg-white/10 border border-white/15 rounded-2xl p-6 flex flex-col gap-3">
+                  <div className="flex gap-0.5" aria-label="5 stars">
+                    {[...Array(5)].map((_, s) => (
+                      <svg key={s} className="w-4 h-4 text-[#E98C28]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-200 text-sm leading-relaxed flex-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.review}</p>
+                  <div>
+                    <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{r.name}</p>
+                    <p className="text-gray-400 text-xs" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              <a href="https://www.google.com/maps/place/Seymour+Digital+Media" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+            </p>
           </div>
         </section>
 

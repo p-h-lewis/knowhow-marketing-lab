@@ -16,8 +16,8 @@ const faqs = [
     a: 'Yes - the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
   },
   {
-    q: 'What is the VIP Community?',
-    a: 'The KnowHow Marketing Lab VIP Community is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
+    q: 'What is The KnowHow Lab?',
+    a: 'The KnowHow Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
   },
   {
     q: 'Who is this training for?',
@@ -91,7 +91,7 @@ export default function LeadCaptureSection() {
               className="text-gray-400 text-sm mb-8"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Or join the VIP Community for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
+              Or join The KnowHow Lab for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
             </p>
 
             {!submitted ? (
