@@ -6,7 +6,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { lazy, Suspense } from "react";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import CookieConsent from "./components/CookieConsent";
@@ -104,6 +104,93 @@ function Router() {
         <Route path="/adgroups-based-on-user-intent" component={PostAdgroupsBasedOnUserIntent} />
         <Route path="/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
         <Route path="/ga4-set-up-guide" component={PostGa4SetUpGuide} />
+
+        {/* ── 301 Redirects: old WordPress URLs → new Manus URLs ─────────────────── */}
+        {/* Course pages */}
+        <Route path="/seo-course"><Redirect to="/courses/seo" /></Route>
+        <Route path="/seo-course/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/google-ads-course"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/google-ads-course/"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/seo-ranking-accelerator-lab"><Redirect to="/courses/seo" /></Route>
+        <Route path="/seo-ranking-accelerator-lab/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/product/seo-lab-intro"><Redirect to="/courses/seo" /></Route>
+        <Route path="/product/seo-lab-intro/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/product/seo-ranking-accelerator-lab"><Redirect to="/courses/seo" /></Route>
+        <Route path="/product/seo-ranking-accelerator-lab/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/seo"><Redirect to="/courses/seo" /></Route>
+        <Route path="/seo/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/courses/knowhow-marketing-mastermind-lab-2022-2-2"><Redirect to="/courses/seo" /></Route>
+        <Route path="/courses/knowhow-marketing-mastermind-lab-2022-2-2/"><Redirect to="/courses/seo" /></Route>
+        {/* Waitlist / pricing */}
+        <Route path="/waitlist"><Redirect to="/pricing" /></Route>
+        <Route path="/waitlist/"><Redirect to="/pricing" /></Route>
+        <Route path="/join-the-google-ads-course-bootcamp-waitlist"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/join-the-google-ads-course-bootcamp-waitlist/"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/join-our-google-ads-masterclass"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/join-our-google-ads-masterclass/"><Redirect to="/courses/google-ads" /></Route>
+        <Route path="/vip-marketing-lab"><Redirect to="/pricing" /></Route>
+        <Route path="/vip-marketing-lab/"><Redirect to="/pricing" /></Route>
+        <Route path="/shop"><Redirect to="/pricing" /></Route>
+        <Route path="/shop/"><Redirect to="/pricing" /></Route>
+        {/* Community — redirects to GoHighLevel community external URL */}
+        <Route path="/sem-ai-knowhow-community">{() => { window.location.replace("https://community.knowhowmarketinglab.com"); return null; }}</Route>
+        <Route path="/sem-ai-knowhow-community/">{() => { window.location.replace("https://community.knowhowmarketinglab.com"); return null; }}</Route>
+        {/* Privacy / legal */}
+        <Route path="/privacy-policy"><Redirect to="/privacy" /></Route>
+        <Route path="/privacy-policy/"><Redirect to="/privacy" /></Route>
+        <Route path="/refund_returns"><Redirect to="/privacy" /></Route>
+        <Route path="/refund_returns/"><Redirect to="/privacy" /></Route>
+        {/* Thank you */}
+        <Route path="/thank-you-joining-waitlist"><Redirect to="/thank-you" /></Route>
+        <Route path="/thank-you-joining-waitlist/"><Redirect to="/thank-you" /></Route>
+        {/* Blog categories and tags → /blog */}
+        <Route path="/blog/"><Redirect to="/blog" /></Route>
+        <Route path="/category/ai"><Redirect to="/blog" /></Route>
+        <Route path="/category/ai/"><Redirect to="/blog" /></Route>
+        <Route path="/category/google-ads"><Redirect to="/blog" /></Route>
+        <Route path="/category/google-ads/"><Redirect to="/blog" /></Route>
+        <Route path="/category/websites-seo"><Redirect to="/blog" /></Route>
+        <Route path="/category/websites-seo/"><Redirect to="/blog" /></Route>
+        <Route path="/category/uncategorized"><Redirect to="/blog" /></Route>
+        <Route path="/category/uncategorized/"><Redirect to="/blog" /></Route>
+        <Route path="/tag/beginner"><Redirect to="/blog" /></Route>
+        <Route path="/tag/beginner/"><Redirect to="/blog" /></Route>
+        <Route path="/tag/google-ads"><Redirect to="/blog" /></Route>
+        <Route path="/tag/google-ads/"><Redirect to="/blog" /></Route>
+        <Route path="/tag/google-ads-strategy"><Redirect to="/blog" /></Route>
+        <Route path="/tag/google-ads-strategy/"><Redirect to="/blog" /></Route>
+        <Route path="/tag/strategy"><Redirect to="/blog" /></Route>
+        <Route path="/tag/strategy/"><Redirect to="/blog" /></Route>
+        <Route path="/author/cris"><Redirect to="/about" /></Route>
+        <Route path="/author/cris/"><Redirect to="/about" /></Route>
+        {/* Resources */}
+        <Route path="/free-google-ads-tool"><Redirect to="/resources" /></Route>
+        <Route path="/free-google-ads-tool/"><Redirect to="/resources" /></Route>
+        <Route path="/google-analytics-live-training"><Redirect to="/resources" /></Route>
+        <Route path="/google-analytics-live-training/"><Redirect to="/resources" /></Route>
+        <Route path="/how-to-improve-your-agencys-workflow-when-working-with-influencers"><Redirect to="/blog" /></Route>
+        <Route path="/how-to-improve-your-agencys-workflow-when-working-with-influencers/"><Redirect to="/blog" /></Route>
+        <Route path="/3-things-you-need-to-know-about-your-keywords"><Redirect to="/blog" /></Route>
+        <Route path="/3-things-you-need-to-know-about-your-keywords/"><Redirect to="/blog" /></Route>
+        {/* WordPress-only pages → home */}
+        <Route path="/members-page"><Redirect to="/" /></Route>
+        <Route path="/members-page/"><Redirect to="/" /></Route>
+        <Route path="/my-account"><Redirect to="/" /></Route>
+        <Route path="/my-account/"><Redirect to="/" /></Route>
+        <Route path="/mlp"><Redirect to="/" /></Route>
+        <Route path="/mlp/"><Redirect to="/" /></Route>
+        <Route path="/vsl"><Redirect to="/" /></Route>
+        <Route path="/vsl/"><Redirect to="/" /></Route>
+        <Route path="/questionnaire-page"><Redirect to="/" /></Route>
+        <Route path="/questionnaire-page/"><Redirect to="/" /></Route>
+        <Route path="/landing-page"><Redirect to="/" /></Route>
+        <Route path="/landing-page/"><Redirect to="/" /></Route>
+        <Route path="/webinar-registration-page"><Redirect to="/" /></Route>
+        <Route path="/webinar-registration-page/"><Redirect to="/" /></Route>
+        <Route path="/step/ral-landing-page"><Redirect to="/courses/seo" /></Route>
+        <Route path="/step/ral-landing-page/"><Redirect to="/courses/seo" /></Route>
+        <Route path="/lessons/qa-seo-audit-strategy-summary-3"><Redirect to="/courses/seo" /></Route>
+        <Route path="/lessons/qa-seo-audit-strategy-summary-3/"><Redirect to="/courses/seo" /></Route>
 
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
