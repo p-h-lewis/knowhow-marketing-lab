@@ -34,7 +34,7 @@ const blogPosts = [
   },
   //  EXISTING POSTS 
   {
-    slug: 'ultimate-guide-google-ads-campaign-types-2026',
+    slug: 'the-ultimate-guide-to-google-ads-campaign-types',
     title: 'The Ultimate Guide to Google Ads Campaign Types (Updated for 2026)',
     excerpt: 'The single most important decision you will make when creating a Google Ads campaign is choosing the right campaign type. This guide covers every type - Search, Display, Performance Max, Demand Gen, and more - with clear guidance on when to use each.',
     category: 'Google Ads',
@@ -45,7 +45,7 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80',
     imageAlt: 'Google Ads campaign types overview - Search, Display, Performance Max, and Demand Gen campaigns explained',
-    externalUrl: 'https://knowhowmarketinglab.com/ultimate-guide-google-ads-campaign-types-2026/',
+    externalUrl: null,
   },
   {
     slug: 'google-ads-class-1-fundamentals',
@@ -59,10 +59,10 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&q=80',
     imageAlt: 'Google Ads fundamentals class - understanding the Google Ads auction, keywords, and bidding for beginners',
-    externalUrl: 'https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/',
+    externalUrl: null,
   },
   {
-    slug: 'google-ads-masterclass-5-week-roadmap',
+    slug: 'google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns',
     title: 'Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns',
     excerpt: 'Google Ads feels like a casino where the house always wins - until you know the rules. This 5-week roadmap gives you a clear, step-by-step path from zero to profitable campaigns, without burning through your budget.',
     category: 'Google Ads',
@@ -73,10 +73,10 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
     imageAlt: 'Google Ads masterclass 5-week roadmap to profitable campaigns - step-by-step guide for business owners',
-    externalUrl: 'https://knowhowmarketinglab.com/google-ads-masterclass-5-week-roadmap/',
+    externalUrl: null,
   },
   {
-    slug: 'ultimate-guide-google-ads-bidding-strategies-2026',
+    slug: 'the-ultimate-guide-to-google-ads-bidding-strategies',
     title: 'The Ultimate Guide to Google Ads Bidding Strategies (2026 Edition)',
     excerpt: 'Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one and you get a steady stream of profitable customers. Pick the wrong one and you burn through your budget. This guide explains every strategy clearly.',
     category: 'Google Ads',
@@ -87,10 +87,10 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
     imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximise Conversions, and Manual CPC explained',
-    externalUrl: 'https://knowhowmarketinglab.com/ultimate-guide-google-ads-bidding-strategies-2026/',
+    externalUrl: null,
   },
   {
-    slug: 'complete-guide-ai-seo',
+    slug: 'ai-seo-guide',
     title: 'The Complete Guide to AI SEO',
     excerpt: 'All 7 AI search optimisation acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
     category: 'AI Marketing',
@@ -101,10 +101,10 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80',
     imageAlt: 'Complete guide to AI SEO - GEO, AEO, SGE, LLMO, AIO explained for medium-sized businesses',
-    externalUrl: 'https://knowhowmarketinglab.com/complete-guide-ai-seo/',
+    externalUrl: null,
   },
   {
-    slug: 'url-redirects-seo-guide',
+    slug: 'url-redirects-everything-you-need-to-know-for-seo',
     title: 'URL Redirects: Everything You Need to Know for SEO',
     excerpt: 'Redirects are important in website management and user experience. This guide covers the types of URL redirects - 301, 302, and more - and explains how they affect your SEO strategy and Google rankings.',
     category: 'SEO',
@@ -115,7 +115,7 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80',
     imageAlt: 'URL redirects SEO guide - 301 vs 302 redirects and how they impact Google rankings and website traffic',
-    externalUrl: 'https://knowhowmarketinglab.com/url-redirects-seo-guide/',
+    externalUrl: null,
   },
   {
     slug: 'how-people-charge-for-google-ads',
@@ -129,7 +129,7 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
     imageAlt: 'How Google Ads agencies charge - hourly rates, flat monthly fees, and percentage of ad spend pricing models',
-    externalUrl: 'https://knowhowmarketinglab.com/how-people-charge-for-google-ads/',
+    externalUrl: null,
   },
   {
     slug: 'adgroups-based-on-user-intent',
@@ -143,7 +143,7 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80',
     imageAlt: 'Google Ads ad group structure based on user intent - awareness, consideration, and decision stage campaigns',
-    externalUrl: 'https://knowhowmarketinglab.com/adgroups-based-on-user-intent/',
+    externalUrl: null,
   },
   {
     slug: 'how-ai-is-shaping-marketing',
@@ -157,10 +157,10 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80',
     imageAlt: 'How AI is shaping digital marketing - content creation, campaign analysis, and automation tools for businesses',
-    externalUrl: 'https://knowhowmarketinglab.com/how-ai-is-shaping-marketing/',
+    externalUrl: null,
   },
   {
-    slug: 'ga4-setup-guide',
+    slug: 'ga4-set-up-guide',
     title: 'GA4 Set Up & Guide: Step-by-Step for Business Owners',
     excerpt: 'Google Analytics 4 (GA4) is the most important free tool for understanding your website traffic. This step-by-step guide walks you through setting up GA4, creating a data stream, and reading your first reports - no technical background needed.',
     category: 'Analytics',
@@ -171,7 +171,7 @@ const blogPosts = [
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
     imageAlt: 'GA4 setup guide for business owners - step-by-step Google Analytics 4 configuration and first report walkthrough',
-    externalUrl: 'https://knowhowmarketinglab.com/ga4-setup-guide/',
+    externalUrl: null,
   },
 ];
 

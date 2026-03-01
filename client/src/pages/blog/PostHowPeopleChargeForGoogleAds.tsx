@@ -1,0 +1,163 @@
+import { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import AnnouncementBar from '@/components/AnnouncementBar';
+import { Link } from 'wouter';
+
+const POST_CONTENT = `<h2 id="industries-charge-industry-rates"><br>Industries charge - Industry Rates</h2>
+
+<p><strong>Hourly Rates:</strong> <a href="https://seymourdigitalmedia.com/services/professional-google-ads-consulting-service/">Google Ads management services </a>typically range from $75 to $200 per hour, depending on the agency’s experience and expertise.</p>
+
+<p><strong>Flat Monthly Fee:</strong> Many agencies offer flat monthly fees, which can range from $1,500 to $5,000 or more, depending on the level of service and the size of the ad spend.</p>
+
+<h2 id="ad-spend">Ad Spend</h2>
+
+<p>The management fee is often correlated with the ad spend. For instance, it’s common for agencies to charge 10-20% of the monthly ad budget. For example, if the ad spend is $10,000 per month, the management fee might range from $1,000 to $2,000.</p>
+
+<h2 id="customization-and-expertise">Customization and Expertise</h2>
+
+<p>Given the high level of customization, including advanced targeting, <a href="https://seymourdigitalmedia.com/remarketing-retargeting/">retargeting</a>, and comprehensive reporting, fees could be on the higher end, reflecting the expertise required.</p>
+
+<h2 id="estimated-cost">Estimated Cost</h2>
+
+<p><strong>For a comprehensive plans:</strong> A fair monthly management fee might range from <strong>$3,000 to $5,000</strong>.</p>
+
+<p><strong>Higher-end services:</strong> If the ad spend is significant (e.g., $20,000+ per month) and the strategy involves highly sophisticated targeting and segmentation, the fee could be <strong>$5,000 to $7,500</strong> or more.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Considering the detailed and customized approach outlined, you should expect to invest in the higher end of the spectrum, likely <strong>$4,000 to $6,000 per month</strong> for comprehensive Google Ads management. </p>
+
+<p>This investment aligns with the strategic objectives of scaling marketing efforts and achieving significant growth through targeted and effective digital advertising.</p>
+
+<h2 id="contact-us">Contact Us</h2>
+
+<div class="wp-block-contact-form-7-contact-form-selector">[contact-form-7 id="5c430e5" title="Contact form 1"]</div>
+
+<style>
+html {
+scroll-behavior: smooth;
+}
+</style>`;
+
+export default function PostHowPeopleChargeForGoogleAds() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How People Charge for Google Ads",
+  "description": "Industries charge - Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency\u2019s exp...",
+  "datePublished": "2024-12-02",
+  "dateModified": "2024-12-02",
+  "author": {
+    "@type": "Person",
+    "name": "Pip Seymour",
+    "url": "https://knowhowmarketinglab.com/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KnowHow Marketing Lab",
+    "url": "https://knowhowmarketinglab.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://knowhowmarketinglab.com/how-people-charge-for-google-ads/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2024/12/images.png"
+  }
+});
+    document.head.appendChild(script);
+    document.title = 'How People Charge for Google Ads | KnowHow Marketing Lab';
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', 'Industries charge - Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency’s exp...');
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/how-people-charge-for-google-ads/');
+    return () => { document.head.removeChild(script); };
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-white">
+      <AnnouncementBar />
+      <Navbar />
+      <main className="pt-24 pb-20">
+        <article className="max-w-3xl mx-auto px-4 sm:px-6">
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">
+            <Link href="/" className="hover:text-[#318599]">Home</Link>
+            <span>/</span>
+            <Link href="/blog" className="hover:text-[#318599]">Blog</Link>
+            <span>/</span>
+            <span className="text-slate-700 truncate">How People Charge for Google Ads</span>
+          </nav>
+          {/* Category + Date */}
+          <div className="flex items-center gap-3 mb-4">
+            <span className="text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ backgroundColor: '#318599' }}>
+              websites &amp; SEO
+            </span>
+            <time className="text-sm text-slate-500" dateTime="2024-12-02">December 02, 2024</time>
+          </div>
+          {/* Title */}
+          <h1 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-6">
+            How People Charge for Google Ads
+          </h1>
+          {/* Author */}
+          <div className="flex items-center gap-3 mb-8 pb-8 border-b border-slate-200">
+            <div className="w-10 h-10 rounded-full bg-[#318599] flex items-center justify-center text-white font-bold text-sm">PS</div>
+            <div>
+              <p className="text-sm font-semibold text-slate-800">Pip Seymour</p>
+              <p className="text-xs text-slate-500">KnowHow Marketing Lab</p>
+            </div>
+          </div>
+
+        <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
+          <img
+            src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/images.png"
+            alt="How People Charge for Google Ads"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+        </div>
+
+        {/* Table of Contents */}
+        <nav className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
+          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">In This Article</h2>
+          <ol className="list-decimal list-inside space-y-1.5">
+              <li key="industries-charge-industry-rates"><a href="#industries-charge-industry-rates" className="text-[#318599] hover:underline text-sm">Industries charge - Industry Rates</a></li>
+              <li key="ad-spend"><a href="#ad-spend" className="text-[#318599] hover:underline text-sm">Ad Spend</a></li>
+              <li key="customization-and-expertise"><a href="#customization-and-expertise" className="text-[#318599] hover:underline text-sm">Customization and Expertise</a></li>
+              <li key="estimated-cost"><a href="#estimated-cost" className="text-[#318599] hover:underline text-sm">Estimated Cost</a></li>
+              <li key="conclusion"><a href="#conclusion" className="text-[#318599] hover:underline text-sm">Conclusion</a></li>
+              <li key="contact-us"><a href="#contact-us" className="text-[#318599] hover:underline text-sm">Contact Us</a></li>
+          </ol>
+        </nav>
+          {/* Article Content */}
+          <div
+            className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
+            dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
+          />
+          {/* CTA */}
+          <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
+            <h2 className="text-2xl font-bold mb-3">Want to put this into practice?</h2>
+            <p className="text-white/80 mb-6">Join The Lab — live monthly training, community support, and the Data-First AI SEO Method.</p>
+            <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">
+              Join The Lab — $29/month
+            </a>
+          </div>
+          {/* Back to blog */}
+          <div className="mt-10 text-center">
+            <Link href="/blog" className="text-[#318599] hover:underline text-sm font-medium">Back to all articles</Link>
+          </div>
+        </article>
+      </main>
+      <Footer />
+    </div>
+  );
+}

@@ -31,6 +31,18 @@ const ThankYou = lazy(() => import("./pages/ThankYou"));
 const Podcast = lazy(() => import("./pages/Podcast"));
 const FreeCourse = lazy(() => import("./pages/FreeCourse"));
 
+// WordPress migrated blog posts — exact same URLs to preserve SEO rankings
+const PostUrlRedirectsEverythingYouNeedToKnowForSeo = lazy(() => import('./pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo'));
+const PostHowPeopleChargeForGoogleAds = lazy(() => import('./pages/blog/PostHowPeopleChargeForGoogleAds'));
+const PostHowAiIsShapingMarketing = lazy(() => import('./pages/blog/PostHowAiIsShapingMarketing'));
+const PostAiSeoGuide = lazy(() => import('./pages/blog/PostAiSeoGuide'));
+const PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns = lazy(() => import('./pages/blog/PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns'));
+const PostTheUltimateGuideToGoogleAdsBiddingStrategies = lazy(() => import('./pages/blog/PostTheUltimateGuideToGoogleAdsBiddingStrategies'));
+const PostGoogleAdsClass1Fundamentals = lazy(() => import('./pages/blog/PostGoogleAdsClass1Fundamentals'));
+const PostTheUltimateGuideToGoogleAdsCampaignTypes = lazy(() => import('./pages/blog/PostTheUltimateGuideToGoogleAdsCampaignTypes'));
+const PostAdgroupsBasedOnUserIntent = lazy(() => import('./pages/blog/PostAdgroupsBasedOnUserIntent'));
+const PostGa4SetUpGuide = lazy(() => import('./pages/blog/PostGa4SetUpGuide'));
+
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
   return (
@@ -70,6 +82,29 @@ function Router() {
         <Route path="/thank-you" component={ThankYou} />
         <Route path="/podcast" component={Podcast} />
         <Route path="/free-course" component={FreeCourse} />
+
+        {/* WordPress migrated blog posts — exact same URLs to preserve SEO rankings */}
+        <Route path="/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
+        <Route path="/url-redirects-everything-you-need-to-know-for-seo" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
+        <Route path="/how-people-charge-for-google-ads/" component={PostHowPeopleChargeForGoogleAds} />
+        <Route path="/how-people-charge-for-google-ads" component={PostHowPeopleChargeForGoogleAds} />
+        <Route path="/how-ai-is-shaping-marketing/" component={PostHowAiIsShapingMarketing} />
+        <Route path="/how-ai-is-shaping-marketing" component={PostHowAiIsShapingMarketing} />
+        <Route path="/ai-seo-guide/" component={PostAiSeoGuide} />
+        <Route path="/ai-seo-guide" component={PostAiSeoGuide} />
+        <Route path="/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
+        <Route path="/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
+        <Route path="/the-ultimate-guide-to-google-ads-bidding-strategies/" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
+        <Route path="/the-ultimate-guide-to-google-ads-bidding-strategies" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
+        <Route path="/google-ads-class-1-fundamentals/" component={PostGoogleAdsClass1Fundamentals} />
+        <Route path="/google-ads-class-1-fundamentals" component={PostGoogleAdsClass1Fundamentals} />
+        <Route path="/the-ultimate-guide-to-google-ads-campaign-types/" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
+        <Route path="/the-ultimate-guide-to-google-ads-campaign-types" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
+        <Route path="/adgroups-based-on-user-intent/" component={PostAdgroupsBasedOnUserIntent} />
+        <Route path="/adgroups-based-on-user-intent" component={PostAdgroupsBasedOnUserIntent} />
+        <Route path="/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
+        <Route path="/ga4-set-up-guide" component={PostGa4SetUpGuide} />
+
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>

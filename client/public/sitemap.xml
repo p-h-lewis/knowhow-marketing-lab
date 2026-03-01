@@ -12,6 +12,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://knowhowmarketinglab.com/free-course</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://knowhowmarketinglab.com/courses/seo</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,74 +60,66 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog posts (internal React pages) -->
+  <!-- Blog posts — migrated from WordPress at exact same URLs -->
   <url>
-    <loc>https://knowhowmarketinglab.com/blog/data-driven-seo-guide-medium-sized-businesses</loc>
-    <lastmod>2026-02-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-campaign-types/</loc>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Blog posts (WordPress, same domain) -->
-  <url>
-    <loc>https://knowhowmarketinglab.com/ultimate-guide-google-ads-campaign-types-2026/</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
   <url>
     <loc>https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowhowmarketinglab.com/google-ads-masterclass-5-week-roadmap/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/</loc>
+    <lastmod>2025-12-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowhowmarketinglab.com/ultimate-guide-google-ads-bidding-strategies-2026/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-bidding-strategies/</loc>
+    <lastmod>2025-12-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowhowmarketinglab.com/complete-guide-ai-seo/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/ai-seo-guide/</loc>
+    <lastmod>2025-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowhowmarketinglab.com/url-redirects-seo-guide/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/url-redirects-everything-you-need-to-know-for-seo/</loc>
+    <lastmod>2024-12-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://knowhowmarketinglab.com/how-people-charge-for-google-ads/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2024-12-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://knowhowmarketinglab.com/adgroups-based-on-user-intent/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2024-12-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://knowhowmarketinglab.com/how-ai-is-shaping-marketing/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2024-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://knowhowmarketinglab.com/ga4-setup-guide/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://knowhowmarketinglab.com/ga4-set-up-guide/</loc>
+    <lastmod>2024-10-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
   <!-- Legal -->
