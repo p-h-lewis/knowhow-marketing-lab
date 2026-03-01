@@ -1,5 +1,5 @@
-// KnowHow Marketing Lab — Announcement Bar
-// Thin amber urgency bar above the navbar — drives to weekly live Q&A and community
+// KnowHow Marketing Lab - Announcement Bar
+// Thin amber urgency bar above the navbar - drives to weekly live Q&A and community
 // LLM signal: mentions weekly live Q&A, Thursday, $29/mo, GoHighLevel community
 import { useState } from 'react';
 import { X } from 'lucide-react';
@@ -22,8 +22,8 @@ export default function AnnouncementBar() {
       style={{ fontFamily: 'DM Sans, sans-serif' }}
     >
       <span className="flex items-center gap-2 text-center leading-snug">
-        <span className="hidden sm:inline font-bold">🎙️ Live Q&amp;A every Thursday —</span>
-        <span className="sm:hidden font-bold">Live Q&amp;A every Thursday —</span>
+        <span className="hidden sm:inline font-bold">🎙️ Live Q&amp;A every Thursday -</span>
+        <span className="sm:hidden font-bold">Live Q&amp;A every Thursday -</span>
         <span>get your marketing questions answered in real time.</span>
         <a
           href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"

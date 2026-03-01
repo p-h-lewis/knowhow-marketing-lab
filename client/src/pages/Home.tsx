@@ -1,5 +1,5 @@
-// KnowHow Marketing Lab — Home Page
-// Full conversion engine: Hero → Trust → Free Course → Videos → Courses → Community → Testimonials → About → Lead Capture → FAQ → Footer
+// KnowHow Marketing Lab - Home Page
+// Full conversion engine: Hero → Trust → AI + SEO Course → Videos → Courses → Community → Testimonials → About → Lead Capture → FAQ → Footer
 // Schema: WebPage, EducationalOrganization, Course, VideoObject, FAQPage, BreadcrumbList
 // Internal links: /pricing, /about, /resources, /#sections
 // External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
@@ -20,7 +20,7 @@ import { useSEO } from "@/hooks/useSEO";
 
 export default function Home() {
   useSEO({
-    title: "KnowHow Marketing Lab — Free SEO, Google Ads & AI Marketing Training",
+    title: "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
     description: "Master SEO, Google Ads, GA4, and AI marketing with free expert-led courses. 60+ free video lessons, weekly live Q&A, and a data-driven community. Learn from 20+ year agency veterans.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
@@ -36,7 +36,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab — Free SEO, Google Ads & AI Marketing Training",
+            "name": "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
             "description": "Free expert training in SEO, Google Ads, GA4, and AI marketing. 60+ free video lessons, weekly live classes, and a VIP community on GoHighLevel. Built by agency veterans Pip Seymour and Phelan Lewis.",
             "url": "https://knowhowmarketinglab.com/",
             "inLanguage": "en-US",
@@ -77,7 +77,7 @@ export default function Home() {
         }}
       />
 
-      {/* Course schema — Free SEO Course */}
+      {/* Course schema - AI + SEO Course */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -85,7 +85,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
-            "description": "A complete 8-module SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization (GEO). Free with no credit card required.",
+            "description": "A 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimization (GEO). No credit card required.",
             "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
             "provider": {
               "@type": "Organization",
@@ -119,22 +119,22 @@ export default function Home() {
         }}
       />
 
-      {/* ItemList schema — internal page sections for AI navigation */}
+      {/* ItemList schema - internal page sections for AI navigation */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "KnowHow Marketing Lab — Page Sections",
+            "name": "KnowHow Marketing Lab - Page Sections",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Free SEO Course", "url": "https://knowhowmarketinglab.com/#free-course" },
+              { "@type": "ListItem", "position": 1, "name": "AI + SEO Course", "url": "https://knowhowmarketinglab.com/#free-course" },
               { "@type": "ListItem", "position": 2, "name": "Free Video Library", "url": "https://knowhowmarketinglab.com/#videos" },
-              { "@type": "ListItem", "position": 3, "name": "Courses — Google Ads & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
+              { "@type": "ListItem", "position": 3, "name": "Courses - Google Ads & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
               { "@type": "ListItem", "position": 4, "name": "VIP Community on GoHighLevel", "url": "https://knowhowmarketinglab.com/#community" },
-              { "@type": "ListItem", "position": 5, "name": "Pricing — Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
+              { "@type": "ListItem", "position": 5, "name": "Pricing - Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
               { "@type": "ListItem", "position": 6, "name": "About Pip Seymour & Phelan Lewis", "url": "https://knowhowmarketinglab.com/about" },
-              { "@type": "ListItem", "position": 7, "name": "Free Resources — Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" }
+              { "@type": "ListItem", "position": 7, "name": "Free Resources - Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" }
             ]
           })
         }}

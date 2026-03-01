@@ -1,4 +1,4 @@
-// useSEO — sets per-page <title>, <meta name="description">, and <link rel="canonical">
+// useSEO - sets per-page <title>, <meta name="description">, and <link rel="canonical">
 // Call this at the top of every page component with page-specific values.
 // This is the primary SEO signal for Google and LLMs to distinguish pages.
 
@@ -87,7 +87,7 @@ export function useSEO({
 
     return () => {
       // Reset to site defaults on unmount
-      document.title = "KnowHow Marketing Lab — Free SEO, Google Ads & AI Marketing Training";
+      document.title = "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training";
     };
   }, [title, description, canonical, ogTitle, ogDescription, ogImage, ogType]);
 }

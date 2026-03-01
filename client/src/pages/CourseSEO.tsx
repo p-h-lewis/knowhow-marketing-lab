@@ -1,4 +1,4 @@
-// /courses/seo — Free Data-Driven SEO Course page
+// /courses/seo - Free Data-Driven SEO Course page
 // Design: White/light contemporary, Space Grotesk + DM Sans, amber #E98C28, teal #318599
 // Schema: Course, FAQPage, BreadcrumbList, HowTo, VideoObject
 // Internal links: → /courses/google-ads, → /pricing, → /blog, → /resources, → /about
@@ -15,29 +15,26 @@ const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login';
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
 const modules = [
-  { num: '01', title: 'How Google Search Works', desc: 'Learn how Google finds, reads, and ranks web pages. This is the foundation of everything.' },
-  { num: '02', title: 'Keyword Research That Drives Real Traffic', desc: 'Find the exact words your customers type into Google — and how to use them on your site.' },
-  { num: '03', title: 'On-Page SEO Essentials', desc: 'Write titles, headings, and page content that Google and people both love.' },
-  { num: '04', title: 'Technical SEO Made Simple', desc: 'Fix the behind-the-scenes issues that stop Google from reading your site correctly.' },
-  { num: '05', title: 'Google Search Console Mastery', desc: 'Use Google\'s free tool to see exactly how your site performs in search — and what to fix.' },
-  { num: '06', title: 'Google Analytics 4 (GA4) Basics', desc: 'Track where your visitors come from and what they do on your site.' },
-  { num: '07', title: 'Local SEO & Google Business Profile', desc: 'Get found by people searching for businesses like yours in your city.' },
-  { num: '08', title: 'Content Strategy for Medium-Sized Businesses', desc: 'Build a content plan that brings in consistent traffic — without writing every day.' },
+  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.' },
+  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.' },
+  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.' },
+  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimization without losing your brand voice.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimize your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.' },
 ];
 
 const faqs = [
-  { q: 'Is this SEO course really free?', a: 'Yes — 100% free. No credit card. No catch. You get all 8 modules, all the video lessons, and access to the course platform at no cost.' },
+  { q: 'Is this AI + SEO course free to access?', a: 'Yes - no credit card required. You get all 5 modules, all the video lessons, and access to the course platform at no cost.' },
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
-  { q: 'How long does the course take?', a: 'Most people finish the core 8 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace — there is no deadline.' },
+  { q: 'How long does the course take?', a: 'Most people finish the core 5 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace - there is no deadline.' },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
-  { q: 'What is the difference between the free course and the VIP Community?', a: 'The free course gives you the full SEO foundation. The VIP Community ($29/mo) adds weekly live Q&A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and private community access. See the full comparison on our pricing page.' },
+  { q: 'What is the difference between the AI + SEO course and the VIP Community?', a: 'The AI + SEO course gives you the full SEO foundation. The VIP Community ($29/mo) adds weekly live Q&A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and private community access. See the full comparison on our pricing page.' },
   { q: 'Does this course cover AI and generative search?', a: 'Yes. Module 8 covers content strategy for AI-driven search, including how to structure your content to appear in AI Overviews and be cited by large language models (LLMs).' },
 ];
 
 export default function CourseSEO() {
   useSEO({
-    title: "Free SEO Course — Learn Data-Driven SEO with Google Tools | KnowHow Marketing Lab",
-    description: "Free SEO course covering keyword research, Google Search Console, GA4, and content strategy. 8 modules, 60+ video lessons, no credit card required. By Pip Seymour and Phelan Lewis.",
+    title: "AI + SEO Course - Learn Data-Driven SEO with Google Tools | KnowHow Marketing Lab",
+    description: "AI + SEO course covering keyword research, Google Search Console, GA4, and content strategy. 5 modules, 60+ video lessons, no credit card required. By Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
   });
@@ -53,8 +50,8 @@ export default function CourseSEO() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Course",
-            "name": "Free Data-Driven SEO Course for Medium-Sized Businesses",
-            "description": "A free 8-module SEO course taught by Pip Seymour and Phelan Lewis. Learn keyword research, on-page SEO, Google Search Console, GA4, local SEO, and content strategy — all using real data.",
+            "name": "AI + SEO Course for Medium-Sized Businesses",
+            "description": "A 5-module AI + SEO course taught by Pip Seymour and Phelan Lewis. Learn keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile - using real data and AI tools.",
             "url": "https://knowhowmarketinglab.com/courses/seo",
             "provider": {
               "@type": "EducationalOrganization",
@@ -86,7 +83,7 @@ export default function CourseSEO() {
               "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/" },
                 { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://knowhowmarketinglab.com/courses/seo" },
-                { "@type": "ListItem", "position": 3, "name": "Free SEO Course", "item": "https://knowhowmarketinglab.com/courses/seo" }
+                { "@type": "ListItem", "position": 3, "name": "AI + SEO Course", "item": "https://knowhowmarketinglab.com/courses/seo" }
               ]
             }
           })
@@ -118,24 +115,24 @@ export default function CourseSEO() {
               <ol className="flex items-center gap-2 text-sm text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 <li><Link href="/" className="hover:text-[#318599] transition-colors">Home</Link></li>
                 <li aria-hidden="true">/</li>
-                <li className="text-gray-600">Free SEO Course</li>
+                <li className="text-gray-600">AI + SEO Course</li>
               </ol>
             </nav>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Free Course · 8 Modules · Self-Paced
+                  AI + SEO Course · 5 Modules · Self-Paced
                 </span>
                 <h1 id="seo-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Free Data-Driven<br />
-                  <span className="text-[#E98C28]">SEO Course</span>
+                  Data-Driven<br />
+                  <span className="text-[#E98C28]">AI + SEO Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Learn how to get your business found on Google — using real data, not guesswork. This free course covers everything from keyword research to Google Search Console to content strategy.
+                  Learn how to get your business found on Google - using real data, not guesswork. This AI + SEO course covers everything from keyword research to Google Search Console to content strategy.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> — two Canadian agency owners with 20+ years of hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
+                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 20+ years of hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -143,9 +140,9 @@ export default function CourseSEO() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary pulse-cta"
-                    aria-label="Start the free SEO course — no credit card required"
+                    aria-label="Start the AI + SEO course - no credit card required"
                   >
-                    Start Free Course →
+                    Start AI + SEO Course →
                   </a>
                   <Link
                     href="/pricing"
@@ -163,9 +160,9 @@ export default function CourseSEO() {
               {/* Stats */}
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: '8', label: 'Course Modules', sub: 'Structured, step-by-step' },
+                  { value: '5', label: 'Course Modules', sub: 'Structured, step-by-step' },
                   { value: '60+', label: 'Video Lessons', sub: 'Free on YouTube' },
-                  { value: '100%', label: 'Free to Access', sub: 'No credit card needed' },
+                  { value: '100%', label: 'No Credit Card', sub: 'Start immediately' },
                   { value: '20+', label: 'Years Experience', sub: 'Real agency knowledge' },
                 ].map(s => (
                   <div key={s.label} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 text-center">
@@ -188,7 +185,7 @@ export default function CourseSEO() {
                 What You Will Learn
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Eight modules that take you from "I don't know where to start" to running a real, data-driven SEO strategy for your business.
+                Five modules that take you from "I don't know where to start" to running a real, data-driven AI + SEO strategy for your business.
               </p>
             </div>
 
@@ -219,9 +216,9 @@ export default function CourseSEO() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Start the free SEO course now"
+                aria-label="Start the AI + SEO course now"
               >
-                Start Free Course →
+                Start AI + SEO Course →
               </a>
             </div>
           </div>
@@ -247,7 +244,7 @@ export default function CourseSEO() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-xl border border-gray-200 hover:border-[#318599] hover:shadow-sm transition-all duration-200 text-sm text-gray-700"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  aria-label={`${r.label} — ${r.desc}`}
+                  aria-label={`${r.label} - ${r.desc}`}
                 >
                   <svg className="w-4 h-4 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                   {r.label}
@@ -257,7 +254,7 @@ export default function CourseSEO() {
           </div>
         </section>
 
-        {/* Upgrade CTA — Community */}
+        {/* Upgrade CTA - Community */}
         <section className="py-16 bg-white" aria-labelledby="upgrade-heading">
           <div className="container max-w-3xl text-center">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Go Deeper</span>
@@ -265,7 +262,7 @@ export default function CourseSEO() {
               Want Live Help Every Week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The free course gives you the foundation. The VIP Community gives you live Q&amp;A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and a private group of marketers who are doing the same work you are.
+              The AI + SEO course gives you the foundation. The VIP Community gives you live Q&amp;A every Thursday, a monthly deep-dive training, the Google Ads course, the AI marketing course, and a private group of marketers who are doing the same work you are.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -275,7 +272,7 @@ export default function CourseSEO() {
                 className="btn-primary pulse-cta"
                 aria-label="Join the KnowHow Marketing Lab VIP Community for $29 per month"
               >
-                Join the Community — $29/mo →
+                Join the Community - $29/mo →
               </a>
               <Link
                 href="/courses/google-ads"
@@ -297,7 +294,7 @@ export default function CourseSEO() {
               Not Sure Where to Start?
             </h2>
             <p className="text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Book a free 30-minute call with Pip or Phelan. We will look at your current SEO, tell you exactly what to fix first, and answer your questions — no sales pitch.
+              Book a free 30-minute call with Pip or Phelan. We will look at your current SEO, tell you exactly what to fix first, and answer your questions - no sales pitch.
             </p>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
               <iframe

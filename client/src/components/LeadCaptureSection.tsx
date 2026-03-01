@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Lead Capture + FAQ Section
+// KnowHow Marketing Lab - Lead Capture + FAQ Section
 // Grade 6 readability · Human-first · LLM-optimized FAQ schema
 // FAQ answers written as complete, citable sentences for AI Overviews
 // Internal links: /pricing, /resources, /about, /blog
@@ -9,11 +9,11 @@ import { useLocation } from 'wouter';
 const faqs = [
   {
     q: 'What is KnowHow Marketing Lab?',
-    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis — two Canadian digital marketing agency owners with over 20 years of experience. The platform offers free SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
+    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis - two Canadian digital marketing agency owners with over 20 years of experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
   },
   {
     q: 'Is the SEO course really free?',
-    a: 'Yes — the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
+    a: 'Yes - the KnowHow Marketing Lab SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
   },
   {
     q: 'What is the VIP Community?',
@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other marketing courses?',
-    a: 'KnowHow Marketing Lab focuses on data-driven methods — using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimization (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
+    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimization (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
   },
   {
     q: 'What is Generative Engine Optimization (GEO)?',
-    a: 'Generative Engine Optimization (GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions — the same content that ranks well on Google also tends to get cited by AI systems.',
+    a: 'Generative Engine Optimization (GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of the KnowHow Marketing Lab SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 
@@ -53,7 +53,7 @@ export default function LeadCaptureSection() {
         (window as any).GHLForm.submit({ firstName: name, email });
       }
     } catch (_) {
-      // Silent fail — redirect still happens
+      // Silent fail - redirect still happens
     }
     setSubmitted(true);
     navigate('/thank-you');
@@ -85,13 +85,13 @@ export default function LeadCaptureSection() {
               className="text-gray-300 text-lg mb-3"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Get instant access to the free SEO course — 8 modules, no credit card, no catch.
+              Get instant access to the AI + SEO course - 5 modules, no credit card, no catch.
             </p>
             <p
               className="text-gray-400 text-sm mb-8"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Or join the VIP Community for weekly live Q&A, monthly training, and the full Google Ads course — all for $29/month.
+              Or join the VIP Community for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
             </p>
 
             {!submitted ? (
@@ -130,7 +130,7 @@ export default function LeadCaptureSection() {
                   className="btn-primary justify-center text-base py-4 pulse-cta"
                   aria-label="Start the free KnowHow Marketing Lab SEO course"
                 >
-                  Start Free Course Now →
+                  Start AI + SEO Course Now →
                 </button>
                 <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   We respect your privacy. No spam. Unsubscribe anytime.
@@ -146,7 +146,7 @@ export default function LeadCaptureSection() {
                   ✓ You are in! Welcome to KnowHow Marketing Lab.
                 </p>
                 <p className="text-gray-300 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Your free course is opening now. Check your email for your access link.
+                  Your AI + SEO course is opening now. Check your email for your access link.
                 </p>
               </div>
             )}
@@ -200,7 +200,7 @@ export default function LeadCaptureSection() {
             <a
               href="/about"
               className="btn-outline text-sm py-2.5 px-4"
-              aria-label="About Pip Seymour and Phelan Lewis — KnowHow Marketing Lab instructors"
+              aria-label="About Pip Seymour and Phelan Lewis - KnowHow Marketing Lab instructors"
             >
               About Us →
             </a>

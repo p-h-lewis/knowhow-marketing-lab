@@ -7,8 +7,8 @@ import { useSEO } from "@/hooks/useSEO";
 const recoveryLinks = [
   {
     href: "/",
-    label: "Free SEO Course",
-    desc: "Start the free 8-module course — no credit card needed.",
+    label: "AI + SEO Course",
+    desc: "Start the 5-module AI + SEO course - no credit card needed.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -18,7 +18,7 @@ const recoveryLinks = [
   {
     href: "/#videos",
     label: "Video Library",
-    desc: "60+ free marketing videos — no sign-up required.",
+    desc: "60+ free marketing videos - no sign-up required.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -38,7 +38,7 @@ const recoveryLinks = [
   },
   {
     href: "/pricing",
-    label: "Community — $29/mo",
+    label: "Community - $29/mo",
     desc: "Weekly live Q&A, Google Ads course, and private group.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -50,8 +50,8 @@ const recoveryLinks = [
 
 export default function NotFound() {
   useSEO({
-    title: "Page Not Found — KnowHow Marketing Lab",
-    description: "The page you are looking for could not be found. Browse our free SEO course, video library, blog, or community.",
+    title: "Page Not Found - KnowHow Marketing Lab",
+    description: "The page you are looking for could not be found. Browse our AI + SEO course, video library, blog, or community.",
     canonical: "https://knowhowmarketinglab.com/404",
     ogType: "website",
   });

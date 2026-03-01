@@ -1,8 +1,8 @@
-// KnowHow Marketing Lab — Hero Section
+// KnowHow Marketing Lab - Hero Section
 // Grade 6 readability · Human-first copy · LLM-optimized semantic structure
 // Entity: KnowHow Marketing Lab = free digital marketing training for medium-sized businesses
 // Branded framework: The Data-First SEO Method by Pip Seymour & Phelan Lewis
-// Conversion: email lead → GoHighLevel free course opt-in
+// Conversion: email lead → GoHighLevel AI + SEO course opt-in
 
 import { useState } from 'react';
 import { useLocation } from 'wouter';
@@ -26,7 +26,7 @@ export default function HeroSection() {
         (window as any).GHLForm.submit({ email });
       }
     } catch (_) {
-      // Silent fail — redirect still happens
+      // Silent fail - redirect still happens
     }
     setSubmitted(true);
     navigate('/thank-you');
@@ -48,11 +48,11 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                100% Free — No Credit Card Needed
+                100% Free - No Credit Card Needed
               </span>
             </div>
 
-            {/* H1 — clear, direct, grade 6 */}
+            {/* H1 - clear, direct, grade 6 */}
             <h1
               id="hero-heading"
               className="text-4xl md:text-5xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-5 speakable"
@@ -61,22 +61,22 @@ export default function HeroSection() {
             >
               Learn SEO, Google Ads{' '}
               <span className="text-[#E98C28]">&amp; AI Marketing</span>{' '}
-              — For Free
+              - For Free
             </h1>
 
-            {/* Subheading — plain language, answers "what is this?" for LLMs */}
+            {/* Subheading - plain language, answers "what is this?" for LLMs */}
             <p
               className="text-lg text-gray-600 leading-relaxed mb-4 max-w-xl"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. We teach you how to get found on Google — using real data, not guesswork.
+              KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. We teach you how to get found on Google - using real data, not guesswork.
             </p>
             <p
               className="text-base text-gray-500 leading-relaxed mb-8 max-w-xl"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Our courses cover SEO, Google Ads, Google Analytics 4 (GA4), and AI marketing tools. Everything is taught by Pip Seymour and Phelan Lewis — two Canadian agency owners with 20+ years of hands-on experience.
+              Our courses cover SEO, Google Ads, Google Analytics 4 (GA4), and AI marketing tools. Everything is taught by Pip Seymour and Phelan Lewis - two Canadian agency owners with 20+ years of hands-on experience.
             </p>
 
             {/* Lead Capture Form */}
@@ -84,7 +84,7 @@ export default function HeroSection() {
               <form
                 onSubmit={handleSubmit}
                 className="flex flex-col sm:flex-row gap-3 max-w-lg mb-6"
-                aria-label="Sign up for the free SEO course"
+                aria-label="Sign up for the AI + SEO course"
                 data-ghl-form-id="l71tHQPMO7st6TFSPmo5"
               >
                 <label htmlFor="hero-email" className="sr-only">Your email address</label>
@@ -103,24 +103,24 @@ export default function HeroSection() {
                 <button
                   type="submit"
                   className="btn-primary whitespace-nowrap pulse-cta"
-                  aria-label="Start the free SEO course — no credit card required"
+                  aria-label="Start the AI + SEO course - no credit card required"
                 >
-                  Start Free Course →
+                  Start AI + SEO Course →
                 </button>
               </form>
             ) : (
               <div className="bg-[#e6f4f7] border border-[#318599] rounded-lg p-4 mb-6 max-w-lg" role="status" aria-live="polite">
                 <p className="text-[#1e6b7e] font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  ✓ Great! Opening your free course now…
+                  ✓ Great! Opening your AI + SEO course now…
                 </p>
               </div>
             )}
 
-            {/* What you get — scannable for LLMs */}
+            {/* What you get - scannable for LLMs */}
             <ul className="flex flex-col gap-2 mb-8 max-w-lg" aria-label="What you get for free">
               {[
                 { icon: '✓', text: '60+ free video lessons on YouTube' },
-                { icon: '✓', text: 'Full 5-module SEO course — no credit card needed' },
+                { icon: '✓', text: 'Full 5-module SEO course - no credit card needed' },
                 { icon: '✓', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -135,7 +135,7 @@ export default function HeroSection() {
               {[
                 { value: '60+', label: 'Free Video Lessons' },
                 { value: '20+', label: 'Years of Agency Experience' },
-                { value: '$29/mo', label: 'VIP Community — Lock In Now' },
+                { value: '$29/mo', label: 'VIP Community - Lock In Now' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -154,7 +154,7 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg"
-                alt="KnowHow Marketing Lab free SEO and Google Ads course — analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
+                alt="KnowHow Marketing Lab AI + SEO and Google Ads course - analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
                 width="1200"
                 height="675"
                 className="w-full h-auto"

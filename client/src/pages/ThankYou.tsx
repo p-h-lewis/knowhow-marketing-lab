@@ -1,5 +1,5 @@
-// KnowHow Marketing Lab — Thank You Page
-// Shown after free course opt-in form submission
+// KnowHow Marketing Lab - Thank You Page
+// Shown after AI + SEO course opt-in form submission
 // Confirms signup, delivers next steps, and soft-introduces VIP Community
 
 import { useEffect } from 'react';
@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 
 const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google works, what SERPs are, and why search intent matters.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 — the two free tools that show you exactly what is happening on your site.' },
+  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 - the two free tools that show you exactly what is happening on your site.' },
   { num: '03', title: 'Keyword Research Basics', desc: 'Find the keywords your customers are actually searching for using Google\'s free Keyword Planner.' },
   { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags and meta descriptions that get clicks, and build internal links that help Google understand your site.' },
   { num: '05', title: 'Google Business Profile', desc: 'Optimize your Google Business Profile so you show up in local search results.' },
@@ -41,7 +41,7 @@ export default function ThankYou() {
 
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-4">
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                You're in — check your inbox
+                You're in - check your inbox
               </span>
             </div>
 
@@ -54,7 +54,7 @@ export default function ThankYou() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Your free SEO course access is on its way. Check your inbox for an email from Pip Seymour — it includes your login link and everything you need to get started.
+              Your AI + SEO course access is on its way. Check your inbox for an email from Pip Seymour - it includes your login link and everything you need to get started.
             </p>
             <p className="text-base text-gray-500 mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Didn't get it? Check your spam folder, or{' '}
@@ -72,9 +72,9 @@ export default function ThankYou() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-4"
-              aria-label="Start the free SEO course now"
+              aria-label="Start the AI + SEO course now"
             >
-              Start Your Free Course Now →
+              Start Your AI + SEO Course Now →
             </a>
           </div>
         </section>
@@ -87,13 +87,13 @@ export default function ThankYou() {
               className="text-2xl font-extrabold text-gray-900 mb-2 text-center"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Here's what's inside your free course
+              Here's what's inside your AI + SEO course
             </h2>
             <p className="text-gray-500 text-center mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               5 modules. Go at your own pace. No deadline.
             </p>
 
-            <ol className="flex flex-col gap-4" aria-label="Free SEO course modules">
+            <ol className="flex flex-col gap-4" aria-label="AI + SEO course modules">
               {modules.map(mod => (
                 <li
                   key={mod.num}
@@ -120,7 +120,7 @@ export default function ThankYou() {
           </div>
         </section>
 
-        {/* What's next — Thursday Q&A + VIP */}
+        {/* What's next - Thursday Q&A + VIP */}
         <section className="py-16 bg-[#0f2236]" aria-labelledby="next-steps-heading">
           <div className="container max-w-3xl mx-auto px-4">
             <h2
@@ -140,7 +140,7 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Join us live — every Thursday
+                  Join us live - every Thursday
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Free live Q&A with Pip and Phelan. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
@@ -164,7 +164,7 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  VIP Community — $29/month
+                  VIP Community - $29/month
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Go deeper with weekly live training, the full Google Ads course, AI marketing lessons, and a private community group. No contracts. Cancel anytime.

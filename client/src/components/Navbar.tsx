@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Navbar
+// KnowHow Marketing Lab - Navbar
 // White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
 // Internal links: /, /blog, /#free-course, /#videos, /#courses, /#community, /about, /pricing, /resources
 // External: learnwith.seymourdigitalmedia.com (Log In)
@@ -23,7 +23,7 @@ export default function Navbar() {
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
   const navLinks = [
-    { label: 'Free SEO Course', href: '/courses/seo' },
+    { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Framework', href: '/framework' },
@@ -33,7 +33,7 @@ export default function Navbar() {
   ];
 
   const courseLinks = [
-    { label: 'Free SEO Course', href: '/courses/seo', badge: 'Free' },
+    { label: 'AI + SEO Course', href: '/courses/seo', badge: 'New' },
     { label: 'Google Ads Mastery', href: '/courses/google-ads', badge: '$29/mo' },
   ];
 
@@ -50,7 +50,7 @@ export default function Navbar() {
     >
       <nav className="container flex items-center justify-between h-16" aria-label="Main navigation">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group" aria-label="KnowHow Marketing Lab — home">
+        <Link href="/" className="flex items-center gap-2.5 group" aria-label="KnowHow Marketing Lab - home">
           <div
             className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
             style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
@@ -103,7 +103,7 @@ export default function Navbar() {
             aria-haspopup="true"
             aria-expanded={coursesOpen}
             aria-controls="courses-dropdown"
-            aria-label="Courses — expand menu"
+            aria-label="Courses - expand menu"
             onClick={() => setCoursesOpen(o => !o)}
             onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCoursesOpen(false); }}
           >
@@ -145,9 +145,9 @@ export default function Navbar() {
           <a
             href={anchorHref('#free-course')}
             className="btn-primary text-sm py-2.5 px-5 pulse-cta"
-            aria-label="Start the free SEO course — no credit card required"
+            aria-label="Start the AI + SEO course - no credit card required"
           >
-            Start Free Course →
+            Start AI + SEO Course →
           </a>
         </div>
 
@@ -245,9 +245,9 @@ export default function Navbar() {
               href={anchorHref('#free-course')}
               className="btn-primary text-sm text-center justify-center"
               onClick={() => setMobileOpen(false)}
-              aria-label="Start the free SEO course"
+              aria-label="Start the AI + SEO course"
             >
-              Start Free Course →
+              Start AI + SEO Course →
             </a>
           </div>
         </div>

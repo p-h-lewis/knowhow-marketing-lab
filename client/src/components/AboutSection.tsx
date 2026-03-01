@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — About Section
+// KnowHow Marketing Lab - About Section
 // Builds trust with instructor bios and agency credentials
 
 export default function AboutSection() {
@@ -27,7 +27,7 @@ export default function AboutSection() {
               Real Agency Experience. Real Results.
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-              KnowHow Marketing Lab was built by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> — two digital marketing veterans with over 20 years of combined agency experience. We've managed millions in Google Ads spend, ranked hundreds of businesses on Google, and built data-driven marketing strategies for medium-sized businesses across North America.
+              KnowHow Marketing Lab was built by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two digital marketing veterans with over 20 years of combined agency experience. We've managed millions in Google Ads spend, ranked hundreds of businesses on Google, and built data-driven marketing strategies for medium-sized businesses across North America.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               We created KnowHow Marketing Lab because we believe every business deserves access to the same strategies that enterprise brands pay agencies six figures for. Our approach is data-first, jargon-free, and always actionable.

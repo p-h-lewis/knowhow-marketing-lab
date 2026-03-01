@@ -1,4 +1,4 @@
-// /courses/google-ads — Google Ads Mastery Course page
+// /courses/google-ads - Google Ads Mastery Course page
 // Design: White/light contemporary, Space Grotesk + DM Sans, amber #E98C28, teal #318599
 // Schema: Course, FAQPage, BreadcrumbList
 // Internal links: → /courses/seo, → /pricing, → /blog, → /resources, → /about
@@ -18,24 +18,24 @@ const modules = [
   { num: '02', title: 'Campaign Structure That Converts', desc: 'Set up your account, campaigns, ad groups, and keywords the right way from day one.' },
   { num: '03', title: 'Keyword Strategy for Google Ads', desc: 'Find the right keywords, use match types correctly, and build a negative keyword list that saves money.' },
   { num: '04', title: 'Writing Ads That Get Clicks', desc: 'Write responsive search ads and headlines that speak directly to what your customer wants.' },
-  { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals — manual CPC, target CPA, target ROAS, and more.' },
+  { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals - manual CPC, target CPA, target ROAS, and more.' },
   { num: '06', title: 'Conversion Tracking Setup', desc: 'Track every form fill, phone call, and purchase so you know exactly which ads are making money.' },
   { num: '07', title: 'Reading Your Data and Optimising', desc: 'Learn which numbers matter, how to spot wasted spend, and what to change to improve results.' },
-  { num: '08', title: 'Advanced Campaigns — Display, YouTube, Performance Max', desc: 'Expand beyond search with display ads, YouTube campaigns, and Performance Max.' },
+  { num: '08', title: 'Advanced Campaigns - Display, YouTube, Performance Max', desc: 'Expand beyond search with display ads, YouTube campaigns, and Performance Max.' },
 ];
 
 const faqs = [
-  { q: 'Is the Google Ads course included in the free plan?', a: 'No — the Google Ads Mastery Course is available exclusively to VIP Community members at $29/mo. The free plan includes the full SEO course only.' },
+  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to VIP Community members at $29/mo. The free plan includes the full SEO course only.' },
   { q: 'Do I need a Google Ads account to take this course?', a: 'Yes, you will need a Google Ads account. You can create one for free at ads.google.com. We walk you through the setup in Module 2.' },
   { q: 'How much budget do I need to run Google Ads?', a: 'You can start with as little as $10 to $20 per day to test. We teach you how to get the most out of a small budget before scaling up.' },
   { q: 'Is this course for beginners or advanced marketers?', a: 'Both. We start from the very basics in Module 1 and build up to advanced strategies like Performance Max and ROAS bidding by Module 8.' },
   { q: 'Does this course cover Google Analytics 4 integration?', a: 'Yes. Module 6 covers linking Google Ads to GA4 for full conversion tracking. We also have a dedicated GA4 video series in the free video library.' },
-  { q: 'Can I ask questions while taking the course?', a: 'Yes — VIP Community members get weekly live Q&A every Thursday where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
+  { q: 'Can I ask questions while taking the course?', a: 'Yes - VIP Community members get weekly live Q&A every Thursday where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
 ];
 
 export default function CourseGoogleAds() {
   useSEO({
-    title: "Google Ads Course — Learn Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
+    title: "Google Ads Course - Learn Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
     description: "Learn Google Ads from scratch. Covers Search, Display, Shopping, and Performance Max campaigns. Data-driven approach using GA4 and Google Keyword Planner. By Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/courses/google-ads",
     ogType: "course",
@@ -53,7 +53,7 @@ export default function CourseGoogleAds() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Google Ads Mastery Course for Medium-Sized Businesses",
-            "description": "An 8-module Google Ads course for marketing teams and business owners. Learn campaign structure, keyword strategy, bidding, conversion tracking, and advanced campaign types — taught by Pip Seymour and Phelan Lewis.",
+            "description": "An 8-module Google Ads course for marketing teams and business owners. Learn campaign structure, keyword strategy, bidding, conversion tracking, and advanced campaign types - taught by Pip Seymour and Phelan Lewis.",
             "url": "https://knowhowmarketinglab.com/courses/google-ads",
             "provider": {
               "@type": "EducationalOrganization",
@@ -127,10 +127,10 @@ export default function CourseGoogleAds() {
                   <span className="text-[#E98C28]">Mastery Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Stop wasting money on Google Ads that don't work. This course teaches you how to build campaigns that actually bring in customers — using the same strategies we use for our agency clients.
+                  Stop wasting money on Google Ads that don't work. This course teaches you how to build campaigns that actually bring in customers - using the same strategies we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">VIP Community membership</Link> at $29/mo. Also includes the free SEO course, weekly live Q&amp;A, and monthly training.
+                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">VIP Community membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -140,14 +140,14 @@ export default function CourseGoogleAds() {
                     className="btn-primary pulse-cta"
                     aria-label="Join the VIP Community to access the Google Ads Mastery Course for $29 per month"
                   >
-                    Join to Access — $29/mo →
+                    Join to Access - $29/mo →
                   </a>
                   <Link
                     href="/courses/seo"
                     className="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-gray-200 text-gray-700 font-bold text-sm hover:border-[#318599] hover:text-[#318599] transition-all duration-200"
                     style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                   >
-                    Start Free SEO Course
+                    Start AI + SEO Course
                   </Link>
                 </div>
                 <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -212,7 +212,7 @@ export default function CourseGoogleAds() {
                 className="btn-primary pulse-cta"
                 aria-label="Join the VIP Community to access the Google Ads Mastery Course"
               >
-                Join the Community — $29/mo →
+                Join the Community - $29/mo →
               </a>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function CourseGoogleAds() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-xl border border-gray-200 hover:border-[#318599] hover:shadow-sm transition-all duration-200 text-sm text-gray-700"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  aria-label={`${r.label} — ${r.desc}`}
+                  aria-label={`${r.label} - ${r.desc}`}
                 >
                   <svg className="w-4 h-4 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                   {r.label}
@@ -304,7 +304,7 @@ export default function CourseGoogleAds() {
             <div className="mt-10 p-6 bg-white rounded-2xl border border-gray-100">
               <p className="text-sm font-bold text-gray-700 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Keep Learning</p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/courses/seo" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Free SEO Course →</Link>
+                <Link href="/courses/seo" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>AI + SEO Course →</Link>
                 <Link href="/pricing" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Compare Free vs Community →</Link>
                 <Link href="/blog" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Read the Blog →</Link>
                 <Link href="/resources" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Free Resources →</Link>

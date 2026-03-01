@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — YouTube Video Library
+// KnowHow Marketing Lab - YouTube Video Library
 // All videos from @knowhowmarketinglab channel, categorized for the conversion funnel
 
 export type VideoCategory = 'seo' | 'google-ads' | 'analytics' | 'ai' | 'live' | 'shorts';

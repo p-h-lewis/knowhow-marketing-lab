@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Trust Bar
+// KnowHow Marketing Lab - Trust Bar
 // Displays tool logos and social proof to build credibility
 
 export default function TrustBar() {
@@ -8,7 +8,7 @@ export default function TrustBar() {
     { name: 'Google Tag Manager', abbr: 'GTM', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help center' },
     { name: 'Google Ads', abbr: 'Ads', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help center' },
     { name: 'ChatGPT / AI', abbr: 'AI', href: 'https://openai.com/chatgpt/', title: 'ChatGPT by OpenAI' },
-    { name: 'GoHighLevel', abbr: 'GHL', href: 'https://www.gohighlevel.com/', title: 'GoHighLevel — the all-in-one marketing platform used by KnowHow Marketing Lab' },
+    { name: 'GoHighLevel', abbr: 'GHL', href: 'https://www.gohighlevel.com/', title: 'GoHighLevel - the all-in-one marketing platform used by KnowHow Marketing Lab' },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function TrustBar() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-3 py-1.5 shadow-sm hover:border-[#E98C28] hover:shadow-md transition-all duration-150"
                 title={tool.title}
-                aria-label={`${tool.name} — ${tool.title}`}
+                aria-label={`${tool.name} - ${tool.title}`}
               >
                 <span className="w-5 h-5 rounded bg-[#E98C28]/10 flex items-center justify-center" aria-hidden="true">
                   <span className="text-[9px] font-black text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>

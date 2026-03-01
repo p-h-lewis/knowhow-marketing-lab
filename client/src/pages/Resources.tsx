@@ -1,5 +1,5 @@
-// KnowHow Marketing Lab — Free Resources Page
-// /resources — Curated authoritative external links (Google official docs only, no competitors)
+// KnowHow Marketing Lab - Free Resources Page
+// /resources - Curated authoritative external links (Google official docs only, no competitors)
 // Schema: ItemList, WebPage
 // Internal links: → /#free-course, /#videos, /#community, /pricing
 
@@ -23,13 +23,13 @@ const resourceCategories = [
       },
       {
         name: 'Google Search Central Documentation',
-        desc: 'Complete technical SEO documentation from Google — structured data, crawling, indexing, and ranking best practices.',
+        desc: 'Complete technical SEO documentation from Google - structured data, crawling, indexing, and ranking best practices.',
         href: 'https://developers.google.com/search/docs',
         source: 'Google Search Central',
       },
       {
         name: 'Google Search Console Help Center',
-        desc: 'Official help documentation for Google Search Console — how to verify your site, read reports, and fix coverage issues.',
+        desc: 'Official help documentation for Google Search Console - how to verify your site, read reports, and fix coverage issues.',
         href: 'https://support.google.com/webmasters/',
         source: 'Google Support',
       },
@@ -49,7 +49,7 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google Analytics Help Center',
-        desc: 'The official GA4 help center — covers account setup, reports, events, conversions, and data analysis.',
+        desc: 'The official GA4 help center - covers account setup, reports, events, conversions, and data analysis.',
         href: 'https://support.google.com/analytics/',
         source: 'Google Support',
       },
@@ -61,25 +61,25 @@ const resourceCategories = [
       },
       {
         name: 'GA4 Recommended Events',
-        desc: 'Official list of recommended GA4 events for e-commerce, lead generation, and content sites — the foundation of conversion tracking.',
+        desc: 'Official list of recommended GA4 events for e-commerce, lead generation, and content sites - the foundation of conversion tracking.',
         href: 'https://support.google.com/analytics/answer/9267735',
         source: 'Google Support',
       },
       {
         name: 'Google Analytics Developer Documentation',
-        desc: 'Technical documentation for GA4 implementation — for developers and advanced users setting up custom tracking.',
+        desc: 'Technical documentation for GA4 implementation - for developers and advanced users setting up custom tracking.',
         href: 'https://developers.google.com/analytics/devguides/collection/ga4',
         source: 'Google Developers',
       },
       {
         name: 'GA4 Dimensions & Metrics Explorer',
-        desc: 'Official reference for every dimension and metric available in GA4 — essential for building custom reports and understanding your data.',
+        desc: 'Official reference for every dimension and metric available in GA4 - essential for building custom reports and understanding your data.',
         href: 'https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema',
         source: 'Google Developers',
       },
       {
         name: 'Looker Studio Help Center',
-        desc: 'Official help documentation for Looker Studio (formerly Google Data Studio) — connect GA4, Google Ads, and Search Console to build live dashboards.',
+        desc: 'Official help documentation for Looker Studio (formerly Google Data Studio) - connect GA4, Google Ads, and Search Console to build live dashboards.',
         href: 'https://support.google.com/looker-studio/',
         source: 'Google Support',
       },
@@ -89,47 +89,47 @@ const resourceCategories = [
     title: 'Google Ads',
     color: '#4F37D8',
     icon: '📢',
-    description: 'Official Google Ads help documentation — from campaign setup to bidding strategy, ad formats, and performance optimization.',
+    description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimization.',
     resources: [
       {
         name: 'Google Ads Help Center',
-        desc: 'The official Google Ads support hub — covers campaign creation, targeting, bidding, billing, and troubleshooting.',
+        desc: 'The official Google Ads support hub - covers campaign creation, targeting, bidding, billing, and troubleshooting.',
         href: 'https://support.google.com/google-ads/supporthub',
         source: 'Google Support',
       },
       {
         name: 'Your Guide to Google Ads',
-        desc: 'Official beginner\'s guide to Google Ads — how the auction works, campaign types, and getting your first ad live.',
+        desc: 'Official beginner\'s guide to Google Ads - how the auction works, campaign types, and getting your first ad live.',
         href: 'https://support.google.com/google-ads/answer/6146252',
         source: 'Google Support',
       },
       {
         name: 'Google Ads Policies',
-        desc: 'Official Google Ads advertising policies — understand what is allowed, what is restricted, and how to avoid disapprovals.',
+        desc: 'Official Google Ads advertising policies - understand what is allowed, what is restricted, and how to avoid disapprovals.',
         href: 'https://support.google.com/adspolicy/answer/6008942',
         source: 'Google Support',
       },
       {
-        name: 'Google Skillshop — Google Ads Certifications',
+        name: 'Google Skillshop - Google Ads Certifications',
         desc: 'Free official Google Ads certifications from Google Skillshop. Earn credentials in Search, Display, Video, and Shopping.',
         href: 'https://skillshop.withgoogle.com/',
         source: 'Google Skillshop',
       },
       {
         name: 'Google Ads Keyword Planner',
-        desc: 'Official free keyword research tool inside Google Ads — find search volume, competition data, and bid estimates for any keyword.',
+        desc: 'Official free keyword research tool inside Google Ads - find search volume, competition data, and bid estimates for any keyword.',
         href: 'https://ads.google.com/home/tools/keyword-planner/',
         source: 'Google Ads',
       },
       {
         name: 'Google Ads Performance Planner',
-        desc: 'Official Google Ads forecasting tool — plan your budget, predict campaign performance, and find growth opportunities.',
+        desc: 'Official Google Ads forecasting tool - plan your budget, predict campaign performance, and find growth opportunities.',
         href: 'https://support.google.com/google-ads/answer/9230124',
         source: 'Google Support',
       },
       {
         name: 'Google Merchant Center Help',
-        desc: 'Official help center for Google Merchant Center — set up product feeds, Shopping campaigns, and free product listings.',
+        desc: 'Official help center for Google Merchant Center - set up product feeds, Shopping campaigns, and free product listings.',
         href: 'https://support.google.com/merchants/',
         source: 'Google Support',
       },
@@ -139,29 +139,29 @@ const resourceCategories = [
     title: 'Google Tag Manager',
     color: '#318599',
     icon: '🏷️',
-    description: 'Official Google Tag Manager documentation — how to set up containers, configure tags, and deploy tracking without touching code.',
+    description: 'Official Google Tag Manager documentation - how to set up containers, configure tags, and deploy tracking without touching code.',
     resources: [
       {
         name: 'Google Tag Manager Help Center',
-        desc: 'Official GTM help center — covers account setup, container configuration, tags, triggers, variables, and debugging.',
+        desc: 'Official GTM help center - covers account setup, container configuration, tags, triggers, variables, and debugging.',
         href: 'https://support.google.com/tagmanager/',
         source: 'Google Support',
       },
       {
         name: 'Introduction to Google Tag Manager',
-        desc: 'Official introduction to GTM — what it is, how it works, and why it is the standard for marketing tag management.',
+        desc: 'Official introduction to GTM - what it is, how it works, and why it is the standard for marketing tag management.',
         href: 'https://support.google.com/tagmanager/answer/6102821',
         source: 'Google Support',
       },
       {
         name: 'Create a GTM Account and Container',
-        desc: 'Step-by-step official guide to creating your first GTM account and container — the starting point for all tag management.',
+        desc: 'Step-by-step official guide to creating your first GTM account and container - the starting point for all tag management.',
         href: 'https://support.google.com/tagmanager/answer/14842164',
         source: 'Google Support',
       },
       {
         name: 'Google Tag Platform Documentation',
-        desc: 'Technical documentation for Google Tag Manager from Google Developers — for advanced implementations and custom solutions.',
+        desc: 'Technical documentation for Google Tag Manager from Google Developers - for advanced implementations and custom solutions.',
         href: 'https://developers.google.com/tag-platform/tag-manager',
         source: 'Google Developers',
       },
@@ -171,29 +171,29 @@ const resourceCategories = [
     title: 'Marketing Research & Insights',
     color: '#E98C28',
     icon: '💡',
-    description: 'Official Google research and insights for marketers — consumer trends, digital marketing data, and industry benchmarks.',
+    description: 'Official Google research and insights for marketers - consumer trends, digital marketing data, and industry benchmarks.',
     resources: [
       {
         name: 'Think with Google',
-        desc: 'Google\'s official marketing research hub — consumer insights, digital trends, and data-driven marketing strategies.',
+        desc: 'Google\'s official marketing research hub - consumer insights, digital trends, and data-driven marketing strategies.',
         href: 'https://www.thinkwithgoogle.com/',
         source: 'Think with Google',
       },
       {
         name: 'Google Digital Marketing Certificate',
-        desc: 'Google\'s official digital marketing and e-commerce professional certificate on Coursera — free to audit.',
+        desc: 'Google\'s official digital marketing and e-commerce professional certificate on Coursera - free to audit.',
         href: 'https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce',
         source: 'Google / Coursera',
       },
       {
         name: 'Google Trends',
-        desc: 'Free tool from Google to explore search interest over time — use it to find trending topics, seasonal demand, and content opportunities.',
+        desc: 'Free tool from Google to explore search interest over time - use it to find trending topics, seasonal demand, and content opportunities.',
         href: 'https://trends.google.com/',
         source: 'Google',
       },
       {
         name: 'Google Market Finder',
-        desc: 'Official Google tool to identify new markets for your business — shows search demand, competition, and market readiness by country.',
+        desc: 'Official Google tool to identify new markets for your business - shows search demand, competition, and market readiness by country.',
         href: 'https://marketfinder.thinkwithgoogle.com/',
         source: 'Think with Google',
       },
@@ -207,19 +207,19 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google Skillshop',
-        desc: 'Google\'s official learning platform — free courses and certifications for Google Ads, Analytics, Tag Manager, and more.',
+        desc: 'Google\'s official learning platform - AI + SEO courses and certifications for Google Ads, Analytics, Tag Manager, and more.',
         href: 'https://skillshop.withgoogle.com/',
         source: 'Google Skillshop',
       },
       {
         name: 'Google Analytics Academy',
-        desc: 'Free official Google Analytics courses — from beginner to advanced. Covers GA4, data analysis, and reporting best practices.',
+        desc: 'Free official Google Analytics courses - from beginner to advanced. Covers GA4, data analysis, and reporting best practices.',
         href: 'https://analytics.google.com/analytics/academy/',
         source: 'Google Analytics Academy',
       },
       {
         name: 'Grow with Google',
-        desc: 'Free tools, training, and resources from Google to help businesses grow online — includes workshops, guides, and certification prep.',
+        desc: 'Free tools, training, and resources from Google to help businesses grow online - includes workshops, guides, and certification prep.',
         href: 'https://grow.google/',
         source: 'Google',
       },
@@ -231,13 +231,13 @@ const resourceCategories = [
       },
       {
         name: 'Google Search Central YouTube Channel',
-        desc: 'Official YouTube channel from Google\'s Search Relations team — SEO tips, algorithm updates, and best practices direct from Google.',
+        desc: 'Official YouTube channel from Google\'s Search Relations team - SEO tips, algorithm updates, and best practices direct from Google.',
         href: 'https://www.youtube.com/@GoogleSearchCentral',
         source: 'Google Search Central',
       },
       {
         name: 'Google Ads YouTube Channel',
-        desc: 'Official Google Ads YouTube channel — tutorials, campaign walkthroughs, and product updates direct from the Google Ads team.',
+        desc: 'Official Google Ads YouTube channel - tutorials, campaign walkthroughs, and product updates direct from the Google Ads team.',
         href: 'https://www.youtube.com/@GoogleAds',
         source: 'Google Ads',
       },
@@ -251,13 +251,13 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google Search Generative Experience (SGE) Overview',
-        desc: 'Official Google documentation on how AI Overviews work in Google Search — how content gets cited and what signals matter.',
+        desc: 'Official Google documentation on how AI Overviews work in Google Search - how content gets cited and what signals matter.',
         href: 'https://support.google.com/websearch/answer/14901683',
         source: 'Google Support',
       },
       {
         name: 'Google Search Quality Rater Guidelines',
-        desc: 'The official 170-page document Google uses to evaluate search quality — the foundation of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).',
+        desc: 'The official 170-page document Google uses to evaluate search quality - the foundation of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).',
         href: 'https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf',
         source: 'Google',
       },
@@ -269,7 +269,7 @@ const resourceCategories = [
       },
       {
         name: 'Google NotebookLM',
-        desc: 'Google\'s AI-powered research and note-taking tool — useful for summarising long documents, research papers, and marketing reports.',
+        desc: 'Google\'s AI-powered research and note-taking tool - useful for summarising long documents, research papers, and marketing reports.',
         href: 'https://notebooklm.google.com/',
         source: 'Google',
       },
@@ -279,7 +279,7 @@ const resourceCategories = [
 
 export default function Resources() {
   useSEO({
-    title: "Free Marketing Resources — Google Tools, Guides & Official Docs | KnowHow Marketing Lab",
+    title: "Free Marketing Resources - Google Tools, Guides & Official Docs | KnowHow Marketing Lab",
     description: "Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, Tag Manager, Google Analytics Academy, Grow with Google, and AI search documentation. 30+ curated resources from official Google sources, hand-picked by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/resources",
     ogType: "website",
@@ -295,8 +295,8 @@ export default function Resources() {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Free Digital Marketing Resources — KnowHow Marketing Lab",
-              "description": "Curated authoritative resources for SEO, Google Ads, GA4, Google Tag Manager, and AI search — all from official Google documentation. Includes Google Analytics Academy, Grow with Google, Google Digital Garage, Google Skillshop, and more.",
+              "name": "Free Digital Marketing Resources - KnowHow Marketing Lab",
+              "description": "Curated authoritative resources for SEO, Google Ads, GA4, Google Tag Manager, and AI search - all from official Google documentation. Includes Google Analytics Academy, Grow with Google, Google Digital Garage, Google Skillshop, and more.",
               "url": "https://knowhowmarketinglab.com/resources",
               "breadcrumb": {
                 "@type": "BreadcrumbList",
@@ -348,8 +348,8 @@ export default function Resources() {
             </p>
             {/* Internal link to course */}
             <div className="flex flex-wrap justify-center gap-3">
-              <a href="/#free-course" className="btn-primary" aria-label="Start the free SEO course">
-                Start Free SEO Course →
+              <a href="/#free-course" className="btn-primary" aria-label="Start the AI + SEO course">
+                Start AI + SEO Course →
               </a>
               <a href="/#videos" className="btn-outline" aria-label="Browse free video lessons">
                 Browse Video Library
@@ -383,7 +383,7 @@ export default function Resources() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex flex-col gap-2 bg-gray-50 rounded-xl border border-gray-100 p-5 hover:border-gray-300 hover:shadow-sm transition-all duration-200 group"
-                      aria-label={`${res.name} — ${res.source}`}
+                      aria-label={`${res.name} - ${res.source}`}
                     >
                       <div className="flex items-start justify-between gap-2">
                         <h3
@@ -420,11 +420,11 @@ export default function Resources() {
               Want to Learn How to Use All These Tools Together?
             </h2>
             <p className="text-gray-300 text-sm mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Our free SEO course and VIP community teach you how to use GA4, GSC, GTM, and Google Ads as a connected data-driven system. The community includes weekly live Q&A every Thursday, a monthly deep-dive training session, and the full Google Ads course — all for $29/month.
+              Our AI + SEO course and VIP community teach you how to use GA4, GSC, GTM, and Google Ads as a connected data-driven system. The community includes weekly live Q&A every Thursday, a monthly deep-dive training session, and the full Google Ads course - all for $29/month.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              <a href="/#free-course" className="btn-primary" aria-label="Start the free SEO course">
-                Start Free Course →
+              <a href="/#free-course" className="btn-primary" aria-label="Start the AI + SEO course">
+                Start AI + SEO Course →
               </a>
               <a href="/pricing" className="btn-outline-light" aria-label="See community pricing">
                 See Pricing

@@ -1,7 +1,7 @@
-// /terms — Terms of Service
+// /terms - Terms of Service
 // Schema: WebPage + BreadcrumbList
 // Internal links: / | /privacy | /pricing | /about
-// Grade 6 reading level — plain language
+// Grade 6 reading level - plain language
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
@@ -11,7 +11,7 @@ import { useSEO } from "@/hooks/useSEO";
 export default function Terms() {
   useSEO({
     title: "Terms of Service | KnowHow Marketing Lab",
-    description: "KnowHow Marketing Lab terms of service. Read our terms for using our free courses, community membership, and website content.",
+    description: "KnowHow Marketing Lab terms of service. Read our terms for using our AI + SEO courses, community membership, and website content.",
     canonical: "https://knowhowmarketinglab.com/terms",
     ogType: "website",
   });
@@ -24,9 +24,9 @@ export default function Terms() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Terms of Service — KnowHow Marketing Lab",
+            "name": "Terms of Service - KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/terms",
-            "description": "Terms of service for using KnowHow Marketing Lab's free courses, community membership, and website.",
+            "description": "Terms of service for using KnowHow Marketing Lab's AI + SEO courses, community membership, and website.",
             "inLanguage": "en",
             "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
             "breadcrumb": {
@@ -74,28 +74,28 @@ export default function Terms() {
             <div className="prose prose-gray max-w-none" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="text">
 
               <p className="text-gray-600 leading-relaxed mb-6">
-                By using KnowHow Marketing Lab — including our free courses, video library, community membership, or website — you agree to these terms. Please read them. They are written in plain language.
+                By using KnowHow Marketing Lab - including our AI + SEO courses, video library, community membership, or website - you agree to these terms. Please read them. They are written in plain language.
               </p>
 
               <h2 className="text-xl font-bold text-gray-900 mt-8 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Who we are
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                KnowHow Marketing Lab is operated by Seymour Digital Media. We provide digital marketing education — free video lessons, structured courses, and a paid community membership hosted on GoHighLevel at <strong>learnwith.seymourdigitalmedia.com</strong>.
+                KnowHow Marketing Lab is operated by Seymour Digital Media. We provide digital marketing education - free video lessons, structured courses, and a paid community membership hosted on GoHighLevel at <strong>learnwith.seymourdigitalmedia.com</strong>.
               </p>
 
               <h2 className="text-xl font-bold text-gray-900 mt-8 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Free content
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Our free courses and video library are available to anyone. You can watch, share, and learn from them at no cost. You may not copy, repackage, or sell our content as your own. All content is the intellectual property of Seymour Digital Media.
+                Our AI + SEO courses and video library are available to anyone. You can watch, share, and learn from them at no cost. You may not copy, repackage, or sell our content as your own. All content is the intellectual property of Seymour Digital Media.
               </p>
 
               <h2 className="text-xl font-bold text-gray-900 mt-8 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Community membership
               </h2>
               <p className="text-gray-600 leading-relaxed mb-2">
-                The VIP Community is a paid monthly membership at $29/month (early access pricing — subject to change for new members). As a member you get:
+                The VIP Community is a paid monthly membership at $29/month (early access pricing - subject to change for new members). As a member you get:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-1 mb-4">
                 <li>Access to all paid courses on our GoHighLevel platform</li>
@@ -136,7 +136,7 @@ export default function Terms() {
                 Results disclaimer
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Our courses and community teach real, proven strategies. But we cannot guarantee specific results. Marketing results depend on many factors — your industry, competition, budget, and how consistently you apply what you learn. What we can guarantee is that we will teach you everything we know, clearly and honestly.
+                Our courses and community teach real, proven strategies. But we cannot guarantee specific results. Marketing results depend on many factors - your industry, competition, budget, and how consistently you apply what you learn. What we can guarantee is that we will teach you everything we know, clearly and honestly.
               </p>
 
               <h2 className="text-xl font-bold text-gray-900 mt-8 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>

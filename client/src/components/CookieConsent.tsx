@@ -1,5 +1,5 @@
-// KnowHow Marketing Lab — Cookie Consent Banner
-// GDPR + CASL compliant — stores preference in localStorage
+// KnowHow Marketing Lab - Cookie Consent Banner
+// GDPR + CASL compliant - stores preference in localStorage
 // Design: Space Grotesk / DM Sans, brand colors #E98C28 / #318599
 // Appears at bottom of viewport on first visit; dismissed state persists
 

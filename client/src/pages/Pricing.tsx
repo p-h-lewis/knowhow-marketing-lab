@@ -1,8 +1,8 @@
-// KnowHow Marketing Lab — Pricing Page
-// /pricing — Free vs VIP Community comparison
+// KnowHow Marketing Lab - Pricing Page
+// /pricing - Free vs VIP Community comparison
 // Schema: PriceSpecification, Offer, FAQPage
 // Internal links: → /free-course, → /community, → /videos
-// External links: → skillshop.withgoogle.com (Google certifications — non-competing authority)
+// External links: → skillshop.withgoogle.com (Google certifications - non-competing authority)
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -10,7 +10,7 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import { useSEO } from "@/hooks/useSEO";
 
 const freeFeatures = [
-  { label: 'Complete SEO Course (8 modules)' },
+  { label: 'Complete SEO Course (5 modules)' },
   { label: '60+ free YouTube video lessons' },
   { label: 'Google Search Console training' },
   { label: 'Google Analytics 4 (GA4) training' },
@@ -21,7 +21,7 @@ const freeFeatures = [
 ];
 
 const communityFeatures = [
-  { label: 'Complete SEO Course (8 modules)', included: true },
+  { label: 'Complete SEO Course (5 modules)', included: true },
   { label: '60+ free YouTube video lessons', included: true },
   { label: 'Google Search Console training', included: true },
   { label: 'Google Analytics 4 (GA4) training', included: true },
@@ -40,8 +40,8 @@ const communityFeatures = [
 
 const pricingFaqs = [
   {
-    q: 'Is the free course really free — no hidden fees?',
-    a: 'Yes, completely free. No credit card, no trial period, no hidden costs. The free SEO course and all 60+ YouTube videos are available with no sign-up required to watch.',
+    q: 'Is the AI + SEO course really free - no hidden fees?',
+    a: 'Yes, completely free. No credit card, no trial period, no hidden costs. The AI + SEO course and all 60+ YouTube videos are available with no sign-up required to watch.',
   },
   {
     q: 'What do I get in the VIP Community that I cannot get for free?',
@@ -53,7 +53,7 @@ const pricingFaqs = [
   },
   {
     q: 'Will the price increase?',
-    a: 'Yes — the $29/month rate is an early access price. As the community grows, the price will increase. Members who join now lock in their rate.',
+    a: 'Yes - the $29/month rate is an early access price. As the community grows, the price will increase. Members who join now lock in their rate.',
   },
   {
     q: 'Is the community hosted on GoHighLevel?',
@@ -61,13 +61,13 @@ const pricingFaqs = [
   },
   {
     q: 'Do I need any prior marketing experience?',
-    a: 'No. The free SEO course starts from the very beginning — what Google is, how search works, and why SEO matters. The community covers beginner through advanced topics.',
+    a: 'No. The AI + SEO course starts from the very beginning - what Google is, how search works, and why SEO matters. The community covers beginner through advanced topics.',
   },
 ];
 
 export default function Pricing() {
   useSEO({
-    title: "Pricing — Free SEO Course & VIP Community | KnowHow Marketing Lab",
+    title: "Pricing - AI + SEO Course & VIP Community | KnowHow Marketing Lab",
     description: "Start free with our SEO course, or join the KnowHow Marketing Lab community for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
@@ -82,8 +82,8 @@ export default function Pricing() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab Pricing — Free vs VIP Community",
-            "description": "Compare KnowHow Marketing Lab's free SEO course with the VIP Community membership ($29/month). See exactly what is included in each plan.",
+            "name": "KnowHow Marketing Lab Pricing - Free vs VIP Community",
+            "description": "Compare KnowHow Marketing Lab's AI + SEO course with the VIP Community membership ($29/month). See exactly what is included in each plan.",
             "url": "https://knowhowmarketinglab.com/pricing",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -95,7 +95,7 @@ export default function Pricing() {
             "mainEntity": [
               {
                 "@type": "Offer",
-                "name": "Free SEO Course",
+                "name": "AI + SEO Course",
                 "price": "0",
                 "priceCurrency": "USD",
                 "description": "Free access to the complete data-driven SEO course and 60+ YouTube video lessons.",
@@ -166,7 +166,7 @@ export default function Pricing() {
                 <div className="mb-6">
                   <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Forever</span>
                   <h2 className="text-2xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
-                    Free SEO Course
+                    AI + SEO Course
                   </h2>
                   <div className="flex items-baseline gap-2 mt-3">
                     <span className="text-5xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$0</span>
@@ -196,10 +196,10 @@ export default function Pricing() {
                   rel="noopener noreferrer"
                   className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white transition-all duration-200"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Start the free SEO course — no credit card required"
+                  aria-label="Start the AI + SEO course - no credit card required"
                   itemProp="url"
                 >
-                  Start Free Course →
+                  Start AI + SEO Course →
                 </a>
               </article>
 
@@ -250,7 +250,7 @@ export default function Pricing() {
                   aria-label="Join the KnowHow Marketing Lab VIP Community for $29 per month"
                   itemProp="url"
                 >
-                  Join the Community — $29/mo →
+                  Join the Community - $29/mo →
                 </a>
                 <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Powered by GoHighLevel · Secure checkout · Cancel anytime
@@ -267,7 +267,7 @@ export default function Pricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#318599] font-semibold hover:underline"
-                  aria-label="Google Skillshop — free official Google Ads and Analytics certifications"
+                  aria-label="Google Skillshop - free official Google Ads and Analytics certifications"
                 >
                   Google Skillshop
                 </a>{' '}
@@ -285,8 +285,8 @@ export default function Pricing() {
             </h2>
             <div className="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
               {[
-                { label: 'Browse the Free Video Library', href: '/#videos', desc: '60+ free lessons — no sign-up' },
-                { label: 'See the Free SEO Course', href: '/#free-course', desc: '8 modules, beginner to advanced' },
+                { label: 'Browse the Free Video Library', href: '/#videos', desc: '60+ free lessons - no sign-up' },
+                { label: 'See the AI + SEO Course', href: '/#free-course', desc: '5 modules, beginner to advanced' },
                 { label: 'Learn About the Community', href: '/#community', desc: 'What you get for $29/mo' },
               ].map(link => (
                 <a

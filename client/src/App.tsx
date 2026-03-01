@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — App Root
+// KnowHow Marketing Lab - App Root
 // Light theme, conversion-optimized routing
 // Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you
 

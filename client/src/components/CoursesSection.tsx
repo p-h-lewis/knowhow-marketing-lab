@@ -1,11 +1,11 @@
-// KnowHow Marketing Lab — Courses Section
+// KnowHow Marketing Lab - Courses Section
 // Showcases paid courses on GoHighLevel platform
 
 const courses = [
   {
     title: 'Complete SEO Course',
     subtitle: 'From Beginner to Data-Driven Pro',
-    desc: 'Everything you need to rank on Google — keyword research, on-page SEO, technical audits, GSC, and GA4. Built for medium-sized businesses and marketing teams.',
+    desc: 'Everything you need to rank on Google - keyword research, on-page SEO, technical audits, GSC, and GA4. Built for medium-sized businesses and marketing teams.',
     tags: ['SEO', 'GSC', 'GA4', 'GTM'],
     level: 'Beginner → Advanced',
     cta: 'Enroll Free →',
@@ -146,7 +146,7 @@ export default function CoursesSection() {
               Not sure where to start?
             </h3>
             <p className="text-gray-300 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start with the free SEO course. No credit card, no commitment — just expert training.{' '}
+              Start with the AI + SEO course. No credit card, no commitment - just expert training.{' '}
               <a href="/pricing" className="text-[#E98C28] hover:underline font-semibold" aria-label="Compare free vs community pricing">
                 Compare plans →
               </a>
@@ -158,9 +158,9 @@ export default function CoursesSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary whitespace-nowrap"
-              aria-label="Start the free SEO course now"
+              aria-label="Start the AI + SEO course now"
             >
-              Start Free Course →
+              Start AI + SEO Course →
             </a>
             <a
               href="/pricing"

@@ -1,7 +1,7 @@
-// /privacy — Privacy Policy
+// /privacy - Privacy Policy
 // Schema: WebPage + BreadcrumbList
 // Internal links: / | /about | /pricing
-// Grade 6 reading level — plain language, no legal jargon
+// Grade 6 reading level - plain language, no legal jargon
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
@@ -24,7 +24,7 @@ export default function Privacy() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Privacy Policy — KnowHow Marketing Lab",
+            "name": "Privacy Policy - KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/privacy",
             "description": "How KnowHow Marketing Lab collects, uses, and protects your personal information.",
             "inLanguage": "en",
@@ -87,9 +87,9 @@ export default function Privacy() {
                 We only collect information you give us directly. This includes:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-1 mb-4">
-                <li>Your email address when you sign up for a free course or join the community</li>
+                <li>Your email address when you sign up for a AI + SEO course or join the community</li>
                 <li>Your name if you create an account on our course platform</li>
-                <li>Payment information when you purchase a membership (processed securely by Stripe — we never see your card number)</li>
+                <li>Payment information when you purchase a membership (processed securely by Stripe - we never see your card number)</li>
                 <li>Messages you send us through contact forms</li>
               </ul>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -100,7 +100,7 @@ export default function Privacy() {
                 How we use your information
               </h2>
               <ul className="list-disc pl-6 text-gray-600 space-y-1 mb-4">
-                <li>To send you the free course materials you signed up for</li>
+                <li>To send you the AI + SEO course materials you signed up for</li>
                 <li>To give you access to the community and paid courses</li>
                 <li>To send you helpful marketing tips and updates (you can unsubscribe anytime)</li>
                 <li>To improve our website and courses based on how people use them</li>

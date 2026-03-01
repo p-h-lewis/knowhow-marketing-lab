@@ -1,26 +1,26 @@
-// KnowHow Marketing Lab — Community Section
+// KnowHow Marketing Lab - Community Section
 // Primary conversion point to GoHighLevel VIP Community
 
 const perks = [
   {
     icon: '🎥',
     title: 'Weekly Live Q&A & Support',
-    desc: 'Every week, join a live session with Pip and Phelan. Bring your real campaigns, your questions, and your problems — and get answers in real time.',
+    desc: 'Every week, join a live session with Pip and Phelan. Bring your real campaigns, your questions, and your problems - and get answers in real time.',
   },
   {
     icon: '📅',
     title: 'Monthly Deep-Dive Training',
-    desc: 'Every month, a full-length training session on a specific topic — Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay.',
+    desc: 'Every month, a full-length training session on a specific topic - Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay.',
   },
   {
     icon: '📋',
     title: 'Homework & Worksheets',
-    desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn — not just watch.',
+    desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn - not just watch.',
   },
   {
     icon: '🤖',
     title: 'AI & Automation Training',
-    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.',
+    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows - practical tools you can use right away.',
   },
   {
     icon: '💬',
@@ -30,7 +30,7 @@ const perks = [
   {
     icon: '🎓',
     title: 'Full Course Library',
-    desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime, so you never miss a training.',
+    desc: 'All recorded sessions, advanced modules, and exclusive content - available on-demand anytime, so you never miss a training.',
   },
 ];
 
@@ -59,7 +59,7 @@ export default function CommunitySection() {
               Join the KnowHow Marketing Lab Community
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-              The paid community for marketing professionals and business teams who want to go beyond the basics. Weekly live sessions, advanced courses, AI training, and a private group — all in one place on GoHighLevel.
+              The paid community for marketing professionals and business teams who want to go beyond the basics. Weekly live sessions, advanced courses, AI training, and a private group - all in one place on GoHighLevel.
             </p>
 
             {/* Pricing */}
@@ -90,7 +90,7 @@ export default function CommunitySection() {
                 aria-label="Join the KnowHow Marketing Lab VIP community on GoHighLevel"
                 itemProp="url"
               >
-                Join the Community — $29/mo →
+                Join the Community - $29/mo →
               </a>
             </div>
 
@@ -108,7 +108,7 @@ export default function CommunitySection() {
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/nCEeJXdeKZHEwyIq.jpg"
-                alt="KnowHow Marketing Lab VIP community on GoHighLevel — weekly live classes, private group, SEO and Google Ads training for marketing professionals"
+                alt="KnowHow Marketing Lab VIP community on GoHighLevel - weekly live classes, private group, SEO and Google Ads training for marketing professionals"
                 width="1200"
                 height="675"
                 className="w-full h-auto"

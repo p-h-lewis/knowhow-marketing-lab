@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Testimonials Section
+// KnowHow Marketing Lab - Testimonials Section
 // Video testimonials (YouTube embeds) + text quotes from real students
 // Schema: Review, AggregateRating
 // Internal links: → /pricing, → /#free-course
@@ -96,7 +96,7 @@ export default function TestimonialsSection() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Course",
-            "name": "KnowHow Marketing Lab Free SEO Course",
+            "name": "KnowHow Marketing Lab AI + SEO Course",
             "url": "https://knowhowmarketinglab.com/",
             "provider": {
               "@type": "Organization",
@@ -141,7 +141,7 @@ export default function TestimonialsSection() {
             What Our Students Say
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Medium-sized business owners, agency professionals, and entrepreneurs learning SEO and Google Ads — in their own words.
+            Medium-sized business owners, agency professionals, and entrepreneurs learning SEO and Google Ads - in their own words.
           </p>
         </div>
 
@@ -157,7 +157,7 @@ export default function TestimonialsSection() {
               <div className="relative aspect-video bg-gray-100">
                 <img
                   src={v.thumbnail}
-                  alt={`Video testimonial thumbnail — ${v.label} — KnowHow Marketing Lab student review`}
+                  alt={`Video testimonial thumbnail - ${v.label} - KnowHow Marketing Lab student review`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   width="480"
@@ -234,15 +234,15 @@ export default function TestimonialsSection() {
         {/* CTA below testimonials */}
         <div className="text-center mt-12">
           <p className="text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Join hundreds of business owners already learning with us — for free.
+            Join hundreds of business owners already learning with us - for free.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="#free-course"
               className="btn-primary"
-              aria-label="Start the free SEO course — no credit card required"
+              aria-label="Start the AI + SEO course - no credit card required"
             >
-              Start Free Course →
+              Start AI + SEO Course →
             </a>
             <a
               href="/pricing"
@@ -299,9 +299,9 @@ export default function TestimonialsSection() {
                 href="#free-course"
                 className="btn-primary text-sm py-2 px-4 whitespace-nowrap"
                 onClick={closeVideo}
-                aria-label="Start the free SEO course"
+                aria-label="Start the AI + SEO course"
               >
-                Start Free Course →
+                Start AI + SEO Course →
               </a>
             </div>
           </div>

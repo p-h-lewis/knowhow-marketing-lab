@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Video Library
+// KnowHow Marketing Lab - Video Library
 // Full YouTube video library with category filters and modal player
 // Structured for LLM/AI indexing with semantic HTML and schema markup
 
@@ -40,7 +40,7 @@ export default function VideoLibrary() {
     document.body.style.overflow = '';
   }, []);
 
-  // Close modal on Escape key (WCAG 2.1.2 — No Keyboard Trap)
+  // Close modal on Escape key (WCAG 2.1.2 - No Keyboard Trap)
   useEffect(() => {
     if (!activeVideo) return;
     const handleKey = (e: KeyboardEvent) => { if (e.key === 'Escape') closeVideo(); };
@@ -80,7 +80,7 @@ export default function VideoLibrary() {
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             itemProp="name"
           >
-            60+ Free Marketing Lessons — Start Learning Today
+            60+ Free Marketing Lessons - Start Learning Today
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
             Every video is free. No sign-up required to watch. Want live Q&amp;A, homework, and community? <a href="#community" className="text-[#E98C28] font-semibold hover:underline">Join the Lab →</a>
@@ -133,7 +133,7 @@ export default function VideoLibrary() {
               <div className="relative aspect-video overflow-hidden bg-gray-100">
                 <img
                   src={getYouTubeThumbnail(video.id)}
-                  alt={`${video.title} — KnowHow Marketing Lab free tutorial on YouTube`}
+                  alt={`${video.title} - KnowHow Marketing Lab free tutorial on YouTube`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading={idx < 8 ? 'eager' : 'lazy'}
                   decoding="async"

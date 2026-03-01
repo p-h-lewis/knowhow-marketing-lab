@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Footer
+// KnowHow Marketing Lab - Footer
 // Full internal linking strategy + authoritative external links (Google official docs only)
 // Internal: /, /pricing, /about, /resources, /#free-course, /#videos, /#courses, /#community
 // External (non-competing, authoritative): seymourdigitalmedia.com, youtube.com, support.google.com, developers.google.com, skillshop.withgoogle.com
@@ -43,7 +43,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-[#E98C28] hover:text-white transition-colors font-semibold"
-                aria-label="Subscribe to KnowHow Marketing Lab on YouTube — 60+ free marketing lessons"
+                aria-label="Subscribe to KnowHow Marketing Lab on YouTube - 60+ free marketing lessons"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -56,7 +56,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-                aria-label="Visit Seymour Digital Media — the agency behind KnowHow Marketing Lab"
+                aria-label="Visit Seymour Digital Media - the agency behind KnowHow Marketing Lab"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -67,14 +67,14 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Learn — Internal links */}
+          {/* Learn - Internal links */}
           <nav aria-label="Learning resources navigation">
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Learn
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Free SEO Course', href: '/courses/seo', internal: true },
+                { label: 'AI + SEO Course', href: '/courses/seo', internal: true },
                 { label: 'Google Ads Mastery', href: '/courses/google-ads', internal: true },
                 { label: 'Video Library', href: '/#videos', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
@@ -106,7 +106,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Community — Internal + GoHighLevel */}
+          {/* Community - Internal + GoHighLevel */}
           <nav aria-label="Community and platform links">
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Community
@@ -152,7 +152,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Official Resources — External authoritative links (non-competing) */}
+          {/* Official Resources - External authoritative links (non-competing) */}
           <nav aria-label="Official Google documentation links">
             <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Official Google Docs
@@ -175,7 +175,7 @@ export default function Footer() {
                     className="text-sm text-gray-400 hover:text-white transition-colors"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
                     title={link.title}
-                    aria-label={`${link.label} — opens in new tab`}
+                    aria-label={`${link.label} - opens in new tab`}
                   >
                     {link.label} ↗
                   </a>
