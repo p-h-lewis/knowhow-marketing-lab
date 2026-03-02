@@ -132,16 +132,19 @@
   .btn-primary {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     background-color: #E98C28;
     color: #ffffff;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
+    font-size: 1rem;
     padding: 0.875rem 1.75rem;
     border-radius: 0.5rem;
     transition: all 0.2s ease;
     text-decoration: none;
     white-space: nowrap;
+    min-height: 48px; /* WCAG touch target */
   }
   .btn-primary:hover {
     background-color: #d47d20;
@@ -267,11 +270,12 @@
     border: 2px solid #e5e7eb;
     border-radius: 0.5rem;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 16px; /* Prevents iOS auto-zoom on focus */
     color: #111827;
     background: #ffffff;
     transition: border-color 0.2s;
     outline: none;
+    min-height: 52px;
   }
   .lead-input:focus { border-color: #E98C28; }
   .lead-input::placeholder { color: #9ca3af; }

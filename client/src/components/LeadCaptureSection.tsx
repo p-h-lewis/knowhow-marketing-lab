@@ -63,7 +63,7 @@ export default function LeadCaptureSection() {
     <>
       {/* Lead Capture Banner */}
       <section
-        className="py-20 bg-[#0f2236]"
+        className="py-14 md:py-20 bg-[#0f2236]"
         aria-labelledby="lead-heading"
       >
         <div className="container">
@@ -111,6 +111,7 @@ export default function LeadCaptureSection() {
                   placeholder="Your first name"
                   className="lead-input"
                   autoComplete="given-name"
+                  style={{ fontSize: '16px', minHeight: '52px' }}
                 />
                 <label htmlFor="lead-email" className="sr-only">Your email address</label>
                 <input
@@ -124,6 +125,7 @@ export default function LeadCaptureSection() {
                   required
                   autoComplete="email"
                   aria-required="true"
+                  style={{ fontSize: '16px', minHeight: '52px' }}
                 />
                 <button
                   type="submit"

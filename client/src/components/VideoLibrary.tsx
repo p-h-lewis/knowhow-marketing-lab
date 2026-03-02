@@ -70,7 +70,7 @@ export default function VideoLibrary() {
     >
       <div className="container">
         {/* Section Header */}
-        <div className="max-w-2xl mb-10">
+        <div className="max-w-2xl mb-8">
           <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Free Video Library
           </span>
@@ -87,8 +87,9 @@ export default function VideoLibrary() {
           </p>
         </div>
 
-        {/* Category Filters */}
-        <div className="flex flex-wrap gap-2 mb-8" role="tablist" aria-label="Filter videos by category">
+        {/* Category Filters — horizontal scroll on mobile, wrap on desktop */}
+        <div className="-mx-4 px-4 sm:mx-0 sm:px-0 overflow-x-auto mb-8">
+        <div className="flex gap-2 pb-1 sm:flex-wrap" role="tablist" aria-label="Filter videos by category" style={{ minWidth: 'max-content' }}>
           {CATEGORIES.map(cat => (
             <button
               key={cat.key}
@@ -109,10 +110,11 @@ export default function VideoLibrary() {
             </button>
           ))}
         </div>
+        </div>
 
         {/* Video Grid */}
         <div
-          className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+          className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5"
           role="tabpanel"
           aria-label={`${activeCategory === 'all' ? 'All' : categoryLabels[activeCategory as VideoCategory]} videos`}
         >

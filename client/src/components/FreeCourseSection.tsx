@@ -67,7 +67,7 @@ export default function FreeCourseSection() {
       />
 
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
 
           {/* Left: Course info */}
           <div>

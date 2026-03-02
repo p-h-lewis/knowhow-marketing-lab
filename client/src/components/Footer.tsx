@@ -17,10 +17,10 @@ export default function Footer() {
     >
       {/* Main footer grid */}
       <div className="container py-12 md:py-16">
-        <div className="grid md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
 
           {/* Brand */}
-          <div className="md:col-span-1">
+          <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4" aria-label="KnowHow Marketing Lab home">
               <div
                 className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
@@ -188,7 +188,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="container py-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
             © {year}{' '}
             <a href="/" className="hover:text-gray-300 transition-colors">KnowHow Marketing Lab</a>

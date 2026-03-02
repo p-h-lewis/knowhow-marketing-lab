@@ -11,7 +11,7 @@ export default function AboutSection() {
       itemType="https://schema.org/Organization"
     >
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
           {/* Left: Copy */}
           <div>

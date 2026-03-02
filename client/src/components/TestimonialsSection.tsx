@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonials"
-      className="py-20 bg-white"
+      className="py-14 md:py-20 bg-white"
       aria-labelledby="testimonials-heading"
       itemScope
       itemType="https://schema.org/ItemList"
@@ -146,7 +146,7 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Video Testimonials */}
-        <div className="grid md:grid-cols-2 gap-6 mb-14 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-10 md:mb-14 max-w-3xl mx-auto">
           {videoTestimonials.map(v => (
             <button
               key={v.id}
@@ -186,7 +186,7 @@ export default function TestimonialsSection() {
 
         {/* Text Testimonials Grid */}
         <div
-          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5"
           itemProp="itemListElement"
         >
           {textTestimonials.map((t, i) => (

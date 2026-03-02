@@ -45,7 +45,7 @@ export default function CommunitySection() {
     >
       <div className="container">
         {/* Top: Image + Copy */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center mb-12 lg:mb-16">
           <div>
             <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               The Lab
@@ -86,7 +86,8 @@ export default function CommunitySection() {
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary w-full justify-center pulse-cta"
+                className="btn-primary w-full justify-center pulse-cta text-base"
+                style={{ minHeight: '52px' }}
                 aria-label="Join The Lab on GoHighLevel"
                 itemProp="url"
               >
@@ -103,8 +104,8 @@ export default function CommunitySection() {
             </p>
           </div>
 
-          {/* Community image */}
-          <div className="relative">
+          {/* Community image — hidden on mobile to keep page clean */}
+          <div className="relative hidden md:block">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
               <picture>
                 <source type="image/webp" srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/community-800_cc48b6b8.webp" />
@@ -121,7 +122,7 @@ export default function CommunitySection() {
               </picture>
             </div>
             {/* Floating stat */}
-            <div className="absolute -bottom-5 -right-5 bg-[#E98C28] text-white rounded-2xl shadow-lg px-5 py-4">
+            <div className="absolute -bottom-5 -right-5 bg-[#E98C28] text-white rounded-2xl shadow-lg px-4 py-3">
               <p className="text-2xl font-extrabold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursdays</p>
               <p className="text-xs opacity-90">12–1pm Pacific · Live Q&amp;A</p>
             </div>
@@ -133,7 +134,7 @@ export default function CommunitySection() {
           <h3 className="text-xl font-bold text-gray-900 mb-6 text-center" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
             Everything Included in Your Membership
           </h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
             {perks.map(perk => (
               <div
                 key={perk.title}
