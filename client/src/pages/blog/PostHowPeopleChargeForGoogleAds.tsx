@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
+import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
@@ -99,8 +100,9 @@ export default function PostHowPeopleChargeForGoogleAds() {
   return (
     <div className="min-h-screen bg-white">
       <AnnouncementBar />
+      <ReadingProgressBar />
       <Navbar />
-      <main className="pt-24 pb-20">
+      <main className="pt-28 pb-20">
         <article className="max-w-3xl mx-auto px-4 sm:px-6">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">

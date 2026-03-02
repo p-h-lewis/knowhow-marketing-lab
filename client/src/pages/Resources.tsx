@@ -331,7 +331,7 @@ export default function Resources() {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-24 pb-12 bg-gray-50" aria-labelledby="resources-heading">
+        <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="resources-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Free Resources

@@ -28,7 +28,8 @@ export default function HeroSection() {
 
   return (
     <section
-      className="pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-12 md:pb-24 bg-white overflow-hidden"
+      className="pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-12 md:pb-24 overflow-hidden"
+      style={{ background: 'linear-gradient(160deg, #fffdf9 0%, #ffffff 50%, #f8fbff 100%)' }}
       aria-labelledby="hero-heading"
       itemScope
       itemType="https://schema.org/WebPage"

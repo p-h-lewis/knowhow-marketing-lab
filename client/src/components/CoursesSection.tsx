@@ -62,7 +62,7 @@ export default function CoursesSection() {
           {courses.map(course => (
             <article
               key={course.title}
-              className="bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-md hover:border-gray-200 transition-all duration-200 flex flex-col"
+              className="card-elevated overflow-hidden flex flex-col group"
               itemScope
               itemType="https://schema.org/Course"
               itemProp="itemListElement"

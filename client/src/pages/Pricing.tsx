@@ -158,7 +158,7 @@ export default function Pricing() {
 
               {/* Free plan */}
               <article
-                className="rounded-2xl border-2 border-gray-200 p-8 flex flex-col"
+                className="rounded-2xl border-2 border-gray-200 p-8 flex flex-col shadow-sm hover:shadow-md transition-shadow duration-200"
                 aria-label="Free plan"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -205,7 +205,7 @@ export default function Pricing() {
 
               {/* The Lab */}
               <article
-                className="rounded-2xl border-2 border-[#E98C28] p-8 flex flex-col relative"
+                className="rounded-2xl border-2 border-[#E98C28] p-8 flex flex-col relative shadow-lg shadow-[#E98C28]/10"
                 aria-label="The Lab plan"
                 itemScope
                 itemType="https://schema.org/Offer"

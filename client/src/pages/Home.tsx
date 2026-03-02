@@ -254,7 +254,7 @@ export default function Home() {
                 <Link
                   key={post.href}
                   href={post.href}
-                  className="group bg-white rounded-2xl border border-gray-100 shadow-sm p-6 hover:shadow-md transition-shadow duration-200 flex flex-col"
+                  className="group card-elevated p-6 flex flex-col"
                   aria-label={post.title}
                 >
                   <span

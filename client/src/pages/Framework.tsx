@@ -244,17 +244,28 @@ export default function Framework() {
             after 20+ years of working with medium-sized businesses across Canada. Every step is backed by Google's own tools and data.
           </p>
 
-          {/* Step pills */}
-          <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {steps.map((s) => (
-              <a
-                key={s.id}
-                href={`#${s.id}`}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border-2 font-semibold text-sm transition-all hover:shadow-md"
-                style={{ borderColor: s.color, color: s.color, fontFamily: "Space Grotesk, sans-serif" }}
-              >
-                <span>{s.icon}</span> {s.number} {s.name}
-              </a>
+          {/* Single clean step tracker */}
+          <div className="flex items-center justify-center gap-0 mb-10 overflow-x-auto pb-1">
+            {steps.map((s, i) => (
+              <div key={s.id} className="flex items-center">
+                <a
+                  href={`#${s.id}`}
+                  className="flex flex-col items-center gap-1 px-3 sm:px-4 group"
+                  style={{ fontFamily: "Space Grotesk, sans-serif" }}
+                  aria-label={`Jump to Step ${s.number}: ${s.name}`}
+                >
+                  <div
+                    className="w-9 h-9 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-110 transition-transform"
+                    style={{ backgroundColor: s.color }}
+                  >
+                    {s.number}
+                  </div>
+                  <span className="text-xs font-semibold text-gray-500 group-hover:text-gray-800 transition-colors whitespace-nowrap">{s.name}</span>
+                </a>
+                {i < steps.length - 1 && (
+                  <div className="w-8 sm:w-12 h-px bg-gray-200 flex-shrink-0 mb-5" aria-hidden="true" />
+                )}
+              </div>
             ))}
           </div>
 
@@ -263,37 +274,19 @@ export default function Framework() {
               href={FREE_COURSE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-bold text-white text-base transition-all hover:opacity-90"
-              style={{ backgroundColor: "#E98C28", fontFamily: "Space Grotesk, sans-serif" }}
+              className="btn-primary"
+              style={{ fontFamily: "Space Grotesk, sans-serif" }}
+              aria-label="Start the AI + SEO course - covers steps 1 to 3"
             >
-              Start AI + SEO Course - Learn Steps 1–3 →
+              Start AI + SEO Course →
             </a>
             <Link
               href="/pricing"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-bold text-gray-800 text-base border-2 border-gray-200 hover:border-gray-400 transition-all"
+              className="btn-outline"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
             >
-              Join the Community - All 5 Steps
+              Join The Lab — All 5 Steps
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Framework Overview */}
-      <section className="py-6 border-y border-gray-100 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6">
-          <div className="flex flex-wrap justify-center gap-0">
-            {steps.map((s, i) => (
-              <div key={s.id} className="flex items-center">
-                <div className="flex flex-col items-center px-6 py-3">
-                  <span className="text-2xl mb-1">{s.icon}</span>
-                  <span className="font-bold text-sm" style={{ color: s.color, fontFamily: "Space Grotesk, sans-serif" }}>{s.name}</span>
-                </div>
-                {i < steps.length - 1 && (
-                  <span className="text-gray-300 text-2xl font-light hidden sm:block">→</span>
-                )}
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -388,7 +381,7 @@ export default function Framework() {
       </section>
 
       {/* CTA - Learn the framework */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-[#0f2236] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4" style={{ fontFamily: "Space Grotesk, sans-serif" }}>
             Ready to put the framework into practice?
@@ -422,11 +415,11 @@ export default function Framework() {
             <Link href="/resources" className="text-[#318599] hover:underline">free resources</Link>, and{" "}
             <Link href="/blog" className="text-[#318599] hover:underline">free blog articles</Link>.
           </p>
-          <div className="mt-8 p-5 bg-gray-50 border border-gray-200 rounded-xl max-w-2xl mx-auto text-left">
+          <div className="mt-8 p-5 bg-white/8 border border-white/15 rounded-xl max-w-2xl mx-auto text-left">
             <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Deep Dive</p>
-            <p className="text-gray-800 font-semibold text-base mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read the full guide: Data-Driven SEO for Medium-Sized Businesses</p>
-            <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the Data-First AI SEO Method - with step-by-step instructions, real examples, and a complete FAQ.</p>
-            <Link href="/blog/data-driven-seo-guide-medium-sized-businesses" className="inline-flex items-center gap-1 text-sm font-bold text-[#318599] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <p className="text-white font-semibold text-base mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read the full guide: Data-Driven SEO for Medium-Sized Businesses</p>
+            <p className="text-gray-400 text-sm mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the Data-First AI SEO Method - with step-by-step instructions, real examples, and a complete FAQ.</p>
+            <Link href="/blog/data-driven-seo-guide-medium-sized-businesses" className="inline-flex items-center gap-1 text-sm font-bold text-[#E98C28] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Read the complete guide →
             </Link>
           </div>

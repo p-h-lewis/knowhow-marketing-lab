@@ -38,7 +38,7 @@ export default function CommunitySection() {
   return (
     <section
       id="community"
-      className="py-20 bg-white"
+      className="py-20 bg-white border-t border-gray-100"
       aria-labelledby="community-heading"
       itemScope
       itemType="https://schema.org/OnlineBusiness"

@@ -86,7 +86,7 @@ export default function About() {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-24 pb-16 bg-gray-50" aria-labelledby="about-page-heading">
+        <section className="pt-32 pb-16 bg-gray-50" aria-labelledby="about-page-heading">
           <div className="container max-w-3xl text-center">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               About Us
@@ -213,7 +213,7 @@ export default function About() {
               ].map(instructor => (
                 <article
                   key={instructor.name}
-                  className="bg-white rounded-2xl border border-gray-100 p-7"
+                  className="card-elevated p-7"
                   itemScope
                   itemType="https://schema.org/Person"
                 >

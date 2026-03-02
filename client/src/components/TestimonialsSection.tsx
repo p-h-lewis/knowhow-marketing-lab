@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonials"
-      className="py-14 md:py-20 bg-white"
+      className="py-14 md:py-20 bg-gray-50 border-t border-gray-100"
       aria-labelledby="testimonials-heading"
       itemScope
       itemType="https://schema.org/ItemList"

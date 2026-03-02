@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-20 bg-white"
+      className="py-20 bg-white border-t border-gray-100"
       aria-labelledby="about-heading"
       itemScope
       itemType="https://schema.org/Organization"

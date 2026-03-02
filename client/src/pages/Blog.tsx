@@ -281,7 +281,7 @@ export default function Blog() {
       <main id="main-content">
 
         {/* Hero */}
-        <section className="pt-24 pb-12 bg-gray-50" aria-labelledby="blog-heading">
+        <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="blog-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Free Marketing Guides
