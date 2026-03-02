@@ -552,7 +552,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h4 class="wp-block-heading"><strong>Troubleshooting</strong></h4>
 
-<p>I disabled the option by toggling it off, and then it disappeared. We also toggled off the 2nd calendar event because we doubled up doing the migration. You, of course, may see something different. But you may also have to troubleshoot. If you have questions, join our <a href="https://www.facebook.com/groups/CyberpunkGeeks">Facebook Group</a> and ask us. </p>
+<p>I disabled the option by toggling it off, and then it disappeared. We also toggled off the 2nd calendar event because we doubled up doing the migration. You, of course, may see something different. But you may also have to troubleshoot. If you have questions, join our <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home">KnowHow Marketing Lab Community</a> and ask us. </p>
 
 <p>Now that you are ready to accept conversion events, of course, that is once you’ve confirmed the GA4 conversion tracking setup in Tag Manager. We have to make sure we’re collecting data in Tag Manager. </p>
 

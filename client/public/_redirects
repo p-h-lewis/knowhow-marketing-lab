@@ -1,0 +1,101 @@
+# KnowHow Marketing Lab — Server-side 301 Redirects
+# Format: /old-path  /new-path  301
+# These mirror the client-side Wouter redirects in App.tsx for SEO-safe 301s
+
+# Course redirects
+/seo-course                                                         /courses/seo                                                                    301
+/seo-course/                                                        /courses/seo                                                                    301
+/google-ads-course                                                  /courses/google-ads                                                             301
+/google-ads-course/                                                 /courses/google-ads                                                             301
+/seo-ranking-accelerator-lab                                        /courses/seo                                                                    301
+/seo-ranking-accelerator-lab/                                       /courses/seo                                                                    301
+/product/seo-lab-intro                                              /courses/seo                                                                    301
+/product/seo-lab-intro/                                             /courses/seo                                                                    301
+/product/seo-ranking-accelerator-lab                                /courses/seo                                                                    301
+/product/seo-ranking-accelerator-lab/                               /courses/seo                                                                    301
+/seo                                                                /courses/seo                                                                    301
+/seo/                                                               /courses/seo                                                                    301
+/courses/knowhow-marketing-mastermind-lab-2022-2-2                  /courses/seo                                                                    301
+/courses/knowhow-marketing-mastermind-lab-2022-2-2/                 /courses/seo                                                                    301
+/join-the-google-ads-course-bootcamp-waitlist                       /courses/google-ads                                                             301
+/join-the-google-ads-course-bootcamp-waitlist/                      /courses/google-ads                                                             301
+/join-our-google-ads-masterclass                                    /courses/google-ads                                                             301
+/join-our-google-ads-masterclass/                                   /courses/google-ads                                                             301
+/step/ral-landing-page                                              /courses/seo                                                                    301
+/step/ral-landing-page/                                             /courses/seo                                                                    301
+/lessons/qa-seo-audit-strategy-summary-3                            /courses/seo                                                                    301
+/lessons/qa-seo-audit-strategy-summary-3/                           /courses/seo                                                                    301
+
+# Pricing / waitlist redirects
+/waitlist                                                           /pricing                                                                        301
+/waitlist/                                                          /pricing                                                                        301
+/vip-marketing-lab                                                  /pricing                                                                        301
+/vip-marketing-lab/                                                 /pricing                                                                        301
+/shop                                                               /pricing                                                                        301
+/shop/                                                              /pricing                                                                        301
+
+# Community redirect (external)
+/sem-ai-knowhow-community                                           https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home  301
+/sem-ai-knowhow-community/                                          https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home  301
+
+# Privacy / legal redirects
+/privacy-policy                                                     /privacy                                                                        301
+/privacy-policy/                                                    /privacy                                                                        301
+/refund_returns                                                     /privacy                                                                        301
+/refund_returns/                                                    /privacy                                                                        301
+
+# Thank you redirects
+/thank-you-joining-waitlist                                         /thank-you                                                                      301
+/thank-you-joining-waitlist/                                        /thank-you                                                                      301
+
+# Blog redirects
+/blog/                                                              /blog                                                                           301
+/category/ai                                                        /blog                                                                           301
+/category/ai/                                                       /blog                                                                           301
+/category/google-ads                                                /blog                                                                           301
+/category/google-ads/                                               /blog                                                                           301
+/category/websites-seo                                             /blog                                                                           301
+/category/websites-seo/                                            /blog                                                                           301
+/category/uncategorized                                             /blog                                                                           301
+/category/uncategorized/                                            /blog                                                                           301
+/tag/beginner                                                       /blog                                                                           301
+/tag/beginner/                                                      /blog                                                                           301
+/tag/google-ads                                                     /blog                                                                           301
+/tag/google-ads/                                                    /blog                                                                           301
+/tag/google-ads-strategy                                            /blog                                                                           301
+/tag/google-ads-strategy/                                           /blog                                                                           301
+/tag/strategy                                                       /blog                                                                           301
+/tag/strategy/                                                      /blog                                                                           301
+/how-to-improve-your-agencys-workflow-when-working-with-influencers /blog                                                                           301
+/how-to-improve-your-agencys-workflow-when-working-with-influencers/ /blog                                                                          301
+/3-things-you-need-to-know-about-your-keywords                      /blog                                                                           301
+/3-things-you-need-to-know-about-your-keywords/                     /blog                                                                           301
+
+# Author redirects
+/author/cris                                                        /about                                                                          301
+/author/cris/                                                       /about                                                                          301
+
+# Resources redirects
+/free-google-ads-tool                                               /resources                                                                      301
+/free-google-ads-tool/                                              /resources                                                                      301
+/google-analytics-live-training                                     /resources                                                                      301
+/google-analytics-live-training/                                    /resources                                                                      301
+
+# Home redirects (old WordPress pages)
+/members-page                                                       /                                                                               301
+/members-page/                                                      /                                                                               301
+/my-account                                                         /                                                                               301
+/my-account/                                                        /                                                                               301
+/mlp                                                                /                                                                               301
+/mlp/                                                               /                                                                               301
+/vsl                                                                /                                                                               301
+/vsl/                                                               /                                                                               301
+/questionnaire-page                                                 /                                                                               301
+/questionnaire-page/                                                /                                                                               301
+/landing-page                                                       /                                                                               301
+/landing-page/                                                      /                                                                               301
+/webinar-registration-page                                          /                                                                               301
+/webinar-registration-page/                                         /                                                                               301
+
+# SPA fallback — all unmatched routes serve index.html (required for React Router)
+/*                                                                  /index.html                                                                     200
