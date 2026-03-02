@@ -4,20 +4,27 @@
 // Internal links: /pricing, /about, /resources, /#sections
 // External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
 
+import { lazy, Suspense } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import HeroSection from '@/components/HeroSection';
 import TrustBar from '@/components/TrustBar';
 import FreeCourseSection from '@/components/FreeCourseSection';
-import VideoLibrary from '@/components/VideoLibrary';
-import CoursesSection from '@/components/CoursesSection';
-import CommunitySection from '@/components/CommunitySection';
-import AboutSection from '@/components/AboutSection';
-import LeadCaptureSection from '@/components/LeadCaptureSection';
-import TestimonialsSection from '@/components/TestimonialsSection';
+// Below-fold components — lazy loaded to reduce initial bundle and improve LCP
+const VideoLibrary = lazy(() => import('@/components/VideoLibrary'));
+const CoursesSection = lazy(() => import('@/components/CoursesSection'));
+const CommunitySection = lazy(() => import('@/components/CommunitySection'));
+const TestimonialsSection = lazy(() => import('@/components/TestimonialsSection'));
+const AboutSection = lazy(() => import('@/components/AboutSection'));
+const LeadCaptureSection = lazy(() => import('@/components/LeadCaptureSection'));
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
+
+// Lightweight skeleton shown while below-fold sections load
+function SectionSkeleton() {
+  return <div className="w-full py-16 bg-white" aria-hidden="true" />;
+}
 
 export default function Home() {
   useSEO({
@@ -172,12 +179,24 @@ export default function Home() {
         <HeroSection />
         <TrustBar />
         <FreeCourseSection />
-        <VideoLibrary />
-        <CoursesSection />
-        <CommunitySection />
-        <TestimonialsSection />
-        <AboutSection />
-        <LeadCaptureSection />
+        <Suspense fallback={<SectionSkeleton />}>
+          <VideoLibrary />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
+          <CoursesSection />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
+          <CommunitySection />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
+          <TestimonialsSection />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
+          <AboutSection />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
+          <LeadCaptureSection />
+        </Suspense>
 
         {/* Featured Blog Posts — internal links to top-ranking posts for SEO link juice */}
         <section className="py-16 bg-gray-50 border-t border-gray-100" aria-labelledby="blog-posts-heading">
