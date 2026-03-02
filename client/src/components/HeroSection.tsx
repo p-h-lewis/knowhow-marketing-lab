@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Hero Section
-// Mobile-first: stacked layout, compact image, full-width CTA, large touch targets
+// Desktop: 2-col grid (copy left, image right). Mobile: stacked, image hidden on xs.
 // Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 
 import { useState } from 'react';
@@ -28,13 +28,13 @@ export default function HeroSection() {
 
   return (
     <section
-      className="pt-28 sm:pt-32 md:pt-40 pb-10 md:pb-24 bg-white overflow-hidden"
+      className="pt-28 sm:pt-32 md:pt-36 pb-10 md:pb-20 bg-white overflow-hidden"
       aria-labelledby="hero-heading"
       itemScope
       itemType="https://schema.org/WebPage"
     >
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Left: Copy + Lead Form */}
           <div className="fade-up-1">
@@ -67,7 +67,7 @@ export default function HeroSection() {
               KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. We teach you how to get found on Google - using real data, not guesswork.
             </p>
             <p
-              className="hidden sm:block text-base text-gray-500 leading-relaxed mb-6 max-w-xl"
+              className="text-base text-gray-500 leading-relaxed mb-6 max-w-xl hidden sm:block"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
               Our courses cover SEO, Google Ads, Google Analytics 4 (GA4), and AI marketing tools. Everything is taught by Pip Seymour and Phelan Lewis - two Canadian agency owners with 20+ years of hands-on experience.
@@ -127,7 +127,7 @@ export default function HeroSection() {
             </ul>
 
             {/* Social proof micro-stats */}
-            <div className="flex flex-wrap gap-5 sm:gap-6">
+            <div className="flex flex-wrap gap-5 sm:gap-8">
               {[
                 { value: '60+', label: 'Free Video Lessons' },
                 { value: '20+', label: 'Years of Agency Experience' },
@@ -145,9 +145,9 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Hero Image — hidden on small mobile, shown from sm up */}
-          <div className="fade-up-2 relative hidden sm:block">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
+          {/* Right: Hero Image — hidden on mobile (xs), shown from sm up */}
+          <div className="fade-up-2 relative hidden sm:flex items-center justify-center">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 w-full">
               <picture>
                 <source
                   type="image/webp"
@@ -176,10 +176,11 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live every Thursday</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Free Q&A with Pip & Phelan</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Free Q&A with Pip &amp; Phelan</p>
                 </div>
               </div>
             </div>
+            {/* Decorative blobs */}
             <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-10 -z-10" style={{ background: '#E98C28' }} aria-hidden="true" />
             <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full opacity-10 -z-10" style={{ background: '#318599' }} aria-hidden="true" />
           </div>
