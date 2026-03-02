@@ -53,12 +53,12 @@ https://youtu.be/_jqGM9V1QHY
 
 <li>Do people actually click your ad? (Expected CTR)</li>
 
-<li>Is your website good? (Landing Page Experience) Get an ‘A’ on these, and Google rewards you with cheaper clicks and better placements.<br><br>Full Free Class: <a href="https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/">Google Ads Fundamentals</a></li>
+<li>Is your website good? (Landing Page Experience) Get an ‘A’ on these, and Google rewards you with cheaper clicks and better placements.<br><br>Full Free Class: <a href="/blog/google-ads-class-1-fundamentals">Google Ads Fundamentals</a></li>
 </ol>
 
 <h3 class="wp-block-heading">Week 2: Building Your First Search Campaign (Class 2)</h3>
 
-<p>This is where the rubber meets the road. We guide you through building a professional search campaign from scratch, including keyword research, ad <a href="https://knowhowmarketinglab.com/adgroups-based-on-user-intent/">copywriting that converts</a>, and structuring your campaigns for success.</p>
+<p>This is where the rubber meets the road. We guide you through building a professional search campaign from scratch, including keyword research, ad <a href="/blog/adgroups-based-on-user-intent">copywriting that converts</a>, and structuring your campaigns for success.</p>
 
 <h3 class="wp-block-heading">Week 3: Mastering Automation (Class 3)</h3>
 
@@ -70,7 +70,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Week 5: The Optimization Engine (Class 5)</h3>
 
-<p>Your campaign is live—now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-bidding-strategies-2026-edition/">adjusting bids </a>and scaling your winners.</p>
+<p>Your campaign is live—now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
 
 <h3 class="wp-block-heading">Why is This Exclusive to the Lab?</h3>
 
@@ -183,7 +183,7 @@ https://youtu.be/_jqGM9V1QHY
     },
     {
       "@type": "VideoObject",
-      "@id": "https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/#video",
+      "@id": "/blog/google-ads-class-1-fundamentals#video",
       "name": "Google Ads Class 1: Fundamentals",
       "description": "Beginner Google Ads class covering fundamentals, campaign types, the ad auction, Quality Score, and key metrics.",
       "uploadDate": "2025-12-27",
@@ -269,7 +269,7 @@ https://youtu.be/_jqGM9V1QHY
         {
           "@type": "Course",
           "name": "Week 1: The Foundation (Class 1)",
-          "url": "https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/"
+          "url": "/blog/google-ads-class-1-fundamentals"
         },
         {
           "@type": "Course",
@@ -289,7 +289,7 @@ https://youtu.be/_jqGM9V1QHY
         }
       ],
       "video": {
-        "@id": "https://knowhowmarketinglab.com/google-ads-class-1-fundamentals/#video"
+        "@id": "/blog/google-ads-class-1-fundamentals#video"
       }
     }
   ]

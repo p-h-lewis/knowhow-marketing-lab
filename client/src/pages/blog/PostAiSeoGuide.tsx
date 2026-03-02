@@ -26,7 +26,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><a href="https://www.forbes.com/sites/johnsviokla/2025/10/16/inside-walmart--chatgpts-bold-move-to-reinvent-retail/" target="_blank" rel="noreferrer noopener">Walmart partnered with ChatGPT</a> to enable conversational shopping. <a href="https://blog.google/products/ads-commerce/google-search-sponsored-results-label/" target="_blank" rel="noreferrer noopener">Google added a button</a> that lets users hide all ads with one click. And experts are now saying that things called GEO, AEO, LLMO, and AIO are the future of search.</p>
 
-<p>If you're confused by all these acronyms, you're not alone. Even marketing professionals are scratching their heads trying to figure out what's different and what matters. join us in our <a href="https://knowhowmarketinglab.com/vip-marketing-lab/">vip marketing community</a></p>
+<p>If you're confused by all these acronyms, you're not alone. Even marketing professionals are scratching their heads trying to figure out what's different and what matters. join us in our <a href="/pricing">vip marketing community</a></p>
 
 <p>Here's the truth: By 2026, one out of every four searches won't even use traditional search engines. People will just ask AI instead.</p>
 

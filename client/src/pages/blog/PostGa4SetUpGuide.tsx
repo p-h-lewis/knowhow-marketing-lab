@@ -6,7 +6,7 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
-<p>Google Analytics 4 (GA4). We're going to help you configure this and set this up and along the way you'll begin to sink your teeth into this great tool. <br>Want the Step by step guide? <a href="https://knowhowmarketinglab.com/seo-course/" target="_blank" rel="noreferrer noopener">Join our free course</a> and go to the Setup your Google Analytics Class. There we dive deeper into get you all setup and it is all free. <br><br>You're going to setup your Google Analytics 4 (GA4) We will walk you through the setup.</p>
+<p>Google Analytics 4 (GA4). We're going to help you configure this and set this up and along the way you'll begin to sink your teeth into this great tool. <br>Want the Step by step guide? <a href="/courses/seo" target="_blank" rel="noreferrer noopener">Join our free course</a> and go to the Setup your Google Analytics Class. There we dive deeper into get you all setup and it is all free. <br><br>You're going to setup your Google Analytics 4 (GA4) We will walk you through the setup.</p>
 
 <p>By the end of this article, you'll have created and set up Google Analytics 4 (GA4) tracking. You'll learn how to set up conversion tracking and you will be migrated over from Universal Analytics and have your GA4 tracking set up. <br><br>Most important thing you need to know, get your head is that everything in Google Analytics 4 (GA4) are events. And these events are triggered as users interact with your site or app. </p>
 
