@@ -33,11 +33,11 @@ const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
 <p>Before you can build a house, you need a solid foundation. This class ensures you understand the core concepts that 90% of beginners skip. We'll demystify the platform and give you the confidence to navigate it like a pro.</p>
 
-<p>What You'll Master:Understanding how Google Ads works isn't optional—it's the difference between profitable campaigns and wasted budget. In this first class, we break down the Google Ads Auction so you understand why it's not just about the highest bid. You'll learn how <a href="https://youtu.be/E5iVGlfjxTc" target="_blank" rel="noreferrer noopener">Quality Score</a> impacts your costs and why relevance is more important than budget size.</p>
+<p>What You'll Master:Understanding how Google Ads works isn't optional - it's the difference between profitable campaigns and wasted budget. In this first class, we break down the Google Ads Auction so you understand why it's not just about the highest bid. You'll learn how <a href="https://youtu.be/E5iVGlfjxTc" target="_blank" rel="noreferrer noopener">Quality Score</a> impacts your costs and why relevance is more important than budget size.</p>
 
 <h2 id="the-roadmap-what-you-ll-master-in-5-weeks">The Roadmap: What You’ll Master in 5 Weeks</h2>
 
-<p>Here’s the curriculum—the exact path you’ll follow to build your profit machine.</p>
+<p>Here’s the curriculum - the exact path you’ll follow to build your profit machine.</p>
 
 <h3 class="wp-block-heading">Week 1: The Foundation (Class 1)</h3>
 
@@ -63,7 +63,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Week 3: Mastering Automation (Class 3)</h3>
 
-<p>Meet Performance Max and Demand Gen—Google’s powerful AI-driven campaign types. We show you how to “feed the machine” the right data to find customers you never knew you had, across YouTube, Gmail, and the Discover feed.</p>
+<p>Meet Performance Max and Demand Gen - Google’s powerful AI-driven campaign types. We show you how to “feed the machine” the right data to find customers you never knew you had, across YouTube, Gmail, and the Discover feed.</p>
 
 <h3 class="wp-block-heading">Week 4: Tracking What Matters (Class 4)</h3>
 
@@ -71,7 +71,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Week 5: The Optimization Engine (Class 5)</h3>
 
-<p>Your campaign is live—now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
+<p>Your campaign is live - now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
 
 <h3 class="wp-block-heading">Why is This Exclusive to the Lab?</h3>
 
@@ -400,13 +400,13 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA — internal link to Google Ads course */}
+          {/* CTA - internal link to Google Ads course */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Want to go deeper on Google Ads?</h2>
-            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp — free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
+            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp - free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free Google Ads Bootcamp →</a>
-              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab — $29/mo</a>
+              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab - $29/mo</a>
             </div>
           </div>
                     {/* Back to blog */}

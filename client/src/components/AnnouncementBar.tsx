@@ -37,7 +37,7 @@ export default function AnnouncementBar() {
       {/* Desktop: full message */}
       <span className="hidden sm:flex items-center gap-2 text-center leading-snug">
         <span className="font-bold"> Live Q&amp;A every Thursday</span>
-        <span className="text-white/80">—</span>
+        <span className="text-white/80"> - </span>
         <span>get your marketing questions answered in real time.</span>
         <a
           href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"

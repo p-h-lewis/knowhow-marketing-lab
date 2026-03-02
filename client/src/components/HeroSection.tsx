@@ -116,9 +116,9 @@ export default function HeroSection() {
             {/* What you get */}
             <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get for free">
               {[
-                { icon: '✓', text: '60+ free video lessons on YouTube' },
-                { icon: '✓', text: 'Full 5-module SEO course - no credit card needed' },
-                { icon: '✓', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
+                { icon: '', text: '60+ free video lessons on YouTube' },
+                { icon: '', text: 'Full 5-module SEO course - no credit card needed' },
+                { icon: '', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
@@ -146,7 +146,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Hero Image — hidden on mobile (xs), shown from sm up */}
+          {/* Right: Hero Image - hidden on mobile (xs), shown from sm up */}
           <div className="fade-up-2 relative hidden sm:flex items-center justify-center">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 w-full">
               <picture>

@@ -33,7 +33,7 @@ const ThankYou = lazy(() => import("./pages/ThankYou"));
 const Podcast = lazy(() => import("./pages/Podcast"));
 const FreeCourse = lazy(() => import("./pages/FreeCourse"));
 
-// WordPress migrated blog posts — exact same URLs to preserve SEO rankings
+// WordPress migrated blog posts - exact same URLs to preserve SEO rankings
 const PostUrlRedirectsEverythingYouNeedToKnowForSeo = lazy(() => import('./pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo'));
 const PostHowPeopleChargeForGoogleAds = lazy(() => import('./pages/blog/PostHowPeopleChargeForGoogleAds'));
 const PostHowAiIsShapingMarketing = lazy(() => import('./pages/blog/PostHowAiIsShapingMarketing'));
@@ -76,7 +76,7 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
 
-        {/* WordPress migrated blog posts — specific routes MUST come before /blog/:slug catch-all */}
+        {/* WordPress migrated blog posts - specific routes MUST come before /blog/:slug catch-all */}
         <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
         <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
         <Route path="/blog/how-people-charge-for-google-ads" component={PostHowPeopleChargeForGoogleAds} />
@@ -98,7 +98,7 @@ function Router() {
         <Route path="/blog/ga4-set-up-guide" component={PostGa4SetUpGuide} />
         <Route path="/blog/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
 
-        {/* Catch-all for /blog/:slug — must come AFTER specific blog routes */}
+        {/* Catch-all for /blog/:slug - must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />
 
         <Route path="/framework" component={Framework} />
@@ -132,7 +132,7 @@ function Router() {
         <Route path="/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
         <Route path="/ga4-set-up-guide" component={PostGa4SetUpGuide} />
 
-        {/* ── 301 Redirects: old WordPress URLs → new Manus URLs ─────────────────── */}
+        {/*  301 Redirects: old WordPress URLs → new Manus URLs  */}
         {/* Course pages */}
         <Route path="/seo-course"><Redirect to="/courses/seo" /></Route>
         <Route path="/seo-course/"><Redirect to="/courses/seo" /></Route>
@@ -159,7 +159,7 @@ function Router() {
         <Route path="/vip-marketing-lab/"><Redirect to="/pricing" /></Route>
         <Route path="/shop"><Redirect to="/pricing" /></Route>
         <Route path="/shop/"><Redirect to="/pricing" /></Route>
-        {/* Community — redirects to GoHighLevel community (The Lab) */}
+        {/* Community - redirects to GoHighLevel community (The Lab) */}
         <Route path="/sem-ai-knowhow-community">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
         <Route path="/sem-ai-knowhow-community/">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
         {/* Privacy / legal */}
@@ -233,7 +233,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
-          {/* Lazy-loaded non-critical overlays — null fallback so they don't block render */}
+          {/* Lazy-loaded non-critical overlays - null fallback so they don't block render */}
           <Suspense fallback={null}>
             <CookieConsent />
           </Suspense>

@@ -1,4 +1,4 @@
-// ReadingProgressBar — thin amber progress bar at the top of blog posts
+// ReadingProgressBar - thin amber progress bar at the top of blog posts
 // Shows reading progress as user scrolls through the article
 // Accessible: role="progressbar" with aria-valuenow
 import { useEffect, useState } from 'react';

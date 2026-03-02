@@ -15,11 +15,11 @@ const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
 const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds — before you write a single word.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.', aiTip: 'Ask AI to explain your GA4 and GSC reports in plain language — no data analyst required.' },
-  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.', aiTip: 'Use AI to generate 50 keyword variations from one seed term — then validate them in Keyword Planner.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.', aiTip: 'Use AI to draft title tags and meta descriptions at scale — then edit for brand voice in minutes.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.', aiTip: 'AI Overviews and Google AI now pull from your Business Profile — learn exactly how to optimise for both.' },
+  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds - before you write a single word.' },
+  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.', aiTip: 'Ask AI to explain your GA4 and GSC reports in plain language - no data analyst required.' },
+  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.', aiTip: 'Use AI to generate 50 keyword variations from one seed term - then validate them in Keyword Planner.' },
+  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.', aiTip: 'Use AI to draft title tags and meta descriptions at scale - then edit for brand voice in minutes.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.', aiTip: 'AI Overviews and Google AI now pull from your Business Profile - learn exactly how to optimise for both.' },
 ];
 
 const faqs = [
@@ -137,7 +137,7 @@ export default function CourseSEO() {
                   <span className="text-[#E98C28]">AI + SEO Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Learn how to get your business found on Google — using real data, not guesswork. This AI + SEO course is a structured SEO accelerator that takes you from zero to a working data-driven strategy. Covers keyword research, Google Search Console, GA4, on-page SEO, and content strategy for AI-driven search.
+                  Learn how to get your business found on Google - using real data, not guesswork. This AI + SEO course is a structured SEO accelerator that takes you from zero to a working data-driven strategy. Covers keyword research, Google Search Console, GA4, on-page SEO, and content strategy for AI-driven search.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 20+ years of hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
@@ -184,7 +184,7 @@ export default function CourseSEO() {
           </div>
         </section>
 
-        {/* SEO Accelerator section — targets 'seo accelerator' keyword (17,348 impressions in GSC) */}
+        {/* SEO Accelerator section - targets 'seo accelerator' keyword (17,348 impressions in GSC) */}
         <section className="py-12 bg-[#0D6E7A] text-white" aria-label="SEO Accelerator Program">
           <div className="container max-w-5xl">
             <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -192,18 +192,18 @@ export default function CourseSEO() {
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI + SEO Accelerator Program</span>
                 <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This Is Your AI + SEO Accelerator</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system — the same one we use at our agency for medium-sized businesses across Canada.
+                  Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system - the same one we use at our agency for medium-sized businesses across Canada.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. AI is built into every step — use ChatGPT, Gemini, and Manus to do keyword research, write title tags, and optimise your content in a fraction of the time.
+                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. AI is built into every step - use ChatGPT, Gemini, and Manus to do keyword research, write title tags, and optimise your content in a fraction of the time.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: '⚡', title: 'Accelerated Learning', desc: 'Structured modules designed to build on each other — no filler, no fluff.' },
-                  { icon: '📊', title: 'Data-First Method', desc: 'Every decision backed by real data from GA4, GSC, and keyword research.' },
-                  { icon: '🤖', title: 'AI at Every Step', desc: 'Use ChatGPT, Gemini, and Manus to do keyword research, write content, and optimise — faster than ever.' },
-                  { icon: '🎯', title: 'Measurable Results', desc: 'Know exactly what to track and how to prove your AI + SEO strategy is working.' },
+                  { icon: '', title: 'Accelerated Learning', desc: 'Structured modules designed to build on each other - no filler, no fluff.' },
+                  { icon: '', title: 'Data-First Method', desc: 'Every decision backed by real data from GA4, GSC, and keyword research.' },
+                  { icon: '', title: 'AI at Every Step', desc: 'Use ChatGPT, Gemini, and Manus to do keyword research, write content, and optimise - faster than ever.' },
+                  { icon: '', title: 'Measurable Results', desc: 'Know exactly what to track and how to prove your AI + SEO strategy is working.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
                     <div className="text-2xl mb-2">{item.icon}</div>

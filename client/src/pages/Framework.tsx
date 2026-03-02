@@ -32,7 +32,7 @@ const steps = [
     outcome: "You have a clear picture of your current marketing performance.",
     color: "#318599",
     icon: "",
-    aiTip: "Use AI to summarise your GA4 and GSC data into plain-language insights — so you know exactly what to fix first.",
+    aiTip: "Use AI to summarise your GA4 and GSC data into plain-language insights - so you know exactly what to fix first.",
   },
   {
     id: "find",
@@ -68,7 +68,7 @@ const steps = [
     outcome: "You have content that ranks, gets shared, and builds your authority.",
     color: "#4F37D8",
     icon: "",
-    aiTip: "Use AI to draft content outlines and first drafts — then edit for accuracy and brand voice. Structure content for AI Overviews and GEO.",
+    aiTip: "Use AI to draft content outlines and first drafts - then edit for accuracy and brand voice. Structure content for AI Overviews and GEO.",
   },
   {
     id: "amplify",
@@ -285,7 +285,7 @@ export default function Framework() {
               className="btn-outline"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
             >
-              Join The Lab — All 5 Steps
+              Join The Lab - All 5 Steps
             </Link>
           </div>
         </div>

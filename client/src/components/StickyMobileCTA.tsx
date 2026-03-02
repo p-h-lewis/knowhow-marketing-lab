@@ -1,4 +1,4 @@
-// StickyMobileCTA — appears on mobile only after scrolling past the hero section
+// StickyMobileCTA - appears on mobile only after scrolling past the hero section
 // White background, orange CTA button, dismissible
 // Only shown on mobile (md:hidden), hidden on desktop
 
@@ -59,7 +59,7 @@ export default function StickyMobileCTA() {
             className="text-sm font-semibold text-gray-900 leading-tight"
             style={{ fontFamily: "Space Grotesk, sans-serif" }}
           >
-            Join The Lab — $29/mo
+            Join The Lab - $29/mo
           </p>
           <p className="text-xs text-gray-500 leading-tight mt-0.5">
             Weekly Q&amp;A · AI &amp; Google Ads training

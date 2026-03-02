@@ -13,7 +13,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>They opened ChatGPT and typed: "<em>What should I make for dinner tonight?"</em></p>
 
-<p>The AI suggested three recipes based on their dietary preferences. Then it recommended ingredients. Then it asked if they wanted to buy everything. They said yes. ChatGPT completed the purchase at Walmart—all in one conversation.</p>
+<p>The AI suggested three recipes based on their dietary preferences. Then it recommended ingredients. Then it asked if they wanted to buy everything. They said yes. ChatGPT completed the purchase at Walmart - all in one conversation.</p>
 
 <p>No Google search. No clicking through websites. No adding items to a cart. Just a simple conversation with AI.</p>
 
@@ -431,9 +431,9 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Put the answer right at the beginning. Then explain the details.</p>
 
-<p>❌ Bad: "<em>There are many factors to consider when choosing a coffee maker. First, let's discuss the history..</em>."</p>
+<p> Bad: "<em>There are many factors to consider when choosing a coffee maker. First, let's discuss the history..</em>."</p>
 
-<p>✅ Good: "The best coffee maker for most people is a drip coffee maker because it's easy to use, affordable, and makes consistently good coffee. Here's why..."</p>
+<p> Good: "The best coffee maker for most people is a drip coffee maker because it's easy to use, affordable, and makes consistently good coffee. Here's why..."</p>
 
 <p>AI loves direct answers.</p>
 
@@ -1049,10 +1049,10 @@ export default function PostAiSeoGuide() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA — internal link to AI + SEO course */}
+          {/* CTA - internal link to AI + SEO course */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to put this into practice?</h2>
-            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course — 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
+            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course - 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free AI + SEO Course →</a>
               <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Data-First AI SEO Method</a>

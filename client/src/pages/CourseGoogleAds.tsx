@@ -127,7 +127,7 @@ export default function CourseGoogleAds() {
                   <span className="text-[#E98C28]">Mastery Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Stop wasting money on Google Ads that don't work. This Google Ads bootcamp takes you from your first campaign to advanced bidding strategies — using the same data-driven approach we use for our agency clients.
+                  Stop wasting money on Google Ads that don't work. This Google Ads bootcamp takes you from your first campaign to advanced bidding strategies - using the same data-driven approach we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
@@ -174,7 +174,7 @@ export default function CourseGoogleAds() {
           </div>
         </section>
 
-        {/* Google Ads Bootcamp section — targets 'google ads bootcamp' keyword */}
+        {/* Google Ads Bootcamp section - targets 'google ads bootcamp' keyword */}
         <section className="py-12 bg-[#4F37D8] text-white" aria-label="Google Ads Bootcamp">
           <div className="container max-w-5xl">
             <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -182,21 +182,23 @@ export default function CourseGoogleAds() {
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI-Powered Google Ads Bootcamp</span>
                 <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Real AI-Powered Google Ads Bootcamp</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most Google Ads courses teach you the theory. This AI-powered bootcamp gives you a step-by-step system — the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
+                  Most Google Ads courses teach you the theory. This AI-powered bootcamp gives you a step-by-step system - the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module — use them to write ad copy, analyse performance data, and find wasted spend in minutes.
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module - use them to write ad copy, analyse performance data, and find wasted spend in minutes.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: '🚀', title: 'Bootcamp Structure', desc: '8 modules that build on each other — no jumping around, no confusion.' },
-                  { icon: '🤖', title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
-                  { icon: '💬', title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
-                  { icon: '💰', title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it — using real data, not guesswork.' },
+                  { title: 'Bootcamp Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
+                  { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
+                  { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
+                  { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it - using real data, not guesswork.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
-                    <div className="text-2xl mb-2">{item.icon}</div>
+                    <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center mb-2">
+                      <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 14 14"><path d="M2.5 7l3.5 3.5 5.5-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
                     <div className="text-sm font-bold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.title}</div>
                     <div className="text-xs text-white/70" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</div>
                   </div>

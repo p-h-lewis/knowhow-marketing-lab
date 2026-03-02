@@ -9,7 +9,7 @@ import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import HeroSection from '@/components/HeroSection';
 import FreeCourseSection from '@/components/FreeCourseSection';
-// Below-fold components — lazy loaded to reduce initial bundle and improve LCP
+// Below-fold components - lazy loaded to reduce initial bundle and improve LCP
 const VideoLibrary = lazy(() => import('@/components/VideoLibrary'));
 const CoursesSection = lazy(() => import('@/components/CoursesSection'));
 const CommunitySection = lazy(() => import('@/components/CommunitySection'));
@@ -86,7 +86,7 @@ export default function Home() {
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI-Powered Google Ads Bootcamp", "description": "Free Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab — VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },
               "founder": [
@@ -196,7 +196,7 @@ export default function Home() {
           <LeadCaptureSection />
         </Suspense>
 
-        {/* Featured Blog Posts — internal links to top-ranking posts for SEO link juice */}
+        {/* Featured Blog Posts - internal links to top-ranking posts for SEO link juice */}
         <section className="py-16 bg-gray-50 border-t border-gray-100" aria-labelledby="blog-posts-heading">
           <div className="container max-w-5xl">
             <div className="flex items-end justify-between mb-10">
@@ -212,14 +212,14 @@ export default function Home() {
                   href: '/blog/ai-seo-guide',
                   tag: 'AI + SEO',
                   title: 'The Complete Guide to AI SEO',
-                  desc: 'How to use AI tools to do keyword research, write content, and optimise your site — faster than ever before.',
+                  desc: 'How to use AI tools to do keyword research, write content, and optimise your site - faster than ever before.',
                   color: '#E98C28',
                 },
                 {
                   href: '/blog/adgroups-based-on-user-intent',
                   tag: 'Google Ads',
                   title: 'How to Structure Ad Groups Based on User Intent',
-                  desc: 'The ad group structure that actually works — based on what your customers are trying to do, not just what they type.',
+                  desc: 'The ad group structure that actually works - based on what your customers are trying to do, not just what they type.',
                   color: '#318599',
                 },
                 {
@@ -240,7 +240,7 @@ export default function Home() {
                   href: '/blog/data-driven-seo-guide-medium-sized-businesses',
                   tag: 'SEO',
                   title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses',
-                  desc: 'The full playbook for using real data — not guesswork — to grow your organic traffic.',
+                  desc: 'The full playbook for using real data - not guesswork - to grow your organic traffic.',
                   color: '#E98C28',
                 },
                 {

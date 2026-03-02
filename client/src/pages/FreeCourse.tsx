@@ -11,15 +11,15 @@ import { Link } from "wouter";
 const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages — and how AI is changing the rules.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 — the two free tools every business needs.', aiTip: 'Ask AI to explain your GA4 reports in plain language.' },
+  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages - and how AI is changing the rules.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds.' },
+  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 - the two free tools every business needs.', aiTip: 'Ask AI to explain your GA4 reports in plain language.' },
   { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using free tools.', aiTip: 'Use AI to generate 50 keyword variations from one seed term.' },
   { num: '04', title: 'On-Page SEO Essentials', desc: 'Title tags, meta descriptions, and internal links that help Google understand your site.', aiTip: 'Use AI to draft title tags and meta descriptions at scale.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your profile so you show up in local search and AI Overviews.', aiTip: 'AI Overviews now pull from your Business Profile — learn how to optimise for both.' },
+  { num: '05', title: 'Google Business Profile', desc: 'Optimise your profile so you show up in local search and AI Overviews.', aiTip: 'AI Overviews now pull from your Business Profile - learn how to optimise for both.' },
 ];
 
 const faqs = [
-  { q: 'Is this course really free?', a: 'Yes — completely free. No credit card required. You get all 5 modules and access to the course platform at no cost.' },
+  { q: 'Is this course really free?', a: 'Yes - completely free. No credit card required. You get all 5 modules and access to the course platform at no cost.' },
   { q: 'How long does it take?', a: 'Each module is 15–25 minutes. You can complete the full course in a weekend, or work through it at your own pace.' },
   { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to get more traffic from Google without guessing or paying for expensive agencies.' },
   { q: 'Do I need any prior SEO knowledge?', a: 'No. The course starts from the basics and builds up. If you know how to use Google, you can do this course.' },
@@ -87,7 +87,7 @@ const schema = {
 export default function FreeCourse() {
   useSEO({
     title: "Free AI + SEO Course for Medium-Sized Businesses | KnowHow Marketing Lab",
-    description: "Learn how to use AI and SEO to get found on Google — free 5-module course by Pip Seymour and Phelan Lewis of Seymour Digital Media. No credit card required.",
+    description: "Learn how to use AI and SEO to get found on Google - free 5-module course by Pip Seymour and Phelan Lewis of Seymour Digital Media. No credit card required.",
     canonical: "https://knowhowmarketinglab.com/free-course",
     ogType: "website",
   });
@@ -156,7 +156,7 @@ export default function FreeCourse() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              A free 5-module course for medium-sized businesses. No jargon. No guesswork. Just a clear, data-driven method that actually works — taught by agency veterans with 20+ years of experience.
+              A free 5-module course for medium-sized businesses. No jargon. No guesswork. Just a clear, data-driven method that actually works - taught by agency veterans with 20+ years of experience.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-sm text-gray-500">
@@ -192,7 +192,7 @@ export default function FreeCourse() {
               What You Will Learn
             </h2>
             <p className="text-gray-500 text-center mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Five practical modules — each with video lessons, a worksheet, and an AI tip you can use immediately.
+              Five practical modules - each with video lessons, a worksheet, and an AI tip you can use immediately.
             </p>
             <div className="space-y-4">
               {modules.map((m) => (
@@ -240,7 +240,7 @@ export default function FreeCourse() {
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { name: 'Jaime Hall', text: 'Pip was absolutely amazing — super knowledgeable and always willing to go the extra mile.' },
+                { name: 'Jaime Hall', text: 'Pip was absolutely amazing - super knowledgeable and always willing to go the extra mile.' },
                 { name: 'Chloe Dertinger', text: 'Pip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.' },
                 { name: 'Robert Trasolini', text: 'We instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.' },
                 { name: 'Jason McCormick', text: 'Our goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.' },
@@ -254,7 +254,7 @@ export default function FreeCourse() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-700 leading-relaxed mb-3 italic">"{r.text}"</p>
-                  <footer className="text-xs font-bold text-gray-500" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>— {r.name}</footer>
+                  <footer className="text-xs font-bold text-gray-500" style={{ fontFamily: 'Space Grotesk, sans-serif' }}> - {r.name}</footer>
                 </blockquote>
               ))}
             </div>

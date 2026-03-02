@@ -87,7 +87,7 @@ export default function VideoLibrary() {
           </p>
         </div>
 
-        {/* Category Filters — horizontal scroll on mobile, wrap on desktop */}
+        {/* Category Filters - horizontal scroll on mobile, wrap on desktop */}
         <div className="-mx-4 px-4 sm:mx-0 sm:px-0 overflow-x-auto mb-8">
         <div className="flex gap-2 pb-1 sm:flex-wrap" role="tablist" aria-label="Filter videos by category" style={{ minWidth: 'max-content' }}>
           {CATEGORIES.map(cat => (

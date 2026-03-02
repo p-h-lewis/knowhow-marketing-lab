@@ -57,7 +57,7 @@ export default function Podcast() {
               {
                 "@type": "PodcastSeries",
                 "name": "KnowHow Marketing Lab Podcast",
-                "description": "A monthly podcast by Pip Seymour and Phelan Lewis of Seymour Digital Media. Each episode covers what is actually happening in SEO, Google Ads, and AI marketing — with practical advice for medium-sized businesses.",
+                "description": "A monthly podcast by Pip Seymour and Phelan Lewis of Seymour Digital Media. Each episode covers what is actually happening in SEO, Google Ads, and AI marketing - with practical advice for medium-sized businesses.",
                 "url": "https://knowhowmarketinglab.com/podcast",
                 "webFeed": YOUTUBE_PLAYLIST,
                 "author": [
@@ -103,7 +103,7 @@ export default function Podcast() {
               <span className="text-[#E98C28]">Podcast</span>
             </h1>
             <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Every month, Pip Seymour and Phelan Lewis sit down to talk about what is actually happening in SEO, Google Ads, and AI marketing — no fluff, no hype, just honest analysis from two agency owners who are in it every day.
+              Every month, Pip Seymour and Phelan Lewis sit down to talk about what is actually happening in SEO, Google Ads, and AI marketing - no fluff, no hype, just honest analysis from two agency owners who are in it every day.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -228,7 +228,7 @@ export default function Podcast() {
               Want to learn alongside us every week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The podcast is monthly. The Lab is weekly — live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month.
+              The podcast is monthly. The Lab is weekly - live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

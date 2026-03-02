@@ -30,7 +30,7 @@ const communityFeatures = [
   { label: 'Weekly live Q&A & support (Thursdays)', included: true },
   { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
-  { label: 'Google Ads — live monthly training + recordings', included: true },
+  { label: 'Google Ads - live monthly training + recordings', included: true },
   { label: 'AI Marketing & Automation course', included: true },
   { label: 'Private community group access', included: true },
   { label: 'Live Q&A with Pip & Phelan', included: true },
@@ -45,7 +45,7 @@ const pricingFaqs = [
   },
   {
     q: 'What do I get in The Lab that I cannot get for free?',
-    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (Google Ads, SEO audits, AI tools, and more), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. Google Ads is taught live every month — no separate course needed.',
+    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (Google Ads, SEO audits, AI tools, and more), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. Google Ads is taught live every month - no separate course needed.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -68,7 +68,7 @@ const pricingFaqs = [
 export default function Pricing() {
   useSEO({
     title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
-    description: "Join our exclusive VIP community for $29/month — weekly live Q&A, monthly Google Ads training, AI marketing course, and private community access. Or start free with our AI + SEO course.",
+    description: "Join our exclusive VIP community for $29/month - weekly live Q&A, monthly Google Ads training, AI marketing course, and private community access. Or start free with our AI + SEO course.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });
@@ -146,7 +146,7 @@ export default function Pricing() {
               Start Free. Go Deeper When You're Ready.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start free with the AI + SEO course, or unlock exclusive VIP access to The Lab — weekly live Q&A, monthly deep-dive training, and a private community of business owners and marketers.
+              Start free with the AI + SEO course, or unlock exclusive VIP access to The Lab - weekly live Q&A, monthly deep-dive training, and a private community of business owners and marketers.
             </p>
           </div>
         </section>

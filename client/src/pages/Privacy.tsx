@@ -93,7 +93,7 @@ export default function Privacy() {
               <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-4">
                 <li>Your name and email address</li>
                 <li>Your business name and website URL (if provided)</li>
-                <li>Payment information (processed securely by GoHighLevel — we do not store card details)</li>
+                <li>Payment information (processed securely by GoHighLevel - we do not store card details)</li>
                 <li>Any messages or questions you send us</li>
               </ul>
 
@@ -257,7 +257,7 @@ export default function Privacy() {
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>12. Security</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                We take reasonable technical and organisational measures to protect your personal information. Our website uses HTTPS encryption. Payment processing is handled entirely by GoHighLevel's PCI-compliant infrastructure — we never see or store your full payment card details. No method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
+                We take reasonable technical and organisational measures to protect your personal information. Our website uses HTTPS encryption. Payment processing is handled entirely by GoHighLevel's PCI-compliant infrastructure - we never see or store your full payment card details. No method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
               </p>
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>13. Changes to This Policy</h2>

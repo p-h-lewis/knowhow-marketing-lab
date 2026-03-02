@@ -253,7 +253,7 @@ https://youtu.be/nzTa2wJEN9k
 
 <p>Yes. While PMax covers Search inventory, running a dedicated Search campaign allows you to target specific keywords and control your messaging more precisely, especially for branded terms or high-priority services.</p>
 
-<h3 class="wp-block-heading">🚀 Ready to Master Google Ads?</h3>
+<h3 class="wp-block-heading"> Ready to Master Google Ads?</h3>
 
 <p>Choosing the campaign type is just step one. To truly succeed, you need to know how to structure your account, write killer ad copy, and optimize for ROI.</p>
 
@@ -262,16 +262,16 @@ https://youtu.be/nzTa2wJEN9k
 <p>Get access to:</p>
 
 <ul class="wp-block-list">
-<li>✅ Full Google Ads Course (7 Modules)</li>
+<li> Full Google Ads Course (7 Modules)</li>
 
-<li>✅ Live Weekly Training & Q&A</li>
+<li> Live Weekly Training & Q&A</li>
 
-<li>✅ Downloadable Templates & Checklists</li>
+<li> Downloadable Templates & Checklists</li>
 
-<li>✅ AI Prompt Library for Ad Copy</li>
+<li> AI Prompt Library for Ad Copy</li>
 </ul>
 
-<p>👉 <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" rel="noreferrer noopener" target="_blank">Join Know How Marketing Lab Now</a></p>
+<p> <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" rel="noreferrer noopener" target="_blank">Join Know How Marketing Lab Now</a></p>
 
 <h2 id="references">References</h2>
 
@@ -318,7 +318,7 @@ https://youtu.be/nzTa2wJEN9k
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "Stop Wasting Ad Spend! Master Every Google Ads Campaign Type in Minutes",
-  "description": "Learn how to choose and optimize the right Google Ads campaign types—Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns—to maximize your marketing results. Includes video walkthrough and visual examples.",
+  "description": "Learn how to choose and optimize the right Google Ads campaign types - Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns - to maximize your marketing results. Includes video walkthrough and visual examples.",
   "author": {
     "@type": "Person",
     "name": "Pip Seymour"
@@ -473,13 +473,13 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA — internal link to Google Ads course */}
+          {/* CTA - internal link to Google Ads course */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Want to go deeper on Google Ads?</h2>
-            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp — free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
+            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp - free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free Google Ads Bootcamp →</a>
-              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab — $29/mo</a>
+              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab - $29/mo</a>
             </div>
           </div>
                     {/* Back to blog */}

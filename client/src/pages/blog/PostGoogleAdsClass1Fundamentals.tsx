@@ -31,7 +31,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p>Welcome to Google Ads Class 1! This is the foundation of your Google Ads journey. </p>
 
-<p>Today, we start with the fundamentals—understanding what Google Ads is, how it works, and the key concepts you need to know before launching your first campaign. If you like reading and watching you'll get double the information :) </p>
+<p>Today, we start with the fundamentals - understanding what Google Ads is, how it works, and the key concepts you need to know before launching your first campaign. If you like reading and watching you'll get double the information :) </p>
 
 <p>Google Ads is one of the most powerful advertising platforms available to businesses of all sizes. Whether you are a local service provider, an e-commerce store, or a B2B company, Google Ads can help you reach potential customers at the exact moment they are searching for what you offer. The key to success is understanding how the platform works and building campaigns strategically from the ground up.</p>
 
@@ -115,7 +115,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p><strong>Performance Max Campaigns</strong></p>
 
-<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimize your ads across all of Google's channels—Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
+<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimize your ads across all of Google's channels - Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
 
 <p><strong>Best for: </strong>Businesses that want to maximize conversions across all Google channels with minimal manual management. We will cover Performance Max in detail in Class 3.</p>
 
@@ -177,7 +177,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading" id="h-task-1-set-up-your-google-ads-account">Task 1: Set Up Your Google Ads Account</h3>
 
-<p>If you do not already have a Google Ads account, create one at <a target="_blank" rel="noreferrer noopener" href="http://ads.google.com">ads.google.com</a>. You do not need to launch a campaign yet—just complete the account setup process. Make sure you link your Google Ads account to a Google Analytics property if you have one, as this will provide valuable insights into user behaviour after they click your ads.</p>
+<p>If you do not already have a Google Ads account, create one at <a target="_blank" rel="noreferrer noopener" href="http://ads.google.com">ads.google.com</a>. You do not need to launch a campaign yet - just complete the account setup process. Make sure you link your Google Ads account to a Google Analytics property if you have one, as this will provide valuable insights into user behaviour after they click your ads.</p>
 
 <h3 class="wp-block-heading" id="h-task-2-explore-the-interface">Task 2: Explore the Interface</h3>
 
@@ -193,7 +193,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading" id="h-task-5-identify-10-keywords">Task 5: Identify 10 Keywords</h3>
 
-<p>Brainstorm at least ten keywords that potential customers might use to search for your products or services. Think about the specific terms people would type into Google when they are ready to buy or take action. Write these down—you will use them when we build your first campaign in Class 2.</p>
+<p>Brainstorm at least ten keywords that potential customers might use to search for your products or services. Think about the specific terms people would type into Google when they are ready to buy or take action. Write these down - you will use them when we build your first campaign in Class 2.</p>
 
 <h2 id="key-takeaways">Key Takeaways</h2>
 
@@ -202,7 +202,7 @@ https://youtu.be/_jqGM9V1QHY
 <ul class="wp-block-list">
 <li>The Google Ads auction considers both your bid and your Quality Score to determine ad position and cost.</li>
 
-<li>Quality Score is critical—it affects both your ad rank and your cost per click.</li>
+<li>Quality Score is critical - it affects both your ad rank and your cost per click.</li>
 
 <li>There are multiple campaign types (Search, Display, Video, Shopping, Performance Max, App), each suited for different goals.</li>
 
@@ -324,13 +324,13 @@ export default function PostGoogleAdsClass1Fundamentals() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA — internal link to Google Ads course */}
+          {/* CTA - internal link to Google Ads course */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Want to go deeper on Google Ads?</h2>
-            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp — free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
+            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp - free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free Google Ads Bootcamp →</a>
-              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab — $29/mo</a>
+              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab - $29/mo</a>
             </div>
           </div>
                     {/* Back to blog */}

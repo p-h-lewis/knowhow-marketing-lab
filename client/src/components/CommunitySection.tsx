@@ -104,7 +104,7 @@ export default function CommunitySection() {
             </p>
           </div>
 
-          {/* Community image — hidden on mobile to keep page clean */}
+          {/* Community image - hidden on mobile to keep page clean */}
           <div className="relative hidden md:block">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
               <picture>

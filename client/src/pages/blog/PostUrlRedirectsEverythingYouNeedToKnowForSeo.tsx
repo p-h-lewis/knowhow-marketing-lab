@@ -231,10 +231,10 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA — internal link to AI + SEO course */}
+          {/* CTA - internal link to AI + SEO course */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to put this into practice?</h2>
-            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course — 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
+            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course - 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free AI + SEO Course →</a>
               <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Data-First AI SEO Method</a>

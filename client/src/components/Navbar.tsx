@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Navbar
 // White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
-// Desktop: 6 nav items (Podcast + Resources in footer only) — fits without hamburger at lg breakpoint
+// Desktop: 6 nav items (Podcast + Resources in footer only) - fits without hamburger at lg breakpoint
 // Mobile: full-screen slide-down menu with large touch targets, body scroll lock
 
 import { useState, useEffect } from 'react';
@@ -37,7 +37,7 @@ export default function Navbar() {
   // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav — trimmed to 6 items so it fits cleanly without overflow
+  // Desktop nav - trimmed to 6 items so it fits cleanly without overflow
   const desktopNavLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
@@ -47,7 +47,7 @@ export default function Navbar() {
     { label: 'About', href: '/about' },
   ];
 
-  // Mobile nav — full list including Podcast and Resources
+  // Mobile nav - full list including Podcast and Resources
   const mobileNavLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
@@ -94,7 +94,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Nav — 6 items, hidden below lg */}
+          {/* Desktop Nav - 6 items, hidden below lg */}
           <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
             {desktopNavLinks.map(link => (
               <li key={link.label}>
@@ -163,7 +163,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          {/* Desktop CTA — hidden below lg */}
+          {/* Desktop CTA - hidden below lg */}
           <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
             <a
               href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
@@ -212,7 +212,7 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* Mobile Menu — full overlay below header */}
+      {/* Mobile Menu - full overlay below header */}
       {mobileOpen && (
         <div
           id="mobile-menu"
@@ -272,7 +272,7 @@ export default function Navbar() {
                 onClick={closeMobile}
                 aria-label="Start the AI + SEO course for free"
               >
-                Start AI + SEO Course — Free →
+                Start AI + SEO Course - Free →
               </a>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"

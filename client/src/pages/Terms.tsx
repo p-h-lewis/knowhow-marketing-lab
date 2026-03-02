@@ -157,7 +157,7 @@ export default function Terms() {
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>8. Intellectual Property</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                All content on this website and within The KnowHow Lab — including course videos, written materials, templates, frameworks, and graphics — is owned by {COMPANY_NAME} and protected by copyright law. You are granted a limited, non-exclusive, non-transferable licence to access and use this content for your own personal or business purposes during your membership. This licence does not permit you to reproduce, distribute, or create derivative works from our content.
+                All content on this website and within The KnowHow Lab - including course videos, written materials, templates, frameworks, and graphics - is owned by {COMPANY_NAME} and protected by copyright law. You are granted a limited, non-exclusive, non-transferable licence to access and use this content for your own personal or business purposes during your membership. This licence does not permit you to reproduce, distribute, or create derivative works from our content.
               </p>
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>9. Third-Party Platforms</h2>
