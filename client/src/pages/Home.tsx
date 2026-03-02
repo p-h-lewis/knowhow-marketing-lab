@@ -8,7 +8,6 @@ import { lazy, Suspense } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import HeroSection from '@/components/HeroSection';
-import TrustBar from '@/components/TrustBar';
 import FreeCourseSection from '@/components/FreeCourseSection';
 // Below-fold components — lazy loaded to reduce initial bundle and improve LCP
 const VideoLibrary = lazy(() => import('@/components/VideoLibrary'));
@@ -177,7 +176,6 @@ export default function Home() {
       <Navbar />
       <main id="main-content">
         <HeroSection />
-        <TrustBar />
         <FreeCourseSection />
         <Suspense fallback={<SectionSkeleton />}>
           <VideoLibrary />
