@@ -12,6 +12,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 // Lazy-load non-critical UI to reduce TBT on initial render
 const CookieConsent = lazy(() => import("./components/CookieConsent"));
 const ExitIntentPopup = lazy(() => import("./components/ExitIntentPopup"));
+const StickyMobileCTA = lazy(() => import("./components/StickyMobileCTA"));
 
 // Eagerly load Home (first page most visitors see)
 const Home = lazy(() => import("./pages/Home"));
@@ -238,6 +239,9 @@ function App() {
           </Suspense>
           <Suspense fallback={null}>
             <ExitIntentPopup />
+          </Suspense>
+          <Suspense fallback={null}>
+            <StickyMobileCTA />
           </Suspense>
         </TooltipProvider>
       </ThemeProvider>

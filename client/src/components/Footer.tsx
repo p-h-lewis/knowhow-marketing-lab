@@ -186,9 +186,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
+      {/* Bottom bar — pb-20 on mobile so sticky CTA bar doesn't overlap */}
       <div className="border-t border-white/10">
-        <div className="container py-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
+        <div className="container py-5 pb-20 sm:pb-5 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
             © {year}{' '}
             <a href="/" className="hover:text-gray-300 transition-colors">KnowHow Marketing Lab</a>
