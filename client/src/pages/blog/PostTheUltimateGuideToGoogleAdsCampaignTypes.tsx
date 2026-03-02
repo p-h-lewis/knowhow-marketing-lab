@@ -390,7 +390,20 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
     if (metaDesc) metaDesc.setAttribute('content', 'Author: Know How Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-campaign-types/');
-    return () => { document.head.removeChild(script); };
+
+    const breadcrumbScript = document.createElement('script');
+    breadcrumbScript.type = 'application/ld+json';
+    breadcrumbScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://knowhowmarketinglab.com/blog"},
+        {"@type": "ListItem", "position": 3, "name": "Google Ads Campaign Types Guide", "item": "https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-campaign-types"}
+      ]
+    });
+    document.head.appendChild(breadcrumbScript);
+    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); };
   }, []);
 
   return (
@@ -458,15 +471,16 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA */}
-          <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
-            <h2 className="text-2xl font-bold mb-3">Want to put this into practice?</h2>
-            <p className="text-white/80 mb-6">Join The Lab — live monthly training, community support, and the Data-First AI SEO Method.</p>
-            <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">
-              Join The Lab — $29/month
-            </a>
+          {/* CTA — internal link to Google Ads course */}
+          <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
+            <h2 className="text-2xl font-bold mb-3">Want to go deeper on Google Ads?</h2>
+            <p className="text-white/80 mb-6">Join the AI-Powered Google Ads Bootcamp — free course with live monthly training, community support, and expert Q&amp;A every Thursday.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free Google Ads Bootcamp →</a>
+              <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab — $29/mo</a>
+            </div>
           </div>
-          {/* Back to blog */}
+                    {/* Back to blog */}
           <div className="mt-10 text-center">
             <Link href="/blog" className="text-[#318599] hover:underline text-sm font-medium">Back to all articles</Link>
           </div>

@@ -966,7 +966,20 @@ export default function PostAiSeoGuide() {
     if (metaDesc) metaDesc.setAttribute('content', 'Published: October 19, 2025 The Walmart Shopping Story That Changed Everything Last week, someone bought groceries without ever visiting a website. They...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/ai-seo-guide/');
-    return () => { document.head.removeChild(script); };
+
+    const breadcrumbScript = document.createElement('script');
+    breadcrumbScript.type = 'application/ld+json';
+    breadcrumbScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://knowhowmarketinglab.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://knowhowmarketinglab.com/blog"},
+        {"@type": "ListItem", "position": 3, "name": "The Complete Guide to AI SEO", "item": "https://knowhowmarketinglab.com/ai-seo-guide"}
+      ]
+    });
+    document.head.appendChild(breadcrumbScript);
+    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); };
   }, []);
 
   return (
@@ -1034,15 +1047,16 @@ export default function PostAiSeoGuide() {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-md prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600"
             dangerouslySetInnerHTML={{ __html: POST_CONTENT }}
           />
-          {/* CTA */}
+          {/* CTA — internal link to AI + SEO course */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
-            <h2 className="text-2xl font-bold mb-3">Want to put this into practice?</h2>
-            <p className="text-white/80 mb-6">Join The Lab — live monthly training, community support, and the Data-First AI SEO Method.</p>
-            <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">
-              Join The Lab — $29/month
-            </a>
+            <h2 className="text-2xl font-bold mb-3">Ready to put this into practice?</h2>
+            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course — 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/courses/seo" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free AI + SEO Course →</a>
+              <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Data-First AI SEO Method</a>
+            </div>
           </div>
-          {/* Back to blog */}
+                    {/* Back to blog */}
           <div className="mt-10 text-center">
             <Link href="/blog" className="text-[#318599] hover:underline text-sm font-medium">Back to all articles</Link>
           </div>
