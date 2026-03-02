@@ -18,7 +18,7 @@ export default function AnnouncementBar() {
     <div
       role="banner"
       aria-label="Weekly live Q&A announcement"
-      className="fixed top-0 left-0 right-0 z-50 bg-[#E98C28] text-white text-sm py-2.5 px-10 flex items-center justify-center"
+      className="fixed top-0 left-0 right-0 z-50 bg-[#B8691A] text-white text-sm py-2.5 px-10 flex items-center justify-center"
       style={{ fontFamily: 'DM Sans, sans-serif' }}
     >
       {/* Mobile: compact */}

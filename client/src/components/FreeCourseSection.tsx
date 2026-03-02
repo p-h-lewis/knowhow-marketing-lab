@@ -147,7 +147,7 @@ export default function FreeCourseSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Start the AI + SEO course on GoHighLevel - no credit card required"
+                aria-label="Start AI + SEO Course"
                 itemProp="url"
               >
                 Start AI + SEO Course →
@@ -155,7 +155,7 @@ export default function FreeCourseSection() {
               <a
                 href="#videos"
                 className="btn-outline"
-                aria-label="Browse all 60+ free video lessons"
+                aria-label="Browse Free Videos"
               >
                 Browse Free Videos
               </a>

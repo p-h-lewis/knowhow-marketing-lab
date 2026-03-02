@@ -103,7 +103,7 @@ export default function HeroSection() {
                 <button
                   type="submit"
                   className="btn-primary whitespace-nowrap pulse-cta"
-                  aria-label="Start the AI + SEO course - no credit card required"
+                  aria-label="Start AI + SEO Course"
                 >
                   Start AI + SEO Course →
                 </button>

@@ -62,7 +62,7 @@ export default function Navbar() {
     >
       <nav className="container flex items-center justify-between h-16" aria-label="Main navigation">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="KnowHow Marketing Lab - home">
+        <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="KnowHow Marketing Lab">
           <div
             className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
             style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
