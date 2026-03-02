@@ -179,21 +179,21 @@ export default function CourseGoogleAds() {
           <div className="container max-w-5xl">
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Bootcamp</span>
-                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Real Google Ads Bootcamp — Not Just a Course</h2>
+                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI-Powered Google Ads Bootcamp</span>
+                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Real AI-Powered Google Ads Bootcamp</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most Google Ads courses teach you the theory. This bootcamp gives you a step-by-step system — the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
+                  Most Google Ads courses teach you the theory. This AI-powered bootcamp gives you a step-by-step system — the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding strategies. Every module builds on the last. Weekly live Q&amp;A means you're never stuck.
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. AI tools are woven into every module — use them to write ad copy, analyse performance, and find wasted spend in minutes.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: '🚀', title: 'Bootcamp Structure', desc: '8 modules that build on each other — no jumping around, no confusion.' },
-                  { icon: '📊', title: 'Data-Driven Decisions', desc: 'Every campaign decision backed by real data from GA4 and Google Ads.' },
-                  { icon: '💬', title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday.' },
-                  { icon: '💰', title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it fast.' },
+                  { icon: '🤖', title: 'AI in Every Module', desc: 'Use AI to write ad copy, analyse performance data, and find wasted spend fast.' },
+                  { icon: '💬', title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
+                  { icon: '💰', title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it — using real data, not guesswork.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
                     <div className="text-2xl mb-2">{item.icon}</div>
