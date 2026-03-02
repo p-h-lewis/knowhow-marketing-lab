@@ -390,7 +390,7 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Author: Know How Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/the-ultimate-guide-to-google-ads-campaign-types/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

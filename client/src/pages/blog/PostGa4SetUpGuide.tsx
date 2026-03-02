@@ -666,7 +666,7 @@ export default function PostGa4SetUpGuide() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'GA 4 Set-Up Google Analytics 4 (GA4). We\'re going to help you configure this and set this up and along the way you\'ll begin to sink your teeth into this...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/ga4-set-up-guide/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/ga4-set-up-guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

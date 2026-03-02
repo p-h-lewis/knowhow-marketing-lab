@@ -254,7 +254,7 @@ export default function PostGoogleAdsClass1Fundamentals() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Duration: 45 minutes + 15 minutes Q&A Level: Beginner Course: KnowHow Marketing Lab - Master Google Ads Series Learning Objectives By the end of this cl...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', '/blog/google-ads-class-1-fundamentals');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/google-ads-class-1-fundamentals');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

@@ -208,7 +208,7 @@ export default function PostHowAiIsShapingMarketing() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'In our latest podcast, covering everything from AI-powered content creation to the evolution of search engines. Explore the detailed discussion on AI\'s ...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/how-ai-is-shaping-marketing/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/how-ai-is-shaping-marketing');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

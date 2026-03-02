@@ -148,7 +148,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Introduction - URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/url-redirects-everything-you-need-to-know-for-seo/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/url-redirects-everything-you-need-to-know-for-seo');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

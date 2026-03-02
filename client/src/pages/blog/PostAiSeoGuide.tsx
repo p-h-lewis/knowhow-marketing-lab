@@ -966,7 +966,7 @@ export default function PostAiSeoGuide() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Published: October 19, 2025 The Walmart Shopping Story That Changed Everything Last week, someone bought groceries without ever visiting a website. They...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/ai-seo-guide/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/ai-seo-guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

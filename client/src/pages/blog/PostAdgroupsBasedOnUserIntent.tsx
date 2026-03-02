@@ -128,7 +128,7 @@ export default function PostAdgroupsBasedOnUserIntent() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Organizing AdGroups based on user intent is a highly effective strategy in pay-per-click (PPC) advertising, especially for platforms like Google Ads. Th...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', '/blog/adgroups-based-on-user-intent');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/adgroups-based-on-user-intent');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

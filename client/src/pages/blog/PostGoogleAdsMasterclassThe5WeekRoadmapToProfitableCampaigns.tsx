@@ -332,7 +332,7 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'By Pip Seymour • December 20, 2025 • 5 min read Let’s be honest: Google Ads feels like a casino where the house always wins. You pour money in, pull the...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

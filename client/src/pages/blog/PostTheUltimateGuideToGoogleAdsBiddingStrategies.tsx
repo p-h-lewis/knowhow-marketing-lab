@@ -171,7 +171,7 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one, and you get a steady stream of profitable cu...');
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', '/blog/the-ultimate-guide-to-google-ads-bidding-strategies');
+    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-bidding-strategies');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
