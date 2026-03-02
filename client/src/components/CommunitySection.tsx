@@ -106,16 +106,19 @@ export default function CommunitySection() {
           {/* Community image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-              <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/nCEeJXdeKZHEwyIq.jpg"
-                alt="KnowHow Marketing Lab VIP community on GoHighLevel - weekly live classes, private group, SEO and Google Ads training for marketing professionals"
-                width="1200"
-                height="675"
-                className="w-full h-auto"
-                loading="lazy"
-                decoding="async"
-                itemProp="image"
-              />
+              <picture>
+                <source type="image/webp" srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/community-800_cc48b6b8.webp" />
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/nCEeJXdeKZHEwyIq.jpg"
+                  alt="KnowHow Marketing Lab VIP community on GoHighLevel - weekly live classes, private group, SEO and Google Ads training for marketing professionals"
+                  width="800"
+                  height="450"
+                  className="w-full h-auto"
+                  loading="lazy"
+                  decoding="async"
+                  itemProp="image"
+                />
+              </picture>
             </div>
             {/* Floating stat */}
             <div className="absolute -bottom-5 -right-5 bg-[#E98C28] text-white rounded-2xl shadow-lg px-5 py-4">

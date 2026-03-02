@@ -40,6 +40,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://files.manuscdn.com" crossorigin />
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
+    <!-- Preconnect for analytics (identified by PSI as 330-350ms savings) -->
+    <link rel="preconnect" href="https://plausible.io" crossorigin />
+    <link rel="preconnect" href="https://manus-analytics.com" crossorigin />
+    <!-- Preconnect for CDN assets (hero image, OG image) -->
+    <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" crossorigin />
     <!-- DNS prefetch for deferred third-party scripts (loaded after interaction) -->
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
@@ -47,8 +52,8 @@
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
     <link rel="dns-prefetch" href="https://learnwith.seymourdigitalmedia.com" />
-    <!-- Preload hero image for LCP -->
-    <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" fetchpriority="high" />
+    <!-- Preload hero image for LCP: WebP for modern browsers, JPEG fallback -->
+    <link rel="preload" as="image" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_be93ebf0.webp" type="image/webp" fetchpriority="high" imagesrcset="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_b042f519.webp 600w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_be93ebf0.webp 800w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-1200_26828b0c.webp 1200w" imagesizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 574px" />
     <!-- Fonts: non-blocking load (media=print trick) to avoid render-blocking -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" /></noscript>

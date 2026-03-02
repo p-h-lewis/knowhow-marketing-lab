@@ -9,8 +9,9 @@ import { lazy, Suspense } from "react";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import CookieConsent from "./components/CookieConsent";
-import ExitIntentPopup from "./components/ExitIntentPopup";
+// Lazy-load non-critical UI to reduce TBT on initial render
+const CookieConsent = lazy(() => import("./components/CookieConsent"));
+const ExitIntentPopup = lazy(() => import("./components/ExitIntentPopup"));
 
 // Eagerly load Home (first page most visitors see)
 const Home = lazy(() => import("./pages/Home"));
@@ -206,8 +207,13 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
-          <CookieConsent />
-          <ExitIntentPopup />
+          {/* Lazy-loaded non-critical overlays — null fallback so they don't block render */}
+          <Suspense fallback={null}>
+            <CookieConsent />
+          </Suspense>
+          <Suspense fallback={null}>
+            <ExitIntentPopup />
+          </Suspense>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

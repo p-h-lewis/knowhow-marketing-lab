@@ -152,17 +152,25 @@ export default function HeroSection() {
           {/* Right: Hero Image */}
           <div className="fade-up-2 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
-              <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg"
-                alt="KnowHow Marketing Lab AI + SEO and Google Ads course - analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
-                width="1200"
-                height="675"
-                className="w-full h-auto"
-                loading="eager"
-                fetchPriority="high"
-                decoding="async"
-                itemProp="image"
-              />
+              {/* Responsive WebP hero image — saves ~48KB vs original JPEG */}
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_b042f519.webp 600w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_be93ebf0.webp 800w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-1200_26828b0c.webp 1200w"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 574px"
+                />
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_c8af67f2.jpg"
+                  alt="KnowHow Marketing Lab AI + SEO and Google Ads course - analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
+                  width="1200"
+                  height="675"
+                  className="w-full h-auto"
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  itemProp="image"
+                />
+              </picture>
               {/* Floating badge */}
               <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-lg px-4 py-3 flex items-center gap-3 border border-gray-100">
                 <div className="w-10 h-10 rounded-full bg-[#e6f4f7] flex items-center justify-center flex-shrink-0" aria-hidden="true">
