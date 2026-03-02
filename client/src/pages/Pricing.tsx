@@ -342,7 +342,7 @@ export default function Pricing() {
               ))}
             </div>
             <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <a href="https://www.google.com/maps/place/Seymour+Digital+Media" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
             </p>
           </div>
         </section>
