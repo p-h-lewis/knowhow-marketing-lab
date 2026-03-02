@@ -28,13 +28,13 @@ export default function HeroSection() {
 
   return (
     <section
-      className="pt-28 sm:pt-32 md:pt-36 pb-10 md:pb-20 bg-white overflow-hidden"
+      className="pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-12 md:pb-24 bg-white overflow-hidden"
       aria-labelledby="hero-heading"
       itemScope
       itemType="https://schema.org/WebPage"
     >
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-[55%_45%] gap-10 lg:gap-12 xl:gap-16 items-center">
 
           {/* Left: Copy + Lead Form */}
           <div className="fade-up-1">
@@ -49,7 +49,7 @@ export default function HeroSection() {
             {/* H1 */}
             <h1
               id="hero-heading"
-              className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4 speakable"
+              className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-5 speakable"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
@@ -60,7 +60,7 @@ export default function HeroSection() {
 
             {/* Subheading */}
             <p
-              className="text-base sm:text-lg text-gray-600 leading-relaxed mb-3 max-w-xl"
+              className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3 max-w-xl"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
@@ -77,7 +77,7 @@ export default function HeroSection() {
             {!submitted ? (
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col gap-3 max-w-lg mb-5"
+                className="flex flex-col gap-3 mb-5"
                 aria-label="Sign up for the AI + SEO course"
                 data-ghl-form-id="l71tHQPMO7st6TFSPmo5"
               >
