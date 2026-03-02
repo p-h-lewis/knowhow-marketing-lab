@@ -223,6 +223,17 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
             </div>
           </div>
 
+          {/* Hero Image */}
+          <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+              alt="Google Ads bidding strategies - data analytics dashboard showing campaign performance metrics"
+              className="w-full h-full object-cover"
+              loading="eager"
+              fetchPriority="high"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          </div>
 
         {/* Table of Contents */}
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
