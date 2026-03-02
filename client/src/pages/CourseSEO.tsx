@@ -195,14 +195,14 @@ export default function CourseSEO() {
                   Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system — the same one we use at our agency for medium-sized businesses across Canada.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. AI is built into every step — use it to do keyword research, write title tags, and optimise your content in a fraction of the time.
+                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. AI is built into every step — use ChatGPT, Gemini, and Manus to do keyword research, write title tags, and optimise your content in a fraction of the time.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: '⚡', title: 'Accelerated Learning', desc: 'Structured modules designed to build on each other — no filler, no fluff.' },
                   { icon: '📊', title: 'Data-First Method', desc: 'Every decision backed by real data from GA4, GSC, and keyword research.' },
-                  { icon: '🤖', title: 'AI at Every Step', desc: 'Use ChatGPT and AI tools to do keyword research, write content, and optimise — faster than ever.' },
+                  { icon: '🤖', title: 'AI at Every Step', desc: 'Use ChatGPT, Gemini, and Manus to do keyword research, write content, and optimise — faster than ever.' },
                   { icon: '🎯', title: 'Measurable Results', desc: 'Know exactly what to track and how to prove your AI + SEO strategy is working.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">

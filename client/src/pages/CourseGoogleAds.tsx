@@ -185,13 +185,13 @@ export default function CourseGoogleAds() {
                   Most Google Ads courses teach you the theory. This AI-powered bootcamp gives you a step-by-step system — the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. AI tools are woven into every module — use them to write ad copy, analyse performance, and find wasted spend in minutes.
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module — use them to write ad copy, analyse performance data, and find wasted spend in minutes.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { icon: '🚀', title: 'Bootcamp Structure', desc: '8 modules that build on each other — no jumping around, no confusion.' },
-                  { icon: '🤖', title: 'AI in Every Module', desc: 'Use AI to write ad copy, analyse performance data, and find wasted spend fast.' },
+                  { icon: '🤖', title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
                   { icon: '💬', title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
                   { icon: '💰', title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it — using real data, not guesswork.' },
                 ].map(item => (
