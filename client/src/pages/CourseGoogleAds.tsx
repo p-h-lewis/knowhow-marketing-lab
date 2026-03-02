@@ -35,8 +35,8 @@ const faqs = [
 
 export default function CourseGoogleAds() {
   useSEO({
-    title: "Google Ads Course - Learn Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
-    description: "Learn Google Ads from scratch. Covers Search, Display, Shopping, and Performance Max campaigns. Data-driven approach using GA4 and Google Keyword Planner. By Pip Seymour and Phelan Lewis.",
+    title: "Google Ads Course & Bootcamp - Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
+    description: "Google Ads course and bootcamp for medium-sized businesses. 8 modules covering Search, Display, Shopping, and Performance Max. Data-driven approach using GA4. Included with The Lab at $29/mo.",
     canonical: "https://knowhowmarketinglab.com/courses/google-ads",
     ogType: "course",
   });
@@ -120,14 +120,14 @@ export default function CourseGoogleAds() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  The Lab · 8 Modules · Included at $29/mo
+                  Google Ads Bootcamp · 8 Modules · The Lab · $29/mo
                 </span>
                 <h1 id="google-ads-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Google Ads<br />
                   <span className="text-[#E98C28]">Mastery Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Stop wasting money on Google Ads that don't work. This course teaches you how to build campaigns that actually bring in customers - using the same strategies we use for our agency clients.
+                  Stop wasting money on Google Ads that don't work. This Google Ads bootcamp takes you from your first campaign to advanced bidding strategies — using the same data-driven approach we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
@@ -167,6 +167,38 @@ export default function CourseGoogleAds() {
                     <div className="text-3xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{s.value}</div>
                     <div className="text-sm font-bold text-gray-800 mt-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{s.label}</div>
                     <div className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{s.sub}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Google Ads Bootcamp section — targets 'google ads bootcamp' keyword */}
+        <section className="py-12 bg-[#4F37D8] text-white" aria-label="Google Ads Bootcamp">
+          <div className="container max-w-5xl">
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <div>
+                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Bootcamp</span>
+                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Real Google Ads Bootcamp — Not Just a Course</h2>
+                <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Most Google Ads courses teach you the theory. This bootcamp gives you a step-by-step system — the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
+                </p>
+                <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding strategies. Every module builds on the last. Weekly live Q&amp;A means you're never stuck.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { icon: '🚀', title: 'Bootcamp Structure', desc: '8 modules that build on each other — no jumping around, no confusion.' },
+                  { icon: '📊', title: 'Data-Driven Decisions', desc: 'Every campaign decision backed by real data from GA4 and Google Ads.' },
+                  { icon: '💬', title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday.' },
+                  { icon: '💰', title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it fast.' },
+                ].map(item => (
+                  <div key={item.title} className="bg-white/10 rounded-xl p-4">
+                    <div className="text-2xl mb-2">{item.icon}</div>
+                    <div className="text-sm font-bold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.title}</div>
+                    <div className="text-xs text-white/70" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</div>
                   </div>
                 ))}
               </div>

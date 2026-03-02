@@ -23,6 +23,7 @@ const modules = [
 ];
 
 const faqs = [
+  { q: 'Is this a good intro to SEO for beginners?', a: 'Yes - this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. Module 1 starts with the basics and each module builds on the last, so you go from zero to a working SEO strategy by Module 5.' },
   { q: 'Is this AI + SEO course free to access?', a: 'Yes - no credit card required. You get all 5 modules, all the video lessons, and access to the course platform at no cost.' },
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
   { q: 'How long does the course take?', a: 'Most people finish the core 5 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace - there is no deadline.' },
@@ -33,7 +34,7 @@ const faqs = [
 
 export default function CourseSEO() {
   useSEO({
-    title: "AI + SEO Course - Learn Data-Driven SEO with Google Tools | KnowHow Marketing Lab",
+    title: "Free AI + SEO Course & SEO Accelerator - Data-Driven SEO for Businesses | KnowHow Marketing Lab",
     description: "Free AI + SEO course and SEO accelerator for medium-sized businesses. 5 modules covering keyword research, Google Search Console, GA4, and content strategy. No credit card required. By Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
