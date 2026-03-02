@@ -34,7 +34,7 @@ const faqs = [
 export default function CourseSEO() {
   useSEO({
     title: "AI + SEO Course - Learn Data-Driven SEO with Google Tools | KnowHow Marketing Lab",
-    description: "AI + SEO course covering keyword research, Google Search Console, GA4, and content strategy. 5 modules, 60+ video lessons, no credit card required. By Pip Seymour and Phelan Lewis.",
+    description: "Free AI + SEO course and SEO accelerator for medium-sized businesses. 5 modules covering keyword research, Google Search Console, GA4, and content strategy. No credit card required. By Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
   });
@@ -129,14 +129,14 @@ export default function CourseSEO() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  AI + SEO Course · 5 Modules · Self-Paced
+                  AI + SEO Course · SEO Accelerator · 5 Modules · Self-Paced
                 </span>
                 <h1 id="seo-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Data-Driven<br />
                   <span className="text-[#E98C28]">AI + SEO Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Learn how to get your business found on Google - using real data, not guesswork. This AI + SEO course covers everything from keyword research to Google Search Console to content strategy.
+                  Learn how to get your business found on Google — using real data, not guesswork. This AI + SEO course is a structured SEO accelerator that takes you from zero to a working data-driven strategy. Covers keyword research, Google Search Console, GA4, on-page SEO, and content strategy for AI-driven search.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 20+ years of hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
@@ -176,6 +176,38 @@ export default function CourseSEO() {
                     <div className="text-3xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{s.value}</div>
                     <div className="text-sm font-bold text-gray-800 mt-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{s.label}</div>
                     <div className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{s.sub}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SEO Accelerator section — targets 'seo accelerator' keyword (17,348 impressions in GSC) */}
+        <section className="py-12 bg-[#0D6E7A] text-white" aria-label="SEO Accelerator Program">
+          <div className="container max-w-5xl">
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <div>
+                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>SEO Accelerator Program</span>
+                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This Is Your SEO Accelerator</h2>
+                <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Most SEO courses give you theory. This SEO accelerator gives you a repeatable system — the same one we use at our agency for medium-sized businesses across Canada.
+                </p>
+                <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. Every lesson is practical, every step is measurable, and AI is built into the workflow from day one.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { icon: '⚡', title: 'Accelerated Learning', desc: 'Structured modules designed to build on each other — no filler, no fluff.' },
+                  { icon: '📊', title: 'Data-First Method', desc: 'Every decision backed by real data from GA4, GSC, and keyword research.' },
+                  { icon: '🤖', title: 'AI Built In', desc: 'Use AI to do in 20 minutes what used to take 3 hours — the right way.' },
+                  { icon: '🎯', title: 'Measurable Results', desc: 'Know exactly what to track and how to prove your SEO is working.' },
+                ].map(item => (
+                  <div key={item.title} className="bg-white/10 rounded-xl p-4">
+                    <div className="text-2xl mb-2">{item.icon}</div>
+                    <div className="text-sm font-bold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.title}</div>
+                    <div className="text-xs text-white/70" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</div>
                   </div>
                 ))}
               </div>

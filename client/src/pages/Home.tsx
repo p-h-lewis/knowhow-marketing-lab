@@ -16,12 +16,13 @@ import AboutSection from '@/components/AboutSection';
 import LeadCaptureSection from '@/components/LeadCaptureSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
+import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
 
 export default function Home() {
   useSEO({
     title: "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
-    description: "Master SEO, Google Ads, GA4, and AI marketing with free expert-led courses. 60+ free video lessons, weekly live Q&A, and a data-driven community. Learn from 20+ year agency veterans.",
+    description: "Free data-driven SEO course for medium-sized businesses. Learn AI + SEO, Google Ads, and GA4 from 20+ year agency veterans. 60+ free video lessons, weekly live Q&A, no credit card required.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
   });
@@ -152,6 +153,85 @@ export default function Home() {
         <TestimonialsSection />
         <AboutSection />
         <LeadCaptureSection />
+
+        {/* Featured Blog Posts — internal links to top-ranking posts for SEO link juice */}
+        <section className="py-16 bg-gray-50 border-t border-gray-100" aria-labelledby="blog-posts-heading">
+          <div className="container max-w-5xl">
+            <div className="flex items-end justify-between mb-10">
+              <div>
+                <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>From the Blog</span>
+                <h2 id="blog-posts-heading" className="text-3xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Guides Worth Reading</h2>
+              </div>
+              <Link href="/blog" className="text-sm font-bold text-[#318599] hover:underline hidden sm:block" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>View all guides →</Link>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  href: '/blog/ai-seo-guide',
+                  tag: 'AI + SEO',
+                  title: 'The Complete Guide to AI SEO',
+                  desc: 'How to use AI tools to do keyword research, write content, and optimise your site — faster than ever before.',
+                  color: '#E98C28',
+                },
+                {
+                  href: '/blog/adgroups-based-on-user-intent',
+                  tag: 'Google Ads',
+                  title: 'How to Structure Ad Groups Based on User Intent',
+                  desc: 'The ad group structure that actually works — based on what your customers are trying to do, not just what they type.',
+                  color: '#318599',
+                },
+                {
+                  href: '/blog/ga4-set-up-guide',
+                  tag: 'GA4',
+                  title: 'GA4 Set Up & Guide: Step-by-Step for Business Owners',
+                  desc: 'Set up Google Analytics 4 the right way from day one. No guessing, no missing data.',
+                  color: '#4F37D8',
+                },
+                {
+                  href: '/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns',
+                  tag: 'Google Ads',
+                  title: 'Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns',
+                  desc: 'A structured 5-week plan to go from zero to running profitable Google Ads campaigns for your business.',
+                  color: '#318599',
+                },
+                {
+                  href: '/blog/data-driven-seo-guide-medium-sized-businesses',
+                  tag: 'SEO',
+                  title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses',
+                  desc: 'The full playbook for using real data — not guesswork — to grow your organic traffic.',
+                  color: '#E98C28',
+                },
+                {
+                  href: '/framework',
+                  tag: 'Methodology',
+                  title: 'The Data-First AI SEO Method',
+                  desc: 'Our branded framework for building an SEO strategy that is measurable, repeatable, and built for AI-driven search.',
+                  color: '#4F37D8',
+                },
+              ].map(post => (
+                <Link
+                  key={post.href}
+                  href={post.href}
+                  className="group bg-white rounded-2xl border border-gray-100 shadow-sm p-6 hover:shadow-md transition-shadow duration-200 flex flex-col"
+                  aria-label={post.title}
+                >
+                  <span
+                    className="inline-block text-xs font-bold uppercase tracking-widest mb-3 px-2 py-1 rounded-full"
+                    style={{ fontFamily: 'Space Grotesk, sans-serif', color: post.color, backgroundColor: post.color + '15' }}
+                  >
+                    {post.tag}
+                  </span>
+                  <h3 className="text-base font-bold text-gray-900 mb-2 group-hover:text-[#318599] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{post.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed flex-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>{post.desc}</p>
+                  <span className="mt-4 text-xs font-bold text-[#318599]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read guide →</span>
+                </Link>
+              ))}
+            </div>
+            <div className="mt-8 text-center sm:hidden">
+              <Link href="/blog" className="text-sm font-bold text-[#318599] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>View all guides →</Link>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
