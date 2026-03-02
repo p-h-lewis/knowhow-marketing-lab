@@ -1,0 +1,189 @@
+{
+  "redirects": [
+    {
+      "source": "/seo-course/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/seo-course",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/google-ads-course/",
+      "destination": "/courses/google-ads",
+      "permanent": true
+    },
+    {
+      "source": "/google-ads-course",
+      "destination": "/courses/google-ads",
+      "permanent": true
+    },
+    {
+      "source": "/seo-ranking-accelerator-lab/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/product/seo-lab-intro/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/product/seo-ranking-accelerator-lab/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/seo/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/courses/knowhow-marketing-mastermind-lab-2022-2-2/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/waitlist/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/join-the-google-ads-course-bootcamp-waitlist/",
+      "destination": "/courses/google-ads",
+      "permanent": true
+    },
+    {
+      "source": "/join-our-google-ads-masterclass/",
+      "destination": "/courses/google-ads",
+      "permanent": true
+    },
+    {
+      "source": "/vip-marketing-lab/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/sem-ai-knowhow-community/",
+      "destination": "https://community.knowhowmarketinglab.com",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/refund_returns/",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you-joining-waitlist/",
+      "destination": "/thank-you",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/ai/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/google-ads/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/websites-seo/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/uncategorized/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/beginner/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/google-ads/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/google-ads-strategy/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/strategy/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/author/cris/",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/free-google-ads-tool/",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/google-analytics-live-training/",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-improve-your-agencys-workflow-when-working-with-influencers/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/3-things-you-need-to-know-about-your-keywords/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/members-page/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/webinar-registration-page/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/step/ral-landing-page/",
+      "destination": "/courses/seo",
+      "permanent": true
+    },
+    {
+      "source": "/lessons/qa-seo-audit-strategy-summary-3/",
+      "destination": "/courses/seo",
+      "permanent": true
+    }
+  ]
+}
