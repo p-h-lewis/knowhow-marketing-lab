@@ -193,6 +193,19 @@ export default defineConfig({
           'animation': ['framer-motion'],
           // Chart library
           'charts': ['recharts'],
+          // Blog posts grouped together — keeps main bundle lean
+          'blog-posts': [
+            'client/src/pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo',
+            'client/src/pages/blog/PostHowPeopleChargeForGoogleAds',
+            'client/src/pages/blog/PostHowAiIsShapingMarketing',
+            'client/src/pages/blog/PostAiSeoGuide',
+            'client/src/pages/blog/PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns',
+            'client/src/pages/blog/PostTheUltimateGuideToGoogleAdsBiddingStrategies',
+            'client/src/pages/blog/PostGoogleAdsClass1Fundamentals',
+            'client/src/pages/blog/PostTheUltimateGuideToGoogleAdsCampaignTypes',
+            'client/src/pages/blog/PostAdgroupsBasedOnUserIntent',
+            'client/src/pages/blog/PostGa4SetUpGuide',
+          ],
         },
       },
     },

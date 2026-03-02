@@ -35,14 +35,18 @@
     <meta name="twitter:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-image-2QQLexCLFNhAZCfmXSquwE.webp" />
     <meta name="twitter:image:alt" content="KnowHow Marketing Lab - Free AI + SEO Training for Medium-Sized Businesses" />
 
-    <!-- Performance: DNS prefetch & preconnect -->
+    <!-- Performance: DNS prefetch & preconnect for critical resources only -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://files.manuscdn.com" crossorigin />
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
+    <!-- DNS prefetch for deferred third-party scripts (loaded after interaction) -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://scripts.clarity.ms" />
+    <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
     <link rel="dns-prefetch" href="https://learnwith.seymourdigitalmedia.com" />
-    <link rel="preconnect" href="https://crm.seymourdigitalmedia.com" crossorigin />
     <!-- Preload hero image for LCP -->
     <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" fetchpriority="high" />
     <!-- Fonts -->
@@ -155,7 +159,7 @@
           {
             "@type": "Course",
             "name": "AI Marketing & Automation Course",
-            "description": "Practical AI marketing training covering ChatGPT, AI agents, marketing automation, and Generative Engine Optimization (GEO). Included in VIP Community membership.",
+            "description": "Practical AI marketing training covering ChatGPT, Gemini, Manus, AI agents, marketing automation, and Generative Engine Optimization (GEO). Included in VIP Community membership.",
             "provider": { "@type": "Organization", "name": "KnowHow Marketing Lab" },
             "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD" },
             "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
@@ -165,26 +169,51 @@
     }
     </script>
 
-    <!-- GHL External Tracking - creates contacts in Seymour Digital Media CRM on form submit -->
-    <script
-      src="https://crm.seymourdigitalmedia.com/js/external-tracking.js"
-      data-tracking-id="tk_6415a2a5069f4384b0d41a2fa6e81190"
-    ></script>
+    <!-- Deferred third-party scripts: GTM + GHL load after first user interaction -->
+    <!-- This keeps GTM, GA4, Clarity, and GHL off the critical render path -->
+    <!-- All tracking still fires — just after the page is interactive -->
+    <script>
+    (function() {
+      var loaded = false;
+      function loadThirdParty() {
+        if (loaded) return;
+        loaded = true;
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-W449WJS');</script>
-    <!-- End Google Tag Manager -->
+        // Google Tag Manager (deferred)
+        (function(w,d,s,l,i){
+          w[l]=w[l]||[];
+          w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+          var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),
+              dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W449WJS');
+
+        // GHL External Tracking (deferred)
+        var ghlScript = document.createElement('script');
+        ghlScript.src = 'https://crm.seymourdigitalmedia.com/js/external-tracking.js';
+        ghlScript.setAttribute('data-tracking-id', 'tk_6415a2a5069f4384b0d41a2fa6e81190');
+        ghlScript.async = true;
+        document.head.appendChild(ghlScript);
+      }
+
+      // Load on first user interaction: scroll, click, touch, or keydown
+      ['scroll','click','touchstart','keydown'].forEach(function(evt) {
+        window.addEventListener(evt, loadThirdParty, {once: true, passive: true});
+      });
+
+      // Fallback: load after 5 seconds even if no interaction (ensures bots and slow users still tracked)
+      setTimeout(loadThirdParty, 5000);
+    })();
+    </script>
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) - still present for no-JS environments -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W449WJS"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Skip to main content (accessibility) -->
     <a href="#main-content" class="skip-to-content">Skip to main content</a>

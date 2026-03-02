@@ -13,8 +13,8 @@ import CookieConsent from "./components/CookieConsent";
 import ExitIntentPopup from "./components/ExitIntentPopup";
 
 // Eagerly load Home (first page most visitors see)
-import Home from "./pages/Home";
-import NotFound from "./pages/NotFound";
+const Home = lazy(() => import("./pages/Home"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Lazy load all other pages - they only download when visited
 const Pricing = lazy(() => import("./pages/Pricing"));
