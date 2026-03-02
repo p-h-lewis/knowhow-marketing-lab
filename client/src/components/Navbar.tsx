@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - Navbar
 // White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
-// Internal links: /, /blog, /#free-course, /#videos, /#courses, /#community, /about, /pricing, /resources
-// External: learnwith.seymourdigitalmedia.com (Log In)
+// Desktop: 6 nav items (Podcast + Resources in footer only) — fits without hamburger at lg breakpoint
+// Mobile: full 8 items + courses section
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'wouter';
@@ -22,7 +22,18 @@ export default function Navbar() {
   // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  const navLinks = [
+  // Desktop nav — trimmed to 6 items so it fits cleanly without overflow
+  const desktopNavLinks = [
+    { label: 'AI + SEO Course', href: '/courses/seo' },
+    { label: 'Video Library', href: anchorHref('#videos') },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Our Method', href: '/framework' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'About', href: '/about' },
+  ];
+
+  // Mobile nav — full list including Podcast and Resources
+  const mobileNavLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
@@ -33,9 +44,9 @@ export default function Navbar() {
     { label: 'About', href: '/about' },
   ];
 
-  // Google Ads is taught as live monthly training inside The Lab
   const courseLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo', badge: 'Free' },
+    { label: 'Google Ads Bootcamp', href: '/courses/google-ads', badge: 'The Lab' },
   ];
 
   return (
@@ -51,7 +62,7 @@ export default function Navbar() {
     >
       <nav className="container flex items-center justify-between h-16" aria-label="Main navigation">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group" aria-label="KnowHow Marketing Lab - home">
+        <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="KnowHow Marketing Lab - home">
           <div
             className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-black text-lg flex-shrink-0"
             style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
@@ -65,14 +76,14 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop Nav */}
+        {/* Desktop Nav — 6 items, hidden below lg */}
         <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
-          {navLinks.map(link => (
-            <li key={link.href}>
+          {desktopNavLinks.map(link => (
+            <li key={link.label}>
               {link.href.startsWith('/') && !link.href.includes('#') ? (
                 <Link
                   href={link.href}
-                  className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 ${
+                  className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
                     location === link.href
                       ? 'text-[#E98C28] bg-amber-50'
                       : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
@@ -85,7 +96,7 @@ export default function Navbar() {
               ) : (
                 <a
                   href={link.href}
-                  className="text-gray-600 hover:text-gray-900 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-50 transition-all duration-150"
+                  className="text-gray-600 hover:text-gray-900 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-50 transition-all duration-150 whitespace-nowrap"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
                   itemProp="url"
                 >
@@ -94,50 +105,53 @@ export default function Navbar() {
               )}
             </li>
           ))}
+
+          {/* Courses Dropdown */}
+          <li className="relative group">
+            <button
+              className="text-sm font-medium px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-all duration-150 flex items-center gap-1 whitespace-nowrap"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
+              aria-haspopup="true"
+              aria-expanded={coursesOpen}
+              aria-controls="courses-dropdown"
+              aria-label="Courses - expand menu"
+              onClick={() => setCoursesOpen(o => !o)}
+              onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCoursesOpen(false); }}
+            >
+              Courses
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div
+              id="courses-dropdown"
+              className={`absolute top-full left-0 mt-1 w-60 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
+                coursesOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
+              }`}
+            >
+              {courseLinks.map(cl => (
+                <Link
+                  key={cl.href}
+                  href={cl.href}
+                  className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
+                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  onClick={() => setCoursesOpen(false)}
+                >
+                  {cl.label}
+                  <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
+                </Link>
+              ))}
+            </div>
+          </li>
         </ul>
 
-        {/* Courses Dropdown */}
-        <div className="hidden lg:block relative group">
-          <button
-            className="text-sm font-medium px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-all duration-150 flex items-center gap-1"
-            style={{ fontFamily: 'DM Sans, sans-serif' }}
-            aria-haspopup="true"
-            aria-expanded={coursesOpen}
-            aria-controls="courses-dropdown"
-            aria-label="Courses - expand menu"
-            onClick={() => setCoursesOpen(o => !o)}
-            onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCoursesOpen(false); }}
-          >
-            Courses
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-          </button>
-          <div
-            id="courses-dropdown"
-            className={`absolute top-full left-0 mt-1 w-56 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
-              coursesOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
-            }`}
-          >
-            {courseLinks.map(cl => (
-              <Link
-                key={cl.href}
-                href={cl.href}
-                className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
-              >
-                {cl.label}
-                <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="hidden lg:flex items-center gap-3">
+        {/* Desktop CTA — hidden below lg */}
+        <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
           <a
             href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150"
+            className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150 whitespace-nowrap"
             style={{ fontFamily: 'DM Sans, sans-serif' }}
             aria-label="Log in to The Lab platform"
           >
@@ -145,14 +159,14 @@ export default function Navbar() {
           </a>
           <a
             href={anchorHref('#free-course')}
-            className="btn-primary text-sm py-2.5 px-5 pulse-cta"
+            className="btn-primary text-sm py-2.5 px-5 pulse-cta whitespace-nowrap"
             aria-label="Start the AI + SEO course - no credit card required"
           >
             Start AI + SEO Course →
           </a>
         </div>
 
-        {/* Mobile Hamburger */}
+        {/* Mobile Hamburger — only shows below lg */}
         <button
           className="lg:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100 transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -169,7 +183,7 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — full 8 items */}
       {mobileOpen && (
         <div
           id="mobile-menu"
@@ -177,10 +191,10 @@ export default function Navbar() {
           role="navigation"
           aria-label="Mobile navigation"
         >
-          {navLinks.map(link => (
+          {mobileNavLinks.map(link => (
             link.href.startsWith('/') && !link.href.includes('#') ? (
               <Link
-                key={link.href}
+                key={link.label}
                 href={link.href}
                 className="text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
@@ -190,7 +204,7 @@ export default function Navbar() {
               </Link>
             ) : (
               <a
-                key={link.href}
+                key={link.label}
                 href={link.href}
                 className="text-gray-700 hover:text-gray-900 text-base font-medium py-2.5 px-3 rounded-md hover:bg-gray-50 transition-colors"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
