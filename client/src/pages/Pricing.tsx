@@ -68,7 +68,7 @@ const pricingFaqs = [
 export default function Pricing() {
   useSEO({
     title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
-    description: "Start free with our SEO course, or join The Lab for $29/month. Includes weekly live Q&A every Thursday, monthly deep-dive training, and expert support.",
+    description: "Join our exclusive VIP community for $29/month — weekly live Q&A, monthly Google Ads training, AI marketing course, and private community access. Or start free with our AI + SEO course.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });
@@ -136,7 +136,7 @@ export default function Pricing() {
         <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Simple, Transparent Pricing
+              Exclusive VIP Community Access
             </span>
             <h1
               id="pricing-heading"
@@ -146,7 +146,7 @@ export default function Pricing() {
               Start Free. Go Deeper When You're Ready.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              No tricks, no tiers, no upsells. One free plan. One paid community. That's it.
+              Start free with the AI + SEO course, or unlock exclusive VIP access to The Lab — weekly live Q&A, monthly deep-dive training, and a private community of business owners and marketers.
             </p>
           </div>
         </section>

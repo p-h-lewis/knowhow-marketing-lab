@@ -45,3 +45,18 @@ Allow: /
 
 User-agent: meta-externalagent
 Allow: /
+
+User-agent: GeminiBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: YouBot
+Allow: /

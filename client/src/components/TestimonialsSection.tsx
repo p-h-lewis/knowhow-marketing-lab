@@ -233,9 +233,6 @@ export default function TestimonialsSection() {
 
         {/* CTA below testimonials */}
         <div className="text-center mt-12">
-          <p className="text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Join hundreds of business owners already learning with us - for free.
-          </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="#free-course"

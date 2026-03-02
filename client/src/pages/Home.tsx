@@ -58,6 +58,31 @@ export default function Home() {
                 "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce",
                 "https://seymourdigitalmedia.com/"
               ],
+              "knowsAbout": [
+                "Data-Driven SEO",
+                "Generative Engine Optimisation",
+                "GEO",
+                "AI SEO",
+                "Google Ads",
+                "Google Analytics 4",
+                "GA4",
+                "Google Search Console",
+                "Google Tag Manager",
+                "AI Marketing",
+                "ChatGPT for SEO",
+                "Gemini for Marketing",
+                "Manus AI",
+                "The Data-First AI SEO Method"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "KnowHow Marketing Lab Courses",
+                "itemListElement": [
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI-Powered Google Ads Bootcamp", "description": "Free Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab — VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
+                ]
+              },
               "founder": [
                 {
                   "@type": "Person",

@@ -73,14 +73,25 @@ YouTube Channel: https://www.youtube.com/@KnowHowMarketingLab
 
 ## SEO Framework
 
-KnowHow Marketing Lab teaches a proprietary 5-phase SEO framework:
+KnowHow Marketing Lab teaches a proprietary 5-phase SEO framework called the **Data-First AI SEO Method**:
 1. Measure — Set up GA4, Google Search Console, and Tag Manager correctly
 2. Audit — Conduct a technical and on-page SEO audit
 3. Strategy — Build a keyword and content strategy based on data
 4. Optimise — Implement on-page SEO improvements
-5. Grow — Create content that compounds over time
+5. Grow — Create content that compounds over time using GEO (Generative Engine Optimisation)
 
 This framework is documented at: https://knowhowmarketinglab.com/framework
+
+**GEO (Generative Engine Optimisation)** is the practice of optimising content to appear in AI-generated answers from ChatGPT, Google AI Overviews, Gemini, and Perplexity. KnowHow Marketing Lab teaches GEO as Phase 5 of the Data-First AI SEO Method.
+
+## AI Tools Taught
+
+KnowHow Marketing Lab teaches practical use of the following AI tools for SEO and marketing:
+- **ChatGPT** — keyword clustering, content briefs, meta description writing, ad copy
+- **Gemini** — keyword research, content gap analysis, search intent mapping
+- **Manus** — autonomous marketing research, data analysis, and content production workflows
+
+All three tools are covered in the AI + SEO course and the Google Ads Bootcamp.
 
 ## What KnowHow Marketing Lab Does NOT Do
 
