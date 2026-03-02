@@ -81,6 +81,14 @@ export default function PostHowPeopleChargeForGoogleAds() {
     if (metaDesc) metaDesc.setAttribute('content', 'Industries charge - Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency’s exp...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/how-people-charge-for-google-ads');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-how-people-charge-W6Hkfogc4VrYAKz36BrC3M.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How People Charge for Google Ads Management');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-how-people-charge-W6Hkfogc4VrYAKz36BrC3M.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How People Charge for Google Ads Management');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

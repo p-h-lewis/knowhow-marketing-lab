@@ -333,6 +333,14 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
     if (metaDesc) metaDesc.setAttribute('content', 'By Pip Seymour • December 20, 2025 • 5 min read Let’s be honest: Google Ads feels like a casino where the house always wins. You pour money in, pull the...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-masterclass-oPDF2n3RKTcXmhNNrUF5s3.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass - The 5-Week Roadmap to Profitable Campaigns');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-masterclass-oPDF2n3RKTcXmhNNrUF5s3.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass - The 5-Week Roadmap to Profitable Campaigns');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

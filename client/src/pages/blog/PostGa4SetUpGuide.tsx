@@ -667,6 +667,14 @@ export default function PostGa4SetUpGuide() {
     if (metaDesc) metaDesc.setAttribute('content', 'GA 4 Set-Up Google Analytics 4 (GA4). We\'re going to help you configure this and set this up and along the way you\'ll begin to sink your teeth into this...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/ga4-set-up-guide');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ga4-setup-guide-kX3KdScEiQhSbLyJazy5Np.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide - Everything You Need to Know');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ga4-setup-guide-kX3KdScEiQhSbLyJazy5Np.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide - Everything You Need to Know');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

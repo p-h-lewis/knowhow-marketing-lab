@@ -69,6 +69,14 @@ export default function PostKeywordResearchKeywordClusters() {
     document.head.appendChild(faqScript);
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/keyword-research-keyword-clusters');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-keyword-clusters-4Ay3SrDJrk3ZBf9BvnCsnK.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Keyword Research Using Keyword Clusters');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-keyword-clusters-4Ay3SrDJrk3ZBf9BvnCsnK.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Keyword Research Using Keyword Clusters');
     document.title = 'How to Do Keyword Research Using Keyword Clusters (2026 Guide) | KnowHow Marketing Lab';
     return () => {
       document.head.removeChild(script);

@@ -391,6 +391,14 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
     if (metaDesc) metaDesc.setAttribute('content', 'Author: Know How Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-campaign-types-5uLbH7Efx2SoV8jfE45VZN.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types - The Ultimate Guide');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-campaign-types-5uLbH7Efx2SoV8jfE45VZN.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types - The Ultimate Guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

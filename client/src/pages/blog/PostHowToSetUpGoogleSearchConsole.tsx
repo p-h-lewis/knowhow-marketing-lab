@@ -71,6 +71,14 @@ export default function PostHowToSetUpGoogleSearchConsole() {
     document.head.appendChild(faqScript);
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/how-to-set-up-google-search-console');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-search-console-d8wF7pi3TPSAS8reGMUycE.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How to Set Up Google Search Console');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-search-console-d8wF7pi3TPSAS8reGMUycE.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How to Set Up Google Search Console');
     document.title = 'How to Set Up Google Search Console (Step-by-Step Guide for 2026) | KnowHow Marketing Lab';
     return () => {
       document.head.removeChild(script);

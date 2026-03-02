@@ -977,6 +977,14 @@ export default function PostAiSeoGuide() {
     if (metaDesc) metaDesc.setAttribute('content', 'Published: October 19, 2025 The Walmart Shopping Story That Changed Everything Last week, someone bought groceries without ever visiting a website. They...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/ai-seo-guide');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ai-seo-guide-HoE2hJ453BrfoqpmxViGhw.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: The Complete AI SEO Guide for Medium-Sized Businesses');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ai-seo-guide-HoE2hJ453BrfoqpmxViGhw.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: The Complete AI SEO Guide for Medium-Sized Businesses');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

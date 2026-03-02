@@ -209,6 +209,14 @@ export default function PostHowAiIsShapingMarketing() {
     if (metaDesc) metaDesc.setAttribute('content', 'In our latest podcast, covering everything from AI-powered content creation to the evolution of search engines. Explore the detailed discussion on AI\'s ...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/how-ai-is-shaping-marketing');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-how-ai-is-shaping-HpMY2wHVPPT2ZYsKjA4Vtz.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How AI Is Shaping the Future of Digital Marketing');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-how-ai-is-shaping-HpMY2wHVPPT2ZYsKjA4Vtz.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: How AI Is Shaping the Future of Digital Marketing');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

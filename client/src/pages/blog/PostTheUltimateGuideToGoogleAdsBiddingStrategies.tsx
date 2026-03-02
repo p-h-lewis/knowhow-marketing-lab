@@ -172,6 +172,14 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
     if (metaDesc) metaDesc.setAttribute('content', 'Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one, and you get a steady stream of profitable cu...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-bidding-strategies');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bidding-7qDykP2qmd95Sngyo4orcR.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies - The Ultimate Guide');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bidding-7qDykP2qmd95Sngyo4orcR.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies - The Ultimate Guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

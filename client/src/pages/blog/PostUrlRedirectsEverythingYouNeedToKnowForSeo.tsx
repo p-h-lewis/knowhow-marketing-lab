@@ -149,6 +149,14 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
     if (metaDesc) metaDesc.setAttribute('content', 'Introduction - URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/url-redirects-everything-you-need-to-know-for-seo');
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-url-redirects-EK4PxxyXK2BU9PSJWFBdHC.png');
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects - Everything You Need to Know for SEO');
+    const twitterImage = document.querySelector('meta[name="twitter:image"]');
+    if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-url-redirects-EK4PxxyXK2BU9PSJWFBdHC.png');
+    const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects - Everything You Need to Know for SEO');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
