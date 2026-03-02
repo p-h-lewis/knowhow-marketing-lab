@@ -170,42 +170,36 @@ export default defineConfig({
       output: {
         manualChunks: {
           // React core - cached separately since it rarely changes
-          'react-vendor': ['react', 'react-dom'],
+          // react-dom/client is what main.tsx imports (React 18 API)
+          'react-vendor': ['react', 'react-dom', 'react-dom/client'],
           // Routing
           'router': ['wouter'],
-          // UI component library
-          'ui-vendor': [
-            '@radix-ui/react-tooltip',
-            '@radix-ui/react-dialog',
-            '@radix-ui/react-accordion',
-            '@radix-ui/react-dropdown-menu',
+          // UI core — always needed on every page (nav, buttons, utilities)
+          'ui-core': [
             '@radix-ui/react-slot',
             '@radix-ui/react-navigation-menu',
-            '@radix-ui/react-label',
+            '@radix-ui/react-dropdown-menu',
             '@radix-ui/react-separator',
+            '@radix-ui/react-label',
             'lucide-react',
             'class-variance-authority',
             'clsx',
             'tailwind-merge',
             'sonner',
           ],
+          // UI extended — only loaded on pages with dialogs, accordions, tooltips
+          'ui-extended': [
+            '@radix-ui/react-tooltip',
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-accordion',
+          ],
           // Animation library - large, rarely changes
           'animation': ['framer-motion'],
           // Chart library
           'charts': ['recharts'],
-          // Blog posts grouped together — keeps main bundle lean
-          'blog-posts': [
-            'client/src/pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo',
-            'client/src/pages/blog/PostHowPeopleChargeForGoogleAds',
-            'client/src/pages/blog/PostHowAiIsShapingMarketing',
-            'client/src/pages/blog/PostAiSeoGuide',
-            'client/src/pages/blog/PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns',
-            'client/src/pages/blog/PostTheUltimateGuideToGoogleAdsBiddingStrategies',
-            'client/src/pages/blog/PostGoogleAdsClass1Fundamentals',
-            'client/src/pages/blog/PostTheUltimateGuideToGoogleAdsCampaignTypes',
-            'client/src/pages/blog/PostAdgroupsBasedOnUserIntent',
-            'client/src/pages/blog/PostGa4SetUpGuide',
-          ],
+          // Blog posts: NOT listed here — they are React.lazy() in App.tsx
+          // so Rollup auto-splits them per-page. Listing them here caused
+          // the entire blog bundle to load on every page visit.
         },
       },
     },

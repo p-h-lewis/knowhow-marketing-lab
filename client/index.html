@@ -49,10 +49,41 @@
     <link rel="dns-prefetch" href="https://learnwith.seymourdigitalmedia.com" />
     <!-- Preload hero image for LCP -->
     <link rel="preload" as="image" href="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028389518/eNdIFjGxQDGVNLzE.jpg" fetchpriority="high" />
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
-    <!-- Reduced motion for accessibility -->
-    <style>@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }</style>
+    <!-- Fonts: non-blocking load (media=print trick) to avoid render-blocking -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" /></noscript>
+    <!-- Critical CSS: inlined to eliminate render-blocking flash on above-fold content -->
+    <!-- Covers: body defaults, navbar, announcement bar, hero section, skip-to-content -->
+    <style>
+      /* Body defaults */
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{line-height:1.5;-webkit-text-size-adjust:100%}
+      body{background:#fff;color:#111827;font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+      h1,h2,h3,h4,h5,h6{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:700;color:#111827}
+      a{color:inherit;text-decoration:none}
+      img,svg{display:block;max-width:100%}
+      /* Skip to content */
+      .skip-to-content{position:absolute;left:-9999px;top:0;z-index:9999;background:#E98C28;color:#fff;padding:.5rem 1rem;font-family:'Space Grotesk',sans-serif;font-weight:700;border-radius:0 0 .5rem 0}
+      .skip-to-content:focus{left:0}
+      /* Announcement bar */
+      .ann-bar{position:fixed;top:0;left:0;right:0;z-index:50;background:#B8691A;color:#fff;font-size:.875rem;padding:.625rem 2.5rem;display:flex;align-items:center;justify-content:center}
+      /* Navbar shell */
+      .nav-shell{position:fixed;top:2.5rem;left:0;right:0;z-index:40;background:#fff;border-bottom:1px solid #e5e7eb;transition:box-shadow .2s}
+      .nav-shell.scrolled{box-shadow:0 2px 12px rgba(0,0,0,.08)}
+      /* Container */
+      .container{width:100%;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem}
+      @media(min-width:640px){.container{padding-left:1.5rem;padding-right:1.5rem}}
+      @media(min-width:1024px){.container{padding-left:2rem;padding-right:2rem;max-width:1280px}}
+      /* Hero section */
+      .hero-section{padding-top:6rem;padding-bottom:4rem;background:#fff;overflow:hidden}
+      @media(min-width:768px){.hero-section{padding-top:8rem;padding-bottom:6rem}}
+      /* Fade-up animations */
+      @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+      .fade-up-1{animation:fadeUp .55s .1s ease both}
+      .fade-up-2{animation:fadeUp .55s .2s ease both}
+      /* Reduced motion */
+      @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+    </style>
 
     <!-- WebSite Schema with SearchAction - enables Google Sitelinks Searchbox & LLM entity recognition -->
     <script type="application/ld+json">
