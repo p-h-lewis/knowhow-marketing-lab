@@ -34,7 +34,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className="pt-24 md:pt-32 pb-16 md:pb-24 bg-white overflow-hidden"
+      className="pt-32 md:pt-40 pb-16 md:pb-24 bg-white overflow-hidden"
       aria-labelledby="hero-heading"
       itemScope
       itemType="https://schema.org/WebPage"

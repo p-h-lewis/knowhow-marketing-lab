@@ -61,7 +61,7 @@
     <!-- Covers: body defaults, navbar, announcement bar, hero section, skip-to-content -->
     <style>
       /* Body defaults */
-      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      *,*::before,*::after{box-sizing:border-box}
       html{line-height:1.5;-webkit-text-size-adjust:100%}
       body{background:#fff;color:#111827;font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
       h1,h2,h3,h4,h5,h6{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:700;color:#111827}
@@ -79,9 +79,7 @@
       .container{width:100%;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem}
       @media(min-width:640px){.container{padding-left:1.5rem;padding-right:1.5rem}}
       @media(min-width:1024px){.container{padding-left:2rem;padding-right:2rem;max-width:1280px}}
-      /* Hero section */
-      .hero-section{padding-top:6rem;padding-bottom:4rem;background:#fff;overflow:hidden}
-      @media(min-width:768px){.hero-section{padding-top:8rem;padding-bottom:6rem}}
+      /* Hero section padding is handled by Tailwind classes in HeroSection.tsx */
       /* Fade-up animations */
       @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
       .fade-up-1{animation:fadeUp .55s .1s ease both}
