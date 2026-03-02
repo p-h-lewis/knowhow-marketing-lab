@@ -925,7 +925,17 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>At Know How Marketing Lab, we've developed a comprehensive framework for succeeding with AI SEO. We call it the <strong>Know How Optimization Framework</strong>.</p>
 
-<p>It integrates SEO, GEO, AEO, LLMO, and AIO into one cohesive strategy. Learn more with us </p>`;
+<p>It integrates SEO, GEO, AEO, LLMO, and AIO into one cohesive strategy.</p>
+
+<p>The foundation of the framework starts with three free Google tools. You need all three working together before anything else:</p>
+
+<ul class="wp-block-list">
+<li><strong>Google Search Console</strong> - shows you how Google sees your site and which searches bring people to you. <a href="/blog/how-to-set-up-google-search-console">Set it up here: How to Set Up Google Search Console</a></li>
+<li><strong>Google Analytics 4 (GA4)</strong> - tracks what people do once they arrive on your site. <a href="/blog/ga4-explained-for-business-owners">Read our plain-language guide: GA4 Explained for Business Owners</a></li>
+<li><strong>Keyword research using keyword clusters</strong> - finds the exact topics your audience is searching for and groups them into a content plan. <a href="/blog/keyword-research-keyword-clusters">Learn the full method: How to Do Keyword Research Using Keyword Clusters</a></li>
+</ul>
+
+<p>These three steps are the "Measure" and "Find" phases of the Data-First AI SEO Method. Without them, you are guessing. With them, every piece of content you create is backed by real data.</p>`;
 
 export default function PostAiSeoGuide() {
   useEffect(() => {
@@ -1058,9 +1068,27 @@ export default function PostAiSeoGuide() {
               <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Data-First AI SEO Method</a>
             </div>
           </div>
-                    {/* Back to blog */}
-          <div className="mt-10 text-center">
-            <Link href="/blog" className="text-[#318599] hover:underline text-sm font-medium">Back to all articles</Link>
+          {/* Related posts - cluster articles */}
+          <div className="mt-12">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Keep reading</h2>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {[
+                { href: '/blog/how-to-set-up-google-search-console', title: 'How to Set Up Google Search Console (Step-by-Step Guide for 2026)', category: 'SEO', time: '10 min read' },
+                { href: '/blog/keyword-research-keyword-clusters', title: 'How to Do Keyword Research Using Keyword Clusters (2026 Guide)', category: 'SEO', time: '11 min read' },
+                { href: '/blog/ga4-explained-for-business-owners', title: 'GA4 Explained for Business Owners (Plain Language Guide for 2026)', category: 'Analytics', time: '9 min read' },
+              ].map(post => (
+                <Link key={post.href} href={post.href} className="block bg-gray-50 rounded-xl p-4 hover:bg-gray-100 transition-colors border border-gray-100">
+                  <span className="text-xs font-bold text-[#318599] uppercase tracking-wide block mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{post.category}</span>
+                  <p className="text-sm font-bold text-gray-800 leading-snug mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{post.title}</p>
+                  <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>{post.time}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Back to blog */}
+          <div className="mt-10 pt-8 border-t border-gray-100">
+            <Link href="/blog" className="text-[#318599] hover:underline text-sm font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>Back to all articles</Link>
           </div>
         </article>
       </main>

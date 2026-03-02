@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - App Root
 // Light theme, conversion-optimized routing
 // Code-split with React.lazy: each page loads only when visited
-// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course
+// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -44,6 +44,9 @@ const PostGoogleAdsClass1Fundamentals = lazy(() => import('./pages/blog/PostGoog
 const PostTheUltimateGuideToGoogleAdsCampaignTypes = lazy(() => import('./pages/blog/PostTheUltimateGuideToGoogleAdsCampaignTypes'));
 const PostAdgroupsBasedOnUserIntent = lazy(() => import('./pages/blog/PostAdgroupsBasedOnUserIntent'));
 const PostGa4SetUpGuide = lazy(() => import('./pages/blog/PostGa4SetUpGuide'));
+const PostHowToSetUpGoogleSearchConsole = lazy(() => import('./pages/blog/PostHowToSetUpGoogleSearchConsole'));
+const PostKeywordResearchKeywordClusters = lazy(() => import('./pages/blog/PostKeywordResearchKeywordClusters'));
+const PostGa4ExplainedForBusinessOwners = lazy(() => import('./pages/blog/PostGa4ExplainedForBusinessOwners'));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -97,6 +100,12 @@ function Router() {
         <Route path="/blog/adgroups-based-on-user-intent/" component={PostAdgroupsBasedOnUserIntent} />
         <Route path="/blog/ga4-set-up-guide" component={PostGa4SetUpGuide} />
         <Route path="/blog/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
+        <Route path="/blog/how-to-set-up-google-search-console" component={PostHowToSetUpGoogleSearchConsole} />
+        <Route path="/blog/how-to-set-up-google-search-console/" component={PostHowToSetUpGoogleSearchConsole} />
+        <Route path="/blog/keyword-research-keyword-clusters" component={PostKeywordResearchKeywordClusters} />
+        <Route path="/blog/keyword-research-keyword-clusters/" component={PostKeywordResearchKeywordClusters} />
+        <Route path="/blog/ga4-explained-for-business-owners" component={PostGa4ExplainedForBusinessOwners} />
+        <Route path="/blog/ga4-explained-for-business-owners/" component={PostGa4ExplainedForBusinessOwners} />
 
         {/* Catch-all for /blog/:slug - must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />

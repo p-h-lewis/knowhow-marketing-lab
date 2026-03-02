@@ -122,6 +122,26 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- New cluster posts - March 2026 -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/how-to-set-up-google-search-console</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/keyword-research-keyword-clusters</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/ga4-explained-for-business-owners</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Legal -->
   <url>
     <loc>https://knowhowmarketinglab.com/privacy</loc>
