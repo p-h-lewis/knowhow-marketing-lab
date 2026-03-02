@@ -27,8 +27,8 @@ function SectionSkeleton() {
 
 export default function Home() {
   useSEO({
-    title: "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
-    description: "Free data-driven SEO course for medium-sized businesses. Learn AI + SEO, Google Ads, and GA4 from 20+ year agency veterans. 60+ free video lessons, weekly live Q&A, no credit card required.",
+    title: "KnowHow Marketing Lab – Free SEO & Google Ads Training",
+    description: "Free SEO, Google Ads, GA4 & AI marketing courses from 20+ year agency veterans. Expert-led lessons for business owners and marketing teams.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
   });
