@@ -8,7 +8,7 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
 
-const FREE_COURSE_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login";
+const FREE_COURSE_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 const COMMUNITY_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home";
 const YOUTUBE_PLAYLIST = "https://www.youtube.com/playlist?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4";
 const YOUTUBE_CHANNEL = "https://www.youtube.com/@KnowHowMarketingLab";

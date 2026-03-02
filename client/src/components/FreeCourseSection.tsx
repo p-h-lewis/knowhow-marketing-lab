@@ -143,7 +143,7 @@ export default function FreeCourseSection() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"

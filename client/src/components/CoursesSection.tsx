@@ -10,7 +10,7 @@ const courses = [
     tags: ['SEO', 'GSC', 'GA4', 'GTM'],
     level: 'Beginner → Advanced',
     cta: 'Enroll Free →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login',
+    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce',
     free: true,
     color: '#318599',
   },
@@ -170,7 +170,7 @@ export default function CoursesSection() {
           </div>
           <div className="flex flex-wrap gap-3 flex-shrink-0">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary whitespace-nowrap"

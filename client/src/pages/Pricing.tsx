@@ -99,7 +99,7 @@ export default function Pricing() {
                 "price": "0",
                 "priceCurrency": "USD",
                 "description": "Free access to the complete data-driven SEO course and 60+ YouTube video lessons.",
-                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               },
               {
                 "@type": "Offer",
@@ -107,7 +107,7 @@ export default function Pricing() {
                 "price": "29",
                 "priceCurrency": "USD",
                 "description": "Monthly membership with weekly live Q&A, monthly Google Ads live training, AI marketing course, private community, and all session replays.",
-                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               }
             ]
           })
@@ -191,7 +191,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white transition-all duration-200"

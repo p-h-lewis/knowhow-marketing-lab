@@ -147,7 +147,7 @@ export default function PostHowPeopleChargeForGoogleAds() {
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Want to put this into practice?</h2>
             <p className="text-white/80 mb-6">Join The Lab — live monthly training, community support, and the Data-First AI SEO Method.</p>
-            <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">
+            <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">
               Join The Lab — $29/month
             </a>
           </div>

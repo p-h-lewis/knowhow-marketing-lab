@@ -132,9 +132,9 @@ function Router() {
         <Route path="/vip-marketing-lab/"><Redirect to="/pricing" /></Route>
         <Route path="/shop"><Redirect to="/pricing" /></Route>
         <Route path="/shop/"><Redirect to="/pricing" /></Route>
-        {/* Community — redirects to GoHighLevel community external URL */}
-        <Route path="/sem-ai-knowhow-community">{() => { window.location.replace("https://community.knowhowmarketinglab.com"); return null; }}</Route>
-        <Route path="/sem-ai-knowhow-community/">{() => { window.location.replace("https://community.knowhowmarketinglab.com"); return null; }}</Route>
+        {/* Community — redirects to GoHighLevel community (The Lab) */}
+        <Route path="/sem-ai-knowhow-community">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
+        <Route path="/sem-ai-knowhow-community/">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
         {/* Privacy / legal */}
         <Route path="/privacy-policy"><Redirect to="/privacy" /></Route>
         <Route path="/privacy-policy/"><Redirect to="/privacy" /></Route>

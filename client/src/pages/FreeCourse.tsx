@@ -8,7 +8,7 @@
 import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 
-const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login';
+const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages — and how AI is changing the rules.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds.' },
@@ -114,7 +114,7 @@ export default function FreeCourse() {
           </Link>
           <div className="flex items-center gap-3">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors"

@@ -134,7 +134,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+            href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150"
@@ -233,7 +233,7 @@ export default function Navbar() {
 
           <div className="pt-3 border-t border-gray-100 mt-2 flex flex-col gap-2">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 text-sm text-center py-2"
