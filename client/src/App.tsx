@@ -74,7 +74,32 @@ function Router() {
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
+
+        {/* WordPress migrated blog posts — specific routes MUST come before /blog/:slug catch-all */}
+        <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
+        <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
+        <Route path="/blog/how-people-charge-for-google-ads" component={PostHowPeopleChargeForGoogleAds} />
+        <Route path="/blog/how-people-charge-for-google-ads/" component={PostHowPeopleChargeForGoogleAds} />
+        <Route path="/blog/how-ai-is-shaping-marketing" component={PostHowAiIsShapingMarketing} />
+        <Route path="/blog/how-ai-is-shaping-marketing/" component={PostHowAiIsShapingMarketing} />
+        <Route path="/blog/ai-seo-guide" component={PostAiSeoGuide} />
+        <Route path="/blog/ai-seo-guide/" component={PostAiSeoGuide} />
+        <Route path="/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
+        <Route path="/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
+        <Route path="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
+        <Route path="/blog/the-ultimate-guide-to-google-ads-bidding-strategies/" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
+        <Route path="/blog/google-ads-class-1-fundamentals" component={PostGoogleAdsClass1Fundamentals} />
+        <Route path="/blog/google-ads-class-1-fundamentals/" component={PostGoogleAdsClass1Fundamentals} />
+        <Route path="/blog/the-ultimate-guide-to-google-ads-campaign-types" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
+        <Route path="/blog/the-ultimate-guide-to-google-ads-campaign-types/" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
+        <Route path="/blog/adgroups-based-on-user-intent" component={PostAdgroupsBasedOnUserIntent} />
+        <Route path="/blog/adgroups-based-on-user-intent/" component={PostAdgroupsBasedOnUserIntent} />
+        <Route path="/blog/ga4-set-up-guide" component={PostGa4SetUpGuide} />
+        <Route path="/blog/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
+
+        {/* Catch-all for /blog/:slug — must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />
+
         <Route path="/framework" component={Framework} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/terms" component={Terms} />
@@ -84,45 +109,25 @@ function Router() {
         <Route path="/podcast" component={Podcast} />
         <Route path="/free-course" component={FreeCourse} />
 
-        {/* WordPress migrated blog posts — exact same URLs to preserve SEO rankings */}
-        <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
-        <Route path="/blog/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
+        {/* Root-level legacy URLs (without /blog/ prefix) */}
         <Route path="/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
         <Route path="/url-redirects-everything-you-need-to-know-for-seo" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
-        <Route path="/blog/how-people-charge-for-google-ads" component={PostHowPeopleChargeForGoogleAds} />
-        <Route path="/blog/how-people-charge-for-google-ads/" component={PostHowPeopleChargeForGoogleAds} />
         <Route path="/how-people-charge-for-google-ads/" component={PostHowPeopleChargeForGoogleAds} />
         <Route path="/how-people-charge-for-google-ads" component={PostHowPeopleChargeForGoogleAds} />
-        <Route path="/blog/how-ai-is-shaping-marketing" component={PostHowAiIsShapingMarketing} />
-        <Route path="/blog/how-ai-is-shaping-marketing/" component={PostHowAiIsShapingMarketing} />
         <Route path="/how-ai-is-shaping-marketing/" component={PostHowAiIsShapingMarketing} />
         <Route path="/how-ai-is-shaping-marketing" component={PostHowAiIsShapingMarketing} />
-        <Route path="/blog/ai-seo-guide" component={PostAiSeoGuide} />
-        <Route path="/blog/ai-seo-guide/" component={PostAiSeoGuide} />
         <Route path="/ai-seo-guide/" component={PostAiSeoGuide} />
         <Route path="/ai-seo-guide" component={PostAiSeoGuide} />
-        <Route path="/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
-        <Route path="/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
         <Route path="/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
         <Route path="/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns" component={PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampaigns} />
-        <Route path="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
-        <Route path="/blog/the-ultimate-guide-to-google-ads-bidding-strategies/" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
         <Route path="/the-ultimate-guide-to-google-ads-bidding-strategies/" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
         <Route path="/the-ultimate-guide-to-google-ads-bidding-strategies" component={PostTheUltimateGuideToGoogleAdsBiddingStrategies} />
-        <Route path="/blog/google-ads-class-1-fundamentals" component={PostGoogleAdsClass1Fundamentals} />
-        <Route path="/blog/google-ads-class-1-fundamentals/" component={PostGoogleAdsClass1Fundamentals} />
         <Route path="/google-ads-class-1-fundamentals/" component={PostGoogleAdsClass1Fundamentals} />
         <Route path="/google-ads-class-1-fundamentals" component={PostGoogleAdsClass1Fundamentals} />
-        <Route path="/blog/the-ultimate-guide-to-google-ads-campaign-types" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
-        <Route path="/blog/the-ultimate-guide-to-google-ads-campaign-types/" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
         <Route path="/the-ultimate-guide-to-google-ads-campaign-types/" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
         <Route path="/the-ultimate-guide-to-google-ads-campaign-types" component={PostTheUltimateGuideToGoogleAdsCampaignTypes} />
-        <Route path="/blog/adgroups-based-on-user-intent" component={PostAdgroupsBasedOnUserIntent} />
-        <Route path="/blog/adgroups-based-on-user-intent/" component={PostAdgroupsBasedOnUserIntent} />
         <Route path="/adgroups-based-on-user-intent/" component={PostAdgroupsBasedOnUserIntent} />
         <Route path="/adgroups-based-on-user-intent" component={PostAdgroupsBasedOnUserIntent} />
-        <Route path="/blog/ga4-set-up-guide" component={PostGa4SetUpGuide} />
-        <Route path="/blog/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
         <Route path="/ga4-set-up-guide/" component={PostGa4SetUpGuide} />
         <Route path="/ga4-set-up-guide" component={PostGa4SetUpGuide} />
 
