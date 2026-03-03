@@ -13,7 +13,7 @@ const resourceCategories = [
     title: 'SEO & Google Search',
     color: '#318599',
     icon: '',
-    description: 'Official Google documentation for understanding how search works, how to optimise your site, and how to use Google Search Console.',
+    description: 'Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, and AI marketing tools and documentation.',
     resources: [
       {
         name: 'Google SEO Starter Guide',
@@ -200,7 +200,7 @@ const resourceCategories = [
     ],
   },
   {
-    title: 'Google Learning & Certifications',
+    title: 'Free Marketing Resources – Google Tools & Guides',
     color: '#4F37D8',
     icon: '',
     description: 'Free official Google courses, certifications, and training programs. Learn directly from Google at your own pace.',
@@ -279,8 +279,8 @@ const resourceCategories = [
 
 export default function Resources() {
   useSEO({
-    title: "Free Marketing Resources - Google Tools, Guides & Official Docs | KnowHow Marketing Lab",
-    description: "Free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, Tag Manager, Google Analytics Academy, Grow with Google, and AI search documentation. 30+ curated resources from official Google sources, hand-picked by KnowHow Marketing Lab.",
+    title: "Free Marketing Resources – Google Tools & Guides",
+    description: "30+ free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, and AI marketing tools, curated by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/resources",
     ogType: "website",
   });

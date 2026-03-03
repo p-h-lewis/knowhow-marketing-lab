@@ -17,7 +17,7 @@ const SITE_URL = "https://knowhowmarketinglab.com";
 export default function Terms() {
   useSEO({
     title: "Terms & Conditions - KnowHow Marketing Lab",
-    description: "Terms and Conditions for KnowHow Marketing Lab. Read our terms for using our free AI + SEO course, The KnowHow Lab membership, email marketing, and website content.",
+    description: "Terms and Conditions for KnowHow Marketing Lab. Read our terms for using our free courses, community, and marketing resources.",
     canonical: "https://knowhowmarketinglab.com/terms",
     ogType: "website",
   });

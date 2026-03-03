@@ -34,8 +34,8 @@ const faqs = [
 
 export default function CourseSEO() {
   useSEO({
-    title: "Free AI + SEO Course & SEO Accelerator - Data-Driven SEO for Businesses | KnowHow Marketing Lab",
-    description: "Free AI + SEO course and SEO accelerator for medium-sized businesses. 5 modules covering keyword research, Google Search Console, GA4, and content strategy. No credit card required. By Pip Seymour and Phelan Lewis.",
+    title: "Free AI + SEO Course – Data-Driven SEO Training",
+    description: "Free AI + SEO course for medium-sized businesses. 5 modules covering data-driven SEO, Google Search Console, and AI content strategy.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
   });

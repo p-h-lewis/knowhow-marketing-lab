@@ -17,7 +17,7 @@ const SITE_URL = "https://knowhowmarketinglab.com";
 export default function Privacy() {
   useSEO({
     title: "Privacy Policy - KnowHow Marketing Lab",
-    description: "Privacy Policy for KnowHow Marketing Lab. Learn how we collect, use, and protect your personal information, including our use of Google Analytics, advertising cookies, and email marketing.",
+    description: "Privacy Policy for KnowHow Marketing Lab. How we collect, use, and protect your data when you use our free courses and community.",
     canonical: `${SITE_URL}/privacy`,
     ogType: "website",
   });

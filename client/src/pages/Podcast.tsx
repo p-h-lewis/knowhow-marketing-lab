@@ -3,10 +3,12 @@
 // Hosted on YouTube - no RSS feed needed
 // Schema: PodcastSeries, ItemList, BreadcrumbList
 
+import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
+import { podcastEpisodes } from "@/lib/podcastEpisodes";
 
 const FREE_COURSE_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 const COMMUNITY_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home";
@@ -25,10 +27,99 @@ const topics = [
   "Tools, updates, and what to ignore",
 ];
 
+const YEARS = [2025, 2024, 2023, 2022];
+
+function EpisodeBrowser() {
+  const [activeYear, setActiveYear] = useState<number | 'all'>('all');
+  const [search, setSearch] = useState('');
+
+  const yearCounts: Record<number, number> = {};
+  podcastEpisodes.forEach(ep => {
+    yearCounts[ep.year] = (yearCounts[ep.year] || 0) + 1;
+  });
+
+  const filtered = podcastEpisodes.filter(ep => {
+    const matchYear = activeYear === 'all' || ep.year === activeYear;
+    const matchSearch = search === '' || ep.title.toLowerCase().includes(search.toLowerCase());
+    return matchYear && matchSearch;
+  });
+
+  return (
+    <div>
+      <div className="flex flex-col sm:flex-row gap-4 mb-8 items-start sm:items-center justify-between">
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => setActiveYear('all')}
+            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${activeYear === 'all' ? 'bg-[#0f2236] text-white' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'}`}
+          >
+            All ({podcastEpisodes.length})
+          </button>
+          {YEARS.map(y => yearCounts[y] ? (
+            <button
+              key={y}
+              onClick={() => setActiveYear(y)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${activeYear === y ? 'bg-[#0f2236] text-white' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'}`}
+            >
+              {y} ({yearCounts[y]})
+            </button>
+          ) : null)}
+        </div>
+        <input
+          type="search"
+          placeholder="Search episodes..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          aria-label="Search podcast episodes by title"
+          className="border border-slate-200 rounded-lg px-4 py-2 text-sm w-full sm:w-64 focus:outline-none focus:ring-2 focus:ring-[#E98C28]/40 bg-white"
+        />
+      </div>
+
+      {filtered.length === 0 ? (
+        <div className="text-center py-16 text-slate-500">No episodes found for your search.</div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {filtered.map(ep => (
+            <a
+              key={ep.id}
+              href={`https://www.youtube.com/watch?v=${ep.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white border border-slate-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              aria-label={`Watch podcast episode: ${ep.title}, published ${ep.date}`}
+            >
+              <div className="relative aspect-video bg-slate-100 overflow-hidden">
+                <img
+                  src={`https://img.youtube.com/vi/${ep.id}/mqdefault.jpg`}
+                  alt={`Thumbnail for KnowHow Marketing Lab podcast episode: ${ep.title}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                  <div className="w-12 h-12 bg-[#E98C28] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                    <svg className="w-5 h-5 text-white ml-0.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4">
+                <p className="text-xs text-[#318599] font-medium mb-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>{ep.date}</p>
+                <h3 className="text-sm font-semibold text-gray-900 leading-snug group-hover:text-[#E98C28] transition-colors line-clamp-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                  {ep.title}
+                </h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function Podcast() {
   useSEO({
-    title: "KnowHow Marketing Lab Podcast - Monthly Marketing Insights",
-    description: "The KnowHow Marketing Lab monthly podcast. Pip Seymour and Phelan Lewis discuss what is actually happening in SEO, Google Ads, and AI marketing. Free on YouTube.",
+    title: "KnowHow Marketing Lab Podcast – Free on YouTube",
+    description: "99+ podcast episodes on SEO, Google Ads, and AI marketing. Pip Seymour and Phelan Lewis share honest marketing insights. Free on YouTube.",
     canonical: "https://knowhowmarketinglab.com/podcast",
     ogType: "website",
   });
@@ -133,34 +224,34 @@ export default function Podcast() {
           </div>
         </section>
 
-        {/* Playlist embed */}
+        {/* Episode Browser */}
         <section className="py-16 bg-gray-50" aria-labelledby="episodes-heading">
-          <div className="container max-w-4xl">
-            <div className="text-center mb-10">
+          <div className="container max-w-5xl">
+            <div className="text-center mb-8">
               <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All Episodes</span>
               <h2 id="episodes-heading" className="text-3xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Watch the Full Playlist
+                {podcastEpisodes.length}+ Episodes — Free on YouTube
               </h2>
+              <p className="text-gray-500 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>Browse by year or search by topic</p>
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-white">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  src={PLAYLIST_EMBED}
-                  title="KnowHow Marketing Lab Podcast - Full YouTube Playlist"
-                  className="absolute inset-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
+
+            {/* Filters */}
+            <EpisodeBrowser />
+
+            <div className="mt-8 text-center">
+              <a
+                href={YOUTUBE_PLAYLIST}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-[#318599] hover:text-[#E98C28] font-medium text-sm transition-colors"
+                aria-label="View the full podcast playlist on YouTube"
+              >
+                View full playlist on YouTube
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
-            <p className="text-center text-sm text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              New episodes drop monthly.{" "}
-              <a href={YOUTUBE_CHANNEL} target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">
-                Subscribe on YouTube
-              </a>{" "}
-              so you never miss one.
-            </p>
           </div>
         </section>
 

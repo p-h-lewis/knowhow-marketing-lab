@@ -15,7 +15,7 @@ const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communiti
 
 const modules = [
   { num: '01', title: 'How Google Ads Works', desc: 'Understand the auction system, Quality Score, and how Google decides which ads to show.' },
-  { num: '02', title: 'Campaign Structure That Converts', desc: 'Set up your account, campaigns, ad groups, and keywords the right way from day one.' },
+  { num: '02', title: 'Google Ads Course – Search, Display & Shopping', desc: 'Set up your account, campaigns, ad groups, and keywords the right way from day one.' },
   { num: '03', title: 'Keyword Strategy for Google Ads', desc: 'Find the right keywords, use match types correctly, and build a negative keyword list that saves money.' },
   { num: '04', title: 'Writing Ads That Get Clicks', desc: 'Write responsive search ads and headlines that speak directly to what your customer wants.' },
   { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals - manual CPC, target CPA, target ROAS, and more.' },
@@ -35,8 +35,8 @@ const faqs = [
 
 export default function CourseGoogleAds() {
   useSEO({
-    title: "Google Ads Course & Bootcamp - Search, Display & Shopping Campaigns | KnowHow Marketing Lab",
-    description: "Google Ads course and bootcamp for medium-sized businesses. 8 modules covering Search, Display, Shopping, and Performance Max. Data-driven approach using GA4. Included with The Lab at $29/mo.",
+    title: "Google Ads Course – Search, Display & Shopping Campaigns",
+    description: "Google Ads course for medium-sized businesses. 8 modules covering Search, Display, Shopping, and Performance Max campaigns. Free to start.",
     canonical: "https://knowhowmarketinglab.com/courses/google-ads",
     ogType: "course",
   });

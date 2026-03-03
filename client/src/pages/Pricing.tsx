@@ -68,7 +68,7 @@ const pricingFaqs = [
 export default function Pricing() {
   useSEO({
     title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
-    description: "Join our exclusive VIP community for $29/month - weekly live Q&A, monthly Google Ads training, AI marketing course, and private community access. Or start free with our AI + SEO course.",
+    description: "Join The Lab for $29/month — weekly live Q&A, monthly Google Ads training, AI marketing course, and a private community of marketers.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });

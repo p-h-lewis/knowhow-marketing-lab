@@ -20,7 +20,7 @@ const modules = [
 
 export default function ThankYou() {
   useSEO({
-    title: "You're In - Start Your AI + SEO Course | KnowHow Marketing Lab",
+    title: "You're In – Start Your Free AI + SEO Course",
     description: "You have successfully signed up for the free AI + SEO course from KnowHow Marketing Lab. Check your email for your access link.",
     canonical: "https://knowhowmarketinglab.com/thank-you",
     ogType: "website",

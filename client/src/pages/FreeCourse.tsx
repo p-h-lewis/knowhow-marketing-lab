@@ -86,7 +86,7 @@ const schema = {
 
 export default function FreeCourse() {
   useSEO({
-    title: "Free AI + SEO Course for Medium-Sized Businesses | KnowHow Marketing Lab",
+    title: "Free AI + SEO Course for Medium-Sized Businesses",
     description: "Learn how to use AI and SEO to get found on Google - free 5-module course by Pip Seymour and Phelan Lewis of Seymour Digital Media. No credit card required.",
     canonical: "https://knowhowmarketinglab.com/free-course",
     ogType: "website",

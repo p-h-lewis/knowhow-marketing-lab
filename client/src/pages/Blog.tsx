@@ -20,7 +20,7 @@ const blogPosts = [
   //  PILLAR ARTICLE (new) 
   {
     slug: 'data-driven-seo-guide-medium-sized-businesses',
-    title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses (2026)',
+    title: 'Digital Marketing Blog – SEO, Google Ads & GA4',
     excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses - the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the Data-First AI SEO Method step by step.',
     category: 'SEO',
     author: 'Pip Seymour',
@@ -243,8 +243,8 @@ const pillarFaqs = [
 
 export default function Blog() {
   useSEO({
-    title: "Digital Marketing Blog - AI + SEO, Google Ads & GA4 Guides | KnowHow Marketing Lab",
-    description: "Free digital marketing guides covering SEO, Google Ads, GA4, and AI marketing. Written for medium-sized businesses by Pip Seymour and Phelan Lewis of Seymour Digital Media.",
+    title: "Digital Marketing Blog – SEO, Google Ads & AI Guides",
+    description: "Free digital marketing guides covering SEO, Google Ads, GA4, and AI marketing. Written by agency veterans for medium-sized businesses.",
     canonical: "https://knowhowmarketinglab.com/blog",
     ogType: "website",
   });

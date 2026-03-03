@@ -205,8 +205,7 @@ const schema = {
 export default function Framework() {
   useSEO({
     title: "The Data-First AI SEO Method - 5 Steps to Grow Online",
-    description:
-      "Learn the Data-First AI SEO Method: a 5-step process (Measure, Find, Create, Amplify, Optimise) for growing your business online using real data. Free training by Pip Seymour and Phelan Lewis.",
+    description: "The Data-First AI SEO Method: 5 steps to grow online using real data. Measure, Find, Create, Amplify, Optimise. Free training by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/framework",
     ogType: "article",
   });
