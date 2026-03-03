@@ -377,6 +377,132 @@ export default function Community() {
           </div>
         </section>
 
+        {/* ── FREE VS PAID COMPARISON ── */}
+        <section className="py-20 bg-gray-50 border-t border-gray-100" aria-labelledby="free-vs-paid-heading">
+          <div className="container">
+            <div className="text-center mb-12">
+              <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Two Ways to Learn With Us</span>
+              <h2 id="free-vs-paid-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                Free group or paid Lab — which is right for you?
+              </h2>
+              <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                Start free. Upgrade when you're ready. There's no wrong answer.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              {/* Free column */}
+              <div className="bg-white rounded-2xl border-2 border-gray-200 p-7">
+                <div className="flex items-center gap-3 mb-5">
+                  <div className="w-10 h-10 rounded-xl bg-[#1877F2]/10 flex items-center justify-center" aria-hidden="true">
+                    <svg className="w-5 h-5 text-[#1877F2]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-bold text-gray-900 text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Business Marketing Mixer</p>
+                    <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Free Facebook group</p>
+                  </div>
+                </div>
+                <div className="text-2xl font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free</div>
+                <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card</p>
+                <ul className="space-y-3 mb-6">
+                  {[
+                    'Weekly Power Hours every Tuesday 12–1pm PT',
+                    'Live Q&A with Pip — no slides, real answers',
+                    'Topics: SEO, Google Ads, AI, Social Media',
+                    'Community discussion in the Facebook group',
+                    'Weekly session reminders via email',
+                  ].map(f => (
+                    <li key={f} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      <svg className="w-4 h-4 text-[#1877F2] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                      {f}
+                    </li>
+                  ))}
+                  {[
+                    'Advanced courses & course library',
+                    'Fillable worksheets & homework',
+                    'Thursday deep-dive Q&A (paid only)',
+                    'AI & automation training modules',
+                  ].map(f => (
+                    <li key={f} className="flex items-start gap-2 text-sm text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      <svg className="w-4 h-4 text-gray-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="https://www.facebook.com/groups/businessmarketingmixer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center bg-[#1877F2] hover:bg-[#1565d8] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join the free Business Marketing Mixer Facebook group"
+                >
+                  Join Free Group →
+                </a>
+              </div>
+
+              {/* Paid column */}
+              <div className="bg-gray-900 rounded-2xl border-2 border-[#E98C28] p-7 relative">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                  <span className="bg-[#E98C28] text-white text-xs font-bold px-4 py-1 rounded-full" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Most Popular</span>
+                </div>
+                <div className="flex items-center gap-3 mb-5">
+                  <div className="w-10 h-10 rounded-xl bg-[#E98C28]/20 flex items-center justify-center" aria-hidden="true">
+                    <span className="text-[#E98C28] font-extrabold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>K</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The KnowHow Lab</p>
+                    <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Paid community on GoHighLevel</p>
+                  </div>
+                </div>
+                <div className="text-2xl font-extrabold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29<span className="text-base font-normal text-gray-400">/mo</span></div>
+                <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access · Cancel anytime</p>
+                <ul className="space-y-3 mb-6">
+                  {[
+                    'Everything in the free group, plus:',
+                    'Weekly Thursday Q&A 12–1pm PT with Pip & Phelan',
+                    'Monthly deep-dive training sessions',
+                    'Full on-demand course library',
+                    'Google Ads Mastery course',
+                    'AI & automation training',
+                    'Fillable worksheets & homework',
+                    'Private community group (GoHighLevel)',
+                  ].map((f, i) => (
+                    <li key={f} className={`flex items-start gap-2 text-sm ${i === 0 ? 'text-[#E98C28] font-semibold' : 'text-gray-300'}`} style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      {i > 0 && (
+                        <svg className="w-4 h-4 text-[#E98C28] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      )}
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join The KnowHow Lab paid community for $29 per month"
+                >
+                  Join The Lab – $29/mo →
+                </a>
+              </div>
+            </div>
+            <div className="text-center mt-8">
+              <a href="/power-hours" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                Learn more about the free Tuesday Power Hours →
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* ── TESTIMONIALS ── */}
         <section className="py-20 bg-white border-t border-gray-100" aria-labelledby="testimonials-heading">
           <div className="container">

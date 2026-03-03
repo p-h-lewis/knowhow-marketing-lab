@@ -186,6 +186,50 @@ export default function Home() {
         <Suspense fallback={<SectionSkeleton />}>
           <CommunitySection />
         </Suspense>
+
+        {/* ── FREE POWER HOURS BANNER ── */}
+        <section className="py-14 bg-[#1877F2]" aria-labelledby="power-hours-banner-heading">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="text-center lg:text-left">
+                <div className="flex items-center justify-center lg:justify-start gap-2 mb-3">
+                  <span className="w-2 h-2 rounded-full bg-white animate-pulse" aria-hidden="true" />
+                  <span className="text-xs font-bold text-white/80 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free · Every Tuesday · 12–1pm Pacific</span>
+                </div>
+                <h2 id="power-hours-banner-heading" className="text-2xl md:text-3xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                  Join our free Marketing Power Hours
+                </h2>
+                <p className="text-white/80 text-base max-w-xl" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Every Tuesday, Pip answers your real SEO, Google Ads, and AI questions live in the free Facebook group. No slides. No pitch. Just answers.
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+                <a
+                  href="https://www.facebook.com/groups/businessmarketingmixer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-[#1877F2] font-bold rounded-xl px-7 py-4 text-sm transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join the free Business Marketing Mixer Facebook group for weekly Power Hours"
+                >
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                  Join Free Group
+                </a>
+                <a
+                  href="/power-hours"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white hover:border-white font-semibold rounded-xl px-7 py-4 text-sm transition-all duration-200"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="See the upcoming Power Hours schedule"
+                >
+                  See the schedule →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <Suspense fallback={<SectionSkeleton />}>
           <TestimonialsSection />
         </Suspense>
