@@ -10,14 +10,14 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import { useSEO } from "@/hooks/useSEO";
 
 const freeFeatures = [
+  { label: 'Free Power Hours every Tuesday 12–1pm Pacific' },
+  { label: 'Live Q&A with Pip — real questions, real answers' },
+  { label: 'Topics: SEO, Google Ads, AI, Social Media' },
   { label: 'Complete SEO Course (5 modules)' },
   { label: '60+ free YouTube video lessons' },
   { label: 'Google Search Console training' },
   { label: 'Google Analytics 4 (GA4) training' },
-  { label: 'Google Business Profile training' },
-  { label: 'Google Tag Manager intro' },
-  { label: 'No credit card required' },
-  { label: 'Watch at your own pace, forever' },
+  { label: 'No credit card · No sign-up required' },
 ];
 
 const communityFeatures = [
@@ -136,7 +136,7 @@ export default function Pricing() {
         <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Exclusive VIP Community Access
+              Two Ways to Learn With Us
             </span>
             <h1
               id="pricing-heading"
@@ -146,7 +146,7 @@ export default function Pricing() {
               Start Free. Go Deeper When You're Ready.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start free with the AI + SEO course, or unlock exclusive VIP access to The Lab - weekly live Q&A, monthly deep-dive training, and a private community of business owners and marketers.
+              Join the free Facebook group for weekly Power Hours every Tuesday, or upgrade to The Lab for weekly Thursday Q&A, advanced courses, AI training, and a private community.
             </p>
           </div>
         </section>
@@ -166,14 +166,14 @@ export default function Pricing() {
                 <div className="mb-6">
                   <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Forever</span>
                   <h2 className="text-2xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
-                    AI + SEO Course
+                    Free — Start Here
                   </h2>
                   <div className="flex items-baseline gap-2 mt-3">
                     <span className="text-5xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$0</span>
                     <span className="text-gray-400 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>/forever</span>
                   </div>
                   <p className="text-sm text-gray-500 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-                    No credit card. No sign-up required to watch videos.
+                    Business Marketing Mixer Facebook group + free courses. No credit card ever.
                   </p>
                 </div>
 
@@ -191,15 +191,15 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                  href="https://www.facebook.com/groups/businessmarketingmixer"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white transition-all duration-200"
+                  className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#1877F2] text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition-all duration-200"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Start the AI + SEO course - no credit card required"
+                  aria-label="Join the free Business Marketing Mixer Facebook group"
                   itemProp="url"
                 >
-                  Start AI + SEO Course →
+                  Join Free — Facebook Group + Courses →
                 </a>
               </article>
 

@@ -16,8 +16,12 @@ const faqs = [
     a: 'Yes - the KnowHow Marketing Lab free SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
   },
   {
+    q: 'How do I get started for free?',
+    a: 'The easiest free starting point is the Business Marketing Mixer Facebook group, where Pip runs free Marketing Power Hours every Tuesday from 12–1pm Pacific. You can bring your real marketing questions and get live answers with no sign-up, no credit card, and no commitment. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
+  },
+  {
     q: 'What is The Lab?',
-    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. Members get weekly live Q&A and support sessions, a monthly deep-dive training, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
+    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. It is the next step after the free resources. Members get weekly live Q&A every Thursday 12–1pm Pacific, a monthly deep-dive training session, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
   },
   {
     q: 'Who is this training for?',

@@ -113,9 +113,11 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Join The Lab', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
+                { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
+                { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
+                { label: 'The Lab – $29/mo', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
+                { label: 'Free vs Paid — Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce' },
-                { label: 'Weekly Live Classes', href: '/#community' },
                 { label: 'Community Pricing', href: '/pricing' },
                 { label: 'Meet the Instructors', href: '/about' },
               ].map(link => (

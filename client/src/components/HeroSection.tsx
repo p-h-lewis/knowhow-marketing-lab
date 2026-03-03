@@ -116,9 +116,10 @@ export default function HeroSection() {
             {/* What you get */}
             <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get for free">
               {[
-                { icon: '', text: '60+ free video lessons on YouTube' },
-                { icon: '', text: 'Full 5-module SEO course - no credit card needed' },
-                { icon: '', text: 'Weekly live Q&A every Thursday, 12–1pm Pacific' },
+                { icon: '', text: '60+ free video lessons on YouTube — no sign-up needed' },
+                { icon: '', text: 'Full 5-module SEO course — 100% free, no credit card' },
+                { icon: '', text: 'Free Power Hours every Tuesday in our Facebook group' },
+                { icon: '', text: 'Go deeper in The Lab — weekly live Q&A, courses & AI training for $29/mo' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
@@ -132,7 +133,8 @@ export default function HeroSection() {
               {[
                 { value: '60+', label: 'Free Video Lessons' },
                 { value: '20+', label: 'Years of Agency Experience' },
-                { value: '$29/mo', label: 'The Lab - Lock In Now' },
+                { value: 'Free', label: 'Start — No Credit Card' },
+                { value: '$29/mo', label: 'The Lab — Go Deeper' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
