@@ -43,6 +43,7 @@ export default function Navbar() {
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Our Method', href: '/framework' },
+    { label: 'Community', href: '/community' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
   ];
@@ -55,6 +56,7 @@ export default function Navbar() {
     { label: 'Podcast', href: '/podcast' },
     { label: 'Our Method', href: '/framework' },
     { label: 'Resources', href: '/resources' },
+    { label: 'Community', href: '/community' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
   ];

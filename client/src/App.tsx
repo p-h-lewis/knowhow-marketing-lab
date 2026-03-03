@@ -31,7 +31,8 @@ const CourseSEO = lazy(() => import("./pages/CourseSEO"));
 const CourseGoogleAds = lazy(() => import("./pages/CourseGoogleAds"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 const Podcast = lazy(() => import("./pages/Podcast"));
-const FreeCourse = lazy(() => import("./pages/FreeCourse"));
+const FreeCourse = lazy(() => import('./pages/FreeCourse'));
+const Community = lazy(() => import('./pages/Community'));
 
 // WordPress migrated blog posts - exact same URLs to preserve SEO rankings
 const PostUrlRedirectsEverythingYouNeedToKnowForSeo = lazy(() => import('./pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo'));
@@ -118,6 +119,8 @@ function Router() {
         <Route path="/thank-you" component={ThankYou} />
         <Route path="/podcast" component={Podcast} />
         <Route path="/free-course" component={FreeCourse} />
+        <Route path="/community" component={Community} />
+        <Route path="/community/" component={Community} />
 
         {/* Root-level legacy URLs (without /blog/ prefix) */}
         <Route path="/url-redirects-everything-you-need-to-know-for-seo/" component={PostUrlRedirectsEverythingYouNeedToKnowForSeo} />
@@ -168,9 +171,9 @@ function Router() {
         <Route path="/vip-marketing-lab/"><Redirect to="/pricing" /></Route>
         <Route path="/shop"><Redirect to="/pricing" /></Route>
         <Route path="/shop/"><Redirect to="/pricing" /></Route>
-        {/* Community - redirects to GoHighLevel community (The Lab) */}
-        <Route path="/sem-ai-knowhow-community">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
-        <Route path="/sem-ai-knowhow-community/">{() => { window.location.replace("https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"); return null; }}</Route>
+        {/* Community - old slug redirects to new /community page */}
+        <Route path="/sem-ai-knowhow-community"><Redirect to="/community" /></Route>
+        <Route path="/sem-ai-knowhow-community/"><Redirect to="/community" /></Route>
         {/* Privacy / legal */}
         <Route path="/privacy-policy"><Redirect to="/privacy" /></Route>
         <Route path="/privacy-policy/"><Redirect to="/privacy" /></Route>
