@@ -17,13 +17,31 @@ function extractId(url: string): string {
 }
 
 export const videos: Video[] = [
-  // Featured / Recent
+  // ── START HERE (Featured) ── 12 best beginner-to-intermediate picks, one per key topic
+  // SEO: keyword research fundamentals
   { id: extractId('https://www.youtube.com/watch?v=gw-OAn5R4AY'), title: 'Finding Your First Keywords', url: 'https://www.youtube.com/watch?v=gw-OAn5R4AY', category: 'seo', featured: true },
+  // SEO: free keyword research tool most people miss
   { id: extractId('https://www.youtube.com/watch?v=eGN0oy0ynbE'), title: "Google's Secret Weapon for FREE Keyword Research (No One Talks About This!)", url: 'https://www.youtube.com/watch?v=eGN0oy0ynbE', category: 'seo', featured: true },
-  { id: extractId('https://www.youtube.com/watch?v=dwTFHna3NcE'), title: 'Google Analytics 4 Complete Tutorial: Master GA4 in Under 1 Hour (2025)', url: 'https://www.youtube.com/watch?v=dwTFHna3NcE', category: 'analytics', featured: true },
+  // SEO: complete Search Console tutorial (highest-value standalone lesson)
   { id: extractId('https://www.youtube.com/watch?v=vc3_tzeZ-cU'), title: 'Google Search Console Tutorial: See How People Find Your Website (Complete Guide)', url: 'https://www.youtube.com/watch?v=vc3_tzeZ-cU', category: 'seo', featured: true },
+  // SEO: on-page SEO — the most-asked topic
+  { id: extractId('https://www.youtube.com/watch?v=H0DbjpkqsaI'), title: 'Live Class | On-Page SEO', url: 'https://www.youtube.com/watch?v=H0DbjpkqsaI', category: 'seo', featured: true },
+  // Analytics: complete GA4 tutorial (2025 — most current)
+  { id: extractId('https://www.youtube.com/watch?v=dwTFHna3NcE'), title: 'Google Analytics 4 Complete Tutorial: Master GA4 in Under 1 Hour (2025)', url: 'https://www.youtube.com/watch?v=dwTFHna3NcE', category: 'analytics', featured: true },
+  // Analytics: Tag Manager complete overview
+  { id: extractId('https://www.youtube.com/watch?v=mXcvavYb0ts'), title: 'Tag Manager | Complete Overview', url: 'https://www.youtube.com/watch?v=mXcvavYb0ts', category: 'analytics', featured: true },
+  // Google Ads: intro — the starting point for all ads learners
   { id: extractId('https://www.youtube.com/watch?v=Ec79dFI_bq0'), title: 'Google Ads Intro Class', url: 'https://www.youtube.com/watch?v=Ec79dFI_bq0', category: 'google-ads', featured: true },
+  // Google Ads: display campaigns — second most common ads question
   { id: extractId('https://www.youtube.com/watch?v=1cvo5VpEJKA'), title: 'Google Ads | Display Campaigns Class', url: 'https://www.youtube.com/watch?v=1cvo5VpEJKA', category: 'google-ads', featured: true },
+  // AI: SEO copy that converts — AI + content crossover
+  { id: extractId('https://www.youtube.com/watch?v=XM_FD8FfbXI'), title: 'SEO Copy That Converts (Module 1 Class 5)', url: 'https://www.youtube.com/watch?v=XM_FD8FfbXI', category: 'ai', featured: true },
+  // Local: Google Business Profile complete overview
+  { id: extractId('https://www.youtube.com/watch?v=sJF-eAr4MF8'), title: 'Google Business Profile | Complete Overview', url: 'https://www.youtube.com/watch?v=sJF-eAr4MF8', category: 'seo', featured: true },
+  // Live: Local SEO class — high-demand topic for brick-and-mortar businesses
+  { id: extractId('https://www.youtube.com/watch?v=m-IBiKxIh4U'), title: 'Live Class | Local SEO', url: 'https://www.youtube.com/watch?v=m-IBiKxIh4U', category: 'live', featured: true },
+  // Live: Advanced keyword research using GSC — bridges beginner to intermediate
+  { id: extractId('https://www.youtube.com/watch?v=ZTlGSUj4Tgc'), title: 'Live Class | Advanced Keyword Research Using Google Search Console', url: 'https://www.youtube.com/watch?v=ZTlGSUj4Tgc', category: 'seo', featured: true },
 
   // SEO Videos
   { id: extractId('https://www.youtube.com/watch?v=TM0rB77AHiE'), title: 'Intro to Google Search Console', url: 'https://www.youtube.com/watch?v=TM0rB77AHiE', category: 'seo' },
