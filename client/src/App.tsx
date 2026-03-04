@@ -34,6 +34,7 @@ const Podcast = lazy(() => import("./pages/Podcast"));
 const FreeCourse = lazy(() => import('./pages/FreeCourse'));
 const Community = lazy(() => import('./pages/Community'));
 const PowerHours = lazy(() => import('./pages/PowerHours'));
+const ThankYouPowerHours = lazy(() => import('./pages/ThankYouPowerHours'));
 
 // WordPress migrated blog posts - exact same URLs to preserve SEO rankings
 const PostUrlRedirectsEverythingYouNeedToKnowForSeo = lazy(() => import('./pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo'));
@@ -117,6 +118,7 @@ function Router() {
         <Route path="/terms" component={Terms} />
         <Route path="/courses/seo" component={CourseSEO} />
         <Route path="/courses/google-ads" component={CourseGoogleAds} />
+        <Route path="/thank-you/power-hours" component={ThankYouPowerHours} />
         <Route path="/thank-you" component={ThankYou} />
         <Route path="/podcast" component={Podcast} />
         <Route path="/free-course" component={FreeCourse} />
