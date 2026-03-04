@@ -83,14 +83,8 @@ export default function PowerHours() {
     if (ogTitle) ogTitle.setAttribute('content', 'Free Marketing Power Hours – KnowHow Marketing Lab');
     const ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc) ogDesc.setAttribute('content', 'Free weekly live sessions every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live answers.');
-    // Inject GHL form embed script
-    const script = document.createElement('script');
-    script.src = 'https://crm.seymourdigitalmedia.com/js/form_embed.js';
-    script.async = true;
-    document.body.appendChild(script);
     return () => {
       document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
-      if (document.body.contains(script)) document.body.removeChild(script);
     };
   }, []);
 
@@ -150,26 +144,60 @@ export default function PowerHours() {
                 </p>
               </div>
 
-              {/* GHL Registration Form */}
-              <div id="register" className="bg-gray-50 rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
-                <iframe
-                  src="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
-                  style={{ width: '100%', height: '709px', border: 'none', borderRadius: '24px' }}
-                  id="inline-VpNFCGnnrKnymB81G7bB"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Free Power Hours"
-                  data-height="709"
-                  data-layout-iframe-id="inline-VpNFCGnnrKnymB81G7bB"
-                  data-form-id="VpNFCGnnrKnymB81G7bB"
-                  title="Free Power Hours registration form"
+              {/* Registration CTA Card */}
+              <div id="register" className="bg-gray-50 rounded-3xl border border-gray-100 shadow-sm p-8 flex flex-col justify-center">
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
+                  <span className="text-xs font-bold text-green-600 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free · Every Tuesday · 12pm Pacific</span>
+                </div>
+                <h2 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Register in seconds</h2>
+                <p className="text-gray-500 text-sm mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Click below to register. You'll get a confirmation email with the Zoom link and a Monday reminder so you never miss a session.
+                </p>
+                <div className="space-y-3 mb-6">
+                  {[
+                    'Google Ads — campaigns, bidding, Performance Max',
+                    'SEO — rankings, Search Console, keyword research',
+                    'AI & ChatGPT — practical tools for marketing',
+                    'GA4 — understanding your data',
+                    'Marketing strategy — what to focus on next',
+                  ].map(item => (
+                    <div key={item} className="flex items-start gap-2.5 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      <span className="w-5 h-5 rounded-full bg-[#318599] flex items-center justify-center flex-shrink-0 mt-0.5" aria-hidden="true">
+                        <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                        </svg>
+                      </span>
+                      {item}
+                    </div>
+                  ))}
+                </div>
+                <a
+                  href="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                   aria-label="Register for Free Power Hours"
-                />
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                  Register Free — Save My Spot
+                </a>
+                <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Sessions on Zoom</p>
+                <div className="mt-5 pt-5 border-t border-gray-200">
+                  <p className="text-xs text-gray-500 mb-2 font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Already registered? Join on Zoom:</p>
+                  <a
+                    href={ZOOM_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm font-semibold text-[#318599] hover:text-[#2a7080] transition-colors"
+                    style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    aria-label="Join Power Hours on Zoom"
+                  >
+                    <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                    us02web.zoom.us/j/6217417145
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -207,7 +235,7 @@ export default function PowerHours() {
                   What's coming up
                 </h2>
                 <p className="text-gray-500 mt-2 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Tuesday · 12–1pm Pacific · Free in the Facebook group
+                  Every Tuesday · 12–1pm Pacific · Free on Zoom
                 </p>
               </div>
               <div className="space-y-3">
@@ -235,19 +263,28 @@ export default function PowerHours() {
                   </div>
                 ))}
               </div>
-              <div className="text-center mt-8">
+              <div className="text-center mt-8 flex flex-col sm:flex-row gap-3 justify-center">
                 <a
-                  href={FB_GROUP_URL}
+                  href="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#1877F2] hover:bg-[#1565d8] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                  className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join the free Business Marketing Mixer Facebook group to attend Power Hours"
+                  aria-label="Register for Free Power Hours"
                 >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                  </svg>
-                  Join Free – Business Marketing Mixer
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                  Register Free — Save My Spot
+                </a>
+                <a
+                  href={ZOOM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white font-semibold rounded-xl px-8 py-4 text-base transition-all duration-200"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join Power Hours on Zoom"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                  Already registered? Join on Zoom
                 </a>
               </div>
             </div>

@@ -235,13 +235,13 @@ export default function ThankYouPowerHours() {
                   {
                     step: '1',
                     title: 'Check your inbox',
-                    desc: 'A confirmation email is on its way with the session details, the Facebook group link, and a reminder to add it to your calendar.',
+                    desc: 'A confirmation email is on its way with the Zoom link, session details, and a reminder to add it to your calendar.',
                     color: '#E98C28',
                   },
                   {
                     step: '2',
-                    title: 'Join the Facebook group',
-                    desc: 'Power Hours runs live inside the Business Marketing Mixer group. Join now so you\'re ready — the session link will be pinned at the top of the group on Tuesday morning.',
+                    title: 'Save your Zoom link',
+                    desc: 'Power Hours runs live on Zoom every Tuesday at 12pm Pacific. The link is: us02web.zoom.us/j/6217417145 — bookmark it now so you\'re ready to join on Tuesday.',
                     color: '#318599',
                   },
                   {
@@ -253,7 +253,7 @@ export default function ThankYouPowerHours() {
                   {
                     step: '4',
                     title: 'Show up Tuesday at 12pm Pacific',
-                    desc: 'Bring your biggest marketing question — SEO, Google Ads, GA4, or AI. Pip will be live in the group ready to help. No slides, no agenda, just real answers.',
+                    desc: 'Bring your biggest marketing question — SEO, Google Ads, GA4, or AI. Pip will be live on Zoom ready to help. No slides, no agenda, just real answers.',
                     color: '#E98C28',
                   },
                 ].map(item => (
