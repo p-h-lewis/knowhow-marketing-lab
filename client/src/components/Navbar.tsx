@@ -10,6 +10,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [coursesOpen, setCoursesOpen] = useState(false);
+  const [communityOpen, setCommunityOpen] = useState(false);
   const [location] = useLocation();
   const isHome = location === '/';
 
@@ -37,18 +38,17 @@ export default function Navbar() {
   // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav - trimmed to 6 items so it fits cleanly without overflow
+  // Desktop nav - Community is now a dropdown
   const desktopNavLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Our Method', href: '/framework' },
-    { label: 'Community', href: '/community' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
   ];
 
-  // Mobile nav - full list including Podcast and Resources
+  // Mobile nav - full list including Podcast, Resources, and Power Hours
   const mobileNavLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
@@ -57,6 +57,7 @@ export default function Navbar() {
     { label: 'Our Method', href: '/framework' },
     { label: 'Resources', href: '/resources' },
     { label: 'Community', href: '/community' },
+    { label: 'Free Power Hours', href: '/power-hours' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'About', href: '/about' },
   ];
@@ -64,6 +65,11 @@ export default function Navbar() {
   const courseLinks = [
     { label: 'AI + SEO Course', href: '/courses/seo', badge: 'Free' },
     { label: 'Google Ads Bootcamp', href: '/courses/google-ads', badge: 'The Lab' },
+  ];
+
+  const communityLinks = [
+    { label: 'The Lab Community', href: '/community', badge: '$29/mo', badgeColor: '#E98C28' },
+    { label: 'Free Power Hours', href: '/power-hours', badge: 'Free', badgeColor: '#318599' },
   ];
 
   const closeMobile = () => setMobileOpen(false);
@@ -125,6 +131,51 @@ export default function Navbar() {
                 )}
               </li>
             ))}
+
+            {/* Community Dropdown */}
+            <li className="relative group">
+              <button
+                className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 flex items-center gap-1 whitespace-nowrap ${
+                  location === '/community' || location === '/power-hours'
+                    ? 'text-[#E98C28] bg-amber-50'
+                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                }`}
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                aria-haspopup="true"
+                aria-expanded={communityOpen}
+                aria-controls="community-dropdown"
+                aria-label="Community - expand menu"
+                onClick={() => setCommunityOpen(o => !o)}
+                onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCommunityOpen(false); }}
+              >
+                Community
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div
+                id="community-dropdown"
+                className={`absolute top-full left-0 mt-1 w-64 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
+                  communityOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
+                }`}
+              >
+                {communityLinks.map(cl => (
+                  <Link
+                    key={cl.href}
+                    href={cl.href}
+                    className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
+                    style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    onClick={() => setCommunityOpen(false)}
+                  >
+                    {cl.label}
+                    <span
+                      className="text-xs font-bold text-white px-2 py-0.5 rounded-full"
+                      style={{ backgroundColor: cl.badgeColor }}
+                    >{cl.badge}</span>
+                  </Link>
+                ))}
+              </div>
+            </li>
 
             {/* Courses Dropdown */}
             <li className="relative group">
@@ -248,6 +299,23 @@ export default function Navbar() {
                 </a>
               )
             ))}
+
+            {/* Community section */}
+            <div className="mt-3 pt-3 border-t border-gray-100">
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest px-3 pb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Community</p>
+              {communityLinks.map(cl => (
+                <Link
+                  key={cl.href}
+                  href={cl.href}
+                  className="flex items-center justify-between text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors"
+                  style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px' }}
+                  onClick={closeMobile}
+                >
+                  {cl.label}
+                  <span className="text-xs font-bold text-white px-2.5 py-1 rounded-full" style={{ backgroundColor: cl.badgeColor }}>{cl.badge}</span>
+                </Link>
+              ))}
+            </div>
 
             {/* Courses section */}
             <div className="mt-3 pt-3 border-t border-gray-100">
