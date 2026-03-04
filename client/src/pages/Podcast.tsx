@@ -17,7 +17,7 @@ const COMMUNITY_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communiti
 const YOUTUBE_PLAYLIST = "https://www.youtube.com/playlist?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4";
 const YOUTUBE_CHANNEL = "https://www.youtube.com/@KnowHowMarketingLab";
 
-const YEARS = [2025, 2024, 2023, 2022];
+const YEARS = [2026, 2025, 2024, 2023, 2022];
 
 const faqs = [
   {
@@ -127,16 +127,16 @@ const schema = {
       "description": "Recent episodes of the KnowHow Marketing Lab Podcast covering SEO, Google Ads, GA4, and AI marketing.",
       "url": "https://knowhowmarketinglab.com/podcast",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Marketing Pulse: This Month's Trends, Tactics & Game-Changers", "url": "https://www.youtube.com/watch?v=cMalSDFK6D4" },
-        { "@type": "ListItem", "position": 2, "name": "This Month In The World Of Marketing", "url": "https://www.youtube.com/watch?v=vIPNsUrNu5k" },
-        { "@type": "ListItem", "position": 3, "name": "Using GA4 for Data Driven Decisions", "url": "https://www.youtube.com/watch?v=4DvK3FuUVI4" },
-        { "@type": "ListItem", "position": 4, "name": "Video SEO and Youtube Optimization", "url": "https://www.youtube.com/watch?v=dPMW9YVzqbo" },
-        { "@type": "ListItem", "position": 5, "name": "Local SEO in 2024 what's working", "url": "https://www.youtube.com/watch?v=nk5MgrHkQgA" },
-        { "@type": "ListItem", "position": 6, "name": "How AI Is Changing Your Websites Process", "url": "https://www.youtube.com/watch?v=GjBx9qbkPgY" },
-        { "@type": "ListItem", "position": 7, "name": "Chat GPT & Automations", "url": "https://www.youtube.com/watch?v=_kAUBRj6hhA" },
-        { "@type": "ListItem", "position": 8, "name": "Landing Pages & Google Ads", "url": "https://www.youtube.com/watch?v=A7Dy5GW5EiI" },
-        { "@type": "ListItem", "position": 9, "name": "Facebook Ads Vs Google Ads: The Eternal Struggle", "url": "https://www.youtube.com/watch?v=LBvoPu6arKo" },
-        { "@type": "ListItem", "position": 10, "name": "Year Of Marketing In Review", "url": "https://www.youtube.com/watch?v=rjr9OD7Z6Zg" }
+        { "@type": "ListItem", "position": 1, "name": "This Month In The World Of Marketing", "url": "https://www.youtube.com/watch?v=Ay0VQU9XPrQ" },
+        { "@type": "ListItem", "position": 2, "name": "Year-End Website Audit: What Every Business Owner Must Fix for 2026", "url": "https://www.youtube.com/watch?v=NuPDxQ_P5w0" },
+        { "@type": "ListItem", "position": 3, "name": "AI Agents vs. ChatGPT: What Every Business Pro Must Know Before 2026", "url": "https://www.youtube.com/watch?v=9d2Jv0F7wYk" },
+        { "@type": "ListItem", "position": 4, "name": "How AI Is Changing the Way We Watch and Create Video", "url": "https://www.youtube.com/watch?v=o8SL0_d-Mns" },
+        { "@type": "ListItem", "position": 5, "name": "AI and SEO: How to Use Them Together for Maximum Impact", "url": "https://www.youtube.com/watch?v=XSqYY_9Myug" },
+        { "@type": "ListItem", "position": 6, "name": "AI-Powered Search & Social Search Optimization", "url": "https://www.youtube.com/watch?v=7U1eSGtcuBk" },
+        { "@type": "ListItem", "position": 7, "name": "How AI is Changing the Search & Social Media Landscape", "url": "https://www.youtube.com/watch?v=ZrF2gvne2dg" },
+        { "@type": "ListItem", "position": 8, "name": "Marketing Pulse: This Month's Trends, Tactics & Game-Changers", "url": "https://www.youtube.com/watch?v=cMalSDFK6D4" },
+        { "@type": "ListItem", "position": 9, "name": "This Month In The World Of Marketing", "url": "https://www.youtube.com/watch?v=vIPNsUrNu5k" },
+        { "@type": "ListItem", "position": 10, "name": "Using GA4 for Data Driven Decisions", "url": "https://www.youtube.com/watch?v=4DvK3FuUVI4" }
       ]
     },
     {
