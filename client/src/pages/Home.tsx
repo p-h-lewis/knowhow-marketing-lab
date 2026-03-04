@@ -166,7 +166,10 @@ export default function Home() {
               { "@type": "ListItem", "position": 4, "name": "The Lab on GoHighLevel", "url": "https://knowhowmarketinglab.com/#community" },
               { "@type": "ListItem", "position": 5, "name": "Pricing - Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
               { "@type": "ListItem", "position": 6, "name": "About Pip Seymour & Phelan Lewis", "url": "https://knowhowmarketinglab.com/about" },
-              { "@type": "ListItem", "position": 7, "name": "Free Resources - Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" }
+              { "@type": "ListItem", "position": 7, "name": "Free Resources - Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" },
+              { "@type": "ListItem", "position": 8, "name": "The KnowHow Lab Community", "url": "https://knowhowmarketinglab.com/community" },
+              { "@type": "ListItem", "position": 9, "name": "GeekSpeak Podcast", "url": "https://knowhowmarketinglab.com/podcast" },
+              { "@type": "ListItem", "position": 10, "name": "The Data-First AI SEO Framework", "url": "https://knowhowmarketinglab.com/framework" }
             ]
           })
         }}
@@ -200,22 +203,20 @@ export default function Home() {
                   Join our free Marketing Power Hours
                 </h2>
                 <p className="text-white/80 text-base max-w-xl" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Tuesday, Pip answers your real SEO, Google Ads, and AI questions live in the free Facebook group. No slides. No pitch. Just answers.
+                  Every Tuesday 12–1pm Pacific, Pip answers your real questions on Google Ads, SEO, and AI — live on Zoom. No slides. No pitch. Just answers.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
                 <a
-                  href="https://www.facebook.com/groups/businessmarketingmixer"
+                  href="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-[#1877F2] font-bold rounded-xl px-7 py-4 text-sm transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join the free Business Marketing Mixer Facebook group for weekly Power Hours"
+                  aria-label="Register free for the weekly Marketing Power Hours on Zoom"
                 >
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                  </svg>
-                  Join Free Group
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                  Register Free
                 </a>
                 <a
                   href="/power-hours"
@@ -293,6 +294,20 @@ export default function Home() {
                   title: 'The Data-First AI SEO Method',
                   desc: 'Our branded framework for building an SEO strategy that is measurable, repeatable, and built for AI-driven search.',
                   color: '#4F37D8',
+                },
+                {
+                  href: '/community',
+                  tag: 'Community',
+                  title: 'The KnowHow Lab — Join the Community',
+                  desc: 'Weekly live Q&A every Thursday, advanced courses, AI tools, and a private group for $29/month. Led by 20+ year agency veterans.',
+                  color: '#318599',
+                },
+                {
+                  href: '/podcast',
+                  tag: 'Podcast',
+                  title: 'GeekSpeak — The Marketing Podcast',
+                  desc: 'Monthly deep-dives on SEO, Google Ads, AI, and the latest in digital marketing. Hosted by Pip Seymour and Phelan Lewis.',
+                  color: '#E98C28',
                 },
               ].map(post => (
                 <Link

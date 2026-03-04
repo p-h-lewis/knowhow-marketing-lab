@@ -10,10 +10,24 @@ import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
+import { useSEO } from '@/hooks/useSEO';
 
 const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 const LAB_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// POWER HOURS CONFIG — update these when skipping or rescheduling a session
+// ─────────────────────────────────────────────────────────────────────────────
+// GHL_FORM_URL: The GHL registration form. In GHL → Form Settings → Redirect URL
+//   set to: https://knowhowmarketinglab.com/thank-you/power-hours
+const GHL_FORM_URL = 'https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB';
+
+// NEXT_SESSION_OVERRIDE: Leave as null to auto-calculate the next Tuesday.
+// Set to an ISO date string (Pacific time) to override — e.g. if skipping a week:
+//   const NEXT_SESSION_OVERRIDE = '2025-04-22T12:00:00'; // skipping April 15
+const NEXT_SESSION_OVERRIDE: string | null = null;
+// ─────────────────────────────────────────────────────────────────────────────
 
 // Upcoming Tuesday sessions — open Q&A, no fixed theme
 const upcomingSessions = [
@@ -73,31 +87,28 @@ const themeColors: Record<string, string> = {
 };
 
 // Returns days/hours/mins/secs until next Tuesday 12pm Pacific
+// Respects NEXT_SESSION_OVERRIDE if set
 function useNextSessionCountdown() {
   const getCountdown = () => {
     const now = new Date();
-    // Pacific time offset: PST = UTC-8, PDT = UTC-7
-    // Use Intl to get Pacific time
     const pacificNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
-    const day = pacificNow.getDay(); // 0=Sun, 2=Tue
-    const hours = pacificNow.getHours();
-    const minutes = pacificNow.getMinutes();
-    const seconds = pacificNow.getSeconds();
 
-    // Days until next Tuesday
-    let daysUntilTuesday = (2 - day + 7) % 7;
-    // If it's Tuesday but before noon, session is today
-    if (day === 2 && (hours < 12 || (hours === 12 && minutes === 0 && seconds === 0))) {
-      daysUntilTuesday = 0;
+    let nextSession: Date;
+    if (NEXT_SESSION_OVERRIDE) {
+      // Use the override date (treated as Pacific time)
+      nextSession = new Date(NEXT_SESSION_OVERRIDE);
+    } else {
+      const day = pacificNow.getDay(); // 0=Sun, 2=Tue
+      const hours = pacificNow.getHours();
+      const minutes = pacificNow.getMinutes();
+      const seconds = pacificNow.getSeconds();
+      let daysUntilTuesday = (2 - day + 7) % 7;
+      if (day === 2 && (hours < 12 || (hours === 12 && minutes === 0 && seconds === 0))) daysUntilTuesday = 0;
+      if (day === 2 && hours >= 12 && !(hours === 12 && minutes === 0 && seconds === 0)) daysUntilTuesday = 7;
+      nextSession = new Date(pacificNow);
+      nextSession.setDate(pacificNow.getDate() + daysUntilTuesday);
+      nextSession.setHours(12, 0, 0, 0);
     }
-    // If it's Tuesday at or after noon, next session is in 7 days
-    if (day === 2 && hours >= 12 && !(hours === 12 && minutes === 0 && seconds === 0)) {
-      daysUntilTuesday = 7;
-    }
-
-    const nextSession = new Date(pacificNow);
-    nextSession.setDate(pacificNow.getDate() + daysUntilTuesday);
-    nextSession.setHours(12, 0, 0, 0);
 
     const diffMs = nextSession.getTime() - pacificNow.getTime();
     if (diffMs <= 0) return { days: 0, hours: 0, mins: 0, secs: 0, live: true };
@@ -120,26 +131,96 @@ function useNextSessionCountdown() {
   return countdown;
 }
 
+const powerHoursSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://knowhowmarketinglab.com/power-hours",
+      "url": "https://knowhowmarketinglab.com/power-hours",
+      "name": "Free Marketing Power Hours – KnowHow Marketing Lab",
+      "description": "Free weekly live Q&A on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy.",
+      "isPartOf": { "@id": "https://knowhowmarketinglab.com/#website" }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://knowhowmarketinglab.com/power-hours#event",
+      "name": "KnowHow Marketing Power Hours",
+      "description": "Free weekly live Q&A session on Zoom. Bring your real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Hosted by Pip Seymour of Seymour Digital Media.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://us02web.zoom.us/j/6217417145"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "KnowHow Marketing Lab",
+        "url": "https://knowhowmarketinglab.com"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": "Pip Seymour",
+        "jobTitle": "Digital Marketing Strategist",
+        "worksFor": { "@type": "Organization", "name": "Seymour Digital Media" }
+      },
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://knowhowmarketinglab.com/power-hours"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the KnowHow Marketing Power Hours?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Power Hours are free weekly live Q&A sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour answers real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Sessions are not recorded — you must attend live." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I join the Power Hours?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Register using the form on this page. You will receive a confirmation email with the Zoom link and a Monday reminder before each session." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the Power Hours really free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Power Hours are 100% free. No credit card required. They are the free, public-facing Q&A sessions run by KnowHow Marketing Lab. For deeper training, The Lab membership is available at $29/month." }
+        },
+        {
+          "@type": "Question",
+          "name": "What topics are covered in Power Hours?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Power Hours cover Google Ads (campaigns, bidding, Performance Max), SEO (rankings, Search Console, keyword research), AI and ChatGPT tools for marketing, Google Analytics 4 (GA4), and general marketing strategy. There is no fixed agenda — you bring your real questions and get live answers." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Power Hours sessions recorded?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Q&A every Thursday." }
+        }
+      ]
+    }
+  ]
+};
+
 export default function PowerHours() {
   const countdown = useNextSessionCountdown();
 
-  useEffect(() => {
-    document.title = 'Free Marketing Power Hours – KnowHow Marketing Lab';
-    const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute('content', 'Join our free weekly Marketing Power Hours every Tuesday 12–1pm Pacific. Bring your real questions on SEO, Google Ads, and AI. No slides — just live answers.');
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/power-hours');
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'Free Marketing Power Hours – KnowHow Marketing Lab');
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Free weekly live sessions every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live answers.');
-    return () => {
-      document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
-    };
-  }, []);
+  useSEO({
+    title: 'Free Marketing Power Hours – KnowHow Marketing Lab',
+    description: 'Free weekly live Q&A on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy. No slides — just live answers.',
+    canonical: 'https://knowhowmarketinglab.com/power-hours',
+    ogTitle: 'Free Marketing Power Hours – KnowHow Marketing Lab',
+    ogDescription: 'Free weekly live sessions every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live answers.',
+    ogType: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(powerHoursSchema) }} />
       <AnnouncementBar />
       <Navbar />
 
@@ -201,7 +282,9 @@ export default function PowerHours() {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
-                    href="#register"
+                    href={GHL_FORM_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
                     style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                     aria-label="Register for Free Power Hours"
@@ -251,7 +334,7 @@ export default function PowerHours() {
                   ))}
                 </div>
                 <a
-                  href="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
+                  href={GHL_FORM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full"
@@ -403,6 +486,41 @@ export default function PowerHours() {
                 >
                   Join The Lab – $29/mo
                 </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── FAQ ── */}
+        <section className="py-20 bg-gray-50 border-t border-gray-100" aria-labelledby="power-hours-faq-heading">
+          <div className="container">
+            <div className="max-w-2xl mx-auto">
+              <h2 id="power-hours-faq-heading" className="text-3xl font-extrabold text-gray-900 mb-10" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {[
+                  { q: 'What are the KnowHow Marketing Power Hours?', a: 'Power Hours are free weekly live Q&A sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour answers real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. There is no fixed agenda — you bring your real questions and get live answers.' },
+                  { q: 'How do I join?', a: 'Click the Register Free button on this page. You will receive a confirmation email with the Zoom link and a Monday reminder before each session.' },
+                  { q: 'Are the Power Hours really free?', a: 'Yes — 100% free. No credit card required. Power Hours are the free, public-facing Q&A sessions run by KnowHow Marketing Lab. For deeper training, The Lab membership is available at $29/month.' },
+                  { q: 'What topics are covered?', a: 'Google Ads (campaigns, bidding, Performance Max), SEO (rankings, Search Console, keyword research), AI and ChatGPT tools for marketing, Google Analytics 4 (GA4), and general marketing strategy. You bring the question — Pip brings the answer.' },
+                  { q: 'Are sessions recorded?', a: 'No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Q&A every Thursday.' },
+                ].map((faq, i) => (
+                  <div key={i} className="border-b border-gray-200 pb-6">
+                    <h3 className="text-base font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{faq.q}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-10 text-center">
+                <a
+                  href={GHL_FORM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                >
+                  Register Free — Save My Spot
+                </a>
+                <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Every Tuesday 12pm Pacific</p>
               </div>
             </div>
           </div>

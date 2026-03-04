@@ -3,10 +3,11 @@
 // Purpose: Dedicated page explaining The Lab community, what's inside, and driving direct sign-ups to GoHighLevel
 // CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
+import { useSEO } from '@/hooks/useSEO';
 
 const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
@@ -171,28 +172,80 @@ function JoinButton({ label = 'Join The Lab – $29/mo →', className = '' }: {
   );
 }
 
+const communitySchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://knowhowmarketinglab.com/community",
+      "url": "https://knowhowmarketinglab.com/community",
+      "name": "The KnowHow Lab – Marketing Community for Business Owners",
+      "description": "Join The Lab — weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month.",
+      "isPartOf": { "@id": "https://knowhowmarketinglab.com/#website" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://knowhowmarketinglab.com/community#service",
+      "name": "The KnowHow Lab Membership",
+      "description": "A paid membership community ($29/month) for business owners and marketing teams. Includes weekly live Q&A every Thursday, monthly deep-dive training, Google Ads and AI + SEO courses, fillable worksheets, and a private community group.",
+      "provider": {
+        "@type": "Organization",
+        "name": "KnowHow Marketing Lab",
+        "url": "https://knowhowmarketinglab.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "29",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        },
+        "availability": "https://schema.org/InStock"
+      },
+      "serviceType": "Online Marketing Education and Community",
+      "areaServed": "Worldwide"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is The KnowHow Lab?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes weekly live Q&A every Thursday, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does The Lab cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month. This is an early access price that will increase as the community grows. You can cancel anytime." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the free Power Hours and The Lab?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open Q&A sessions every Tuesday on Zoom — no registration required beyond signing up for the Zoom link. The Lab is a paid membership that includes everything in the free tier plus weekly recorded Q&A every Thursday, full course access, monthly training, worksheets, and a private community group." }
+        }
+      ]
+    }
+  ]
+};
+
 export default function Community() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  useEffect(() => {
-    document.title = 'The KnowHow Lab – Join Our Marketing Community';
-    const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute('content', 'Join The Lab — the KnowHow Marketing Lab community for business owners and marketing teams. Weekly live Q&A, Google Ads & SEO training, AI tools, and a private group for $29/month.');
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/community');
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'The KnowHow Lab – Join Our Marketing Community');
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month. Join The Lab today.');
-    const ogUrl = document.querySelector('meta[property="og:url"]');
-    if (ogUrl) ogUrl.setAttribute('content', 'https://knowhowmarketinglab.com/community');
-    return () => {
-      document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
-    };
-  }, []);
+  useSEO({
+    title: 'The KnowHow Lab – Marketing Community | KnowHow Marketing Lab',
+    description: 'Join The Lab — weekly live Q&A every Thursday, Google Ads & SEO training, AI tools, and a private community for $29/month. Led by 20+ year agency veterans.',
+    canonical: 'https://knowhowmarketinglab.com/community',
+    ogTitle: 'The KnowHow Lab – Join Our Marketing Community',
+    ogDescription: 'Weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month. Join The Lab today.',
+    ogType: 'website',
+  });
 
   return (
     <div className="min-h-screen bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(communitySchema) }} />
       <AnnouncementBar />
       <Navbar />
 
