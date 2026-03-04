@@ -5,7 +5,7 @@
 // Zoom link: https://us02web.zoom.us/j/6217417145
 // NOT recorded — must attend live
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
@@ -72,7 +72,57 @@ const themeColors: Record<string, string> = {
   'SEO Deep Dive': '#4F37D8',
 };
 
+// Returns days/hours/mins/secs until next Tuesday 12pm Pacific
+function useNextSessionCountdown() {
+  const getCountdown = () => {
+    const now = new Date();
+    // Pacific time offset: PST = UTC-8, PDT = UTC-7
+    // Use Intl to get Pacific time
+    const pacificNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+    const day = pacificNow.getDay(); // 0=Sun, 2=Tue
+    const hours = pacificNow.getHours();
+    const minutes = pacificNow.getMinutes();
+    const seconds = pacificNow.getSeconds();
+
+    // Days until next Tuesday
+    let daysUntilTuesday = (2 - day + 7) % 7;
+    // If it's Tuesday but before noon, session is today
+    if (day === 2 && (hours < 12 || (hours === 12 && minutes === 0 && seconds === 0))) {
+      daysUntilTuesday = 0;
+    }
+    // If it's Tuesday at or after noon, next session is in 7 days
+    if (day === 2 && hours >= 12 && !(hours === 12 && minutes === 0 && seconds === 0)) {
+      daysUntilTuesday = 7;
+    }
+
+    const nextSession = new Date(pacificNow);
+    nextSession.setDate(pacificNow.getDate() + daysUntilTuesday);
+    nextSession.setHours(12, 0, 0, 0);
+
+    const diffMs = nextSession.getTime() - pacificNow.getTime();
+    if (diffMs <= 0) return { days: 0, hours: 0, mins: 0, secs: 0, live: true };
+
+    const totalSecs = Math.floor(diffMs / 1000);
+    return {
+      days: Math.floor(totalSecs / 86400),
+      hours: Math.floor((totalSecs % 86400) / 3600),
+      mins: Math.floor((totalSecs % 3600) / 60),
+      secs: totalSecs % 60,
+      live: false,
+    };
+  };
+
+  const [countdown, setCountdown] = useState(getCountdown);
+  useEffect(() => {
+    const id = setInterval(() => setCountdown(getCountdown()), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return countdown;
+}
+
 export default function PowerHours() {
+  const countdown = useNextSessionCountdown();
+
   useEffect(() => {
     document.title = 'Free Marketing Power Hours – KnowHow Marketing Lab';
     const desc = document.querySelector('meta[name="description"]');
@@ -100,12 +150,40 @@ export default function PowerHours() {
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="flex items-center gap-2 mb-5">
-                  <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
-                  <span className="text-xs font-bold text-green-600 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                    Free · Every Tuesday · 12–1pm Pacific
-                  </span>
-                </div>
+                {/* Live countdown timer */}
+                {countdown.live ? (
+                  <div className="inline-flex items-center gap-2 mb-5 bg-green-50 border border-green-200 rounded-xl px-4 py-2.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
+                    <span className="text-sm font-bold text-green-700" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>We’re LIVE right now — Join on Zoom →</span>
+                  </div>
+                ) : (
+                  <div className="mb-5">
+                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Next session starts in</p>
+                    <div className="flex items-end gap-2" aria-label={`Next session in ${countdown.days} days ${countdown.hours} hours ${countdown.mins} minutes`}>
+                      {[
+                        { val: countdown.days, label: 'days' },
+                        { val: countdown.hours, label: 'hrs' },
+                        { val: countdown.mins, label: 'min' },
+                        { val: countdown.secs, label: 'sec' },
+                      ].map(({ val, label }) => (
+                        <div key={label} className="flex flex-col items-center">
+                          <div className="w-14 h-14 bg-gray-900 rounded-xl flex items-center justify-center shadow-sm">
+                            <span className="text-2xl font-extrabold text-white tabular-nums" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                              {String(val).padStart(2, '0')}
+                            </span>
+                          </div>
+                          <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mt-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{label}</span>
+                        </div>
+                      ))}
+                      <div className="mb-4 ml-1">
+                        <span className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 text-xs font-bold px-2.5 py-1 rounded-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                          <span className="w-1.5 h-1.5 rounded-full bg-green-500" aria-hidden="true" />
+                          Free · Zoom
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
                 <h1
                   id="power-hours-hero-heading"
                   className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-5 leading-tight"
