@@ -5,7 +5,10 @@
 import { useState, useCallback, useEffect } from 'react';
 import { videos, categoryLabels, getYouTubeThumbnail, getYouTubeEmbedUrl, type VideoCategory } from '@/lib/videos';
 
-const CATEGORIES: Array<{ key: VideoCategory | 'all'; label: string }> = [
+type FilterKey = VideoCategory | 'all' | 'featured';
+
+const CATEGORIES: Array<{ key: FilterKey; label: string }> = [
+  { key: 'featured', label: '★ Start Here' },
   { key: 'all', label: 'All Videos' },
   { key: 'seo', label: 'SEO' },
   { key: 'google-ads', label: 'Google Ads' },
@@ -17,14 +20,17 @@ const CATEGORIES: Array<{ key: VideoCategory | 'all'; label: string }> = [
 const INITIAL_SHOW = 6;
 
 export default function VideoLibrary() {
-  const [activeCategory, setActiveCategory] = useState<VideoCategory | 'all'>('all');
+  const [activeCategory, setActiveCategory] = useState<FilterKey>('featured');
   const [showAll, setShowAll] = useState(false);
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
   const [activeTitle, setActiveTitle] = useState('');
 
-  const filtered = activeCategory === 'all'
-    ? videos
-    : videos.filter(v => v.category === activeCategory);
+  const filtered =
+    activeCategory === 'featured'
+      ? videos.filter(v => v.featured)
+      : activeCategory === 'all'
+        ? videos
+        : videos.filter(v => v.category === activeCategory);
 
   const displayed = showAll ? filtered : filtered.slice(0, INITIAL_SHOW);
 
@@ -98,14 +104,22 @@ export default function VideoLibrary() {
               onClick={() => { setActiveCategory(cat.key); setShowAll(false); }}
               className={`px-4 py-2 rounded-full text-sm font-semibold transition-all duration-150 border ${
                 activeCategory === cat.key
-                  ? 'bg-[#E98C28] text-white border-[#E98C28] shadow-sm'
-                  : 'bg-white text-gray-600 border-gray-200 hover:border-[#E98C28] hover:text-[#E98C28]'
+                  ? cat.key === 'featured'
+                    ? 'bg-[#318599] text-white border-[#318599] shadow-sm'
+                    : 'bg-[#E98C28] text-white border-[#E98C28] shadow-sm'
+                  : cat.key === 'featured'
+                    ? 'bg-[#318599]/10 text-[#318599] border-[#318599]/30 hover:bg-[#318599] hover:text-white hover:border-[#318599]'
+                    : 'bg-white text-gray-600 border-gray-200 hover:border-[#E98C28] hover:text-[#E98C28]'
               }`}
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               {cat.label}
               <span className="ml-1.5 text-xs opacity-70">
-                ({cat.key === 'all' ? videos.length : videos.filter(v => v.category === cat.key).length})
+                ({cat.key === 'featured'
+                  ? videos.filter(v => v.featured).length
+                  : cat.key === 'all'
+                    ? videos.length
+                    : videos.filter(v => v.category === cat.key).length})
               </span>
             </button>
           ))}
@@ -116,7 +130,7 @@ export default function VideoLibrary() {
         <div
           className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5"
           role="tabpanel"
-          aria-label={`${activeCategory === 'all' ? 'All' : categoryLabels[activeCategory as VideoCategory]} videos`}
+          aria-label={`${activeCategory === 'featured' ? 'Start Here' : activeCategory === 'all' ? 'All' : categoryLabels[activeCategory as VideoCategory]} videos`}
         >
           {displayed.map((video, idx) => (
             <article

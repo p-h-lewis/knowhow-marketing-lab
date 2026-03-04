@@ -529,6 +529,33 @@ export default function PowerHours() {
       </main>
 
       <Footer />
+
+      {/* ── STICKY MOBILE REGISTRATION BAR ── */}
+      {/* Visible only on mobile (md:hidden). Fixed to bottom of screen. Appears after scrolling past hero. */}
+      <div
+        className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.12)] px-4 py-3 flex items-center gap-3"
+        role="complementary"
+        aria-label="Register for Power Hours"
+      >
+        <div className="flex-1 min-w-0">
+          <p className="text-xs font-bold text-gray-900 leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Marketing Power Hours</p>
+          <p className="text-xs text-gray-500 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif' }}>Every Tuesday · 12pm Pacific · Zoom</p>
+        </div>
+        <a
+          href={GHL_FORM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-shrink-0 inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-5 py-3 text-sm transition-all duration-200 shadow-md active:scale-95"
+          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+          aria-label="Register free for Marketing Power Hours on Zoom"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+          Register Free
+        </a>
+      </div>
+
+      {/* Bottom padding spacer on mobile to prevent footer content being hidden behind sticky bar */}
+      <div className="h-20 md:hidden" aria-hidden="true" />
     </div>
   );
 }

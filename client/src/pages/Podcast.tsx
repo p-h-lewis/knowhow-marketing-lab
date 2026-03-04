@@ -394,16 +394,38 @@ export default function Podcast() {
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white/10 border border-white/20 rounded-xl p-6">
-                <h3 className="font-bold text-white text-lg mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</h3>
-                <p className="text-[#7ecfdf] text-xs font-semibold mb-3 uppercase tracking-wide" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Digital Marketing Strategist · SEO · GA4 · Content</p>
+              {/* Pip Seymour */}
+              <div className="bg-white/10 border border-white/20 rounded-xl p-6 flex flex-col">
+                <div className="flex items-center gap-4 mb-4">
+                  <img
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png"
+                    alt="Pip Seymour — Digital Marketing Strategist"
+                    className="w-16 h-16 rounded-full object-cover object-top border-2 border-[#7ecfdf]/40 flex-shrink-0"
+                    loading="lazy"
+                  />
+                  <div>
+                    <h3 className="font-bold text-white text-lg leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</h3>
+                    <p className="text-[#7ecfdf] text-xs font-semibold uppercase tracking-wide mt-0.5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>SEO · GA4 · Content · GEO</p>
+                  </div>
+                </div>
                 <p className="text-gray-300 text-sm leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Pip has 20+ years of experience helping medium-sized businesses grow their organic search presence. She specialises in SEO strategy, Google Analytics 4, content marketing, and Generative Engine Optimization (GEO). Pip built the Data-First AI SEO Method — a five-step framework for growing a business online using real data instead of guesswork.
                 </p>
               </div>
-              <div className="bg-white/10 border border-white/20 rounded-xl p-6">
-                <h3 className="font-bold text-white text-lg mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Phelan Lewis</h3>
-                <p className="text-[#E98C28] text-xs font-semibold mb-3 uppercase tracking-wide" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Specialist · Data Analyst · GA4 · GTM</p>
+              {/* Phelan Lewis */}
+              <div className="bg-white/10 border border-white/20 rounded-xl p-6 flex flex-col">
+                <div className="flex items-center gap-4 mb-4">
+                  <img
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png"
+                    alt="Phelan Lewis — Google Ads Specialist"
+                    className="w-16 h-16 rounded-full object-cover object-top border-2 border-[#E98C28]/40 flex-shrink-0"
+                    loading="lazy"
+                  />
+                  <div>
+                    <h3 className="font-bold text-white text-lg leading-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Phelan Lewis</h3>
+                    <p className="text-[#E98C28] text-xs font-semibold uppercase tracking-wide mt-0.5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads · Data Analyst · GA4 · GTM</p>
+                  </div>
+                </div>
                 <p className="text-gray-300 text-sm leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Phelan is a Google Ads specialist and data analyst who builds performance-driven campaigns for medium-sized businesses. He teaches businesses how to read their own marketing data — from GA4 and Google Tag Manager to Google Ads Editor and Scripts. Phelan brings a numbers-first perspective to every episode, connecting campaign performance back to real business outcomes.
                 </p>
