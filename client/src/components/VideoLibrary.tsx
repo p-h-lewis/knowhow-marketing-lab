@@ -14,7 +14,7 @@ const CATEGORIES: Array<{ key: VideoCategory | 'all'; label: string }> = [
   { key: 'live', label: 'Live Classes' },
 ];
 
-const INITIAL_SHOW = 12;
+const INITIAL_SHOW = 6;
 
 export default function VideoLibrary() {
   const [activeCategory, setActiveCategory] = useState<VideoCategory | 'all'>('all');

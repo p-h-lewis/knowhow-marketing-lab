@@ -118,8 +118,6 @@ export default function Footer() {
                 { label: 'The Lab – $29/mo', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
                 { label: 'Free vs Paid — Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce' },
-                { label: 'Community Pricing', href: '/pricing' },
-                { label: 'Meet the Instructors', href: '/about' },
               ].map(link => (
                 <li key={link.label}>
                   {link.href.startsWith('http') ? (

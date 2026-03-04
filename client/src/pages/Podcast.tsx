@@ -339,8 +339,7 @@ export default function Podcast() {
         {/* Topic Clusters — deep content for GEO */}
         <section className="py-16 bg-gray-50" aria-labelledby="topics-heading">
           <div className="container max-w-4xl">
-            <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What We Cover</span>
-            <h2 id="topics-heading" className="text-3xl font-extrabold text-gray-900 mt-2 mb-10" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <h2 id="topics-heading" className="text-3xl font-extrabold text-gray-900 mb-10" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Topics covered across 99+ episodes
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -359,8 +358,7 @@ export default function Podcast() {
         <section className="py-16 bg-white" aria-labelledby="episodes-heading">
           <div className="container max-w-5xl">
             <div className="text-center mb-8">
-              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All Episodes</span>
-              <h2 id="episodes-heading" className="text-3xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              <h2 id="episodes-heading" className="text-3xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 {podcastEpisodes.length}+ Episodes — Free on YouTube
               </h2>
               <p className="text-gray-500 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>Browse by year or search by topic</p>

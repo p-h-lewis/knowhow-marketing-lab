@@ -24,9 +24,6 @@ export default function CommunitySection() {
 
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Two Ways to Learn With Us
-          </span>
           <h2
             id="community-heading"
             className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2 mb-3"
@@ -156,31 +153,12 @@ export default function CommunitySection() {
           </div>
         </div>
 
-        {/* Perks Grid — Lab only */}
-        <div>
-          <h3 className="text-xl font-bold text-gray-900 mb-2 text-center" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Everything Included in The Lab
-          </h3>
-          <p className="text-center text-sm text-gray-400 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            On top of everything in the free group
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            {labPerks.map(perk => (
-              <div
-                key={perk.title}
-                className="bg-gray-50 rounded-xl p-5 border border-gray-100 hover:border-[#318599] hover:shadow-sm transition-all duration-200"
-              >
-                <div className="text-2xl mb-3" aria-hidden="true">{perk.icon}</div>
-                <h4 className="font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  {perk.title}
-                </h4>
-                <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  {perk.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Simple link to full community page */}
+        <p className="text-center text-sm text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+          <a href="/community" className="text-[#E98C28] font-semibold hover:underline">
+            See everything included in The Lab →
+          </a>
+        </p>
 
       </div>
     </section>

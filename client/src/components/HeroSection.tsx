@@ -61,17 +61,11 @@ export default function HeroSection() {
 
             {/* Subheading */}
             <p
-              className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3 max-w-xl"
+              className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-6 max-w-xl"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. We teach you how to get found on Google - using real data, not guesswork.
-            </p>
-            <p
-              className="text-base text-gray-500 leading-relaxed mb-6 max-w-xl hidden sm:block"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Our courses cover SEO, Google Ads, Google Analytics 4 (GA4), and AI marketing tools. Everything is taught by Pip Seymour and Phelan Lewis - two Canadian agency owners with 20+ years of hands-on experience.
+              Free SEO, Google Ads &amp; AI marketing training — taught by agency veterans with 20+ years of hands-on experience. Real data, no guesswork.
             </p>
 
             {/* Lead Capture Form */}
@@ -116,14 +110,12 @@ export default function HeroSection() {
             {/* What you get */}
             <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get for free">
               {[
-                { icon: '', text: '60+ free video lessons on YouTube — no sign-up needed' },
-                { icon: '', text: 'Full 5-module SEO course — 100% free, no credit card' },
-                { icon: '', text: 'Free Power Hours every Tuesday in our Facebook group' },
-                { icon: '', text: 'Go deeper in The Lab — weekly live Q&A, courses & AI training for $29/mo' },
+                { icon: '', text: '60+ free video lessons + full 5-module SEO course — no sign-up needed' },
+                { icon: '', text: 'Go deeper in The Lab — weekly live Q&A, AI training &amp; courses for $29/mo' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
-                  {item.text}
+                  <span dangerouslySetInnerHTML={{ __html: item.text }} />
                 </li>
               ))}
             </ul>

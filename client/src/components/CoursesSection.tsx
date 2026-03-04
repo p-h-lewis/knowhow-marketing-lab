@@ -41,9 +41,6 @@ export default function CoursesSection() {
     >
       <div className="container">
         <div className="text-center max-w-xl mx-auto mb-10">
-          <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Courses & Training
-          </span>
           <h2
             id="courses-heading"
             className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2 mb-3"

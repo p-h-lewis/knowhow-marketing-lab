@@ -38,14 +38,12 @@ export default function Navbar() {
   // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav - Community is now a dropdown
+  // Desktop nav - simplified to 5 items + Learn dropdown
   const desktopNavLinks = [
-    { label: 'AI + SEO Course', href: '/courses/seo' },
+    { label: 'Free Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
-    { label: 'Our Method', href: '/framework' },
     { label: 'Pricing', href: '/pricing' },
-    { label: 'About', href: '/about' },
   ];
 
   // Mobile nav - full list including Podcast, Resources, and Power Hours
@@ -132,33 +130,51 @@ export default function Navbar() {
               </li>
             ))}
 
-            {/* Community Dropdown */}
+            {/* Combined Learn Dropdown */}
             <li className="relative group">
               <button
                 className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 flex items-center gap-1 whitespace-nowrap ${
-                  location === '/community' || location === '/power-hours'
+                  ['/community', '/power-hours', '/courses/seo', '/courses/google-ads', '/framework'].includes(location)
                     ? 'text-[#E98C28] bg-amber-50'
                     : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
                 }`}
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
                 aria-haspopup="true"
                 aria-expanded={communityOpen}
-                aria-controls="community-dropdown"
-                aria-label="Community - expand menu"
+                aria-controls="learn-dropdown"
+                aria-label="Learn - expand menu"
                 onClick={() => setCommunityOpen(o => !o)}
                 onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCommunityOpen(false); }}
               >
-                Community
+                Learn
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               <div
-                id="community-dropdown"
-                className={`absolute top-full left-0 mt-1 w-64 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
+                id="learn-dropdown"
+                className={`absolute top-full right-0 mt-1 w-72 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-2 ${
                   communityOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
                 }`}
               >
+                <div className="px-4 py-1.5">
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Courses</p>
+                </div>
+                {courseLinks.map(cl => (
+                  <Link
+                    key={cl.href}
+                    href={cl.href}
+                    className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
+                    style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    onClick={() => setCommunityOpen(false)}
+                  >
+                    {cl.label}
+                    <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
+                  </Link>
+                ))}
+                <div className="border-t border-gray-100 mt-1 pt-1 px-4 py-1.5">
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Community</p>
+                </div>
                 {communityLinks.map(cl => (
                   <Link
                     key={cl.href}
@@ -174,44 +190,16 @@ export default function Navbar() {
                     >{cl.badge}</span>
                   </Link>
                 ))}
-              </div>
-            </li>
-
-            {/* Courses Dropdown */}
-            <li className="relative group">
-              <button
-                className="text-sm font-medium px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-all duration-150 flex items-center gap-1 whitespace-nowrap"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
-                aria-haspopup="true"
-                aria-expanded={coursesOpen}
-                aria-controls="courses-dropdown"
-                aria-label="Courses - expand menu"
-                onClick={() => setCoursesOpen(o => !o)}
-                onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCoursesOpen(false); }}
-              >
-                Courses
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div
-                id="courses-dropdown"
-                className={`absolute top-full left-0 mt-1 w-60 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-1 ${
-                  coursesOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
-                }`}
-              >
-                {courseLinks.map(cl => (
+                <div className="border-t border-gray-100 mt-1 pt-1">
                   <Link
-                    key={cl.href}
-                    href={cl.href}
-                    className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
+                    href="/framework"
+                    className="flex items-center px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    onClick={() => setCoursesOpen(false)}
+                    onClick={() => setCommunityOpen(false)}
                   >
-                    {cl.label}
-                    <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
+                    Our Method
                   </Link>
-                ))}
+                </div>
               </div>
             </li>
           </ul>
