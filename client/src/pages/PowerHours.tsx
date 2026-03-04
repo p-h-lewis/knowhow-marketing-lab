@@ -1,8 +1,9 @@
 // KnowHow Marketing Lab – Power Hours Page (/power-hours)
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
-// Purpose: Free weekly marketing Power Hours held in the Business Marketing Mixer Facebook group
+// Purpose: Free weekly marketing Power Hours held on Zoom — open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, marketing strategy
 // Schedule: Every Tuesday 12–1pm Pacific
-// CTA: Join the free Facebook group → https://www.facebook.com/groups/businessmarketingmixer
+// Zoom link: https://us02web.zoom.us/j/6217417145
+// NOT recorded — must attend live
 
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
@@ -10,17 +11,18 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
+const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 const LAB_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
-// Upcoming Tuesday sessions — themes rotate weekly
+// Upcoming Tuesday sessions — open Q&A, no fixed theme
 const upcomingSessions = [
-  { date: 'Tuesday, March 11', time: '12–1pm Pacific', theme: 'SEO Fundamentals', topic: 'How to read your Google Search Console data and find quick wins', color: '#318599' },
-  { date: 'Tuesday, March 18', time: '12–1pm Pacific', theme: 'Google Ads', topic: 'Campaign structure basics — what you should set up before spending a dollar', color: '#E98C28' },
-  { date: 'Tuesday, March 25', time: '12–1pm Pacific', theme: 'AI in Marketing', topic: 'Using ChatGPT to write better ad copy and meta descriptions', color: '#4F37D8' },
-  { date: 'Tuesday, April 1', time: '12–1pm Pacific', theme: 'GA4 & Analytics', topic: 'Understanding your traffic sources and what the numbers actually mean', color: '#318599' },
-  { date: 'Tuesday, April 8', time: '12–1pm Pacific', theme: 'Google Ads', topic: 'Bidding strategies explained — when to use manual vs smart bidding', color: '#E98C28' },
-  { date: 'Tuesday, April 15', time: '12–1pm Pacific', theme: 'SEO Deep Dive', topic: 'Keyword clusters and how to build content that ranks', color: '#4F37D8' },
+  { date: 'Tuesday, March 11', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your questions on Google Ads, SEO, AI, ChatGPT, or marketing strategy. Live help from Pip.', color: '#318599' },
+  { date: 'Tuesday, March 18', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Get live answers on Google Ads, SEO, LLMs, GA4, or any marketing challenge you are facing.', color: '#E98C28' },
+  { date: 'Tuesday, March 25', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your toughest marketing question — Google Ads, SEO, AI tools, or planning for the month ahead.', color: '#4F37D8' },
+  { date: 'Tuesday, April 1', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Start the month with a plan. Get help with Google Ads, SEO, ChatGPT, or AI marketing strategy.', color: '#318599' },
+  { date: 'Tuesday, April 8', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Live Q&A on Google Ads, SEO, AI, LLMs, GA4, or any marketing challenge you want to work through.', color: '#E98C28' },
+  { date: 'Tuesday, April 15', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your real marketing problems — Google Ads, SEO, AI tools, or planning your next campaign.', color: '#4F37D8' },
 ];
 
 const whatToExpect = [
@@ -48,8 +50,8 @@ const whatToExpect = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
       </svg>
     ),
-    title: 'Weekly themed topics',
-    desc: 'Each session has a theme — SEO, Google Ads, AI, or GA4 — so you can plan ahead and come prepared with topic-specific questions.',
+    title: 'Not recorded — show up live',
+    desc: 'Sessions are not recorded. The only way to get the help is to show up. This keeps the conversation honest and the advice specific to you.',
   },
   {
     icon: (
@@ -119,21 +121,21 @@ export default function PowerHours() {
                   <span className="text-[#E98C28]">Marketing Power Hours</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Tuesday at 12pm Pacific, Pip Seymour opens up a live Q&amp;A session in the free <strong>Business Marketing Mixer</strong> Facebook group. Bring your real questions on SEO, Google Ads, and AI marketing. No slides. No pitch. Just live answers.
+                  Every Tuesday at 12pm Pacific, Pip Seymour runs a free live Q&amp;A on Zoom. Bring your real questions on <strong>Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy</strong>. No slides. No pitch. Just live answers — and a plan for the month ahead.
                 </p>
+                <div className="flex items-center gap-2 mb-4 p-3 bg-amber-50 border border-amber-200 rounded-xl">
+                  <svg className="w-4 h-4 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                  <span className="text-xs font-semibold text-amber-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Sessions are not recorded — you must attend live to get the help</span>
+                </div>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
-                    href={FB_GROUP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-[#1877F2] hover:bg-[#1565d8] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                    href="#register"
+                    className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
                     style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                    aria-label="Join the free Business Marketing Mixer Facebook group"
+                    aria-label="Register for Free Power Hours"
                   >
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                    </svg>
-                    Join the Free Group
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                    Save My Spot — It's Free
                   </a>
                   <a
                     href="#schedule"
@@ -144,12 +146,12 @@ export default function PowerHours() {
                   </a>
                 </div>
                 <p className="text-xs text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  100% free · No credit card · Just join the Facebook group and show up
+                  100% free · No credit card · Register below and join on Zoom every Tuesday
                 </p>
               </div>
 
               {/* GHL Registration Form */}
-              <div className="bg-gray-50 rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+              <div id="register" className="bg-gray-50 rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
                 <iframe
                   src="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
                   style={{ width: '100%', height: '709px', border: 'none', borderRadius: '24px' }}

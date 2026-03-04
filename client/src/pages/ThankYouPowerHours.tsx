@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 
+const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 
 // Build the next Tuesday date dynamically
@@ -51,9 +52,9 @@ export default function ThankYouPowerHours() {
 
   const eventTitle = encodeURIComponent('Free Marketing Power Hours – KnowHow Marketing Lab');
   const eventDesc = encodeURIComponent(
-    'Join Pip live in the Business Marketing Mixer Facebook group for a free open Q&A session on SEO, Google Ads, and AI marketing. Bring your real questions — no slides, just live answers.\n\nJoin here: https://www.facebook.com/groups/businessmarketingmixer'
+    'Join Pip live on Zoom for a free open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy. Bring your real questions — no slides, just live answers. NOT recorded — you must attend live.\n\nZoom link: https://us02web.zoom.us/j/6217417145'
   );
-  const eventLocation = encodeURIComponent('https://www.facebook.com/groups/businessmarketingmixer');
+  const eventLocation = encodeURIComponent('https://us02web.zoom.us/j/6217417145');
 
   const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${toGCalDate(nextTuesday)}&details=${eventDesc}&location=${eventLocation}&recur=RRULE:FREQ=WEEKLY;BYDAY=TU`;
 
@@ -73,9 +74,9 @@ export default function ThankYouPowerHours() {
     `DTEND:${icsEnd}`,
     'RRULE:FREQ=WEEKLY;BYDAY=TU',
     `SUMMARY:Free Marketing Power Hours – KnowHow Marketing Lab`,
-    `DESCRIPTION:Join Pip live in the Business Marketing Mixer Facebook group for a free open Q&A on SEO\\, Google Ads\\, and AI marketing. Join here: https://www.facebook.com/groups/businessmarketingmixer`,
-    `LOCATION:https://www.facebook.com/groups/businessmarketingmixer`,
-    `URL:https://www.facebook.com/groups/businessmarketingmixer`,
+    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\\, SEO\\, AI\\, ChatGPT\\, LLMs\\, and marketing strategy. NOT recorded — you must attend live. Zoom: https://us02web.zoom.us/j/6217417145`,
+    `LOCATION:https://us02web.zoom.us/j/6217417145`,
+    `URL:https://us02web.zoom.us/j/6217417145`,
     'END:VEVENT',
     'END:VCALENDAR',
   ].join('\r\n');
@@ -192,31 +193,34 @@ export default function ThankYouPowerHours() {
                 </div>
               </div>
 
-              {/* Step 2: Join Facebook Group */}
+              {/* Step 2: Save Zoom Link */}
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 rounded-xl bg-[#318599] flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                     </svg>
                   </div>
                   <div>
                     <p className="text-xs font-bold text-gray-400 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Step 2</p>
-                    <h2 className="text-base font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Join the Facebook group</h2>
+                    <h2 className="text-base font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Save your Zoom link</h2>
                   </div>
                 </div>
-                <p className="text-sm text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Power Hours runs live inside the Business Marketing Mixer group. Join now so you're ready when Tuesday arrives.
+                <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Power Hours runs live on Zoom every Tuesday at 12pm Pacific. Sessions are <strong className="text-gray-700">not recorded</strong> — you must attend live.
                 </p>
+                <div className="bg-white border border-gray-200 rounded-xl p-3 mb-4 font-mono text-xs text-gray-600 break-all select-all">
+                  https://us02web.zoom.us/j/6217417145
+                </div>
                 <a
-                  href={FB_GROUP_URL}
+                  href={ZOOM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full text-white font-bold text-sm px-4 py-3 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md"
                   style={{ background: 'linear-gradient(135deg, #318599, #2a7080)', fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join the Business Marketing Mixer Facebook group"
+                  aria-label="Open Zoom link for Free Power Hours"
                 >
-                  Join Business Marketing Mixer →
+                  Open Zoom Link →
                 </a>
               </div>
             </div>
