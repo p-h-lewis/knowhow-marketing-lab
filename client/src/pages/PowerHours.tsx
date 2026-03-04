@@ -4,7 +4,7 @@
 // Schedule: Every Tuesday 12–1pm Pacific
 // CTA: Join the free Facebook group → https://www.facebook.com/groups/businessmarketingmixer
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
@@ -71,9 +71,6 @@ const themeColors: Record<string, string> = {
 };
 
 export default function PowerHours() {
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-
   useEffect(() => {
     document.title = 'Free Marketing Power Hours – KnowHow Marketing Lab';
     const desc = document.querySelector('meta[name="description"]');
@@ -84,16 +81,16 @@ export default function PowerHours() {
     if (ogTitle) ogTitle.setAttribute('content', 'Free Marketing Power Hours – KnowHow Marketing Lab');
     const ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc) ogDesc.setAttribute('content', 'Free weekly live sessions every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live answers.');
+    // Inject GHL form embed script
+    const script = document.createElement('script');
+    script.src = 'https://crm.seymourdigitalmedia.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
     return () => {
       document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
+      if (document.body.contains(script)) document.body.removeChild(script);
     };
   }, []);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In production, connect to email provider (Mailchimp, GHL, etc.)
-    setSubmitted(true);
-  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -151,67 +148,26 @@ export default function PowerHours() {
                 </p>
               </div>
 
-              {/* Email capture card */}
-              <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100 shadow-sm">
-                <div className="w-12 h-12 rounded-2xl bg-[#E98C28] flex items-center justify-center mb-5" aria-hidden="true">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                  </svg>
-                </div>
-                <h2 className="text-xl font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Get the weekly session reminder
-                </h2>
-                <p className="text-sm text-gray-500 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  We'll email you the topic and link before each Tuesday session so you never miss it.
-                </p>
-                {submitted ? (
-                  <div className="bg-green-50 border border-green-200 rounded-xl p-5 text-center">
-                    <svg className="w-8 h-8 text-green-500 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <p className="font-bold text-green-800 text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>You're on the list!</p>
-                    <p className="text-green-600 text-xs mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Check your inbox for the next session details.</p>
-                  </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-3" aria-label="Sign up for Power Hours email reminders">
-                    <div>
-                      <label htmlFor="ph-name" className="block text-xs font-semibold text-gray-700 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>First name</label>
-                      <input
-                        id="ph-name"
-                        type="text"
-                        required
-                        placeholder="Your first name"
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#318599] focus:border-transparent"
-                        style={{ fontFamily: 'DM Sans, sans-serif' }}
-                        aria-required="true"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="ph-email" className="block text-xs font-semibold text-gray-700 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Email address</label>
-                      <input
-                        id="ph-email"
-                        type="email"
-                        required
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
-                        placeholder="you@yourcompany.com"
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#318599] focus:border-transparent"
-                        style={{ fontFamily: 'DM Sans, sans-serif' }}
-                        aria-required="true"
-                      />
-                    </div>
-                    <button
-                      type="submit"
-                      className="w-full bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-sm hover:shadow-md"
-                      style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                    >
-                      Send me the reminders →
-                    </button>
-                    <p className="text-xs text-gray-400 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      No spam. Unsubscribe anytime.
-                    </p>
-                  </form>
-                )}
+              {/* GHL Registration Form */}
+              <div className="bg-gray-50 rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+                <iframe
+                  src="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
+                  style={{ width: '100%', height: '709px', border: 'none', borderRadius: '24px' }}
+                  id="inline-VpNFCGnnrKnymB81G7bB"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Free Power Hours"
+                  data-height="709"
+                  data-layout-iframe-id="inline-VpNFCGnnrKnymB81G7bB"
+                  data-form-id="VpNFCGnnrKnymB81G7bB"
+                  title="Free Power Hours registration form"
+                  aria-label="Register for Free Power Hours"
+                />
               </div>
             </div>
           </div>
