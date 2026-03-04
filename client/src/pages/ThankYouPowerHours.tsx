@@ -221,6 +221,55 @@ export default function ThankYouPowerHours() {
               </div>
             </div>
 
+            {/* ── WHAT HAPPENS NEXT ── */}
+            <div className="mb-10 text-left">
+              <h2 className="text-xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                What happens next
+              </h2>
+              <ol className="space-y-4 list-none p-0 m-0" role="list">
+                {[
+                  {
+                    step: '1',
+                    title: 'Check your inbox',
+                    desc: 'A confirmation email is on its way with the session details, the Facebook group link, and a reminder to add it to your calendar.',
+                    color: '#E98C28',
+                  },
+                  {
+                    step: '2',
+                    title: 'Join the Facebook group',
+                    desc: 'Power Hours runs live inside the Business Marketing Mixer group. Join now so you\'re ready — the session link will be pinned at the top of the group on Tuesday morning.',
+                    color: '#318599',
+                  },
+                  {
+                    step: '3',
+                    title: 'You\'ll get a reminder on Monday',
+                    desc: 'We\'ll send you a reminder email on Monday evening so you don\'t forget. No spam — just the one reminder.',
+                    color: '#4F37D8',
+                  },
+                  {
+                    step: '4',
+                    title: 'Show up Tuesday at 12pm Pacific',
+                    desc: 'Bring your biggest marketing question — SEO, Google Ads, GA4, or AI. Pip will be live in the group ready to help. No slides, no agenda, just real answers.',
+                    color: '#E98C28',
+                  },
+                ].map(item => (
+                  <li key={item.step} className="flex items-start gap-4">
+                    <div
+                      className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 text-white font-black text-sm mt-0.5"
+                      style={{ background: item.color, fontFamily: 'Space Grotesk, sans-serif' }}
+                      aria-hidden="true"
+                    >
+                      {item.step}
+                    </div>
+                    <div>
+                      <p className="font-bold text-gray-900 text-sm mb-0.5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.title}</p>
+                      <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+
             {/* ── WHAT TO BRING ── */}
             <div className="bg-amber-50 border border-amber-100 rounded-2xl p-6 mb-10 text-left">
               <h2 className="text-base font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
