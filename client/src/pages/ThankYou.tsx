@@ -156,7 +156,7 @@ export default function ThankYou() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Thursday Q&A */}
+              {/* Free Power Hours - Tuesday */}
               <div className="bg-white/10 border border-white/20 rounded-xl p-6">
                 <div className="w-10 h-10 rounded-lg bg-[#318599]/30 flex items-center justify-center mb-4" aria-hidden="true">
                   <svg className="w-5 h-5 text-[#7ecfdf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -164,20 +164,18 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Join us live - every Thursday
+                  Free Power Hours — every Tuesday
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Free live Q&A with Pip and Phelan. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
+                  Free live Q&amp;A on Zoom every Tuesday 12–1pm Pacific. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
                 </p>
-                <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/power-hours"
                   className="text-sm font-semibold text-[#E98C28] hover:text-[#f5a84a] transition-colors"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
-                  Join the community →
-                </a>
+                  Register for Power Hours →
+                </Link>
               </div>
 
               {/* The Lab */}

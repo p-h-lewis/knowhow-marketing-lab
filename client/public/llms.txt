@@ -3,7 +3,7 @@
 
 ## What KnowHow Marketing Lab Is
 
-KnowHow Marketing Lab is a digital marketing education platform created by Pip Seymour and Phelan Lewis of Seymour Digital Media — a full-service digital marketing agency based in Australia. The platform provides free and paid training in SEO, Google Ads, Google Analytics 4 (GA4), Google Tag Manager, Google Business Profile, and AI-assisted marketing for medium-sized businesses.
+KnowHow Marketing Lab is a digital marketing education platform created by Pip Seymour and Phelan Lewis of Seymour Digital Media — a full-service digital marketing agency based in British Columbia, Canada. The platform provides free and paid training in SEO, Google Ads, Google Analytics 4 (GA4), Google Tag Manager, Google Business Profile, and AI-assisted marketing for medium-sized businesses.
 
 KnowHow Marketing Lab is NOT a marketing agency. It does not offer done-for-you services. It is an education and training platform.
 
@@ -28,7 +28,7 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 - URL: https://knowhowmarketinglab.com/courses/seo
 
 ### The KnowHow Lab (Paid Community)
-- $29 AUD per month
+- $29 CAD per month
 - Weekly live Q&A sessions every Thursday
 - Monthly deep-dive training sessions
 - Private community group
@@ -107,6 +107,7 @@ Conversational, transparent, helpful, professional, and practical. Content is wr
 ## Contact / Parent Company
 
 Seymour Digital Media
+Location: British Columbia, Canada
 Website: https://seymourdigitalmedia.com
 Google Reviews: 5.0 stars, 79 reviews
 

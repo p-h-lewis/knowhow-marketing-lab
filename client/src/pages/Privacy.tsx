@@ -80,7 +80,7 @@ export default function Privacy() {
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>1. Who We Are</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                {SITE_NAME} is a digital marketing education platform operated by {COMPANY_NAME}, a company based in Australia and Canada. We provide free and paid training in SEO, Google Analytics 4 (GA4), Google Ads, and AI marketing for medium-sized businesses. Our paid community, The KnowHow Lab, is hosted on the GoHighLevel platform.
+                {SITE_NAME} is a digital marketing education platform operated by {COMPANY_NAME}, a company based in British Columbia, Canada. We provide free and paid training in SEO, Google Analytics 4 (GA4), Google Ads, and AI marketing for medium-sized businesses. Our paid community, The KnowHow Lab, is hosted on the GoHighLevel platform.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 For privacy inquiries, contact us at: <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#318599] hover:underline">{CONTACT_EMAIL}</a>

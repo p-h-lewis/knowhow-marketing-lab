@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'How do I get started for free?',
-    a: 'The easiest free starting point is the Business Marketing Mixer Facebook group, where Pip runs free Marketing Power Hours every Tuesday from 12–1pm Pacific. You can bring your real marketing questions and get live answers with no sign-up, no credit card, and no commitment. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
+    a: 'The easiest free starting point is the free Power Hours on Zoom every Tuesday from 12–1pm Pacific — Pip answers real marketing questions live with no sign-up, no credit card, and no commitment. You can also join the Business Marketing Mixer Facebook group for ongoing community support. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
   },
   {
     q: 'What is The Lab?',
