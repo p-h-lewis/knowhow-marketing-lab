@@ -511,23 +511,29 @@ export default function Podcast() {
               The podcast is monthly. The Lab is weekly — live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month. No contracts. Cancel anytime.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href={COMMUNITY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/community"
                 className="btn-primary pulse-cta"
                 aria-label="Join The Lab community for $29 per month"
               >
                 Join The Lab — $29/mo →
-              </a>
-              <a
-                href={FREE_COURSE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link
+                href="/#free-course"
                 className="btn-outline"
                 aria-label="Start the free AI + SEO course"
               >
                 Start Free Course
+              </Link>
+              <a
+                href="https://www.facebook.com/groups/businessmarketingmixer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-1.5 text-sm font-semibold text-[#1877F2] hover:text-[#1464d8] transition-colors"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                aria-label="Join the free Business Marketing Mixer Facebook group"
+              >
+                Free Facebook Group →
               </a>
             </div>
             <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Cancel anytime · No contracts · Powered by GoHighLevel</p>

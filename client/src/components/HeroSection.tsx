@@ -68,6 +68,24 @@ export default function HeroSection() {
               Free SEO, Google Ads &amp; AI marketing training — taught by agency veterans with 20+ years of hands-on experience. Real data, no guesswork.
             </p>
 
+            {/* Primary CTA: Join The Lab */}
+            <a
+              href="/community"
+              className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg mb-4 w-full sm:w-auto pulse-cta"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Join The Lab community for $29 per month"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+              Join The Lab — $29/mo
+            </a>
+
+            {/* Divider */}
+            <div className="flex items-center gap-3 mb-4 max-w-lg">
+              <div className="flex-1 h-px bg-gray-200" />
+              <span className="text-xs text-gray-400 font-medium whitespace-nowrap" style={{ fontFamily: 'DM Sans, sans-serif' }}>or start free</span>
+              <div className="flex-1 h-px bg-gray-200" />
+            </div>
+
             {/* Lead Capture Form */}
             {!submitted ? (
               <form
@@ -108,10 +126,11 @@ export default function HeroSection() {
             )}
 
             {/* What you get */}
-            <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get for free">
+            <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get">
               {[
-                { icon: '', text: '60+ free video lessons + full 5-module SEO course — no sign-up needed' },
-                { icon: '', text: 'Go deeper in The Lab — weekly live Q&A, AI training &amp; courses for $29/mo' },
+                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — weekly live Q&A every Thursday, AI + SEO &amp; Google Ads courses, private community' },
+                { icon: '', text: '<strong>Free:</strong> 60+ video lessons + 5-module SEO course — no sign-up needed' },
+                { icon: '', text: '<strong>Free Facebook group</strong> — Business Marketing Mixer, weekly Power Hours on Zoom' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>

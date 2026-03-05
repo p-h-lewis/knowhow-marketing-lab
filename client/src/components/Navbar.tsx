@@ -216,24 +216,36 @@ export default function Navbar() {
             >
               Log In
             </a>
+            {/* Secondary CTA: Free Course */}
             <a
               href={anchorHref('#free-course')}
-              className="btn-primary text-sm py-2.5 px-5 pulse-cta whitespace-nowrap"
-              aria-label="Start the AI + SEO course - no credit card required"
+              className="text-sm font-semibold text-gray-700 border border-gray-300 hover:border-[#318599] hover:text-[#318599] rounded-xl py-2.5 px-4 transition-all duration-150 whitespace-nowrap"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Start the free AI + SEO course"
             >
-              Start AI + SEO Course →
+              Free Course
+            </a>
+            {/* Primary CTA: Join The Lab */}
+            <a
+              href="/community"
+              className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap pulse-cta"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Join The Lab community for $29 per month"
+            >
+              Join The Lab — $29/mo
             </a>
           </div>
 
           {/* Mobile right side: CTA button + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href={anchorHref('#free-course')}
-              className="btn-primary text-xs py-2 px-3 whitespace-nowrap"
-              aria-label="Start the AI + SEO course"
+              href="/community"
+              className="inline-flex items-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl text-xs py-2 px-3 whitespace-nowrap transition-all duration-150"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Join The Lab for $29 per month"
               onClick={closeMobile}
             >
-              Start Free →
+              Join The Lab
             </a>
             <button
               className="p-2.5 rounded-lg text-gray-600 hover:bg-gray-100 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"

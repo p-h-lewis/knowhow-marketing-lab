@@ -227,6 +227,35 @@ export default function VideoLibrary() {
         )}
       </div>
 
+      {/* Conversion Strip — The Lab primary, Facebook group secondary */}
+      <div className="mt-16 rounded-2xl bg-gradient-to-r from-[#1a3a4a] to-[#0f2530] px-6 py-8 sm:px-10 sm:py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div>
+          <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want live Q&amp;A on these topics?</p>
+          <h3 className="text-xl sm:text-2xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Take it further in The Lab</h3>
+          <p className="text-gray-300 text-sm max-w-md" style={{ fontFamily: 'DM Sans, sans-serif' }}>Weekly live Q&amp;A every Thursday, Google Ads &amp; SEO courses, AI tools, and a private community. All for $29/mo.</p>
+        </div>
+        <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
+          <a
+            href="/community"
+            className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-6 text-sm transition-all duration-200 shadow-md whitespace-nowrap"
+            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            aria-label="Join The Lab for $29 per month"
+          >
+            Join The Lab — $29/mo →
+          </a>
+          <a
+            href="https://www.facebook.com/groups/businessmarketingmixer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl py-3 px-5 text-sm transition-all duration-200 whitespace-nowrap border border-white/20"
+            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            aria-label="Join the free Business Marketing Mixer Facebook group"
+          >
+            Free Facebook Group →
+          </a>
+        </div>
+      </div>
+
       {/* Video Modal */}
       {activeVideo && (
         <div

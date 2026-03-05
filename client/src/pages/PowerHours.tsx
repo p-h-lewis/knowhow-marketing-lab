@@ -526,6 +526,39 @@ export default function PowerHours() {
           </div>
         </section>
 
+        {/* Conversion Strip — The Lab primary, Facebook group secondary */}
+        <section className="py-16 bg-[#1a3a4a]" aria-labelledby="power-hours-upgrade-heading">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="text-center lg:text-left">
+                <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want more than free Q&amp;A?</p>
+                <h2 id="power-hours-upgrade-heading" className="text-2xl sm:text-3xl font-extrabold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Go deeper with The Lab</h2>
+                <p className="text-gray-300 max-w-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>Power Hours are free and open to everyone. The Lab adds weekly recorded Q&amp;A every Thursday, full Google Ads &amp; SEO courses, AI training, fillable worksheets, and a private community. All for $29/mo.</p>
+              </div>
+              <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
+                <Link
+                  href="/community"
+                  className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3.5 px-7 text-sm transition-all duration-200 shadow-md whitespace-nowrap pulse-cta"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join The Lab for $29 per month"
+                >
+                  Join The Lab — $29/mo →
+                </Link>
+                <a
+                  href="https://www.facebook.com/groups/businessmarketingmixer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl py-3.5 px-6 text-sm transition-all duration-200 whitespace-nowrap border border-white/20"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                  aria-label="Join the free Business Marketing Mixer Facebook group"
+                >
+                  Free Facebook Group →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       <Footer />
