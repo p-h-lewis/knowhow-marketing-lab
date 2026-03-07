@@ -2,7 +2,6 @@
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
 // Purpose: Free weekly marketing Power Hours held on Zoom — open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, marketing strategy
 // Schedule: Every Tuesday 12–1pm Pacific
-// Zoom link: https://us02web.zoom.us/j/6217417145
 // NOT recorded — must attend live
 
 import { useEffect, useState } from 'react';
@@ -12,7 +11,6 @@ import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
 
-const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 const LAB_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
 
@@ -151,7 +149,7 @@ const powerHoursSchema = {
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "location": {
         "@type": "VirtualLocation",
-        "url": "https://us02web.zoom.us/j/6217417145"
+        "url": "https://knowhowmarketinglab.com/power-hours"
       },
       "organizer": {
         "@type": "Organization",
@@ -235,7 +233,7 @@ export default function PowerHours() {
                 {countdown.live ? (
                   <div className="inline-flex items-center gap-2 mb-5 bg-green-50 border border-green-200 rounded-xl px-4 py-2.5">
                     <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
-                    <span className="text-sm font-bold text-green-700" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>We’re LIVE right now — Join on Zoom →</span>
+                    <span className="text-sm font-bold text-green-700" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>We're LIVE right now — check your email for the Zoom link</span>
                   </div>
                 ) : (
                   <div className="mb-5">
@@ -346,18 +344,7 @@ export default function PowerHours() {
                 </a>
                 <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Sessions on Zoom</p>
                 <div className="mt-5 pt-5 border-t border-gray-200">
-                  <p className="text-xs text-gray-500 mb-2 font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Already registered? Join on Zoom:</p>
-                  <a
-                    href={ZOOM_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm font-semibold text-[#318599] hover:text-[#2a7080] transition-colors"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    aria-label="Join Power Hours on Zoom"
-                  >
-                    <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
-                    us02web.zoom.us/j/6217417145
-                  </a>
+                  <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>The Zoom link is sent to your email after registering.</p>
                 </div>
               </div>
             </div>
@@ -436,17 +423,7 @@ export default function PowerHours() {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
                   Register Free — Save My Spot
                 </a>
-                <a
-                  href={ZOOM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white font-semibold rounded-xl px-8 py-4 text-base transition-all duration-200"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join Power Hours on Zoom"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
-                  Already registered? Join on Zoom
-                </a>
+
               </div>
             </div>
           </div>

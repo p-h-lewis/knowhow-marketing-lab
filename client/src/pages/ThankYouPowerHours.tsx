@@ -52,7 +52,7 @@ export default function ThankYouPowerHours() {
 
   const eventTitle = encodeURIComponent('Free Marketing Power Hours – KnowHow Marketing Lab');
   const eventDesc = encodeURIComponent(
-    'Join Pip live on Zoom for a free open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy. Bring your real questions — no slides, just live answers. NOT recorded — you must attend live.\n\nZoom link: https://us02web.zoom.us/j/6217417145'
+    'Join Pip live on Zoom for a free open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy. Bring your real questions — no slides, just live answers. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.'
   );
   const eventLocation = encodeURIComponent('https://us02web.zoom.us/j/6217417145');
 
@@ -74,7 +74,7 @@ export default function ThankYouPowerHours() {
     `DTEND:${icsEnd}`,
     'RRULE:FREQ=WEEKLY;BYDAY=TU',
     `SUMMARY:Free Marketing Power Hours – KnowHow Marketing Lab`,
-    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\\, SEO\\, AI\\, ChatGPT\\, LLMs\\, and marketing strategy. NOT recorded — you must attend live. Zoom: https://us02web.zoom.us/j/6217417145`,
+    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\\, SEO\\, AI\\, ChatGPT\\, LLMs\\, and marketing strategy. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.`,
     `LOCATION:https://us02web.zoom.us/j/6217417145`,
     `URL:https://us02web.zoom.us/j/6217417145`,
     'END:VEVENT',
@@ -209,19 +209,9 @@ export default function ThankYouPowerHours() {
                 <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Power Hours runs live on Zoom every Tuesday at 12pm Pacific. Sessions are <strong className="text-gray-700">not recorded</strong> — you must attend live.
                 </p>
-                <div className="bg-white border border-gray-200 rounded-xl p-3 mb-4 font-mono text-xs text-gray-600 break-all select-all">
-                  https://us02web.zoom.us/j/6217417145
+                <div className="bg-[#318599]/10 border border-[#318599]/20 rounded-xl p-4 text-sm text-[#1a3a4a]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <strong style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Check your confirmation email</strong> — the Zoom link is included there. Can't find it? Check your spam folder or re-register above.
                 </div>
-                <a
-                  href={ZOOM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full text-white font-bold text-sm px-4 py-3 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md"
-                  style={{ background: 'linear-gradient(135deg, #318599, #2a7080)', fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Open Zoom link for Free Power Hours"
-                >
-                  Open Zoom Link →
-                </a>
               </div>
             </div>
 
@@ -241,7 +231,7 @@ export default function ThankYouPowerHours() {
                   {
                     step: '2',
                     title: 'Save your Zoom link',
-                    desc: 'Power Hours runs live on Zoom every Tuesday at 12pm Pacific. The link is: us02web.zoom.us/j/6217417145 — bookmark it now so you\'re ready to join on Tuesday.',
+                    desc: 'Your confirmation email includes the Zoom link. Bookmark it or add it to your calendar so you\'re ready to join on Tuesday at 12pm Pacific.',
                     color: '#318599',
                   },
                   {
