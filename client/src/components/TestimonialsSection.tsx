@@ -22,38 +22,38 @@ const videoTestimonials = [
 
 const textTestimonials = [
   {
-    quote: 'Google Ads are a must if we want to be found and seen online. So glad I met Pip Seymour to help navigate this challenging space. She knows her stuff — and she explains it in a way that actually makes sense for business owners.',
-    name: 'Sally M.',
-    role: 'Marketing Agency Owner',
-    company: 'Vancouver, BC',
-    initial: 'S',
+    quote: 'I cannot recommend Seymour Digital Media Marketing enough! They were instrumental in helping me with my Google Business account. Pip was absolutely amazing — super knowledgeable and always willing to go the extra mile. Their expertise and attention to detail were evident every step of the way.',
+    name: 'Jaime Hall',
+    role: 'Business Owner',
+    company: 'Google Review ★★★★★',
+    initial: 'J',
     color: '#E98C28',
     rating: 5,
   },
   {
-    quote: 'I felt totally lost before this course. I knew my website had SEO problems but had no idea where to start. After going through the training I genuinely feel like an expert. I would rate it excellent — best investment I made this year.',
-    name: 'Bob T.',
-    role: 'Professional Photographer',
-    company: 'Small Business Owner',
-    initial: 'B',
+    quote: 'I had very little knowledge to improve our SEO, especially with everything shifting in the world of AI, and they helped us improve 2 sites. Our traffic is up, our impressions are up, and we finally show up on page one of search results!',
+    name: 'Eli Marentette',
+    role: 'Business Owner',
+    company: 'Google Review ★★★★★',
+    initial: 'E',
     color: '#318599',
     rating: 5,
   },
   {
-    quote: 'This course was exactly what I needed. I had been doing local SEO but never really understood the analytics side. I was stuck with Search Console errors I couldn\'t fix. After the training everything clicked — I finally know what I\'m looking at.',
-    name: 'Dave R.',
+    quote: 'We\'ve worked with Seymour Digital Media for many years. They support us with website help, SEO, Google Ads, local Google optimization, and e-commerce — all within a specialty industry that requires real expertise. The work truly speaks for itself.',
+    name: 'Lesley McHale',
     role: 'Business Owner',
-    company: 'E-commerce & Local Services',
-    initial: 'D',
-    color: '#4F37D8',
+    company: 'Google Review ★★★★★',
+    initial: 'L',
+    color: '#1B3B4F',
     rating: 5,
   },
   {
-    quote: 'As a business owner wearing too many hats, I never had time to really learn SEO and Google Ads. This gave me a clear picture of what actually matters — and what I can stop worrying about. Worth every minute.',
-    name: 'Lindsay K.',
-    role: 'Agency Owner',
-    company: 'Digital Marketing Agency',
-    initial: 'L',
+    quote: 'The team at Seymour Digital are unlike any other marketing team we\'ve connected with. They have had a serious impact on our mental health group practice — helping us get our therapists fully booked and expand our reach within the community.',
+    name: 'Rysa Koch',
+    role: 'Mental Health Practice',
+    company: 'Google Review ★★★★★',
+    initial: 'R',
     color: '#E98C28',
     rating: 5,
   },
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5",
-              "reviewCount": "4",
+              "reviewCount": "79",
               "bestRating": "5",
               "worstRating": "1"
             },
@@ -135,17 +135,17 @@ export default function TestimonialsSection() {
             className="text-xs font-bold text-[#E98C28] uppercase tracking-widest"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
-            Real Students. Real Results.
+            Real Clients. Real Results.
           </span>
           <h2
             id="testimonials-heading"
             className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3 mb-4"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
-            What Our Students Say
+            What Our Clients Say
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Medium-sized business owners, agency professionals, and entrepreneurs learning SEO and Google Ads - in their own words.
+            Business owners and marketing professionals across Canada — in their own words. Based on 79 Google reviews.
           </p>
         </div>
 
