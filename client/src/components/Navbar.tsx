@@ -38,9 +38,8 @@ export default function Navbar() {
   // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav - simplified to 5 items + Learn dropdown
+  // Desktop nav - 4 items + Learn dropdown (Free Course is in CTA area as text link)
   const desktopNavLinks = [
-    { label: 'Free Course', href: '/courses/seo' },
     { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
