@@ -136,51 +136,59 @@ export default function ExitIntentPopup() {
 
             <h2
               id="exit-popup-heading"
-              className="text-2xl font-extrabold text-gray-900 mb-3 leading-tight"
+              className="text-2xl font-extrabold text-gray-900 mb-2 leading-tight"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Before you go - learn how to use AI to get found on Google
+              Get your SEO &amp; Google Ads reviewed live
             </h2>
 
-            <p className="text-gray-600 text-sm leading-relaxed mb-6">
-              Our free course shows you how to combine AI tools with proven SEO to get your business ranking - without an agency. Taught by Pip &amp; Phelan, agency owners with 20+ years of real experience.
+            <p className="text-gray-600 text-sm leading-relaxed mb-5">
+              Join The Lab — weekly live Q&amp;A every Thursday on Zoom with Pip &amp; Phelan. Founding member rate: <strong>$29/mo</strong>. Price increases as we grow.
             </p>
 
             {/* What you get */}
-            <ul className="space-y-2 mb-7">
+            <ul className="space-y-2 mb-6">
               {[
-                'How to use AI to write SEO content that actually ranks',
-                'Google Search Console + GA4 setup (step by step)',
-                'Keyword research using free Google tools',
-                'On-page SEO that converts visitors into customers',
-                'Google Business Profile optimisation for local search',
+                'Live Q&A every Thursday — bring your real campaigns',
+                'AI + SEO + Google Ads courses included',
+                'Private community of business owners',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
                   <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#318599' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
-                  {item}
+                  <span dangerouslySetInnerHTML={{ __html: item }} />
                 </li>
               ))}
             </ul>
 
-            {/* CTA */}
+            {/* Primary CTA: The Lab */}
+            <a
+              href="/community"
+              className="block w-full text-center py-3.5 px-6 rounded-xl font-bold text-white text-sm transition-all hover:opacity-90 hover:-translate-y-0.5 hover:shadow-lg mb-3"
+              style={{ background: '#E98C28', fontFamily: 'Space Grotesk, sans-serif' }}
+              onClick={close}
+            >
+              Join Live Training — $29/mo →
+            </a>
+
+            {/* Secondary: Free Course */}
             <a
               href={FREE_COURSE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center py-3.5 px-6 rounded-xl font-bold text-white text-sm transition-all hover:opacity-90 hover:-translate-y-0.5 hover:shadow-lg"
-              style={{ background: '#E98C28', fontFamily: 'Space Grotesk, sans-serif' }}
+              className="block w-full text-center py-2.5 px-6 rounded-xl font-semibold text-[#318599] text-sm border border-[#318599]/30 hover:bg-[#e6f4f7] transition-all"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
               onClick={close}
             >
-              Start the Free Course Now →
+              Try the free course first
             </a>
 
             <button
               onClick={close}
               className="block w-full text-center mt-3 text-xs text-gray-400 hover:text-gray-600 transition-colors"
             >
-              No thanks, I'll figure it out myself
+              No thanks
             </button>
           </div>
         </div>

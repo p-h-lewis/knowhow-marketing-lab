@@ -43,7 +43,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-5">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                100% Free - No Credit Card Needed
+                Founding Member Pricing — Price Increases at 100 Members
               </span>
             </div>
 
@@ -54,9 +54,8 @@ export default function HeroSection() {
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
-              Learn SEO, Google Ads{' '}
-              <span className="text-[#E98C28]">&amp; AI Marketing</span>{' '}
-              - For Free
+              Stop Guessing.{' '}
+              <span className="text-[#E98C28]">Start Getting Results.</span>
             </h1>
 
             {/* Subheading */}
@@ -65,7 +64,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Free SEO, Google Ads &amp; AI marketing training — taught by agency veterans with 20+ years of hands-on experience. Real data, no guesswork.
+              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Get your real questions answered every Thursday on Zoom.
             </p>
 
             {/* Primary CTA: Join The Lab */}
@@ -73,10 +72,10 @@ export default function HeroSection() {
               href="/community"
               className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg mb-4 w-full sm:w-auto pulse-cta"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab community for $29 per month"
+              aria-label="Join live marketing training for $29 per month"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-              Join The Lab — $29/mo
+              Join Live Training — $29/mo
             </a>
 
             {/* Google Reviews trust badge */}
@@ -103,9 +102,13 @@ export default function HeroSection() {
             </div>
 
             {/* Divider */}
+            {/* Founding member urgency */}
+            <p className="text-xs text-[#318599] font-semibold mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              ⏳ Founding member rate — less than a coffee a week. Price increases as we grow.
+            </p>
             <div className="flex items-center gap-3 mb-4 max-w-lg">
               <div className="flex-1 h-px bg-gray-200" />
-              <span className="text-xs text-gray-400 font-medium whitespace-nowrap" style={{ fontFamily: 'DM Sans, sans-serif' }}>or start free</span>
+              <span className="text-xs text-gray-400 font-medium whitespace-nowrap" style={{ fontFamily: 'DM Sans, sans-serif' }}>or try free first</span>
               <div className="flex-1 h-px bg-gray-200" />
             </div>
 
@@ -151,9 +154,9 @@ export default function HeroSection() {
             {/* What you get */}
             <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get">
               {[
-                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — weekly live Q&A every Thursday, AI + SEO &amp; Google Ads courses, private community' },
-                { icon: '', text: '<strong>Free:</strong> 60+ video lessons + 5-module SEO course — no sign-up needed' },
-                { icon: '', text: '<strong>Free Facebook group</strong> — Business Marketing Mixer, weekly Power Hours on Zoom' },
+                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — live Q&amp;A every Thursday on Zoom, get your campaigns &amp; SEO reviewed live by Pip' },
+                { icon: '', text: '<strong>AI + SEO + Google Ads courses</strong> — step-by-step, no agency needed' },
+                { icon: '', text: '<strong>Try free first:</strong> 60+ videos + 5-module SEO course, no sign-up needed' },
               ].map(item => (
                 <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
@@ -165,10 +168,10 @@ export default function HeroSection() {
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-5 sm:gap-8">
               {[
+                { value: 'Live', label: 'Q&A Every Thursday' },
+                { value: '20+', label: 'Years Agency Experience' },
                 { value: '60+', label: 'Free Video Lessons' },
-                { value: '20+', label: 'Years of Agency Experience' },
-                { value: 'Free', label: 'Start — No Credit Card' },
-                { value: '$29/mo', label: 'The Lab — Go Deeper' },
+                { value: '$29/mo', label: 'Founding Member Rate' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>

@@ -216,21 +216,21 @@ export default function Navbar() {
             >
               Log In
             </a>
-            {/* Secondary CTA: Free Course */}
+            {/* Secondary CTA: Free Course - text only to reduce visual competition */}
             <a
               href={anchorHref('#free-course')}
-              className="text-sm font-semibold text-gray-700 border border-gray-300 hover:border-[#318599] hover:text-[#318599] rounded-xl py-2.5 px-4 transition-all duration-150 whitespace-nowrap"
-              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              className="text-sm font-medium text-gray-500 hover:text-[#318599] transition-colors duration-150 whitespace-nowrap"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
               aria-label="Start the free AI + SEO course"
             >
               Free Course
             </a>
-            {/* Primary CTA: Join The Lab */}
+            {/* Primary CTA: Join Live Training */}
             <a
               href="/community"
               className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap pulse-cta"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab community for $29 per month"
+              aria-label="Join live marketing training for $29 per month"
             >
               Join The Lab — $29/mo
             </a>
