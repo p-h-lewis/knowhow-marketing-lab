@@ -150,7 +150,31 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+/**
+ * Vite plugin: convert render-blocking CSS <link rel="stylesheet"> to non-blocking preload.
+ * This eliminates the 820ms render-blocking penalty flagged by PageSpeed Insights.
+ * The CSS still loads — it just no longer blocks the initial paint.
+ * A <noscript> fallback ensures CSS loads in no-JS environments.
+ */
+function vitePluginNonBlockingCSS(): Plugin {
+  return {
+    name: 'non-blocking-css',
+    apply: 'build',
+    transformIndexHtml(html) {
+      // Convert: <link rel="stylesheet" crossorigin href="/assets/index-xxx.css">
+      // To: <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="...">
+      // Plus a <noscript> fallback
+      return html.replace(
+        /<link rel="stylesheet" crossorigin href="(\/assets\/index-[^"]+\.css)">/g,
+        (match, href) =>
+          `<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="${href}">` +
+          `<noscript><link rel="stylesheet" href="${href}"></noscript>`
+      );
+    },
+  };
+}
+
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginNonBlockingCSS()];
 
 export default defineConfig({
   plugins,
