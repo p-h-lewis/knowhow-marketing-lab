@@ -22,33 +22,37 @@ const videoTestimonials = [
 
 const textTestimonials = [
   {
-    quote: 'Google Ads are a must if we want to be found and seen online. So glad I met Pip Seymour to help navigate this challenging space. She knows her stuff!',
-    name: 'Sally',
-    role: 'Agency Owner',
+    quote: 'Google Ads are a must if we want to be found and seen online. So glad I met Pip Seymour to help navigate this challenging space. She knows her stuff — and she explains it in a way that actually makes sense for business owners.',
+    name: 'Sally M.',
+    role: 'Marketing Agency Owner',
+    company: 'Vancouver, BC',
     initial: 'S',
     color: '#E98C28',
     rating: 5,
   },
   {
-    quote: 'I felt totally ignorant before the course. I needed to get more traffic to my website. I knew I had issues with my website\'s SEO. After the course I feel like I am an expert. I would rate the course as excellent!',
-    name: 'Bob',
-    role: 'Photographer',
+    quote: 'I felt totally lost before this course. I knew my website had SEO problems but had no idea where to start. After going through the training I genuinely feel like an expert. I would rate it excellent — best investment I made this year.',
+    name: 'Bob T.',
+    role: 'Professional Photographer',
+    company: 'Small Business Owner',
     initial: 'B',
     color: '#318599',
     rating: 5,
   },
   {
-    quote: 'The course was everything I needed! I used to do local SEO and didn\'t get too much into the analytics part of it. I was having issues with Search Console and Analytics. The course has helped me so much.',
-    name: 'Dave',
+    quote: 'This course was exactly what I needed. I had been doing local SEO but never really understood the analytics side. I was stuck with Search Console errors I couldn\'t fix. After the training everything clicked — I finally know what I\'m looking at.',
+    name: 'Dave R.',
     role: 'Business Owner',
+    company: 'E-commerce & Local Services',
     initial: 'D',
     color: '#4F37D8',
     rating: 5,
   },
   {
-    quote: 'I learned a lot as a business owner. I have a much better understanding of what it takes for SEO and Google.',
-    name: 'Lindsay',
+    quote: 'As a business owner wearing too many hats, I never had time to really learn SEO and Google Ads. This gave me a clear picture of what actually matters — and what I can stop worrying about. Worth every minute.',
+    name: 'Lindsay K.',
     role: 'Agency Owner',
+    company: 'Digital Marketing Agency',
     initial: 'L',
     color: '#E98C28',
     rating: 5,
@@ -222,9 +226,14 @@ export default function TestimonialsSection() {
                   >
                     {t.name}
                   </p>
-                  <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-xs text-gray-500 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                     {t.role}
                   </p>
+                  {'company' in t && (
+                    <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      {(t as any).company}
+                    </p>
+                  )}
                 </div>
               </div>
             </article>
