@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab – Power Hours Page (/power-hours)
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
-// Purpose: Free weekly marketing Power Hours held on Zoom — open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, marketing strategy
+// Purpose: Free weekly marketing Power Hours held on Zoom — bring your real marketing questions, get live help from Pip
 // Schedule: Every Tuesday 12–1pm Pacific
 // NOT recorded — must attend live
 
@@ -27,14 +27,14 @@ const GHL_FORM_URL = 'https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrK
 const NEXT_SESSION_OVERRIDE: string | null = null;
 // ─────────────────────────────────────────────────────────────────────────────
 
-// Upcoming Tuesday sessions — open Q&A, no fixed theme
+// Upcoming Tuesday sessions — open Power Hours, no fixed theme
 const upcomingSessions = [
-  { date: 'Tuesday, March 11', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your questions on Google Ads, SEO, AI, ChatGPT, or marketing strategy. Live help from Pip.', color: '#318599' },
-  { date: 'Tuesday, March 18', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Get live answers on Google Ads, SEO, LLMs, GA4, or any marketing challenge you are facing.', color: '#E98C28' },
-  { date: 'Tuesday, March 25', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your toughest marketing question — Google Ads, SEO, AI tools, or planning for the month ahead.', color: '#4F37D8' },
-  { date: 'Tuesday, April 1', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Start the month with a plan. Get help with Google Ads, SEO, ChatGPT, or AI marketing strategy.', color: '#318599' },
-  { date: 'Tuesday, April 8', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Live Q&A on Google Ads, SEO, AI, LLMs, GA4, or any marketing challenge you want to work through.', color: '#E98C28' },
-  { date: 'Tuesday, April 15', time: '12–1pm Pacific', theme: 'Open Q&A', topic: 'Bring your real marketing problems — Google Ads, SEO, AI tools, or planning your next campaign.', color: '#4F37D8' },
+  { date: 'Tuesday, March 11', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your questions on Google Ads, SEO, AI, ChatGPT, or marketing strategy. Live help from Pip.', color: '#318599' },
+  { date: 'Tuesday, March 18', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Get live help on Google Ads, SEO, LLMs, GA4, or any marketing challenge you are facing.', color: '#E98C28' },
+  { date: 'Tuesday, March 25', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your toughest marketing question — Google Ads, SEO, AI tools, or planning for the month ahead.', color: '#4F37D8' },
+  { date: 'Tuesday, April 1', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Start the month with a plan. Get help with Google Ads, SEO, ChatGPT, or AI marketing strategy.', color: '#318599' },
+  { date: 'Tuesday, April 8', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Live help on Google Ads, SEO, AI, LLMs, GA4, or any marketing challenge you want to work through.', color: '#E98C28' },
+  { date: 'Tuesday, April 15', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your real marketing problems — Google Ads, SEO, AI tools, or planning your next campaign.', color: '#4F37D8' },
 ];
 
 const whatToExpect = [
@@ -137,14 +137,14 @@ const powerHoursSchema = {
       "@id": "https://knowhowmarketinglab.com/power-hours",
       "url": "https://knowhowmarketinglab.com/power-hours",
       "name": "Free Marketing Power Hours – KnowHow Marketing Lab",
-      "description": "Free weekly live Q&A on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy.",
+      "description": "Free weekly live Power Hours on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com/#website" }
     },
     {
       "@type": "Event",
       "@id": "https://knowhowmarketinglab.com/power-hours#event",
       "name": "KnowHow Marketing Power Hours",
-      "description": "Free weekly live Q&A session on Zoom. Bring your real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Hosted by Pip Seymour of Seymour Digital Media.",
+      "description": "Free weekly live Power Hour on Zoom. Bring your real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Hosted by Pip Seymour of Seymour Digital Media.",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "location": {
@@ -177,7 +177,7 @@ const powerHoursSchema = {
         {
           "@type": "Question",
           "name": "What are the KnowHow Marketing Power Hours?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Power Hours are free weekly live Q&A sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour answers real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Sessions are not recorded — you must attend live." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Power Hours are free weekly live sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour works through real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. Sessions are not recorded — you must attend live." }
         },
         {
           "@type": "Question",
@@ -187,7 +187,7 @@ const powerHoursSchema = {
         {
           "@type": "Question",
           "name": "Are the Power Hours really free?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Power Hours are 100% free. No credit card required. They are the free, public-facing Q&A sessions run by KnowHow Marketing Lab. For deeper training, The Lab membership is available at $29/month." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Power Hours are 100% free. No credit card required. They are the free, public-facing live sessions run by KnowHow Marketing Lab every Tuesday. For deeper training and weekly Thursday live Q&A, The Lab membership is available at $29/month." }
         },
         {
           "@type": "Question",
@@ -197,7 +197,7 @@ const powerHoursSchema = {
         {
           "@type": "Question",
           "name": "Are Power Hours sessions recorded?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Q&A every Thursday." }
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Thursday Q&A sessions where Pip & Phelan review members' real campaigns live." }
         }
       ]
     }
@@ -209,10 +209,10 @@ export default function PowerHours() {
 
   useSEO({
     title: 'Free Marketing Power Hours – KnowHow Marketing Lab',
-    description: 'Free weekly live Q&A on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy. No slides — just live answers.',
+    description: 'Free weekly live Power Hours on Zoom every Tuesday 12–1pm Pacific. Bring your real questions on Google Ads, SEO, AI, and marketing strategy. No slides — just live help.',
     canonical: 'https://knowhowmarketinglab.com/power-hours',
     ogTitle: 'Free Marketing Power Hours – KnowHow Marketing Lab',
-    ogDescription: 'Free weekly live sessions every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live answers.',
+    ogDescription: 'Free weekly live Power Hours every Tuesday 12–1pm PT. SEO, Google Ads, AI — bring your real questions and get live help from Pip.',
     ogType: 'website',
   });
 
@@ -272,7 +272,7 @@ export default function PowerHours() {
                   <span className="text-[#E98C28]">Marketing Power Hours</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Tuesday at 12pm Pacific, Pip Seymour runs a free live Q&amp;A on Zoom. Bring your real questions on <strong>Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy</strong>. No slides. No pitch. Just live answers — and a plan for the month ahead.
+                  Every Tuesday at 12pm Pacific, Pip Seymour runs a free live Power Hour on Zoom. Bring your real questions on <strong>Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy</strong>. No slides. No pitch. Just live help — and a plan for the month ahead.
                 </p>
                 <div className="flex items-center gap-2 mb-4 p-3 bg-amber-50 border border-amber-200 rounded-xl">
                   <svg className="w-4 h-4 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
@@ -442,7 +442,7 @@ export default function PowerHours() {
                 <span className="text-[#E98C28]">The Lab is where you level up.</span>
               </h2>
               <p className="text-gray-300 text-lg mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                The free Power Hours give you a taste of what is possible. The Lab gives you the full system — weekly Thursday Q&amp;A, advanced courses, fillable worksheets, AI training, and a private community — for $29/month.
+                The free Power Hours give you a taste of what is possible. The Lab gives you the full system — weekly Thursday live Q&amp;A sessions where Pip &amp; Phelan review your real campaigns, advanced courses, fillable worksheets, AI training, and a private community — for $29/month.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -475,11 +475,11 @@ export default function PowerHours() {
               <h2 id="power-hours-faq-heading" className="text-3xl font-extrabold text-gray-900 mb-10" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: 'What are the KnowHow Marketing Power Hours?', a: 'Power Hours are free weekly live Q&A sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour answers real questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. There is no fixed agenda — you bring your real questions and get live answers.' },
+                  { q: 'What are the KnowHow Marketing Power Hours?', a: 'Power Hours are free weekly live sessions on Zoom, hosted every Tuesday from 12–1pm Pacific. Pip Seymour works through real marketing questions on Google Ads, SEO, AI tools, GA4, and marketing strategy. There is no fixed agenda — you bring your real questions and get live help.' },
                   { q: 'How do I join?', a: 'Click the Register Free button on this page. You will receive a confirmation email with the Zoom link and a Monday reminder before each session.' },
-                  { q: 'Are the Power Hours really free?', a: 'Yes — 100% free. No credit card required. Power Hours are the free, public-facing Q&A sessions run by KnowHow Marketing Lab. For deeper training, The Lab membership is available at $29/month.' },
+                  { q: 'Are the Power Hours really free?', a: 'Yes — 100% free. No credit card required. Power Hours are the free, public-facing live sessions run by KnowHow Marketing Lab every Tuesday. For deeper training and weekly live Q&A on Thursdays, The Lab membership is available at $29/month.' },
                   { q: 'What topics are covered?', a: 'Google Ads (campaigns, bidding, Performance Max), SEO (rankings, Search Console, keyword research), AI and ChatGPT tools for marketing, Google Analytics 4 (GA4), and general marketing strategy. You bring the question — Pip brings the answer.' },
-                  { q: 'Are sessions recorded?', a: 'No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Q&A every Thursday.' },
+                  { q: 'Are sessions recorded?', a: 'No. Power Hours sessions are not recorded. This keeps the conversation honest and the advice specific to the people in the room. If you want recorded sessions, The Lab membership includes recorded weekly Thursday Q&A sessions where Pip & Phelan review members\' real campaigns live.' },
                 ].map((faq, i) => (
                   <div key={i} className="border-b border-gray-200 pb-6">
                     <h3 className="text-base font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{faq.q}</h3>
@@ -508,9 +508,9 @@ export default function PowerHours() {
           <div className="container">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
               <div className="text-center lg:text-left">
-                <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want more than free Q&amp;A?</p>
+                <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want to go deeper than Power Hours?</p>
                 <h2 id="power-hours-upgrade-heading" className="text-2xl sm:text-3xl font-extrabold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Go deeper with The Lab</h2>
-                <p className="text-gray-300 max-w-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>Power Hours are free and open to everyone. The Lab adds weekly recorded Q&amp;A every Thursday, full Google Ads &amp; SEO courses, AI training, fillable worksheets, and a private community. All for $29/mo.</p>
+                <p className="text-gray-300 max-w-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>Power Hours are free and open to everyone. The Lab is the paid step up — weekly Thursday live Q&amp;A where Pip &amp; Phelan review your real campaigns, full Google Ads &amp; SEO courses, AI training, fillable worksheets, and a private community. All for $29/mo.</p>
               </div>
               <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
                 <Link

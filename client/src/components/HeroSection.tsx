@@ -64,7 +64,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Free Q&amp;A every Tuesday. Thursday is The Lab — where members get their real campaigns reviewed and fixed live.
+              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Free Power Hours every Tuesday. Thursday is The Lab — where paid members get their real campaigns reviewed and fixed live.
             </p>
 
             {/* Primary CTA: Join The Lab */}
@@ -225,7 +225,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Power Hours — every Tuesday</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Live Q&amp;A on Zoom with Pip</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Free live Power Hour on Zoom with Pip</p>
                 </div>
               </div>
             </div>

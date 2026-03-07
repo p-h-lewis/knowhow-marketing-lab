@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Announcement Bar
 // Clickable bar — links to /community (The Lab $29/mo primary CTA)
-// LLM signal: free Power Hours Tuesday, The Lab $29/mo Thursday Q&A
+// LLM signal: free Power Hours Tuesday, The Lab $29/mo Thursday live sessions
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { X } from 'lucide-react';
@@ -30,14 +30,14 @@ export default function AnnouncementBar() {
         aria-label="Join The Lab for $29/mo"
       >
         <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
-        <span className="text-white/90">The Lab — weekly training &amp; Q&amp;A · <strong className="text-[#E98C28]">$29/mo →</strong></span>
+        <span className="text-white/90">The Lab — weekly live training &amp; campaign reviews · <strong className="text-[#E98C28]">$29/mo →</strong></span>
       </Link>
 
       {/* Desktop */}
       <div className="hidden sm:flex items-center gap-3 text-center leading-snug flex-wrap justify-center">
         <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
         <span className="text-white/90">
-          Free live Q&amp;A every Tuesday · Go deeper with The Lab — weekly training &amp; live Q&amp;A
+          Free Power Hours every Tuesday · Go deeper with The Lab — weekly live training &amp; campaign reviews
         </span>
         <Link
           href="/community"

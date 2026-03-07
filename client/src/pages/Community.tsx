@@ -224,7 +224,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is the difference between the free Power Hours and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open Q&A sessions every Tuesday on Zoom — anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Lab sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open live sessions every Tuesday on Zoom — anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Q&A sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
         }
       ]
     }
