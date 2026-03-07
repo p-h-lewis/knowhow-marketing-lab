@@ -25,7 +25,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="1-performance-max-pmax">1. Performance Max (PMax)</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/performance-max-campaign-overview-1024x572.jpg" alt="Performance Max campaign overview showing connections to Search, YouTube, and Maps" class="wp-image-8932"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/performance-max-campaign-overview-1024x572.jpg" alt="Performance Max campaign overview showing connections to Search, YouTube, and Maps" class="wp-image-8932"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The "Do It All" AI Powerhouse</p>
 
@@ -61,7 +64,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="2-demand-gen">2. Demand Gen</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/demand-gen-campaign-social-engagement-1024x572.jpg" alt="" class="wp-image-8933"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/demand-gen-campaign-social-engagement-1024x572.jpg" alt="" class="wp-image-8933"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The Social-First Engagement Engine</p>
 
@@ -89,7 +95,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="3-search-campaigns">3. Search Campaigns</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/search-campaigns-high-intent-1024x572.jpg" alt="" class="wp-image-8934"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/search-campaigns-high-intent-1024x572.jpg" alt="" class="wp-image-8934"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The High-Intent Foundation</p>
 
@@ -115,7 +124,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="4-shopping-campaigns">4. Shopping Campaigns</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/shopping-campaigns-ecommerce-1024x572.jpg" alt="" class="wp-image-8935"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/shopping-campaigns-ecommerce-1024x572.jpg" alt="" class="wp-image-8935"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The E-Commerce Essential</p>
 
@@ -145,7 +157,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="5-video-campaigns">5. Video Campaigns</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/video-campaigns-youtube-storytelling-1024x572.jpg" alt="" class="wp-image-8936"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/video-campaigns-youtube-storytelling-1024x572.jpg" alt="" class="wp-image-8936"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The Storytelling Medium</p>
 
@@ -173,7 +188,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="6-display-campaigns">6. Display Campaigns</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/display-campaigns-awareness-1024x572.jpg" alt="Google Display Network campaign visualization for brand awareness and retargeting" class="wp-image-8937"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/display-campaigns-awareness-1024x572.jpg" alt="Google Display Network campaign visualization for brand awareness and retargeting" class="wp-image-8937"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The Awareness Builder</p>
 
@@ -199,7 +217,10 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="7-app-campaigns">7. App Campaigns</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/app-campaigns-mobile-growth-1024x572.jpg" alt="" class="wp-image-8938"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/app-campaigns-mobile-growth-1024x572.jpg" alt="" class="wp-image-8938"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>The Mobile Growth Engine</p>
 
@@ -237,7 +258,10 @@ https://youtu.be/nzTa2wJEN9k
 <li>Scale with Performance Max: Once you have conversion data, let AI find you more customers.</li>
 </ol>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google-ads-strategy-hierarchy-1024x572.jpg" alt="" class="wp-image-8939"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google-ads-strategy-hierarchy-1024x572.jpg" alt="" class="wp-image-8939"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
 
@@ -455,7 +479,9 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google-ads-landscape-changes-ai.jpg"
             alt="The Ultimate Guide to Google Ads Campaign Types (Updated for 2026)"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

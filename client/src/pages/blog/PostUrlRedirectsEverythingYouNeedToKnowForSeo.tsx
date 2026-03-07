@@ -9,7 +9,10 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p>Redirects are important in website management and user experience. <br>This blog post covers the types of URL redirects. It also explains how they can help your SEO strategy. <br>URL redirects are crucial for improving your website's search engine optimization (SEO). <br>Redirects are also important in website management and user experience. <br>Redirects can be temporary or permanent. But first</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7639"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7639"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="what-are-url-redirects">What are URL Redirects?</h2>
 
@@ -23,7 +26,10 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p> If you're changing your site or your URLs, adding a 301 redirect is essential. It keeps your current search engine rankings.</p>
 
-<figure class="wp-block-image size-full is-resized"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1-edited.png" alt="URL Redirects SEO Best Practices " class="wp-image-7641" style="width:759px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1-edited.png" alt="URL Redirects SEO Best Practices " class="wp-image-7641" style="width:759px;height:auto"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="types-of-url-redirects-and-their-uses">Types of URL Redirects and Their Uses:</h2>
 
@@ -89,7 +95,10 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p>For more tips on using URL redirects, listen to our detailed podcast. It covers the topic well.</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-2-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7642"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-2-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7642"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Here's a table comparing the two main types of URL redirects, 301 and 302, as detailed in the provided content:</p>
 
@@ -213,7 +222,9 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/how-do-redirects-work.webp"
             alt="URL Redirects: Everything You Need to Know for SEO"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

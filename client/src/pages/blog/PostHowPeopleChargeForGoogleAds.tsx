@@ -145,7 +145,9 @@ export default function PostHowPeopleChargeForGoogleAds() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/images.png"
             alt="How People Charge for Google Ads"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

@@ -15,9 +15,15 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill-element"><div class="wp-block-media-text__content">
 <p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behavior and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 empowers marketers to optimize strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
-</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup - key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"/></figure></div>
+</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup - key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"
+                  loading="lazy"
+                  decoding="async"
+                /></figure></div>
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill-element"><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Google-Analyics-4-Banner-1024x537.jpg" alt="" class="wp-image-52053 size-full" style="object-position:50% 50%"/></figure><div class="wp-block-media-text__content">
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill-element"><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Google-Analyics-4-Banner-1024x537.jpg" alt="" class="wp-image-52053 size-full" style="object-position:50% 50%"
+                  loading="lazy"
+                  decoding="async"
+                /></figure><div class="wp-block-media-text__content">
 <ul class="wp-block-list">
 <li>Event-Based Model: GA4 uses an event-based data model, tracking each user interaction as an individual event, unlike UA's session-based model.</li>
 
@@ -39,7 +45,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <h3 class="wp-block-heading" id="h-get-a-complete-view-the-first-place-you-want-to-go">Get a complete view the <strong>First Place You Want To Go</strong><br></h3>
 
 <p>When you sign into Google Analytics 4, you'll see how customers interact with your business, helping you improve their experience and achieve better results. Google’s smart tools show what’s working and what’s not, allowing you to make informed decisions that boost the impact of your marketing. Plus, you can connect Analytics with tools like Google Ads and Search Console to strengthen your marketing and reach more people effectively.</p>
-</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/0i5WSLS0EbhvvCOmi9p67zcSmarUKMbjSmPR-1024x516.png" alt="" class="wp-image-52054 size-full"/></figure></div>
+</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/0i5WSLS0EbhvvCOmi9p67zcSmarUKMbjSmPR-1024x516.png" alt="" class="wp-image-52054 size-full"
+                  loading="lazy"
+                  decoding="async"
+                /></figure></div>
 
 <h2 id="step-by-step-ga4-setup-configuration-guide"><strong>Step-By-Step <strong>GA4 Setup & Configuration</strong></strong> <strong>Guide</strong></h2>
 
@@ -65,7 +74,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Go over to Google and type <a href="https://analytics.google.com/" target="_blank" rel="noreferrer noopener">Google Analytics</a>. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Go-to-Google-and-search-for-GA-pick-the-first-result-1-1024x579.jpg" alt="" class="wp-image-52104"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Go-to-Google-and-search-for-GA-pick-the-first-result-1-1024x579.jpg" alt="" class="wp-image-52104"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>If you don't have an account sign up. It is super easy. You’ll be taken to the screen that looks like the image below. </p>
 
@@ -77,7 +89,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Add your organization’s name and check off the boxes you want to check off. Read what they say. There is no wrong answer here. Then click the blue button <strong>Next</strong> at the bottom of the page.</p>
 
-<figure class="wp-block-image is-style-default"><img src="https://lh4.googleusercontent.com/CZ2PrITJyp1an75857ShapSWT4QVMUVNhutGDC1GpKc1kpowHoePERlPrC34YbhV9RnlDgVZRJ8WbmnHznaiqwzExAxzENuLoTPaQewNahnr4Phut9S7FIyy2cHRbPVvZ-8-y2Gpr6Q73mMj_OcQJMk" alt="GA - account setup - property details"/></figure>
+<figure class="wp-block-image is-style-default"><img src="https://lh4.googleusercontent.com/CZ2PrITJyp1an75857ShapSWT4QVMUVNhutGDC1GpKc1kpowHoePERlPrC34YbhV9RnlDgVZRJ8WbmnHznaiqwzExAxzENuLoTPaQewNahnr4Phut9S7FIyy2cHRbPVvZ-8-y2Gpr6Q73mMj_OcQJMk" alt="GA - account setup - property details"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Add Property Details  </strong>- <strong>Property Settings</strong> </h3>
 
@@ -91,13 +106,19 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <li>click next </li>
 </ul>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/New-Account-Details-add-setup-GA-account-1024x613.jpg" alt="add business name & click boxes and click next - GA account setup" class="wp-image-52105"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/New-Account-Details-add-setup-GA-account-1024x613.jpg" alt="add business name & click boxes and click next - GA account setup" class="wp-image-52105"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Add the property name, select your country, time zone and currency. <br><br>Add your property details to measure your web and app data, create a Google Analytics 4 property. Then click on Advanced option. If you click on the advanced options it will pop open a window telling to that the Universal Analytics property will stop working so ignore that advanced option. Click next.</p>
 
 <p> If you do want to click on the advanced options you can. Just add your URL and click on the boxes you want.  </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Create-a-property-GA4-Property-1024x576.jpg" alt="GA4 Setup property options" class="wp-image-52106"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Create-a-property-GA4-Property-1024x576.jpg" alt="GA4 Setup property options" class="wp-image-52106"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Advanced Setting Options</strong></h3>
 
@@ -111,23 +132,35 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <li>Click next</li>
 </ul>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/SVn5u_Jk1TuJUZA03eByl2DH_QWTyVuKNDYQSkW4GP-eOSY3pT8zQaWcYGEKzroay4kr3x3RKQPkatUoneyJKTSMSh7rsEW4lsoAc3SWJ3neJSM2i28FntlqBsjR45rSfW1-jsPT6uOJnXmC5dXnAFI" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/SVn5u_Jk1TuJUZA03eByl2DH_QWTyVuKNDYQSkW4GP-eOSY3pT8zQaWcYGEKzroay4kr3x3RKQPkatUoneyJKTSMSh7rsEW4lsoAc3SWJ3neJSM2i28FntlqBsjR45rSfW1-jsPT6uOJnXmC5dXnAFI" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h4 class="wp-block-heading">Business Information</h4>
 
 <p>Fill in your business information. Category first, you have to pick an option that is there. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Industry-category-GA4-property-setup-1024x606.jpg" alt="" class="wp-image-52109"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Industry-category-GA4-property-setup-1024x606.jpg" alt="" class="wp-image-52109"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p> Then add the size and hit next. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/industry-category-and-business-size-GA4-setup-1024x448.png" alt="industry category and business size - GA4 setup" class="wp-image-52110"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/industry-category-and-business-size-GA4-setup-1024x448.png" alt="industry category and business size - GA4 setup" class="wp-image-52110"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading">Reporting Choices</h3>
 
 <p>Choose your reporting. The last option can't be combined with the others. You will be able to add and see reports later so it doesn't matter what you choose. Your choices will be based on what you included as your business category.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Choose-personalized-reports-GA4-setup-1024x547.jpg" alt="" class="wp-image-52111"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Choose-personalized-reports-GA4-setup-1024x547.jpg" alt="" class="wp-image-52111"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Choose your reporting. The last option can't be combined with the others if you choose it. You can add and see reports later, so your choice doesn't matter. The reports you are offered are included because of the business category you chose.<br><br>Click create.</p>
 
@@ -141,11 +174,17 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Then click “I Accept."</p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/5H1VkBuz6jDFNweq3zAwUykQ05jlzxLOzPcGRwWx5ouhy5VwiYppNYXub8Ro65bZYbrrPeg-Ju9PdXvXxvlbVmXZOFM7Oug_EgaAW-EaRnPI6YVD0bXPt6hWg34YhkkQ27hPEIq5RX3HctIr9mwmP-U" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/5H1VkBuz6jDFNweq3zAwUykQ05jlzxLOzPcGRwWx5ouhy5VwiYppNYXub8Ro65bZYbrrPeg-Ju9PdXvXxvlbVmXZOFM7Oug_EgaAW-EaRnPI6YVD0bXPt6hWg34YhkkQ27hPEIq5RX3HctIr9mwmP-U" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You just set up your Google Analytics Account and a Google Analytics property! Bam! Pop the cork! You did it! Please have a quick break. We need to get your data stream set up and connected.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Step-1-complete-setup-a-GA-account-GA4-property-1024x416.jpg" alt="Step 1 complete - setup a GA account & GA4 property" class="wp-image-52112"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Step-1-complete-setup-a-GA-account-GA4-property-1024x416.jpg" alt="Step 1 complete - setup a GA account & GA4 property" class="wp-image-52112"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p><br>Choose a platform - choose web. Add your website and business name. </p>
 
@@ -153,7 +192,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p></p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-3-1024x348.png" alt="" class="wp-image-52119"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-3-1024x348.png" alt="" class="wp-image-52119"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p><br>Click create stream. </p>
 
@@ -177,7 +219,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Automatically measure interactions and content on your websites. Data from on-page elements like links and embedded videos.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Enhnaced-measurement-options-GA4-1024x605.jpeg" alt="" class="wp-image-52117"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Enhnaced-measurement-options-GA4-1024x605.jpeg" alt="" class="wp-image-52117"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>What we can capture as an event page views (as an event each time a page loads or the website) This one isn't optional.</p>
 
@@ -185,19 +230,28 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>View the search results event each time a visitor performs a search on your site (you need to have the search feature). Form interaction Video play, progress.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-2-1024x348.png" alt="CREATE STREAM - SETUP DATA STREAM GA4 " class="wp-image-52115"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-2-1024x348.png" alt="CREATE STREAM - SETUP DATA STREAM GA4 " class="wp-image-52115"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Out of the box this is super powerful. So click that create stream if you went to the cog first. </p>
 
 <p>Two windows will slide open. All you need to do here is copy some code. and honestly we an come back and do that. So X out of this (X is beside instillation instructions).</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Wbstream-Details-Google-Tag-Instructions-from-GA4-1024x608.jpg" alt="" class="wp-image-52118"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Wbstream-Details-Google-Tag-Instructions-from-GA4-1024x608.jpg" alt="" class="wp-image-52118"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You can If you want to go grab the code hit install manually. You can also play around here scan your site with the scan button or choose anothe installation method. We're going to do the manual version. Why? because this way we insure we know the exact process and know where thing are and what's been done. Plus then we can get out of here and have the first part of the process complete. </p>
 
 <p>Copy the GA4 Id tag - we need this because this is the id we will use in tagmanager to start connecting data. That being said we can easily get back here when we need the code.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Copy-the-GA4-Id-tag-we-need-this-because-this-is-the-id-we-will-use-in-tagmanager-to-start-connecting-data-1-1024x471.jpg" alt="" class="wp-image-52122"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Copy-the-GA4-Id-tag-we-need-this-because-this-is-the-id-we-will-use-in-tagmanager-to-start-connecting-data-1-1024x471.jpg" alt="" class="wp-image-52122"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>X out and then you'll get a screen that says complete. </p>
 
@@ -205,23 +259,35 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading"><strong>Property</strong> Options<br></h3>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/home-screen-Google-Analytics-setup-1-1024x605.jpg" alt="" class="wp-image-52136"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/home-screen-Google-Analytics-setup-1-1024x605.jpg" alt="" class="wp-image-52136"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p><strong>Start Here If You Already Have A Google Analytics Account.</strong> Login to <strong>Google Analytics</strong> (If you're not already there). You'll be taken to your home screen.</p>
 
 <p> If you have multiple accounts, select the account you are looking for. You’ll see options in a drop down menu and there is a search bar.</p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/d9M4a-vGjUm2V0woqcQUJNiz4tRgXO5fmC6op2KoQsAcktm1avoZ1SheKjEeyRpVEHA8PIA1LjVeSHJBcIDGvUMpHPfsWQVH0zXQYCu_O2PcJdB2Xu5PLATyIXnud8WfJ7J8DqUQPgG1knJqcHY3Cls" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/d9M4a-vGjUm2V0woqcQUJNiz4tRgXO5fmC6op2KoQsAcktm1avoZ1SheKjEeyRpVEHA8PIA1LjVeSHJBcIDGvUMpHPfsWQVH0zXQYCu_O2PcJdB2Xu5PLATyIXnud8WfJ7J8DqUQPgG1knJqcHY3Cls" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>To set up GA4 (Google Analytics 4 property) in your Google Analytics account, click the cog in the bottom left to get to your admin settings.</p>
 
 <p><strong>You will only see 2 columns if logged into your GA4 set up Property. </strong></p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Cog-to-open-up-the-admin-panel-GA4-setup-1-1024x603.jpeg" alt="" class="wp-image-52138"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Cog-to-open-up-the-admin-panel-GA4-setup-1-1024x603.jpeg" alt="" class="wp-image-52138"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You'll likely only see two columns if you log into Google Analytics and you're in your GA4 property. (the picture below could be slightly different from what you see) Click on you GA4 property.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/GA4-admin-page-2-columns-2-1024x625.jpg" alt="" class="wp-image-52140"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/GA4-admin-page-2-columns-2-1024x625.jpg" alt="" class="wp-image-52140"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now click <strong>See your GA4 Property.</strong> Connection done! </p>
 
@@ -231,7 +297,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Pick the property that <strong>doesn’t </strong>have a UA in front of it.<br></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/w7C1M77kyN6kG0vQDzYVn-wvaRWXZnZPat1xiE23b2IazrXhEHPrA8LiVBjNkAWCh7GdVdOGzkGH2_moEEY8O6rMvwLWdnD-kCTMn-qvbb-zRw9W--btqKQ-TXmxnH8FnQYqSX07AdrNppfX_oKf_s0" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/w7C1M77kyN6kG0vQDzYVn-wvaRWXZnZPat1xiE23b2IazrXhEHPrA8LiVBjNkAWCh7GdVdOGzkGH2_moEEY8O6rMvwLWdnD-kCTMn-qvbb-zRw9W--btqKQ-TXmxnH8FnQYqSX07AdrNppfX_oKf_s0" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="second-step-setup-signals">Second Step: Setup Signals</h2>
 
@@ -247,7 +316,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading"><strong>Data Settings, Collection</strong> & Retention<br></h3>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Setting-up-data-streams-first-GA4-setup-1-1024x607.jpg" alt="" class="wp-image-52144"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Setting-up-data-streams-first-GA4-setup-1-1024x607.jpg" alt="" class="wp-image-52144"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h4 class="wp-block-heading">Data Settings</h4>
 
@@ -255,19 +327,31 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Click on the “<strong>Get Started </strong>blue button. </p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/5UhBjL63kwI04nujjdKJCQ634fVu401S9SXWQli2deB40XeSlo4QKa5iifQZfdjyc8XUP980BWjnMPVEsT4YcQSn-jtFj6MzaP6XERO8Cvd3wW536MoUD2oQBZrhItFZ97PNvxPN1aMCUJ1I-DMuAJY" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/5UhBjL63kwI04nujjdKJCQ634fVu401S9SXWQli2deB40XeSlo4QKa5iifQZfdjyc8XUP980BWjnMPVEsT4YcQSn-jtFj6MzaP6XERO8Cvd3wW536MoUD2oQBZrhItFZ97PNvxPN1aMCUJ1I-DMuAJY" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>On the next page (the Activate Google Signals page) click on the “<strong>Continue”</strong> blue button.<br></p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/n7lQuLlc04DhaY3JWWG8zvmLuSXjQT8Uv--4RCRl7exxGbDS5kg-sDx8gRBySzn4fvkaSyCXgpFlJa9nAbbNJnbovTI5JUkxlC20JkPUaf1PpCTpHfQnbWWk_rfPmCIzALLTRig9hLaOMhAEkv-tk-w" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/n7lQuLlc04DhaY3JWWG8zvmLuSXjQT8Uv--4RCRl7exxGbDS5kg-sDx8gRBySzn4fvkaSyCXgpFlJa9nAbbNJnbovTI5JUkxlC20JkPUaf1PpCTpHfQnbWWk_rfPmCIzALLTRig9hLaOMhAEkv-tk-w" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Then click on  <strong>Activate</strong> to activate the signals.</p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/bMUp0wkOSkZGYj3CL31q21-MUkHGQn9JJxfReWnXIiSOwpPm5ZdtK8SejBMXRTo20wHXAD00J6-Sj4xcUdDSIrGUIB8AuBL3YYNPR-2rmkONNPW7t9m609hJLirmng1GYGqPa3S0oUQaVdCwsa8hW1E" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/bMUp0wkOSkZGYj3CL31q21-MUkHGQn9JJxfReWnXIiSOwpPm5ZdtK8SejBMXRTo20wHXAD00J6-Sj4xcUdDSIrGUIB8AuBL3YYNPR-2rmkONNPW7t9m609hJLirmng1GYGqPa3S0oUQaVdCwsa8hW1E" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Your Data Signals have been created. See the small toggle at the top of the page.</p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/nz-Hbgwm1_SUhCkF8hh_dsSSgZ-OaQGz5x07eBfz4v5kHFK_n-pVjvH_0WGJZDIH3PepuRTnMaphNn3Dx27EBKmdszcls7cXfgWj2k1h_PNgR9oQG_bc5k31G-Ua4KZh3ns4-7_1LWslpTg4A66zk6U" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/nz-Hbgwm1_SUhCkF8hh_dsSSgZ-OaQGz5x07eBfz4v5kHFK_n-pVjvH_0WGJZDIH3PepuRTnMaphNn3Dx27EBKmdszcls7cXfgWj2k1h_PNgR9oQG_bc5k31G-Ua4KZh3ns4-7_1LWslpTg4A66zk6U" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h4 class="wp-block-heading">Data Collection</h4>
 
@@ -277,17 +361,26 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Click on<strong> “I Acknowledge.” </strong></p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/1KD_KCm0jVdrf8iStBOrckC6Zgud0qIocVGGkBi13LkrcmvWuaNMPjXH2ANEVrsHO0dK1O2WhwAYAs2PYL5ZKGWjSusoVhsBcy-IZdaqeWJeTpljB2fd46LVsKfLqd-9qKtzaW7AxQlCVC3Rf7piUzo" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/1KD_KCm0jVdrf8iStBOrckC6Zgud0qIocVGGkBi13LkrcmvWuaNMPjXH2ANEVrsHO0dK1O2WhwAYAs2PYL5ZKGWjSusoVhsBcy-IZdaqeWJeTpljB2fd46LVsKfLqd-9qKtzaW7AxQlCVC3Rf7piUzo" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You’ll get a green text that says<em> ‘acknowledged</em>' after you click the <strong>I acknowledge</strong> button<strong> </strong>It is tiny text, but if you’re paying attention, you’ll see it. </p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/aXqJbYO5TdoUgLc3dMWSvoiRQB8U8BFBJirvtyqRO5po4FylJEVCMV2D5sONHmEZAO5yKTdkl938V6iKVig3fW4uXc79G3AXVsPc2JXrtTpCi2ca7lunebDNnl7Q9I4gLeywllcMn3uOWhzuCB1TgXc" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/aXqJbYO5TdoUgLc3dMWSvoiRQB8U8BFBJirvtyqRO5po4FylJEVCMV2D5sONHmEZAO5yKTdkl938V6iKVig3fW4uXc79G3AXVsPc2JXrtTpCi2ca7lunebDNnl7Q9I4gLeywllcMn3uOWhzuCB1TgXc" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now go back to the GA4 property Data Collection and click on <strong>Data Retention </strong>from the drop-down menu. Change the <strong>Event Data Retention</strong> from 2 to <strong>14 months</strong> and click “<strong>Save</strong>.”</p>
 
 <h4 class="wp-block-heading"><strong>Data Retention </strong></h4>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/zXeacZhYsDeT0vJuW7dnGVB350YQPBLHzOKrBbZuN8p1C2yrm1EGIVtTRypciVdTEGGxHNXABqV67L0AEzxnEUtYCUOSO88GdLzADFlynG_483s4aNq5nYsqCUWWrymb2CSHmcXi1yz-S5s0JHkX9i0" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/zXeacZhYsDeT0vJuW7dnGVB350YQPBLHzOKrBbZuN8p1C2yrm1EGIVtTRypciVdTEGGxHNXABqV67L0AEzxnEUtYCUOSO88GdLzADFlynG_483s4aNq5nYsqCUWWrymb2CSHmcXi1yz-S5s0JHkX9i0" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now we’re mostly done configuring the first parts of GA4. </p>
 
@@ -301,7 +394,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>In this step we are going to be using Google Analytics and Tag Manager. <br>In the <strong>Data Stream</strong> and click on greater than arrow and copy measurement ID at the top right of the page. </p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/XAY46AKoj77q8q_cpVYMM1q-KntYWAMGLSgxkEvUJOQTeC-AONxd_uoqGStewom-fJXlfYZaf7OhXYak895ct-Az8mGjj3w5tno4XjRwrocgmDvHpm7NWmxzY7xvHAuvkr7EHDY8Wq7fOAGcvRDreiw" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/XAY46AKoj77q8q_cpVYMM1q-KntYWAMGLSgxkEvUJOQTeC-AONxd_uoqGStewom-fJXlfYZaf7OhXYak895ct-Az8mGjj3w5tno4XjRwrocgmDvHpm7NWmxzY7xvHAuvkr7EHDY8Wq7fOAGcvRDreiw" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h4 class="wp-block-heading"><strong>Measurement ID</strong></h4>
 
@@ -309,7 +405,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Or just come back to the Data Stream section in GA4 when you are ready to insert the code in Tag Manager.</p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/wgkybJiNtRZWFeRtLQgxyIBwszHkN_L87zhFO4SP3vrKO44QsITHIcAQsH52RdbQxS6ejTS06qUHvC-K-8OM1PplGznU6je9t6qeHS3wXixUDdAQqeFnEjK__ykdLsnMT11HBV9lGnOgKyIY1qLZ8CA" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/wgkybJiNtRZWFeRtLQgxyIBwszHkN_L87zhFO4SP3vrKO44QsITHIcAQsH52RdbQxS6ejTS06qUHvC-K-8OM1PplGznU6je9t6qeHS3wXixUDdAQqeFnEjK__ykdLsnMT11HBV9lGnOgKyIY1qLZ8CA" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now Go to Tag Manager. You are ready to connect Tag Manager and GA4. If you are taking this step, you need a Google Tag </p>
 
@@ -329,63 +428,105 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Sign into your Google Tag Manager account, and select the container for the website where you want to add Google Analytics 4 tag. Once you have signed in, you will be on the Overview Page. Click Add a new tag or New Tag in the center or click on Tags on the left menu. </p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/UoAdLFiczpqQV0ARHI8Nlu95fUB74z4U2REaSU8A0wKtLQAmxkL8oJvKmrmlVIs4HZx0mcFcC06IeqoRRksz9Fkx7anD4YR6yJutI_DkA9eAdz1IlSYn0mkl5j2RFKzXgX4sQfEeQmfOB3tHjmz0-Ls" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/UoAdLFiczpqQV0ARHI8Nlu95fUB74z4U2REaSU8A0wKtLQAmxkL8oJvKmrmlVIs4HZx0mcFcC06IeqoRRksz9Fkx7anD4YR6yJutI_DkA9eAdz1IlSYn0mkl5j2RFKzXgX4sQfEeQmfOB3tHjmz0-Ls" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>If you click on <strong>Tags</strong>, click on <strong>New</strong> in the Top Right Corner<br></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/h4m4zsPR8yCevA87tLyKMcpcTsgqwQg9l5Q8V_e6Tn2SoevPj8K4ykoqivjVKYqCufcQg_SvG-yeYxMfa_AKKpTrzjVIdmpCagnH0xowZ5J1uWUuhoiQtCz7XA77f_4tEaEShhrBtV3xisjOzgT7Tyk" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/h4m4zsPR8yCevA87tLyKMcpcTsgqwQg9l5Q8V_e6Tn2SoevPj8K4ykoqivjVKYqCufcQg_SvG-yeYxMfa_AKKpTrzjVIdmpCagnH0xowZ5J1uWUuhoiQtCz7XA77f_4tEaEShhrBtV3xisjOzgT7Tyk" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>On the new menu, click on <strong>Tag Configuration.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/4goXiTMQOrVKFlNgWU48Ft08Na0dq_H7DpQsP3rKvaM0q4T3rjmifPi5WmvE8vmENbXsVIjP_tf9VBSMPxe0yQkf1XLgOpUOihOaZ8K1bmuEebfTw4n4JqpYoFUrPSPdgGSdgDdfkGUu1aM5xUN-imk" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/4goXiTMQOrVKFlNgWU48Ft08Na0dq_H7DpQsP3rKvaM0q4T3rjmifPi5WmvE8vmENbXsVIjP_tf9VBSMPxe0yQkf1XLgOpUOihOaZ8K1bmuEebfTw4n4JqpYoFUrPSPdgGSdgDdfkGUu1aM5xUN-imk" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>On the new menu, select <strong>Google Analytics GA4 Configuration.</strong><strong><br></strong></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/aslYVK3TcjJG_uTPO7FP9C7EMQdfoLJKTBGbEHKcJa2j4tq-YfG9uMrFvWBnp4fd372j7jAG2TD8MvjxXRMrVVIB3hE4CE0YG7dyLsI2buLTF386Uum5kA6ayko6V_weZY-h_2VRxe2_qIZ7xzKEYNk" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/aslYVK3TcjJG_uTPO7FP9C7EMQdfoLJKTBGbEHKcJa2j4tq-YfG9uMrFvWBnp4fd372j7jAG2TD8MvjxXRMrVVIB3hE4CE0YG7dyLsI2buLTF386Uum5kA6ayko6V_weZY-h_2VRxe2_qIZ7xzKEYNk" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now we need the <strong>Google Analytics 4 Measurement ID.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/7W2kNnxp6amf-t8nOIf070z8YwVK_K2Queve41kGn24KX8_Ad9O_BODBmmcuN1EiFu9RK6BjmNlLboR0v3BZu0FxMTo__0scFvRymhgENesnowBlhA1gIMyoL9kv-qc9zJtITMy6FnCo07uQEpXfsuI" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/7W2kNnxp6amf-t8nOIf070z8YwVK_K2Queve41kGn24KX8_Ad9O_BODBmmcuN1EiFu9RK6BjmNlLboR0v3BZu0FxMTo__0scFvRymhgENesnowBlhA1gIMyoL9kv-qc9zJtITMy6FnCo07uQEpXfsuI" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Find The GA4 Measurement ID</strong></h3>
 
 <p>Go to Google Analytics. Click on Admin in the bottom left corner</p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/efTpjX7aOdbrKSvh8_LCwH762U5LGY4AXJk5yLQhJo3jLDjWCd86v2WWFzH4uO1b-Aykoe1hLft0t0f-3KavIQC3k81-alAc4r6zOSTKiliNP7d7rGvSA0XKE-Xm2_EejwjlJtBTjl7CqKQqHCsOT4A" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/efTpjX7aOdbrKSvh8_LCwH762U5LGY4AXJk5yLQhJo3jLDjWCd86v2WWFzH4uO1b-Aykoe1hLft0t0f-3KavIQC3k81-alAc4r6zOSTKiliNP7d7rGvSA0XKE-Xm2_EejwjlJtBTjl7CqKQqHCsOT4A" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>On the <strong>Data Streams </strong>menu at open click on the arrow at the right side of the website name.</p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ZfzpVP80VBT_8adENYOfXqpWVNv9OriuSkVyFMdp2OP7gwWRv9ygvOkGpBXnsFHW9TRgMLh6zxOfN_BCdZp2IbjSEng1pzheaYr3xSTUOR-2gbQoZOcYs_mY321Ax53O8j3Lrf4Ro5O-2v7ou7PljzI" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ZfzpVP80VBT_8adENYOfXqpWVNv9OriuSkVyFMdp2OP7gwWRv9ygvOkGpBXnsFHW9TRgMLh6zxOfN_BCdZp2IbjSEng1pzheaYr3xSTUOR-2gbQoZOcYs_mY321Ax53O8j3Lrf4Ro5O-2v7ou7PljzI" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>On the <strong>Web Stream Details</strong> page, click on the copy icon on the right side of your <strong>Measurement ID.<br></strong></p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/fDmK9aOCEivLwvU4YfAci7-LU_-Goph4eVUvZX0w8xBib85VO_W3tYg5fqx8kNsBRTGuHIO_CawRhpQAX7BRSkrAWEleibae8PX8LhbhTeDV1MR3NDzOGB7ITufi4MeeiCbWaGa00LLjRQZhQzUsHgo" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/fDmK9aOCEivLwvU4YfAci7-LU_-Goph4eVUvZX0w8xBib85VO_W3tYg5fqx8kNsBRTGuHIO_CawRhpQAX7BRSkrAWEleibae8PX8LhbhTeDV1MR3NDzOGB7ITufi4MeeiCbWaGa00LLjRQZhQzUsHgo" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Add GA4 Measurement ID & Publish The New Tag</strong></h3>
 
 <p>Take the freshly copied <strong>GA4 Measurement ID</strong> and paste the Measurement ID in the spot on the Tag Manager Tag.</p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/q07p1Ik6ikN2gF15n2PvJPU0mcpwLjAQMFwmZYfEvaWvy9mijYkBE7bpSbhr9lbzwDQ8MM4SfP_QUNlDAHxlVHNvRZYTQdkRVeZmQBg4MlSSw_oidqMdL5j1w8XpxWfj6v38TxifPQaPa4pOda_WVQs" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/q07p1Ik6ikN2gF15n2PvJPU0mcpwLjAQMFwmZYfEvaWvy9mijYkBE7bpSbhr9lbzwDQ8MM4SfP_QUNlDAHxlVHNvRZYTQdkRVeZmQBg4MlSSw_oidqMdL5j1w8XpxWfj6v38TxifPQaPa4pOda_WVQs" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Go to the <strong>Triggering Section</strong> and click on the section.<br></p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/DPuVcpalM6o1P7IMtrbzN1e0GRIHD_dDrWS5inAM_Oact_9a_WgAH4a4YKkZsp9ysavI9_PXGfMIDVGbbg3nDg9o63Dn6Hag3PU_yOn88FonPclNxTBpYAG80DKJEdpS9PU6pJ2Qb5UW4gqnvamUBFM" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/DPuVcpalM6o1P7IMtrbzN1e0GRIHD_dDrWS5inAM_Oact_9a_WgAH4a4YKkZsp9ysavI9_PXGfMIDVGbbg3nDg9o63Dn6Hag3PU_yOn88FonPclNxTBpYAG80DKJEdpS9PU6pJ2Qb5UW4gqnvamUBFM" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Select the <strong>All Pages Trigger</strong> since it is the GA4 Analytics Tags.</p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/B0DqVCjDwqZTMW8KEK642fSIOLzV5j883ohXscbiJCkyiQYZrCM2iI7MXct5zqq4L3hyq1q90Hvf3fOkrq9jSwCY0nJYjxBjLu4eZ8LHQ-NFZwqai07sAfiUkrV36W93YgowLwoM6lzGC3Z0oXi0AeA" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/B0DqVCjDwqZTMW8KEK642fSIOLzV5j883ohXscbiJCkyiQYZrCM2iI7MXct5zqq4L3hyq1q90Hvf3fOkrq9jSwCY0nJYjxBjLu4eZ8LHQ-NFZwqai07sAfiUkrV36W93YgowLwoM6lzGC3Z0oXi0AeA" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Now click on <strong>Save.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ch6lfZbBz9a0deRziSmL0Lu3ShBypis4TxmWQCQ-vO2fd1zzneNE6BAc2TtFpUr867E1jxs9pkeM8PsJ3VDCUyo_4Ks0NnqYhV1JcmW2a9c_GtJLXK3zAEHKyJlz6SKUq7qpDrAaGL2YM_wAjUhGvhI" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ch6lfZbBz9a0deRziSmL0Lu3ShBypis4TxmWQCQ-vO2fd1zzneNE6BAc2TtFpUr867E1jxs9pkeM8PsJ3VDCUyo_4Ks0NnqYhV1JcmW2a9c_GtJLXK3zAEHKyJlz6SKUq7qpDrAaGL2YM_wAjUhGvhI" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Click on <strong>Save</strong> again since the name isn’t perfect it is unnamed<strong>.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/xsyfU0_mnAsn27jIKeMwBv_szCIYgo-TH7Rh-L7ECegta7m4YTSgoNyQJzyaZl89JqzF8qDLNjcYMvWtfQ78FIZbejZXxVfiWKTSiOWXkMSGWwWSfSsK38QhMJaLcq2GugAMU6yQ2pGSEfg_r_i6Gtc" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/xsyfU0_mnAsn27jIKeMwBv_szCIYgo-TH7Rh-L7ECegta7m4YTSgoNyQJzyaZl89JqzF8qDLNjcYMvWtfQ78FIZbejZXxVfiWKTSiOWXkMSGWwWSfSsK38QhMJaLcq2GugAMU6yQ2pGSEfg_r_i6Gtc" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Click <strong>Submit.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/xrL4d8taofEOCpdu712z5HRnm41NsuvKiS3EKuDTTcEmrGtskGUWrnHit71Oe2ddk1UofHSTZUrtQuGjMe5DFJX81YGP2sUyagSFVOqpM2vjFPZF3bw0-59Izy68XbFCZ5pPD4AudG_TY6kBKLPD5Ik" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/xrL4d8taofEOCpdu712z5HRnm41NsuvKiS3EKuDTTcEmrGtskGUWrnHit71Oe2ddk1UofHSTZUrtQuGjMe5DFJX81YGP2sUyagSFVOqpM2vjFPZF3bw0-59Izy68XbFCZ5pPD4AudG_TY6kBKLPD5Ik" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Add the name <strong>Added GA4 Tag</strong> for the Version Name and then click <strong>Publish</strong>! You Are Done. You have GA4 set up (Google Analytics 4). Now You Can Collect Data. Give Yourself A Massive Pat On The Back<br><br>Now if you have any questions, don’t hesitate to reach out and <a href="https://seymourdigitalmedia.com/contact/" target="_blank" rel="noreferrer noopener">contact us</a>.</p>
 
@@ -393,11 +534,17 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>So Google is pushing us, and they've gamified the setup assistant. It makes it fun. Now that you have data flowing and you've had it flowing for a while. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/GA4-complete-GA4-setup-1-1024x905.jpeg" alt="" class="wp-image-52167"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/GA4-complete-GA4-setup-1-1024x905.jpeg" alt="" class="wp-image-52167"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p><br>Everything is connected & everything is flowing let's go back to Google Analytics get the rest of this done! and mark things off as complete. We will go down the list in the middle of the screen. You can find all the settings in the column to the left of the main screen. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Gamification-Ga4-setup-1024x817.jpg" alt="" class="wp-image-52151"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Gamification-Ga4-setup-1024x817.jpg" alt="" class="wp-image-52151"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You know how to get there. Go to Google Analyics. Sign in. Hit the cog to get to the settings. Click on your GA4 property and click on Setup Assistant in your property column.</p>
 
@@ -409,13 +556,19 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p><strong>How?</strong> It will say data is flowing. Click into your "manage data streams" if you want to see more. We're going to click compltee. <br><br></p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Data-collection-setup-assistant-complete-1024x429.jpeg" alt="" class="wp-image-52165"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Data-collection-setup-assistant-complete-1024x429.jpeg" alt="" class="wp-image-52165"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Property Settings</strong><br></h3>
 
 <p>Data is flowing, and Signals are on. We turned them on above in step 2. If you haven't seen that you do the same thing as above but for property settings. We have 2 out of 7 done or complete. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/image-1024x415.png" alt="" class="wp-image-52152"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/image-1024x415.png" alt="" class="wp-image-52152"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <iframe src="https://www.youtube.com/embed/dPJAVZodEtM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;="" width="560" height="315" frameborder="0"></iframe>
 
@@ -467,7 +620,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>You may get an image like this or a big countdown timer.  It is stressful and annoying. Ignore it. You are seeing this because you are in Universal analytics. Hit skip. If you click on the <strong>No</strong> radio button you’ll go deeper into what you <strong>don’t </strong>need. Click <strong>Skip for now.</strong></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/oKfHh0yStnyMSeuhF4YWqaBz7FxtUJ8XanABMUYM4AkqRagHbOL0yU9K8Als8oeodXbCLOoADqmZK08zzBduJq2DMDWCSGPIrEOIOFAA_Qsj8P9Pzxj_R-JNWR6_e3WQUfqsboS9oYfxiVFGMi9UzjM" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/oKfHh0yStnyMSeuhF4YWqaBz7FxtUJ8XanABMUYM4AkqRagHbOL0yU9K8Als8oeodXbCLOoADqmZK08zzBduJq2DMDWCSGPIrEOIOFAA_Qsj8P9Pzxj_R-JNWR6_e3WQUfqsboS9oYfxiVFGMi9UzjM" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>If you get the pop up just click skip. Where to go - Cog bottom, left-hand side.</p>
 
@@ -477,13 +633,19 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Things are moving quickly in GA4 set up, so things move around. This is also a great way to get used to the new software. And, of course, if you need help, just ask.</p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/LBebpK2IZcyLLH64cKncnqNq2NW1udhWDDvYCuZNtlioiI0eBofKpPgwK0z3GWHSl4zUYyxCy-AOVNrizdjlZZY7cAC9OFnEMl1x8yM-KaU78LoOFRsQlwKpkGg921p_kF6Wp6In8DhCYNmBAwrP5-w" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/LBebpK2IZcyLLH64cKncnqNq2NW1udhWDDvYCuZNtlioiI0eBofKpPgwK0z3GWHSl4zUYyxCy-AOVNrizdjlZZY7cAC9OFnEMl1x8yM-KaU78LoOFRsQlwKpkGg921p_kF6Wp6In8DhCYNmBAwrP5-w" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Once you click on that setup assistant, a new window will slide open from right to left. Go to Data Collection You can get to it in the middle of the screen or down the left-hand side column. Mark off as complete.</p>
 
 <h3 class="wp-block-heading">Setup Assistant - Data Streams</h3>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Data-collection-setup-assistant-complete-1-1024x429.jpeg" alt="" class="wp-image-52166"/></figure>
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Data-collection-setup-assistant-complete-1-1024x429.jpeg" alt="" class="wp-image-52166"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading">Setup Assistant - Property Settings</h3>
 
@@ -491,11 +653,17 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p></p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/C0sTTxAhdER6CRxBQw3HIKnJUPTeH2D8Fc6VRMbuEnQ2dIp0HkJR89lI6F1VQwWVUgLKIrnI5U6atC8bri7rkOm4-Ujf9xajVctua-FBIhk8MZCIiFKrcJkwltDFtIrWutdPG1-ec700nVMNOLkc1BA" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/C0sTTxAhdER6CRxBQw3HIKnJUPTeH2D8Fc6VRMbuEnQ2dIp0HkJR89lI6F1VQwWVUgLKIrnI5U6atC8bri7rkOm4-Ujf9xajVctua-FBIhk8MZCIiFKrcJkwltDFtIrWutdPG1-ec700nVMNOLkc1BA" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>A popup will appear above if you hover over the “Not started” text. You can see the turn on Google signals. Once turned on the pop up menu will say GA4 signals turned on GA signals turned off. </p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/gMS_GwDRUhZFkYtnn0HmYVVAiPcoOHiA2CbCqsv7PZvBugaV2g0ZNNQpb46PHldm_F8t0Yycbhsq5fQwZ4SjkdqqWKhd_Qp3cTx_r6BTCUVVcpXEqu2bELpk-OCima5K9Oaw5E7yPn9i0NU9EhiWNX8" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/gMS_GwDRUhZFkYtnn0HmYVVAiPcoOHiA2CbCqsv7PZvBugaV2g0ZNNQpb46PHldm_F8t0Yycbhsq5fQwZ4SjkdqqWKhd_Qp3cTx_r6BTCUVVcpXEqu2bELpk-OCima5K9Oaw5E7yPn9i0NU9EhiWNX8" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Mark it as complete using the drop down menu and watch that gamification bar.</p>
 
@@ -507,7 +675,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>We’re going to go through the 3 options. You might only have 2 options.</p>
 
-<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/4gE2mJrZ7Wo3F6zhBWV3Kl1ClqnT2rKKRx1j7oBwwNtJeMZm6xNQKuROD0uhkSlCB6NbAuN2am_caYTMazB4pTzETukxaQZqAac7qc51IxjBCcdgPsGZjtY518_VZuWIG39Hx3ZrQzwR8lCYsRBL5eQ" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/4gE2mJrZ7Wo3F6zhBWV3Kl1ClqnT2rKKRx1j7oBwwNtJeMZm6xNQKuROD0uhkSlCB6NbAuN2am_caYTMazB4pTzETukxaQZqAac7qc51IxjBCcdgPsGZjtY518_VZuWIG39Hx3ZrQzwR8lCYsRBL5eQ" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h3 class="wp-block-heading"><strong>Import Goals From Universal Analytics Google </strong></h3>
 
@@ -521,11 +692,17 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Click on the import from Universal Analytics</p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/VDV6xXM5xMJPRCtUHLLvMZezjMw7iKeeNfDCrpQ1neTCAp39ZiowZJma1JOEs485BiP1DP_3EglqbPM8TAKXZbT0bMXjT8BtNk6LiGP5VvRWmAge3wQeUBpLoAj8jYcqo3VImw1idGHHnzQuofkOsxk" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/VDV6xXM5xMJPRCtUHLLvMZezjMw7iKeeNfDCrpQ1neTCAp39ZiowZJma1JOEs485BiP1DP_3EglqbPM8TAKXZbT0bMXjT8BtNk6LiGP5VvRWmAge3wQeUBpLoAj8jYcqo3VImw1idGHHnzQuofkOsxk" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>A window will slide open from right to left. Showing you your options. Review them and hit the import button, Top right. </p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/tI4G8V5OKjFsU0g5S9y9jTNfg9a9Z2TZRJzx0cvVwY_EC8uXyy_732Qx5AtMGmZlvH0NYEG8rbuFz8eycUQeLp3NwAvQTnW15TWwJpttCw4WgoMTtinghHtEpJMh0BSyvbjoN-gYqa7qVK26xbM6ld8" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/tI4G8V5OKjFsU0g5S9y9jTNfg9a9Z2TZRJzx0cvVwY_EC8uXyy_732Qx5AtMGmZlvH0NYEG8rbuFz8eycUQeLp3NwAvQTnW15TWwJpttCw4WgoMTtinghHtEpJMh0BSyvbjoN-gYqa7qVK26xbM6ld8" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You might get an error message. What is this all about? </p>
 
@@ -541,11 +718,17 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Below are the completed goals brought to conversion events. </p>
 
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/01p4StoDuFfxXuSZv81tq9ed7xb2jvmBJK89DvIHB0JQ8kf4SLa_QtBd5UutVLiANyRnDf9e-g4gw1UIi4OmBJEGHgKuVqgpEeDfJrI74R_Mh0x3CzSDgIWSnGr4USDWcVIO4CtOfwesYzwYOjoR3uk" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/01p4StoDuFfxXuSZv81tq9ed7xb2jvmBJK89DvIHB0JQ8kf4SLa_QtBd5UutVLiANyRnDf9e-g4gw1UIi4OmBJEGHgKuVqgpEeDfJrI74R_Mh0x3CzSDgIWSnGr4USDWcVIO4CtOfwesYzwYOjoR3uk" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>You can see if you compare 4 were migrated over, and below there are 6. Two booking calendar events (weird but okay), the purchase event (which is not optional). And the signup to the newsletter needs to be there because I made it disappear by going to the events section and turning the toggle off.<br></p>
 
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/Mg4ZXiXkxcY-3qRK6QcqCVsUB4A5RXLUAZd1foGD6jvuKMw4_bWch5AW7rXWfmJoHcd_s-5BpxCpgAV9JeBUbZpO3mDLvtBR_Zf0-8Nj_i2tL9VehkNAfBxsjpHu9_oYj-P6wS3SxK05ZA3HyjAIy_8" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/Mg4ZXiXkxcY-3qRK6QcqCVsUB4A5RXLUAZd1foGD6jvuKMw4_bWch5AW7rXWfmJoHcd_s-5BpxCpgAV9JeBUbZpO3mDLvtBR_Zf0-8Nj_i2tL9VehkNAfBxsjpHu9_oYj-P6wS3SxK05ZA3HyjAIy_8" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>So Goals were imported, and now we can see them as conversion events in the conversion section. </p>
 
@@ -575,7 +758,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>You can mark this off as complete if you have checked or know it hasn't been checked off. We will finish this off but not this second. </p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ubVOdifSvXR-u1oUfpKZFGTtg_B1vsc63nRtk3UGfVfDF-8lwv7q5BFfLZuOLrtnGos-cLy7boqxhFj7xv_nwW7GV-nxLfvGgqLTs7o1ymiN9yzpV54R9eUGIMdMVe76BU8-7APFD38HZjHAxwtzBpg" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/ubVOdifSvXR-u1oUfpKZFGTtg_B1vsc63nRtk3UGfVfDF-8lwv7q5BFfLZuOLrtnGos-cLy7boqxhFj7xv_nwW7GV-nxLfvGgqLTs7o1ymiN9yzpV54R9eUGIMdMVe76BU8-7APFD38HZjHAxwtzBpg" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="step-6-audience">Step 6 Audience </h2>
 
@@ -589,7 +775,10 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Let’s mark this off as complete. </p>
 
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/3CWhnC90BZOOjZJzxXdJqxUQd20Q14TXZ7YZErftOOkRrmV7vhC_UE44WGR3v_ZxcX-Mw6SynMWlKv7AYSid_IX2SSBm-hf_XQ-B_zMilensLqarFu2KxAQKBvRIRZKibJlMgNmyK8IepB2ArfHFIM0" alt=""/></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/3CWhnC90BZOOjZJzxXdJqxUQd20Q14TXZ7YZErftOOkRrmV7vhC_UE44WGR3v_ZxcX-Mw6SynMWlKv7AYSid_IX2SSBm-hf_XQ-B_zMilensLqarFu2KxAQKBvRIRZKibJlMgNmyK8IepB2ArfHFIM0" alt=""
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="step-7-google-ads-linking">Step 7: Google Ads Linking</h2>
 
@@ -731,7 +920,9 @@ export default function PostGa4SetUpGuide() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2024/11/GA4-setup_.jpg"
             alt="GA4 Set Up & Guide (Updated 2024-10-27)"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

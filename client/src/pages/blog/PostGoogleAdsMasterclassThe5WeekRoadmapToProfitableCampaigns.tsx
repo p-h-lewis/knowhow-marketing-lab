@@ -7,7 +7,10 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
-<figure class="wp-block-kadence-image kb-image8891_e9d1a9-1c size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google_ads_masterclass_hero-1024x572.png" alt="man working on google ads and conversions are the main target" class="kb-img wp-image-8892"/></figure>
+<figure class="wp-block-kadence-image kb-image8891_e9d1a9-1c size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google_ads_masterclass_hero-1024x572.png" alt="man working on google ads and conversions are the main target" class="kb-img wp-image-8892"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>Let’s be honest: Google Ads feels like a casino where the house always wins.</p>
 
@@ -27,7 +30,10 @@ const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
 <h2 id="the-khml-google-ads-mastery-framework">The KHML Google Ads Mastery Framework</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/khml_framework_graphic-572x1024.png" alt="" class="wp-image-8893"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/khml_framework_graphic-572x1024.png" alt="" class="wp-image-8893"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>This is the curriculum we'll follow. We recommend watching one class per week to give yourself time to implement the homework and see real results in your campaigns. Then come to a Q & A to get your questions answered</p>
 

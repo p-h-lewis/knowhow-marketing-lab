@@ -23,13 +23,19 @@ const POST_CONTENT = `<p></p>
 
 <p>Tailoring your message by intent often results in higher click-through rates (CTR) because the ads are more aligned with the user’s immediate needs.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-3.png" alt="" class="wp-image-8358"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-3.png" alt="" class="wp-image-8358"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="2-better-quality-scores"><strong>2. Better Quality Scores</strong></h2>
 
 <p>Google Ads uses relevance as a key factor in determining <strong><a href="https://www.wordstream.com/quality-score" target="_blank" rel="noreferrer noopener">Quality Score</a></strong>. If your keywords, ads, and landing pages are tightly aligned with the user’s intent, your <strong>Quality Score improves</strong>, which can lower your cost-per-click (CPC) and increase ad placement in search results.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/adwords-quality-score.webp" alt="" class="wp-image-8361"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/adwords-quality-score.webp" alt="" class="wp-image-8361"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="3-segmentation-for-budget-allocation"><strong>3. Segmentation for Budget Allocation</strong></h2>
 
@@ -43,7 +49,10 @@ const POST_CONTENT = `<p></p>
 
 <p>This segmentation allows for smarter spending and higher ROI, as you can prioritize AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-5.png" alt="" class="wp-image-8362"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-5.png" alt="" class="wp-image-8362"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="4-customized-landing-pages"><strong>4. Customized Landing Pages</strong></h2>
 
@@ -59,7 +68,10 @@ const POST_CONTENT = `<p></p>
 
 <p>When the landing page matches the intent behind the keyword, it improves both user experience and conversion rates.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-4.png" alt="" class="wp-image-8360"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-4.png" alt="" class="wp-image-8360"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="5-easier-performance-analysis"><strong>5. Easier Performance Analysis</strong></h2>
 
@@ -193,7 +205,9 @@ export default function PostAdgroupsBasedOnUserIntent() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-1.png"
             alt="AdGroups based on user intent"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

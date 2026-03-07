@@ -196,10 +196,6 @@ export default defineConfig({
             '@radix-ui/react-dialog',
             '@radix-ui/react-accordion',
           ],
-          // Animation library - large, rarely changes
-          'animation': ['framer-motion'],
-          // Chart library
-          'charts': ['recharts'],
           // Blog posts: NOT listed here — they are React.lazy() in App.tsx
           // so Rollup auto-splits them per-page. Listing them here caused
           // the entire blog bundle to load on every page visit.

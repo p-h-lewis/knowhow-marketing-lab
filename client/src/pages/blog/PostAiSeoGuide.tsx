@@ -59,7 +59,10 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-alphabet-soup-what-all-these-acronyms-mean">The Alphabet Soup: What All These Acronyms Mean</h2>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_acronym_comparison_final.png" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO — all describing the same evolution in search" class="wp-image-8846"/></figure>
+<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_acronym_comparison_final.png" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO — all describing the same evolution in search" class="wp-image-8846"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -165,7 +168,10 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>The takeaway? SEO isn't dead. It's evolving. And all these new terms are just different ways of describing that evolution.</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_timeline_final-1024x683.png" alt="Timeline showing the evolution of SEO from traditional search to AI-powered generative search experiences" class="wp-image-8847"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_timeline_final-1024x683.png" alt="Timeline showing the evolution of SEO from traditional search to AI-powered generative search experiences" class="wp-image-8847"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -749,7 +755,10 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_sge_explanation_final-1024x683.png" alt="Diagram explaining how Google's Search Generative Experience (SGE / AI Overviews) works and how it affects organic search results" class="wp-image-8848"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_sge_explanation_final-1024x683.png" alt="Diagram explaining how Google's Search Generative Experience (SGE / AI Overviews) works and how it affects organic search results" class="wp-image-8848"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="ai-seo-the-umbrella-term-that-covers-everything">AI SEO: The Umbrella Term That Covers Everything</h2>
 
@@ -921,7 +930,10 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-know-how-framework-your-complete-strategy">The Know How Framework: Your Complete Strategy</h2>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_know_how_framework_final-1.png" alt="ai seo know how optimization framework " class="wp-image-8849"/></figure>
+<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_know_how_framework_final-1.png" alt="ai seo know how optimization framework " class="wp-image-8849"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <p>At Know How Marketing Lab, we've developed a comprehensive framework for succeeding with AI SEO. We call it the <strong>Know How Optimization Framework</strong>.</p>
 
@@ -1041,7 +1053,9 @@ export default function PostAiSeoGuide() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_featured_image.jpg"
             alt="The Complete Guide to AI SEO"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 

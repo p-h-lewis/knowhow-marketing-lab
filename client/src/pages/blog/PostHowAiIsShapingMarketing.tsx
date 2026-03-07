@@ -37,7 +37,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 
 <p>These advancements allow marketers to focus more on creativity and strategy.</p>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Discover-how-AI-transforms-marketing-with-advanced-image-and-text-generation.webp" alt="Discover how AI transforms marketing with advanced image and text generation." class="wp-image-8348"/></figure>
+<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Discover-how-AI-transforms-marketing-with-advanced-image-and-text-generation.webp" alt="Discover how AI transforms marketing with advanced image and text generation." class="wp-image-8348"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <h2 id="comparing-ai-platforms-for-marketing"><strong>Comparing AI Platforms for Marketing</strong></h2>
 
@@ -59,7 +62,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Consider platforms that optimize workflow for efficiency</li>
 </ul>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/AI-marketing-tool-comparison-chart.png" alt="AI marketing tool comparison chart" class="wp-image-8350"/></figure>
+<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/AI-marketing-tool-comparison-chart.png" alt="AI marketing tool comparison chart" class="wp-image-8350"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -83,7 +89,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Enhanced user experience aligned with your brand</li>
 </ul>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/integrating-chatbot-557x1024.png" alt="Five-step guide to integrating AI into customer service for improved efficiency." class="wp-image-8344"/></figure>
+<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/integrating-chatbot-557x1024.png" alt="Five-step guide to integrating AI into customer service for improved efficiency." class="wp-image-8344"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -127,7 +136,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Provide comprehensive answers to potential queries</li>
 </ul>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Keyword-intent-funnel.webp" alt="Keyword intent funnel: Awareness, Interest, Consideration, Intent, Evaluation, Purchase." class="wp-image-8352"/></figure>
+<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Keyword-intent-funnel.webp" alt="Keyword intent funnel: Awareness, Interest, Consideration, Intent, Evaluation, Purchase." class="wp-image-8352"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -151,7 +163,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 
 <figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/4743a5c2-bcc7-4454-a10a-ebbce9e91bd6.png" alt="AI career path: Core skills, data analysis, machine learning, domain knowledge.
 
-" class="wp-image-8353"/></figure>
+" class="wp-image-8353"
+                  loading="lazy"
+                  decoding="async"
+                /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -273,7 +288,9 @@ export default function PostHowAiIsShapingMarketing() {
             src="https://knowhowmarketinglab.com/wp-content/uploads/2024/11/ai-and-seo.jpg"
             alt="How AI is Shaping Marketing"
             className="w-full h-full object-cover"
-          />
+                  loading="lazy"
+                  decoding="async"
+                />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
 
