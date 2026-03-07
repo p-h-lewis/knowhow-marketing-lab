@@ -59,7 +59,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-alphabet-soup-what-all-these-acronyms-mean">The Alphabet Soup: What All These Acronyms Mean</h2>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_acronym_comparison_final.png" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO — all describing the same evolution in search" class="wp-image-8846"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO — all describing the same evolution in search" class="wp-image-8846"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -168,7 +168,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>The takeaway? SEO isn't dead. It's evolving. And all these new terms are just different ways of describing that evolution.</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_timeline_final-1024x683.png" alt="Timeline showing the evolution of SEO from traditional search to AI-powered generative search experiences" class="wp-image-8847"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="Timeline showing the evolution of SEO from traditional search to AI-powered generative search experiences" class="wp-image-8847"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -755,7 +755,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_sge_explanation_final-1024x683.png" alt="Diagram explaining how Google's Search Generative Experience (SGE / AI Overviews) works and how it affects organic search results" class="wp-image-8848"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="Diagram explaining how Google's Search Generative Experience (SGE / AI Overviews) works and how it affects organic search results" class="wp-image-8848"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -930,7 +930,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-know-how-framework-your-complete-strategy">The Know How Framework: Your Complete Strategy</h2>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_know_how_framework_final-1.png" alt="ai seo know how optimization framework " class="wp-image-8849"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="ai seo know how optimization framework " class="wp-image-8849"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -971,7 +971,7 @@ export default function PostAiSeoGuide() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp"
     }
   },
   "mainEntityOfPage": {
@@ -980,7 +980,7 @@ export default function PostAiSeoGuide() {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_featured_image.jpg"
+    "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp"
   }
 });
     document.head.appendChild(script);
@@ -1050,7 +1050,7 @@ export default function PostAiSeoGuide() {
 
         <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
           <img
-            src="https://knowhowmarketinglab.com/wp-content/uploads/2025/10/blog_featured_image.jpg"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp"
             alt="The Complete Guide to AI SEO"
             className="w-full h-full object-cover"
                   loading="lazy"

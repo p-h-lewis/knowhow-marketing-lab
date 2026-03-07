@@ -838,7 +838,7 @@ export default function PostGa4SetUpGuide() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-analytics-4-setup-hero-dU5h22dYaajZknWEGNwLKc.webp"
     }
   },
   "mainEntityOfPage": {
@@ -847,7 +847,7 @@ export default function PostGa4SetUpGuide() {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2024/11/GA4-setup_.jpg"
+    "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-analytics-4-setup-hero-dU5h22dYaajZknWEGNwLKc.webp"
   }
 });
     document.head.appendChild(script);
@@ -917,7 +917,7 @@ export default function PostGa4SetUpGuide() {
 
         <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
           <img
-            src="https://knowhowmarketinglab.com/wp-content/uploads/2024/11/GA4-setup_.jpg"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-analytics-4-setup-hero-dU5h22dYaajZknWEGNwLKc.webp"
             alt="GA4 Set Up & Guide (Updated 2024-10-27)"
             className="w-full h-full object-cover"
                   loading="lazy"

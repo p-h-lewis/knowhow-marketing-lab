@@ -117,7 +117,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
   "@type": "Article",
   "headline": "The Ultimate Guide to Google Ads Bidding Strategies (2025 Edition )",
   "description": "Comprehensive guide to Google Ads bidding strategies in 2025. Learn when to use Manual CPC, Smart Bidding, bid adjustments, and the latest AI-powered features.",
-  "image": "https://knowhowmarketinglab.com/wp-content/uploads/google_ads_bidding_strategies_hero.jpg",
+  "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-bidding-strategies-hero-AuM7urzmE5qFNuKaJMDMj7.webp",
   "author": {
     "@type": "Person",
     "name": "Pip Seymour",
@@ -128,7 +128,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
     "name": "KnowHow Marketing Lab",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_LOGO.webp"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-bidding-strategies-hero-AuM7urzmE5qFNuKaJMDMj7.webp"
     }
   },
   "datePublished": "2025-12-20",
@@ -158,7 +158,7 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-bidding-strategies-hero-AuM7urzmE5qFNuKaJMDMj7.webp"
     }
   },
   "mainEntityOfPage": {

@@ -9,7 +9,7 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p>Redirects are important in website management and user experience. <br>This blog post covers the types of URL redirects. It also explains how they can help your SEO strategy. <br>URL redirects are crucial for improving your website's search engine optimization (SEO). <br>Redirects are also important in website management and user experience. <br>Redirects can be temporary or permanent. But first</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7639"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp" alt="URL Redirects SEO Best Practices " class="wp-image-7639"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -26,7 +26,7 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p> If you're changing your site or your URLs, adding a 301 redirect is essential. It keeps your current search engine rankings.</p>
 
-<figure class="wp-block-image size-full is-resized"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-1-edited.png" alt="URL Redirects SEO Best Practices " class="wp-image-7641" style="width:759px;height:auto"
+<figure class="wp-block-image size-full is-resized"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp" alt="URL Redirects SEO Best Practices " class="wp-image-7641" style="width:759px;height:auto"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -95,7 +95,7 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p>For more tips on using URL redirects, listen to our detailed podcast. It covers the topic well.</p>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/04/image-2-1024x576.png" alt="URL Redirects SEO Best Practices " class="wp-image-7642"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp" alt="URL Redirects SEO Best Practices " class="wp-image-7642"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -140,7 +140,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp"
     }
   },
   "mainEntityOfPage": {
@@ -149,7 +149,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2024/12/how-do-redirects-work.webp"
+    "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp"
   }
 });
     document.head.appendChild(script);
@@ -219,7 +219,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
 
         <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
           <img
-            src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/how-do-redirects-work.webp"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp"
             alt="URL Redirects: Everything You Need to Know for SEO"
             className="w-full h-full object-cover"
                   loading="lazy"

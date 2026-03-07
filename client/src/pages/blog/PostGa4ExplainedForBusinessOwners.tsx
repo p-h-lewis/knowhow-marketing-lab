@@ -27,7 +27,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
         "@type": "Organization",
         "name": "KnowHow Marketing Lab",
         "url": "https://knowhowmarketinglab.com",
-        "logo": { "@type": "ImageObject", "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png" }
+        "logo": { "@type": "ImageObject", "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-analytics-4-setup-hero-dU5h22dYaajZknWEGNwLKc.webp" }
       },
       "datePublished": "2026-03-02",
       "dateModified": "2026-03-02",

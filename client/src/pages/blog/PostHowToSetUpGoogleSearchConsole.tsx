@@ -28,7 +28,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
         "@type": "Organization",
         "name": "KnowHow Marketing Lab",
         "url": "https://knowhowmarketinglab.com",
-        "logo": { "@type": "ImageObject", "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png" }
+        "logo": { "@type": "ImageObject", "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/local-seo-google-business-hero-YBQ73Yy9cjPFMhHcoBa3kn.webp" }
       },
       "datePublished": "2026-03-02",
       "dateModified": "2026-03-02",

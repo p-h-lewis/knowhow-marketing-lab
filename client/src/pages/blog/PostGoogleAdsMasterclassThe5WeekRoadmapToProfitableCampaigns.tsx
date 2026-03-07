@@ -7,7 +7,7 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
-<figure class="wp-block-kadence-image kb-image8891_e9d1a9-1c size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google_ads_masterclass_hero-1024x572.png" alt="man working on google ads and conversions are the main target" class="kb-img wp-image-8892"
+<figure class="wp-block-kadence-image kb-image8891_e9d1a9-1c size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp" alt="man working on google ads and conversions are the main target" class="kb-img wp-image-8892"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -30,7 +30,7 @@ const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
 <h2 id="the-khml-google-ads-mastery-framework">The KHML Google Ads Mastery Framework</h2>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2025/12/khml_framework_graphic-572x1024.png" alt="" class="wp-image-8893"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp" alt="" class="wp-image-8893"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -113,7 +113,7 @@ https://youtu.be/_jqGM9V1QHY
   "@type": "Article",
   "headline": "Free Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns",
   "description": "A complete 5-week Google Ads training program for medium-sized businesses. Learn fundamentals, campaign creation, automation, conversion tracking, and optimization.",
-  "image": "https://knowhowmarketinglab.com/wp-content/uploads/google_ads_masterclass_hero.png",
+  "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp",
   "author": {
     "@type": "Person",
     "name": "Pip Seymour",
@@ -124,7 +124,7 @@ https://youtu.be/_jqGM9V1QHY
     "name": "KnowHow Marketing Lab",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/KHML-Logo.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp"
     }
   },
   "datePublished": "2025-12-20",
@@ -136,7 +136,7 @@ https://youtu.be/_jqGM9V1QHY
 {
   "@context": "https://schema.org",
   "@type": "ImageObject",
-  "contentUrl": "https://knowhowmarketinglab.com/wp-content/uploads/google_ads_masterclass_hero.png",
+  "contentUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp",
   "description": "Business professional managing Google Ads campaigns with conversion growth metrics",
   "name": "Google Ads Masterclass Hero Image"
 }
@@ -146,7 +146,7 @@ https://youtu.be/_jqGM9V1QHY
 {
   "@context": "https://schema.org",
   "@type": "ImageObject",
-  "contentUrl": "https://knowhowmarketinglab.com/wp-content/uploads/khml_framework_graphic.png",
+  "contentUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp",
   "description": "The KHML Google Ads Mastery Framework: 5-week learning pathway from fundamentals to optimization",
   "name": "KHML Google Ads Mastery Framework"
 }
@@ -175,18 +175,18 @@ https://youtu.be/_jqGM9V1QHY
       "url": "https://knowhowmarketinglab.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_LOGO.webp"
+        "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp"
       }
     },
     {
       "@type": "ImageObject",
       "@id": "https://knowhowmarketinglab.com/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/#image-hero",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/12/google_ads_masterclass_hero-1024x572.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp"
     },
     {
       "@type": "ImageObject",
       "@id": "https://knowhowmarketinglab.com/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/#image-framework",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/12/khml_framework_graphic-scaled.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp"
     },
     {
       "@type": "VideoObject",
@@ -325,7 +325,7 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp"
     }
   },
   "mainEntityOfPage": {

@@ -64,7 +64,7 @@ export default function CookieConsent() {
           {/* Text */}
           <div className="flex-1 min-w-0">
             <p className="text-sm text-gray-100 leading-relaxed">
-              We use cookies to remember your preferences and to understand how visitors use our site (via Google Analytics). We never sell your data.{' '}
+              We use cookies for analytics. We never sell your data.{' '}
               <Link
                 href="/privacy"
                 className="underline hover:text-[#E98C28] transition-colors"

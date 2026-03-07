@@ -37,7 +37,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 
 <p>These advancements allow marketers to focus more on creativity and strategy.</p>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Discover-how-AI-transforms-marketing-with-advanced-image-and-text-generation.webp" alt="Discover how AI transforms marketing with advanced image and text generation." class="wp-image-8348"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="Discover how AI transforms marketing with advanced image and text generation." class="wp-image-8348"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -62,7 +62,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Consider platforms that optimize workflow for efficiency</li>
 </ul>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/AI-marketing-tool-comparison-chart.png" alt="AI marketing tool comparison chart" class="wp-image-8350"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="AI marketing tool comparison chart" class="wp-image-8350"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -89,7 +89,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Enhanced user experience aligned with your brand</li>
 </ul>
 
-<figure class="wp-block-image size-large"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/integrating-chatbot-557x1024.png" alt="Five-step guide to integrating AI into customer service for improved efficiency." class="wp-image-8344"
+<figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="Five-step guide to integrating AI into customer service for improved efficiency." class="wp-image-8344"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -136,7 +136,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Provide comprehensive answers to potential queries</li>
 </ul>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/Keyword-intent-funnel.webp" alt="Keyword intent funnel: Awareness, Interest, Consideration, Intent, Evaluation, Purchase." class="wp-image-8352"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="Keyword intent funnel: Awareness, Interest, Consideration, Intent, Evaluation, Purchase." class="wp-image-8352"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -161,7 +161,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <li>Embrace creativity and adaptability in strategic roles</li>
 </ol>
 
-<figure class="wp-block-image size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/4743a5c2-bcc7-4454-a10a-ebbce9e91bd6.png" alt="AI career path: Core skills, data analysis, machine learning, domain knowledge.
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="AI career path: Core skills, data analysis, machine learning, domain knowledge.
 
 " class="wp-image-8353"
                   loading="lazy"
@@ -206,7 +206,7 @@ export default function PostHowAiIsShapingMarketing() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp"
     }
   },
   "mainEntityOfPage": {
@@ -215,7 +215,7 @@ export default function PostHowAiIsShapingMarketing() {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2024/11/ai-and-seo.jpg"
+    "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp"
   }
 });
     document.head.appendChild(script);
@@ -285,7 +285,7 @@ export default function PostHowAiIsShapingMarketing() {
 
         <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
           <img
-            src="https://knowhowmarketinglab.com/wp-content/uploads/2024/11/ai-and-seo.jpg"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp"
             alt="How AI is Shaping Marketing"
             className="w-full h-full object-cover"
                   loading="lazy"

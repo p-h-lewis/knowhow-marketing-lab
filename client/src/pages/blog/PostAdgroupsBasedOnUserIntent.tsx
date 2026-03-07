@@ -23,7 +23,7 @@ const POST_CONTENT = `<p></p>
 
 <p>Tailoring your message by intent often results in higher click-through rates (CTR) because the ads are more aligned with the user’s immediate needs.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-3.png" alt="" class="wp-image-8358"
+<figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8358"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -32,7 +32,7 @@ const POST_CONTENT = `<p></p>
 
 <p>Google Ads uses relevance as a key factor in determining <strong><a href="https://www.wordstream.com/quality-score" target="_blank" rel="noreferrer noopener">Quality Score</a></strong>. If your keywords, ads, and landing pages are tightly aligned with the user’s intent, your <strong>Quality Score improves</strong>, which can lower your cost-per-click (CPC) and increase ad placement in search results.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/adwords-quality-score.webp" alt="" class="wp-image-8361"
+<figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8361"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -49,7 +49,7 @@ const POST_CONTENT = `<p></p>
 
 <p>This segmentation allows for smarter spending and higher ROI, as you can prioritize AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-5.png" alt="" class="wp-image-8362"
+<figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8362"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -68,7 +68,7 @@ const POST_CONTENT = `<p></p>
 
 <p>When the landing page matches the intent behind the keyword, it improves both user experience and conversion rates.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-4.png" alt="" class="wp-image-8360"
+<figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8360"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -123,7 +123,7 @@ export default function PostAdgroupsBasedOnUserIntent() {
     "url": "https://knowhowmarketinglab.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://knowhowmarketinglab.com/wp-content/uploads/2025/08/cropped-KHML-Logo-V04_FAVICON-1-180x180.png"
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp"
     }
   },
   "mainEntityOfPage": {
@@ -132,7 +132,7 @@ export default function PostAdgroupsBasedOnUserIntent() {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-1.png"
+    "url": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp"
   }
 });
     document.head.appendChild(script);
@@ -202,7 +202,7 @@ export default function PostAdgroupsBasedOnUserIntent() {
 
         <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
           <img
-            src="https://knowhowmarketinglab.com/wp-content/uploads/2024/12/napkin-selection-1.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp"
             alt="AdGroups based on user intent"
             className="w-full h-full object-cover"
                   loading="lazy"
