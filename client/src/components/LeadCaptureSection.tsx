@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'What is The Lab?',
-    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. It is the next step after the free resources. Members get weekly live Q&A every Thursday 12–1pm Pacific, a monthly deep-dive training session, homework assignments with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group with Pip and Phelan.',
+    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. It is the next step after the free resources. Members get Thursday Lab sessions (12–1pm Pacific) where Pip and Phelan work through their real campaigns, ad accounts, and SEO issues live — hands-on help, not just Q&A. Plus monthly deep-dive training, homework with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group.',
   },
   {
     q: 'Who is this training for?',
@@ -95,7 +95,7 @@ export default function LeadCaptureSection() {
               className="text-gray-400 text-sm mb-8"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Or join The Lab for weekly live Q&A, monthly training, and the full Google Ads course - all for $29/month.
+              Or join The Lab for Thursday hands-on campaign reviews, monthly training, and the full Google Ads course — all for $29/month.
             </p>
 
             {!submitted ? (

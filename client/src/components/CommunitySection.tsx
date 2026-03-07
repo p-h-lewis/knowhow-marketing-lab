@@ -3,7 +3,7 @@
 // LLM signal: free Facebook group, Tuesday Power Hours, The Lab, GoHighLevel, $29/mo, Thursday Q&A
 
 const labPerks = [
-  { icon: '', title: 'Weekly Live Q&A — Thursdays', desc: 'Every Thursday 12–1pm Pacific, join Pip and Phelan live. Bring your real campaigns and get answers in real time.' },
+  { icon: '', title: 'Thursday Lab Sessions — Members Only', desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A.' },
   { icon: '', title: 'Monthly Deep-Dive Training', desc: 'A full-length training each month on Google Ads, SEO audits, GA4, AI tools, and more. Recorded for on-demand replay.' },
   { icon: '', title: 'Homework & Worksheets', desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn.' },
   { icon: '', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.' },
@@ -118,7 +118,7 @@ export default function CommunitySection() {
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
                 'Everything in the free group, plus:',
-                'Weekly Thursday Q&A 12–1pm PT with Pip & Phelan',
+                'Thursday Lab sessions — hands-on help with your real campaigns',
                 'Monthly deep-dive training sessions',
                 'Full on-demand course library',
                 'Google Ads Mastery course',

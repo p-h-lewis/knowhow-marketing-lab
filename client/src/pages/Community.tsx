@@ -18,9 +18,9 @@ const perks = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.882v6.236a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
       </svg>
     ),
-    title: 'Weekly Live Q&A – Every Thursday',
-    desc: 'Bring your real campaigns, your real problems, and your real questions. Pip and Phelan answer live, 12–1pm Pacific. Every session is recorded so you never miss a thing.',
-    highlight: 'Thursdays 12–1pm PT',
+    title: 'Thursday Lab Sessions – Members Only',
+    desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A. Every session is recorded.',
+    highlight: 'Thursdays 12–1pm PT — Members Only',
   },
   {
     icon: (
@@ -93,7 +93,7 @@ const curriculum = [
 ];
 
 const schedule = [
-  { day: 'Every Thursday', time: '12–1pm Pacific', event: 'Live Q&A with Pip & Phelan', type: 'live' },
+  { day: 'Every Thursday', time: '12–1pm Pacific', event: 'Lab Session — hands-on help with real campaigns', type: 'live' },
   { day: 'Monthly', time: 'Announced in advance', event: 'Deep-dive training session', type: 'training' },
   { day: 'Anytime', time: 'On-demand', event: 'Full course library & replays', type: 'ondemand' },
   { day: 'Ongoing', time: 'Community group', event: 'Ask questions, share wins, get feedback', type: 'community' },
@@ -187,7 +187,7 @@ const communitySchema = {
       "@type": "Service",
       "@id": "https://knowhowmarketinglab.com/community#service",
       "name": "The KnowHow Lab Membership",
-      "description": "A paid membership community ($29/month) for business owners and marketing teams. Includes weekly live Q&A every Thursday, monthly deep-dive training, Google Ads and AI + SEO courses, fillable worksheets, and a private community group.",
+      "description": "A paid membership community ($29/month) for business owners and marketing teams. Includes Thursday Lab sessions where members get hands-on help with their real campaigns, monthly deep-dive training, Google Ads and AI + SEO courses, fillable worksheets, and a private community group.",
       "provider": {
         "@type": "Organization",
         "name": "KnowHow Marketing Lab",
@@ -214,7 +214,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is The KnowHow Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes weekly live Q&A every Thursday, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes Thursday Lab sessions (12–1pm PT) where Pip and Phelan work through members' real campaigns live, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
         },
         {
           "@type": "Question",
@@ -224,7 +224,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is the difference between the free Power Hours and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open Q&A sessions every Tuesday on Zoom — no registration required beyond signing up for the Zoom link. The Lab is a paid membership that includes everything in the free tier plus weekly recorded Q&A every Thursday, full course access, monthly training, worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open Q&A sessions every Tuesday on Zoom — anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Lab sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
         }
       ]
     }
@@ -236,10 +236,10 @@ export default function Community() {
 
   useSEO({
     title: 'The KnowHow Lab – Marketing Community | KnowHow Marketing Lab',
-    description: 'Join The Lab — weekly live Q&A every Thursday, Google Ads & SEO training, AI tools, and a private community for $29/month. Led by 20+ year agency veterans.',
+    description: 'Join The Lab — Thursday sessions where Pip & Phelan work through your real campaigns live, plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
     canonical: 'https://knowhowmarketinglab.com/community',
     ogTitle: 'The KnowHow Lab – Join Our Marketing Community',
-    ogDescription: 'Weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month. Join The Lab today.',
+    ogDescription: 'Thursday Lab sessions — hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
     ogType: 'website',
   });
 
@@ -288,7 +288,7 @@ export default function Community() {
         <div className="bg-[#E98C28] py-4">
           <div className="container">
             <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-white text-sm font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              <span>✓ Weekly live Q&amp;A every Thursday</span>
+              <span>✓ Thursday Lab sessions — hands-on with your real campaigns</span>
               <span>✓ 20+ year agency veterans</span>
               <span>✓ Cancel anytime</span>
               <span>✓ Early access – $29/mo</span>
@@ -405,7 +405,7 @@ export default function Community() {
               </p>
               <ul className="space-y-3 mb-8 text-left">
                 {[
-                  'Weekly live Q&A every Thursday',
+                  'Thursday Lab sessions — hands-on help with your real campaigns',
                   'Monthly deep-dive training',
                   'Full on-demand course library',
                   'Google Ads Mastery course',
@@ -476,7 +476,7 @@ export default function Community() {
                   {[
                     'Advanced courses & course library',
                     'Fillable worksheets & homework',
-                    'Thursday deep-dive Q&A (paid only)',
+                    'Thursday Lab sessions — hands-on help (paid only)',
                     'AI & automation training modules',
                   ].map(f => (
                     <li key={f} className="flex items-start gap-2 text-sm text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -518,7 +518,7 @@ export default function Community() {
                 <ul className="space-y-3 mb-6">
                   {[
                     'Everything in the free group, plus:',
-                    'Weekly Thursday Q&A 12–1pm PT with Pip & Phelan',
+                    'Thursday Lab sessions 12–1pm PT — hands-on with Pip & Phelan',
                     'Monthly deep-dive training sessions',
                     'Full on-demand course library',
                     'Google Ads Mastery course',

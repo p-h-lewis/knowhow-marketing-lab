@@ -64,7 +64,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Get your real questions answered every Thursday on Zoom.
+              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Free Q&amp;A every Tuesday. Thursday is The Lab — where members get their real campaigns reviewed and fixed live.
             </p>
 
             {/* Primary CTA: Join The Lab */}
@@ -101,11 +101,20 @@ export default function HeroSection() {
               </svg>
             </div>
 
-            {/* Divider */}
-            {/* Founding member urgency */}
-            <p className="text-xs text-[#318599] font-semibold mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              ⏳ Founding member rate — less than a coffee a week. Price increases as we grow.
-            </p>
+            {/* Founding member progress bar */}
+            <div className="mb-4 max-w-lg" aria-label="Founding member spots: 23 of 100 taken">
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs font-bold text-[#1B3B4F]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>🔬 Founding Member Pricing</span>
+                <span className="text-xs font-semibold text-[#E98C28]" style={{ fontFamily: 'DM Sans, sans-serif' }}>23 / 100 spots taken</span>
+              </div>
+              <div className="w-full bg-gray-100 rounded-full h-2" role="progressbar" aria-valuenow={23} aria-valuemin={0} aria-valuemax={100}>
+                <div
+                  className="h-2 rounded-full transition-all duration-500"
+                  style={{ width: '23%', background: 'linear-gradient(90deg, #E98C28, #f5a84b)' }}
+                />
+              </div>
+              <p className="text-xs text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Price increases to $49/mo at 100 members — lock in $29/mo now.</p>
+            </div>
             <div className="flex items-center gap-3 mb-4 max-w-lg">
               <div className="flex-1 h-px bg-gray-200" />
               <span className="text-xs text-gray-400 font-medium whitespace-nowrap" style={{ fontFamily: 'DM Sans, sans-serif' }}>or try free first</span>
@@ -154,7 +163,7 @@ export default function HeroSection() {
             {/* What you get */}
             <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get">
               {[
-                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — live Q&amp;A every Thursday on Zoom, get your campaigns &amp; SEO reviewed live by Pip' },
+                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — Thursday sessions where Pip &amp; Phelan work through your real campaigns &amp; SEO live, hands-on' },
                 { icon: '', text: '<strong>AI + SEO + Google Ads courses</strong> — step-by-step, no agency needed' },
                 { icon: '', text: '<strong>Try free first:</strong> 60+ videos + 5-module SEO course, no sign-up needed' },
               ].map(item => (
@@ -168,7 +177,7 @@ export default function HeroSection() {
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-5 sm:gap-8">
               {[
-                { value: 'Live', label: 'Q&A Every Thursday' },
+                { value: 'Live', label: 'Lab Sessions Thursdays' },
                 { value: '20+', label: 'Years Agency Experience' },
                 { value: '60+', label: 'Free Video Lessons' },
                 { value: '$29/mo', label: 'Founding Member Rate' },

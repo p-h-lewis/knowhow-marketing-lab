@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - Navbar
-// White sticky nav with amber CTA, full route links, SeymourDigitalMedia connection
-// Desktop: 6 nav items (Podcast + Resources in footer only) - fits without hamburger at lg breakpoint
-// Mobile: full-screen slide-down menu with large touch targets, body scroll lock
+// Simplified: Blog · Pricing · Community in centre | Free Course (text) + Join Live Training (CTA) on right
+// Learn dropdown removed — those pages accessible via Community page and footer
+// Mobile: full-screen slide-down menu with large touch targets
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'wouter';
@@ -9,8 +9,6 @@ import { Link, useLocation } from 'wouter';
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [coursesOpen, setCoursesOpen] = useState(false);
-  const [communityOpen, setCommunityOpen] = useState(false);
   const [location] = useLocation();
   const isHome = location === '/';
 
@@ -20,7 +18,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handler);
   }, []);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     if (mobileOpen) {
       document.body.style.overflow = 'hidden';
@@ -30,43 +27,31 @@ export default function Navbar() {
     return () => { document.body.style.overflow = ''; };
   }, [mobileOpen]);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMobileOpen(false);
   }, [location]);
 
-  // Anchor links work on home page; on other pages navigate to /#section
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav - 4 items + Learn dropdown (Free Course is in CTA area as text link)
+  // Desktop nav — 3 clean links only
   const desktopNavLinks = [
-    { label: 'Video Library', href: anchorHref('#videos') },
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
-  ];
-
-  // Mobile nav - full list including Podcast, Resources, and Power Hours
-  const mobileNavLinks = [
-    { label: 'AI + SEO Course', href: '/courses/seo' },
-    { label: 'Video Library', href: anchorHref('#videos') },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Podcast', href: '/podcast' },
-    { label: 'Our Method', href: '/framework' },
-    { label: 'Resources', href: '/resources' },
     { label: 'Community', href: '/community' },
-    { label: 'Free Power Hours', href: '/power-hours' },
+  ];
+
+  // Mobile nav — full list
+  const mobileNavLinks = [
+    { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
+    { label: 'Community', href: '/community' },
+    { label: 'Free Power Hours (Tuesday)', href: '/power-hours' },
+    { label: 'AI + SEO Course', href: '/courses/seo' },
+    { label: 'Google Ads Bootcamp', href: '/courses/google-ads' },
+    { label: 'Video Library', href: anchorHref('#videos') },
+    { label: 'Podcast', href: '/podcast' },
+    { label: 'Resources', href: '/resources' },
     { label: 'About', href: '/about' },
-  ];
-
-  const courseLinks = [
-    { label: 'AI + SEO Course', href: '/courses/seo', badge: 'Free' },
-    { label: 'Google Ads Bootcamp', href: '/courses/google-ads', badge: 'The Lab' },
-  ];
-
-  const communityLinks = [
-    { label: 'The Lab Community', href: '/community', badge: '$29/mo', badgeColor: '#E98C28' },
-    { label: 'Free Power Hours', href: '/power-hours', badge: 'Free', badgeColor: '#318599' },
   ];
 
   const closeMobile = () => setMobileOpen(false);
@@ -99,149 +84,64 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Nav - 6 items, hidden below lg */}
+          {/* Desktop Nav — 3 links, hidden below lg */}
           <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
             {desktopNavLinks.map(link => (
               <li key={link.label}>
-                {link.href.startsWith('/') && !link.href.includes('#') ? (
-                  <Link
-                    href={link.href}
-                    className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
-                      location === link.href
-                        ? 'text-[#E98C28] bg-amber-50'
-                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                    }`}
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    itemProp="url"
-                  >
-                    {link.label}
-                  </Link>
-                ) : (
-                  <a
-                    href={link.href}
-                    className="text-gray-600 hover:text-gray-900 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-50 transition-all duration-150 whitespace-nowrap"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    itemProp="url"
-                  >
-                    {link.label}
-                  </a>
-                )}
+                <Link
+                  href={link.href}
+                  className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
+                    location === link.href
+                      ? 'text-[#E98C28] bg-amber-50'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                  }`}
+                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  itemProp="url"
+                >
+                  {link.label}
+                </Link>
               </li>
             ))}
-
-            {/* Combined Learn Dropdown */}
-            <li className="relative group">
-              <button
-                className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 flex items-center gap-1 whitespace-nowrap ${
-                  ['/community', '/power-hours', '/courses/seo', '/courses/google-ads', '/framework'].includes(location)
-                    ? 'text-[#E98C28] bg-amber-50'
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                }`}
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
-                aria-haspopup="true"
-                aria-expanded={communityOpen}
-                aria-controls="learn-dropdown"
-                aria-label="Learn - expand menu"
-                onClick={() => setCommunityOpen(o => !o)}
-                onBlur={(e) => { if (!e.currentTarget.parentElement?.contains(e.relatedTarget as Node)) setCommunityOpen(false); }}
-              >
-                Learn
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div
-                id="learn-dropdown"
-                className={`absolute top-full right-0 mt-1 w-72 bg-white rounded-xl border border-gray-100 shadow-lg transition-all duration-150 z-50 py-2 ${
-                  communityOpen ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
-                }`}
-              >
-                <div className="px-4 py-1.5">
-                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Courses</p>
-                </div>
-                {courseLinks.map(cl => (
-                  <Link
-                    key={cl.href}
-                    href={cl.href}
-                    className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    onClick={() => setCommunityOpen(false)}
-                  >
-                    {cl.label}
-                    <span className="text-xs font-bold text-[#E98C28] bg-amber-50 px-2 py-0.5 rounded-full border border-amber-100">{cl.badge}</span>
-                  </Link>
-                ))}
-                <div className="border-t border-gray-100 mt-1 pt-1 px-4 py-1.5">
-                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Community</p>
-                </div>
-                {communityLinks.map(cl => (
-                  <Link
-                    key={cl.href}
-                    href={cl.href}
-                    className="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    onClick={() => setCommunityOpen(false)}
-                  >
-                    {cl.label}
-                    <span
-                      className="text-xs font-bold text-white px-2 py-0.5 rounded-full"
-                      style={{ backgroundColor: cl.badgeColor }}
-                    >{cl.badge}</span>
-                  </Link>
-                ))}
-                <div className="border-t border-gray-100 mt-1 pt-1">
-                  <Link
-                    href="/framework"
-                    className="flex items-center px-4 py-2.5 text-sm text-gray-700 hover:bg-amber-50 hover:text-[#E98C28] transition-colors"
-                    style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    onClick={() => setCommunityOpen(false)}
-                  >
-                    Our Method
-                  </Link>
-                </div>
-              </div>
-            </li>
           </ul>
 
-          {/* Desktop CTA - hidden below lg */}
+          {/* Desktop CTA — hidden below lg */}
           <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
             <a
               href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-800 text-sm font-medium transition-colors duration-150 whitespace-nowrap"
+              className="text-gray-400 hover:text-gray-700 text-sm font-medium transition-colors duration-150 whitespace-nowrap"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               aria-label="Log in to The Lab platform"
             >
               Log In
             </a>
-            {/* Secondary CTA: Free Course - text only to reduce visual competition */}
+            {/* Secondary CTA: Free Course — text only */}
             <a
-              href={anchorHref('#free-course')}
+              href="/courses/seo"
               className="text-sm font-medium text-gray-500 hover:text-[#318599] transition-colors duration-150 whitespace-nowrap"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               aria-label="Start the free AI + SEO course"
             >
               Free Course
             </a>
-            {/* Primary CTA: Join Live Training */}
+            {/* Primary CTA */}
             <a
               href="/community"
               className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap pulse-cta"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               aria-label="Join live marketing training for $29 per month"
             >
-              Join The Lab — $29/mo
+              Join Live Training — $29/mo
             </a>
           </div>
 
-          {/* Mobile right side: CTA button + Hamburger */}
+          {/* Mobile right side: CTA + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
             <a
               href="/community"
               className="inline-flex items-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl text-xs py-2 px-3 whitespace-nowrap transition-all duration-150"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab for $29 per month"
               onClick={closeMobile}
             >
               Join The Lab
@@ -264,7 +164,7 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* Mobile Menu - full overlay below header */}
+      {/* Mobile Menu */}
       {mobileOpen && (
         <div
           id="mobile-menu"
@@ -274,7 +174,6 @@ export default function Navbar() {
           aria-label="Mobile navigation"
         >
           <div className="px-4 py-3 flex flex-col">
-            {/* Main nav links */}
             {mobileNavLinks.map(link => (
               link.href.startsWith('/') && !link.href.includes('#') ? (
                 <Link
@@ -299,57 +198,29 @@ export default function Navbar() {
               )
             ))}
 
-            {/* Community section */}
-            <div className="mt-3 pt-3 border-t border-gray-100">
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest px-3 pb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Community</p>
-              {communityLinks.map(cl => (
-                <Link
-                  key={cl.href}
-                  href={cl.href}
-                  className="flex items-center justify-between text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors"
-                  style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px' }}
-                  onClick={closeMobile}
-                >
-                  {cl.label}
-                  <span className="text-xs font-bold text-white px-2.5 py-1 rounded-full" style={{ backgroundColor: cl.badgeColor }}>{cl.badge}</span>
-                </Link>
-              ))}
-            </div>
-
-            {/* Courses section */}
-            <div className="mt-3 pt-3 border-t border-gray-100">
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest px-3 pb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Courses</p>
-              {courseLinks.map(cl => (
-                <Link
-                  key={cl.href}
-                  href={cl.href}
-                  className="flex items-center justify-between text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors"
-                  style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px' }}
-                  onClick={closeMobile}
-                >
-                  {cl.label}
-                  <span className="text-xs font-bold text-white bg-[#E98C28] px-2.5 py-1 rounded-full">{cl.badge}</span>
-                </Link>
-              ))}
-            </div>
-
             {/* Bottom CTAs */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 pb-4">
               <a
-                href={anchorHref('#free-course')}
-                className="btn-primary text-base text-center justify-center py-4 rounded-xl"
+                href="/community"
+                className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-4 text-base transition-all duration-150"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 onClick={closeMobile}
-                aria-label="Start the AI + SEO course for free"
               >
-                Start AI + SEO Course - Free →
+                Join Live Training — $29/mo
+              </a>
+              <a
+                href="/courses/seo"
+                className="text-gray-500 text-sm text-center py-3 hover:text-[#318599] transition-colors"
+                onClick={closeMobile}
+              >
+                Start Free AI + SEO Course →
               </a>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 text-sm text-center py-3 hover:text-gray-800 transition-colors"
+                className="text-gray-400 text-xs text-center py-2 hover:text-gray-700 transition-colors"
                 onClick={closeMobile}
-                aria-label="Log in to the GoHighLevel platform"
               >
                 Log In to Platform
               </a>
@@ -358,7 +229,7 @@ export default function Navbar() {
         </div>
       )}
 
-      {/* Backdrop overlay when mobile menu is open */}
+      {/* Backdrop */}
       {mobileOpen && (
         <div
           className="lg:hidden fixed inset-0 bg-black/20 z-20"

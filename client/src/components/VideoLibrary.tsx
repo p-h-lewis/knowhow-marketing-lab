@@ -232,7 +232,7 @@ export default function VideoLibrary() {
         <div>
           <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want live Q&amp;A on these topics?</p>
           <h3 className="text-xl sm:text-2xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Take it further in The Lab</h3>
-          <p className="text-gray-300 text-sm max-w-md" style={{ fontFamily: 'DM Sans, sans-serif' }}>Weekly live Q&amp;A every Thursday, Google Ads &amp; SEO courses, AI tools, and a private community. All for $29/mo.</p>
+          <p className="text-gray-300 text-sm max-w-md" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday Lab sessions where Pip &amp; Phelan work through your real campaigns live, plus Google Ads &amp; SEO courses, AI tools, and a private community. All for $29/mo.</p>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
           <a

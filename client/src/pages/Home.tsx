@@ -299,7 +299,7 @@ export default function Home() {
                   href: '/community',
                   tag: 'Community',
                   title: 'The KnowHow Lab — Join the Community',
-                  desc: 'Weekly live Q&A every Thursday, advanced courses, AI tools, and a private group for $29/month. Led by 20+ year agency veterans.',
+                  desc: 'Thursday Lab sessions where Pip & Phelan work through your real campaigns live, plus advanced courses, AI tools, and a private group for $29/month.',
                   color: '#318599',
                 },
                 {

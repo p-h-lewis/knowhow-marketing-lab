@@ -143,13 +143,13 @@ export default function ExitIntentPopup() {
             </h2>
 
             <p className="text-gray-600 text-sm leading-relaxed mb-5">
-              Join The Lab — weekly live Q&amp;A every Thursday on Zoom with Pip &amp; Phelan. Founding member rate: <strong>$29/mo</strong>. Price increases as we grow.
+              Join The Lab — Thursday sessions where Pip &amp; Phelan work through your real campaigns live. Founding member rate: <strong>$29/mo</strong>. Price increases as we grow.
             </p>
 
             {/* What you get */}
             <ul className="space-y-2 mb-6">
               {[
-                'Live Q&A every Thursday — bring your real campaigns',
+                'Thursday Lab sessions — hands-on help with your real campaigns',
                 'AI + SEO + Google Ads courses included',
                 'Private community of business owners',
               ].map((item) => (

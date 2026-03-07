@@ -27,7 +27,7 @@ const communityFeatures = [
   { label: 'Google Analytics 4 (GA4) training', included: true },
   { label: 'Google Business Profile training', included: true },
   { label: 'Google Tag Manager intro', included: true },
-  { label: 'Weekly live Q&A & support (Thursdays)', included: true },
+  { label: 'Thursday Lab sessions — hands-on help with your real campaigns', included: true },
   { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
   { label: 'Google Ads - live monthly training + recordings', included: true },
@@ -45,7 +45,7 @@ const pricingFaqs = [
   },
   {
     q: 'What do I get in The Lab that I cannot get for free?',
-    a: 'The Lab adds weekly live Q&A and support every Thursday, a monthly deep-dive training session on a specific topic (Google Ads, SEO audits, AI tools, and more), homework assignments with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays. Google Ads is taught live every month - no separate course needed.',
+    a: 'The Lab adds Thursday Lab sessions (12–1pm PT) where Pip and Phelan work through your real campaigns, ad accounts, and SEO issues live — not just Q&A, actual hands-on help. Plus monthly deep-dive training, homework with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -146,7 +146,7 @@ export default function Pricing() {
               Weekly Live Training. Real Answers. $29/mo.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The Lab gives you weekly live Q&amp;A every Thursday, full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
+                  The Lab gives you Thursday sessions where Pip &amp; Phelan work through your real campaigns live, full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
             </p>
             <div className="mt-6">
               <a
