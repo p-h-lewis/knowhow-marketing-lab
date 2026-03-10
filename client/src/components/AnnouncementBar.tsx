@@ -25,27 +25,27 @@ export default function AnnouncementBar() {
     >
       {/* Mobile */}
       <Link
-        href="/community"
+        href="/power-hours"
         className="flex sm:hidden items-center gap-1.5 text-center leading-snug text-xs font-medium flex-wrap justify-center hover:opacity-90 transition-opacity"
-        aria-label="Join The Lab for $29/mo"
+        aria-label="Join free Power Hours every Tuesday"
       >
-        <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
-        <span className="text-white/90">Power Hours (free Tue) + Thursday Lab sessions · <strong className="text-[#E98C28]">$29/mo →</strong></span>
+        <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
+        <span className="text-white/90">Free live Q&amp;A every Tuesday · <strong className="text-[#E98C28]">Register for Power Hours →</strong></span>
       </Link>
 
       {/* Desktop */}
       <div className="hidden sm:flex items-center gap-3 text-center leading-snug flex-wrap justify-center">
         <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
         <span className="text-white/90">
-          Free Power Hours every Tuesday 12–1pm PT · The Lab adds Thursday live campaign reviews — <strong className="text-[#E98C28]">$29/mo</strong>
+          Free live Q&amp;A every Tuesday 12–1pm PT · Bring your Google Ads, SEO &amp; GA4 questions
         </span>
         <Link
-          href="/community"
+          href="/power-hours"
           className="inline-flex items-center gap-1 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold text-xs rounded-lg px-3 py-1 transition-all duration-150 whitespace-nowrap"
           style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-          aria-label="Join The Lab for $29 per month"
+          aria-label="Register for free Power Hours every Tuesday"
         >
-          Join The Lab — $29/mo →
+          Register Free →
         </Link>
       </div>
 

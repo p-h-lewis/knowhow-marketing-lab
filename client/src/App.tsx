@@ -236,6 +236,8 @@ function Router() {
         <Route path="/lessons/qa-seo-audit-strategy-summary-3"><Redirect to="/courses/seo" /></Route>
         <Route path="/lessons/qa-seo-audit-strategy-summary-3/"><Redirect to="/courses/seo" /></Route>
 
+        <Route path="/the-lab"><Redirect to="/pricing" /></Route>
+        <Route path="/the-lab/"><Redirect to="/pricing" /></Route>
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>

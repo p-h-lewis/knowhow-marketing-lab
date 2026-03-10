@@ -2,30 +2,9 @@
 // Desktop: 2-col grid (copy left, image right). Mobile: stacked, image hidden on xs.
 // Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 
-import { useState } from 'react';
-import { useLocation } from 'wouter';
+import { Link } from 'wouter';
 
 export default function HeroSection() {
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-  const [, navigate] = useLocation();
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-    try {
-      const formData = new FormData();
-      formData.append('email', email);
-      formData.append('formId', 'l71tHQPMO7st6TFSPmo5');
-      formData.append('locationId', 'Bk3wb95yNZ5UAEn0KG00');
-      if (typeof (window as any).GHLForm !== 'undefined') {
-        (window as any).GHLForm.submit({ email });
-      }
-    } catch (_) {}
-    setSubmitted(true);
-    navigate('/thank-you');
-  };
-
   return (
     <section
       className="pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-12 md:pb-24 overflow-hidden"
@@ -43,7 +22,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-5">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Founding Member Pricing — Price Increases at 100 Members
+                Live every Tuesday · Free · No sign-up needed
               </span>
             </div>
 
@@ -54,8 +33,8 @@ export default function HeroSection() {
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               itemProp="name"
             >
-              Stop Guessing.{' '}
-              <span className="text-[#E98C28]">Start Getting Results.</span>
+              Real marketing help.{' '}
+              <span className="text-[#E98C28]">Every week. Live.</span>
             </h1>
 
             {/* Subheading */}
@@ -64,19 +43,20 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Weekly live training with Pip &amp; Phelan — agency owners who've managed millions in ad spend. Free Power Hours every Tuesday. Thursday is The Lab — where paid members get their real campaigns reviewed and fixed live.
+              KnowHow is a weekly live marketing community run by Pip &amp; Phelan — agency owners with 20+ years experience. Bring your Google Ads, SEO, GA4, or strategy questions and we'll answer them live on Zoom. Free every Tuesday.
             </p>
 
-            {/* Primary CTA: Join The Lab */}
-            <a
-              href="/community"
-              className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg mb-4 w-full sm:w-auto pulse-cta"
+            {/* Primary CTA: Free Power Hours */}
+            <Link
+              href="/power-hours"
+              className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg mb-2 w-full sm:w-auto pulse-cta"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join live marketing training for $29 per month"
+              aria-label="Register for free Power Hours live Q&A every Tuesday"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-              Join Live Training — $29/mo
-            </a>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+              Join Free Power Hours — Every Tuesday
+            </Link>
+            <p className="text-xs text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>Want your campaigns reviewed live? <a href="/pricing" className="text-[#E98C28] font-semibold hover:underline">See The Lab — $29/mo →</a></p>
 
             {/* Google Reviews trust badge */}
             <div className="flex items-center gap-2.5 mb-4" aria-label="79 five-star Google reviews">
@@ -115,72 +95,37 @@ export default function HeroSection() {
               </div>
               <p className="text-xs text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Price increases to $49/mo at 100 members — lock in $29/mo now.</p>
             </div>
-            <div className="flex items-center gap-3 mb-4 max-w-lg">
-              <div className="flex-1 h-px bg-gray-200" />
-              <span className="text-xs text-gray-400 font-medium whitespace-nowrap" style={{ fontFamily: 'DM Sans, sans-serif' }}>or try free first</span>
-              <div className="flex-1 h-px bg-gray-200" />
-            </div>
 
-            {/* Lead Capture Form */}
-            {!submitted ? (
-              <form
-                onSubmit={handleSubmit}
-                className="flex flex-col gap-3 mb-5"
-                aria-label="Sign up for the AI + SEO course"
-                data-ghl-form-id="l71tHQPMO7st6TFSPmo5"
-              >
-                <label htmlFor="hero-email" className="sr-only">Your email address</label>
-                <input
-                  id="hero-email"
-                  name="email"
-                  type="email"
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  placeholder="Enter your email address"
-                  className="lead-input w-full"
-                  required
-                  autoComplete="email"
-                  aria-required="true"
-                  style={{ minHeight: '52px', fontSize: '16px' }}
-                />
-                <button
-                  type="submit"
-                  className="btn-primary w-full justify-center pulse-cta"
-                  aria-label="Start AI + SEO Course"
-                  style={{ minHeight: '52px', fontSize: '16px' }}
-                >
-                  Start AI + SEO Course →
-                </button>
-              </form>
-            ) : (
-              <div className="bg-[#e6f4f7] border border-[#318599] rounded-lg p-4 mb-5 max-w-lg" role="status" aria-live="polite">
-                <p className="text-[#1e6b7e] font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                   Great! Opening your AI + SEO course now…
-                </p>
-              </div>
-            )}
 
-            {/* What you get */}
-            <ul className="flex flex-col gap-2 mb-6 max-w-lg" aria-label="What you get">
+            {/* How it works — 3 steps */}
+            <div className="flex flex-col gap-2.5 mb-6 max-w-lg" aria-label="How KnowHow works">
               {[
-                { icon: '', text: '<strong>The Lab ($29/mo)</strong> — Thursday sessions where Pip &amp; Phelan work through your real campaigns &amp; SEO live, hands-on' },
-                { icon: '', text: '<strong>AI + SEO + Google Ads courses</strong> — step-by-step, no agency needed' },
-                { icon: '', text: '<strong>Try free first:</strong> 60+ videos + 5-module SEO course, no sign-up needed' },
+                { step: '1', label: 'Join free', desc: 'Power Hours every Tuesday 12–1pm PT — live Q&A on Zoom, no sign-up needed' },
+                { step: '2', label: 'Bring your questions', desc: 'Google Ads, SEO, GA4, AI tools, strategy — anything goes' },
+                { step: '3', label: 'Go deeper with The Lab', desc: 'Thursday sessions where we review your real campaigns live · $29/mo founding rate' },
               ].map(item => (
-                <li key={item.text} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  <span className="text-[#318599] font-bold mt-0.5 flex-shrink-0">{item.icon}</span>
-                  <span dangerouslySetInnerHTML={{ __html: item.text }} />
-                </li>
+                <div key={item.step} className="flex items-start gap-3">
+                  <span
+                    className="w-6 h-6 rounded-full bg-[#E98C28] text-white text-xs font-extrabold flex items-center justify-center flex-shrink-0 mt-0.5"
+                    style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                    aria-hidden="true"
+                  >
+                    {item.step}
+                  </span>
+                  <p className="text-sm text-gray-700 leading-snug" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                    <strong>{item.label}</strong> — {item.desc}
+                  </p>
+                </div>
               ))}
-            </ul>
+            </div>
 
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-5 sm:gap-8">
               {[
-                { value: 'Live', label: 'Lab Sessions Thursdays' },
+                { value: 'Free', label: 'Every Tuesday on Zoom' },
                 { value: '20+', label: 'Years Agency Experience' },
                 { value: '60+', label: 'Free Video Lessons' },
-                { value: '$29/mo', label: 'Founding Member Rate' },
+                { value: '$29/mo', label: 'The Lab — Founding Rate' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>

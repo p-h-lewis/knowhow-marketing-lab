@@ -30,10 +30,10 @@ export default function CommunitySection() {
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             itemProp="name"
           >
-            Start free. Go deeper when you're ready.
+            Try it free. Upgrade when you're ready.
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            There's no wrong place to start. Join the free Facebook group for weekly Power Hours, or jump straight into The Lab for the full experience.
+            Power Hours is free every Tuesday — live Q&amp;A on Zoom, no sign-up needed. The Lab is the paid upgrade where we review your real campaigns live every Thursday.
           </p>
         </div>
 
@@ -43,14 +43,14 @@ export default function CommunitySection() {
           {/* Free tier */}
           <div className="bg-gray-50 rounded-2xl border-2 border-gray-200 p-7 flex flex-col">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-[#1877F2]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                <svg className="w-5 h-5 text-[#1877F2]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              <div className="w-10 h-10 rounded-xl bg-[#318599]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                <svg className="w-5 h-5 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-gray-900 text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Business Marketing Mixer</p>
-                <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Free Facebook group</p>
+                <p className="font-bold text-gray-900 text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Power Hours</p>
+                <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Every Tuesday · Live on Zoom</p>
               </div>
             </div>
             <div className="text-3xl font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free</div>
@@ -73,22 +73,22 @@ export default function CommunitySection() {
             </ul>
             <div className="space-y-2">
               <a
+                href="/power-hours"
+                className="block w-full text-center bg-[#318599] hover:bg-[#276e80] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                aria-label="Register for free Power Hours every Tuesday"
+              >
+                Register for Free Power Hours →
+              </a>
+              <a
                 href="https://www.facebook.com/groups/businessmarketingmixer"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-[#1877F2] hover:bg-[#1565d8] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200"
-                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Join the free Business Marketing Mixer Facebook group"
-              >
-                Join Free Group →
-              </a>
-              <a
-                href="/power-hours"
-                className="block w-full text-center text-[#1877F2] hover:underline text-xs font-medium"
+                className="block w-full text-center text-[#318599] hover:underline text-xs font-medium"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
-                aria-label="See the upcoming Power Hours schedule"
+                aria-label="Also join the free Business Marketing Mixer Facebook group"
               >
-                See upcoming session topics →
+                Also in our free Facebook group →
               </a>
             </div>
           </div>
