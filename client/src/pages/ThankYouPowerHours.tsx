@@ -12,14 +12,16 @@ import Footer from '@/components/Footer';
 const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 
-// Build the next Tuesday date dynamically
+// Build the next Tuesday date dynamically — always returns next Tuesday (never today)
 function getNextTuesday(): Date {
   const now = new Date();
-  const day = now.getDay(); // 0=Sun, 2=Tue
-  const daysUntilTuesday = (2 - day + 7) % 7 || 7;
-  const next = new Date(now);
-  next.setDate(now.getDate() + daysUntilTuesday);
-  next.setHours(12, 0, 0, 0); // 12pm local — will be adjusted for PT in calendar links
+  const pacificNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+  const day = pacificNow.getDay(); // 0=Sun, 2=Tue
+  // Always go to the NEXT Tuesday, never today
+  const daysUntilTuesday = day === 2 ? 7 : (2 - day + 7) % 7;
+  const next = new Date(pacificNow);
+  next.setDate(pacificNow.getDate() + daysUntilTuesday);
+  next.setHours(12, 0, 0, 0); // 12pm PT
   return next;
 }
 

@@ -30,14 +30,14 @@ export default function AnnouncementBar() {
         aria-label="Join The Lab for $29/mo"
       >
         <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
-        <span className="text-white/90">The Lab — weekly live training &amp; campaign reviews · <strong className="text-[#E98C28]">$29/mo →</strong></span>
+        <span className="text-white/90">Power Hours (free Tue) + Thursday Lab sessions · <strong className="text-[#E98C28]">$29/mo →</strong></span>
       </Link>
 
       {/* Desktop */}
       <div className="hidden sm:flex items-center gap-3 text-center leading-snug flex-wrap justify-center">
         <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
         <span className="text-white/90">
-          Free Power Hours every Tuesday · Go deeper with The Lab — weekly live training &amp; campaign reviews
+          Free Power Hours every Tuesday 12–1pm PT · The Lab adds Thursday live campaign reviews — <strong className="text-[#E98C28]">$29/mo</strong>
         </span>
         <Link
           href="/community"

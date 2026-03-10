@@ -29,12 +29,13 @@ const NEXT_SESSION_OVERRIDE: string | null = null;
 
 // Upcoming Tuesday sessions — open Power Hours, no fixed theme
 const upcomingSessions = [
-  { date: 'Tuesday, March 11', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your questions on Google Ads, SEO, AI, ChatGPT, or marketing strategy. Live help from Pip.', color: '#318599' },
-  { date: 'Tuesday, March 18', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Get live help on Google Ads, SEO, LLMs, GA4, or any marketing challenge you are facing.', color: '#E98C28' },
-  { date: 'Tuesday, March 25', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your toughest marketing question — Google Ads, SEO, AI tools, or planning for the month ahead.', color: '#4F37D8' },
-  { date: 'Tuesday, April 1', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Start the month with a plan. Get help with Google Ads, SEO, ChatGPT, or AI marketing strategy.', color: '#318599' },
-  { date: 'Tuesday, April 8', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Live help on Google Ads, SEO, AI, LLMs, GA4, or any marketing challenge you want to work through.', color: '#E98C28' },
-  { date: 'Tuesday, April 15', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your real marketing problems — Google Ads, SEO, AI tools, or planning your next campaign.', color: '#4F37D8' },
+  { date: 'Tuesday, March 17', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Get live help on Google Ads, SEO, LLMs, GA4, or any marketing challenge you are facing.', color: '#318599' },
+  { date: 'Tuesday, March 24', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your toughest marketing question — Google Ads, SEO, AI tools, or planning for the month ahead.', color: '#E98C28' },
+  { date: 'Tuesday, March 31', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Start the month with a plan. Get help with Google Ads, SEO, ChatGPT, or AI marketing strategy.', color: '#4F37D8' },
+  { date: 'Tuesday, April 7', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Live help on Google Ads, SEO, AI, LLMs, GA4, or any marketing challenge you want to work through.', color: '#318599' },
+  { date: 'Tuesday, April 14', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Bring your real marketing problems — Google Ads, SEO, AI tools, or planning your next campaign.', color: '#E98C28' },
+  { date: 'Tuesday, April 21', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Live Q&A — bring your Google Ads, SEO, GA4, or AI marketing questions for live help from Pip.', color: '#4F37D8' },
+  { date: 'Tuesday, April 28', time: '12–1pm Pacific', theme: 'Power Hour', topic: 'Wrap up April strong — get live help on campaigns, content strategy, or any marketing challenge.', color: '#318599' },
 ];
 
 const whatToExpect = [
