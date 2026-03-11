@@ -44,6 +44,7 @@
     <link rel="dns-prefetch" href="https://manus-analytics.com" />
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="preconnect" href="https://crm.seymourdigitalmedia.com" crossorigin />
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
     <!-- Preload hero image for LCP: WebP for modern browsers, JPEG fallback -->
@@ -72,8 +73,8 @@
       a{text-decoration:none}
       img,svg{display:block;max-width:100%}
       /* Skip to content */
-      .skip-to-content{position:absolute;left:-9999px;top:0;z-index:9999;background:#E98C28;color:#fff;padding:.5rem 1rem;font-family:'Space Grotesk',sans-serif;font-weight:700;border-radius:0 0 .5rem 0}
-      .skip-to-content:focus{left:0}
+      .skip-to-content{position:absolute;top:0;left:0;z-index:9999;background:#E98C28;color:#fff;padding:.5rem 1rem;font-family:'Space Grotesk',sans-serif;font-weight:700;border-radius:0 0 .5rem 0;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;overflow:hidden;width:1px;height:1px}
+      .skip-to-content:focus{clip:auto;clip-path:none;width:auto;height:auto;white-space:normal;overflow:visible}
       /* Announcement bar */
       .ann-bar{position:fixed;top:0;left:0;right:0;z-index:50;background:#B8691A;color:#fff;font-size:.875rem;padding:.625rem 2.5rem;display:flex;align-items:center;justify-content:center}
       /* Navbar shell */

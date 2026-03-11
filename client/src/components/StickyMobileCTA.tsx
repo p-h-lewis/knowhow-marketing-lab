@@ -1,24 +1,36 @@
 // StickyMobileCTA - appears on mobile only after scrolling past the hero section
-// White background, orange CTA button, dismissible
-// Only shown on mobile (md:hidden), hidden on desktop
+// Context-aware: shows Power Hours CTA on /power-hours, Lab CTA on all other pages
+// Only shown on mobile (md:hidden), dismissible per session
 
 import { useEffect, useState } from "react";
+import { useLocation } from "wouter";
 
 const GHL_JOIN_URL =
   "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 
+const POWER_HOURS_URL = "/power-hours#register";
+
 export default function StickyMobileCTA() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+  const [location] = useLocation();
+
+  const isPowerHoursPage = location === "/power-hours" || location.startsWith("/power-hours");
 
   useEffect(() => {
-    // Don't show if already dismissed this session
-    if (sessionStorage.getItem("sticky-cta-dismissed")) {
+    // Reset dismissed state when page changes so CTA shows on new pages
+    setDismissed(false);
+    setVisible(false);
+  }, [location]);
+
+  useEffect(() => {
+    // Don't show if already dismissed this session for this page
+    const dismissKey = `sticky-cta-dismissed-${isPowerHoursPage ? "ph" : "lab"}`;
+    if (sessionStorage.getItem(dismissKey)) {
       return;
     }
 
     const handleScroll = () => {
-      // Show after scrolling 400px (past the hero section)
       if (window.scrollY > 400 && !dismissed) {
         setVisible(true);
       } else if (window.scrollY <= 400) {
@@ -28,21 +40,42 @@ export default function StickyMobileCTA() {
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [dismissed]);
+  }, [dismissed, isPowerHoursPage]);
 
   const handleDismiss = () => {
     setDismissed(true);
     setVisible(false);
-    sessionStorage.setItem("sticky-cta-dismissed", "1");
+    const dismissKey = `sticky-cta-dismissed-${isPowerHoursPage ? "ph" : "lab"}`;
+    sessionStorage.setItem(dismissKey, "1");
   };
 
   if (dismissed || !visible) return null;
+
+  const ctaConfig = isPowerHoursPage
+    ? {
+        title: "Free Live Q&A — Every Tuesday",
+        subtitle: "12–1pm PT · Bring your marketing questions",
+        href: POWER_HOURS_URL,
+        label: "Register Free — Power Hours",
+        buttonText: "Register Free →",
+        isExternal: false,
+        ariaLabel: "Register for free Power Hours Q&A",
+      }
+    : {
+        title: "Join The Lab — $29/mo",
+        subtitle: "Weekly live training · Google Ads · SEO · AI",
+        href: GHL_JOIN_URL,
+        label: "Join The Lab for $29 per month",
+        buttonText: "Join Now →",
+        isExternal: true,
+        ariaLabel: "Join The Lab for $29 per month",
+      };
 
   return (
     <div
       className="fixed bottom-0 left-0 right-0 z-50 md:hidden"
       role="complementary"
-      aria-label="Join The Lab CTA"
+      aria-label={ctaConfig.label}
       style={{
         transform: visible ? "translateY(0)" : "translateY(100%)",
         transition: "transform 0.3s ease-in-out",
@@ -59,28 +92,28 @@ export default function StickyMobileCTA() {
             className="text-sm font-semibold text-gray-900 leading-tight"
             style={{ fontFamily: "Space Grotesk, sans-serif" }}
           >
-            Join The Lab - $29/mo
+            {ctaConfig.title}
           </p>
           <p className="text-xs text-gray-500 leading-tight mt-0.5">
-            Weekly Q&amp;A · AI &amp; Google Ads training
+            {ctaConfig.subtitle}
           </p>
         </div>
 
         {/* CTA Button */}
         <a
-          href={GHL_JOIN_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={ctaConfig.href}
+          target={ctaConfig.isExternal ? "_blank" : undefined}
+          rel={ctaConfig.isExternal ? "noopener noreferrer" : undefined}
           className="flex-shrink-0 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-bold text-white"
           style={{
-            backgroundColor: "#E98C28",
+            backgroundColor: "#C47820",
             minHeight: "44px",
             fontFamily: "Space Grotesk, sans-serif",
             whiteSpace: "nowrap",
           }}
-          aria-label="Join The Lab for $29 per month"
+          aria-label={ctaConfig.ariaLabel}
         >
-          Join Now →
+          {ctaConfig.buttonText}
         </a>
 
         {/* Dismiss button */}

@@ -33,8 +33,9 @@ export default function Navbar() {
 
   const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
 
-  // Desktop nav — 3 clean links only
+  // Desktop nav — 4 clean links
   const desktopNavLinks = [
+    { label: 'Power Hours', href: '/power-hours' },
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'Community', href: '/community' },
