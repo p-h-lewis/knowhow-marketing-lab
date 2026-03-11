@@ -231,6 +231,38 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── HOMEPAGE VIDEO CLIP ── */}
+        <section className="py-16 bg-white border-t border-gray-100" aria-labelledby="homepage-video-heading">
+          <div className="container max-w-4xl">
+            <div className="text-center mb-8">
+              <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#318599] mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See it in action</span>
+              <h2 id="homepage-video-heading" className="text-3xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Watch a real session</h2>
+              <p className="text-gray-500 mt-2 max-w-lg mx-auto text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical, no-fluff marketing training we run every week. Bring your questions and we'll work through them live.</p>
+            </div>
+            <div className="max-w-3xl mx-auto">
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/eGN0oy0ynbE"
+                  title="Google's Secret Weapon for FREE Keyword Research — KnowHow Marketing Lab"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+              <div className="text-center mt-6">
+                <a
+                  href="/power-hours"
+                  className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                >
+                  Join free every Tuesday →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <Suspense fallback={<SectionSkeleton />}>
           <TestimonialsSection />
         </Suspense>
