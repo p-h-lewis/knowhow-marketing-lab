@@ -250,13 +250,20 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <div className="text-center mt-6">
+              <div className="text-center mt-6 flex flex-col items-center gap-3">
                 <a
                   href="/power-hours"
                   className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
                   Join free every Tuesday →
+                </a>
+                <a
+                  href="/community"
+                  className="text-sm text-gray-400 hover:text-[#318599] transition-colors duration-150"
+                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                >
+                  Want more? Join The Lab for $29/mo →
                 </a>
               </div>
             </div>
