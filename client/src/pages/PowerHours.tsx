@@ -374,6 +374,30 @@ export default function PowerHours() {
           </div>
         </section>
 
+        {/* ── SAMPLE SESSION VIDEO ── */}
+        <section className="py-16 bg-gray-50 border-b border-gray-100" aria-labelledby="sample-video-heading">
+          <div className="container">
+            <div className="text-center mb-8">
+              <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#318599] mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See what it's like</span>
+              <h2 id="sample-video-heading" className="text-3xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A taste of what we cover</h2>
+              <p className="text-gray-500 mt-2 max-w-xl mx-auto text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical, no-fluff marketing content we dig into every Tuesday. Bring your questions and we'll work through them live.</p>
+            </div>
+            <div className="max-w-3xl mx-auto">
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-lg border border-gray-200" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/eGN0oy0ynbE"
+                  title="Google's Secret Weapon for FREE Keyword Research — KnowHow Marketing Lab"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>Want to ask questions live? <a href="#register" className="text-[#318599] font-semibold hover:underline">Register free →</a></p>
+            </div>
+          </div>
+        </section>
+
         {/* ── UPCOMING SESSIONS ── */}
         <section id="schedule" className="py-20 bg-white border-b border-gray-100" aria-labelledby="schedule-heading">
           <div className="container">
