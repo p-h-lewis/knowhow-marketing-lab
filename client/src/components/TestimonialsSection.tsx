@@ -230,7 +230,7 @@ export default function TestimonialsSection() {
                     {t.role}
                   </p>
                   {'company' in t && (
-                    <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                    <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                       {(t as any).company}
                     </p>
                   )}

@@ -386,10 +386,12 @@
   }
   .prose-article a {
     color: #318599;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .prose-article a:hover {
-    text-decoration: underline;
+    color: #2a7080;
+    text-decoration-thickness: 2px;
   }
   .prose-article strong {
     color: #111827;

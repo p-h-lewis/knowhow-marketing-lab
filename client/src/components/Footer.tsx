@@ -34,7 +34,7 @@ export default function Footer() {
                 <span className="font-bold text-sm text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Lab</span>
               </div>
             </Link>
-            <p className="text-gray-400 text-sm leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Free expert training in SEO, Google Ads, GA4, and AI marketing. Built by agency veterans for medium-sized businesses.
             </p>
             <div className="space-y-2">
@@ -55,7 +55,7 @@ export default function Footer() {
                 href="https://seymourdigitalmedia.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
                 aria-label="Visit Seymour Digital Media - the agency behind KnowHow Marketing Lab"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
               >
@@ -69,7 +69,7 @@ export default function Footer() {
 
           {/* Learn - Internal links */}
           <nav aria-label="Learning resources navigation">
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <h3 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Learn
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
@@ -87,7 +87,7 @@ export default function Footer() {
                   {link.internal ? (
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-300 hover:text-white transition-colors"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
                       {link.label}
@@ -95,7 +95,7 @@ export default function Footer() {
                   ) : (
                     <a
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-300 hover:text-white transition-colors"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
                       {link.label}
@@ -108,7 +108,7 @@ export default function Footer() {
 
           {/* Community - Internal + GoHighLevel */}
           <nav aria-label="Community and platform links">
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <h3 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Community
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
@@ -125,7 +125,7 @@ export default function Footer() {
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-300 hover:text-white transition-colors"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
                       {link.label}
@@ -133,7 +133,7 @@ export default function Footer() {
                   ) : link.href.startsWith('/') && !link.href.includes('#') ? (
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-300 hover:text-white transition-colors"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
                       {link.label}
@@ -141,7 +141,7 @@ export default function Footer() {
                   ) : (
                     <a
                       href={link.href}
-                      className="text-sm text-gray-400 hover:text-white transition-colors"
+                      className="text-sm text-gray-300 hover:text-white transition-colors"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
                       {link.label}
@@ -154,7 +154,7 @@ export default function Footer() {
 
           {/* Official Resources - External authoritative links (non-competing) */}
           <nav aria-label="Official Google documentation links">
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+            <h3 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Official Google Docs
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
@@ -172,7 +172,7 @@ export default function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-gray-400 hover:text-white transition-colors"
+                    className="text-sm text-gray-300 hover:text-white transition-colors"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
                     title={link.title}
                     aria-label={`${link.label} - opens in new tab`}

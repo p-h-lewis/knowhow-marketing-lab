@@ -182,7 +182,7 @@ export default function VideoLibrary() {
                 >
                   {video.title}
                 </h3>
-                <p className="text-xs text-gray-400 mt-2 flex items-center gap-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                <p className="text-xs text-gray-500 mt-2 flex items-center gap-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/>
                     <path d="M14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"/>
@@ -275,7 +275,7 @@ export default function VideoLibrary() {
               </p>
               <button
                 onClick={closeVideo}
-                className="text-gray-400 hover:text-white transition-colors p-1 rounded"
+                className="text-gray-300 hover:text-white transition-colors p-1 rounded"
                 aria-label="Close video player"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

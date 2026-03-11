@@ -104,15 +104,15 @@ export default function CommunitySection() {
               </div>
               <div>
                 <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The KnowHow Lab</p>
-                <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Paid community on GoHighLevel</p>
+                <p className="text-xs text-gray-300" style={{ fontFamily: 'DM Sans, sans-serif' }}>Paid community on GoHighLevel</p>
               </div>
             </div>
             <div className="flex items-baseline gap-2 mb-1">
               <span className="text-3xl font-extrabold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29</span>
-              <span className="text-gray-400 font-medium">/month</span>
+              <span className="text-gray-300 font-medium">/month</span>
               <span className="text-xs bg-[#E98C28]/20 text-[#E98C28] font-bold px-2 py-0.5 rounded-full ml-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access</span>
             </div>
-            <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-xs text-gray-300 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Price increases as the community grows. Lock in your rate today.
             </p>
             <ul className="space-y-2.5 mb-6 flex-1">
@@ -126,7 +126,7 @@ export default function CommunitySection() {
                 'Fillable worksheets & homework',
                 'Private GoHighLevel community group',
               ].map((f, i) => (
-                <li key={f} className={`flex items-start gap-2 text-sm ${i === 0 ? 'text-[#E98C28] font-semibold' : 'text-gray-300'}`} style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                <li key={f} className={`flex items-start gap-2 text-sm ${i === 0 ? 'text-[#E98C28] font-semibold' : 'text-gray-200'}`} style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   {i > 0 && (
                     <svg className="w-4 h-4 text-[#E98C28] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />

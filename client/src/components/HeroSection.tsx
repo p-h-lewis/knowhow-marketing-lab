@@ -87,7 +87,7 @@ export default function HeroSection() {
                 <span className="text-xs font-bold text-[#1B3B4F]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>🔬 Founding Member Pricing</span>
                 <span className="text-xs font-semibold text-[#E98C28]" style={{ fontFamily: 'DM Sans, sans-serif' }}>23 / 100 spots taken</span>
               </div>
-              <div className="w-full bg-gray-100 rounded-full h-2" role="progressbar" aria-valuenow={23} aria-valuemin={0} aria-valuemax={100}>
+              <div className="w-full bg-gray-100 rounded-full h-2" role="progressbar" aria-valuenow={23} aria-valuemin={0} aria-valuemax={100} aria-label="Founding member spots: 23 of 100 taken">
                 <div
                   className="h-2 rounded-full transition-all duration-500"
                   style={{ width: '23%', background: 'linear-gradient(90deg, #E98C28, #f5a84b)' }}
