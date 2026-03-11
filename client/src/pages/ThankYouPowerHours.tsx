@@ -94,6 +94,19 @@ export default function ThankYouPowerHours() {
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/thank-you/power-hours');
 
+    // Inject WebPage schema for this confirmation page
+    const schema = document.createElement('script');
+    schema.type = 'application/ld+json';
+    schema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "You're Registered – Free Power Hours | KnowHow Marketing Lab",
+      "description": "Registration confirmation page for Free Marketing Power Hours. Weekly live Q&A on Google Ads, SEO, AI, and GA4 every Tuesday 12–1pm PT.",
+      "url": "https://knowhowmarketinglab.com/thank-you/power-hours",
+      "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" }
+    });
+    document.head.appendChild(schema);
+
     // GTM dataLayer push — fires generate_lead conversion event
     if (typeof window !== 'undefined') {
       (window as any).dataLayer = (window as any).dataLayer || [];
@@ -107,6 +120,7 @@ export default function ThankYouPowerHours() {
 
     return () => {
       document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
+      if (schema.parentNode) schema.parentNode.removeChild(schema);
     };
   }, []);
 
