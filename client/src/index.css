@@ -97,6 +97,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -355,13 +356,13 @@
   /* ── Blog post article typography ── */
   .prose-article {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.0625rem;
-    line-height: 1.8;
+    font-size: 1.125rem;
+    line-height: 1.85;
     color: #374151;
   }
   .prose-article h2 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     font-weight: 700;
     color: #111827;
     margin-top: 2.5rem;
@@ -370,7 +371,7 @@
   }
   .prose-article h3 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: #1f2937;
     margin-top: 2rem;
