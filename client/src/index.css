@@ -97,7 +97,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'DM Sans', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -411,6 +411,17 @@
     color: #6b7280;
     font-style: italic;
     margin: 1.5rem 0;
+  }
+
+  /* ── Lazy-load all non-hero images via CSS (covers WP-migrated HTML img tags) ── */
+  .prose-article img {
+    content-visibility: auto;
+  }
+  /* Ensure below-fold images don't block initial render */
+  .prose-article figure img,
+  .prose-article .wp-block-image img,
+  .prose-article .wp-block-media-text__media img {
+    loading: lazy;
   }
 
   /* ── Reduced motion (WCAG 2.3.3) ── */

@@ -151,8 +151,8 @@ export default function VideoLibrary() {
                   src={getYouTubeThumbnail(video.id)}
                   alt={`${video.title} - KnowHow Marketing Lab free tutorial on YouTube`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  loading={idx < 4 ? 'eager' : 'lazy'}
-                  decoding={idx < 4 ? 'sync' : 'async'}
+                  loading="lazy"
+                  decoding="async"
                   width="320"
                   height="180"
                   itemProp="thumbnailUrl"

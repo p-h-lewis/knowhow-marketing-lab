@@ -75,6 +75,9 @@ export function useSEO({
     if (ogImage) {
       let ogImgEl = document.querySelector('meta[property="og:image"]');
       if (ogImgEl) (ogImgEl as HTMLMetaElement).content = ogImage;
+      // Also update twitter:image
+      let twImgEl = document.querySelector('meta[name="twitter:image"]');
+      if (twImgEl) (twImgEl as HTMLMetaElement).content = ogImage;
     }
 
     // --- Twitter title ---

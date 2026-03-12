@@ -10,10 +10,28 @@ import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link, useParams } from "wouter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const FREE_COURSE_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 const COMMUNITY_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home";
+
+// Ordered list of post slugs for next/prev navigation
+const POST_ORDER = [
+  "data-driven-seo-guide-medium-sized-businesses",
+  "how-to-set-up-google-search-console",
+  "keyword-research-keyword-clusters",
+  "ga4-explained-for-business-owners",
+  "the-ultimate-guide-to-google-ads-campaign-types",
+  "google-ads-class-1-fundamentals",
+  "google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns",
+  "the-ultimate-guide-to-google-ads-bidding-strategies",
+  "ai-seo-guide",
+  "url-redirects-everything-you-need-to-know-for-seo",
+  "how-people-charge-for-google-ads",
+  "adgroups-based-on-user-intent",
+  "how-ai-is-shaping-marketing",
+  "ga4-set-up-guide",
+];
 
 // Blog post data - each post has its own URL, schema, and full content
 const posts: Record<string, {
@@ -208,6 +226,21 @@ export default function BlogPost() {
   const slug = params.slug || "";
   const post = posts[slug] || fallbackPost;
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [showBackToTop, setShowBackToTop] = useState(false);
+
+  // Back-to-top visibility
+  useEffect(() => {
+    const onScroll = () => setShowBackToTop(window.scrollY > 600);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Next / prev post
+  const currentIdx = POST_ORDER.indexOf(slug);
+  const prevSlug = currentIdx > 0 ? POST_ORDER[currentIdx - 1] : null;
+  const nextSlug = currentIdx >= 0 && currentIdx < POST_ORDER.length - 1 ? POST_ORDER[currentIdx + 1] : null;
+  const prevPost = prevSlug ? posts[prevSlug] : null;
+  const nextPost = nextSlug ? posts[nextSlug] : null;
 
   const schema = post.slug
     ? {
@@ -276,6 +309,9 @@ export default function BlogPost() {
     description: post.metaDescription,
     canonical: `https://knowhowmarketinglab.com/blog/${post.slug}`,
     ogType: "article",
+    ogTitle: post.title,
+    ogDescription: post.metaDescription,
+    ogImage: post.image || undefined,
   });
 
   return (
@@ -500,7 +536,50 @@ export default function BlogPost() {
         </div>
       </section>
 
+      {/* Next / Prev post navigation */}
+      {(prevPost || nextPost) && (
+        <nav
+          className="border-t border-gray-100 bg-white"
+          aria-label="Blog post navigation"
+        >
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {prevPost ? (
+              <Link
+                href={`/blog/${prevPost.slug}`}
+                className="group flex flex-col gap-1 p-4 rounded-xl border border-gray-200 hover:border-[#E98C28] hover:shadow-md transition-all"
+              >
+                <span className="text-xs font-bold uppercase tracking-widest text-gray-400 group-hover:text-[#E98C28] transition-colors" style={{ fontFamily: "Space Grotesk, sans-serif" }}>← Previous</span>
+                <span className="text-sm font-semibold text-gray-800 group-hover:text-[#E98C28] transition-colors leading-snug" style={{ fontFamily: "Space Grotesk, sans-serif" }}>{prevPost.title}</span>
+              </Link>
+            ) : <div />}
+            {nextPost ? (
+              <Link
+                href={`/blog/${nextPost.slug}`}
+                className="group flex flex-col gap-1 p-4 rounded-xl border border-gray-200 hover:border-[#E98C28] hover:shadow-md transition-all sm:text-right"
+              >
+                <span className="text-xs font-bold uppercase tracking-widest text-gray-400 group-hover:text-[#E98C28] transition-colors" style={{ fontFamily: "Space Grotesk, sans-serif" }}>Next →</span>
+                <span className="text-sm font-semibold text-gray-800 group-hover:text-[#E98C28] transition-colors leading-snug" style={{ fontFamily: "Space Grotesk, sans-serif" }}>{nextPost.title}</span>
+              </Link>
+            ) : <div />}
+          </div>
+        </nav>
+      )}
+
       <Footer />
+
+      {/* Back to top button */}
+      {showBackToTop && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full flex items-center justify-center shadow-lg transition-all hover:scale-110"
+          style={{ backgroundColor: "#E98C28" }}
+          aria-label="Back to top"
+        >
+          <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 15l7-7 7 7" />
+          </svg>
+        </button>
+      )}
     </div>
   );
 }
