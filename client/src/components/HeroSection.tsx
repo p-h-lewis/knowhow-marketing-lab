@@ -43,7 +43,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              KnowHow is a weekly live marketing community run by Pip &amp; Phelan — agency owners with 20+ years experience. Bring your Google Ads, SEO, GA4, or strategy questions and we'll answer them live on Zoom. Free every Tuesday.
+              Stop guessing what to fix. Every Tuesday, Pip &amp; Phelan — agency owners with 20+ years experience — work through your real Google Ads, SEO, and AI questions live on Zoom. Walk away with a clear plan. Free, every week.
             </p>
 
             {/* Primary CTA: Free Power Hours */}
@@ -81,19 +81,14 @@ export default function HeroSection() {
               </svg>
             </div>
 
-            {/* Founding member progress bar */}
-            <div className="mb-4 max-w-lg" aria-label="Founding member spots: 23 of 100 taken">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="text-xs font-bold text-[#1B3B4F]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>🔬 Founding Member Pricing</span>
-                <span className="text-xs font-semibold text-[#E98C28]" style={{ fontFamily: 'DM Sans, sans-serif' }}>23 / 100 spots taken</span>
+            {/* Founding member badge — honest, no fake counter */}
+            <div className="mb-4 max-w-lg">
+              <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
+                <span className="text-sm" aria-hidden="true">🔬</span>
+                <p className="text-xs text-amber-800 font-semibold" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <strong>Founding Member Rate — $29/mo.</strong> Price increases as the community grows. Join now and lock in your rate forever.
+                </p>
               </div>
-              <div className="w-full bg-gray-100 rounded-full h-2" role="progressbar" aria-valuenow={23} aria-valuemin={0} aria-valuemax={100} aria-label="Founding member spots: 23 of 100 taken">
-                <div
-                  className="h-2 rounded-full transition-all duration-500"
-                  style={{ width: '23%', background: 'linear-gradient(90deg, #E98C28, #f5a84b)' }}
-                />
-              </div>
-              <p className="text-xs text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Price increases to $49/mo at 100 members — lock in $29/mo now.</p>
             </div>
 
 

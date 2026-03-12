@@ -12,7 +12,7 @@ import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
 
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
-const LAB_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
+const LAB_URL = '/community'; // Warm visitors with the sales page before sending to GHL
 
 // ─────────────────────────────────────────────────────────────────────────────
 // POWER HOURS CONFIG — update these when skipping or rescheduling a session
@@ -310,43 +310,20 @@ export default function PowerHours() {
                   <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
                   <span className="text-xs font-bold text-green-600 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free · Every Tuesday · 12pm Pacific</span>
                 </div>
-                <h2 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Register in seconds</h2>
-                <p className="text-gray-500 text-sm mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Click below to register. You'll get a confirmation email with the Zoom link and a Monday reminder so you never miss a session.
+                <h2 className="text-2xl font-extrabold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Register in seconds</h2>
+                <p className="text-gray-500 text-sm mb-5 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Fill in your details below. You'll get a confirmation email with the Zoom link and a Monday reminder so you never miss a session.
                 </p>
-                <div className="space-y-3 mb-6">
-                  {[
-                    'Google Ads — campaigns, bidding, Performance Max',
-                    'SEO — rankings, Search Console, keyword research',
-                    'AI & ChatGPT — practical tools for marketing',
-                    'GA4 — understanding your data',
-                    'Marketing strategy — what to focus on next',
-                  ].map(item => (
-                    <div key={item} className="flex items-start gap-2.5 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      <span className="w-5 h-5 rounded-full bg-[#318599] flex items-center justify-center flex-shrink-0 mt-0.5" aria-hidden="true">
-                        <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </span>
-                      {item}
-                    </div>
-                  ))}
-                </div>
-                <a
-                  href={GHL_FORM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl px-7 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Register for Free Power Hours"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
-                  Register Free — Save My Spot
-                </a>
-                <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Sessions on Zoom</p>
-                <div className="mt-5 pt-5 border-t border-gray-200">
-                  <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>The Zoom link is sent to your email after registering.</p>
-                </div>
+                {/* Embedded GHL form — stays on this domain, no trust break */}
+                <iframe
+                  src="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
+                  title="Register for Free Marketing Power Hours"
+                  className="w-full rounded-xl border-0"
+                  style={{ minHeight: '420px', height: '420px' }}
+                  loading="lazy"
+                  aria-label="Power Hours registration form"
+                />
+                <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Zoom link sent by email</p>
               </div>
             </div>
           </div>
@@ -478,16 +455,14 @@ export default function PowerHours() {
                 >
                   See what's inside The Lab →
                 </Link>
-                <a
-                  href={LAB_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/community"
                   className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:border-white font-semibold rounded-xl px-8 py-4 text-base transition-all duration-200"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                   aria-label="Join The KnowHow Lab community for $29 per month"
                 >
                   Join The Lab – $29/mo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
