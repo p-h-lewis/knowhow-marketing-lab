@@ -329,6 +329,73 @@ export default function PowerHours() {
           </div>
         </section>
 
+        {/* ── AFTER REGISTRATION ── */}
+        <section className="py-14 bg-white border-b border-gray-100" aria-labelledby="after-register-heading">
+          <div className="container max-w-4xl">
+            <div className="text-center mb-10">
+              <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>After you register</span>
+              <h2 id="after-register-heading" className="text-2xl md:text-3xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                What happens next
+              </h2>
+            </div>
+            <div className="grid sm:grid-cols-3 gap-6">
+              {[
+                {
+                  step: '1',
+                  icon: (
+                    <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  ),
+                  title: 'Check your email',
+                  desc: 'You\'ll get a confirmation email within a minute with the Zoom link. Check your spam folder if you don\'t see it.',
+                  color: '#E98C28',
+                },
+                {
+                  step: '2',
+                  icon: (
+                    <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  ),
+                  title: 'Monday reminder',
+                  desc: 'We\'ll send you a reminder the day before so you don\'t forget. Sessions are not recorded — you need to show up live.',
+                  color: '#318599',
+                },
+                {
+                  step: '3',
+                  icon: (
+                    <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  ),
+                  title: 'Bring your question',
+                  desc: 'Think of one real marketing problem you want help with — a campaign that isn\'t converting, an SEO question, or an AI tool you want to understand. Pip will work through it live.',
+                  color: '#4F37D8',
+                },
+              ].map(item => (
+                <div key={item.step} className="bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col gap-4">
+                  <div
+                    className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                    style={{ background: `${item.color}18`, color: item.color }}
+                    aria-hidden="true"
+                  >
+                    {item.icon}
+                  </div>
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: item.color, fontFamily: 'Space Grotesk, sans-serif' }}>Step {item.step}</p>
+                    <h3 className="text-base font-extrabold text-gray-900 mb-1.5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-sm text-gray-500 mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Not registered yet? <a href="#register" className="text-[#E98C28] font-semibold hover:underline">Scroll up and register free →</a>
+            </p>
+          </div>
+        </section>
+
         {/* ── WHAT TO EXPECT ── */}
         <section className="py-16 bg-gray-50 border-b border-gray-100" aria-labelledby="what-to-expect-heading">
           <div className="container">
