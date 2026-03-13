@@ -12,6 +12,7 @@ function PowerHoursForm() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [smsConsent, setSmsConsent] = useState(false);
   const [marketingConsent, setMarketingConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -28,6 +29,7 @@ function PowerHoursForm() {
         first_name: firstName,
         last_name: lastName,
         email,
+        phone,
         ...(smsConsent ? { terms_and_conditions_1_ghioiufzwia: 'on' } : {}),
         ...(marketingConsent ? { terms_and_conditions_2_ghioiufzwia: 'on' } : {}),
       });
@@ -75,6 +77,19 @@ function PowerHoursForm() {
             style={{ fontFamily: 'DM Sans, sans-serif' }}
           />
         </div>
+      </div>
+      <div className="flex flex-col gap-1">
+        <label htmlFor="ph-phone" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Phone Number <span className="text-gray-400 font-normal">(optional)</span></label>
+        <input
+          id="ph-phone"
+          type="tel"
+          autoComplete="tel"
+          value={phone}
+          onChange={e => setPhone(e.target.value)}
+          placeholder="+1 (604) 555-0100"
+          className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E98C28] focus:border-transparent transition"
+          style={{ fontFamily: 'DM Sans, sans-serif' }}
+        />
       </div>
       <div className="flex flex-col gap-1">
         <label htmlFor="ph-email" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Email <span className="text-red-500">*</span></label>
