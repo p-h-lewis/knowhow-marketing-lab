@@ -115,7 +115,7 @@ export default function Footer() {
               {[
                 { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
-                { label: 'The Lab – $29/mo', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home' },
+                { label: 'The Lab – $29/mo', href: '/community' },
                 { label: 'Free vs Paid — Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce' },
               ].map(link => (

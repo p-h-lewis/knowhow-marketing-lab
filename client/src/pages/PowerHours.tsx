@@ -6,145 +6,44 @@
 
 import { useEffect, useState } from 'react';
 
-// Native registration form — replaces the GHL iframe which is blocked by Cloudflare
-// On submit, posts to GHL's form endpoint and redirects to the thank-you page
+// GHL official embed — uses GHL's form_embed.js which handles Cloudflare auth internally
+// The script resizes the iframe automatically based on form content
 function PowerHoursForm() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [smsConsent, setSmsConsent] = useState(false);
-  const [marketingConsent, setMarketingConsent] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
-  const [error, setError] = useState('');
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email || !firstName) { setError('Please enter your first name and email.'); return; }
-    setSubmitting(true);
-    setError('');
-    try {
-      // Post to GHL form endpoint
-      const body = new URLSearchParams({
-        first_name: firstName,
-        last_name: lastName,
-        email,
-        phone,
-        ...(smsConsent ? { terms_and_conditions_1_ghioiufzwia: 'on' } : {}),
-        ...(marketingConsent ? { terms_and_conditions_2_ghioiufzwia: 'on' } : {}),
-      });
-      await fetch('https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB', {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: body.toString(),
-      });
-      // Redirect to thank-you page regardless (no-cors means we can't read the response)
-      window.location.href = '/thank-you/power-hours';
-    } catch {
-      setError('Something went wrong. Please try again or email us directly.');
-      setSubmitting(false);
+  useEffect(() => {
+    // Inject GHL embed script if not already present
+    const scriptId = 'ghl-form-embed-script';
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = 'https://crm.seymourdigitalmedia.com/js/form_embed.js';
+      script.async = true;
+      document.body.appendChild(script);
     }
-  };
+    return () => {
+      // Leave script in DOM — removing it breaks the form if the component remounts
+    };
+  }, []);
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-4">
-      <div className="grid grid-cols-2 gap-3">
-        <div className="flex flex-col gap-1">
-          <label htmlFor="ph-first-name" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>First Name <span className="text-red-500">*</span></label>
-          <input
-            id="ph-first-name"
-            type="text"
-            autoComplete="given-name"
-            required
-            value={firstName}
-            onChange={e => setFirstName(e.target.value)}
-            placeholder="First Name"
-            className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E98C28] focus:border-transparent transition"
-            style={{ fontFamily: 'DM Sans, sans-serif' }}
-          />
-        </div>
-        <div className="flex flex-col gap-1">
-          <label htmlFor="ph-last-name" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Last Name</label>
-          <input
-            id="ph-last-name"
-            type="text"
-            autoComplete="family-name"
-            value={lastName}
-            onChange={e => setLastName(e.target.value)}
-            placeholder="Last Name"
-            className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E98C28] focus:border-transparent transition"
-            style={{ fontFamily: 'DM Sans, sans-serif' }}
-          />
-        </div>
-      </div>
-      <div className="flex flex-col gap-1">
-        <label htmlFor="ph-phone" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Phone Number <span className="text-gray-400 font-normal">(optional)</span></label>
-        <input
-          id="ph-phone"
-          type="tel"
-          autoComplete="tel"
-          value={phone}
-          onChange={e => setPhone(e.target.value)}
-          placeholder="+1 (604) 555-0100"
-          className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E98C28] focus:border-transparent transition"
-          style={{ fontFamily: 'DM Sans, sans-serif' }}
-        />
-      </div>
-      <div className="flex flex-col gap-1">
-        <label htmlFor="ph-email" className="text-xs font-semibold text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>Email <span className="text-red-500">*</span></label>
-        <input
-          id="ph-email"
-          type="email"
-          autoComplete="email"
-          required
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-          placeholder="your@email.com"
-          className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E98C28] focus:border-transparent transition"
-          style={{ fontFamily: 'DM Sans, sans-serif' }}
-        />
-      </div>
-      <div className="flex flex-col gap-3">
-        <label className="flex items-start gap-2.5 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={smsConsent}
-            onChange={e => setSmsConsent(e.target.checked)}
-            className="mt-0.5 w-4 h-4 rounded border-gray-300 text-[#E98C28] focus:ring-[#E98C28] flex-shrink-0"
-          />
-          <span className="text-xs text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>By checking this box, I consent to receive non-marketing text messages from KnowHow Marketing Lab about updates, reminders, and information related to the Free Power Hours sessions. Message and data rates may apply. Text HELP for assistance, reply STOP to opt out.</span>
-        </label>
-        <label className="flex items-start gap-2.5 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={marketingConsent}
-            onChange={e => setMarketingConsent(e.target.checked)}
-            className="mt-0.5 w-4 h-4 rounded border-gray-300 text-[#E98C28] focus:ring-[#E98C28] flex-shrink-0"
-          />
-          <span className="text-xs text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>By checking this box, I consent to receive marketing and promotional messages including special offers, new course announcements, and community updates from KnowHow Marketing Lab. Frequency may vary. Reply STOP to opt out.</span>
-        </label>
-      </div>
-      {error && <p className="text-xs text-red-600 font-semibold" style={{ fontFamily: 'DM Sans, sans-serif' }}>{error}</p>}
-      <button
-        type="submit"
-        disabled={submitting}
-        className="w-full inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] disabled:opacity-60 text-white font-bold rounded-xl py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg"
-        style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-      >
-        {submitting ? (
-          <><svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24" aria-hidden="true"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>Saving your spot...</>
-        ) : (
-          <><svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>Save My Spot →</>
-        )}
-      </button>
-      <p className="text-xs text-gray-400 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>100% free · No credit card · Zoom link sent by email</p>
-      <p className="text-xs text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-        <a href="/privacy" className="text-gray-400 hover:text-gray-600 underline">Privacy Policy</a>
-        {' · '}
-        <a href="/terms" className="text-gray-400 hover:text-gray-600 underline">Terms of Service</a>
-      </p>
-    </form>
+    <div className="w-full">
+      <iframe
+        src="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
+        style={{ width: '100%', height: '709px', border: 'none', borderRadius: '12px' }}
+        id="inline-VpNFCGnnrKnymB81G7bB"
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Free Power Hours"
+        data-height="709"
+        data-layout-iframe-id="inline-VpNFCGnnrKnymB81G7bB"
+        data-form-id="VpNFCGnnrKnymB81G7bB"
+        title="Free Power Hours registration form"
+      />
+    </div>
   );
 }
 import Navbar from '@/components/Navbar';
