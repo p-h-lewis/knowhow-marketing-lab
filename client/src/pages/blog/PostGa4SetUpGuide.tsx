@@ -570,7 +570,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
                   decoding="async"
                 /></figure>
 
-<iframe src="https://www.youtube-nocookie.com/embed/dPJAVZodEtM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;="" width="560" height="315" frameborder="0"></iframe>
+<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/dPJAVZodEtM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;="" width="560" height="315" frameborder="0"></iframe>
 
 <h3 class="wp-block-heading"><strong>Events And Conversions </strong></h3>
 
@@ -769,7 +769,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>We won’t spend much time here. It is pretty Easy. Follow this video: </p>
 
-<iframe src="https://www.youtube-nocookie.com/embed/VNUCcc2Ceiw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0">rel=0</iframe>
+<iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/VNUCcc2Ceiw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0">rel=0</iframe>
 
 <p><br>To get into depth, watch this <a href="https://www.youtube.com/watch?v=TzvXmwO5Qq0&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Audience Builder in Google Analytics 4</a>. We will set up an audience and well fish off linking Google ads and set up the tracking</p>
 

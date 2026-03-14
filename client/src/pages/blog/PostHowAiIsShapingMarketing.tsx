@@ -9,7 +9,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 
 <h2 id="watch-our-video-podcast">Watch Our Video Podcast</h2>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/upUeEyNQfNw?si=-dsq1O8dI7hzYyOk&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/upUeEyNQfNw?si=-dsq1O8dI7hzYyOk&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2 class="wp-block-heading" id="h-from-content-creation-to-campaign-analysis"><strong>From Content Creation to Campaign Analysis</strong></h2>
 

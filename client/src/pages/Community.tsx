@@ -403,6 +403,24 @@ export default function Community() {
             <p className="text-center text-sm text-gray-400 mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Topics rotate monthly based on what members are working on — so the content is always relevant to what's happening right now.
             </p>
+            {/* GBP sample video */}
+            <div className="mt-12 max-w-3xl mx-auto">
+              <div className="text-center mb-5">
+                <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Sample session</span>
+                <h3 className="text-xl font-extrabold text-gray-900 mt-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See how we cover Google Business Profile</h3>
+                <p className="text-sm text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical walkthrough members get every week — real screens, real examples, no fluff.</p>
+              </div>
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube-nocookie.com/embed/i3mOIj1sh9o"
+                  title="Going Into A Google Profile | Google Business Profile — KnowHow Marketing Lab"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            </div>
           </div>
         </section>
 

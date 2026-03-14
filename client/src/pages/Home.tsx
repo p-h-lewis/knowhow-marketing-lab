@@ -250,14 +250,63 @@ export default function Home() {
               <p className="text-gray-500 mt-2 max-w-lg mx-auto text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical, no-fluff marketing training we run every week. Bring your questions and we'll work through them live.</p>
             </div>
             <div className="max-w-3xl mx-auto">
+              {/* Video tabs */}
+              <div className="flex gap-2 mb-4 justify-center">
+                <button
+                  id="vid-tab-1"
+                  onClick={() => {
+                    const f1 = document.getElementById('vid-frame-1') as HTMLIFrameElement | null;
+                    const f2 = document.getElementById('vid-frame-2') as HTMLIFrameElement | null;
+                    if (f1) f1.style.display = 'block';
+                    if (f2) f2.style.display = 'none';
+                    document.getElementById('vid-tab-1')?.classList.add('bg-[#318599]','text-white');
+                    document.getElementById('vid-tab-1')?.classList.remove('bg-gray-100','text-gray-600');
+                    document.getElementById('vid-tab-2')?.classList.remove('bg-[#318599]','text-white');
+                    document.getElementById('vid-tab-2')?.classList.add('bg-gray-100','text-gray-600');
+                  }}
+                  className="px-4 py-2 rounded-lg text-sm font-semibold bg-[#318599] text-white transition-colors"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                >
+                  Keyword Research
+                </button>
+                <button
+                  id="vid-tab-2"
+                  onClick={() => {
+                    const f1 = document.getElementById('vid-frame-1') as HTMLIFrameElement | null;
+                    const f2 = document.getElementById('vid-frame-2') as HTMLIFrameElement | null;
+                    if (f1) f1.style.display = 'none';
+                    if (f2) f2.style.display = 'block';
+                    document.getElementById('vid-tab-2')?.classList.add('bg-[#318599]','text-white');
+                    document.getElementById('vid-tab-2')?.classList.remove('bg-gray-100','text-gray-600');
+                    document.getElementById('vid-tab-1')?.classList.remove('bg-[#318599]','text-white');
+                    document.getElementById('vid-tab-1')?.classList.add('bg-gray-100','text-gray-600');
+                  }}
+                  className="px-4 py-2 rounded-lg text-sm font-semibold bg-gray-100 text-gray-600 transition-colors"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                >
+                  Google Business Profile
+                </button>
+              </div>
               <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200" style={{ paddingBottom: '56.25%' }}>
                 <iframe
+                  id="vid-frame-1"
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube-nocookie.com/embed/eGN0oy0ynbE"
                   title="Google's Secret Weapon for FREE Keyword Research — KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
+                  style={{ display: 'block' }}
+                />
+                <iframe
+                  id="vid-frame-2"
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube-nocookie.com/embed/i3mOIj1sh9o"
+                  title="Going Into A Google Profile | Google Business Profile — KnowHow Marketing Lab"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                  style={{ display: 'none' }}
                 />
               </div>
               <div className="text-center mt-6 flex flex-col items-center gap-3">

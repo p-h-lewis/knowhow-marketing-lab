@@ -290,6 +290,7 @@ export default function TestimonialsSection() {
             </div>
             <div className="aspect-video">
               <iframe
+                  loading="lazy"
                 src={`https://www.youtube-nocookie.com/embed/${activeVideo}?autoplay=1&rel=0`}
                 title={activeTitle}
                 className="w-full h-full"
