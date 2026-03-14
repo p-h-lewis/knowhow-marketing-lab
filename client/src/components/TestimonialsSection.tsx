@@ -290,7 +290,7 @@ export default function TestimonialsSection() {
             </div>
             <div className="aspect-video">
               <iframe
-                src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1&rel=0`}
+                src={`https://www.youtube-nocookie.com/embed/${activeVideo}?autoplay=1&rel=0`}
                 title={activeTitle}
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

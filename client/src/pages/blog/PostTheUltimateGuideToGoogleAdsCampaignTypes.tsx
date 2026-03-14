@@ -367,7 +367,7 @@ https://youtu.be/nzTa2wJEN9k
     "thumbnailUrl": "https://knowhowmarketinglab.com/images/google-ads-campaign-types-thumbnail.jpg",
     "uploadDate": "2025-12-29",
     "contentUrl": "https://knowhowmarketinglab.com/videos/google-ads-campaign-types.mp4",
-    "embedUrl": "<iframe width="560" height="315" src="https://www.youtube.com/embed/nzTa2wJEN9k?si=AsYGMgk_qgjxsQil" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>",
+    "embedUrl": "<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nzTa2wJEN9k?si=AsYGMgk_qgjxsQil" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>",
   
   }
 }

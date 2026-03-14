@@ -131,5 +131,5 @@ export function getYouTubeThumbnail(videoId: string): string {
 }
 
 export function getYouTubeEmbedUrl(videoId: string): string {
-  return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+  return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`;
 }

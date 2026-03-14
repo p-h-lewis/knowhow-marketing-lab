@@ -196,7 +196,7 @@ https://youtu.be/_jqGM9V1QHY
       "uploadDate": "2025-12-27",
       "duration": "PT1H",
       "contentUrl": "https://youtu.be/_jqGM9V1QHY",
-      "embedUrl": "https://www.youtube.com/embed/_jqGM9V1QHY?si=QNs-2OGN3nHJh8pP",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_jqGM9V1QHY?si=QNs-2OGN3nHJh8pP",
       "publisher": {
         "@id": "https://knowhowmarketinglab.com/#organization"
       },
