@@ -81,7 +81,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>If you don't have an account sign up. It is super easy. You’ll be taken to the screen that looks like the image below. </p>
 
-<p class="has-theme-palette-7-background-color has-background has-medium-font-size"><img src="https://lh4.googleusercontent.com/HuhtacCA6lIifk4DSAFrYJlnmXhenlRTDwco4MxNh5mQ6i5-0yHbE0kE74KorHLj0_WpS7zyFj0DY4bYkhqWrQWx-SwM5oS7XGIAXAEh0TgRuxbl1rPjR38xYvx64gN22s6w8meNHu5nAr8CqBhe_SI" style="width: 1402px;"></p>
+<p class="has-theme-palette-7-background-color has-background has-medium-font-size"><img src="https://lh4.googleusercontent.com/HuhtacCA6lIifk4DSAFrYJlnmXhenlRTDwco4MxNh5mQ6i5-0yHbE0kE74KorHLj0_WpS7zyFj0DY4bYkhqWrQWx-SwM5oS7XGIAXAEh0TgRuxbl1rPjR38xYvx64gN22s6w8meNHu5nAr8CqBhe_SI" style="width: 1402px;" loading='lazy'></p>
 
 <p>Click the  <strong>Start measuring</strong> blue button. You can follow the <a href="https://youtu.be/PEPb3uaVILk?list=PLI5YfMzCfRtZ4bHJJDl_IJejxMwZFiBwz" target="_blank" rel="noreferrer noopener">beginning of this video</a> from Google too.</p>
 
@@ -550,7 +550,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading"><strong>Data Collection</strong></h3>
 
-<p>Mark Data collection as complete (because we've done it - see above). Now make sure you're collecting data first.<br><br><img width="602" height="271" src="https://lh4.googleusercontent.com/LbshWrQ-W3zAeIWjb2WdSko2P-hUcQ9hgeTilBkfNvSFfq99Ohmx0vCRZUKrhMnOVF3zGg436OXZFIqR5NNcoZTKRHTknyvxW7He75PU-G80MxhbKKSofs4Qkv6P8Vtlf_NlVJcNlyJZhPvcUeqFDNI"></p>
+<p>Mark Data collection as complete (because we've done it - see above). Now make sure you're collecting data first.<br><br><img width="602" height="271" src="https://lh4.googleusercontent.com/LbshWrQ-W3zAeIWjb2WdSko2P-hUcQ9hgeTilBkfNvSFfq99Ohmx0vCRZUKrhMnOVF3zGg436OXZFIqR5NNcoZTKRHTknyvxW7He75PU-G80MxhbKKSofs4Qkv6P8Vtlf_NlVJcNlyJZhPvcUeqFDNI" loading='lazy'></p>
 
 <p><br>Mark Data collection as complete (because we've done it - see above). Now make sure you're collecting data first.</p>
 
@@ -744,11 +744,11 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h4 class="wp-block-heading"><strong>Go To Property Column>Setup Assistant>Property Settings>Manage Conversions</strong>. Manage Conversions Is Where You Go To View And Edit Conversions.</h4>
 
-<h4 class="wp-block-heading" id="h-"><br><img src="https://lh3.googleusercontent.com/adwYXxhus84Y12ZoGv90dbBwW9uosZ0-jzmgz3KcHuFOrIB9WAJ5Qo739XnTFwAtbmr7teWdrD-3rn6MCjd__nsWC6jxkNK9fl_824dgigJ4Uuk0o52bKIrHsoHTiEYpqGddKY1ZXtmpHFZv9QuSBBQ" width="602" height="239"></h4>
+<h4 class="wp-block-heading" id="h-"><br><img src="https://lh3.googleusercontent.com/adwYXxhus84Y12ZoGv90dbBwW9uosZ0-jzmgz3KcHuFOrIB9WAJ5Qo739XnTFwAtbmr7teWdrD-3rn6MCjd__nsWC6jxkNK9fl_824dgigJ4Uuk0o52bKIrHsoHTiEYpqGddKY1ZXtmpHFZv9QuSBBQ" width="602" height="239" loading='lazy'></h4>
 
 <h3 class="wp-block-heading"><strong>Migration Check </strong></h3>
 
-<p>Now you need to go to Tag Manager and Universal Analytics (to ensure /check) that the event tracking for Ga4 has been set up correctly. In our example, we have two conversions for the Calendly booking, so something needs to be fixed, and we had to troubleshoot what happened. We could figure out what was going wrong by going to the two places above.<br><br><strong>What happened? </strong>We imported one, but there was already one created. We troubleshooted what the issue was. Because the event tracking in Tag Manager was already in for GA4 set up, we doubled up. To fix it we turned off the wrong conversion in GA4, and it disappeared<br><img src="https://lh3.googleusercontent.com/Euk3jnuYL73EKKvoR5xpNFh4tWWGr78Htp0Bruh52n-AWKu_WZmBT3H_lqyEwKBdSQjY5_G8gYr0YHKLRkDZbyjK_ktCTxZVnECxQgEHS_13vIWbMMtmsFvCGa8Y09sXz_yvSlZ56J3yShZVLxxj5d0" width="602" height="239"><br></p>
+<p>Now you need to go to Tag Manager and Universal Analytics (to ensure /check) that the event tracking for Ga4 has been set up correctly. In our example, we have two conversions for the Calendly booking, so something needs to be fixed, and we had to troubleshoot what happened. We could figure out what was going wrong by going to the two places above.<br><br><strong>What happened? </strong>We imported one, but there was already one created. We troubleshooted what the issue was. Because the event tracking in Tag Manager was already in for GA4 set up, we doubled up. To fix it we turned off the wrong conversion in GA4, and it disappeared<br><img src="https://lh3.googleusercontent.com/Euk3jnuYL73EKKvoR5xpNFh4tWWGr78Htp0Bruh52n-AWKu_WZmBT3H_lqyEwKBdSQjY5_G8gYr0YHKLRkDZbyjK_ktCTxZVnECxQgEHS_13vIWbMMtmsFvCGa8Y09sXz_yvSlZ56J3yShZVLxxj5d0" width="602" height="239" loading='lazy'><br></p>
 
 <p>You might not have the event tracking in tag manager setup. If this is the case there will be a video below (but that will show up in a day or two) showing you how to do this.<br><br>Tags already set up in Tag Manager or not <a href="https://www.youtube.com/watch?v=j42_2A81F3E&t=406s&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Google is saying it is important to mark this off as complete so Google Analytic.</a> </p>
 

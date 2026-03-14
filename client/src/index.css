@@ -424,6 +424,22 @@
     loading: lazy;
   }
 
+  /* ── GPU-accelerated animations: promote to compositor layer to avoid layout/paint ── */
+  .pulse-cta {
+    will-change: transform;
+  }
+  .fade-up, .fade-up-1, .fade-up-2, .fade-up-3, .fade-up-4 {
+    will-change: transform, opacity;
+  }
+
+  /* ── content-visibility: auto on heavy below-fold sections ── */
+  /* Tells browser to skip rendering off-screen sections until they scroll into view */
+  /* contain-intrinsic-size prevents layout shift when section becomes visible */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+  }
+
   /* ── Reduced motion (WCAG 2.3.3) ── */
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {

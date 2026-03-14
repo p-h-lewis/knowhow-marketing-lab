@@ -48,9 +48,8 @@
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
-    <!-- Google Fonts: async non-blocking load (eliminates render-blocking 750ms penalty) -->
-    <!-- media="print" trick: browser loads async, onload switches to all, noscript fallback -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500&display=swap" />
+    <!-- Google Fonts: async non-blocking load — media=print trick prevents render-blocking, no preload needed -->
+    <!-- No preload link: preloading a stylesheet that loads asynchronously causes a warning and wastes a connection slot -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500&display=swap" media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500&display=swap" /></noscript>
     <!-- Preload hero image for LCP: WebP for modern browsers, JPEG fallback -->

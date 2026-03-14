@@ -179,18 +179,26 @@ export default function Home() {
       <Navbar />
       <main id="main-content">
         <HeroSection />
-        <Suspense fallback={<SectionSkeleton />}>
-          <FreeCourseSection />
-        </Suspense>
-        <Suspense fallback={<SectionSkeleton />}>
-          <VideoLibrary />
-        </Suspense>
-        <Suspense fallback={<SectionSkeleton />}>
-          <CoursesSection />
-        </Suspense>
-        <Suspense fallback={<SectionSkeleton />}>
-          <CommunitySection />
-        </Suspense>
+        <div className="cv-auto">
+          <Suspense fallback={<SectionSkeleton />}>
+            <FreeCourseSection />
+          </Suspense>
+        </div>
+        <div className="cv-auto">
+          <Suspense fallback={<SectionSkeleton />}>
+            <VideoLibrary />
+          </Suspense>
+        </div>
+        <div className="cv-auto">
+          <Suspense fallback={<SectionSkeleton />}>
+            <CoursesSection />
+          </Suspense>
+        </div>
+        <div className="cv-auto">
+          <Suspense fallback={<SectionSkeleton />}>
+            <CommunitySection />
+          </Suspense>
+        </div>
 
         {/* ── FREE POWER HOURS BANNER ── */}
         <section className="py-14 bg-[#1877F2]" aria-labelledby="power-hours-banner-heading">
