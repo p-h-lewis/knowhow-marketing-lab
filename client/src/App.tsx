@@ -5,7 +5,7 @@
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState, useEffect } from "react";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -246,22 +246,49 @@ function Router() {
 }
 
 function App() {
+  // Defer non-critical overlays until after the page is interactive
+  // This prevents CookieConsent from being the LCP element on mobile
+  // (it was appearing as LCP because it rendered before the hero on slow connections)
+  const [overlaysReady, setOverlaysReady] = useState(false);
+  useEffect(() => {
+    // Load overlays after first user interaction or 3s timeout
+    // This keeps them off the critical path entirely
+    let loaded = false;
+    const load = () => {
+      if (loaded) return;
+      loaded = true;
+      setOverlaysReady(true);
+    };
+    const events = ['scroll', 'click', 'touchstart', 'keydown', 'mousemove'];
+    events.forEach(e => window.addEventListener(e, load, { once: true, passive: true }));
+    const timer = setTimeout(load, 3000);
+    return () => {
+      events.forEach(e => window.removeEventListener(e, load));
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
           <Router />
-          {/* Lazy-loaded non-critical overlays - null fallback so they don't block render */}
-          <Suspense fallback={null}>
-            <CookieConsent />
-          </Suspense>
-          <Suspense fallback={null}>
-            <ExitIntentPopup />
-          </Suspense>
-          <Suspense fallback={null}>
-            <StickyMobileCTA />
-          </Suspense>
+          {/* Non-critical overlays: deferred until after page is interactive */}
+          {/* This prevents CookieConsent from being selected as LCP element */}
+          {overlaysReady && (
+            <>
+              <Suspense fallback={null}>
+                <CookieConsent />
+              </Suspense>
+              <Suspense fallback={null}>
+                <ExitIntentPopup />
+              </Suspense>
+              <Suspense fallback={null}>
+                <StickyMobileCTA />
+              </Suspense>
+            </>
+          )}
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

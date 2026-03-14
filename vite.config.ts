@@ -193,6 +193,19 @@ export default defineConfig({
     // CSS code splitting: each lazy-loaded page chunk gets its own CSS file
     // so only the CSS needed for the current page is loaded
     cssCodeSplit: true,
+    // Disable automatic modulepreload injection for non-critical chunks
+    // Vite injects <link rel="modulepreload"> for ALL manual chunks which causes
+    // the browser to eagerly download ui-core, ui-extended, react-vendor etc.
+    // on every page — even when they're not needed for the current route.
+    modulePreload: {
+      polyfill: false,
+      resolveDependencies: (filename, deps) => {
+        // Only preload the main entry chunk; skip all manual chunks
+        // This prevents 4 extra JS downloads on initial page load
+        if (filename.includes('/assets/index-')) return deps;
+        return [];
+      },
+    },
     rollupOptions: {
       output: {
         manualChunks: {

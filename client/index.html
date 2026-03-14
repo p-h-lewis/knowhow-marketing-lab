@@ -36,8 +36,6 @@
     <meta name="twitter:image:alt" content="KnowHow Marketing Lab - Free AI + SEO Training for Medium-Sized Businesses" />
 
     <!-- Performance: preconnect for critical origins (max 4 per PageSpeed guidance) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" crossorigin />
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
     <!-- dns-prefetch for secondary origins -->
@@ -48,16 +46,18 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
-    <!-- Google Fonts: async non-blocking load — media=print trick prevents render-blocking, no preload needed -->
-    <!-- No preload link: preloading a stylesheet that loads asynchronously causes a warning and wastes a connection slot -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500&display=swap" /></noscript>
-    <!-- Preload hero image for LCP: WebP for modern browsers, JPEG fallback -->
-    <link rel="preload" as="image" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_ba01c7fe.webp" type="image/webp" fetchpriority="high" imagesrcset="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_8e26fed1.webp 600w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_ba01c7fe.webp 800w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-1200_38d0a6e6.webp 1200w" imagesizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 574px" />
-    <!-- Fonts loaded via Google Fonts link above — no inline @font-face needed -->
+    <!-- Self-hosted fonts: preloaded from CDN — zero external font request, no render-blocking -->
+    <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/dm-sans-latin_a43d5814.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/space-grotesk-latin_8def45d1.woff2" crossorigin />
+    <!-- Preload hero image for LCP: mobile gets 600w, desktop gets 800w -->
+    <link rel="preload" as="image" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_8e26fed1.webp" type="image/webp" fetchpriority="high" imagesrcset="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_8e26fed1.webp 600w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_ba01c7fe.webp 800w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-1200_38d0a6e6.webp 1200w" imagesizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 574px" />
+    <!-- Self-hosted fonts: @font-face declarations inline — no external font request -->
     <!-- Critical CSS: inlined to eliminate render-blocking flash on above-fold content -->
     <!-- Covers: body defaults, navbar, announcement bar, hero section, skip-to-content -->
     <style>
+      /* Self-hosted font-face: served from CDN, preloaded above, font-display:swap */
+      @font-face{font-family:'DM Sans';font-style:normal;font-weight:400 500;font-display:swap;src:url('https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/dm-sans-latin_a43d5814.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+      @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:600 700;font-display:swap;src:url('https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/space-grotesk-latin_8def45d1.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
       /* Body defaults */
       *,*::before,*::after{box-sizing:border-box}
       html{line-height:1.5;-webkit-text-size-adjust:100%}

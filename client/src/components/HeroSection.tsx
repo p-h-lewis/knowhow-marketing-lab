@@ -14,7 +14,7 @@ export default function HeroSection() {
       itemType="https://schema.org/WebPage"
     >
       <div className="container">
-        <div className="grid lg:grid-cols-[55%_45%] gap-10 lg:gap-12 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-12 xl:gap-16 items-center">
 
           {/* Left: Copy + Lead Form */}
           <div className="fade-up-1">
@@ -134,8 +134,8 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Hero Image - hidden on mobile (xs), shown from sm up */}
-          <div className="fade-up-2 relative hidden sm:flex items-center justify-center">
+          {/* Right: Hero Image - visible on all screen sizes for LCP */}
+          <div className="fade-up-2 relative flex items-center justify-center">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 w-full">
               <picture>
                 <source
