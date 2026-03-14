@@ -301,8 +301,8 @@ export default function Home() {
                 <iframe
                   id="vid-frame-2"
                   className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube-nocookie.com/embed/i3mOIj1sh9o"
-                  title="Going Into A Google Profile | Google Business Profile — KnowHow Marketing Lab"
+                  src="https://www.youtube-nocookie.com/embed/TDlgrr0cviE"
+                  title="Google Business Profile - Everything You Need To Know — KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
