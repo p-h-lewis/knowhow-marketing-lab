@@ -81,7 +81,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-bold text-sm text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>KnowHow</span>
-              <span className="font-bold text-sm text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Lab</span>
+              <span className="font-bold text-sm text-[#9A5E12]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Marketing Lab</span>
             </div>
           </Link>
 

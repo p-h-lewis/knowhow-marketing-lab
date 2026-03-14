@@ -78,7 +78,7 @@ const curriculum = [
   {
     phase: 'Foundation',
     color: '#318599',
-    topics: ['Google Search Console setup & interpretation', 'GA4 basics for business owners', 'Google Tag Manager fundamentals', 'Keyword research & keyword clusters'],
+    topics: ['Google Search Console setup & interpretation', 'GA4 basics for business owners', 'Google Tag Manager fundamentals', 'Keyword research & keyword clusters', 'Google Business Profile optimisation & local SEO'],
   },
   {
     phase: 'Intermediate',
@@ -89,6 +89,29 @@ const curriculum = [
     phase: 'Advanced',
     color: '#4F37D8',
     topics: ['Google Ads Editor for bulk management', 'Google Ads scripts & automation', 'AI agents for marketing workflows', 'Custom ChatGPT for your brand or clients'],
+  },
+];
+
+const learningHighlights = [
+  {
+    icon: '📍',
+    topic: 'Google Business Profile',
+    desc: 'How to fully optimise your GBP listing so your business shows up in local search — categories, attributes, posts, photos, Q&A, and review strategy.',
+  },
+  {
+    icon: '📊',
+    topic: 'GA4 & Search Console',
+    desc: 'How to actually read your data — which pages are working, where traffic is dropping off, and what to fix first. No guesswork.',
+  },
+  {
+    icon: '🎯',
+    topic: 'Google Ads that don\'t waste money',
+    desc: 'Campaign structure, bidding, negative keywords, and how to read your reports so you know exactly what\'s working and what to cut.',
+  },
+  {
+    icon: '🤖',
+    topic: 'AI tools for real marketing work',
+    desc: 'ChatGPT for content, AI agents for workflows, and Google Ads scripts to automate the repetitive stuff — practical, not theoretical.',
   },
 ];
 
@@ -353,6 +376,33 @@ export default function Community() {
                 <JoinButton />
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* ── WHAT MEMBERS ARE LEARNING ── */}
+        <section className="py-16 bg-[#f8f9fb] border-t border-gray-100" aria-labelledby="learning-heading">
+          <div className="container">
+            <div className="text-center mb-10">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What Members Are Learning Right Now</span>
+              <h2 id="learning-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                Real skills. Real tools. Real results.
+              </h2>
+              <p className="text-gray-500 mt-3 max-w-2xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                We help business owners and marketing teams understand what's actually working in their marketing — and what to do about it. No jargon. No fluff. Just clear, practical help from people who do this every day.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {learningHighlights.map((item) => (
+                <div key={item.topic} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                  <div className="text-3xl mb-3" aria-hidden="true">{item.icon}</div>
+                  <h3 className="font-bold text-gray-900 mb-2 text-base" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.topic}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.desc}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-sm text-gray-400 mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Topics rotate monthly based on what members are working on — so the content is always relevant to what's happening right now.
+            </p>
           </div>
         </section>
 
