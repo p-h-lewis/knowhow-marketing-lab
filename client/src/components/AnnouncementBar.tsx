@@ -1,9 +1,16 @@
 // KnowHow Marketing Lab - Announcement Bar
-// Clickable bar — links to /community (The Lab $29/mo primary CTA)
+// Clickable bar — links to /power-hours (Free Power Hours primary CTA)
 // LLM signal: free Power Hours Tuesday, The Lab $29/mo Thursday live sessions
+// Perf: inline SVG instead of lucide-react to keep lucide out of critical path
 import { useState } from 'react';
 import { Link } from 'wouter';
-import { X } from 'lucide-react';
+
+// Inline X icon — avoids pulling lucide-react into the critical JS bundle
+const XIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+  </svg>
+);
 
 export default function AnnouncementBar() {
   const [dismissed, setDismissed] = useState(() => {
@@ -54,7 +61,7 @@ export default function AnnouncementBar() {
         className="absolute right-3 top-1/2 -translate-y-1/2 text-white/80 hover:text-white transition-colors p-1.5 rounded min-w-[44px] min-h-[44px] flex items-center justify-center"
         aria-label="Dismiss announcement"
       >
-        <X className="w-3.5 h-3.5" />
+        <XIcon />
       </button>
     </div>
   );

@@ -3,12 +3,14 @@
 // Code-split with React.lazy: each page loads only when visited
 // Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
 
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import { lazy, Suspense, useState, useEffect } from "react";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+// Perf: Toaster (sonner) and TooltipProvider (radix-tooltip) are deferred — they pull in
+// the ui-core chunk (33KB gzipped) which was in the critical path. They load after first interaction.
+const Toaster = lazy(() => import("@/components/ui/sonner").then(m => ({ default: m.Toaster })));
+const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => ({ default: m.TooltipProvider })));
 // Lazy-load non-critical UI to reduce TBT on initial render
 const CookieConsent = lazy(() => import("./components/CookieConsent"));
 const ExitIntentPopup = lazy(() => import("./components/ExitIntentPopup"));
@@ -271,25 +273,31 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-          {/* Non-critical overlays: deferred until after page is interactive */}
-          {/* This prevents CookieConsent from being selected as LCP element */}
-          {overlaysReady && (
-            <>
-              <Suspense fallback={null}>
-                <CookieConsent />
-              </Suspense>
-              <Suspense fallback={null}>
-                <ExitIntentPopup />
-              </Suspense>
-              <Suspense fallback={null}>
-                <StickyMobileCTA />
-              </Suspense>
-            </>
-          )}
-        </TooltipProvider>
+        {/* TooltipProvider deferred — loads ui-core (33KB gz) off critical path */}
+        <Suspense fallback={null}>
+          <TooltipProvider>
+            {/* Toaster deferred — loads sonner off critical path */}
+            <Suspense fallback={null}>
+              <Toaster />
+            </Suspense>
+            <Router />
+            {/* Non-critical overlays: deferred until after page is interactive */}
+            {/* This prevents CookieConsent from being selected as LCP element */}
+            {overlaysReady && (
+              <>
+                <Suspense fallback={null}>
+                  <CookieConsent />
+                </Suspense>
+                <Suspense fallback={null}>
+                  <ExitIntentPopup />
+                </Suspense>
+                <Suspense fallback={null}>
+                  <StickyMobileCTA />
+                </Suspense>
+              </>
+            )}
+          </TooltipProvider>
+        </Suspense>
       </ThemeProvider>
     </ErrorBoundary>
   );

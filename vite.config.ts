@@ -214,24 +214,27 @@ export default defineConfig({
           'react-vendor': ['react', 'react-dom', 'react-dom/client'],
           // Routing
           'router': ['wouter'],
-          // UI core — always needed on every page (nav, buttons, utilities)
+          // UI core — only truly synchronous utilities needed on every page
+          // Removed: sonner, lucide-react (now lazy-loaded via deferred Toaster/TooltipProvider)
+          // Removed: @radix-ui/react-tooltip (now in ui-extended, lazy-loaded)
           'ui-core': [
+            'class-variance-authority',
+            'clsx',
+            'tailwind-merge',
+          ],
+          // UI extended — lazy-loaded: dialogs, accordions, tooltips, lucide icons, sonner toasts
+          // These are NOT in the critical path — they load after first interaction
+          'ui-extended': [
             '@radix-ui/react-slot',
+            '@radix-ui/react-tooltip',
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-accordion',
             '@radix-ui/react-navigation-menu',
             '@radix-ui/react-dropdown-menu',
             '@radix-ui/react-separator',
             '@radix-ui/react-label',
             'lucide-react',
-            'class-variance-authority',
-            'clsx',
-            'tailwind-merge',
             'sonner',
-          ],
-          // UI extended — only loaded on pages with dialogs, accordions, tooltips
-          'ui-extended': [
-            '@radix-ui/react-tooltip',
-            '@radix-ui/react-dialog',
-            '@radix-ui/react-accordion',
           ],
           // Blog posts: NOT listed here — they are React.lazy() in App.tsx
           // so Rollup auto-splits them per-page. Listing them here caused
