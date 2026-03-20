@@ -40,6 +40,7 @@ export default function Navbar() {
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'Community', href: '/community' },
+    { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Google Ads Bootcamp', href: '/courses/google-ads' },
     { label: 'About', href: '/about' },

@@ -70,15 +70,6 @@ export default function HeroSection() {
               </Link>
             </div>
 
-            {/* Secondary trust line */}
-            <p className="text-sm text-gray-400 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Or{' '}
-              <Link href="/power-hours" className="text-[#318599] hover:underline font-medium">
-                join free Power Hours every Tuesday
-              </Link>
-              {' '}— no sign-up required.
-            </p>
-
             {/* Google Reviews trust badge */}
             <div className="flex items-center gap-2.5 mb-8" aria-label="79 five-star Google reviews">
               <div className="flex items-center gap-0.5" aria-hidden="true">
@@ -102,7 +93,7 @@ export default function HeroSection() {
             </div>
 
             {/* Social proof micro-stats */}
-            <div className="hidden sm:flex flex-wrap gap-5 sm:gap-8">
+            <div className="flex flex-wrap gap-4 sm:gap-8">
               {[
                 { value: '$29/mo', label: 'The Lab — Founding Rate' },
                 { value: '20+', label: 'Years Agency Experience' },
@@ -126,8 +117,8 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-gray-100/60 w-full bg-[#faf8f4]">
               <picture>
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-zoom-blurred_da1a81ad.jpg"
-                  alt="A live KnowHow Marketing Lab Thursday session — Phelan Lewis and Pip Seymour working through real campaigns with members on Zoom"
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-zoom-v2_e0a6ccfe.jpg"
+                  alt="A live KnowHow Marketing Lab session — Phelan and Pip working through real campaigns with members on Zoom"
                   width="2048"
                   height="1152"
                   className="w-full h-auto"

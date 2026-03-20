@@ -183,7 +183,7 @@ export default function Pricing() {
                 { item: 'Private community + direct access to Pip & Phelan', value: 'Priceless', highlight: false },
                 { item: 'Fillable PDF worksheets & homework for every session', value: '$47/mo', highlight: false },
               ].map(row => (
-                <div key={row.item} className={`flex items-center justify-between gap-4 rounded-xl px-5 py-3.5 ${
+                <div key={row.item} className={`flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4 rounded-xl px-4 sm:px-5 py-3.5 ${
                   row.highlight ? 'bg-[#E98C28]/15 border border-[#E98C28]/40' : 'bg-white/5 border border-white/10'
                 }`}>
                   <div className="flex items-center gap-3">

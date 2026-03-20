@@ -111,9 +111,16 @@ export default function Footer() {
             <h3 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Community
             </h3>
+            {/* Power Hours highlight */}
+            <div className="mb-4 rounded-lg border border-[#E98C28]/30 bg-[#E98C28]/10 px-3 py-2.5">
+              <Link href="/power-hours" className="block" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                <span className="text-xs font-bold text-[#E98C28] uppercase tracking-wide block mb-0.5">Free — Every Tuesday</span>
+                <span className="text-sm text-white font-medium">Power Hours →</span>
+                <span className="text-xs text-gray-400 block mt-0.5">Live Q&amp;A on Zoom · No sign-up required</span>
+              </Link>
+            </div>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
                 { label: 'The Lab – $29/mo', href: '/community' },
                 { label: 'Free vs Paid — Compare', href: '/community' },

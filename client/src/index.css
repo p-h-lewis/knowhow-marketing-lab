@@ -440,6 +440,26 @@
     contain-intrinsic-size: 0 500px;
   }
 
+  /* ── Mobile-specific improvements ── */
+  @media (max-width: 639px) {
+    /* Tighter container on very small screens */
+    .container { padding-left: 1rem; padding-right: 1rem; }
+
+    /* Prevent btn-primary from overflowing on xs screens */
+    .btn-primary, .btn-secondary, .btn-outline {
+      white-space: normal;
+      text-align: center;
+    }
+
+    /* Value stack: ensure value labels wrap cleanly */
+    .value-stack-value {
+      font-size: 0.7rem;
+    }
+
+    /* Blog grid: single column on mobile */
+    .blog-grid { grid-template-columns: 1fr; }
+  }
+
   /* ── Reduced motion (WCAG 2.3.3) ── */
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
