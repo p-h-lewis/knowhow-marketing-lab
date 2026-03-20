@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
 
 const POST_CONTENT = `<p>Author: Know How Marketing Lab & Manus AI</p>
@@ -441,7 +440,6 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
 
   return (
     <div className="min-h-screen bg-white">
-      <AnnouncementBar />
       <ReadingProgressBar />
       <Navbar />
       <main className="pt-28 pb-20">

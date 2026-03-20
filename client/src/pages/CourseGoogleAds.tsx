@@ -4,7 +4,6 @@
 // Internal links: → /courses/seo, → /pricing, → /blog, → /resources, → /about
 // External links: → support.google.com/google-ads, → skillshop.withgoogle.com (non-competing authority)
 
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
@@ -100,7 +99,6 @@ export default function CourseGoogleAds() {
         }}
       />
 
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

@@ -6,11 +6,8 @@
 
 import { lazy, Suspense } from 'react';
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import HeroSection from '@/components/HeroSection';
-const FreeCourseSection = lazy(() => import('@/components/FreeCourseSection'));
 // Below-fold components - lazy loaded to reduce initial bundle and improve LCP
-const VideoLibrary = lazy(() => import('@/components/VideoLibrary'));
 const CoursesSection = lazy(() => import('@/components/CoursesSection'));
 const CommunitySection = lazy(() => import('@/components/CommunitySection'));
 const TestimonialsSection = lazy(() => import('@/components/TestimonialsSection'));
@@ -175,20 +172,9 @@ export default function Home() {
         }}
       />
 
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
         <HeroSection />
-        <div className="cv-auto">
-          <Suspense fallback={<SectionSkeleton />}>
-            <FreeCourseSection />
-          </Suspense>
-        </div>
-        <div className="cv-auto">
-          <Suspense fallback={<SectionSkeleton />}>
-            <VideoLibrary />
-          </Suspense>
-        </div>
         <div className="cv-auto">
           <Suspense fallback={<SectionSkeleton />}>
             <CoursesSection />
@@ -200,46 +186,7 @@ export default function Home() {
           </Suspense>
         </div>
 
-        {/* ── FREE POWER HOURS BANNER ── */}
-        <section className="py-14 bg-[#1877F2]" aria-labelledby="power-hours-banner-heading">
-          <div className="container">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-              <div className="text-center lg:text-left">
-                <div className="flex items-center justify-center lg:justify-start gap-2 mb-3">
-                  <span className="w-2 h-2 rounded-full bg-white animate-pulse" aria-hidden="true" />
-                  <span className="text-xs font-bold text-white/80 uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free · Every Tuesday · 12–1pm Pacific</span>
-                </div>
-                <h2 id="power-hours-banner-heading" className="text-2xl md:text-3xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Join our free Marketing Power Hours
-                </h2>
-                <p className="text-white/80 text-base max-w-xl" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Tuesday 12–1pm Pacific, Pip answers your real questions on Google Ads, SEO, and AI — live on Zoom. No slides. No pitch. Just answers.
-                </p>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
-                <a
-                  href="https://crm.seymourdigitalmedia.com/widget/form/VpNFCGnnrKnymB81G7bB"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-[#1877F2] font-bold rounded-xl px-7 py-4 text-sm transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Register free for the weekly Marketing Power Hours on Zoom"
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.868V15.13a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
-                  Register Free
-                </a>
-                <a
-                  href="/power-hours"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white hover:border-white font-semibold rounded-xl px-7 py-4 text-sm transition-all duration-200"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="See the upcoming Power Hours schedule"
-                >
-                  See the schedule →
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* ── HOMEPAGE VIDEO CLIP ── */}
         <section className="py-16 bg-white border-t border-gray-100" aria-labelledby="homepage-video-heading">
@@ -309,20 +256,15 @@ export default function Home() {
                   style={{ display: 'none' }}
                 />
               </div>
-              <div className="text-center mt-6 flex flex-col items-center gap-3">
+              <div className="text-center mt-6">
                 <a
-                  href="/power-hours"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
-                  Join free every Tuesday →
-                </a>
-                <a
-                  href="/community"
-                  className="text-sm text-gray-400 hover:text-[#318599] transition-colors duration-150"
-                  style={{ fontFamily: 'DM Sans, sans-serif' }}
-                >
-                  Want more? Join The Lab for $29/mo →
+                  Join The Lab — $29/mo →
                 </a>
               </div>
             </div>

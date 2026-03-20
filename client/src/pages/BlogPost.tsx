@@ -6,7 +6,6 @@
 // External links: Google official docs only
 
 import { useSEO } from "@/hooks/useSEO";
-import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link, useParams } from "wouter";
@@ -322,7 +321,6 @@ export default function BlogPost() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       )}
-      <AnnouncementBar />
       <Navbar />
 
       <article className="pt-28">

@@ -6,7 +6,6 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { useSEO } from "@/hooks/useSEO";
 
 const freeFeatures = [
@@ -128,7 +127,6 @@ export default function Pricing() {
         }}
       />
 
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 
@@ -231,61 +229,15 @@ export default function Pricing() {
           </div>
         </section>
 
-        {/* Pricing cards */}
+        {/* Pricing card - The Lab only */}
         <section className="py-16 bg-white" aria-label="Pricing plans">
           <div className="container">
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="max-w-xl mx-auto">
 
-              {/* Free plan */}
-              <article
-                className="rounded-2xl border-2 border-gray-200 p-8 flex flex-col shadow-sm hover:shadow-md transition-shadow duration-200"
-                aria-label="Free plan"
-                itemScope
-                itemType="https://schema.org/Offer"
-              >
-                <div className="mb-6">
-                  <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Forever</span>
-                  <h2 className="text-2xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">
-                    Free — Start Here
-                  </h2>
-                  <div className="flex items-baseline gap-2 mt-3">
-                    <span className="text-5xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$0</span>
-                    <span className="text-gray-400 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>/forever</span>
-                  </div>
-                  <p className="text-sm text-gray-500 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-                    Business Marketing Mixer Facebook group + free courses. No credit card ever.
-                  </p>
-                </div>
-
-                <ul className="space-y-2.5 flex-1 mb-8" aria-label="Free plan features">
-                  {freeFeatures.map(f => (
-                    <li key={f.label} className="flex items-center gap-3">
-                      <svg className="w-4 h-4 text-[#318599] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                      </svg>
-                      <span className="text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                        {f.label}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-
-                <a
-                  href="https://www.facebook.com/groups/businessmarketingmixer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full text-center py-3.5 px-6 rounded-xl font-bold text-sm border-2 border-[#1877F2] text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition-all duration-200"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join the free Business Marketing Mixer Facebook group"
-                  itemProp="url"
-                >
-                  Join Free — Facebook Group + Courses →
-                </a>
-              </article>
 
               {/* The Lab */}
               <article
-                className="rounded-2xl bg-gray-950 border-2 border-[#E98C28] p-8 flex flex-col relative shadow-2xl shadow-[#E98C28]/20 scale-[1.02]"
+                className="rounded-2xl bg-gray-950 border-2 border-[#E98C28] p-8 flex flex-col relative shadow-2xl shadow-[#E98C28]/20"
                 aria-label="The Lab plan"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -365,9 +317,9 @@ export default function Pricing() {
             </h2>
             <div className="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
               {[
-                { label: 'Browse the Free Video Library', href: '/#videos', desc: '60+ free lessons - no sign-up' },
-                { label: 'See the AI + SEO Course', href: '/#free-course', desc: '5 modules, beginner to advanced' },
-                { label: 'Learn About the Community', href: '/#community', desc: 'What you get for $29/mo' },
+                { label: 'Read the Community page', href: '/community', desc: 'See everything included in The Lab' },
+                { label: 'About Pip & Phelan', href: '/about', desc: '20+ years agency experience' },
+                { label: 'Read the Blog', href: '/blog', desc: 'Free guides on SEO, Ads & AI' },
               ].map(link => (
                 <a
                   key={link.label}

@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Navbar
-// Simplified: Blog · Pricing · Community in centre | Free Course (text) + Join Live Training (CTA) on right
-// Learn dropdown removed — those pages accessible via Community page and footer
+// Simplified: Blog · Pricing · Community in centre | Log In (text) + Join The Lab — $29 (CTA) on right
+// Power Hours removed from nav — shared as its own standalone page
 // Mobile: full-screen slide-down menu with large touch targets
 
 import { useState, useEffect } from 'react';
@@ -10,7 +10,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [location] = useLocation();
-  const isHome = location === '/';
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 10);
@@ -31,28 +30,20 @@ export default function Navbar() {
     setMobileOpen(false);
   }, [location]);
 
-  const anchorHref = (anchor: string) => isHome ? anchor : `/${anchor}`;
-
-  // Desktop nav — 4 clean links
   const desktopNavLinks = [
-    { label: 'Power Hours', href: '/power-hours' },
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'Community', href: '/community' },
   ];
 
-  // Mobile nav — full list
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'Community', href: '/community' },
-    { label: 'Free Power Hours (Tuesday)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },
     { label: 'Google Ads Bootcamp', href: '/courses/google-ads' },
-    { label: 'Video Library', href: anchorHref('#videos') },
-    { label: 'Podcast', href: '/podcast' },
-    { label: 'Resources', href: '/resources' },
     { label: 'About', href: '/about' },
+    { label: 'Resources', href: '/resources' },
   ];
 
   const closeMobile = () => setMobileOpen(false);
@@ -60,7 +51,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-10 left-0 right-0 z-40 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           scrolled
             ? 'bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100'
             : 'bg-white border-b border-gray-100'
@@ -85,7 +76,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Nav — 3 links, hidden below lg */}
+          {/* Desktop Nav */}
           <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
             {desktopNavLinks.map(link => (
               <li key={link.label}>
@@ -105,7 +96,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Desktop CTA — hidden below lg */}
+          {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
             <a
               href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
@@ -117,46 +108,29 @@ export default function Navbar() {
             >
               Log In
             </a>
-            {/* Secondary CTA: Free Course — text only */}
-            <a
-              href="/courses/seo"
-              className="text-sm font-medium text-gray-500 hover:text-[#318599] transition-colors duration-150 whitespace-nowrap"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-              aria-label="Start the free AI + SEO course"
-            >
-              Free Course
-            </a>
-            {/* Secondary CTA: Join The Lab */}
             <a
               href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 bg-[#318599] hover:bg-[#276e7e] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
+              className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               aria-label="Join The Lab community for $29 per month"
             >
               Join The Lab — $29 →
-            </a>
-            {/* Primary CTA */}
-            <a
-              href="/power-hours"
-              className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap pulse-cta"
-              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join free Power Hours every Tuesday"
-            >
-              Free Power Hours →
             </a>
           </div>
 
           {/* Mobile right side: CTA + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href="/power-hours"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl text-xs py-2 px-3 whitespace-nowrap transition-all duration-150"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               onClick={closeMobile}
             >
-              Free Power Hours
+              Join — $29
             </a>
             <button
               className="p-2.5 rounded-lg text-gray-600 hover:bg-gray-100 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
@@ -181,51 +155,34 @@ export default function Navbar() {
         <div
           id="mobile-menu"
           className="lg:hidden fixed left-0 right-0 z-30 bg-white shadow-xl border-t border-gray-100 overflow-y-auto"
-          style={{ top: 'calc(2.5rem + 4rem)', maxHeight: 'calc(100dvh - 6.5rem)' }}
+          style={{ top: '4rem', maxHeight: 'calc(100dvh - 4rem)' }}
           role="navigation"
           aria-label="Mobile navigation"
         >
           <div className="px-4 py-3 flex flex-col">
             {mobileNavLinks.map(link => (
-              link.href.startsWith('/') && !link.href.includes('#') ? (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className="text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0"
-                  style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px', display: 'flex', alignItems: 'center' }}
-                  onClick={closeMobile}
-                >
-                  {link.label}
-                </Link>
-              ) : (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0"
-                  style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px', display: 'flex', alignItems: 'center' }}
-                  onClick={closeMobile}
-                >
-                  {link.label}
-                </a>
-              )
+              <Link
+                key={link.label}
+                href={link.href}
+                className="text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0"
+                style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px', display: 'flex', alignItems: 'center' }}
+                onClick={closeMobile}
+              >
+                {link.label}
+              </Link>
             ))}
 
             {/* Bottom CTAs */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 pb-4">
               <a
-                href="/power-hours"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-4 text-base transition-all duration-150"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 onClick={closeMobile}
               >
-                Free Power Hours →
-              </a>
-              <a
-                href="/courses/seo"
-                className="text-gray-500 text-sm text-center py-3 hover:text-[#318599] transition-colors"
-                onClick={closeMobile}
-              >
-                Start Free AI + SEO Course →
+                Join The Lab — $29/mo →
               </a>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
@@ -245,7 +202,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div
           className="lg:hidden fixed inset-0 bg-black/20 z-20"
-          style={{ top: 'calc(2.5rem + 4rem)' }}
+          style={{ top: '4rem' }}
           onClick={closeMobile}
           aria-hidden="true"
         />

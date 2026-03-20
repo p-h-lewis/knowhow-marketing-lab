@@ -4,7 +4,6 @@
 // Internal links: → /#free-course, /#videos, /#community, /pricing
 
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
 
@@ -326,7 +325,6 @@ export default function Resources() {
         }}
       />
 
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

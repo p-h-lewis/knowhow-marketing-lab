@@ -7,7 +7,6 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
 import { podcastEpisodes } from "@/lib/podcastEpisodes";
@@ -255,7 +254,6 @@ export default function Podcast() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <AnnouncementBar />
       <Navbar />
 
       <main id="main-content">

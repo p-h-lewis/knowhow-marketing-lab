@@ -3,7 +3,6 @@
 // Last updated: March 2026
 
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
 import { Link } from 'wouter';
@@ -45,7 +44,6 @@ export default function Privacy() {
           })
         }}
       />
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

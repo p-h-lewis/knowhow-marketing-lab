@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Exit Intent / Scroll-Triggered Popup
-// Triggers when user has scrolled 60% of the page and then scrolls back up quickly
-// OR after 45 seconds on page (time-based fallback)
+// Triggers when user has scrolled 80% of the page and then scrolls back up quickly
+// OR after 60 seconds on page (time-based fallback)
 // Only shows once per session; dismissed state persists in sessionStorage
 // Promotes the free AI + SEO course CTA
 // Design: Space Grotesk / DM Sans, brand colors
@@ -40,11 +40,11 @@ export default function ExitIntentPopup() {
       // Track max scroll depth
       if (currentY > maxScrollY) maxScrollY = currentY;
 
-      // Trigger: user scrolled past 60% then scrolled back up by 200px
-      const scrolledPast60 = maxScrollY / (docHeight || 1) > 0.6;
+      // Trigger: user scrolled past 80% then scrolled back up by 200px
+      const scrolledPast80 = maxScrollY / (docHeight || 1) > 0.8;
       const scrollingUp = currentY < lastScrollY - 200;
 
-      if (scrolledPast60 && scrollingUp) {
+      if (scrolledPast80 && scrollingUp) {
         triggered = true;
         show();
       }
@@ -52,13 +52,13 @@ export default function ExitIntentPopup() {
       lastScrollY = currentY;
     };
 
-    // Time-based fallback: show after 45 seconds if not already triggered
+    // Time-based fallback: show after 60 seconds if not already triggered
     const timer = setTimeout(() => {
       if (!triggered) {
         triggered = true;
         show();
       }
-    }, 45000);
+    }, 60000);
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {

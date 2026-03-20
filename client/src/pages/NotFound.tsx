@@ -1,6 +1,5 @@
 import { Link } from "wouter";
 import Navbar from "@/components/Navbar";
-import AnnouncementBar from "@/components/AnnouncementBar";
 import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
 
@@ -72,7 +71,6 @@ export default function NotFound() {
           })
         }}
       />
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content" className="flex-1 flex items-center py-24">
         <div className="container max-w-3xl text-center">

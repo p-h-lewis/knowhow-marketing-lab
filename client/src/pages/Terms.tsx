@@ -4,7 +4,6 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
 
@@ -45,7 +44,6 @@ export default function Terms() {
           })
         }}
       />
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

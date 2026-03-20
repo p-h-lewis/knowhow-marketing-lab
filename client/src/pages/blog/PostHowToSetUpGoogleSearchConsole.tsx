@@ -8,7 +8,6 @@ import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
 
 const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
@@ -89,7 +88,6 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
   return (
     <div className="min-h-screen bg-white">
-      <AnnouncementBar />
       <ReadingProgressBar />
       <Navbar />
       <main className="pt-28 pb-20">

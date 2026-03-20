@@ -47,7 +47,6 @@ function PowerHoursForm() {
   );
 }
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
@@ -259,7 +258,6 @@ export default function PowerHours() {
   return (
     <div className="min-h-screen bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(powerHoursSchema) }} />
-      <AnnouncementBar />
       <Navbar />
 
       <main id="main-content">

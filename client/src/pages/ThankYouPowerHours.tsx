@@ -6,23 +6,24 @@
 import { useEffect } from 'react';
 import { Link } from 'wouter';
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 
 const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 
 // Build the next Tuesday date dynamically — always returns next Tuesday (never today)
-function getNextTuesday(): Date {
+// Returns a plain object with year/month/day in Pacific time to avoid timezone confusion
+function getNextTuesdayPT(): { year: number; month: number; day: number } {
   const now = new Date();
-  const pacificNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
-  const day = pacificNow.getDay(); // 0=Sun, 2=Tue
+  // Get current date parts in Pacific time
+  const ptStr = now.toLocaleDateString('en-US', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' });
+  const [m, d, y] = ptStr.split('/').map(Number);
+  const ptDow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' })).getDay();
   // Always go to the NEXT Tuesday, never today
-  const daysUntilTuesday = day === 2 ? 7 : (2 - day + 7) % 7;
-  const next = new Date(pacificNow);
-  next.setDate(pacificNow.getDate() + daysUntilTuesday);
-  next.setHours(12, 0, 0, 0); // 12pm PT
-  return next;
+  const daysUntilTuesday = ptDow === 2 ? 7 : (2 - ptDow + 7) % 7;
+  // Calculate next Tuesday date
+  const nextDate = new Date(y, m - 1, d + daysUntilTuesday);
+  return { year: nextDate.getFullYear(), month: nextDate.getMonth() + 1, day: nextDate.getDate() };
 }
 
 function pad(n: number) { return String(n).padStart(2, '0'); }
@@ -70,8 +71,9 @@ function formatDisplayDate(d: Date) {
 }
 
 export default function ThankYouPowerHours() {
-  const nextTuesday = getNextTuesday();
-  const displayDate = formatDisplayDate(nextTuesday);
+  const pt = getNextTuesdayPT();
+  // Build a display date string from the PT date parts
+  const displayDate = new Date(pt.year, pt.month - 1, pt.day).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
 
   const eventTitle = encodeURIComponent('Free Marketing Power Hours – KnowHow Marketing Lab');
   const eventDesc = encodeURIComponent(
@@ -79,14 +81,26 @@ export default function ThankYouPowerHours() {
   );
   const eventLocation = encodeURIComponent('https://us02web.zoom.us/j/6217417145');
 
-  const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${toGCalDate(nextTuesday)}&details=${eventDesc}&location=${eventLocation}&recur=RRULE:FREQ=WEEKLY;BYDAY=TU`;
-
-  const icsStart = toICSDate(nextTuesday);
-  const icsEnd = (() => {
-    const e = new Date(nextTuesday);
-    e.setHours(21, 0, 0, 0);
-    return toICSDate(e);
+  // Build UTC times directly from PT date parts (avoids timezone rollback bug)
+  const isPacificDST = (() => {
+    const year = pt.year;
+    const marchStart = new Date(year, 2, 1);
+    const dstStart = new Date(year, 2, 8 + (7 - marchStart.getDay()) % 7);
+    const novStart = new Date(year, 10, 1);
+    const dstEnd = new Date(year, 10, 1 + (7 - novStart.getDay()) % 7);
+    const check = new Date(pt.year, pt.month - 1, pt.day);
+    return check >= dstStart && check < dstEnd;
   })();
+  const utcOffsetHours = isPacificDST ? 7 : 8; // PDT=UTC-7, PST=UTC-8
+  // 12pm PT = 19:00 UTC (PDT) or 20:00 UTC (PST)
+  const utcStartHour = 12 + utcOffsetHours;
+  const fmtUTC = (y: number, mo: number, d: number, h: number, mi: number) =>
+    `${y}${pad(mo)}${pad(d)}T${pad(h)}${pad(mi)}00Z`;
+  const gcalStart = fmtUTC(pt.year, pt.month, pt.day, utcStartHour, 0);
+  const gcalEnd = fmtUTC(pt.year, pt.month, pt.day, utcStartHour + 1, 0);
+  const icsStartStr = fmtUTC(pt.year, pt.month, pt.day, utcStartHour, 0);
+  const icsEndStr = fmtUTC(pt.year, pt.month, pt.day, utcStartHour + 1, 0);
+  const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${gcalStart}/${gcalEnd}&details=${eventDesc}&location=${eventLocation}&recur=RRULE:FREQ=WEEKLY;BYDAY=TU`;
 
   const icsContent = [
     'BEGIN:VCALENDAR',
@@ -97,14 +111,14 @@ export default function ThankYouPowerHours() {
     'X-WR-CALNAME:KnowHow Marketing Power Hours',
     'X-WR-TIMEZONE:America/Los_Angeles',
     'BEGIN:VEVENT',
-    `DTSTART;TZID=America/Los_Angeles:${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}T120000`,
-    `DTEND;TZID=America/Los_Angeles:${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}T130000`,
+    `DTSTART:${icsStartStr}`,
+    `DTEND:${icsEndStr}`,
     'RRULE:FREQ=WEEKLY;BYDAY=TU',
     `SUMMARY:Free Marketing Power Hours – KnowHow Marketing Lab`,
     `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\, SEO\, AI\, ChatGPT\, LLMs\, and marketing strategy. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.`,
     `LOCATION:https://us02web.zoom.us/j/6217417145`,
     `URL:https://us02web.zoom.us/j/6217417145`,
-    `UID:power-hours-${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}@knowhowmarketinglab.com`,
+    `UID:power-hours-${pt.year}${pad(pt.month)}${pad(pt.day)}@knowhowmarketinglab.com`,
     'STATUS:CONFIRMED',
     'TRANSP:OPAQUE',
     'END:VEVENT',
@@ -124,7 +138,7 @@ export default function ThankYouPowerHours() {
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
 
-  const outlookUrl = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${eventTitle}&startdt=${new Date(nextTuesday).toISOString()}&enddt=${new Date(new Date(nextTuesday).setHours(13)).toISOString()}&body=${eventDesc}&location=${eventLocation}`;
+  const outlookUrl = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${eventTitle}&startdt=${gcalStart}&enddt=${gcalEnd}&body=${eventDesc}&location=${eventLocation}`;
 
   useEffect(() => {
     document.title = "You're Registered! – Free Power Hours | KnowHow Marketing Lab";
@@ -165,7 +179,6 @@ export default function ThankYouPowerHours() {
 
   return (
     <div className="min-h-screen bg-white">
-      <AnnouncementBar />
       <Navbar />
 
       <main style={{ paddingTop: '6.5rem' }}>

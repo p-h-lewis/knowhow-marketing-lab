@@ -1,4 +1,5 @@
 // KnowHow Marketing Lab - Hero Section
+// The Lab is the PRIMARY offer. Power Hours is a secondary trust signal, not a competing CTA.
 // Desktop: 2-col grid (copy left, image right). Mobile: stacked.
 // Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 
@@ -7,7 +8,7 @@ import { Link } from 'wouter';
 export default function HeroSection() {
   return (
     <section
-      className="pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-14 md:pb-24 overflow-hidden"
+      className="pt-24 sm:pt-28 md:pt-32 pb-14 md:pb-24 overflow-hidden"
       style={{ background: 'linear-gradient(160deg, #fffdf9 0%, #ffffff 50%, #f8fbff 100%)' }}
       aria-labelledby="hero-heading"
       itemScope
@@ -23,7 +24,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Live every Tuesday · Free
+                Weekly live training · $29/mo · Cancel anytime
               </span>
             </div>
 
@@ -44,31 +45,39 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Every Tuesday, Pip &amp; Phelan — agency owners with 20+ years experience — answer your real Google Ads, SEO, and AI questions live on Zoom. Free, every week.
+              Thursday Lab sessions where Pip &amp; Phelan — agency owners with 20+ years experience — work through your real Google Ads, SEO, and AI campaigns live. Not slides. Not theory. Your actual account.
             </p>
 
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
-              <Link
-                href="/power-hours"
-                className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg pulse-cta"
-                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Register for free Power Hours live Q&A every Tuesday"
-              >
-                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
-                Join Free Power Hours
-              </Link>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-1.5 bg-[#318599] hover:bg-[#276e7e] text-white font-bold rounded-xl py-4 px-6 text-base transition-all duration-200 shadow-md hover:shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg pulse-cta"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 aria-label="Join The Lab community for $29 per month"
               >
                 Join The Lab — $29/mo →
               </a>
+              <Link
+                href="/pricing"
+                className="inline-flex items-center justify-center gap-1.5 bg-white border-2 border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 font-bold rounded-xl py-4 px-6 text-base transition-all duration-200"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                aria-label="See what's included in The Lab"
+              >
+                See what's included →
+              </Link>
             </div>
+
+            {/* Secondary trust line */}
+            <p className="text-sm text-gray-400 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Or{' '}
+              <Link href="/power-hours" className="text-[#318599] hover:underline font-medium">
+                join free Power Hours every Tuesday
+              </Link>
+              {' '}— no sign-up required.
+            </p>
 
             {/* Google Reviews trust badge */}
             <div className="flex items-center gap-2.5 mb-8" aria-label="79 five-star Google reviews">
@@ -92,13 +101,13 @@ export default function HeroSection() {
               </svg>
             </div>
 
-            {/* Social proof micro-stats — hidden on mobile to reduce clutter */}
+            {/* Social proof micro-stats */}
             <div className="hidden sm:flex flex-wrap gap-5 sm:gap-8">
               {[
-                { value: 'Free', label: 'Every Tuesday on Zoom' },
-                { value: '20+', label: 'Years Agency Experience' },
-                { value: '60+', label: 'Free Video Lessons' },
                 { value: '$29/mo', label: 'The Lab — Founding Rate' },
+                { value: '20+', label: 'Years Agency Experience' },
+                { value: 'Thursday', label: 'Live Lab Sessions' },
+                { value: 'Cancel', label: 'Anytime, No Contracts' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -123,7 +132,7 @@ export default function HeroSection() {
                 />
                 <img
                   src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_02361823.jpg"
-                  alt="KnowHow Marketing Lab AI + SEO and Google Ads course - analytics dashboards, keyword research tools, and GA4 reporting for medium-sized businesses"
+                  alt="KnowHow Marketing Lab — Thursday Lab sessions with Pip & Phelan. Live hands-on help with your Google Ads, SEO, and AI campaigns."
                   width="1200"
                   height="675"
                   className="w-full h-auto"
@@ -135,15 +144,14 @@ export default function HeroSection() {
               </picture>
               {/* Floating badge */}
               <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-lg px-3 py-2.5 flex items-center gap-2.5 border border-gray-100">
-                <div className="w-8 h-8 rounded-full bg-[#e6f4f7] flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                  <svg className="w-4 h-4 text-[#318599]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
-                    <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
+                <div className="w-8 h-8 rounded-full bg-[#fef3e2] flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                  <svg className="w-4 h-4 text-[#E98C28]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"/>
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Power Hours — every Tuesday</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Free live on Zoom with Pip</p>
+                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursday Lab — every week</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Your real campaigns, live</p>
                 </div>
               </div>
             </div>

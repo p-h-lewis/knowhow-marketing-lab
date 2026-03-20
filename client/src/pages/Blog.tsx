@@ -8,7 +8,6 @@
 // GEO priority: Data-Driven SEO, Generative Engine Optimisation
 
 import Navbar from '@/components/Navbar';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
 import { Link } from 'wouter';
@@ -319,7 +318,6 @@ export default function Blog() {
         }}
       />
 
-      <AnnouncementBar />
       <Navbar />
       <main id="main-content">
 

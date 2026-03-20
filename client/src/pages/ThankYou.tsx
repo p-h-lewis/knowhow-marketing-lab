@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 import { Link } from 'wouter';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { useSEO } from '@/hooks/useSEO';
 
 const modules = [
@@ -46,7 +45,6 @@ export default function ThankYou() {
           })
         }}
       />
-      <AnnouncementBar />
       <Navbar />
 
       <main id="main-content" className="flex-1">

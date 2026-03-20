@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import { Link } from 'wouter';
 
 const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
@@ -882,7 +881,6 @@ export default function PostGa4SetUpGuide() {
 
   return (
     <div className="min-h-screen bg-white">
-      <AnnouncementBar />
       <ReadingProgressBar />
       <Navbar />
       <main className="pt-28 pb-20">

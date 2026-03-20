@@ -6,7 +6,6 @@
 // External links: Google Search Central, GA4 Help, Google Ads Help (no competing sites)
 
 import { useSEO } from "@/hooks/useSEO";
-import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
@@ -218,7 +217,6 @@ export default function Framework() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <AnnouncementBar />
       <Navbar />
 
       {/* Hero */}
