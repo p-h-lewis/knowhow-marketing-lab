@@ -164,6 +164,73 @@ export default function Pricing() {
           </div>
         </section>
 
+        {/* Value Stack */}
+        <section className="py-14 bg-[#0f2236]" aria-labelledby="value-stack-heading">
+          <div className="container max-w-3xl">
+            <div className="text-center mb-8">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What You're Actually Getting</span>
+              <h2 id="value-stack-heading" className="text-3xl font-extrabold text-white mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                Total Value: <span className="text-[#E98C28]">$1,497+/month</span>
+              </h2>
+              <p className="text-gray-400 mt-2 text-base" style={{ fontFamily: 'DM Sans, sans-serif' }}>Your price: $29/month. Here's what that gets you.</p>
+            </div>
+            <div className="space-y-3">
+              {[
+                { item: 'Thursday Lab Sessions (live, hands-on help with your campaigns)', value: '$200/session × 4 = $800/mo', highlight: true },
+                { item: 'Monthly Deep-Dive Training (full-length, recorded)', value: '$197/session', highlight: false },
+                { item: 'AI + SEO Accelerator Course (5 modules)', value: '$497 one-time', highlight: false },
+                { item: 'AI-Powered Google Ads Bootcamp', value: '$397 one-time', highlight: false },
+                { item: 'AI Marketing & Automation Course', value: '$297 one-time', highlight: false },
+                { item: 'All session replays (on-demand, forever)', value: '$97/mo', highlight: false },
+                { item: 'Private community + direct access to Pip & Phelan', value: 'Priceless', highlight: false },
+                { item: 'Fillable PDF worksheets & homework for every session', value: '$47/mo', highlight: false },
+              ].map(row => (
+                <div key={row.item} className={`flex items-center justify-between gap-4 rounded-xl px-5 py-3.5 ${
+                  row.highlight ? 'bg-[#E98C28]/15 border border-[#E98C28]/40' : 'bg-white/5 border border-white/10'
+                }`}>
+                  <div className="flex items-center gap-3">
+                    <svg className="w-4 h-4 text-[#E98C28] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    <span className="text-sm text-gray-200" style={{ fontFamily: 'DM Sans, sans-serif' }}>{row.item}</span>
+                  </div>
+                  <span className={`text-xs font-bold whitespace-nowrap ${
+                    row.highlight ? 'text-[#E98C28]' : 'text-gray-400'
+                  }`} style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{row.value}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8 rounded-2xl bg-[#E98C28] p-6 text-center">
+              <p className="text-white font-extrabold text-2xl" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All of this for $29/month.</p>
+              <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access price — locks in forever when you join today.</p>
+              <a
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-4 bg-white text-[#E98C28] font-bold rounded-xl py-3 px-7 text-base transition-all duration-200 hover:bg-amber-50 shadow-md"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              >
+                Join The Lab — $29/mo →
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Urgency bar */}
+        <section className="py-5 bg-[#1a3a50] border-y border-[#E98C28]/30" aria-label="Urgency notice">
+          <div className="container max-w-3xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-center sm:text-left">
+              <span className="inline-flex items-center gap-2 bg-[#E98C28]/20 border border-[#E98C28]/40 rounded-full px-4 py-1.5">
+                <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
+                <span className="text-xs font-bold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access Pricing</span>
+              </span>
+              <p className="text-sm text-gray-300" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                The $29/mo rate is available to founding members only. <strong className="text-white">Price increases as the community grows.</strong> Members who join now lock in their rate forever.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Pricing cards */}
         <section className="py-16 bg-white" aria-label="Pricing plans">
           <div className="container">

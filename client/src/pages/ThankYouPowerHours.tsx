@@ -27,21 +27,42 @@ function getNextTuesday(): Date {
 
 function pad(n: number) { return String(n).padStart(2, '0'); }
 
-function toICSDate(d: Date) {
-  // Format as UTC: 20pm PT = 8pm UTC (PST) or 7pm UTC (PDT)
-  // Use 20:00 UTC as a reasonable approximation for 12pm PT
+// Detect if a date falls in PDT (Pacific Daylight Time = UTC-7) or PST (UTC-8)
+// PDT runs from 2nd Sunday in March to 1st Sunday in November
+function isPDT(d: Date): boolean {
+  const year = d.getFullYear();
+  // 2nd Sunday in March
+  const marchStart = new Date(year, 2, 1);
+  const marchDay = marchStart.getDay();
+  const dstStart = new Date(year, 2, 8 + (7 - marchDay) % 7);
+  dstStart.setHours(2, 0, 0, 0);
+  // 1st Sunday in November
+  const novStart = new Date(year, 10, 1);
+  const novDay = novStart.getDay();
+  const dstEnd = new Date(year, 10, 1 + (7 - novDay) % 7);
+  dstEnd.setHours(2, 0, 0, 0);
+  return d >= dstStart && d < dstEnd;
+}
+
+// Convert a Pacific-time date (with hours set to 12pm local) to UTC
+function pacificNoonToUTC(d: Date): Date {
+  // d has local date fields; we need to find the UTC equivalent of 12:00 PT
+  const offsetHours = isPDT(d) ? 7 : 8; // PDT = UTC-7, PST = UTC-8
   const utc = new Date(d);
-  utc.setHours(20, 0, 0, 0); // 12pm PT ≈ 20:00 UTC (PST)
+  utc.setHours(12 + offsetHours, 0, 0, 0);
+  return utc;
+}
+
+function toICSDate(d: Date) {
+  const utc = pacificNoonToUTC(d);
   return `${utc.getUTCFullYear()}${pad(utc.getUTCMonth() + 1)}${pad(utc.getUTCDate())}T${pad(utc.getUTCHours())}${pad(utc.getUTCMinutes())}00Z`;
 }
 
 function toGCalDate(d: Date) {
-  const utc = new Date(d);
-  utc.setHours(20, 0, 0, 0);
-  const end = new Date(utc);
-  end.setHours(21, 0, 0, 0);
+  const utcStart = pacificNoonToUTC(d);
+  const utcEnd = new Date(utcStart.getTime() + 60 * 60 * 1000); // +1 hour
   const fmt = (dt: Date) => `${dt.getUTCFullYear()}${pad(dt.getUTCMonth() + 1)}${pad(dt.getUTCDate())}T${pad(dt.getUTCHours())}${pad(dt.getUTCMinutes())}00Z`;
-  return `${fmt(utc)}/${fmt(end)}`;
+  return `${fmt(utcStart)}/${fmt(utcEnd)}`;
 }
 
 function formatDisplayDate(d: Date) {
@@ -71,19 +92,37 @@ export default function ThankYouPowerHours() {
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//KnowHow Marketing Lab//Power Hours//EN',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    'X-WR-CALNAME:KnowHow Marketing Power Hours',
+    'X-WR-TIMEZONE:America/Los_Angeles',
     'BEGIN:VEVENT',
-    `DTSTART:${icsStart}`,
-    `DTEND:${icsEnd}`,
+    `DTSTART;TZID=America/Los_Angeles:${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}T120000`,
+    `DTEND;TZID=America/Los_Angeles:${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}T130000`,
     'RRULE:FREQ=WEEKLY;BYDAY=TU',
     `SUMMARY:Free Marketing Power Hours – KnowHow Marketing Lab`,
-    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\\, SEO\\, AI\\, ChatGPT\\, LLMs\\, and marketing strategy. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.`,
+    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\, SEO\, AI\, ChatGPT\, LLMs\, and marketing strategy. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.`,
     `LOCATION:https://us02web.zoom.us/j/6217417145`,
     `URL:https://us02web.zoom.us/j/6217417145`,
+    `UID:power-hours-${nextTuesday.getFullYear()}${pad(nextTuesday.getMonth() + 1)}${pad(nextTuesday.getDate())}@knowhowmarketinglab.com`,
+    'STATUS:CONFIRMED',
+    'TRANSP:OPAQUE',
     'END:VEVENT',
     'END:VCALENDAR',
   ].join('\r\n');
 
-  const icsDataUrl = `data:text/calendar;charset=utf8,${encodeURIComponent(icsContent)}`;
+  // Use Blob + object URL for reliable download on all browsers including iOS Safari
+  const handleICSDownload = () => {
+    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'power-hours-knowhow.ics';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
 
   const outlookUrl = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${eventTitle}&startdt=${new Date(nextTuesday).toISOString()}&enddt=${new Date(new Date(nextTuesday).setHours(13)).toISOString()}&body=${eventDesc}&location=${eventLocation}`;
 
@@ -194,10 +233,9 @@ export default function ThankYouPowerHours() {
                     </svg>
                     Google Calendar
                   </a>
-                  <a
-                    href={icsDataUrl}
-                    download="power-hours-knowhow.ics"
-                    className="flex items-center gap-2.5 bg-white border border-gray-200 hover:border-[#318599] hover:bg-teal-50 text-gray-700 hover:text-[#318599] font-semibold text-sm px-4 py-2.5 rounded-xl transition-all duration-200"
+                  <button
+                    onClick={handleICSDownload}
+                    className="flex items-center gap-2.5 bg-white border border-gray-200 hover:border-[#318599] hover:bg-teal-50 text-gray-700 hover:text-[#318599] font-semibold text-sm px-4 py-2.5 rounded-xl transition-all duration-200 w-full text-left cursor-pointer"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
                     aria-label="Download .ics file to add Power Hours to Apple Calendar or Outlook"
                   >
@@ -205,7 +243,7 @@ export default function ThankYouPowerHours() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                     Apple Calendar / Outlook (.ics)
-                  </a>
+                  </button>
                 </div>
               </div>
 

@@ -126,6 +126,17 @@ export default function Navbar() {
             >
               Free Course
             </a>
+            {/* Secondary CTA: Join The Lab */}
+            <a
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-[#318599] hover:bg-[#276e7e] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Join The Lab community for $29 per month"
+            >
+              Join The Lab — $29 →
+            </a>
             {/* Primary CTA */}
             <a
               href="/power-hours"

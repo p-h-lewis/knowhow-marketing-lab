@@ -58,13 +58,16 @@ export default function HeroSection() {
                 <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
                 Join Free Power Hours
               </Link>
-              <Link
-                href="/pricing"
-                className="inline-flex items-center justify-center gap-1.5 bg-white border-2 border-[#E98C28] text-[#E98C28] font-bold rounded-xl py-4 px-6 text-base transition-all duration-200 hover:bg-[#fef3e2]"
+              <a
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-1.5 bg-[#318599] hover:bg-[#276e7e] text-white font-bold rounded-xl py-4 px-6 text-base transition-all duration-200 shadow-md hover:shadow-lg"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                aria-label="Join The Lab community for $29 per month"
               >
-                The Lab — $29/mo →
-              </Link>
+                Join The Lab — $29/mo →
+              </a>
             </div>
 
             {/* Google Reviews trust badge */}

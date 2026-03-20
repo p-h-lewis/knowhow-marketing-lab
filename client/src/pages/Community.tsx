@@ -498,6 +498,81 @@ export default function Community() {
           </div>
         </section>
 
+        {/* ── WHO THIS IS FOR ── */}
+        <section className="py-20 bg-white border-t border-gray-100" aria-labelledby="who-for-heading">
+          <div className="container max-w-4xl">
+            <div className="text-center mb-12">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Is The Lab Right For You?</span>
+              <h2 id="who-for-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                This is for you if...
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* This IS for you */}
+              <div className="rounded-2xl bg-[#f0faf5] border-2 border-[#318599]/30 p-7">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 rounded-xl bg-[#318599] flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This IS for you</h3>
+                </div>
+                <ul className="space-y-3">
+                  {[
+                    'You run a business and want to understand your own marketing — not just pay someone and hope for the best',
+                    'You\'re managing Google Ads or SEO in-house and want expert guidance on your real campaigns',
+                    'You want to stop guessing and start making decisions backed by data',
+                    'You\'ve tried watching YouTube tutorials but want structured, accountable learning with real feedback',
+                    'You want an affordable alternative to agency fees — or want to hold your agency accountable',
+                    'You\'re a marketing manager who wants to stay sharp on Google Ads, GA4, and AI tools',
+                  ].map(item => (
+                    <li key={item} className="flex items-start gap-3">
+                      <svg className="w-4 h-4 text-[#318599] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                      <span className="text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* This is NOT for you */}
+              <div className="rounded-2xl bg-[#fdf5f5] border-2 border-red-200/60 p-7">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-10 h-10 rounded-xl bg-red-400 flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This is NOT for you</h3>
+                </div>
+                <ul className="space-y-3">
+                  {[
+                    'You\'re looking for someone to just do your marketing for you (that\'s what agencies are for)',
+                    'You want a passive income course to watch once and forget — The Lab requires showing up and doing the work',
+                    'You\'re after a quick-fix or "hack" — we teach strategy that compounds over time, not shortcuts',
+                    'You\'re not willing to implement — the worksheets and homework are there for a reason',
+                    'You expect overnight results — real SEO and Google Ads results take 60–90 days of consistent work',
+                  ].map(item => (
+                    <li key={item} className="flex items-start gap-3">
+                      <svg className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                      <span className="text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-10 text-center">
+              <JoinButton label="I'm In — Join The Lab for $29/mo →" />
+              <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Cancel anytime · No contracts · Early access price</p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FREE VS PAID COMPARISON ── */}
         <section className="py-20 bg-gray-50 border-t border-gray-100" aria-labelledby="free-vs-paid-heading">
           <div className="container">
