@@ -4,6 +4,7 @@
 // Internal links: → /free-course, → /community, → /videos
 // External links: → skillshop.withgoogle.com (Google certifications - non-competing authority)
 
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
@@ -65,6 +66,16 @@ const pricingFaqs = [
 ];
 
 export default function Pricing() {
+  const [showStickyBar, setShowStickyBar] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show sticky bar after scrolling past the hero section (~400px)
+      setShowStickyBar(window.scrollY > 400);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   useSEO({
     title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
     description: "Join The Lab for $29/month — weekly live Q&A, monthly Google Ads training, AI marketing course, and a private community of marketers.",
@@ -128,6 +139,32 @@ export default function Pricing() {
       />
 
       <Navbar />
+      {/* Sticky bottom CTA bar — appears after scrolling past hero */}
+      {showStickyBar && (
+        <div
+          className="fixed bottom-0 left-0 right-0 z-40 bg-[#0f2236] border-t border-[#E98C28]/40 shadow-2xl"
+          role="complementary"
+          aria-label="Join The Lab sticky call to action"
+        >
+          <div className="container py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div>
+              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Join The Lab — $29/mo · Founding rate · Cancel anytime</p>
+              <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
+            </div>
+            <a
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              aria-label="Join The Lab for $29 per month"
+            >
+              Join The Lab →
+            </a>
+          </div>
+        </div>
+      )}
+
       <main id="main-content">
 
         {/* Hero */}
@@ -327,7 +364,10 @@ export default function Pricing() {
                   Join the Community - $29/mo →
                 </a>
                 <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Powered by GoHighLevel · Secure checkout · Cancel anytime
+                  Powered by GoHighLevel · Secure checkout
+                </p>
+                <p className="text-xs text-[#E98C28] font-semibold text-center mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Cancel in 60 seconds — no questions asked, no penalty, no forms.
                 </p>
               </article>
             </div>

@@ -100,7 +100,7 @@ export default function Navbar() {
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-700 text-sm font-medium transition-colors duration-150 whitespace-nowrap"
@@ -186,7 +186,7 @@ export default function Navbar() {
                 Join The Lab — $29/mo →
               </a>
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 text-xs text-center py-2 hover:text-gray-700 transition-colors"

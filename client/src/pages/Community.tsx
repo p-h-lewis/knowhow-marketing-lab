@@ -3,7 +3,7 @@
 // Purpose: Dedicated page explaining The Lab community, what's inside, and driving direct sign-ups to GoHighLevel
 // CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
@@ -255,6 +255,13 @@ const communitySchema = {
 
 export default function Community() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [showStickyBar, setShowStickyBar] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setShowStickyBar(window.scrollY > 400);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useSEO({
     title: 'The KnowHow Lab – Marketing Community | KnowHow Marketing Lab',
@@ -270,6 +277,21 @@ export default function Community() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(communitySchema) }} />
       <Navbar />
 
+      {/* Sticky bottom CTA bar */}
+      {showStickyBar && (
+        <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#0f2236] border-t border-[#E98C28]/40 shadow-2xl" role="complementary" aria-label="Join The Lab sticky call to action">
+          <div className="container py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div>
+              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Join The Lab — $29/mo · Founding rate · Cancel anytime</p>
+              <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
+            </div>
+            <a href={GHL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-label="Join The Lab for $29 per month">
+              Join The Lab →
+            </a>
+          </div>
+        </div>
+      )}
+
       <main id="main-content">
 
         {/* ── HERO ── */}
@@ -281,6 +303,10 @@ export default function Community() {
               <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4 bg-[#E98C28]/10 px-4 py-1.5 rounded-full" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 The KnowHow Lab
               </span>
+              {/* Visitor qualifier */}
+              <p className="text-sm text-gray-400 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                For business owners and marketing managers who want to control their own digital marketing.
+              </p>
               <h1
                 id="community-hero-heading"
                 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight"

@@ -4,7 +4,6 @@
 // Internal links: /pricing, /resources, /about, /blog
 
 import { useState } from 'react';
-import { useLocation } from 'wouter';
 
 const faqs = [
   {
@@ -46,21 +45,38 @@ export default function LeadCaptureSection() {
   const [name, setName] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [, navigate] = useLocation();
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    // Submit to GHL via external tracking
+    setLoading(true);
+    // POST to GHL form submission endpoint
+    // Form ID: l71tHQPMO7st6TFSPmo5 (KnowHow Free Course Opt In)
+    // Location ID: Bk3wb95yNZ5UAEn0KG00
     try {
-      if (typeof (window as any).GHLForm !== 'undefined') {
-        (window as any).GHLForm.submit({ firstName: name, email });
-      }
+      await fetch(
+        'https://services.leadconnectorhq.com/forms/submit',
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            formId: 'l71tHQPMO7st6TFSPmo5',
+            locationId: 'Bk3wb95yNZ5UAEn0KG00',
+            firstName: name,
+            email,
+          }),
+        }
+      );
     } catch (_) {
-      // Silent fail - redirect still happens
+      // Silent fail — redirect still happens even if GHL is unreachable
     }
+    setLoading(false);
     setSubmitted(true);
-    navigate('/thank-you');
+    // Redirect to the free course after a brief success flash
+    setTimeout(() => {
+      window.location.href = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
+    }, 1800);
   };
 
   return (
@@ -133,10 +149,11 @@ export default function LeadCaptureSection() {
                 />
                 <button
                   type="submit"
-                  className="btn-primary justify-center text-base py-4 pulse-cta"
+                  disabled={loading}
+                  className="btn-primary justify-center text-base py-4 pulse-cta disabled:opacity-70 disabled:cursor-not-allowed"
                   aria-label="Start the free KnowHow Marketing Lab SEO course"
                 >
-                  Start AI + SEO Course Now →
+                  {loading ? 'Setting up your access…' : 'Start AI + SEO Course Now →'}
                 </button>
                 <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   We respect your privacy. No spam. Unsubscribe anytime.

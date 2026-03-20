@@ -70,6 +70,22 @@ export default function HeroSection() {
               </Link>
             </div>
 
+            {/* Member quote — social proof immediately below CTA */}
+            <blockquote
+              className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-4 py-3 mb-6 max-w-xl"
+              aria-label="Member testimonial"
+            >
+              <div className="w-8 h-8 rounded-full bg-[#E98C28] text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5" aria-hidden="true">B</div>
+              <div>
+                <p className="text-sm text-gray-700 leading-relaxed italic" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  &ldquo;I felt totally ignorant before the course. After completing it I feel like I am an expert.&rdquo;
+                </p>
+                <footer className="text-xs text-gray-400 mt-1 not-italic" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <cite>Bob &mdash; Photographer, Lab Member</cite>
+                </footer>
+              </div>
+            </blockquote>
+
             {/* Google Reviews trust badge */}
             <div className="flex items-center gap-2.5 mb-8" aria-label="79 five-star Google reviews">
               <div className="flex items-center gap-0.5" aria-hidden="true">

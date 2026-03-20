@@ -14,7 +14,8 @@ const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => (
 // Lazy-load non-critical UI to reduce TBT on initial render
 const CookieConsent = lazy(() => import("./components/CookieConsent"));
 const ExitIntentPopup = lazy(() => import("./components/ExitIntentPopup"));
-const StickyMobileCTA = lazy(() => import("./components/StickyMobileCTA"));
+const StickyMobileCTA = lazy(() => import('./components/StickyMobileCTA'));
+const ChatWidget = lazy(() => import('./components/ChatWidget'));
 
 // Eagerly load Home (first page most visitors see)
 const Home = lazy(() => import("./pages/Home"));
@@ -293,6 +294,9 @@ function App() {
                 </Suspense>
                 <Suspense fallback={null}>
                   <StickyMobileCTA />
+                </Suspense>
+                <Suspense fallback={null}>
+                  <ChatWidget />
                 </Suspense>
               </>
             )}
