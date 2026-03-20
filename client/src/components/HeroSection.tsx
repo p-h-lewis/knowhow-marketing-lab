@@ -123,18 +123,17 @@ export default function HeroSection() {
 
           {/* Right: Hero Image */}
           <div className="fade-up-2 relative flex items-center justify-center">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 w-full">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl border border-gray-100/60 w-full bg-[#faf8f4]">
               <picture>
                 <source
                   type="image/webp"
-                  srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-600_8e26fed1.webp 600w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_ba01c7fe.webp 800w, https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-1200_38d0a6e6.webp 1200w"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 574px"
+                  srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-clean-v2-YqevWozyLU5ncADzyMNGix.webp"
                 />
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-800_02361823.jpg"
-                  alt="KnowHow Marketing Lab — Thursday Lab sessions with Pip & Phelan. Live hands-on help with your Google Ads, SEO, and AI campaigns."
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-clean-v2-9gdS762TUEKJjW6yjovaJ7.png"
+                  alt="Laptop showing a clean Google Ads dashboard — KnowHow Marketing Lab live sessions"
                   width="1200"
-                  height="675"
+                  height="900"
                   className="w-full h-auto"
                   loading="eager"
                   fetchPriority="high"
