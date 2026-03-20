@@ -40,7 +40,7 @@ export default function CommunitySection() {
         {/* Two-tier cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
 
-          {/* Free tier */}
+          {/* Free tier — simplified, directs to standalone Power Hours page */}
           <div className="bg-gray-50 rounded-2xl border-2 border-gray-200 p-7 flex flex-col">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-[#318599]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
@@ -57,14 +57,13 @@ export default function CommunitySection() {
             <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card ever</p>
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
-                'Free Power Hours every Tuesday 12–1pm PT',
-                'Live Q&A with Pip — real questions, real answers',
-                'Topics: SEO, Google Ads, AI, Social Media',
-                'Community discussion in the Facebook group',
-                'Weekly session reminder emails',
+                'Live Q&A every Tuesday 12–1pm PT on Zoom',
+                'Bring your real SEO, Google Ads, or AI questions',
+                'No sign-up, no credit card — just show up',
+                'Website audits, campaign reviews, and more',
               ].map(f => (
                 <li key={f} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  <svg className="w-4 h-4 text-[#1877F2] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                  <svg className="w-4 h-4 text-[#318599] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   {f}
@@ -78,17 +77,7 @@ export default function CommunitySection() {
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 aria-label="Register for free Power Hours every Tuesday"
               >
-                Register for Free Power Hours →
-              </a>
-              <a
-                href="https://www.facebook.com/groups/businessmarketingmixer"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-center text-[#318599] hover:underline text-xs font-medium"
-                style={{ fontFamily: 'DM Sans, sans-serif' }}
-                aria-label="Also join the free Business Marketing Mixer Facebook group"
-              >
-                Also in our free Facebook group →
+                See Free Power Hours →
               </a>
             </div>
           </div>

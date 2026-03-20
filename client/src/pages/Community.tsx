@@ -18,7 +18,7 @@ const perks = [
       </svg>
     ),
     title: 'Thursday Lab Sessions – Members Only',
-    desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A. Every session is recorded.',
+    desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, website audits, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A. Every session is recorded.',
     highlight: 'Thursdays 12–1pm PT — Members Only',
   },
   {
@@ -290,7 +290,7 @@ export default function Community() {
                 <span className="text-[#E98C28]">real results</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Weekly live Q&amp;A, advanced Google Ads and SEO training, AI tools, fillable worksheets, and a private group — all in one place. Led by Pip Seymour and Phelan Lewis, 20+ year agency veterans.
+                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live — hands-on, not just Q&amp;A. 20+ year agency veterans. $29/mo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <JoinButton label="Join The Lab – $29/mo →" />

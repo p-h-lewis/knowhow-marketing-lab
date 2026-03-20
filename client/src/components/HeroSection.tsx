@@ -45,7 +45,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Thursday Lab sessions where Pip &amp; Phelan — agency owners with 20+ years experience — work through your real Google Ads, SEO, and AI campaigns live. Not slides. Not theory. Your actual account.
+              Pip &amp; Phelan — agency owners with 20+ years experience — work through your real Google Ads, SEO, website audits, and AI campaigns live every Thursday. Not slides. Not theory. Your actual account.
             </p>
 
             {/* Primary CTA */}
@@ -125,15 +125,11 @@ export default function HeroSection() {
           <div className="fade-up-2 relative flex items-center justify-center">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-gray-100/60 w-full bg-[#faf8f4]">
               <picture>
-                <source
-                  type="image/webp"
-                  srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-clean-v2-YqevWozyLU5ncADzyMNGix.webp"
-                />
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-clean-v2-9gdS762TUEKJjW6yjovaJ7.png"
-                  alt="Laptop showing a clean Google Ads dashboard — KnowHow Marketing Lab live sessions"
-                  width="1200"
-                  height="900"
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-zoom-blurred_da1a81ad.jpg"
+                  alt="A live KnowHow Marketing Lab Thursday session — Phelan Lewis and Pip Seymour working through real campaigns with members on Zoom"
+                  width="2048"
+                  height="1152"
                   className="w-full h-auto"
                   loading="eager"
                   fetchPriority="high"

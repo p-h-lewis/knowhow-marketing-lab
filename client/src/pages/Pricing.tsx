@@ -174,7 +174,7 @@ export default function Pricing() {
             </div>
             <div className="space-y-3">
               {[
-                { item: 'Thursday Lab Sessions (live, hands-on help with your campaigns)', value: '$200/session × 4 = $800/mo', highlight: true },
+                { item: 'Thursday Lab Sessions — live campaign & website audit reviews', value: '$200/session × 4 = $800/mo', highlight: true },
                 { item: 'Monthly Deep-Dive Training (full-length, recorded)', value: '$197/session', highlight: false },
                 { item: 'AI + SEO Accelerator Course (5 modules)', value: '$497 one-time', highlight: false },
                 { item: 'AI-Powered Google Ads Bootcamp', value: '$397 one-time', highlight: false },
@@ -226,6 +226,48 @@ export default function Pricing() {
                 The $29/mo rate is available to founding members only. <strong className="text-white">Price increases as the community grows.</strong> Members who join now lock in their rate forever.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Reviews — moved BEFORE pricing card: social proof before the ask */}
+        <section className="py-16 bg-[#0f2236]" aria-labelledby="pricing-reviews-heading">
+          <div className="container max-w-5xl">
+            <div className="text-center mb-10">
+              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Why People Trust Us</span>
+              <h2 id="pricing-reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                5.0 Stars &middot; 79 Google Reviews
+              </h2>
+              <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a> &mdash; the agency behind KnowHow Marketing Lab
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {[
+                { name: 'Rysa Koch', role: 'Mental Health Group Practice, Chicago', review: '\u201cThey have had a serious impact on our ability to get our therapists all full and further expand our reach within the community.\u201d' },
+                { name: 'Robert Trasolini', role: 'Business Owner', review: '\u201cWe instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.\u201d' },
+                { name: 'Jaime Hall', role: 'Client', review: '\u201cPip was absolutely amazing \u2014 super knowledgeable and always willing to go the extra mile.\u201d' },
+                { name: 'Chloe Dertinger', role: 'Client', review: '\u201cPip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.\u201d' },
+                { name: 'Jason McCormick', role: 'Coastal Power Vacuum', review: '\u201cOur goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.\u201d' },
+              ].map((r, i) => (
+                <div key={i} className="bg-white/10 border border-white/15 rounded-2xl p-6 flex flex-col gap-3">
+                  <div className="flex gap-0.5" aria-label="5 stars">
+                    {[...Array(5)].map((_, s) => (
+                      <svg key={s} className="w-4 h-4 text-[#E98C28]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-200 text-sm leading-relaxed flex-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.review}</p>
+                  <div>
+                    <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{r.name}</p>
+                    <p className="text-gray-400 text-xs" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+            </p>
           </div>
         </section>
 
@@ -334,48 +376,6 @@ export default function Pricing() {
                 </a>
               ))}
             </div>
-          </div>
-        </section>
-
-        {/* Reviews */}
-        <section className="py-16 bg-[#0f2236]" aria-labelledby="pricing-reviews-heading">
-          <div className="container max-w-5xl">
-            <div className="text-center mb-10">
-              <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Why People Trust Us</span>
-              <h2 id="pricing-reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                5.0 Stars &middot; 79 Google Reviews
-              </h2>
-              <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a> &mdash; the agency behind KnowHow Marketing Lab
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {[
-                { name: 'Rysa Koch', role: 'Mental Health Group Practice, Chicago', review: '\u201cThey have had a serious impact on our ability to get our therapists all full and further expand our reach within the community.\u201d' },
-                { name: 'Robert Trasolini', role: 'Business Owner', review: '\u201cWe instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.\u201d' },
-                { name: 'Jaime Hall', role: 'Client', review: '\u201cPip was absolutely amazing \u2014 super knowledgeable and always willing to go the extra mile.\u201d' },
-                { name: 'Chloe Dertinger', role: 'Client', review: '\u201cPip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.\u201d' },
-                { name: 'Jason McCormick', role: 'Coastal Power Vacuum', review: '\u201cOur goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.\u201d' },
-              ].map((r, i) => (
-                <div key={i} className="bg-white/10 border border-white/15 rounded-2xl p-6 flex flex-col gap-3">
-                  <div className="flex gap-0.5" aria-label="5 stars">
-                    {[...Array(5)].map((_, s) => (
-                      <svg key={s} className="w-4 h-4 text-[#E98C28]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-gray-200 text-sm leading-relaxed flex-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.review}</p>
-                  <div>
-                    <p className="font-bold text-white text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{r.name}</p>
-                    <p className="text-gray-400 text-xs" style={{ fontFamily: 'DM Sans, sans-serif' }}>{r.role}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
-            </p>
           </div>
         </section>
 
