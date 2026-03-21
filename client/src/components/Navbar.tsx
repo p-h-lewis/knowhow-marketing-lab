@@ -110,28 +110,28 @@ export default function Navbar() {
               Log In
             </a>
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab community for $29 per month"
+              aria-label="Start your 7-day free trial of The KnowHow Lab"
             >
-              Join The Lab — $29 →
+              Try Free 7 Days →
             </a>
           </div>
 
           {/* Mobile right side: CTA + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl text-xs py-2 px-3 whitespace-nowrap transition-all duration-150"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               onClick={closeMobile}
             >
-              Join — $29
+              Try Free 7 Days
             </a>
             <button
               className="p-2.5 rounded-lg text-gray-600 hover:bg-gray-100 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
@@ -176,15 +176,16 @@ export default function Navbar() {
             {/* Bottom CTAs */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 pb-4">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-4 text-base transition-all duration-150"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 onClick={closeMobile}
               >
-                Join The Lab — $29/mo →
+                Start Free 7-Day Trial →
               </a>
+              <p className="text-xs text-gray-400 text-center -mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29/mo · Cancel anytime</p>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
                 target="_blank"

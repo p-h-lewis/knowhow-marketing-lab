@@ -11,7 +11,7 @@ import { useState } from 'react';
 import { useSEO } from "@/hooks/useSEO";
 
 const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
-const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
+const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds - before you write a single word.' },

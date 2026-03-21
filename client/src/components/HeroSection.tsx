@@ -24,7 +24,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Weekly live training · $29/mo · Cancel anytime
+                7-day free trial · Then $29/mo · Cancel anytime
               </span>
             </div>
 
@@ -51,14 +51,14 @@ export default function HeroSection() {
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg pulse-cta"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Join The Lab community for $29 per month"
+                aria-label="Start your 7-day free trial of The KnowHow Lab"
               >
-                Join The Lab — $29/mo →
+                Start Free 7-Day Trial →
               </a>
               <Link
                 href="/pricing"

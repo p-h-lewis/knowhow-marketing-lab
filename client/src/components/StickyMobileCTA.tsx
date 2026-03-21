@@ -62,13 +62,13 @@ export default function StickyMobileCTA() {
         ariaLabel: "Register for free Power Hours Q&A",
       }
     : {
-        title: "Join The Lab — $29/mo",
-        subtitle: "Weekly live training · Google Ads · SEO · AI",
+        title: "7-Day Free Trial — Then $29/mo",
+        subtitle: "Thursday live training · Google Ads · SEO · AI",
         href: GHL_JOIN_URL,
-        label: "Join The Lab for $29 per month",
-        buttonText: "Join Now →",
+        label: "Start your 7-day free trial of The KnowHow Lab",
+        buttonText: "Try Free →",
         isExternal: true,
-        ariaLabel: "Join The Lab for $29 per month",
+        ariaLabel: "Start your 7-day free trial of The KnowHow Lab",
       };
 
   return (

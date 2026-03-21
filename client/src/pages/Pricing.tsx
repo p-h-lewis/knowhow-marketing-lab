@@ -148,18 +148,18 @@ export default function Pricing() {
         >
           <div className="container py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
-              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Join The Lab — $29/mo · Founding rate · Cancel anytime</p>
+              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Try The Lab Free for 7 Days · Then $29/mo · Cancel anytime</p>
               <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
             </div>
-            <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              <a
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab for $29 per month"
+              aria-label="Start your 7-day free trial of The KnowHow Lab"
             >
-              Join The Lab →
+              Start Free Trial →
             </a>
           </div>
         </div>
@@ -171,30 +171,30 @@ export default function Pricing() {
         <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Join The Lab — $29/mo
+              7-Day Free Trial · Then $29/mo
             </span>
             <h1
               id="pricing-heading"
               className="text-4xl md:text-5xl font-extrabold text-gray-900 mt-3 mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Weekly Live Training. Real Answers. $29/mo.
+              Try The Lab Free for 7 Days.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   The Lab gives you Thursday sessions where Pip &amp; Phelan work through your real campaigns live, full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
             </p>
             <div className="mt-6">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3.5 px-7 text-base transition-all duration-200 shadow-md pulse-cta"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Join The Lab for $29 per month"
+                aria-label="Start your 7-day free trial of The KnowHow Lab"
               >
-                Join The Lab — $29/mo →
+                Start Free 7-Day Trial →
               </a>
-              <p className="text-xs text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>Cancel anytime · No contracts · Early access price</p>
+              <p className="text-xs text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
             </div>
           </div>
         </section>
@@ -239,13 +239,13 @@ export default function Pricing() {
               <p className="text-white font-extrabold text-2xl" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All of this for $29/month.</p>
               <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access price — locks in forever when you join today.</p>
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-4 bg-white text-[#E98C28] font-bold rounded-xl py-3 px-7 text-base transition-all duration-200 hover:bg-amber-50 shadow-md"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               >
-                Join The Lab — $29/mo →
+                Start Free 7-Day Trial →
               </a>
             </div>
           </div>
@@ -337,8 +337,9 @@ export default function Pricing() {
                     <span className="text-gray-400 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>/month</span>
                     <span className="text-xs bg-[#E98C28]/20 text-[#E98C28] font-bold px-2 py-0.5 rounded-full border border-[#E98C28]/40">Early Access</span>
                   </div>
-                  <p className="text-sm text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-                    Price increases as the community grows. Join now and lock in $29/mo forever.
+                  <p className="text-xs text-[#318599] font-semibold mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial included</p>
+                  <p className="text-sm text-gray-400 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
+                    Try free for 7 days. Then $29/mo — founding rate, locked in forever.
                   </p>
                 </div>
 
@@ -354,17 +355,17 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full justify-center pulse-cta"
-                  aria-label="Join The Lab for $29 per month"
+                  aria-label="Start your 7-day free trial of The KnowHow Lab"
                   itemProp="url"
                 >
-                  Join the Community - $29/mo →
+                  Start Free 7-Day Trial →
                 </a>
                 <p className="text-xs text-gray-400 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Powered by GoHighLevel · Secure checkout
+                  7-day free trial · Then $29/mo · Secure checkout
                 </p>
                 <p className="text-xs text-[#E98C28] font-semibold text-center mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Cancel in 60 seconds — no questions asked, no penalty, no forms.

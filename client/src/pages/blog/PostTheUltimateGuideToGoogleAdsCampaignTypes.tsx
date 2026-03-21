@@ -294,7 +294,7 @@ https://youtu.be/nzTa2wJEN9k
 <li> AI Prompt Library for Ad Copy</li>
 </ul>
 
-<p> <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" rel="noreferrer noopener" target="_blank">Join Know How Marketing Lab Now</a></p>
+<p> <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" rel="noreferrer noopener" target="_blank">Join Know How Marketing Lab Now</a></p>
 
 <h2 id="references">References</h2>
 

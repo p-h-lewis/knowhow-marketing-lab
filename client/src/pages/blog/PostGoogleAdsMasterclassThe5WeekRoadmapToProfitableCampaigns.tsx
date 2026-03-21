@@ -100,10 +100,10 @@ https://youtu.be/_jqGM9V1QHY
 
 <p>This masterclass is your path to turning Google Ads from an expense into your most powerful growth engine.</p>
 
-<p><a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" target="_blank" rel="noreferrer noopener">Join the KnowHow Marketing Lab</a> to access the Masterclass</p>
+<p><a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" target="_blank" rel="noreferrer noopener">Join the KnowHow Marketing Lab</a> to access the Masterclass</p>
 
 <div class="wp-block-buttons">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" target="_blank" rel="noreferrer noopener">Join Us and Learn Google Ads </a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" target="_blank" rel="noreferrer noopener">Join Us and Learn Google Ads </a></div>
 </div>
 
 <script type="application/ld+json">
@@ -259,7 +259,7 @@ https://youtu.be/_jqGM9V1QHY
       "isAccessibleForFree": false,
       "offers": {
         "@type": "Offer",
-        "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home",
+        "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce",
         "category": "Subscription",
         "availability": "https://schema.org/InStock"
       },

@@ -143,7 +143,7 @@ export default function ExitIntentPopup() {
             </h2>
 
             <p className="text-gray-600 text-sm leading-relaxed mb-5">
-              Join The Lab — Thursday sessions where Pip &amp; Phelan work through your real campaigns live. Founding member rate: <strong>$29/mo</strong>. Price increases as we grow.
+              Try The Lab free for 7 days — Thursday sessions where Pip &amp; Phelan work through your real campaigns live. Then just <strong>$29/mo</strong>. Cancel anytime before day 7 and pay nothing.
             </p>
 
             {/* What you get */}
@@ -164,13 +164,16 @@ export default function ExitIntentPopup() {
 
             {/* Primary CTA: The Lab */}
             <a
-              href="/community"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-center py-3.5 px-6 rounded-xl font-bold text-white text-sm transition-all hover:opacity-90 hover:-translate-y-0.5 hover:shadow-lg mb-3"
               style={{ background: '#E98C28', fontFamily: 'Space Grotesk, sans-serif' }}
               onClick={close}
             >
-              Join Live Training — $29/mo →
+              Start Free 7-Day Trial →
             </a>
+            <p className="text-xs text-gray-400 text-center -mt-1 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29/mo · Cancel anytime</p>
 
             {/* Secondary: Free Course */}
             <a

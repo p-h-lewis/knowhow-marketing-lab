@@ -107,7 +107,7 @@ const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-
 
 <p><strong>Engage With Us:</strong></p>
 
-<p>Have questions about redirects or want to know more?  Join us at the <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home" target="_blank" rel="noreferrer noopener">KnowHow Marketing Lab Community</a> or <a href="https://www.youtube.com/@knowhowmarketinglab" target="_blank" rel="noreferrer noopener">Follow our YouTube Channel</a>.<br><br>Next week, we’ll discuss the ethical use of AI in marketing. </p>
+<p>Have questions about redirects or want to know more?  Join us at the <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" target="_blank" rel="noreferrer noopener">KnowHow Marketing Lab Community</a> or <a href="https://www.youtube.com/@knowhowmarketinglab" target="_blank" rel="noreferrer noopener">Follow our YouTube Channel</a>.<br><br>Next week, we’ll discuss the ethical use of AI in marketing. </p>
 
 <p>Our guest expert is Ashley. It's another conversation you won’t want to miss!</p>
 

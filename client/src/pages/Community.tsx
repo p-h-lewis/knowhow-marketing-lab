@@ -1,14 +1,14 @@
 // KnowHow Marketing Lab – Community Page (/community)
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
 // Purpose: Dedicated page explaining The Lab community, what's inside, and driving direct sign-ups to GoHighLevel
-// CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home
+// CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce
 
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
 
-const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
+const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const perks = [
   {
@@ -123,6 +123,10 @@ const schedule = [
 
 const faqs = [
   {
+    q: 'Is there really a free trial?',
+    a: 'Yes — when you sign up, you get 7 days completely free. You can attend a Thursday Lab session, explore the course library, and see if it\'s right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month.',
+  },
+  {
     q: 'Who is The Lab for?',
     a: 'The Lab is built for business owners and marketing teams who want to go beyond the basics. Whether you\'re managing your own Google Ads, training an in-house team, or looking for a more affordable alternative to full-service agency work — this is for you.',
   },
@@ -179,15 +183,15 @@ const testimonials = [
   },
 ];
 
-function JoinButton({ label = 'Join The Lab – $29/mo →', className = '' }: { label?: string; className?: string }) {
+function JoinButton({ label = 'Start Free Trial – $29/mo →', className = '' }: { label?: string; className?: string }) {
   return (
     <a
       href={GHL_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 ${className}`}
+      className={`inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 pulse-cta ${className}`}
       style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-      aria-label="Join The KnowHow Lab community on GoHighLevel"
+      aria-label="Start your 7-day free trial of The KnowHow Lab community"
     >
       {label}
     </a>
@@ -240,8 +244,13 @@ const communitySchema = {
         },
         {
           "@type": "Question",
+          "name": "Is there a free trial for The KnowHow Lab?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow Lab includes a 7-day free trial. You can join, attend a Thursday Lab session, explore the course library, and see if it's right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month." }
+        },
+        {
+          "@type": "Question",
           "name": "How much does The Lab cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month. This is an early access price that will increase as the community grows. You can cancel anytime." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month after the 7-day free trial. This is an early access price that will increase as the community grows. You can cancel anytime." }
         },
         {
           "@type": "Question",
@@ -282,11 +291,11 @@ export default function Community() {
         <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#0f2236] border-t border-[#E98C28]/40 shadow-2xl" role="complementary" aria-label="Join The Lab sticky call to action">
           <div className="container py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
-              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Join The Lab — $29/mo · Founding rate · Cancel anytime</p>
+              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Try The Lab Free for 7 Days · Then $29/mo · Cancel anytime</p>
               <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
             </div>
-            <a href={GHL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-label="Join The Lab for $29 per month">
-              Join The Lab →
+            <a href={GHL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-label="Start your 7-day free trial of The KnowHow Lab">
+              Start Free Trial →
             </a>
           </div>
         </div>
@@ -319,13 +328,13 @@ export default function Community() {
                 Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live — hands-on, not just Q&amp;A. 20+ year agency veterans. $29/mo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <JoinButton label="Join The Lab – $29/mo →" />
+                <JoinButton label="Start 7-Day Free Trial →" />
                 <a href="#whats-inside" className="text-gray-300 hover:text-white font-medium underline underline-offset-4 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   See what's inside ↓
                 </a>
               </div>
               <p className="text-xs text-gray-500 mt-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Early access price · Increases as community grows · Cancel anytime
+                7-day free trial · Then $29/mo · Cancel anytime · No contracts
               </p>
             </div>
           </div>
@@ -335,10 +344,10 @@ export default function Community() {
         <div className="bg-[#E98C28] py-4">
           <div className="container">
             <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-white text-sm font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              <span>✓ 7-day free trial — no risk</span>
               <span>✓ Thursday Lab sessions — hands-on with your real campaigns</span>
               <span>✓ 20+ year agency veterans</span>
-              <span>✓ Cancel anytime</span>
-              <span>✓ Early access – $29/mo</span>
+              <span>✓ Cancel anytime · $29/mo after trial</span>
             </div>
           </div>
         </div>
@@ -397,7 +406,7 @@ export default function Community() {
                 ))}
               </div>
               <div className="text-center mt-8">
-                <JoinButton />
+                <JoinButton label="Start Free Trial →" />
               </div>
             </div>
           </div>
@@ -524,13 +533,16 @@ export default function Community() {
           <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 30% 50%, #E98C28 0%, transparent 50%)' }} aria-hidden="true" />
           <div className="container relative">
             <div className="max-w-lg mx-auto bg-white rounded-3xl shadow-2xl p-8 md:p-10 text-center">
-              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access Price</span>
+              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>7-Day Free Trial · Early Access Price</span>
               <div className="flex items-baseline justify-center gap-2 mb-2">
+                <span className="text-4xl font-extrabold text-[#318599] line-through opacity-50" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$0</span>
+                <span className="text-gray-400 font-medium text-base line-through opacity-50">first 7 days</span>
+                <span className="text-gray-400 mx-2">→</span>
                 <span className="text-6xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29</span>
                 <span className="text-gray-500 font-medium text-lg">/month</span>
               </div>
               <p className="text-sm text-gray-400 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Price increases as the community grows. Lock in your rate today.
+                Try it free for 7 days. Then $29/mo — founding rate, locked in forever. Price increases as community grows.
               </p>
               <ul className="space-y-3 mb-8 text-left">
                 {[
@@ -551,9 +563,9 @@ export default function Community() {
                   </li>
                 ))}
               </ul>
-              <JoinButton label="Join The Lab Now – $29/mo →" className="w-full text-lg py-5" />
+              <JoinButton label="Start My Free 7-Day Trial →" className="w-full text-lg py-5" />
               <p className="text-xs text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Powered by GoHighLevel · Secure checkout · Cancel anytime
+                7-day free trial · Then $29/mo · Secure checkout · Cancel anytime
               </p>
             </div>
           </div>
@@ -628,8 +640,8 @@ export default function Community() {
             </div>
 
             <div className="mt-10 text-center">
-              <JoinButton label="I'm In — Join The Lab for $29/mo →" />
-              <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Cancel anytime · No contracts · Early access price</p>
+              <JoinButton label="Start My Free 7-Day Trial →" />
+              <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
             </div>
           </div>
         </section>
@@ -741,14 +753,14 @@ export default function Community() {
                   ))}
                 </ul>
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Join The KnowHow Lab paid community for $29 per month"
+                  aria-label="Start your 7-day free trial of The KnowHow Lab"
                 >
-                  Join The Lab – $29/mo →
+                  Start Free Trial – $29/mo →
                 </a>
               </div>
             </div>
@@ -804,10 +816,10 @@ export default function Community() {
         <section className="py-20 bg-[#E98C28]" aria-labelledby="final-cta-heading">
           <div className="container text-center">
             <h2 id="final-cta-heading" className="text-3xl md:text-4xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Ready to stop guessing and start growing?
+              Try The Lab free for 7 days. No risk.
             </h2>
             <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Join The Lab today. Weekly live sessions, advanced training, AI tools, and a community that actually helps. $29/month. Cancel anytime.
+              Start your free trial today. Weekly live sessions, advanced training, AI tools, and a community that actually helps. If it's not for you, cancel before day 7 and pay nothing.
             </p>
             <a
               href={GHL_URL}
@@ -815,12 +827,12 @@ export default function Community() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#E98C28] font-bold rounded-xl px-10 py-5 text-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The KnowHow Lab community on GoHighLevel for $29 per month"
+              aria-label="Start your 7-day free trial of The KnowHow Lab"
             >
-              Join The Lab – $29/mo →
+              Start My Free 7-Day Trial →
             </a>
             <p className="text-white/70 text-xs mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Powered by GoHighLevel · Secure checkout · Cancel anytime
+              7-day free trial · Then $29/mo · Secure checkout · Cancel anytime
             </p>
           </div>
         </section>

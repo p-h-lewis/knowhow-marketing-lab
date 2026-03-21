@@ -5,7 +5,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 
-const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home';
+const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 interface Message {
   role: 'bot' | 'user';
@@ -23,7 +23,7 @@ const QUICK_REPLIES = [
 
 const ANSWERS: Record<string, string> = {
   what: "The KnowHow Lab is a $29/month membership community for business owners and marketing managers. Every Thursday 12–1pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live — hands-on help, not just Q&A. You also get full course access, monthly deep-dive training, and a private community group.",
-  price: "The Lab is $29/month — that's the early access founding rate. It will increase as the community grows. Members who join now lock in $29 forever. You can cancel anytime in 60 seconds, no questions asked.",
+  price: "The Lab is $29/month — that's the early access founding rate. And there's a 7-day free trial so you can try it before you pay. It will increase as the community grows. Members who join now lock in $29 forever. You can cancel anytime in 60 seconds, no questions asked.",
   thursday: "Thursday Lab sessions run every Thursday 12–1pm Pacific (members only). You bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen — not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
   cancel: "Yes — cancel anytime, directly from your GoHighLevel account. No lock-in contracts, no cancellation fees, no forms to fill out. Your access continues until the end of your billing period.",
   technical: "Not at all. The curriculum starts from the foundations — how Google Search works, what Search Console is, and why SEO matters — and builds progressively to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.",
@@ -191,12 +191,12 @@ export default function ChatWidget() {
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 text-sm transition-all duration-200"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab for $29 per month"
+              aria-label="Start your 7-day free trial of The KnowHow Lab"
             >
-              Join The Lab — $29/mo →
+              Start Free 7-Day Trial →
             </a>
             <p className="text-center text-xs text-gray-400 mt-1.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Cancel anytime · No contracts
+              7-day free trial · Then $29/mo · Cancel anytime
             </p>
           </div>
         </div>

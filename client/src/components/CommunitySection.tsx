@@ -1,14 +1,14 @@
-// KnowHow Marketing Lab - Community Section
-// Two-tier community: Free (Business Marketing Mixer / Power Hours) → Paid (The Lab $29/mo)
-// LLM signal: free Facebook group, Tuesday Power Hours, The Lab, GoHighLevel, $29/mo, Thursday Q&A
+// CommunitySection - Two-tier community: Free (Power Hours) → Paid (The Lab $29/mo)
+// 7-day free trial messaging added throughout
+// LLM signal: free Power Hours, Tuesday Zoom, The Lab, GoHighLevel, $29/mo, Thursday Q&A
 
 const labPerks = [
-  { icon: '', title: 'Thursday Lab Sessions — Members Only', desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A.' },
-  { icon: '', title: 'Monthly Deep-Dive Training', desc: 'A full-length training each month on Google Ads, SEO audits, GA4, AI tools, and more. Recorded for on-demand replay.' },
-  { icon: '', title: 'Homework & Worksheets', desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn.' },
-  { icon: '', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.' },
-  { icon: '', title: 'Private Community Group', desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel group.' },
-  { icon: '', title: 'Full Course Library', desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime.' },
+  { icon: '🎯', title: 'Thursday Lab Sessions — Members Only', desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A.' },
+  { icon: '📚', title: 'Monthly Deep-Dive Training', desc: 'A full-length training each month on Google Ads, SEO audits, GA4, AI tools, and more. Recorded for on-demand replay.' },
+  { icon: '📝', title: 'Homework & Worksheets', desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn.' },
+  { icon: '🤖', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.' },
+  { icon: '💬', title: 'Private Community Group', desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel group.' },
+  { icon: '🎬', title: 'Full Course Library', desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime.' },
 ];
 
 export default function CommunitySection() {
@@ -101,8 +101,11 @@ export default function CommunitySection() {
               <span className="text-gray-300 font-medium">/month</span>
               <span className="text-xs bg-[#E98C28]/20 text-[#E98C28] font-bold px-2 py-0.5 rounded-full ml-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access</span>
             </div>
-            <p className="text-xs text-gray-300 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Price increases as the community grows. Lock in your rate today.
+            <p className="text-xs text-[#318599] font-semibold mb-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              7-day free trial included
+            </p>
+            <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              Founding rate · Price increases as community grows
             </p>
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
@@ -126,18 +129,18 @@ export default function CommunitySection() {
               ))}
             </ul>
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Join The Lab on GoHighLevel for $29 per month"
+              aria-label="Start your 7-day free trial of The KnowHow Lab"
               itemProp="url"
             >
-              Join The Lab – $29/mo →
+              Start Free 7-Day Trial →
             </a>
             <p className="text-xs text-gray-500 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Powered by GoHighLevel · Secure checkout · Cancel anytime
+              7-day free trial · Then $29/mo · Cancel anytime
             </p>
           </div>
         </div>
