@@ -15,8 +15,6 @@ const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => (
 const CookieConsent = lazy(() => import("./components/CookieConsent"));
 const ExitIntentPopup = lazy(() => import("./components/ExitIntentPopup"));
 const StickyMobileCTA = lazy(() => import('./components/StickyMobileCTA'));
-const ChatWidget = lazy(() => import('./components/ChatWidget'));
-
 // Eagerly load Home (first page most visitors see)
 const Home = lazy(() => import("./pages/Home"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -294,9 +292,6 @@ function App() {
                 </Suspense>
                 <Suspense fallback={null}>
                   <StickyMobileCTA />
-                </Suspense>
-                <Suspense fallback={null}>
-                  <ChatWidget />
                 </Suspense>
               </>
             )}

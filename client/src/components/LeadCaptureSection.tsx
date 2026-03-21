@@ -40,7 +40,18 @@ const faqs = [
   },
 ];
 
+const CHALLENGES = [
+  { id: 'seo', label: 'SEO & getting found on Google', icon: '🔍' },
+  { id: 'ads', label: 'Google Ads & paid traffic', icon: '📢' },
+  { id: 'analytics', label: 'Understanding my analytics', icon: '📊' },
+  { id: 'ai', label: 'Using AI in my marketing', icon: '🤖' },
+  { id: 'website', label: 'My website not converting', icon: '🌐' },
+  { id: 'all', label: 'All of the above honestly', icon: '😅' },
+];
+
 export default function LeadCaptureSection() {
+  const [step, setStep] = useState<1 | 2 | 3>(1);
+  const [challenge, setChallenge] = useState('');
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -65,6 +76,8 @@ export default function LeadCaptureSection() {
             locationId: 'Bk3wb95yNZ5UAEn0KG00',
             firstName: name,
             email,
+            // Pass challenge as a custom field note
+            message: `Biggest challenge: ${challenge}`,
           }),
         }
       );
@@ -99,66 +112,122 @@ export default function LeadCaptureSection() {
               className="text-3xl md:text-4xl font-extrabold text-white mt-3 mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Ready to Learn? Start for Free Today.
+              Tell us what you are working on.
             </h2>
             <p
               className="text-gray-300 text-lg mb-3"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              Get instant access to the AI + SEO course - 5 modules, no credit card, no catch.
+              We will match you with the right free training to get you moving in the next 20 minutes.
             </p>
-            <p
-              className="text-gray-400 text-sm mb-8"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
-            >
-              Or join The Lab for Thursday hands-on campaign reviews, monthly training, and the full Google Ads course — all for $29/month.
-            </p>
+            {/* Step indicator */}
+            {!submitted && (
+              <div className="flex items-center justify-center gap-2 mb-6">
+                {[1, 2].map(s => (
+                  <div key={s} className="flex items-center gap-2">
+                    <div
+                      className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold transition-all ${
+                        step >= s ? 'bg-[#E98C28] text-white' : 'bg-white/20 text-white/50'
+                      }`}
+                      style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                    >
+                      {s}
+                    </div>
+                    {s < 2 && <div className={`w-8 h-0.5 ${step > s ? 'bg-[#E98C28]' : 'bg-white/20'}`} />}
+                  </div>
+                ))}
+              </div>
+            )}
 
             {!submitted ? (
-              <form
-                onSubmit={handleSubmit}
-                className="flex flex-col gap-3 max-w-md mx-auto"
-                aria-label="Free course sign-up form"
-                noValidate
-              >
-                <label htmlFor="lead-name" className="sr-only">Your first name</label>
-                <input
-                  id="lead-name"
-                  name="firstName"
-                  type="text"
-                  value={name}
-                  onChange={e => setName(e.target.value)}
-                  placeholder="Your first name"
-                  className="lead-input"
-                  autoComplete="given-name"
-                  style={{ fontSize: '16px', minHeight: '52px' }}
-                />
-                <label htmlFor="lead-email" className="sr-only">Your email address</label>
-                <input
-                  id="lead-email"
-                  name="email"
-                  type="email"
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  placeholder="Your email address"
-                  className="lead-input"
-                  required
-                  autoComplete="email"
-                  aria-required="true"
-                  style={{ fontSize: '16px', minHeight: '52px' }}
-                />
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="btn-primary justify-center text-base py-4 pulse-cta disabled:opacity-70 disabled:cursor-not-allowed"
-                  aria-label="Start the free KnowHow Marketing Lab SEO course"
-                >
-                  {loading ? 'Setting up your access…' : 'Start AI + SEO Course Now →'}
-                </button>
-                <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  We respect your privacy. No spam. Unsubscribe anytime.
-                </p>
-              </form>
+              <div className="max-w-md mx-auto">
+                {/* Step 1: Challenge selector */}
+                {step === 1 && (
+                  <div>
+                    <p className="text-white font-bold text-lg mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                      What is your biggest marketing challenge right now?
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
+                      {CHALLENGES.map(c => (
+                        <button
+                          key={c.id}
+                          type="button"
+                          onClick={() => { setChallenge(c.label); setStep(2); }}
+                          className={`flex items-center gap-2.5 text-left px-4 py-3 rounded-xl border-2 transition-all text-sm font-medium ${
+                            challenge === c.label
+                              ? 'border-[#E98C28] bg-[#E98C28]/20 text-white'
+                              : 'border-white/20 bg-white/10 text-white hover:border-[#E98C28]/60 hover:bg-white/15'
+                          }`}
+                          style={{ fontFamily: 'DM Sans, sans-serif' }}
+                        >
+                          <span className="text-base flex-shrink-0" aria-hidden="true">{c.icon}</span>
+                          <span>{c.label}</span>
+                        </button>
+                      ))}
+                    </div>
+                    <p className="text-xs text-gray-400 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      We will tailor your free course access based on your answer.
+                    </p>
+                  </div>
+                )}
+
+                {/* Step 2: Name + email */}
+                {step === 2 && (
+                  <form onSubmit={handleSubmit} className="flex flex-col gap-3" aria-label="Free course sign-up form" noValidate>
+                    <p className="text-white font-bold text-lg mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                      Great choice. Where should we send your access?
+                    </p>
+                    <p className="text-gray-400 text-sm mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      You said: <span className="text-[#E98C28] font-medium">{challenge}</span>
+                    </p>
+                    <label htmlFor="lead-name" className="sr-only">Your first name</label>
+                    <input
+                      id="lead-name"
+                      name="firstName"
+                      type="text"
+                      value={name}
+                      onChange={e => setName(e.target.value)}
+                      placeholder="Your first name"
+                      className="lead-input"
+                      autoComplete="given-name"
+                      style={{ fontSize: '16px', minHeight: '52px' }}
+                    />
+                    <label htmlFor="lead-email" className="sr-only">Your email address</label>
+                    <input
+                      id="lead-email"
+                      name="email"
+                      type="email"
+                      value={email}
+                      onChange={e => setEmail(e.target.value)}
+                      placeholder="Your email address"
+                      className="lead-input"
+                      required
+                      autoComplete="email"
+                      aria-required="true"
+                      style={{ fontSize: '16px', minHeight: '52px' }}
+                    />
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="btn-primary justify-center text-base py-4 pulse-cta disabled:opacity-70 disabled:cursor-not-allowed"
+                      aria-label="Start the free KnowHow Marketing Lab SEO course"
+                    >
+                      {loading ? 'Setting up your access…' : 'Get Free Access Now →'}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setStep(1)}
+                      className="text-xs text-gray-400 hover:text-gray-300 underline text-center"
+                      style={{ fontFamily: 'DM Sans, sans-serif' }}
+                    >
+                      ← Change my answer
+                    </button>
+                    <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                      We respect your privacy. No spam. Unsubscribe anytime.
+                    </p>
+                  </form>
+                )}
+              </div>
             ) : (
               <div
                 className="bg-[#318599]/20 border border-[#318599] rounded-xl p-6 max-w-md mx-auto"
@@ -166,10 +235,10 @@ export default function LeadCaptureSection() {
                 aria-live="polite"
               >
                 <p className="text-white font-bold text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                   You are in! Welcome to KnowHow Marketing Lab.
+                  You are in! Welcome to KnowHow Marketing Lab.
                 </p>
                 <p className="text-gray-300 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Your AI + SEO course is opening now. Check your email for your access link.
+                  Your free access is opening now. Check your email for your access link.
                 </p>
               </div>
             )}

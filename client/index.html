@@ -46,6 +46,8 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
+    <link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com" />
+    <link rel="dns-prefetch" href="https://widget.leadconnectorhq.com" />
     <!-- Self-hosted fonts: preloaded from CDN — zero external font request, no render-blocking -->
     <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/dm-sans-latin_a43d5814.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/space-grotesk-latin_8def45d1.woff2" crossorigin />
@@ -250,6 +252,14 @@
         ghlScript.setAttribute('data-tracking-id', 'tk_6415a2a5069f4384b0d41a2fa6e81190');
         ghlScript.async = true;
         document.head.appendChild(ghlScript);
+
+        // GHL Live Chat Widget (deferred — loads after interaction so it doesn't block LCP)
+        var chatScript = document.createElement('script');
+        chatScript.src = 'https://widgets.leadconnectorhq.com/loader.js';
+        chatScript.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
+        chatScript.setAttribute('data-widget-id', 'Bk3wb95yNZ5UAEn0KG00');
+        chatScript.async = true;
+        document.head.appendChild(chatScript);
       }
 
       // Load on first user interaction: scroll, click, touch, or keydown

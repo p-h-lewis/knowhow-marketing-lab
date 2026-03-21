@@ -45,7 +45,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              Pip &amp; Phelan — agency owners with 20+ years experience — work through your real Google Ads, SEO, website audits, and AI campaigns live every Thursday. Not slides. Not theory. Your actual account.
+              You know how most business owners spend thousands on marketing courses and agencies and still can't tell if any of it is actually working? What we do is look at your actual website, ads, and content live every week so you leave each Thursday session knowing exactly what to fix and why. In fact, we ran these sessions for two years and members kept showing up every single week. We're bringing it back and founding members lock in $29/mo before the price goes up.
             </p>
 
             {/* Primary CTA */}
@@ -153,7 +153,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursday Lab — every week</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Your real campaigns, live</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Your real website and ads, live</p>
                 </div>
               </div>
             </div>
