@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
+import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const freeFeatures = [
   { label: 'Free Power Hours every Tuesday 12–1pm Pacific' },
@@ -195,6 +196,9 @@ export default function Pricing() {
                 Start Free 7-Day Trial →
               </a>
               <p className="text-xs text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
+              <div className="mt-3 flex justify-center">
+                <FoundingMemberCounter variant="inline" />
+              </div>
             </div>
           </div>
         </section>
@@ -370,6 +374,9 @@ export default function Pricing() {
                 <p className="text-xs text-[#E98C28] font-semibold text-center mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Cancel in 60 seconds — no questions asked, no penalty, no forms.
                 </p>
+                <div className="mt-4">
+                  <FoundingMemberCounter variant="card" />
+                </div>
               </article>
             </div>
 

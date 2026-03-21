@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
+import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
@@ -336,6 +337,9 @@ export default function Community() {
               <p className="text-xs text-gray-500 mt-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 7-day free trial · Then $29/mo · Cancel anytime · No contracts
               </p>
+              <div className="mt-3 flex justify-center">
+                <FoundingMemberCounter variant="inline" className="text-gray-400" />
+              </div>
             </div>
           </div>
         </section>
@@ -642,6 +646,9 @@ export default function Community() {
             <div className="mt-10 text-center">
               <JoinButton label="Start My Free 7-Day Trial →" />
               <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
+              <div className="mt-4 flex justify-center">
+                <FoundingMemberCounter variant="inline" />
+              </div>
             </div>
           </div>
         </section>
