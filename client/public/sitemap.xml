@@ -141,6 +141,26 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- New high-priority posts - March 23, 2026 -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/ai-seo-course</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/google-ads-framework</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://knowhowmarketinglab.com/trial</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- New cluster posts - March 2026 -->
   <url>
     <loc>https://knowhowmarketinglab.com/blog/how-to-set-up-google-search-console</loc>
