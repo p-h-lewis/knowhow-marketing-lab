@@ -445,10 +445,13 @@
     /* Tighter container on very small screens */
     .container { padding-left: 1rem; padding-right: 1rem; }
 
-    /* Prevent btn-primary from overflowing on xs screens */
+    /* Prevent btn-primary from overflowing on xs screens + improve mobile tap targets */
     .btn-primary, .btn-secondary, .btn-outline {
       white-space: normal;
       text-align: center;
+      width: 100%;
+      min-height: 56px; /* Larger mobile touch target */
+      font-size: 1.05rem;
     }
 
     /* Value stack: ensure value labels wrap cleanly */

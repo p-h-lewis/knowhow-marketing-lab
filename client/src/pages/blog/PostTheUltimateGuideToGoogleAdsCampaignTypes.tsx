@@ -409,9 +409,9 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
   }
 });
     document.head.appendChild(script);
-    document.title = 'Google Ads Campaign Types 2026 — Every Type Explained | KnowHow Marketing Lab';
+    document.title = 'Google Ads Campaign Types 2026 [Complete Guide] — Which One Actually Works? | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'All 7 Google Ads campaign types explained for 2026 — Performance Max, Search, Shopping, Video, Display, Demand Gen, and App. Know which one to use and when. Free guide by KnowHow Marketing Lab.');
+    if (metaDesc) metaDesc.setAttribute('content', 'Stop wasting ad spend on the wrong campaign type. Free 2026 guide covers all 7 Google Ads campaign types — Performance Max, Search, Shopping, Demand Gen, Video, Display & App. See exactly which one to use for your goals.');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types');
     const ogImage = document.querySelector('meta[property="og:image"]');
@@ -435,7 +435,42 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
       ]
     });
     document.head.appendChild(breadcrumbScript);
-    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); };
+    // FAQPage schema for AI Overviews and rich results
+    const faqScript = document.createElement('script');
+    faqScript.type = 'application/ld+json';
+    faqScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is the best Google Ads campaign type for a small to medium business?", "acceptedAnswer": { "@type": "Answer", "text": "For most medium-sized businesses, start with Search campaigns to capture high-intent traffic, then add Performance Max once you have at least 30 conversions per month. Search gives you control; PMax gives you scale." } },
+        { "@type": "Question", "name": "What is the difference between Performance Max and Demand Gen?", "acceptedAnswer": { "@type": "Answer", "text": "Performance Max is designed to capture conversions across all Google channels (Search, Maps, YouTube, etc.) using full automation. Demand Gen is focused specifically on visual, social-style engagement on YouTube, Discover, and Gmail, offering more creative control and lookalike audience targeting." } },
+        { "@type": "Question", "name": "Can I run a Performance Max campaign without a product feed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. While PMax is powerful for e-commerce with a Merchant Center feed, it works excellently for lead generation and local store visits without one. You just need to provide high-quality text, image, and video assets." } },
+        { "@type": "Question", "name": "Do I still need Search campaigns if I run Performance Max?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. While PMax covers Search inventory, running a dedicated Search campaign allows you to target specific keywords and control your messaging more precisely, especially for branded terms or high-priority services." } },
+        { "@type": "Question", "name": "What Google Ads campaign types are available in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "In 2026, the active Google Ads campaign types are: Performance Max, Demand Gen, Search, Shopping, Video, Display, and App campaigns. Discovery Ads were retired and replaced by Demand Gen in 2024." } }
+      ]
+    });
+    document.head.appendChild(faqScript);
+    // ItemList schema for AI citation of the 7 campaign types
+    const itemListScript = document.createElement('script');
+    itemListScript.type = 'application/ld+json';
+    itemListScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Google Ads Campaign Types 2026",
+      "description": "The 7 active Google Ads campaign types available in 2026, explained by KnowHow Marketing Lab.",
+      "numberOfItems": 7,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Performance Max (PMax)", "description": "Goal-based campaign that accesses all Google Ads inventory from a single campaign using AI to optimize across Search, YouTube, Display, Discover, Gmail, and Maps." },
+        { "@type": "ListItem", "position": 2, "name": "Demand Gen", "description": "Replaced Discovery Ads. Focuses on visual engagement on YouTube (In-Stream, Shorts, Feed), Discover Feed, and Gmail. Supports lookalike audience targeting." },
+        { "@type": "ListItem", "position": 3, "name": "Search Campaigns", "description": "Classic text ads on Google Search Results and Search Partners. Best for capturing high-intent traffic from people actively searching for your product or service." },
+        { "@type": "ListItem", "position": 4, "name": "Shopping Campaigns", "description": "Product listing ads showing photo, title, price, and store name. Essential for e-commerce retailers selling physical products." },
+        { "@type": "ListItem", "position": 5, "name": "Video Campaigns", "description": "Ads on YouTube and the Display Network. Formats include Skippable In-Stream, Non-Skippable, and Bumper ads. Best for brand awareness and retargeting." },
+        { "@type": "ListItem", "position": 6, "name": "Display Campaigns", "description": "Visual banner ads across the Google Display Network, reaching over 90% of internet users. Best for top-of-funnel awareness and retargeting." },
+        { "@type": "ListItem", "position": 7, "name": "App Campaigns", "description": "Automated campaigns to drive app installs or in-app actions across Google Search, Play, YouTube, and the Display Network." }
+      ]
+    });
+    document.head.appendChild(itemListScript);
+    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); document.head.removeChild(faqScript); document.head.removeChild(itemListScript); };
   }, []);
 
   return (

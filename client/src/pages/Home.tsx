@@ -294,6 +294,20 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
+                  href: '/blog/ai-seo-course',
+                  tag: 'AI + SEO',
+                  title: 'AI SEO Course 2026 — The KnowHow AI SEO Framework',
+                  desc: 'How to rank on Google and get cited by ChatGPT, Perplexity, and Gemini. The complete AI SEO framework for medium-sized businesses.',
+                  color: '#E98C28',
+                },
+                {
+                  href: '/blog/google-ads-framework',
+                  tag: 'Google Ads',
+                  title: 'The KnowHow Google Ads Framework — 5 Phases to Profitable Campaigns',
+                  desc: 'The named 5-phase methodology used by KnowHow Marketing Lab to build profitable Google Ads campaigns from scratch. Covers structure, bidding, quality score, and AI tools.',
+                  color: '#318599',
+                },
+                {
                   href: '/blog/ai-seo-guide',
                   tag: 'AI + SEO',
                   title: 'The Complete Guide to AI SEO',
