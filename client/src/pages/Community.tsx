@@ -274,8 +274,8 @@ export default function Community() {
   }, []);
 
   useSEO({
-    title: 'The KnowHow Lab – Marketing Community | KnowHow Marketing Lab',
-    description: 'Join The Lab — Thursday sessions where Pip & Phelan work through your real campaigns live, plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
+    title: 'The Lab — Live Marketing Training Every Thursday | KnowHow Marketing Lab',
+    description: 'Live Google Ads and SEO training every Thursday. Pip & Phelan work through your real campaigns live. Plus AI tools, monthly deep-dives, and a private community. Try free for 7 days — $29/month after.',
     canonical: 'https://knowhowmarketinglab.com/community',
     ogTitle: 'The KnowHow Lab – Join Our Marketing Community',
     ogDescription: 'Thursday Lab sessions — hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29/month.',

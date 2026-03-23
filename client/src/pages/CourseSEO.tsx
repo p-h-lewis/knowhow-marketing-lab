@@ -33,8 +33,8 @@ const faqs = [
 
 export default function CourseSEO() {
   useSEO({
-    title: "Free AI + SEO Course – Data-Driven SEO Training",
-    description: "Free AI + SEO course for medium-sized businesses. 5 modules covering data-driven SEO, Google Search Console, and AI content strategy.",
+    title: "AI SEO Course — Free Training for Business Owners | KnowHow Marketing Lab",
+    description: "Free AI + SEO course for business owners and marketing teams. 5 modules covering AI-powered keyword research, on-page SEO, Google Search Console, GA4, and how to rank in AI search engines like ChatGPT and Perplexity.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
   });
@@ -64,12 +64,19 @@ export default function CourseSEO() {
             "inLanguage": "en",
             "isAccessibleForFree": true,
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "teaches": ["SEO", "Generative Engine Optimisation", "AI SEO", "Google Search Console", "GA4", "Keyword Research", "On-Page SEO", "Google Business Profile"],
+            "about": [
+              { "@type": "Thing", "name": "Search Engine Optimisation" },
+              { "@type": "Thing", "name": "Generative Engine Optimisation" },
+              { "@type": "Thing", "name": "Google Analytics 4" },
+              { "@type": "Thing", "name": "Google Search Console" }
+            ],
             "hasCourseInstance": {
               "@type": "CourseInstance",
               "courseMode": "online",
               "instructor": [
-                { "@type": "Person", "name": "Pip Seymour", "jobTitle": "SEO & Digital Marketing Strategist" },
-                { "@type": "Person", "name": "Phelan Lewis", "jobTitle": "Google Ads & Analytics Specialist" }
+                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist with 20+ years of agency experience, specialising in data-driven SEO and Generative Engine Optimisation." },
+                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist", "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing paid search campaigns for medium-sized businesses." }
               ]
             },
             "syllabusSections": modules.map((m, i) => ({

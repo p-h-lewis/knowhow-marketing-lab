@@ -52,6 +52,8 @@ const PostGa4SetUpGuide = lazy(() => import('./pages/blog/PostGa4SetUpGuide'));
 const PostHowToSetUpGoogleSearchConsole = lazy(() => import('./pages/blog/PostHowToSetUpGoogleSearchConsole'));
 const PostKeywordResearchKeywordClusters = lazy(() => import('./pages/blog/PostKeywordResearchKeywordClusters'));
 const PostGa4ExplainedForBusinessOwners = lazy(() => import('./pages/blog/PostGa4ExplainedForBusinessOwners'));
+const PostAiSeoCourse = lazy(() => import('./pages/blog/PostAiSeoCourse'));
+const PostGoogleAdsFramework = lazy(() => import('./pages/blog/PostGoogleAdsFramework'));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -111,6 +113,10 @@ function Router() {
         <Route path="/blog/keyword-research-keyword-clusters/" component={PostKeywordResearchKeywordClusters} />
         <Route path="/blog/ga4-explained-for-business-owners" component={PostGa4ExplainedForBusinessOwners} />
         <Route path="/blog/ga4-explained-for-business-owners/" component={PostGa4ExplainedForBusinessOwners} />
+        <Route path="/blog/ai-seo-course" component={PostAiSeoCourse} />
+        <Route path="/blog/ai-seo-course/" component={PostAiSeoCourse} />
+        <Route path="/blog/google-ads-framework" component={PostGoogleAdsFramework} />
+        <Route path="/blog/google-ads-framework/" component={PostGoogleAdsFramework} />
 
         {/* Catch-all for /blog/:slug - must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />

@@ -10,8 +10,8 @@ import { useSEO } from "@/hooks/useSEO";
 
 export default function About() {
   useSEO({
-    title: "About KnowHow Marketing Lab – Pip & Phelan",
-    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis of Seymour Digital Media — 20+ years helping medium-sized businesses grow online.",
+    title: "About KnowHow Marketing Lab — Pip Seymour & Phelan Lewis | Google Ads & SEO Experts",
+    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis — Google Ads and SEO specialists with 20+ years of agency experience helping medium-sized businesses get more traffic and leads online.",
     canonical: "https://knowhowmarketinglab.com/about",
     ogType: "website",
   });
@@ -63,16 +63,22 @@ export default function About() {
                 {
                   "@type": "Person",
                   "name": "Pip Seymour",
+                  "url": "https://knowhowmarketinglab.com/about",
                   "jobTitle": "SEO & Content Strategy Lead",
+                  "description": "Pip Seymour is a digital marketing strategist and SEO specialist with 20+ years of agency experience. Co-founder of Seymour Digital Media and KnowHow Marketing Lab. Specialises in data-driven SEO, Generative Engine Optimisation (GEO), Google Search Console, GA4, and AI-powered content strategy for medium-sized businesses.",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
-                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimisation", "Content Strategy", "Digital Marketing"]
+                  "knowsAbout": ["SEO", "Generative Engine Optimisation", "AI SEO", "Google Search Console", "GA4", "Content Strategy", "Digital Marketing", "GEO"],
+                  "sameAs": ["https://www.youtube.com/@knowhowmarketinglab", "https://seymourdigitalmedia.com"]
                 },
                 {
                   "@type": "Person",
                   "name": "Phelan Lewis",
+                  "url": "https://knowhowmarketinglab.com/about",
                   "jobTitle": "Google Ads & Analytics Lead",
+                  "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing paid search campaigns for medium-sized businesses. Co-founder of KnowHow Marketing Lab. Specialises in Google Ads strategy, Google Tag Manager, GA4, AI marketing automation, and data-driven campaign optimisation.",
                   "worksFor": { "@type": "Organization", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
-                  "knowsAbout": ["Google Ads", "Google Tag Manager", "GA4", "AI Marketing Automation", "PPC"]
+                  "knowsAbout": ["Google Ads", "Google Tag Manager", "GA4", "AI Marketing Automation", "PPC", "Smart Bidding", "Performance Max"],
+                  "sameAs": ["https://www.youtube.com/@knowhowmarketinglab"]
                 }
               ]
             }

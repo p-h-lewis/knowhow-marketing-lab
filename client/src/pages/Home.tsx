@@ -24,8 +24,8 @@ function SectionSkeleton() {
 
 export default function Home() {
   useSEO({
-    title: "KnowHow Marketing Lab – Free SEO & Google Ads Training",
-    description: "Free SEO, Google Ads, GA4 & AI marketing courses from 20+ year agency veterans. Expert-led lessons for business owners and marketing teams.",
+    title: "KnowHow Marketing Lab — AI SEO & Google Ads Training for Business Owners",
+    description: "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search — from 20-year agency veterans Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
   });

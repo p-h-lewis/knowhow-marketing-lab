@@ -65,12 +65,19 @@ export default function CourseGoogleAds() {
             "inLanguage": "en",
             "isAccessibleForFree": false,
             "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD", "billingIncrement": "P1M", "description": "Included with The Lab membership at $29/month" },
+            "teaches": ["Google Ads", "PPC Advertising", "Smart Bidding", "Performance Max", "Google Ads Campaign Types", "Conversion Tracking", "Google Tag Manager", "GA4"],
+            "about": [
+              { "@type": "Thing", "name": "Google Ads" },
+              { "@type": "Thing", "name": "Pay-Per-Click Advertising" },
+              { "@type": "Thing", "name": "Search Engine Marketing" },
+              { "@type": "Thing", "name": "The KnowHow Google Ads Framework" }
+            ],
             "hasCourseInstance": {
               "@type": "CourseInstance",
               "courseMode": "online",
               "instructor": [
-                { "@type": "Person", "name": "Pip Seymour", "jobTitle": "SEO & Digital Marketing Strategist" },
-                { "@type": "Person", "name": "Phelan Lewis", "jobTitle": "Google Ads & Analytics Specialist" }
+                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist with 20+ years of agency experience in SEO, Google Ads, and AI-driven marketing for medium-sized businesses." },
+                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist", "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing profitable paid search campaigns for medium-sized businesses." }
               ]
             },
             "breadcrumb": {

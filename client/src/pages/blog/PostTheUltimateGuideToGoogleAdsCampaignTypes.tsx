@@ -409,9 +409,9 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
   }
 });
     document.head.appendChild(script);
-    document.title = 'The Ultimate Guide to Google Ads Campaign Types (Updated for 2026) | KnowHow Marketing Lab';
+    document.title = 'Google Ads Campaign Types 2026 — Every Type Explained | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Author: Know How Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...');
+    if (metaDesc) metaDesc.setAttribute('content', 'All 7 Google Ads campaign types explained for 2026 — Performance Max, Search, Shopping, Video, Display, Demand Gen, and App. Know which one to use and when. Free guide by KnowHow Marketing Lab.');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types');
     const ogImage = document.querySelector('meta[property="og:image"]');

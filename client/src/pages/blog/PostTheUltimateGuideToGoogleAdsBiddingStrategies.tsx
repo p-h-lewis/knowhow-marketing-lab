@@ -166,9 +166,9 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
   }
 });
     document.head.appendChild(script);
-    document.title = 'The Ultimate Guide to Google Ads Bidding Strategies (2026 Edition) | KnowHow Marketing Lab';
+    document.title = 'Google Ads Bidding Strategies 2026 — Which One Should You Use? | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one, and you get a steady stream of profitable cu...');
+    if (metaDesc) metaDesc.setAttribute('content', 'Every Google Ads bidding strategy explained for 2026 — Smart Bidding, Target CPA, Target ROAS, Manual CPC and more. Know which to use at each stage of your campaign. Free guide.');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-bidding-strategies');
     const ogImage = document.querySelector('meta[property="og:image"]');
