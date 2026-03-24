@@ -81,6 +81,12 @@
 
   <!-- Blog posts — migrated from WordPress at exact same URLs -->
   <url>
+    <loc>https://knowhowmarketinglab.com/blog/data-driven-seo-guide-medium-sized-businesses</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
