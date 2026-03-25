@@ -1,15 +1,17 @@
 // KnowHow Marketing Lab - Navbar
-// Simplified: Blog · Pricing · Community in centre | Log In (text) + Join The Lab — $29 (CTA) on right
-// Power Hours removed from nav — shared as its own standalone page
-// Mobile: full-screen slide-down menu with large touch targets
+// Desktop: Blog · Live Coaching (dropdown) · Community | Log In + Try Free 7 Days
+// Live Coaching dropdown: Overview, SEO Coaching, Google Ads Coaching, SEO for Business, Google Ads for Business, Join CTA
+// Mobile: full-screen slide-down menu with large touch targets + coaching sub-links
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'wouter';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [coachingOpen, setCoachingOpen] = useState(false);
   const [location] = useLocation();
+  const coachingRef = useRef<HTMLLIElement>(null);
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 10);
@@ -26,19 +28,36 @@ export default function Navbar() {
     return () => { document.body.style.overflow = ''; };
   }, [mobileOpen]);
 
+  // Close menus on route change
   useEffect(() => {
     setMobileOpen(false);
+    setCoachingOpen(false);
   }, [location]);
 
-  const desktopNavLinks = [
-    { label: 'Blog', href: '/blog' },
-    { label: 'Live Coaching', href: '/pricing' },
-    { label: 'Community', href: '/community' },
+  // Close coaching dropdown on outside click
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (coachingRef.current && !coachingRef.current.contains(e.target as Node)) {
+        setCoachingOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  const coachingDropdownLinks = [
+    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions — $29/mo' },
+    { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners' },
+    { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners' },
+    { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site' },
+    { label: 'Google Ads for Business', href: '/blog/google-ads-coaching-for-small-business', desc: 'Ads coaching for smaller budgets' },
   ];
 
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
     { label: 'Live Coaching', href: '/pricing' },
+    { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', indent: true },
+    { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', indent: true },
     { label: 'Community', href: '/community' },
     { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },
@@ -48,6 +67,11 @@ export default function Navbar() {
   ];
 
   const closeMobile = () => setMobileOpen(false);
+
+  const isCoachingActive = location.startsWith('/pricing') ||
+    location.startsWith('/blog/seo-coaching') ||
+    location.startsWith('/blog/google-ads-coaching') ||
+    location.startsWith('/blog/seo-and-analytics-coaching');
 
   return (
     <>
@@ -79,22 +103,91 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <ul className="hidden lg:flex items-center gap-0.5 list-none m-0 p-0" role="list">
-            {desktopNavLinks.map(link => (
-              <li key={link.label}>
-                <Link
-                  href={link.href}
-                  className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
-                    location === link.href
-                      ? 'text-[#E98C28] bg-amber-50'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                  }`}
-                  style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  itemProp="url"
+            {/* Blog */}
+            <li>
+              <Link
+                href="/blog"
+                className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
+                  location === '/blog' ? 'text-[#E98C28] bg-amber-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                }`}
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                itemProp="url"
+              >
+                Blog
+              </Link>
+            </li>
+
+            {/* Live Coaching dropdown */}
+            <li className="relative" ref={coachingRef}>
+              <button
+                onClick={() => setCoachingOpen(o => !o)}
+                className={`flex items-center gap-1 text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
+                  isCoachingActive ? 'text-[#E98C28] bg-amber-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                }`}
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                aria-haspopup="true"
+                aria-expanded={coachingOpen}
+              >
+                Live Coaching
+                <svg
+                  className={`w-3.5 h-3.5 transition-transform duration-150 ${coachingOpen ? 'rotate-180' : ''}`}
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor"
                 >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {coachingOpen && (
+                <div
+                  className="absolute top-full left-0 mt-1 w-72 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50"
+                  role="menu"
+                >
+                  {coachingDropdownLinks.map(item => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="flex flex-col px-4 py-2.5 hover:bg-amber-50 transition-colors group"
+                      role="menuitem"
+                    >
+                      <span className="text-sm font-semibold text-gray-800 group-hover:text-[#E98C28] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                        {item.label}
+                      </span>
+                      <span className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                        {item.desc}
+                      </span>
+                    </Link>
+                  ))}
+                  <div className="mx-4 mt-2 pt-2 border-t border-gray-100">
+                    <a
+                      href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between py-2 text-sm font-bold text-[#E98C28] hover:text-[#d47d20] transition-colors"
+                      style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                    >
+                      Join The Lab — $29/mo
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              )}
+            </li>
+
+            {/* Community */}
+            <li>
+              <Link
+                href="/community"
+                className={`text-sm font-medium px-3 py-2 rounded-md transition-all duration-150 whitespace-nowrap ${
+                  location === '/community' ? 'text-[#E98C28] bg-amber-50' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                }`}
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                itemProp="url"
+              >
+                Community
+              </Link>
+            </li>
           </ul>
 
           {/* Desktop CTAs */}
@@ -165,10 +258,17 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-gray-800 font-semibold text-base py-3.5 px-3 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0"
+                className={`font-semibold text-base py-3.5 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0 ${
+                  (link as any).indent
+                    ? 'text-gray-500 text-sm pl-6 pr-3'
+                    : 'text-gray-800 px-3'
+                }`}
                 style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px', display: 'flex', alignItems: 'center' }}
                 onClick={closeMobile}
               >
+                {(link as any).indent && (
+                  <span className="mr-2 text-[#318599]">›</span>
+                )}
                 {link.label}
               </Link>
             ))}
