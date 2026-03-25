@@ -13,7 +13,7 @@ import { useState } from 'react';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
 
-const categories = ['All', 'SEO', 'Google Ads', 'AI Marketing', 'Analytics'];
+const categories = ['All', 'SEO', 'Google Ads', 'Coaching', 'AI Marketing', 'Analytics'];
 
 const blogPosts = [
   //  PILLAR ARTICLE (new) 
@@ -62,10 +62,24 @@ const blogPosts = [
   },
   //  COACHING POSTS 
   {
+    slug: 'google-ads-coaching-for-small-business',
+    title: 'Google Ads Coaching for Small Business — What It Costs and How to Get Results',
+    excerpt: 'Google Ads can work really well for small businesses — but it can also drain your budget fast if you don’t know what you’re doing. This post explains what coaching looks like, what it costs, and the highest-priority fixes for small business accounts.',
+    category: 'Coaching',
+    author: 'Phelan Lewis',
+    date: 'March 24, 2026',
+    dateISO: '2026-03-24',
+    readTime: '7 min read',
+    isPillar: false,
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
+    imageAlt: 'Small business owner reviewing Google Ads performance on a laptop at their desk',
+    externalUrl: null,
+  },
+  {
     slug: 'google-ads-coaching-for-marketers',
     title: 'Google Ads Coaching for Marketers — What to Look For and How It Works',
     excerpt: 'Running Google Ads without knowing what you’re doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching gives you expert feedback on your real campaigns — not a textbook example, your actual account. Here is what good coaching looks like.',
-    category: 'Google Ads',
+    category: 'Coaching',
     author: 'Phelan Lewis',
     date: 'March 24, 2026',
     dateISO: '2026-03-24',
@@ -79,7 +93,7 @@ const blogPosts = [
     slug: 'seo-and-analytics-coaching-for-marketers',
     title: 'SEO and Analytics Coaching for Marketers — What to Look For and How It Works',
     excerpt: 'Most marketing training gives you theory. SEO and analytics coaching works differently — you bring your real website, your real data, and your real questions, and leave with a clear plan. Here is what good coaching looks like and how to find the right fit for your team.',
-    category: 'SEO',
+    category: 'Coaching',
     author: 'Pip Seymour',
     date: 'March 24, 2026',
     dateISO: '2026-03-24',
