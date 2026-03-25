@@ -32,13 +32,13 @@ export default function Navbar() {
 
   const desktopNavLinks = [
     { label: 'Blog', href: '/blog' },
-    { label: 'Pricing', href: '/pricing' },
+    { label: 'Live Coaching', href: '/pricing' },
     { label: 'Community', href: '/community' },
   ];
 
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
-    { label: 'Pricing', href: '/pricing' },
+    { label: 'Live Coaching', href: '/pricing' },
     { label: 'Community', href: '/community' },
     { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },

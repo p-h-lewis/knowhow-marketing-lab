@@ -55,6 +55,7 @@ const PostGa4ExplainedForBusinessOwners = lazy(() => import('./pages/blog/PostGa
 const PostAiSeoCourse = lazy(() => import('./pages/blog/PostAiSeoCourse'));
 const PostGoogleAdsFramework = lazy(() => import('./pages/blog/PostGoogleAdsFramework'));
 const PostSEOAnalyticsCoachingForMarketers = lazy(() => import('./pages/blog/PostSEOAnalyticsCoachingForMarketers'));
+const PostGoogleAdsCoachingForMarketers = lazy(() => import('./pages/blog/PostGoogleAdsCoachingForMarketers'));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -120,6 +121,8 @@ function Router() {
         <Route path="/blog/google-ads-framework/" component={PostGoogleAdsFramework} />
         <Route path="/blog/seo-and-analytics-coaching-for-marketers" component={PostSEOAnalyticsCoachingForMarketers} />
         <Route path="/blog/seo-and-analytics-coaching-for-marketers/" component={PostSEOAnalyticsCoachingForMarketers} />
+        <Route path="/blog/google-ads-coaching-for-marketers" component={PostGoogleAdsCoachingForMarketers} />
+        <Route path="/blog/google-ads-coaching-for-marketers/" component={PostGoogleAdsCoachingForMarketers} />
 
         {/* Catch-all for /blog/:slug - must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />

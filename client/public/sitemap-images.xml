@@ -102,6 +102,16 @@
     </image:image>
   </url>
 
+  <!-- Blog Post: Google Ads Coaching for Marketers -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/google-ads-coaching-for-marketers</loc>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&amp;q=80</image:loc>
+      <image:title>Google Ads Coaching for Marketers — What to Look For and How It Works</image:title>
+      <image:caption>Marketer reviewing Google Ads performance data on a dashboard during a coaching session. From the KnowHow Marketing Lab guide to Google Ads coaching for marketers.</image:caption>
+    </image:image>
+  </url>
+
   <!-- Framework Page -->
   <url>
     <loc>https://knowhowmarketinglab.com/framework</loc>

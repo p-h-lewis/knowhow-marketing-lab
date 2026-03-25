@@ -78,8 +78,8 @@ export default function Pricing() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   useSEO({
-    title: "Pricing - AI + SEO Course & The Lab | KnowHow Marketing Lab",
-    description: "Join The Lab for $29/month — weekly live Q&A, monthly Google Ads training, AI marketing course, and a private community of marketers.",
+    title: "Live Coaching for Marketers — SEO, Google Ads & Analytics | KnowHow Marketing Lab",
+    description: "Join The Lab for $29/month — live weekly coaching sessions on your real website and ads every Thursday, monthly Google Ads training, AI SEO course, and a private community.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });
@@ -182,8 +182,12 @@ export default function Pricing() {
               Try The Lab Free for 7 Days.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  The Lab gives you Thursday sessions where Pip &amp; Phelan work through your real campaigns live, full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
+                  The Lab gives you live weekly coaching sessions where Pip &amp; Phelan work through your real campaigns, ads, and website every Thursday. Plus full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
             </p>
+            <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1">
+              <a href="/blog/seo-and-analytics-coaching-for-marketers" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>What is SEO &amp; analytics coaching? →</a>
+              <a href="/blog/google-ads-coaching-for-marketers" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>What is Google Ads coaching? →</a>
+            </div>
             <div className="mt-6">
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"

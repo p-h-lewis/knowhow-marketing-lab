@@ -60,7 +60,21 @@ const blogPosts = [
     imageAlt: 'Google Ads framework - 5 phases to building profitable Google Ads campaigns for medium-sized businesses',
     externalUrl: null,
   },
-  //  NEW COACHING POST 
+  //  COACHING POSTS 
+  {
+    slug: 'google-ads-coaching-for-marketers',
+    title: 'Google Ads Coaching for Marketers — What to Look For and How It Works',
+    excerpt: 'Running Google Ads without knowing what you’re doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching gives you expert feedback on your real campaigns — not a textbook example, your actual account. Here is what good coaching looks like.',
+    category: 'Google Ads',
+    author: 'Phelan Lewis',
+    date: 'March 24, 2026',
+    dateISO: '2026-03-24',
+    readTime: '8 min read',
+    isPillar: false,
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    imageAlt: 'Marketer reviewing Google Ads performance data on a dashboard during a coaching session',
+    externalUrl: null,
+  },
   {
     slug: 'seo-and-analytics-coaching-for-marketers',
     title: 'SEO and Analytics Coaching for Marketers — What to Look For and How It Works',
