@@ -4,7 +4,7 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one, and you get a steady stream of profitable customers. Pick the wrong one, and you burn through your budget with nothing to show for it.</p>
+const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can feel like navigating a minefield. Pick the right one, and you get a steady stream of profitable customers. Pick the wrong one, and you burn through your budget with nothing to show for it. (Not sure which campaign type to run yet? Start here: <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">The Ultimate Guide to Google Ads Campaign Types</a>.)</p>
 
 <p>As of 2026, Google’s AI has become so powerful that the debate between manual and automated bidding has fundamentally changed. This guide will break down every bidding strategy available today, show you which ones to use, and give you a clear framework for making the right choice.</p>
 
