@@ -92,6 +92,26 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 
 <p>For advertisers in 2026, the path is clear: start with a simpler strategy to gather data, then graduate to a conversion-based Smart Bidding strategy as soon as you have enough data. Trusting Google’s AI is no longer a leap of faith; it’s a strategic necessity for staying competitive and profitable.</p>
 
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+<h3 class="wp-block-heading">What is the best Google Ads bidding strategy for beginners?</h3>
+<p>If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximize Clicks. These give you control while you gather data. Once you hit 15–20 conversions per month, switch to Maximize Conversions and let Google’s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes.</p>
+
+<h3 class="wp-block-heading">What is the difference between Target CPA and Target ROAS?</h3>
+<p>Target CPA (Cost Per Acquisition) tells Google: “Get me as many conversions as possible, but keep the cost per conversion at or below this number.” Target ROAS (Return On Ad Spend) tells Google: “For every dollar I spend, I want to make back this much in revenue.” Use Target CPA for lead generation. Use Target ROAS for e-commerce where different products have different values.</p>
+
+<h3 class="wp-block-heading">How long does Smart Bidding take to work?</h3>
+<p>Smart Bidding goes through a “learning phase” that typically lasts 1–2 weeks after you switch strategies or make a significant change. During this time, performance may dip. Google recommends giving the algorithm at least 2–3 weeks and 50+ conversions before judging results. Avoid making big changes during the learning phase, as it resets the clock.</p>
+
+<h3 class="wp-block-heading">Should I use Manual CPC or Smart Bidding in 2026?</h3>
+<p>For most advertisers in 2026, Smart Bidding is the better choice once you have conversion data. Google’s AI now processes thousands of real-time signals (device, location, time of day, audience behaviour) that no human can manually replicate. Manual CPC still has a place for brand new campaigns with no conversion history, or for very niche situations where you need tight control over specific keywords.</p>
+
+<h3 class="wp-block-heading">Can I use bid adjustments with Smart Bidding?</h3>
+<p>Mostly no. If you are using a conversion-based Smart Bidding strategy like Target CPA or Target ROAS, manual bid adjustments for device, location, or audience are ignored — the AI is already factoring those signals in. The one exception is a -100% device bid adjustment, which you can use to completely exclude your ads from a specific device type (for example, tablets).</p>
+
+<h3 class="wp-block-heading">What is Smart Bidding Exploration?</h3>
+<p>Smart Bidding Exploration is a newer Google Ads feature that lets you set flexible ROAS targets to help the AI find new pockets of traffic it would normally skip. Early data shows a 19% average increase in conversions. It is worth testing if you are already on Target ROAS and want to scale without sacrificing profitability.</p>
+
 <h3 class="wp-block-heading" id="h-references">References</h3>
 
 <ol class="wp-block-list">
@@ -192,7 +212,22 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
       ]
     });
     document.head.appendChild(breadcrumbScript);
-    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); };
+    const faqScript = document.createElement('script');
+    faqScript.type = 'application/ld+json';
+    faqScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is the best Google Ads bidding strategy for beginners?", "acceptedAnswer": { "@type": "Answer", "text": "If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximize Clicks. Once you hit 15\u201320 conversions per month, switch to Maximize Conversions and let Google\u2019s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes." } },
+        { "@type": "Question", "name": "What is the difference between Target CPA and Target ROAS?", "acceptedAnswer": { "@type": "Answer", "text": "Target CPA tells Google to get as many conversions as possible at or below a set cost per conversion. Target ROAS tells Google to return a specific amount of revenue for every dollar spent. Use Target CPA for lead generation and Target ROAS for e-commerce where products have different values." } },
+        { "@type": "Question", "name": "How long does Smart Bidding take to work?", "acceptedAnswer": { "@type": "Answer", "text": "Smart Bidding goes through a learning phase that typically lasts 1\u20132 weeks. Google recommends giving the algorithm at least 2\u20133 weeks and 50+ conversions before judging results. Avoid making big changes during the learning phase, as it resets the clock." } },
+        { "@type": "Question", "name": "Should I use Manual CPC or Smart Bidding in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "For most advertisers in 2026, Smart Bidding is the better choice once you have conversion data. Manual CPC still has a place for brand new campaigns with no conversion history, or for very niche situations where you need tight control over specific keywords." } },
+        { "@type": "Question", "name": "Can I use bid adjustments with Smart Bidding?", "acceptedAnswer": { "@type": "Answer", "text": "Mostly no. If you are using Target CPA or Target ROAS, manual bid adjustments for device, location, or audience are ignored \u2014 the AI is already factoring those signals in. The one exception is a -100% device bid adjustment to completely exclude a device type." } },
+        { "@type": "Question", "name": "What is Smart Bidding Exploration?", "acceptedAnswer": { "@type": "Answer", "text": "Smart Bidding Exploration lets you set flexible ROAS targets to help the AI find new pockets of traffic it would normally skip. Early data shows a 19% average increase in conversions. It is worth testing if you are already on Target ROAS and want to scale without sacrificing profitability." } }
+      ]
+    });
+    document.head.appendChild(faqScript);
+    return () => { document.head.removeChild(script); document.head.removeChild(breadcrumbScript); document.head.removeChild(faqScript); };
   }, []);
 
   return (

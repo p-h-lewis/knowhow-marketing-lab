@@ -60,6 +60,21 @@ const blogPosts = [
     imageAlt: 'Google Ads framework - 5 phases to building profitable Google Ads campaigns for medium-sized businesses',
     externalUrl: null,
   },
+  //  NEW COACHING POST 
+  {
+    slug: 'seo-and-analytics-coaching-for-marketers',
+    title: 'SEO and Analytics Coaching for Marketers — What to Look For and How It Works',
+    excerpt: 'Most marketing training gives you theory. SEO and analytics coaching works differently — you bring your real website, your real data, and your real questions, and leave with a clear plan. Here is what good coaching looks like and how to find the right fit for your team.',
+    category: 'SEO',
+    author: 'Pip Seymour',
+    date: 'March 24, 2026',
+    dateISO: '2026-03-24',
+    readTime: '7 min read',
+    isPillar: false,
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+    imageAlt: 'Marketing team in a coaching session reviewing SEO and analytics data on a laptop',
+    externalUrl: null,
+  },
   //  CLUSTER POSTS (supporting the pillar) 
   {
     slug: 'how-to-set-up-google-search-console',

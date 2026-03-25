@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-bidding-strategies</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -163,6 +163,14 @@
   <url>
     <loc>https://knowhowmarketinglab.com/trial</loc>
     <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- New posts - March 24, 2026 -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/seo-and-analytics-coaching-for-marketers</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
