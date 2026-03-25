@@ -281,6 +281,73 @@ export default function Home() {
           <LeadCaptureSection />
         </Suspense>
 
+        {/* ── LIVE COACHING SECTION ── */}
+        <section className="py-20 bg-white border-t border-gray-100" aria-labelledby="coaching-section-heading">
+          <div className="container max-w-5xl">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Left: copy */}
+              <div>
+                <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#E98C28] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live Coaching</span>
+                <h2 id="coaching-section-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                  Get expert eyes on your real campaigns — every week
+                </h2>
+                <p className="text-gray-600 text-lg mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  Every Thursday at 12pm Pacific, Pip and Phelan review real websites and Google Ads accounts live. You bring your actual data. We tell you exactly what to fix and why. No slides. No theory. Just practical help on your specific situation.
+                </p>
+                <ul className="space-y-3 mb-8">
+                  {[
+                    { icon: '✓', text: 'Live SEO and Google Ads account reviews every Thursday' },
+                    { icon: '✓', text: 'Ask questions about your specific campaigns and website' },
+                    { icon: '✓', text: 'Access to all session recordings and course materials' },
+                    { icon: '✓', text: '$29/month — founding member rate, cancel anytime' },
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/10 text-[#E98C28] text-xs font-bold flex items-center justify-center">{item.icon}</span>
+                      <span className="text-gray-700 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item.text}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link href="/pricing" className="inline-block bg-[#E98C28] text-white font-bold px-7 py-3 rounded-full hover:bg-[#d47d20] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                    Join The Lab — $29/mo →
+                  </Link>
+                  <Link href="/blog/seo-and-analytics-coaching-for-marketers" className="inline-block border border-gray-300 text-gray-700 font-semibold px-7 py-3 rounded-full hover:border-[#318599] hover:text-[#318599] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                    What coaching looks like
+                  </Link>
+                </div>
+              </div>
+              {/* Right: coaching cards */}
+              <div className="grid grid-cols-1 gap-4">
+                {[
+                  {
+                    color: '#318599',
+                    label: 'SEO & Analytics',
+                    title: 'SEO Coaching',
+                    desc: 'Bring your Google Search Console data, your content, and your questions. Pip will show you what is working, what is not, and what to do next.',
+                    href: '/blog/seo-and-analytics-coaching-for-marketers',
+                  },
+                  {
+                    color: '#E98C28',
+                    label: 'Google Ads',
+                    title: 'Google Ads Coaching',
+                    desc: 'Share your Google Ads account and Phelan will review your campaigns live — bidding strategy, campaign structure, conversion tracking, and budget allocation.',
+                    href: '/blog/google-ads-coaching-for-marketers',
+                  },
+                ].map((card, i) => (
+                  <Link key={i} href={card.href} className="block p-6 rounded-2xl border border-gray-200 hover:border-gray-300 hover:shadow-md transition-all group bg-white">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: card.color }} />
+                      <span className="text-xs font-bold uppercase tracking-wider" style={{ color: card.color, fontFamily: 'Space Grotesk, sans-serif' }}>{card.label}</span>
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#318599] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{card.title}</h3>
+                    <p className="text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>{card.desc}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Featured Blog Posts - internal links to top-ranking posts for SEO link juice */}
         <section className="py-16 bg-gray-50 border-t border-gray-100" aria-labelledby="blog-posts-heading">
           <div className="container max-w-5xl">

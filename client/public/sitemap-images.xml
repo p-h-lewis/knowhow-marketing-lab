@@ -102,6 +102,16 @@
     </image:image>
   </url>
 
+  <!-- Blog Post: SEO Coaching for Small Business -->
+  <url>
+    <loc>https://knowhowmarketinglab.com/blog/seo-coaching-for-small-business</loc>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&amp;q=80</image:loc>
+      <image:title>SEO Coaching for Small Business — What It Looks Like and How to Get Started</image:title>
+      <image:caption>Small business owner reviewing their website SEO data on a laptop with Google Search Console open. From the KnowHow Marketing Lab guide to SEO coaching for small businesses.</image:caption>
+    </image:image>
+  </url>
+
   <!-- Blog Post: Google Ads Coaching for Small Business -->
   <url>
     <loc>https://knowhowmarketinglab.com/blog/google-ads-coaching-for-small-business</loc>

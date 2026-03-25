@@ -62,6 +62,20 @@ const blogPosts = [
   },
   //  COACHING POSTS 
   {
+    slug: 'seo-coaching-for-small-business',
+    title: 'SEO Coaching for Small Business — What It Looks Like and How to Get Started',
+    excerpt: 'SEO can feel overwhelming for a small business. Coaching means someone looks at your actual website and tells you specifically what to fix — instead of working through generic advice on your own. Here is what SEO coaching looks like and how to get the most out of it.',
+    category: 'Coaching',
+    author: 'Pip Seymour',
+    date: 'March 24, 2026',
+    dateISO: '2026-03-24',
+    readTime: '7 min read',
+    isPillar: false,
+    image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80',
+    imageAlt: 'Small business owner reviewing their website SEO data on a laptop with Google Search Console open',
+    externalUrl: null,
+  },
+  {
     slug: 'google-ads-coaching-for-small-business',
     title: 'Google Ads Coaching for Small Business — What It Costs and How to Get Results',
     excerpt: 'Google Ads can work really well for small businesses — but it can also drain your budget fast if you don’t know what you’re doing. This post explains what coaching looks like, what it costs, and the highest-priority fixes for small business accounts.',
