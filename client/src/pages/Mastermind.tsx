@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
 
-const DISCOVERY_CALL_URL = 'https://knowhowmarketinglab.com/book-discovery-call'; // Replace with GHL calendar link
+const DISCOVERY_CALL_URL = 'https://crm.seymourdigitalmedia.com/widget/booking/6AuyeLl8HIzgz285Vfca';
 const LAB_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const COHORT_START = 'May 12, 2026';
