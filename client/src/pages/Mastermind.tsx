@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab – AI Marketing Accelerator Mastermind Page (/mastermind)
 // Design: Brand colors #E98C28 (amber) | #318599 (teal) | #4F37D8 (indigo)
 // Fonts: Space Grotesk (headings) | DM Sans (body)
-// Purpose: Sales page for the 8-seat, 8-week, $2,000/seat AI Marketing Accelerator Mastermind
+// Purpose: Sales page for the 8-seat, 6-week, $2,000/seat AI Marketing Accelerator Mastermind
 // CTA: Book a discovery call (GHL calendar — placeholder until calendar is set up)
 // Urgency: Only 8 spots, cohort starts May 12 2026
 
@@ -70,7 +70,7 @@ const curriculum = [
 ];
 
 const included = [
-  { icon: '🎯', title: '8 live 90-min group sessions', desc: 'Every week for 8 weeks — small group, high-touch. Your real accounts reviewed live.' },
+  { icon: '🎯', title: '6 live 90-min group sessions', desc: 'Every Wednesday for 6 weeks — small group, high-touch. Your real accounts reviewed live.' },
   { icon: '💬', title: 'Private async support', desc: 'Ask questions between sessions in the private GHL community. Get answers within 24 hours.' },
   { icon: '📊', title: 'Live account reviews', desc: 'Bring your actual GA4, GSC, and Google Ads data. We work on your specific situation, not hypotheticals.' },
   { icon: '🤖', title: 'AI tools and frameworks', desc: 'Every session includes hands-on AI implementation — ChatGPT, Claude, Manus, and custom agents.' },
@@ -85,11 +85,11 @@ const faqs = [
   },
   {
     q: 'What is the difference between the Mastermind and The Lab membership?',
-    a: 'The Lab ($29/month) is where you learn — weekly live Q&A, course content, and community. The Mastermind ($2,000) is where you implement. It is a small-group, 8-week intensive where we work directly on your accounts and campaigns. The Mastermind is the fast track; The Lab is the ongoing support structure.',
+    a: 'The Lab ($29/month) is where you learn — weekly live Q&A, course content, and community. The Mastermind ($2,000) is where you implement. It is a small-group, 6-week intensive where we work directly on your accounts and campaigns. The Mastermind is the fast track; The Lab is the ongoing support structure.',
   },
   {
-    q: 'What happens after the 8 weeks?',
-    a: 'You keep lifetime access to the alumni community. Many Mastermind graduates transition into The Lab membership for ongoing weekly coaching. You will also have a personal 90-day marketing roadmap built in Week 8 to keep you on track.',
+    q: 'What happens after the 6 weeks?',
+    a: 'You keep lifetime access to the alumni community. Many Mastermind graduates transition into The Lab membership for ongoing weekly coaching. You will also have a personal marketing roadmap built in Week 6 to keep you on track.',
   },
   {
     q: 'How many people are in the group?',
@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     q: 'When does the cohort start and what are the session times?',
-    a: `The first cohort starts ${COHORT_START}. Sessions run weekly on Thursdays at 12pm Pacific / 3pm Eastern / 8pm UK. All sessions are recorded and available to cohort members within 24 hours.`,
+    a: `The first cohort starts ${COHORT_START}. Sessions run weekly on Wednesdays at 10am Pacific / 1pm Eastern / 6pm UK, running for 90 minutes. All sessions are recorded and available to cohort members within 24 hours.`,
   },
 ];
 
@@ -116,8 +116,8 @@ export default function Mastermind() {
   }, []);
 
   useSEO({
-    title: 'AI Marketing Accelerator Mastermind — 8 Seats, 8 Weeks | KnowHow Marketing Lab',
-    description: `Small-group intensive for marketers who want real results. 8 seats, 8 weeks, $2,000. Live account reviews, AI tools, Google Ads, SEO, and GA4. Cohort starts ${COHORT_START}.`,
+    title: 'AI Marketing Accelerator Mastermind — 8 Seats, 6 Weeks | KnowHow Marketing Lab',
+    description: `Small-group intensive for marketers who want real results. 8 seats, 6 weeks, $2,000. Live account reviews, AI tools, Google Ads, SEO, and GA4. Cohort starts ${COHORT_START}.`,
     canonical: 'https://knowhowmarketinglab.com/mastermind',
     ogType: 'website',
   });
@@ -132,7 +132,7 @@ export default function Mastermind() {
             '@context': 'https://schema.org',
             '@type': 'Course',
             'name': 'AI Marketing Accelerator Mastermind',
-            'description': `An 8-week small-group intensive for marketers. Live account reviews, AI tools, Google Ads, SEO, GA4, and a personal 90-day roadmap. Cohort starts ${COHORT_START}.`,
+            'description': `A 6-week small-group intensive for marketers. Live account reviews, AI tools, Google Ads, SEO, GA4, and a personal marketing roadmap. Cohort starts ${COHORT_START}.`,
             'provider': {
               '@type': 'Organization',
               'name': 'KnowHow Marketing Lab',
@@ -217,7 +217,7 @@ export default function Mastermind() {
                 Mastermind
               </h1>
               <p className="text-white/70 text-lg mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                An 8-week small-group intensive for marketers who are done watching tutorials and ready to implement. We work on your real accounts — live, every week — until your campaigns and content are actually performing.
+                A 6-week small-group intensive for marketers who are done watching tutorials and ready to implement. We work on your real accounts — live, every Wednesday — until your campaigns and content are actually performing.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
@@ -254,7 +254,7 @@ export default function Mastermind() {
               </div>
               <div className="mt-6 pt-6 border-t border-white/10">
                 <p className="text-white/60 text-sm text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Thursdays · 12pm Pacific · 3pm Eastern · 8pm UK
+                  Wednesdays · 10–11:30am Pacific · 1–2:30pm Eastern · 6–7:30pm UK
                 </p>
               </div>
             </div>
@@ -292,7 +292,7 @@ export default function Mastermind() {
                   'You have never run a Google Ads campaign or published a piece of content',
                   'You want someone else to manage your marketing for you',
                   'You are not willing to share your actual account data in a small group setting',
-                  'You cannot commit to 90 minutes per week for 8 weeks',
+                  'You cannot commit to 90 minutes per week for 6 weeks',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/10 text-[#E98C28] text-xs font-bold flex items-center justify-center">✗</span>
@@ -328,7 +328,7 @@ export default function Mastermind() {
       <section id="curriculum" className="py-16 bg-gray-50 border-b border-gray-100">
         <div className="container max-w-5xl">
           <div className="text-center mb-12">
-            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#E98C28] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>8-week programme</span>
+            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#E98C28] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>6-week programme</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The curriculum</h2>
             <p className="text-gray-600 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>Each session is 90 minutes. The first 30 minutes covers the week's topic. The remaining 60 minutes is live account reviews — your real data, your real questions.</p>
           </div>
@@ -371,13 +371,13 @@ export default function Mastermind() {
               </thead>
               <tbody>
                 {[
-                  ['Weekly live sessions', '✓ Thursday Q&A', '✓ 90-min intensive'],
+                  ['Weekly live sessions', '✓ Thursday Q&A', '✓ 90-min Wednesday intensive'],
                   ['Group size', 'Open community', 'Max 8 people'],
                   ['Live account reviews', 'Occasional', '✓ Every session'],
                   ['AI tools training', '✓ Course content', '✓ Hands-on implementation'],
-                  ['Personal roadmap', '—', '✓ Built in Week 8'],
+                  ['Personal roadmap', '—', '✓ Built in Week 6'],
                   ['Async support', '✓ Community', '✓ Private channel'],
-                  ['Duration', 'Ongoing monthly', '8 weeks intensive'],
+                  ['Duration', 'Ongoing monthly', '6 weeks intensive'],
                   ['Alumni access', '—', '✓ Lifetime'],
                 ].map(([feature, lab, mm], i) => (
                   <tr key={i} className={`border-b border-gray-100 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}`}>
@@ -409,7 +409,7 @@ export default function Mastermind() {
                 name: 'Pip Seymour',
                 role: 'SEO, Analytics & AI Strategy',
                 company: 'Seymour Digital Media',
-                bio: 'Pip has spent over a decade helping businesses grow through data-driven SEO and analytics. She specialises in GA4, Google Search Console, and using AI to build content strategies that actually rank. She runs the Thursday coaching sessions and leads the SEO and analytics weeks of the Mastermind.',
+                bio: 'Pip has spent over a decade helping businesses grow through data-driven SEO and analytics. She specialises in GA4, Google Search Console, and using AI to build content strategies that actually rank. She runs the Thursday Lab sessions and leads the SEO and analytics weeks of the Mastermind.',
                 color: '#318599',
                 initials: 'PS',
               },
@@ -500,7 +500,7 @@ export default function Mastermind() {
             </Link>
           </div>
           <p className="text-white/40 text-xs mt-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Cohort starts {COHORT_START} · Thursdays 12pm Pacific · Max 8 seats
+            Cohort starts {COHORT_START} · Wednesdays 10–11:30am Pacific · Max 8 seats
           </p>
         </div>
       </section>
