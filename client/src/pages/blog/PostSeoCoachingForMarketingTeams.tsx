@@ -157,7 +157,7 @@ export default function PostSeoCoachingForMarketingTeams() {
             <blockquote>
               <strong>Definition:</strong> SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your team to build a shared strategy, review real performance data together, and develop the skills to execute SEO independently, without relying on an external agency.
             </blockquote>
-            <p>When only one person on a marketing team understands the SEO strategy, that strategy dies the moment that person leaves or gets pulled onto another project. Team coaching solves this by building shared understanding, everyone knows what the strategy is, why it works, and what their role is in executing it.</p>
+            <p>We have worked with marketing teams where one person owned the entire SEO strategy. Then that person went on leave. Or moved to a new role. Or just got pulled onto something urgent for three months. And the SEO work stopped completely. Not because the strategy was bad. Because it lived in one person's head. Team coaching fixes that.</p>
             <p>Team coaching also addresses the organisational challenges that individual coaching doesn't. How do you prioritise SEO work alongside paid media, social, and email? How do you get leadership buy-in for a 6-month content strategy? How do you build a content process that doesn't depend on one person? These are team problems, not individual ones.</p>
 
             <h2 id="three-mistakes">The 3 Things Teams Get Wrong Without Coaching</h2>

@@ -118,7 +118,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
           </h1>
 
           <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Choosing the wrong campaign type is the single most common reason Google Ads campaigns fail. This guide covers all 7 campaign types in 2026, what's changed, and exactly when to use each one.
+            Phelan sees it constantly: businesses spending $2,000 a month on Google Ads with the wrong campaign type selected. Not because they didn't read the instructions. Because Google's own interface makes it very easy to pick the wrong one. This guide cuts through that.
           </p>
 
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
@@ -154,7 +154,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
           <div className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
 
             <h2 id="whats-new">What's New in Google Ads Campaign Types for 2026</h2>
-            <p>Three significant changes have happened since 2025 that affect how you should choose and set up campaigns:</p>
+            <p>Three things changed in 2025 that affect every Google Ads account. If you haven't reviewed your campaign setup since then, it is worth doing that now.</p>
             <ul>
               <li><strong>Performance Max now has brand controls.</strong> You can now exclude your own brand terms from PMax campaigns, which was a major complaint from advertisers. This makes PMax much more useful for businesses that also run branded Search campaigns.</li>
               <li><strong>Demand Gen has expanded significantly.</strong> Demand Gen now includes YouTube Shorts placements and improved audience targeting based on Google's AI. It has become a serious option for top-of-funnel campaigns that previously required separate YouTube and Discovery campaigns.</li>

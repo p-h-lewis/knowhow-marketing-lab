@@ -159,7 +159,7 @@ export default function PostGoogleAdsCoaching() {
             <blockquote>
               <strong>Definition:</strong> Google Ads coaching is a live session where an experienced specialist reviews your real Google Ads account and gives you specific, actionable feedback on what to fix. It is not a course, not a webinar, and not a generic checklist, it is expert eyes on your actual campaigns.
             </blockquote>
-            <p>Think of it this way. A course teaches you how to drive. Coaching is someone sitting in the passenger seat while you drive your actual car on your actual roads, telling you what to watch out for. The principles are the same. The difference is that coaching applies them to your situation.</p>
+            <p>Phelan has been reviewing Google Ads accounts for over 15 years. And the thing he sees most often, in brand new accounts and in accounts that have been running for years, is money being wasted quietly in the background. Not because the person running the ads is doing a bad job. Because nobody ever showed them what to look for. That is what coaching fixes.</p>
             <p>In our experience, most accounts have at least one issue that has been quietly wasting budget for months. Sometimes it is a conversion tracking problem. Sometimes it is the wrong campaign type. Sometimes it is a negative keyword list that was never built. A single session usually finds it.</p>
 
             <h2 id="three-mistakes">The 3 Biggest Mistakes People Make Without Coaching</h2>

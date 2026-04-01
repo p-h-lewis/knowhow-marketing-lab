@@ -154,8 +154,8 @@ export default function PostFreeDataDrivenSeoCourse() {
           <div className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
 
             <h2 id="why-courses-fail">Why Most Free SEO Courses Fail You</h2>
-            <p>The problem with most free SEO courses is not the quality of the information. It is that they teach tactics without context. You learn how to write a title tag. How to build a backlink. How to do keyword research. But you never learn how to look at your own Google Search Console data and decide which of those things to do first, for your specific website, right now.</p>
-            <p>So people finish the course, try a few things, don’t see results in 30 days, and give up. We hear this all the time. The issue is never the tactics. The issue is not having a clear process for deciding what to do with your specific website.</p>
+            <p>Pip built this course because she kept seeing the same thing: people who had done SEO courses, read the blogs, watched the videos, and still had no idea what to actually do with their own website. Not because the information was bad. Because nobody had ever shown them how to look at their own data and make a decision from it.</p>
+            <p>So people finish the course, try a few things, don't see results in 30 days, and give up. We hear this all the time. The issue is never the tactics. The issue is not having a clear process for deciding what to do with your specific website.</p>
 
             <h2 id="what-data-driven-means">What Data-Driven SEO Actually Means</h2>
             <blockquote>

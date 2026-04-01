@@ -118,7 +118,7 @@ export default function PostGoogleAdsForSmallBusiness() {
           </h1>
 
           <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Small businesses waste more money on Google Ads than any other type of advertiser, not because the platform doesn't work, but because nobody taught them the three things that actually matter. This guide fixes that.
+            Phelan has reviewed hundreds of small business Google Ads accounts. The same three problems show up every time. They are not complicated. But they are responsible for most of the wasted spend. Here is what they are and how to fix them.
           </p>
 
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
@@ -155,7 +155,7 @@ export default function PostGoogleAdsForSmallBusiness() {
           <div className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
 
             <h2 id="three-mistakes">The 3 Reasons Small Businesses Waste Money on Google Ads</h2>
-            <p>In coaching sessions, we see the same three problems over and over. They are not complicated, but they are responsible for the vast majority of wasted Google Ads spend at small businesses.</p>
+            <p>We have seen $500 a month accounts and $10,000 a month accounts with the exact same problems. Budget size doesn't protect you from these mistakes. But knowing what to look for does.</p>
             <h3>1. No conversion tracking</h3>
             <p>If you don't have conversion tracking set up, you are flying blind. You can see how many clicks you are getting, but you have no idea which clicks are turning into leads or sales. Without this data, you cannot optimise your campaign, you are just spending money and hoping for the best. Setting up conversion tracking in Google Ads and Google Tag Manager is the single most important thing you can do before running any campaign.</p>
             <h3>2. Too broad keyword matching</h3>
