@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - App Root
 // Light theme, conversion-optimized routing
 // Code-split with React.lazy: each page loads only when visited
-// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
+// Routes: / | /blog | /blog/:slug | /framework | /pricing | /mastermind | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
 
 import { lazy, Suspense, useState, useEffect } from "react";
 import { Route, Switch, Redirect } from "wouter";
@@ -58,6 +58,7 @@ const PostSEOAnalyticsCoachingForMarketers = lazy(() => import('./pages/blog/Pos
 const PostGoogleAdsCoachingForMarketers = lazy(() => import('./pages/blog/PostGoogleAdsCoachingForMarketers'));
 const PostGoogleAdsCoachingSmallBusiness = lazy(() => import('./pages/blog/PostGoogleAdsCoachingSmallBusiness'));
 const PostSEOCoachingSmallBusiness = lazy(() => import('./pages/blog/PostSEOCoachingSmallBusiness'));
+const Mastermind = lazy(() => import('./pages/Mastermind'));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -86,6 +87,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/pricing" component={Pricing} />
+        <Route path="/mastermind" component={Mastermind} />
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />

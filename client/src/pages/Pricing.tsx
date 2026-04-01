@@ -168,8 +168,30 @@ export default function Pricing() {
 
       <main id="main-content">
 
+        {/* Mastermind callout banner */}
+        <div className="pt-20 bg-[#1a1a2e]">
+          <div className="container max-w-4xl py-4">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 rounded-2xl border border-[#E98C28]/30 bg-[#E98C28]/5">
+              <div className="text-center sm:text-left">
+                <div className="flex items-center justify-center sm:justify-start gap-1.5 mb-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New — 5 of 8 seats remaining · Starts May 12</span>
+                </div>
+                <p className="text-white font-semibold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want more than weekly coaching? The AI Marketing Accelerator Mastermind is an 8-week intensive — $2,000, live account reviews every session.</p>
+              </div>
+              <a
+                href="/mastermind"
+                className="flex-shrink-0 inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-200 shadow-md whitespace-nowrap"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              >
+                See the Mastermind →
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Hero */}
-        <section className="pt-32 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
+        <section className="pt-12 pb-12 bg-gray-50" aria-labelledby="pricing-heading">
           <div className="container text-center max-w-2xl">
             <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               7-Day Free Trial · Then $29/mo

@@ -620,6 +620,29 @@ export default function PowerHours() {
           </div>
         </section>
 
+        {/* Mastermind Callout — above the conversion strip */}
+        <section className="py-10 bg-[#1a1a2e]" aria-labelledby="power-hours-mastermind-heading">
+          <div className="container max-w-5xl">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6 p-6 rounded-2xl border border-[#E98C28]/30 bg-[#E98C28]/5">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Limited — 5 of 8 seats remaining · Starts May 12</span>
+                </div>
+                <h2 id="power-hours-mastermind-heading" className="text-xl font-extrabold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Ready to go from Power Hours to real results?</h2>
+                <p className="text-white/60 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>The AI Marketing Accelerator Mastermind is an 8-week small-group intensive — 8 seats, live account reviews every week, $2,000. End every Power Hour knowing exactly what to implement next.</p>
+              </div>
+              <Link
+                href="/mastermind"
+                className="flex-shrink-0 inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold rounded-xl py-3.5 px-7 text-sm transition-all duration-200 shadow-md whitespace-nowrap"
+                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              >
+                See the Mastermind →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Conversion Strip — The Lab primary, Facebook group secondary */}
         <section className="py-16 bg-[#1a3a4a]" aria-labelledby="power-hours-upgrade-heading">
           <div className="container">

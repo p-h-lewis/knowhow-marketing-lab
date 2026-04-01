@@ -307,13 +307,24 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-col sm:flex-row gap-3">
+                <div className="flex flex-col sm:flex-row gap-3 mb-4">
                   <Link href="/pricing" className="inline-block bg-[#E98C28] text-white font-bold px-7 py-3 rounded-full hover:bg-[#d47d20] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                     Join The Lab — $29/mo →
                   </Link>
                   <Link href="/blog/seo-and-analytics-coaching-for-marketers" className="inline-block border border-gray-300 text-gray-700 font-semibold px-7 py-3 rounded-full hover:border-[#318599] hover:text-[#318599] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                     What coaching looks like
                   </Link>
+                </div>
+                {/* Mastermind callout */}
+                <div className="mt-2 p-4 rounded-2xl border border-[#E98C28]/30 bg-[#E98C28]/5 flex items-center justify-between gap-4">
+                  <div>
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
+                      <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New — 5 seats left</span>
+                    </div>
+                    <p className="text-sm font-semibold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI Marketing Accelerator Mastermind — 8 weeks, $2,000</p>
+                  </div>
+                  <Link href="/mastermind" className="flex-shrink-0 text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See details →</Link>
                 </div>
               </div>
               {/* Right: coaching cards */}

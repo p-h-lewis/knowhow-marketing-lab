@@ -46,16 +46,18 @@ export default function Navbar() {
   }, []);
 
   const coachingDropdownLinks = [
-    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions — $29/mo' },
-    { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners' },
-    { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners' },
-    { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site' },
-    { label: 'Google Ads for Business', href: '/blog/google-ads-coaching-for-small-business', desc: 'Ads coaching for smaller budgets' },
+    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions — $29/mo', highlight: false },
+    { label: '🚀 Mastermind — 8 Seats Left', href: '/mastermind', desc: '8-week intensive · $2,000 · Starts May 12', highlight: true },
+    { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
+    { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
+    { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site', highlight: false },
+    { label: 'Google Ads for Business', href: '/blog/google-ads-coaching-for-small-business', desc: 'Ads coaching for smaller budgets', highlight: false },
   ];
 
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
     { label: 'Live Coaching', href: '/pricing' },
+    { label: '🚀 Mastermind — 8 Seats', href: '/mastermind', indent: true, highlight: true },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', indent: true },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', indent: true },
     { label: 'Community', href: '/community' },
@@ -146,10 +148,14 @@ export default function Navbar() {
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="flex flex-col px-4 py-2.5 hover:bg-amber-50 transition-colors group"
+                      className={`flex flex-col px-4 py-2.5 transition-colors group ${
+                        item.highlight
+                          ? 'bg-amber-50 border-l-2 border-[#E98C28] hover:bg-amber-100'
+                          : 'hover:bg-amber-50'
+                      }`}
                       role="menuitem"
                     >
-                      <span className="text-sm font-semibold text-gray-800 group-hover:text-[#E98C28] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+                      <span className={`text-sm font-semibold transition-colors ${item.highlight ? 'text-[#E98C28]' : 'text-gray-800 group-hover:text-[#E98C28]'}`} style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                         {item.label}
                       </span>
                       <span className="text-xs text-gray-400 mt-0.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -258,16 +264,18 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`font-semibold text-base py-3.5 rounded-xl hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100 transition-colors border-b border-gray-50 last:border-0 ${
-                  (link as any).indent
-                    ? 'text-gray-500 text-sm pl-6 pr-3'
-                    : 'text-gray-800 px-3'
+                className={`font-semibold text-base py-3.5 rounded-xl transition-colors border-b border-gray-50 last:border-0 ${
+                  (link as any).highlight
+                    ? 'text-[#E98C28] bg-amber-50 pl-6 pr-3 text-sm hover:bg-amber-100'
+                    : (link as any).indent
+                    ? 'text-gray-500 text-sm pl-6 pr-3 hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100'
+                    : 'text-gray-800 px-3 hover:bg-amber-50 hover:text-[#E98C28] active:bg-amber-100'
                 }`}
                 style={{ fontFamily: 'DM Sans, sans-serif', minHeight: '52px', display: 'flex', alignItems: 'center' }}
                 onClick={closeMobile}
               >
-                {(link as any).indent && (
-                  <span className="mr-2 text-[#318599]">›</span>
+                {((link as any).indent || (link as any).highlight) && (
+                  <span className={`mr-2 ${(link as any).highlight ? 'text-[#E98C28]' : 'text-[#318599]'}`}>›</span>
                 )}
                 {link.label}
               </Link>
