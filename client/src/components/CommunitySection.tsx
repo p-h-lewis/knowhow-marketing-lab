@@ -3,12 +3,12 @@
 // LLM signal: free Power Hours, Tuesday Zoom, The Lab, GoHighLevel, $29/mo, Thursday Q&A
 
 const labPerks = [
-  { icon: '🎯', title: 'Thursday Lab Sessions — Members Only', desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A.' },
+  { icon: '🎯', title: 'Thursday Lab Sessions, Members Only', desc: 'Every Thursday 12-1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A.' },
   { icon: '📚', title: 'Monthly Deep-Dive Training', desc: 'A full-length training each month on Google Ads, SEO audits, GA4, AI tools, and more. Recorded for on-demand replay.' },
   { icon: '📝', title: 'Homework & Worksheets', desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn.' },
-  { icon: '🤖', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use right away.' },
+  { icon: '🤖', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows, practical tools you can use right away.' },
   { icon: '💬', title: 'Private Community Group', desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel group.' },
-  { icon: '🎬', title: 'Full Course Library', desc: 'All recorded sessions, advanced modules, and exclusive content — available on-demand anytime.' },
+  { icon: '🎬', title: 'Full Course Library', desc: 'All recorded sessions, advanced modules, and exclusive content, available on-demand anytime.' },
 ];
 
 export default function CommunitySection() {
@@ -33,14 +33,14 @@ export default function CommunitySection() {
             Try it free. Upgrade when you're ready.
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Power Hours is free every Tuesday — live Q&amp;A on Zoom, no sign-up needed. The Lab is the paid upgrade where we review your real campaigns live every Thursday.
+            Power Hours is free every Tuesday, live Q&amp;A on Zoom, no sign-up needed. The Lab is the paid upgrade where we review your real campaigns live every Thursday.
           </p>
         </div>
 
         {/* Two-tier cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
 
-          {/* Free tier — simplified, directs to standalone Power Hours page */}
+          {/* Free tier, simplified, directs to standalone Power Hours page */}
           <div className="bg-gray-50 rounded-2xl border-2 border-gray-200 p-7 flex flex-col">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-[#318599]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
@@ -57,9 +57,9 @@ export default function CommunitySection() {
             <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card ever</p>
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
-                'Live Q&A every Tuesday 12–1pm PT on Zoom',
+                'Live Q&A every Tuesday 12-1pm PT on Zoom',
                 'Bring your real SEO, Google Ads, or AI questions',
-                'No sign-up, no credit card — just show up',
+                'No sign-up, no credit card, just show up',
                 'Website audits, campaign reviews, and more',
               ].map(f => (
                 <li key={f} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -110,7 +110,7 @@ export default function CommunitySection() {
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
                 'Everything in the free group, plus:',
-                'Thursday Lab sessions — hands-on help with your real campaigns',
+                'Thursday Lab sessions, hands-on help with your real campaigns',
                 'Monthly deep-dive training sessions',
                 'Full on-demand course library',
                 'Google Ads Mastery course',

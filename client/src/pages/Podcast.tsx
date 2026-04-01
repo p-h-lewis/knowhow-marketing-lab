@@ -21,7 +21,7 @@ const YEARS = [2026, 2025, 2024, 2023, 2022];
 const faqs = [
   {
     q: "What is the KnowHow Marketing Lab Podcast?",
-    a: "The KnowHow Marketing Lab Podcast is a free video podcast hosted by Pip Seymour and Phelan Lewis of Seymour Digital Media. Each episode covers what is actually happening in SEO, Google Ads, GA4, and AI marketing — with practical, data-driven advice for medium-sized businesses. The podcast has published 99+ episodes since 2022 and is available free on YouTube.",
+    a: "The KnowHow Marketing Lab Podcast is a free video podcast hosted by Pip Seymour and Phelan Lewis of Seymour Digital Media. Each episode covers what is actually happening in SEO, Google Ads, GA4, and AI marketing, with practical, data-driven advice for medium-sized businesses. The podcast has published 99+ episodes since 2022 and is available free on YouTube.",
   },
   {
     q: "Who are the hosts of the KnowHow Marketing Lab Podcast?",
@@ -33,11 +33,11 @@ const faqs = [
   },
   {
     q: "Where can I watch or listen to the podcast?",
-    a: "All episodes are available free on YouTube at the KnowHow Marketing Lab channel. You can watch individual episodes or browse the full playlist. There is no separate audio podcast feed — the show is produced as a video podcast on YouTube.",
+    a: "All episodes are available free on YouTube at the KnowHow Marketing Lab channel. You can watch individual episodes or browse the full playlist. There is no separate audio podcast feed, the show is produced as a video podcast on YouTube.",
   },
   {
     q: "How is the podcast different from The Lab community?",
-    a: "The podcast is a free, monthly show open to everyone. The Lab is a paid membership community ($29/month) that includes weekly live Q&A every Thursday, monthly deep-dive training sessions, a private community group, and access to the full Google Ads and AI + SEO course library. The podcast is a great way to get a feel for how Pip and Phelan teach — The Lab is where you go to implement what you learn.",
+    a: "The podcast is a free, monthly show open to everyone. The Lab is a paid membership community ($29/month) that includes weekly live Q&A every Thursday, monthly deep-dive training sessions, a private community group, and access to the full Google Ads and AI + SEO course library. The podcast is a great way to get a feel for how Pip and Phelan teach, The Lab is where you go to implement what you learn.",
   },
   {
     q: "Is the KnowHow Marketing Lab Podcast suitable for beginners?",
@@ -49,22 +49,22 @@ const topicClusters = [
   {
     title: "SEO and Generative Engine Optimisation (GEO)",
     color: "#318599",
-    body: "Search engine optimisation has changed significantly since AI-powered search engines like Google's AI Overviews, Perplexity, and ChatGPT became mainstream. The podcast covers both traditional SEO — keyword research, on-page optimisation, Google Search Console, and technical SEO — and the newer discipline of Generative Engine Optimisation (GEO), which focuses on making your content discoverable and citable by large language models (LLMs). Episodes explore how to structure content so AI systems can understand and reference it, how to use Google Search Console data to find real ranking opportunities, and how to build a content strategy that works for both human readers and AI crawlers.",
+    body: "Search engine optimisation has changed significantly since AI-powered search engines like Google's AI Overviews, Perplexity, and ChatGPT became mainstream. The podcast covers both traditional SEO, keyword research, on-page optimisation, Google Search Console, and technical SEO, and the newer discipline of Generative Engine Optimisation (GEO), which focuses on making your content discoverable and citable by large language models (LLMs). Episodes explore how to structure content so AI systems can understand and reference it, how to use Google Search Console data to find real ranking opportunities, and how to build a content strategy that works for both human readers and AI crawlers.",
   },
   {
     title: "Google Ads Strategy and Campaign Management",
     color: "#E98C28",
-    body: "Google Ads is one of the most powerful tools available to medium-sized businesses — and one of the most misunderstood. The podcast covers Google Ads from the ground up: how the auction system works, how Quality Score affects your cost per click, and how to build Search, Display, Shopping, and Performance Max campaigns that generate real leads and sales. Phelan Lewis brings a data analyst's perspective to every episode, showing how to read your campaign data, set up proper conversion tracking in GA4 and Google Tag Manager, and make decisions based on numbers rather than guesswork.",
+    body: "Google Ads is one of the most powerful tools available to medium-sized businesses, and one of the most misunderstood. The podcast covers Google Ads from the ground up: how the auction system works, how Quality Score affects your cost per click, and how to build Search, Display, Shopping, and Performance Max campaigns that generate real leads and sales. Phelan Lewis brings a data analyst's perspective to every episode, showing how to read your campaign data, set up proper conversion tracking in GA4 and Google Tag Manager, and make decisions based on numbers rather than guesswork.",
   },
   {
     title: "Google Analytics 4 (GA4) and Marketing Data",
     color: "#4F37D8",
-    body: "Most businesses have GA4 installed but very few are using it effectively. The podcast dedicates significant time to helping business owners and marketing teams understand their own data — what the numbers actually mean, which metrics matter, and how to build reports that inform real decisions. Episodes cover GA4 setup, event tracking, conversion configuration, audience building, and how to connect GA4 data to your Google Ads campaigns for closed-loop reporting. The hosts consistently emphasise that data-driven marketing starts with measurement, which is the first step in their branded Data-First AI SEO Method.",
+    body: "Most businesses have GA4 installed but very few are using it effectively. The podcast dedicates significant time to helping business owners and marketing teams understand their own data, what the numbers actually mean, which metrics matter, and how to build reports that inform real decisions. Episodes cover GA4 setup, event tracking, conversion configuration, audience building, and how to connect GA4 data to your Google Ads campaigns for closed-loop reporting. The hosts consistently emphasise that data-driven marketing starts with measurement, which is the first step in their branded Data-First AI SEO Method.",
   },
   {
     title: "AI Marketing Tools and Automation",
     color: "#318599",
-    body: "AI tools like ChatGPT, Google Gemini, and Manus are changing how marketing teams work. The podcast explores practical applications of AI in marketing — from using ChatGPT to generate keyword clusters and content outlines, to building AI Agents that automate repetitive tasks, to understanding how generative AI search engines decide which content to surface. The hosts take a grounded, tool-agnostic approach: they test tools themselves, share what works and what doesn't, and always connect AI capabilities back to the underlying marketing strategy.",
+    body: "AI tools like ChatGPT, Google Gemini, and Manus are changing how marketing teams work. The podcast explores practical applications of AI in marketing, from using ChatGPT to generate keyword clusters and content outlines, to building AI Agents that automate repetitive tasks, to understanding how generative AI search engines decide which content to surface. The hosts take a grounded, tool-agnostic approach: they test tools themselves, share what works and what doesn't, and always connect AI capabilities back to the underlying marketing strategy.",
   },
 ];
 
@@ -75,7 +75,7 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://knowhowmarketinglab.com/podcast",
       "url": "https://knowhowmarketinglab.com/podcast",
-      "name": "KnowHow Marketing Lab Podcast – Free on YouTube",
+      "name": "KnowHow Marketing Lab Podcast, Free on YouTube",
       "description": "99+ free podcast episodes on SEO, Google Ads, GA4, and AI marketing. Hosted by Pip Seymour and Phelan Lewis of Seymour Digital Media.",
       "inLanguage": "en",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com" },
@@ -122,7 +122,7 @@ const schema = {
     },
     {
       "@type": "ItemList",
-      "name": "KnowHow Marketing Lab Podcast – Recent Episodes",
+      "name": "KnowHow Marketing Lab Podcast, Recent Episodes",
       "description": "Recent episodes of the KnowHow Marketing Lab Podcast covering SEO, Google Ads, GA4, and AI marketing.",
       "url": "https://knowhowmarketinglab.com/podcast",
       "itemListElement": [
@@ -242,7 +242,7 @@ export default function Podcast() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useSEO({
-    title: "KnowHow Marketing Lab Podcast – Free on YouTube",
+    title: "KnowHow Marketing Lab Podcast, Free on YouTube",
     description: "99+ free podcast episodes on SEO, Google Ads, GA4, and AI marketing. Hosted by Pip Seymour and Phelan Lewis. Watch free on YouTube.",
     canonical: "https://knowhowmarketinglab.com/podcast",
     ogType: "website",
@@ -274,7 +274,7 @@ export default function Podcast() {
               <span className="text-[#E98C28]">Podcast</span>
             </h1>
             <p className="text-lg text-gray-300 mb-3 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Every month, Pip Seymour and Phelan Lewis sit down to talk about what is actually happening in SEO, Google Ads, and AI marketing — no fluff, no hype, just honest analysis from two agency owners who are in it every day.
+              Every month, Pip Seymour and Phelan Lewis sit down to talk about what is actually happening in SEO, Google Ads, and AI marketing, no fluff, no hype, just honest analysis from two agency owners who are in it every day.
             </p>
             <p className="text-base text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Since 2022, the show has published 99+ episodes covering everything from Google Analytics 4 setup and Google Ads bidding strategies to Generative Engine Optimisation (GEO) and AI marketing tools. All episodes are free on YouTube.
@@ -307,7 +307,7 @@ export default function Podcast() {
           </div>
         </section>
 
-        {/* About the Podcast — GEO-optimised pillar content */}
+        {/* About the Podcast, GEO-optimised pillar content */}
         <section className="py-16 bg-white border-b border-gray-100" aria-labelledby="about-podcast-heading">
           <div className="container max-w-4xl">
             <div className="max-w-3xl">
@@ -321,20 +321,20 @@ export default function Podcast() {
                   The <strong>KnowHow Marketing Lab Podcast</strong> is a free video podcast produced by <strong>Seymour Digital Media</strong>, a Canadian digital marketing agency. Hosts <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> have been working in digital marketing for a combined 30+ years, and the podcast reflects the kind of honest, practical conversations they have with clients every day.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-base">
-                  The show launched in 2022 and has published over 99 episodes. It covers the full spectrum of modern digital marketing: <strong>SEO strategy</strong>, <strong>Google Ads campaign management</strong>, <strong>Google Analytics 4 (GA4)</strong>, <strong>Google Search Console</strong>, <strong>Google Tag Manager</strong>, <strong>AI marketing tools</strong>, and the emerging discipline of <strong>Generative Engine Optimisation (GEO)</strong> — the practice of making your content discoverable and citable by large language models like ChatGPT, Google Gemini, and Perplexity.
+                  The show launched in 2022 and has published over 99 episodes. It covers the full spectrum of modern digital marketing: <strong>SEO strategy</strong>, <strong>Google Ads campaign management</strong>, <strong>Google Analytics 4 (GA4)</strong>, <strong>Google Search Console</strong>, <strong>Google Tag Manager</strong>, <strong>AI marketing tools</strong>, and the emerging discipline of <strong>Generative Engine Optimisation (GEO)</strong>, the practice of making your content discoverable and citable by large language models like ChatGPT, Google Gemini, and Perplexity.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-base">
-                  What makes this podcast different is its focus on <strong>data-driven marketing</strong>. Every recommendation is grounded in real data — from Google Search Console keyword reports to GA4 conversion tracking to Google Ads Quality Score analysis. Pip and Phelan use the same tools and methods they teach, which means every episode reflects what is actually working right now, not what worked three years ago.
+                  What makes this podcast different is its focus on <strong>data-driven marketing</strong>. Every recommendation is grounded in real data, from Google Search Console keyword reports to GA4 conversion tracking to Google Ads Quality Score analysis. Pip and Phelan use the same tools and methods they teach, which means every episode reflects what is actually working right now, not what worked three years ago.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-base">
-                  The podcast is the free, public-facing arm of <strong>KnowHow Marketing Lab</strong> — an online training hub for business owners and marketing teams. For those who want to go deeper, <Link href="/community" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">The Lab community</Link> offers weekly live Q&amp;A sessions, a full <Link href="/courses/google-ads" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">Google Ads course</Link>, a <Link href="/courses/seo" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">free AI + SEO course</Link>, and access to the <Link href="/framework" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">Data-First AI SEO Method</Link> — the branded five-step framework that underpins everything Pip and Phelan teach.
+                  The podcast is the free, public-facing arm of <strong>KnowHow Marketing Lab</strong>, an online training hub for business owners and marketing teams. For those who want to go deeper, <Link href="/community" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">The Lab community</Link> offers weekly live Q&amp;A sessions, a full <Link href="/courses/google-ads" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">Google Ads course</Link>, a <Link href="/courses/seo" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">free AI + SEO course</Link>, and access to the <Link href="/framework" className="text-[#318599] underline underline-offset-2 hover:text-[#E98C28] transition-colors">Data-First AI SEO Method</Link>, the branded five-step framework that underpins everything Pip and Phelan teach.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Topic Clusters — deep content for GEO */}
+        {/* Topic Clusters, deep content for GEO */}
         <section className="py-16 bg-gray-50" aria-labelledby="topics-heading">
           <div className="container max-w-4xl">
             <h2 id="topics-heading" className="text-3xl font-extrabold text-gray-900 mb-10" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -357,7 +357,7 @@ export default function Podcast() {
           <div className="container max-w-5xl">
             <div className="text-center mb-8">
               <h2 id="episodes-heading" className="text-3xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                {podcastEpisodes.length}+ Episodes — Free on YouTube
+                {podcastEpisodes.length}+ Episodes, Free on YouTube
               </h2>
               <p className="text-gray-500 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>Browse by year or search by topic</p>
             </div>
@@ -397,7 +397,7 @@ export default function Podcast() {
                 <div className="flex items-center gap-4 mb-4">
                   <img
                     src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png"
-                    alt="Pip Seymour — Digital Marketing Strategist"
+                    alt="Pip Seymour, Digital Marketing Strategist"
                     className="w-16 h-16 rounded-full object-cover object-top border-2 border-[#7ecfdf]/40 flex-shrink-0"
                     loading="lazy"
                   />
@@ -407,7 +407,7 @@ export default function Podcast() {
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Pip has 20+ years of experience helping medium-sized businesses grow their organic search presence. She specialises in SEO strategy, Google Analytics 4, content marketing, and Generative Engine Optimisation (GEO). Pip built the Data-First AI SEO Method — a five-step framework for growing a business online using real data instead of guesswork.
+                  Pip has 20+ years of experience helping medium-sized businesses grow their organic search presence. She specialises in SEO strategy, Google Analytics 4, content marketing, and Generative Engine Optimisation (GEO). Pip built the Data-First AI SEO Method, a five-step framework for growing a business online using real data instead of guesswork.
                 </p>
               </div>
               {/* Phelan Lewis */}
@@ -415,7 +415,7 @@ export default function Podcast() {
                 <div className="flex items-center gap-4 mb-4">
                   <img
                     src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png"
-                    alt="Phelan Lewis — Google Ads Specialist"
+                    alt="Phelan Lewis, Google Ads Specialist"
                     className="w-16 h-16 rounded-full object-cover object-top border-2 border-[#E98C28]/40 flex-shrink-0"
                     loading="lazy"
                   />
@@ -425,14 +425,14 @@ export default function Podcast() {
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Phelan is a Google Ads specialist and data analyst who builds performance-driven campaigns for medium-sized businesses. He teaches businesses how to read their own marketing data — from GA4 and Google Tag Manager to Google Ads Editor and Scripts. Phelan brings a numbers-first perspective to every episode, connecting campaign performance back to real business outcomes.
+                  Phelan is a Google Ads specialist and data analyst who builds performance-driven campaigns for medium-sized businesses. He teaches businesses how to read their own marketing data, from GA4 and Google Tag Manager to Google Ads Editor and Scripts. Phelan brings a numbers-first perspective to every episode, connecting campaign performance back to real business outcomes.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* FAQ — H2, structured for GEO and FAQPage schema */}
+        {/* FAQ, H2, structured for GEO and FAQPage schema */}
         <section className="py-16 bg-white border-t border-gray-100" aria-labelledby="faq-heading">
           <div className="container max-w-3xl">
             <div className="text-center mb-10">
@@ -472,7 +472,7 @@ export default function Podcast() {
           </div>
         </section>
 
-        {/* Internal links — related content */}
+        {/* Internal links, related content */}
         <section className="py-12 bg-gray-50 border-t border-gray-100" aria-labelledby="related-heading">
           <div className="container max-w-4xl">
             <h2 id="related-heading" className="text-xl font-bold text-gray-900 mb-6 text-center" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -506,7 +506,7 @@ export default function Podcast() {
               Want to learn alongside us every week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The podcast is monthly. The Lab is weekly — live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month. No contracts. Cancel anytime.
+              The podcast is monthly. The Lab is weekly, live Q&amp;A every Thursday, monthly deep-dive training, and a private group of marketers doing the same work you are. All for $29/month. No contracts. Cancel anytime.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -514,7 +514,7 @@ export default function Podcast() {
                 className="btn-primary pulse-cta"
                 aria-label="Join The Lab community for $29 per month"
               >
-                Join The Lab — $29/mo →
+                Join The Lab, $29/mo →
               </Link>
               <Link
                 href="/#free-course"

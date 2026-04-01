@@ -95,19 +95,19 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">What is the best Google Ads bidding strategy for beginners?</h3>
-<p>If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximise Clicks. These give you control while you gather data. Once you hit 15–20 conversions per month, switch to Maximise Conversions and let Google’s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes.</p>
+<p>If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximise Clicks. These give you control while you gather data. Once you hit 15-20 conversions per month, switch to Maximise Conversions and let Google’s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes.</p>
 
 <h3 class="wp-block-heading">What is the difference between Target CPA and Target ROAS?</h3>
 <p>Target CPA (Cost Per Acquisition) tells Google: “Get me as many conversions as possible, but keep the cost per conversion at or below this number.” Target ROAS (Return On Ad Spend) tells Google: “For every dollar I spend, I want to make back this much in revenue.” Use Target CPA for lead generation. Use Target ROAS for e-commerce where different products have different values.</p>
 
 <h3 class="wp-block-heading">How long does Smart Bidding take to work?</h3>
-<p>Smart Bidding goes through a “learning phase” that typically lasts 1–2 weeks after you switch strategies or make a significant change. During this time, performance may dip. Google recommends giving the algorithm at least 2–3 weeks and 50+ conversions before judging results. Avoid making big changes during the learning phase, as it resets the clock.</p>
+<p>Smart Bidding goes through a “learning phase” that typically lasts 1-2 weeks after you switch strategies or make a significant change. During this time, performance may dip. Google recommends giving the algorithm at least 2-3 weeks and 50+ conversions before judging results. Avoid making big changes during the learning phase, as it resets the clock.</p>
 
 <h3 class="wp-block-heading">Should I use Manual CPC or Smart Bidding in 2026?</h3>
 <p>For most advertisers in 2026, Smart Bidding is the better choice once you have conversion data. Google’s AI now processes thousands of real-time signals (device, location, time of day, audience behaviour) that no human can manually replicate. Manual CPC still has a place for brand new campaigns with no conversion history, or for very niche situations where you need tight control over specific keywords.</p>
 
 <h3 class="wp-block-heading">Can I use bid adjustments with Smart Bidding?</h3>
-<p>Mostly no. If you are using a conversion-based Smart Bidding strategy like Target CPA or Target ROAS, manual bid adjustments for device, location, or audience are ignored — the AI is already factoring those signals in. The one exception is a -100% device bid adjustment, which you can use to completely exclude your ads from a specific device type (for example, tablets).</p>
+<p>Mostly no. If you are using a conversion-based Smart Bidding strategy like Target CPA or Target ROAS, manual bid adjustments for device, location, or audience are ignored, the AI is already factoring those signals in. The one exception is a -100% device bid adjustment, which you can use to completely exclude your ads from a specific device type (for example, tablets).</p>
 
 <h3 class="wp-block-heading">What is Smart Bidding Exploration?</h3>
 <p>Smart Bidding Exploration is a newer Google Ads feature that lets you set flexible ROAS targets to help the AI find new pockets of traffic it would normally skip. Early data shows a 19% average increase in conversions. It is worth testing if you are already on Target ROAS and want to scale without sacrificing profitability.</p>
@@ -186,9 +186,9 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
   }
 });
     document.head.appendChild(script);
-    document.title = 'Google Ads Bidding Strategies 2026 — Which One Should You Use? | KnowHow Marketing Lab';
+    document.title = 'Google Ads Bidding Strategies 2026, Which One Should You Use? | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Every Google Ads bidding strategy explained for 2026 — Smart Bidding, Target CPA, Target ROAS, Manual CPC and more. Know which to use at each stage of your campaign. Free guide.');
+    if (metaDesc) metaDesc.setAttribute('content', 'Every Google Ads bidding strategy explained for 2026, Smart Bidding, Target CPA, Target ROAS, Manual CPC and more. Know which to use at each stage of your campaign. Free guide.');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-bidding-strategies');
     const ogImage = document.querySelector('meta[property="og:image"]');

@@ -1,8 +1,8 @@
-// KnowHow Marketing Lab – AI Marketing Accelerator Mastermind Page (/mastermind)
+// KnowHow Marketing Lab, AI Marketing Accelerator Mastermind Page (/mastermind)
 // Design: Brand colors #E98C28 (amber) | #318599 (teal) | #4F37D8 (indigo)
 // Fonts: Space Grotesk (headings) | DM Sans (body)
 // Purpose: Sales page for the 8-seat, 8-week, $2,000/seat AI Marketing Accelerator Mastermind
-// CTA: Book a discovery call (GHL calendar — placeholder until calendar is set up)
+// CTA: Book a discovery call (GHL calendar, placeholder until calendar is set up)
 // Urgency: Only 8 spots, cohort starts May 12 2026
 
 import { useState, useEffect } from 'react';
@@ -40,7 +40,7 @@ const curriculum = [
   {
     week: 'Week 4',
     title: 'Bidding & Budget',
-    topics: ['Smart Bidding vs Manual — when to use each', 'Budget allocation across campaigns', 'Quality Score and Ad Rank'],
+    topics: ['Smart Bidding vs Manual, when to use each', 'Budget allocation across campaigns', 'Quality Score and Ad Rank'],
     color: '#318599',
   },
   {
@@ -70,10 +70,10 @@ const curriculum = [
 ];
 
 const included = [
-  { icon: '🎯', title: '8 live 90-min group sessions', desc: 'Every week for 8 weeks — small group, high-touch. Your real accounts reviewed live.' },
+  { icon: '🎯', title: '8 live 90-min group sessions', desc: 'Every week for 8 weeks, small group, high-touch. Your real accounts reviewed live.' },
   { icon: '💬', title: 'Private async support', desc: 'Ask questions between sessions in the private GHL community. Get answers within 24 hours.' },
   { icon: '📊', title: 'Live account reviews', desc: 'Bring your actual GA4, GSC, and Google Ads data. We work on your specific situation, not hypotheticals.' },
-  { icon: '🤖', title: 'AI tools and frameworks', desc: 'Every session includes hands-on AI implementation — ChatGPT, Claude, Manus, and custom agents.' },
+  { icon: '🤖', title: 'AI tools and frameworks', desc: 'Every session includes hands-on AI implementation, ChatGPT, Claude, Manus, and custom agents.' },
   { icon: '📚', title: 'All course materials', desc: 'Full access to the KnowHow Marketing Lab course library for the duration of the programme.' },
   { icon: '🏆', title: 'Lifetime alumni access', desc: 'Stay in the alumni community after the cohort ends. Network, share wins, and get ongoing support.' },
 ];
@@ -81,11 +81,11 @@ const included = [
 const faqs = [
   {
     q: 'Who is this Mastermind for?',
-    a: 'It is designed for marketing managers, business owners, and consultants who are already doing digital marketing but want to move faster and get better results. You should have at least one active Google Ads campaign or website you are trying to grow organically. This is not a beginner course — it is an implementation programme.',
+    a: 'It is designed for marketing managers, business owners, and consultants who are already doing digital marketing but want to move faster and get better results. You should have at least one active Google Ads campaign or website you are trying to grow organically. This is not a beginner course, it is an implementation programme.',
   },
   {
     q: 'What is the difference between the Mastermind and The Lab membership?',
-    a: 'The Lab ($29/month) is where you learn — weekly live Q&A, course content, and community. The Mastermind ($2,000) is where you implement. It is a small-group, 8-week intensive where we work directly on your accounts and campaigns. The Mastermind is the fast track; The Lab is the ongoing support structure.',
+    a: 'The Lab ($29/month) is where you learn, weekly live Q&A, course content, and community. The Mastermind ($2,000) is where you implement. It is a small-group, 8-week intensive where we work directly on your accounts and campaigns. The Mastermind is the fast track; The Lab is the ongoing support structure.',
   },
   {
     q: 'What happens after the 8 weeks?',
@@ -93,7 +93,7 @@ const faqs = [
   },
   {
     q: 'How many people are in the group?',
-    a: 'Maximum 8 seats per cohort. This is intentional — small enough that every session can include a live review of your actual accounts, not just generic advice.',
+    a: 'Maximum 8 seats per cohort. This is intentional, small enough that every session can include a live review of your actual accounts, not just generic advice.',
   },
   {
     q: 'What is the discovery call?',
@@ -116,7 +116,7 @@ export default function Mastermind() {
   }, []);
 
   useSEO({
-    title: 'AI Marketing Accelerator Mastermind — 8 Seats, 8 Weeks | KnowHow Marketing Lab',
+    title: 'AI Marketing Accelerator Mastermind, 8 Seats, 8 Weeks | KnowHow Marketing Lab',
     description: `Small-group intensive for marketers who want real results. 8 seats, 8 weeks, $2,000. Live account reviews, AI tools, Google Ads, SEO, and GA4. Cohort starts ${COHORT_START}.`,
     canonical: 'https://knowhowmarketinglab.com/mastermind',
     ogType: 'website',
@@ -217,7 +217,7 @@ export default function Mastermind() {
                 Mastermind
               </h1>
               <p className="text-white/70 text-lg mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                A 8-week small-group intensive for marketers who are done watching tutorials and ready to implement. We work on your real accounts — live, every Wednesday — until your campaigns and content are actually performing.
+                A 8-week small-group intensive for marketers who are done watching tutorials and ready to implement. We work on your real accounts, live, every Wednesday, until your campaigns and content are actually performing.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
@@ -254,7 +254,7 @@ export default function Mastermind() {
               </div>
               <div className="mt-6 pt-6 border-t border-white/10">
                 <p className="text-white/60 text-sm text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Wednesdays · 10–11:30am Pacific · 1–2:30pm Eastern · 6–7:30pm UK
+                  Wednesdays · 10-11:30am Pacific · 1-2:30pm Eastern · 6-7:30pm UK
                 </p>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function Mastermind() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#318599] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This is for you if</span>
-              <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>You are already doing marketing — you just want it to work better</h2>
+              <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>You are already doing marketing, you just want it to work better</h2>
               <ul className="space-y-3">
                 {[
                   'You have Google Ads running but are not confident the budget is being spent well',
@@ -330,7 +330,7 @@ export default function Mastermind() {
           <div className="text-center mb-12">
             <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#E98C28] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>8-week programme</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The curriculum</h2>
-            <p className="text-gray-600 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>Each session is 90 minutes. The first 30 minutes covers the week's topic. The remaining 60 minutes is live account reviews — your real data, your real questions.</p>
+            <p className="text-gray-600 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>Each session is 90 minutes. The first 30 minutes covers the week's topic. The remaining 60 minutes is live account reviews, your real data, your real questions.</p>
           </div>
           <div className="grid sm:grid-cols-2 gap-4">
             {curriculum.map((week, i) => (
@@ -365,7 +365,7 @@ export default function Mastermind() {
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">
                   <th className="text-left p-4 font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Feature</th>
-                  <th className="text-center p-4 font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The Lab<br /><span className="text-[#318599] font-normal text-xs">$29–$49/month</span></th>
+                  <th className="text-center p-4 font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The Lab<br /><span className="text-[#318599] font-normal text-xs">$29-$49/month</span></th>
                   <th className="text-center p-4 font-bold text-gray-900 bg-[#E98C28]/5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Mastermind<br /><span className="text-[#E98C28] font-normal text-xs">$2,000 one-time</span></th>
                 </tr>
               </thead>
@@ -375,10 +375,10 @@ export default function Mastermind() {
                   ['Group size', 'Open community', 'Max 8 people'],
                   ['Live account reviews', 'Occasional', '✓ Every session'],
                   ['AI tools training', '✓ Course content', '✓ Hands-on implementation'],
-                  ['Personal roadmap', '—', '✓ Built in Week 8'],
+                  ['Personal roadmap', ', ', '✓ Built in Week 8'],
                   ['Async support', '✓ Community', '✓ Private channel'],
                   ['Duration', 'Ongoing monthly', '8 weeks intensive'],
-                  ['Alumni access', '—', '✓ Lifetime'],
+                  ['Alumni access', ', ', '✓ Lifetime'],
                 ].map(([feature, lab, mm], i) => (
                   <tr key={i} className={`border-b border-gray-100 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}`}>
                     <td className="p-4 text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>{feature}</td>
@@ -496,11 +496,11 @@ export default function Mastermind() {
               className="inline-block border border-white/20 text-white/80 font-semibold px-10 py-4 rounded-full hover:border-white/50 hover:text-white transition-colors text-base"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Or join The Lab — $29/mo
+              Or join The Lab, $29/mo
             </Link>
           </div>
           <p className="text-white/40 text-xs mt-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Cohort starts {COHORT_START} · Wednesdays 10–11:30am Pacific · Max 8 seats
+            Cohort starts {COHORT_START} · Wednesdays 10-11:30am Pacific · Max 8 seats
           </p>
         </div>
       </section>

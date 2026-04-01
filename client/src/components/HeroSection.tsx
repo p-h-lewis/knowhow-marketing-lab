@@ -70,7 +70,7 @@ export default function HeroSection() {
               </Link>
             </div>
 
-            {/* Member quote — social proof immediately below CTA */}
+            {/* Member quote, social proof immediately below CTA */}
             <blockquote
               className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-4 py-3 mb-6 max-w-xl"
               aria-label="Member testimonial"
@@ -111,7 +111,7 @@ export default function HeroSection() {
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-4 sm:gap-8">
               {[
-                { value: '$29/mo', label: 'The Lab — Founding Rate' },
+                { value: '$29/mo', label: 'The Lab, Founding Rate' },
                 { value: '20+', label: 'Years Agency Experience' },
                 { value: 'Thursday', label: 'Live Lab Sessions' },
                 { value: 'Cancel', label: 'Anytime, No Contracts' },
@@ -134,7 +134,7 @@ export default function HeroSection() {
               <picture>
                 <img
                   src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/hero-zoom-v2_e0a6ccfe.jpg"
-                  alt="A live KnowHow Marketing Lab session — Phelan and Pip working through real campaigns with members on Zoom"
+                  alt="A live KnowHow Marketing Lab session, Phelan and Pip working through real campaigns with members on Zoom"
                   width="2048"
                   height="1152"
                   className="w-full h-auto"
@@ -152,8 +152,8 @@ export default function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursday Lab — every week</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12–1pm Pacific · Your real website and ads, live</p>
+                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursday Lab, every week</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12-1pm Pacific · Your real website and ads, live</p>
                 </div>
               </div>
             </div>

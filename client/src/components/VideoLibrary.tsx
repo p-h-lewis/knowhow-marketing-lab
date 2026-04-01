@@ -227,7 +227,7 @@ export default function VideoLibrary() {
         )}
       </div>
 
-      {/* Conversion Strip — The Lab primary, Facebook group secondary */}
+      {/* Conversion Strip, The Lab primary, Facebook group secondary */}
       <div className="mt-16 rounded-2xl bg-gradient-to-r from-[#1a3a4a] to-[#0f2530] px-6 py-8 sm:px-10 sm:py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
           <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want live Q&amp;A on these topics?</p>
@@ -241,7 +241,7 @@ export default function VideoLibrary() {
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             aria-label="Join The Lab for $29 per month"
           >
-            Join The Lab — $29/mo →
+            Join The Lab, $29/mo →
           </a>
           <a
             href="https://www.facebook.com/groups/businessmarketingmixer"
@@ -303,7 +303,7 @@ export default function VideoLibrary() {
                 className="btn-primary text-sm py-2 px-4 whitespace-nowrap"
                 onClick={closeVideo}
               >
-                Free or $29/mo — See options →
+                Free or $29/mo, See options →
               </a>
             </div>
           </div>

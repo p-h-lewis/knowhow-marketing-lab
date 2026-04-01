@@ -1,7 +1,7 @@
 // ChatWidget.tsx
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
-// Purpose: Static AI FAQ chat widget — catches pre-conversion questions without live staffing
-// No backend required — all answers are pre-written and served client-side
+// Purpose: Static AI FAQ chat widget, catches pre-conversion questions without live staffing
+// No backend required, all answers are pre-written and served client-side
 
 import { useState, useRef, useEffect } from 'react';
 
@@ -22,12 +22,12 @@ const QUICK_REPLIES = [
 ];
 
 const ANSWERS: Record<string, string> = {
-  what: "The KnowHow Lab is a $29/month membership community for business owners and marketing managers. Every Thursday 12–1pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live — hands-on help, not just Q&A. You also get full course access, monthly deep-dive training, and a private community group.",
-  price: "The Lab is $29/month — that's the early access founding rate. And there's a 7-day free trial so you can try it before you pay. It will increase as the community grows. Members who join now lock in $29 forever. You can cancel anytime in 60 seconds, no questions asked.",
-  thursday: "Thursday Lab sessions run every Thursday 12–1pm Pacific (members only). You bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen — not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
-  cancel: "Yes — cancel anytime, directly from your GoHighLevel account. No lock-in contracts, no cancellation fees, no forms to fill out. Your access continues until the end of your billing period.",
-  technical: "Not at all. The curriculum starts from the foundations — how Google Search works, what Search Console is, and why SEO matters — and builds progressively to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.",
-  diff: "The free Power Hours (Tuesdays) are open to anyone — general Q&A, no sign-up required. The Lab ($29/mo) is members-only and goes much deeper: Thursday sessions where Pip and Phelan work through YOUR specific campaigns live, full course library, monthly training, fillable worksheets, and a private community group.",
+  what: "The KnowHow Lab is a $29/month membership community for business owners and marketing managers. Every Thursday 12-1pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live, hands-on help, not just Q&A. You also get full course access, monthly deep-dive training, and a private community group.",
+  price: "The Lab is $29/month, that's the early access founding rate. And there's a 7-day free trial so you can try it before you pay. It will increase as the community grows. Members who join now lock in $29 forever. You can cancel anytime in 60 seconds, no questions asked.",
+  thursday: "Thursday Lab sessions run every Thursday 12-1pm Pacific (members only). You bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen, not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
+  cancel: "Yes, cancel anytime, directly from your GoHighLevel account. No lock-in contracts, no cancellation fees, no forms to fill out. Your access continues until the end of your billing period.",
+  technical: "Not at all. The curriculum starts from the foundations, how Google Search works, what Search Console is, and why SEO matters, and builds progressively to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.",
+  diff: "The free Power Hours (Tuesdays) are open to anyone, general Q&A, no sign-up required. The Lab ($29/mo) is members-only and goes much deeper: Thursday sessions where Pip and Phelan work through YOUR specific campaigns live, full course library, monthly training, fillable worksheets, and a private community group.",
 };
 
 const WELCOME: Message = {
@@ -80,7 +80,7 @@ export default function ChatWidget() {
         <button
           onClick={() => setOpen(true)}
           className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#E98C28] text-white shadow-lg hover:bg-[#D47D1E] transition-all duration-200 flex items-center justify-center"
-          aria-label="Open chat — ask us about The Lab"
+          aria-label="Open chat, ask us about The Lab"
           style={{ boxShadow: '0 4px 24px rgba(233,140,40,0.4)' }}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

@@ -24,8 +24,8 @@ function SectionSkeleton() {
 
 export default function Home() {
   useSEO({
-    title: "KnowHow Marketing Lab — AI SEO & Google Ads Training for Business Owners",
-    description: "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search — from 20-year agency veterans Pip Seymour and Phelan Lewis.",
+    title: "KnowHow Marketing Lab, AI SEO & Google Ads Training for Business Owners",
+    description: "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search, from 20-year agency veterans Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
   });
@@ -239,7 +239,7 @@ export default function Home() {
                   id="vid-frame-1"
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube-nocookie.com/embed/eGN0oy0ynbE"
-                  title="Google's Secret Weapon for FREE Keyword Research — KnowHow Marketing Lab"
+                  title="Google's Secret Weapon for FREE Keyword Research, KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
@@ -249,7 +249,7 @@ export default function Home() {
                   id="vid-frame-2"
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube-nocookie.com/embed/TDlgrr0cviE"
-                  title="Google Business Profile - Everything You Need To Know — KnowHow Marketing Lab"
+                  title="Google Business Profile - Everything You Need To Know, KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
@@ -264,7 +264,7 @@ export default function Home() {
                   className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
-                  Join The Lab — $29/mo →
+                  Join The Lab, $29/mo →
                 </a>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function Home() {
               <div>
                 <span className="inline-block text-xs font-bold tracking-widest uppercase text-[#E98C28] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live Coaching</span>
                 <h2 id="coaching-section-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Get expert eyes on your real campaigns — every week
+                  Get expert eyes on your real campaigns, every week
                 </h2>
                 <p className="text-gray-600 text-lg mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Every Thursday at 12pm Pacific, Pip and Phelan review real websites and Google Ads accounts live. You bring your actual data. We tell you exactly what to fix and why. No slides. No theory. Just practical help on your specific situation.
@@ -299,7 +299,7 @@ export default function Home() {
                     { icon: '✓', text: 'Live SEO and Google Ads account reviews every Thursday' },
                     { icon: '✓', text: 'Ask questions about your specific campaigns and website' },
                     { icon: '✓', text: 'Access to all session recordings and course materials' },
-                    { icon: '✓', text: '$29/month — founding member rate, cancel anytime' },
+                    { icon: '✓', text: '$29/month, founding member rate, cancel anytime' },
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/10 text-[#E98C28] text-xs font-bold flex items-center justify-center">{item.icon}</span>
@@ -309,7 +309,7 @@ export default function Home() {
                 </ul>
                 <div className="flex flex-col sm:flex-row gap-3 mb-4">
                   <Link href="/pricing" className="inline-block bg-[#E98C28] text-white font-bold px-7 py-3 rounded-full hover:bg-[#d47d20] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                    Join The Lab — $29/mo →
+                    Join The Lab, $29/mo →
                   </Link>
                   <Link href="/blog/seo-and-analytics-coaching-for-marketers" className="inline-block border border-gray-300 text-gray-700 font-semibold px-7 py-3 rounded-full hover:border-[#318599] hover:text-[#318599] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                     What coaching looks like
@@ -320,9 +320,9 @@ export default function Home() {
                   <div>
                     <div className="flex items-center gap-1.5 mb-0.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
-                      <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New — 5 seats left</span>
+                      <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New, 5 seats left</span>
                     </div>
-                    <p className="text-sm font-semibold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI Marketing Accelerator Mastermind — 8 weeks, $2,000</p>
+                    <p className="text-sm font-semibold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI Marketing Accelerator Mastermind, 8 weeks, $2,000</p>
                   </div>
                   <Link href="/mastermind" className="flex-shrink-0 text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See details →</Link>
                 </div>
@@ -341,7 +341,7 @@ export default function Home() {
                     color: '#E98C28',
                     label: 'Google Ads',
                     title: 'Google Ads Coaching',
-                    desc: 'Share your Google Ads account and Phelan will review your campaigns live — conversion tracking, Tag Manager setup, campaign structure, and what the data is actually telling you.',
+                    desc: 'Share your Google Ads account and Phelan will review your campaigns live, conversion tracking, Tag Manager setup, campaign structure, and what the data is actually telling you.',
                     href: '/blog/google-ads-coaching-for-marketers',
                   },
                 ].map((card, i) => (
@@ -374,14 +374,14 @@ export default function Home() {
                 {
                   href: '/blog/ai-seo-course',
                   tag: 'AI + SEO',
-                  title: 'AI SEO Course 2026 — The KnowHow AI SEO Framework',
+                  title: 'AI SEO Course 2026, The KnowHow AI SEO Framework',
                   desc: 'How to rank on Google and get cited by ChatGPT, Perplexity, and Gemini. The complete AI SEO framework for medium-sized businesses.',
                   color: '#E98C28',
                 },
                 {
                   href: '/blog/google-ads-framework',
                   tag: 'Google Ads',
-                  title: 'The KnowHow Google Ads Framework — 5 Phases to Profitable Campaigns',
+                  title: 'The KnowHow Google Ads Framework, 5 Phases to Profitable Campaigns',
                   desc: 'The named 5-phase methodology used by KnowHow Marketing Lab to build profitable Google Ads campaigns from scratch. Covers structure, bidding, quality score, and AI tools.',
                   color: '#318599',
                 },
@@ -430,14 +430,14 @@ export default function Home() {
                 {
                   href: '/community',
                   tag: 'Community',
-                  title: 'The KnowHow Lab — Join the Community',
+                  title: 'The KnowHow Lab, Join the Community',
                   desc: 'Thursday Lab sessions where Pip & Phelan work through your real campaigns live, plus advanced courses, AI tools, and a private group for $29/month.',
                   color: '#318599',
                 },
                 {
                   href: '/podcast',
                   tag: 'Podcast',
-                  title: 'GeekSpeak — The Marketing Podcast',
+                  title: 'GeekSpeak, The Marketing Podcast',
                   desc: 'Monthly deep-dives on SEO, Google Ads, AI, and the latest in digital marketing. Hosted by Pip Seymour and Phelan Lewis.',
                   color: '#E98C28',
                 },

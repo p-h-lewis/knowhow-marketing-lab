@@ -1,4 +1,4 @@
-// /blog/google-ads-framework — The KnowHow Google Ads Framework pillar post
+// /blog/google-ads-framework, The KnowHow Google Ads Framework pillar post
 // Design: White/light, Space Grotesk headings, DM Sans body, orange #E98C28, teal #318599
 // Schema: Article, FAQPage, HowTo, BreadcrumbList
 // Internal links: /courses/google-ads, /community, /pricing, /blog/the-ultimate-guide-to-google-ads-campaign-types, /blog/the-ultimate-guide-to-google-ads-bidding-strategies
@@ -16,12 +16,12 @@ const COMMUNITY_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/o
 const phases = [
   {
     num: '01',
-    title: 'Foundation — Set Up to Measure Everything',
+    title: 'Foundation, Set Up to Measure Everything',
     subtitle: 'Before you spend a dollar, make sure every click is tracked.',
     color: '#318599',
     steps: [
       { name: 'Conversion tracking', desc: 'Install Google Ads conversion tracking for every meaningful action: form submissions, phone calls, purchases, and key page visits. Without this, Google\'s AI has no signal to optimise toward. This is the single most important setup step.' },
-      { name: 'Google Analytics 4 (GA4)', desc: 'Link your Google Ads account to GA4. Import GA4 conversions into Google Ads. This gives you a complete picture of what happens after the click — not just whether someone converted, but how long they stayed, what pages they visited, and whether they came back.' },
+      { name: 'Google Analytics 4 (GA4)', desc: 'Link your Google Ads account to GA4. Import GA4 conversions into Google Ads. This gives you a complete picture of what happens after the click, not just whether someone converted, but how long they stayed, what pages they visited, and whether they came back.' },
       { name: 'Google Tag Manager (GTM)', desc: 'Use GTM to manage all your tracking tags in one place. This makes it easy to add, update, or troubleshoot tracking without touching your website code every time.' },
       { name: 'Audience lists', desc: 'Create remarketing audiences in Google Ads before you launch: all website visitors, visitors who viewed key pages, and visitors who started but did not complete a conversion. You will not use these immediately, but they need time to populate.' },
     ],
@@ -29,12 +29,12 @@ const phases = [
   },
   {
     num: '02',
-    title: 'Research — Know Your Market Before You Bid',
+    title: 'Research, Know Your Market Before You Bid',
     subtitle: 'The campaigns that fail are the ones launched without research.',
     color: '#E98C28',
     steps: [
-      { name: 'Keyword research', desc: 'Use Google Keyword Planner to find the exact phrases your customers type when they are ready to buy or hire. Focus on commercial intent keywords — phrases that indicate someone is actively looking for a solution, not just learning about a topic. Group keywords by intent: high-intent (ready to buy), mid-intent (comparing options), and low-intent (researching).' },
-      { name: 'Competitor analysis', desc: 'Run your top competitors through Google\'s Auction Insights (available once your campaigns are live) and use the Ad Preview and Diagnosis tool to see what ads appear for your target keywords. Note their messaging, offers, and landing pages. Your goal is not to copy them — it is to differentiate.' },
+      { name: 'Keyword research', desc: 'Use Google Keyword Planner to find the exact phrases your customers type when they are ready to buy or hire. Focus on commercial intent keywords, phrases that indicate someone is actively looking for a solution, not just learning about a topic. Group keywords by intent: high-intent (ready to buy), mid-intent (comparing options), and low-intent (researching).' },
+      { name: 'Competitor analysis', desc: 'Run your top competitors through Google\'s Auction Insights (available once your campaigns are live) and use the Ad Preview and Diagnosis tool to see what ads appear for your target keywords. Note their messaging, offers, and landing pages. Your goal is not to copy them, it is to differentiate.' },
       { name: 'Search intent mapping', desc: 'For each keyword group, identify the search intent: informational (learning), navigational (looking for a specific site), or transactional (ready to act). Only bid on transactional keywords in your first campaigns. Informational keywords burn budget without driving conversions.' },
       { name: 'Budget and CPA benchmarking', desc: 'Before you set a budget, estimate your target cost per acquisition (CPA). If your average customer is worth $2,000 and you close 1 in 5 leads, your lead is worth $400. You can afford to spend up to $400 to acquire a lead and still be profitable. This number drives every budget and bidding decision.' },
     ],
@@ -42,25 +42,25 @@ const phases = [
   },
   {
     num: '03',
-    title: 'Build — Structure Your Account for Scale',
+    title: 'Build, Structure Your Account for Scale',
     subtitle: 'Account structure is the difference between a campaign you can optimise and one you cannot.',
     color: '#4F37D8',
     steps: [
-      { name: 'Campaign structure', desc: 'Start with one Search campaign per product or service category. Do not put everything in one campaign — you lose the ability to control budgets and settings per category. Each campaign should have a clear goal, a daily budget, and a target geographic area.' },
-      { name: 'Ad group structure based on user intent', desc: 'Within each campaign, create ad groups based on user intent — not just topic. A "plumber near me" ad group has different intent than a "how to fix a leaking pipe" ad group. Group keywords with the same intent together so you can write ads that match exactly what the user is looking for. Read our full guide on <a href="/blog/adgroups-based-on-user-intent" class="text-[#318599] hover:underline">ad groups based on user intent</a>.' },
+      { name: 'Campaign structure', desc: 'Start with one Search campaign per product or service category. Do not put everything in one campaign, you lose the ability to control budgets and settings per category. Each campaign should have a clear goal, a daily budget, and a target geographic area.' },
+      { name: 'Ad group structure based on user intent', desc: 'Within each campaign, create ad groups based on user intent, not just topic. A "plumber near me" ad group has different intent than a "how to fix a leaking pipe" ad group. Group keywords with the same intent together so you can write ads that match exactly what the user is looking for. Read our full guide on <a href="/blog/adgroups-based-on-user-intent" class="text-[#318599] hover:underline">ad groups based on user intent</a>.' },
       { name: 'Responsive Search Ads (RSAs)', desc: 'Write 10-15 headlines and 4 descriptions for each ad group. Include your target keyword in at least 3 headlines. Lead with the benefit, not the feature. Include a clear call to action. Pin your most important headline in position 1 so it always shows. Google\'s AI will test combinations and find the best performers.' },
-      { name: 'Landing pages', desc: 'Every ad group should send traffic to a landing page that matches the ad\'s message exactly. If your ad says "Free Quote for Commercial Plumbing," the landing page should be about commercial plumbing with a free quote form — not your homepage. Message match is one of the highest-impact conversion rate factors.' },
+      { name: 'Landing pages', desc: 'Every ad group should send traffic to a landing page that matches the ad\'s message exactly. If your ad says "Free Quote for Commercial Plumbing," the landing page should be about commercial plumbing with a free quote form, not your homepage. Message match is one of the highest-impact conversion rate factors.' },
     ],
     aiTip: 'Use ChatGPT to write your RSA headlines: "Write 15 Google Ads headlines for a [business type] targeting [keyword]. Each headline must be under 30 characters. Lead with the benefit. Include urgency where appropriate."'
   },
   {
     num: '04',
-    title: 'Optimise — Let Data Drive Every Decision',
+    title: 'Optimise, Let Data Drive Every Decision',
     subtitle: 'The first 30 days are about learning. After that, every decision should be data-driven.',
     color: '#318599',
     steps: [
-      { name: 'Search term reports', desc: 'Review your search term report weekly for the first month. Add irrelevant terms as negative keywords immediately. Look for high-performing search terms that are not in your keyword list — add them as exact match keywords. This is where most of the early budget waste is found and fixed.' },
-      { name: 'Bidding strategy progression', desc: 'Start with Manual CPC or Maximise Clicks to gather data. Once you have 30+ conversions in a 30-day period, switch to a Smart Bidding strategy (Target CPA or Target ROAS). Smart Bidding needs conversion data to work — launching it on a new campaign with no data is one of the most common Google Ads mistakes. Read our full guide on <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" class="text-[#318599] hover:underline">Google Ads bidding strategies</a>.' },
+      { name: 'Search term reports', desc: 'Review your search term report weekly for the first month. Add irrelevant terms as negative keywords immediately. Look for high-performing search terms that are not in your keyword list, add them as exact match keywords. This is where most of the early budget waste is found and fixed.' },
+      { name: 'Bidding strategy progression', desc: 'Start with Manual CPC or Maximise Clicks to gather data. Once you have 30+ conversions in a 30-day period, switch to a Smart Bidding strategy (Target CPA or Target ROAS). Smart Bidding needs conversion data to work, launching it on a new campaign with no data is one of the most common Google Ads mistakes. Read our full guide on <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" class="text-[#318599] hover:underline">Google Ads bidding strategies</a>.' },
       { name: 'Quality Score optimisation', desc: 'Quality Score (1-10) affects how much you pay per click and where your ads appear. Improve it by increasing ad relevance (match ad copy to keywords), improving expected CTR (write more compelling headlines), and improving landing page experience (faster load times, relevant content, clear CTA).' },
       { name: 'Asset performance review', desc: 'In your RSAs, check which headlines and descriptions are rated "Best," "Good," or "Low." Replace "Low" rated assets with new variations. Over time, you will build a library of proven messaging that you can use across campaigns.' },
     ],
@@ -68,14 +68,14 @@ const phases = [
   },
   {
     num: '05',
-    title: 'Scale — Grow What Works, Cut What Does Not',
+    title: 'Scale, Grow What Works, Cut What Does Not',
     subtitle: 'Scaling is not about spending more. It is about spending more on what is already working.',
     color: '#E98C28',
     steps: [
-      { name: 'Budget reallocation', desc: 'Once you have 60+ days of data, identify your best-performing campaigns by cost per conversion. Increase budgets on campaigns with a CPA below your target. Reduce or pause campaigns with a CPA above your target. Do not increase budgets on underperforming campaigns hoping they will improve — fix them first.' },
-      { name: 'Remarketing campaigns', desc: 'Your remarketing audiences should now be populated (from Phase 1). Launch a Display or Demand Gen remarketing campaign targeting people who visited your site but did not convert. These people already know you — they are far cheaper to convert than cold traffic.' },
+      { name: 'Budget reallocation', desc: 'Once you have 60+ days of data, identify your best-performing campaigns by cost per conversion. Increase budgets on campaigns with a CPA below your target. Reduce or pause campaigns with a CPA above your target. Do not increase budgets on underperforming campaigns hoping they will improve, fix them first.' },
+      { name: 'Remarketing campaigns', desc: 'Your remarketing audiences should now be populated (from Phase 1). Launch a Display or Demand Gen remarketing campaign targeting people who visited your site but did not convert. These people already know you, they are far cheaper to convert than cold traffic.' },
       { name: 'Performance Max (when ready)', desc: 'Once you have strong conversion data and proven messaging, consider adding a Performance Max campaign. PMax uses your existing assets and conversion data to find new customers across all Google channels. It works best as a complement to your Search campaigns, not a replacement. Read our full guide on <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" class="text-[#318599] hover:underline">Google Ads campaign types</a>.' },
-      { name: 'Reporting and iteration', desc: 'Build a monthly reporting cadence. Track: total spend, total conversions, cost per conversion, conversion rate, and impression share. Compare month over month. Set a clear target CPA or ROAS for each campaign and make decisions based on whether you are hitting it — not on gut feel.' },
+      { name: 'Reporting and iteration', desc: 'Build a monthly reporting cadence. Track: total spend, total conversions, cost per conversion, conversion rate, and impression share. Compare month over month. Set a clear target CPA or ROAS for each campaign and make decisions based on whether you are hitting it, not on gut feel.' },
     ],
     aiTip: 'Ask ChatGPT: "Here is my Google Ads performance data for the last 30 days: [paste data]. Which campaigns should I scale, which should I optimise, and which should I pause? Explain your reasoning."'
   }
@@ -92,19 +92,19 @@ const faqs = [
   },
   {
     q: 'How long does it take for Google Ads to work?',
-    a: 'Most Google Ads campaigns need 30 to 90 days to reach full performance. The first 30 days are a learning phase — Google\'s AI is gathering data about which users convert. Days 30 to 60 are the optimisation phase — you use your search term data to add negative keywords, improve ad copy, and refine targeting. By day 90, you should have enough conversion data to switch to Smart Bidding and start scaling. Campaigns that are paused or heavily modified during the learning phase take longer to reach performance.'
+    a: 'Most Google Ads campaigns need 30 to 90 days to reach full performance. The first 30 days are a learning phase, Google\'s AI is gathering data about which users convert. Days 30 to 60 are the optimisation phase, you use your search term data to add negative keywords, improve ad copy, and refine targeting. By day 90, you should have enough conversion data to switch to Smart Bidding and start scaling. Campaigns that are paused or heavily modified during the learning phase take longer to reach performance.'
   },
   {
     q: 'What is the most important Google Ads metric to track?',
-    a: 'Cost per conversion (also called cost per acquisition or CPA) is the most important metric for most businesses. It tells you exactly how much you are paying to acquire a customer or lead. Compare your CPA to your customer lifetime value to determine whether your campaigns are profitable. Clicks, impressions, and CTR are secondary metrics — they matter, but only in the context of whether they are driving conversions at a profitable cost.'
+    a: 'Cost per conversion (also called cost per acquisition or CPA) is the most important metric for most businesses. It tells you exactly how much you are paying to acquire a customer or lead. Compare your CPA to your customer lifetime value to determine whether your campaigns are profitable. Clicks, impressions, and CTR are secondary metrics, they matter, but only in the context of whether they are driving conversions at a profitable cost.'
   },
   {
     q: 'Should I use Performance Max or Search campaigns?',
-    a: 'Start with Search campaigns. They give you the most control and transparency — you can see exactly which keywords and search terms are driving results. Once you have 60+ conversions and proven messaging, add a Performance Max campaign as a complement to your Search campaigns. PMax works best when it has strong conversion data and high-quality creative assets to work with. Running PMax without conversion data or without Search campaigns running alongside it is one of the most common Google Ads mistakes.'
+    a: 'Start with Search campaigns. They give you the most control and transparency, you can see exactly which keywords and search terms are driving results. Once you have 60+ conversions and proven messaging, add a Performance Max campaign as a complement to your Search campaigns. PMax works best when it has strong conversion data and high-quality creative assets to work with. Running PMax without conversion data or without Search campaigns running alongside it is one of the most common Google Ads mistakes.'
   },
   {
     q: 'What is a good Google Ads conversion rate?',
-    a: 'Average Google Ads conversion rates vary significantly by industry. For lead generation (form submissions), 2% to 5% is typical. For e-commerce, 1% to 3% is common. For high-intent service businesses (like legal, medical, or home services), 5% to 15% is achievable with well-optimised landing pages. The most important benchmark is your own historical data — focus on improving your conversion rate month over month rather than comparing to industry averages.'
+    a: 'Average Google Ads conversion rates vary significantly by industry. For lead generation (form submissions), 2% to 5% is typical. For e-commerce, 1% to 3% is common. For high-intent service businesses (like legal, medical, or home services), 5% to 15% is achievable with well-optimised landing pages. The most important benchmark is your own historical data, focus on improving your conversion rate month over month rather than comparing to industry averages.'
   },
   {
     q: 'Do I need a Google Ads agency or can I manage it myself?',
@@ -112,7 +112,7 @@ const faqs = [
   },
   {
     q: 'What is the difference between Google Ads and SEO?',
-    a: 'Google Ads (paid search) puts your business at the top of search results immediately — you pay per click. SEO (organic search) builds your rankings over time through content and technical optimisation — it is free per click but takes months to see results. For most businesses, the best strategy is to use Google Ads for immediate traffic and lead generation while building SEO for long-term organic growth. They are complementary, not competing strategies.'
+    a: 'Google Ads (paid search) puts your business at the top of search results immediately, you pay per click. SEO (organic search) builds your rankings over time through content and technical optimisation, it is free per click but takes months to see results. For most businesses, the best strategy is to use Google Ads for immediate traffic and lead generation while building SEO for long-term organic growth. They are complementary, not competing strategies.'
   }
 ];
 
@@ -120,7 +120,7 @@ export default function PostGoogleAdsFramework() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
-    document.title = 'The KnowHow Google Ads Framework — 5 Phases to Profitable Campaigns | KnowHow Marketing Lab';
+    document.title = 'The KnowHow Google Ads Framework, 5 Phases to Profitable Campaigns | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method: Foundation, Research, Build, Optimise, Scale. Learn how to build profitable Google Ads campaigns from scratch.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -132,7 +132,7 @@ export default function PostGoogleAdsFramework() {
     articleScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "The KnowHow Google Ads Framework — 5 Phases to Profitable Campaigns (2026)",
+      "headline": "The KnowHow Google Ads Framework, 5 Phases to Profitable Campaigns (2026)",
       "description": "The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method: Foundation, Research, Build, Optimise, Scale.",
       "datePublished": "2026-03-23",
       "dateModified": "2026-03-23",
@@ -161,7 +161,7 @@ export default function PostGoogleAdsFramework() {
     howToScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "name": "The KnowHow Google Ads Framework — How to Build Profitable Google Ads Campaigns",
+      "name": "The KnowHow Google Ads Framework, How to Build Profitable Google Ads Campaigns",
       "description": "A 5-phase framework for building, managing, and scaling Google Ads campaigns for medium-sized businesses.",
       "step": phases.map(p => ({
         "@type": "HowToStep",
@@ -254,7 +254,7 @@ export default function PostGoogleAdsFramework() {
               Most Google Ads campaigns fail for the same reasons: no conversion tracking, wrong campaign type, keywords without intent, and budgets increased before the data is ready. The result is a lot of spend with nothing to show for it.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients — and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our free Google Ads course</Link> and <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link> — to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
+              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients, and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our free Google Ads course</Link> and <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link>, to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               The five phases are: <strong>Foundation</strong> (set up to measure everything), <strong>Research</strong> (know your market before you bid), <strong>Build</strong> (structure your account for scale), <strong>Optimise</strong> (let data drive every decision), and <strong>Scale</strong> (grow what works, cut what does not). Each phase has specific steps, tools, and AI-assisted shortcuts.
@@ -268,7 +268,7 @@ export default function PostGoogleAdsFramework() {
               {phases.map((p, i) => (
                 <a key={i} href={`#phase-${p.num}`} className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   <span className="font-bold text-[#E98C28]">{p.num}</span>
-                  <span>{p.title.split(' — ')[0]}</span>
+                  <span>{p.title.split(', ')[0]}</span>
                 </a>
               ))}
             </div>
@@ -279,11 +279,11 @@ export default function PostGoogleAdsFramework() {
             <p className="text-sm font-semibold text-slate-700 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>In this guide:</p>
             <ol className="space-y-2">
               {[
-                { href: '#phase-01', label: 'Phase 01: Foundation — Set Up to Measure Everything' },
-                { href: '#phase-02', label: 'Phase 02: Research — Know Your Market Before You Bid' },
-                { href: '#phase-03', label: 'Phase 03: Build — Structure Your Account for Scale' },
-                { href: '#phase-04', label: 'Phase 04: Optimise — Let Data Drive Every Decision' },
-                { href: '#phase-05', label: 'Phase 05: Scale — Grow What Works, Cut What Does Not' },
+                { href: '#phase-01', label: 'Phase 01: Foundation, Set Up to Measure Everything' },
+                { href: '#phase-02', label: 'Phase 02: Research, Know Your Market Before You Bid' },
+                { href: '#phase-03', label: 'Phase 03: Build, Structure Your Account for Scale' },
+                { href: '#phase-04', label: 'Phase 04: Optimise, Let Data Drive Every Decision' },
+                { href: '#phase-05', label: 'Phase 05: Scale, Grow What Works, Cut What Does Not' },
                 { href: '#common-mistakes', label: 'The 5 Most Common Google Ads Mistakes' },
                 { href: '#faq', label: 'Frequently Asked Questions' },
               ].map((item, i) => (
@@ -332,7 +332,7 @@ export default function PostGoogleAdsFramework() {
           <section id="common-mistakes" className="mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The 5 Most Common Google Ads Mistakes</h2>
             <p className="text-lg text-slate-600 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              After managing Google Ads for medium-sized businesses for 20+ years, these are the mistakes we see most often — and the ones that cost the most money.
+              After managing Google Ads for medium-sized businesses for 20+ years, these are the mistakes we see most often, and the ones that cost the most money.
             </p>
             <div className="space-y-4">
               {[
@@ -349,7 +349,7 @@ export default function PostGoogleAdsFramework() {
                 {
                   num: '03',
                   title: 'Switching to Smart Bidding too early',
-                  desc: 'Smart Bidding (Target CPA, Target ROAS) needs conversion data to work. Switching before you have 30+ conversions in 30 days puts Google\'s AI in a learning phase with no signal — it will spend your budget inefficiently. Start with Manual CPC or Maximise Clicks, gather data, then switch.'
+                  desc: 'Smart Bidding (Target CPA, Target ROAS) needs conversion data to work. Switching before you have 30+ conversions in 30 days puts Google\'s AI in a learning phase with no signal, it will spend your budget inefficiently. Start with Manual CPC or Maximise Clicks, gather data, then switch.'
                 },
                 {
                   num: '04',
@@ -359,7 +359,7 @@ export default function PostGoogleAdsFramework() {
                 {
                   num: '05',
                   title: 'Increasing budgets on underperforming campaigns',
-                  desc: 'More budget does not fix a broken campaign — it just burns more money faster. If a campaign has a high CPA or low conversion rate, fix the underlying problem first (keywords, ad copy, landing page, bidding strategy) before increasing the budget.'
+                  desc: 'More budget does not fix a broken campaign, it just burns more money faster. If a campaign has a high CPA or low conversion rate, fix the underlying problem first (keywords, ad copy, landing page, bidding strategy) before increasing the budget.'
                 },
               ].map((m, i) => (
                 <div key={i} className="flex gap-4 p-5 border border-slate-200 rounded-xl">
@@ -375,7 +375,7 @@ export default function PostGoogleAdsFramework() {
 
           {/* Free course CTA */}
           <div className="bg-slate-900 rounded-2xl p-8 mb-16 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn the Full Framework — Free</h2>
+            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn the Full Framework, Free</h2>
             <p className="text-slate-300 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               The KnowHow Google Ads course walks through every phase of this framework with video lessons, templates, and real campaign examples. No credit card required.
             </p>
@@ -423,10 +423,10 @@ export default function PostGoogleAdsFramework() {
             <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Related Reading</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { href: '/blog/the-ultimate-guide-to-google-ads-campaign-types', title: 'Google Ads Campaign Types 2026 — Every Type Explained', cat: 'Google Ads' },
-                { href: '/blog/the-ultimate-guide-to-google-ads-bidding-strategies', title: 'Google Ads Bidding Strategies 2026 — Which One Should You Use?', cat: 'Google Ads' },
+                { href: '/blog/the-ultimate-guide-to-google-ads-campaign-types', title: 'Google Ads Campaign Types 2026, Every Type Explained', cat: 'Google Ads' },
+                { href: '/blog/the-ultimate-guide-to-google-ads-bidding-strategies', title: 'Google Ads Bidding Strategies 2026, Which One Should You Use?', cat: 'Google Ads' },
                 { href: '/blog/adgroups-based-on-user-intent', title: 'How to Structure Ad Groups Based on User Intent', cat: 'Google Ads' },
-                { href: '/blog/ai-seo-course', title: 'AI SEO Course — How to Rank on Google and in ChatGPT (2026)', cat: 'AI SEO' },
+                { href: '/blog/ai-seo-course', title: 'AI SEO Course, How to Rank on Google and in ChatGPT (2026)', cat: 'AI SEO' },
               ].map((post, i) => (
                 <Link key={i} href={post.href} className="block p-5 border border-slate-200 rounded-xl hover:border-[#E98C28]/40 hover:bg-slate-50 transition-all group">
                   <span className="text-xs font-semibold uppercase tracking-wider text-[#E98C28]">{post.cat}</span>
@@ -440,7 +440,7 @@ export default function PostGoogleAdsFramework() {
           <div className="bg-[#E98C28] rounded-2xl p-8 text-center text-white">
             <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Get Help With Your Google Ads Campaigns</h2>
             <p className="text-white/90 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Join The Lab — Pip and Phelan work through your actual campaigns live every Thursday. Try free for 7 days.
+              Join The Lab, Pip and Phelan work through your actual campaigns live every Thursday. Try free for 7 days.
             </p>
             <a
               href={COMMUNITY_URL}

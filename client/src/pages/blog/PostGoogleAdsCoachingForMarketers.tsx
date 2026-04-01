@@ -10,15 +10,15 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching for marketers solves this by giving you expert feedback on your real campaigns — not a textbook example, not a demo account, your actual account.</p>
+const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching for marketers solves this by giving you expert feedback on your real campaigns, not a textbook example, not a demo account, your actual account.</p>
 
 <p>This post explains what Google Ads coaching looks like, who it is for, and how to find a coach who will actually move the needle for your business.</p>
 
 <h2 id="what-is-google-ads-coaching">What Is Google Ads Coaching for Marketers?</h2>
 
-<p>Google Ads coaching is a structured learning and feedback process where an experienced Google Ads specialist works directly with you on your campaigns. You share your account, your data, and your goals — and you get specific, actionable advice on what to fix and why.</p>
+<p>Google Ads coaching is a structured learning and feedback process where an experienced Google Ads specialist works directly with you on your campaigns. You share your account, your data, and your goals, and you get specific, actionable advice on what to fix and why.</p>
 
-<p>It is different from a course because it is personalised to your account. A course teaches you general principles. Coaching looks at your specific campaign structure, your keyword list, your Quality Scores, your bidding strategy, and your conversion tracking — and tells you exactly what is working and what is not.</p>
+<p>It is different from a course because it is personalised to your account. A course teaches you general principles. Coaching looks at your specific campaign structure, your keyword list, your Quality Scores, your bidding strategy, and your conversion tracking, and tells you exactly what is working and what is not.</p>
 
 <p>Good Google Ads coaching covers:</p>
 
@@ -43,14 +43,14 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <li>You want to bring Google Ads management in-house and need to build the skills to do it properly.</li>
 </ul>
 
-<p>It is particularly valuable for medium-sized businesses where the marketing team is small but the ad spend is significant. At $5,000–$20,000 per month in ad spend, even a 10% improvement in efficiency is worth thousands of dollars per month.</p>
+<p>It is particularly valuable for medium-sized businesses where the marketing team is small but the ad spend is significant. At $5,000-$20,000 per month in ad spend, even a 10% improvement in efficiency is worth thousands of dollars per month.</p>
 
 <h2 id="what-to-look-for-in-a-google-ads-coach">What to Look for in a Google Ads Coach</h2>
 
 <p>Not all Google Ads coaching is equal. Here is what separates a good coach from a waste of time:</p>
 
 <ul class="wp-block-list">
-<li><strong>They look at your actual account.</strong> A good coach will ask to see your Google Ads account, your GA4 data, and your conversion tracking setup. If they are only talking in generalities, they are not coaching — they are lecturing.</li>
+<li><strong>They look at your actual account.</strong> A good coach will ask to see your Google Ads account, your GA4 data, and your conversion tracking setup. If they are only talking in generalities, they are not coaching, they are lecturing.</li>
 <li><strong>They explain the reasoning, not just the fix.</strong> You should understand why you are making each change. If you don't understand the reasoning, you can't maintain the account after the coaching ends.</li>
 <li><strong>They know conversion tracking cold.</strong> Google Ads is only as good as the data feeding it. A coach who doesn't start with conversion tracking is skipping the most important step.</li>
 <li><strong>They are up to date on Smart Bidding and AI.</strong> Google Ads in 2026 is fundamentally different from Google Ads in 2020. Performance Max, Smart Bidding Exploration, and AI-generated assets are now central to how the platform works. If your coach isn't talking about these, they are behind.</li>
@@ -66,7 +66,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <li><strong>Choose coaching</strong> if you already have campaigns running and you want someone to look at your specific account and tell you what to fix. Coaching is also the right choice if you are spending significant money and need to get results faster than trial and error allows.</li>
 </ul>
 
-<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">free Google Ads bootcamp</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that — where Phelan looks at your actual account and tells you what to change — <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Thursday where members bring their real accounts.</p>
+<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">free Google Ads bootcamp</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Thursday where members bring their real accounts.</p>
 
 <h2 id="what-good-google-ads-coaching-covers">What Good Google Ads Coaching Covers</h2>
 
@@ -92,7 +92,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 
 <h2 id="how-knowhow-marketing-lab-approaches-google-ads-coaching">How KnowHow Marketing Lab Approaches Google Ads Coaching</h2>
 
-<p>Phelan Lewis has managed millions of dollars in Google Ads spend across retail, professional services, healthcare, and manufacturing. He built the Google Ads curriculum at KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses — not solo freelancers, not enterprise brands with dedicated agencies.</p>
+<p>Phelan Lewis has managed millions of dollars in Google Ads spend across retail, professional services, healthcare, and manufacturing. He built the Google Ads curriculum at KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands with dedicated agencies.</p>
 
 <p>The approach is practical and data-first. Every Thursday, Lab members bring their real Google Ads accounts to a live session. Phelan looks at the data, explains what he sees, and gives specific recommendations. Members leave each session with a clear list of things to do.</p>
 
@@ -103,19 +103,19 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">How much does Google Ads coaching cost?</h3>
-<p>Independent Google Ads coaches typically charge $150–$500 per hour for one-on-one sessions. Agency-based coaching programmes can cost $1,000–$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month — the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
+<p>Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. Agency-based coaching programmes can cost $1,000-$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month, the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
 
 <h3 class="wp-block-heading">How long does it take to see results from Google Ads coaching?</h3>
-<p>Most accounts see measurable improvements within 2–4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2–4 weeks for the algorithm to re-learn). Bidding strategy changes take 1–3 weeks to stabilise after the learning phase.</p>
+<p>Most accounts see measurable improvements within 2-4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2-4 weeks for the algorithm to re-learn). Bidding strategy changes take 1-3 weeks to stabilise after the learning phase.</p>
 
 <h3 class="wp-block-heading">Do I need to share access to my Google Ads account for coaching?</h3>
-<p>For one-on-one coaching, yes — a coach needs to see your actual account data to give you specific advice. For group coaching like The Lab, you can share your screen during the session. You should never give a coach admin access to your account; manager access (read-only or standard) is sufficient for coaching purposes.</p>
+<p>For one-on-one coaching, yes, a coach needs to see your actual account data to give you specific advice. For group coaching like The Lab, you can share your screen during the session. You should never give a coach admin access to your account; manager access (read-only or standard) is sufficient for coaching purposes.</p>
 
 <h3 class="wp-block-heading">Can Google Ads coaching help with Performance Max campaigns?</h3>
 <p>Yes. Performance Max is now the default campaign type for most advertisers, but it is also the most misunderstood. A good coach will help you set up your asset groups correctly, understand what the campaign is actually doing, and use the Insights tab to interpret performance. Without coaching, most advertisers either avoid Performance Max entirely or run it without understanding what signals they are giving Google.</p>
 
 <h3 class="wp-block-heading">Is Google Ads coaching worth it if I only spend $1,000 per month?</h3>
-<p>At $1,000/month in ad spend, the margin for error is smaller but coaching can still be worth it. The main benefit at lower spend levels is avoiding the common setup mistakes that cause campaigns to fail in the first 30 days — poor campaign structure, no conversion tracking, and wrong bidding strategy. Getting these right from the start is worth more than the cost of coaching.</p>`;
+<p>At $1,000/month in ad spend, the margin for error is smaller but coaching can still be worth it. The main benefit at lower spend levels is avoiding the common setup mistakes that cause campaigns to fail in the first 30 days, poor campaign structure, no conversion tracking, and wrong bidding strategy. Getting these right from the start is worth more than the cost of coaching.</p>`;
 
 export default function PostGoogleAdsCoachingForMarketers() {
   useEffect(() => {
@@ -124,7 +124,7 @@ export default function PostGoogleAdsCoachingForMarketers() {
     script.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Google Ads Coaching for Marketers — What to Look For and How It Works",
+      "headline": "Google Ads Coaching for Marketers, What to Look For and How It Works",
       "description": "What good Google Ads coaching for marketers looks like, who it is for, and how to find the right coach. Covers campaign structure, bidding strategy, conversion tracking, and Performance Max.",
       "datePublished": "2026-03-24",
       "dateModified": "2026-03-24",
@@ -157,11 +157,11 @@ export default function PostGoogleAdsCoachingForMarketers() {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How much does Google Ads coaching cost?", "acceptedAnswer": { "@type": "Answer", "text": "Independent Google Ads coaches typically charge $150–$500 per hour for one-on-one sessions. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month as part of a group format." } },
-        { "@type": "Question", "name": "How long does it take to see results from Google Ads coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most accounts see measurable improvements within 2–4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2–4 weeks for the algorithm to re-learn)." } },
-        { "@type": "Question", "name": "Do I need to share access to my Google Ads account for coaching?", "acceptedAnswer": { "@type": "Answer", "text": "For one-on-one coaching, yes. For group coaching like The Lab, you can share your screen during the session. You should never give a coach admin access — manager access (read-only or standard) is sufficient." } },
+        { "@type": "Question", "name": "How much does Google Ads coaching cost?", "acceptedAnswer": { "@type": "Answer", "text": "Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month as part of a group format." } },
+        { "@type": "Question", "name": "How long does it take to see results from Google Ads coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most accounts see measurable improvements within 2-4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2-4 weeks for the algorithm to re-learn)." } },
+        { "@type": "Question", "name": "Do I need to share access to my Google Ads account for coaching?", "acceptedAnswer": { "@type": "Answer", "text": "For one-on-one coaching, yes. For group coaching like The Lab, you can share your screen during the session. You should never give a coach admin access, manager access (read-only or standard) is sufficient." } },
         { "@type": "Question", "name": "Can Google Ads coaching help with Performance Max campaigns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Performance Max is now the default campaign type for most advertisers. A good coach will help you set up your asset groups correctly, understand what the campaign is doing, and use the Insights tab to interpret performance." } },
-        { "@type": "Question", "name": "Is Google Ads coaching worth it if I only spend $1,000 per month?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. At $1,000/month in ad spend, coaching helps you avoid the common setup mistakes that cause campaigns to fail in the first 30 days — poor campaign structure, no conversion tracking, and wrong bidding strategy." } }
+        { "@type": "Question", "name": "Is Google Ads coaching worth it if I only spend $1,000 per month?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. At $1,000/month in ad spend, coaching helps you avoid the common setup mistakes that cause campaigns to fail in the first 30 days, poor campaign structure, no conversion tracking, and wrong bidding strategy." } }
       ]
     });
     document.head.appendChild(faqScript);
@@ -179,7 +179,7 @@ export default function PostGoogleAdsCoachingForMarketers() {
     });
     document.head.appendChild(breadcrumbScript);
 
-    document.title = 'Google Ads Coaching for Marketers — What to Look For | KnowHow Marketing Lab';
+    document.title = 'Google Ads Coaching for Marketers, What to Look For | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'What good Google Ads coaching for marketers looks like, who it is for, and how to find the right coach. Covers campaign structure, bidding strategy, conversion tracking, Quality Score, and Performance Max.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -217,7 +217,7 @@ export default function PostGoogleAdsCoachingForMarketers() {
 
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Google Ads Coaching for Marketers — What to Look For and How It Works
+            Google Ads Coaching for Marketers, What to Look For and How It Works
           </h1>
 
           {/* Author */}
@@ -266,7 +266,7 @@ export default function PostGoogleAdsCoachingForMarketers() {
             <h2 className="text-2xl font-bold mb-3">Ready to get coaching on your real Google Ads account?</h2>
             <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab — $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
               <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free Google Ads Course</a>
             </div>
           </div>

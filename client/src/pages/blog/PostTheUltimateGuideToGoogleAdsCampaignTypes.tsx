@@ -262,7 +262,7 @@ https://youtu.be/nzTa2wJEN9k
                   decoding="async"
                 /></figure>
 
-<p>Once you have chosen your campaign type, the next critical decision is <strong>how to bid</strong>. Your bidding strategy determines how Google spends your budget — and getting it wrong is one of the most common reasons campaigns underperform. Read our complete guide: <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">Google Ads Bidding Strategies 2026 — Which One Should You Use?</a></p>
+<p>Once you have chosen your campaign type, the next critical decision is <strong>how to bid</strong>. Your bidding strategy determines how Google spends your budget, and getting it wrong is one of the most common reasons campaigns underperform. Read our complete guide: <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">Google Ads Bidding Strategies 2026, Which One Should You Use?</a></p>
 
 <h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
 
@@ -411,9 +411,9 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
   }
 });
     document.head.appendChild(script);
-    document.title = 'Google Ads Campaign Types 2026 [Complete Guide] — Which One Actually Works? | KnowHow Marketing Lab';
+    document.title = 'Google Ads Campaign Types 2026 [Complete Guide], Which One Actually Works? | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Stop wasting ad spend on the wrong campaign type. Free 2026 guide covers all 7 Google Ads campaign types — Performance Max, Search, Shopping, Demand Gen, Video, Display & App. See exactly which one to use for your goals.');
+    if (metaDesc) metaDesc.setAttribute('content', 'Stop wasting ad spend on the wrong campaign type. Free 2026 guide covers all 7 Google Ads campaign types, Performance Max, Search, Shopping, Demand Gen, Video, Display & App. See exactly which one to use for your goals.');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/the-ultimate-guide-to-google-ads-campaign-types');
     const ogImage = document.querySelector('meta[property="og:image"]');

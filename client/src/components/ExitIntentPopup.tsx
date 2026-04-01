@@ -143,13 +143,13 @@ export default function ExitIntentPopup() {
             </h2>
 
             <p className="text-gray-600 text-sm leading-relaxed mb-5">
-              Try The Lab free for 7 days — Thursday sessions where Pip &amp; Phelan work through your real campaigns live. Then just <strong>$29/mo</strong>. Cancel anytime before day 7 and pay nothing.
+              Try The Lab free for 7 days, Thursday sessions where Pip &amp; Phelan work through your real campaigns live. Then just <strong>$29/mo</strong>. Cancel anytime before day 7 and pay nothing.
             </p>
 
             {/* What you get */}
             <ul className="space-y-2 mb-6">
               {[
-                'Thursday Lab sessions — hands-on help with your real campaigns',
+                'Thursday Lab sessions, hands-on help with your real campaigns',
                 'AI + SEO + Google Ads courses included',
                 'Private community of business owners',
               ].map((item) => (

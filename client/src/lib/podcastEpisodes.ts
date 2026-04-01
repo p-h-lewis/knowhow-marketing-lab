@@ -1,5 +1,5 @@
 export const podcastEpisodes = [
-  // 2025 episodes — GeekSpeak / KnowHow Marketing Lab Podcast
+  // 2025 episodes, GeekSpeak / KnowHow Marketing Lab Podcast
   { id: 'Ay0VQU9XPrQ', title: 'This Month In The World Of Marketing', date: 'March 1, 2026', year: 2026 },
   { id: 'FdVqaeW8_48', title: 'Google Analytics 4', date: 'December 19, 2025', year: 2025 },
   { id: 'NuPDxQ_P5w0', title: 'Year-End Website Audit: What Every Business Owner Must Fix for 2026', date: 'December 12, 2025', year: 2025 },

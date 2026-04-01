@@ -46,8 +46,8 @@ export default function Navbar() {
   }, []);
 
   const coachingDropdownLinks = [
-    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions — $29/mo', highlight: false },
-    { label: '🚀 Mastermind — 8 Seats Left', href: '/mastermind', desc: '8-week intensive · $2,000 · Starts May 12', highlight: true },
+    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions, $29/mo', highlight: false },
+    { label: '🚀 Mastermind, 8 Seats Left', href: '/mastermind', desc: '8-week intensive · $2,000 · Starts May 12', highlight: true },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site', highlight: false },
@@ -57,7 +57,7 @@ export default function Navbar() {
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
     { label: 'Live Coaching', href: '/pricing' },
-    { label: '🚀 Mastermind — 8 Seats', href: '/mastermind', indent: true, highlight: true },
+    { label: '🚀 Mastermind, 8 Seats', href: '/mastermind', indent: true, highlight: true },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', indent: true },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', indent: true },
     { label: 'Community', href: '/community' },
@@ -171,7 +171,7 @@ export default function Navbar() {
                       className="flex items-center justify-between py-2 text-sm font-bold text-[#E98C28] hover:text-[#d47d20] transition-colors"
                       style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                     >
-                      Join The Lab — $29/mo
+                      Join The Lab, $29/mo
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>

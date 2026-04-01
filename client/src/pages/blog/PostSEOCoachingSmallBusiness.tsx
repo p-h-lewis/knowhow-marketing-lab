@@ -10,29 +10,29 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There are hundreds of things you could do — keywords, content, technical fixes, Google Search Console, GA4 — and it is hard to know where to start when you are also running everything else in the business.</p>
+const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There are hundreds of things you could do, keywords, content, technical fixes, Google Search Console, GA4, and it is hard to know where to start when you are also running everything else in the business.</p>
 
 <p>That is where SEO coaching helps. Instead of working through a generic course on your own, coaching means someone looks at your actual website and tells you specifically what to fix. This post explains what SEO coaching for small business looks like, what it costs, and how to get the most out of it.</p>
 
 <h2 id="what-seo-coaching-for-small-business-actually-means">What SEO Coaching for Small Business Actually Means</h2>
 
-<p>SEO coaching is not the same as hiring an SEO agency. An agency does the work for you. A coach teaches you to do it yourself — but with expert guidance on your specific situation.</p>
+<p>SEO coaching is not the same as hiring an SEO agency. An agency does the work for you. A coach teaches you to do it yourself, but with expert guidance on your specific situation.</p>
 
-<p>For small businesses, this distinction matters a lot. When you learn SEO with a coach, you build skills that stay with you forever. You understand why things work, which means you can keep improving your website long after the coaching ends. With an agency, the knowledge stays with them — and when you stop paying, the work stops too.</p>
+<p>For small businesses, this distinction matters a lot. When you learn SEO with a coach, you build skills that stay with you forever. You understand why things work, which means you can keep improving your website long after the coaching ends. With an agency, the knowledge stays with them, and when you stop paying, the work stops too.</p>
 
 <p>Good SEO coaching for a small business typically covers:</p>
 
 <ul class="wp-block-list">
 <li><strong>Google Search Console setup and reading:</strong> Most small businesses either don't have GSC set up or don't know how to read it. A coach will show you what your data is telling you and how to use it to make decisions.</li>
-<li><strong>Keyword research for your specific business:</strong> Generic keyword tools give you generic results. A coach helps you find the keywords that match what your actual customers are searching for — not just high-volume terms that big brands already dominate.</li>
-<li><strong>On-page SEO fixes:</strong> Title tags, meta descriptions, heading structure, internal linking — these are the basics that most small business websites get wrong. A coach will look at your pages and tell you exactly what to change.</li>
+<li><strong>Keyword research for your specific business:</strong> Generic keyword tools give you generic results. A coach helps you find the keywords that match what your actual customers are searching for, not just high-volume terms that big brands already dominate.</li>
+<li><strong>On-page SEO fixes:</strong> Title tags, meta descriptions, heading structure, internal linking, these are the basics that most small business websites get wrong. A coach will look at your pages and tell you exactly what to change.</li>
 <li><strong>Content strategy:</strong> What should you write about? How often? How long? A coach can help you build a content plan that targets real search queries your customers are using, without wasting time on content that will never rank.</li>
 <li><strong>GA4 and tracking:</strong> Are you measuring the right things? A coach can help you set up GA4 correctly so you can see what is actually driving traffic and conversions on your website.</li>
 </ul>
 
 <h2 id="why-small-businesses-struggle-with-seo">Why Small Businesses Struggle with SEO</h2>
 
-<p>SEO is genuinely hard for small businesses — not because the concepts are complicated, but because of three specific challenges:</p>
+<p>SEO is genuinely hard for small businesses, not because the concepts are complicated, but because of three specific challenges:</p>
 
 <h3 class="wp-block-heading">1. Too much conflicting advice</h3>
 <p>Search for "how to do SEO" and you will get thousands of articles, most of which contradict each other. Some say to focus on backlinks. Others say content is everything. Some push technical SEO. A coach cuts through the noise and tells you what actually matters for your specific website and industry.</p>
@@ -41,29 +41,29 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <p>A small business owner or marketing manager has a full-time job already. Spending 20 hours learning SEO theory is not realistic. Coaching is faster because you skip the parts that don't apply to you and focus on what will move the needle for your specific situation.</p>
 
 <h3 class="wp-block-heading">3. Hard to know if you're doing it right</h3>
-<p>SEO results take time — usually 3–6 months to see meaningful changes. Without someone to check your work, it is easy to spend months doing the wrong things and not realise it until much later. A coach gives you feedback in real time so you can course-correct quickly.</p>
+<p>SEO results take time, usually 3-6 months to see meaningful changes. Without someone to check your work, it is easy to spend months doing the wrong things and not realise it until much later. A coach gives you feedback in real time so you can course-correct quickly.</p>
 
 <h2 id="what-to-look-for-in-seo-coaching-for-small-business">What to Look For in SEO Coaching for Small Business</h2>
 
 <p>Not all SEO coaching is the same. Here is what separates good coaching from bad:</p>
 
 <ul class="wp-block-list">
-<li><strong>They look at your actual website.</strong> Generic advice is easy to give. Good coaching means someone looks at your specific pages, your GSC data, and your analytics — not a hypothetical example.</li>
+<li><strong>They look at your actual website.</strong> Generic advice is easy to give. Good coaching means someone looks at your specific pages, your GSC data, and your analytics, not a hypothetical example.</li>
 <li><strong>They explain the why, not just the what.</strong> A coach who tells you to "add keywords to your title tag" without explaining why is not teaching you anything. Good coaching builds your understanding so you can make decisions independently.</li>
 <li><strong>They are honest about timelines.</strong> SEO takes time. Any coach who promises fast results or guarantees rankings is not being straight with you. Good coaches set realistic expectations and help you measure progress properly.</li>
-<li><strong>They focus on data, not guesswork.</strong> Good SEO decisions are based on what Google Search Console and GA4 are actually showing you — not on hunches or industry trends. A data-driven coach will always start with your numbers.</li>
+<li><strong>They focus on data, not guesswork.</strong> Good SEO decisions are based on what Google Search Console and GA4 are actually showing you, not on hunches or industry trends. A data-driven coach will always start with your numbers.</li>
 </ul>
 
-<p>This is the approach Pip uses in The Lab. Every coaching session starts with your actual data — what Google is showing, what is ranking, what is not, and why. See the <a href="/blog/data-driven-seo-guide-medium-sized-businesses" style="color:#318599;text-decoration:underline;">Data-First SEO guide</a> for the full methodology.</p>
+<p>This is the approach Pip uses in The Lab. Every coaching session starts with your actual data, what Google is showing, what is ranking, what is not, and why. See the <a href="/blog/data-driven-seo-guide-medium-sized-businesses" style="color:#318599;text-decoration:underline;">Data-First SEO guide</a> for the full methodology.</p>
 
 <h2 id="how-much-does-seo-coaching-cost-for-small-businesses">How Much Does SEO Coaching Cost for Small Businesses?</h2>
 
 <p>SEO coaching costs vary widely depending on the format:</p>
 
 <ul class="wp-block-list">
-<li><strong>One-on-one SEO coaching ($100–$400/hour):</strong> The most personalised option. A specialist looks at your website and gives you specific recommendations. Best for businesses that need fast, focused help and have the budget for it.</li>
-<li><strong>Group coaching ($29–$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalised than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29/month — Pip reviews real websites every Thursday.</li>
-<li><strong>Self-directed learning (free):</strong> A good free course teaches you the fundamentals so you can start improving your website on your own. The <a href="/courses/seo" style="color:#318599;text-decoration:underline;">KnowHow free SEO course</a> covers keyword research, Google Search Console, on-page SEO, and content strategy — all for free.</li>
+<li><strong>One-on-one SEO coaching ($100-$400/hour):</strong> The most personalised option. A specialist looks at your website and gives you specific recommendations. Best for businesses that need fast, focused help and have the budget for it.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalised than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29/month, Pip reviews real websites every Thursday.</li>
+<li><strong>Self-directed learning (free):</strong> A good free course teaches you the fundamentals so you can start improving your website on your own. The <a href="/courses/seo" style="color:#318599;text-decoration:underline;">KnowHow free SEO course</a> covers keyword research, Google Search Console, on-page SEO, and content strategy, all for free.</li>
 </ul>
 
 <p>For most small businesses, the best approach is to start with the free course to understand the basics, then use group coaching to get feedback on your specific website. This gives you the knowledge to manage your own SEO while still getting expert input on what to prioritise.</p>
@@ -76,17 +76,17 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <p>If you do not have Google Search Console set up, this is your first job. GSC shows you exactly what searches are bringing people to your website, what position you are ranking in, and which pages are getting impressions but no clicks. This data tells you where to focus. Without it, you are guessing.</p>
 
 <h3 class="wp-block-heading">2. Fix Your Title Tags</h3>
-<p>Your title tag is the blue link text that appears in Google search results. It is one of the most important on-page SEO signals. Check every page on your website — does the title tag clearly describe what the page is about and include the main keyword? Most small business websites have either generic titles ("Home | Business Name") or no titles at all.</p>
+<p>Your title tag is the blue link text that appears in Google search results. It is one of the most important on-page SEO signals. Check every page on your website, does the title tag clearly describe what the page is about and include the main keyword? Most small business websites have either generic titles ("Home | Business Name") or no titles at all.</p>
 
 <h3 class="wp-block-heading">3. Find Your Zero-Click Opportunities</h3>
-<p>In GSC, go to Performance → Pages. Look for pages that have lots of impressions but very few clicks. These are pages where Google is already ranking you — but your title tag or meta description is not compelling enough to get the click. Fixing these pages is one of the fastest ways to get more traffic without creating new content.</p>
+<p>In GSC, go to Performance → Pages. Look for pages that have lots of impressions but very few clicks. These are pages where Google is already ranking you, but your title tag or meta description is not compelling enough to get the click. Fixing these pages is one of the fastest ways to get more traffic without creating new content.</p>
 
 <h3 class="wp-block-heading">4. Build a Simple Content Plan</h3>
-<p>What questions are your customers asking before they buy? Write one blog post that answers each question clearly and thoroughly. This is the foundation of a content strategy that works for small businesses — not chasing high-volume keywords, but answering the specific questions your customers are actually searching for. The <a href="/blog/ai-seo-course" style="color:#318599;text-decoration:underline;">AI SEO course</a> covers how to do this using AI tools to speed up the process.</p>
+<p>What questions are your customers asking before they buy? Write one blog post that answers each question clearly and thoroughly. This is the foundation of a content strategy that works for small businesses, not chasing high-volume keywords, but answering the specific questions your customers are actually searching for. The <a href="/blog/ai-seo-course" style="color:#318599;text-decoration:underline;">AI SEO course</a> covers how to do this using AI tools to speed up the process.</p>
 
 <h2 id="how-knowhow-marketing-lab-helps-small-businesses-with-seo">How KnowHow Marketing Lab Helps Small Businesses with SEO</h2>
 
-<p>KnowHow Marketing Lab was built for small and medium-sized businesses that want to understand and manage their own SEO without paying agency fees. The free <a href="/courses/seo" style="color:#318599;text-decoration:underline;">SEO course</a> covers the Data-First AI SEO Method — keyword research, Google Search Console, on-page SEO, content strategy, and how to use AI tools to work faster.</p>
+<p>KnowHow Marketing Lab was built for small and medium-sized businesses that want to understand and manage their own SEO without paying agency fees. The free <a href="/courses/seo" style="color:#318599;text-decoration:underline;">SEO course</a> covers the Data-First AI SEO Method, keyword research, Google Search Console, on-page SEO, content strategy, and how to use AI tools to work faster.</p>
 
 <p>For businesses that want live coaching on their actual website, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Thursday session every week where Pip reviews real websites and gives specific recommendations. At $29/month, it is designed to be accessible for small businesses.</p>
 
@@ -95,19 +95,19 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">How long does it take to see results from SEO coaching?</h3>
-<p>Most small businesses start seeing measurable improvements within 4–8 weeks of implementing coaching recommendations. The fastest wins usually come from fixing title tags and meta descriptions on pages that already have impressions in GSC. Bigger ranking improvements typically take 3–6 months as Google re-crawls and re-evaluates your pages.</p>
+<p>Most small businesses start seeing measurable improvements within 4-8 weeks of implementing coaching recommendations. The fastest wins usually come from fixing title tags and meta descriptions on pages that already have impressions in GSC. Bigger ranking improvements typically take 3-6 months as Google re-crawls and re-evaluates your pages.</p>
 
 <h3 class="wp-block-heading">Can I do SEO myself as a small business, or do I need to hire someone?</h3>
-<p>Most small businesses can manage their own SEO with the right training and occasional coaching. The fundamentals — keyword research, title tags, content creation, GSC monitoring — are learnable skills. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees. The key is starting with the basics and building from there, rather than trying to do everything at once.</p>
+<p>Most small businesses can manage their own SEO with the right training and occasional coaching. The fundamentals, keyword research, title tags, content creation, GSC monitoring, are learnable skills. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees. The key is starting with the basics and building from there, rather than trying to do everything at once.</p>
 
 <h3 class="wp-block-heading">What is the difference between SEO coaching and an SEO agency?</h3>
 <p>An agency does the work for you. Coaching teaches you to do it yourself. For small businesses, coaching is often the better long-term investment because you build skills that stay with you. An agency relationship ends when you stop paying; the knowledge from coaching stays with you forever.</p>
 
 <h3 class="wp-block-heading">Do I need technical SEO knowledge to benefit from coaching?</h3>
-<p>No. Good SEO coaching for small businesses starts with the basics — Google Search Console, title tags, content — not technical SEO. Technical SEO matters, but most small business websites have much bigger opportunities in on-page and content SEO that do not require any technical knowledge to fix.</p>
+<p>No. Good SEO coaching for small businesses starts with the basics, Google Search Console, title tags, content, not technical SEO. Technical SEO matters, but most small business websites have much bigger opportunities in on-page and content SEO that do not require any technical knowledge to fix.</p>
 
 <h3 class="wp-block-heading">How is SEO coaching different from an SEO course?</h3>
-<p>A course teaches you general principles. Coaching applies those principles to your specific website. Both are valuable — the best approach is usually to do a course first to understand the fundamentals, then use coaching to get feedback on how to apply them to your situation.</p>`;
+<p>A course teaches you general principles. Coaching applies those principles to your specific website. Both are valuable, the best approach is usually to do a course first to understand the fundamentals, then use coaching to get feedback on how to apply them to your situation.</p>`;
 
 export default function PostSEOCoachingSmallBusiness() {
   useEffect(() => {
@@ -116,7 +116,7 @@ export default function PostSEOCoachingSmallBusiness() {
     script.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "SEO Coaching for Small Business — What It Looks Like and How to Get Started",
+      "headline": "SEO Coaching for Small Business, What It Looks Like and How to Get Started",
       "description": "What SEO coaching for small business looks like, what it costs, and the highest-priority fixes to make first. Covers Google Search Console, title tags, content strategy, and the best coaching options for smaller budgets.",
       "datePublished": "2026-03-24",
       "dateModified": "2026-03-24",
@@ -149,10 +149,10 @@ export default function PostSEOCoachingSmallBusiness() {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How long does it take to see results from SEO coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses start seeing measurable improvements within 4–8 weeks of implementing coaching recommendations. The fastest wins usually come from fixing title tags and meta descriptions on pages that already have impressions in GSC. Bigger ranking improvements typically take 3–6 months." } },
-        { "@type": "Question", "name": "Can I do SEO myself as a small business, or do I need to hire someone?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses can manage their own SEO with the right training and occasional coaching. The fundamentals — keyword research, title tags, content creation, GSC monitoring — are learnable skills. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees." } },
+        { "@type": "Question", "name": "How long does it take to see results from SEO coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses start seeing measurable improvements within 4-8 weeks of implementing coaching recommendations. The fastest wins usually come from fixing title tags and meta descriptions on pages that already have impressions in GSC. Bigger ranking improvements typically take 3-6 months." } },
+        { "@type": "Question", "name": "Can I do SEO myself as a small business, or do I need to hire someone?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses can manage their own SEO with the right training and occasional coaching. The fundamentals, keyword research, title tags, content creation, GSC monitoring, are learnable skills. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees." } },
         { "@type": "Question", "name": "What is the difference between SEO coaching and an SEO agency?", "acceptedAnswer": { "@type": "Answer", "text": "An agency does the work for you. Coaching teaches you to do it yourself. For small businesses, coaching is often the better long-term investment because you build skills that stay with you forever." } },
-        { "@type": "Question", "name": "Do I need technical SEO knowledge to benefit from coaching?", "acceptedAnswer": { "@type": "Answer", "text": "No. Good SEO coaching for small businesses starts with the basics — Google Search Console, title tags, content — not technical SEO. Most small business websites have much bigger opportunities in on-page and content SEO that do not require any technical knowledge to fix." } },
+        { "@type": "Question", "name": "Do I need technical SEO knowledge to benefit from coaching?", "acceptedAnswer": { "@type": "Answer", "text": "No. Good SEO coaching for small businesses starts with the basics, Google Search Console, title tags, content, not technical SEO. Most small business websites have much bigger opportunities in on-page and content SEO that do not require any technical knowledge to fix." } },
         { "@type": "Question", "name": "How is SEO coaching different from an SEO course?", "acceptedAnswer": { "@type": "Answer", "text": "A course teaches you general principles. Coaching applies those principles to your specific website. The best approach is usually to do a course first to understand the fundamentals, then use coaching to get feedback on how to apply them to your situation." } }
       ]
     });
@@ -171,7 +171,7 @@ export default function PostSEOCoachingSmallBusiness() {
     });
     document.head.appendChild(breadcrumbScript);
 
-    document.title = 'SEO Coaching for Small Business — What It Looks Like and How to Get Started | KnowHow Marketing Lab';
+    document.title = 'SEO Coaching for Small Business, What It Looks Like and How to Get Started | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'What SEO coaching for small business looks like, what it costs, and the highest-priority fixes to make first. Covers Google Search Console, title tags, content strategy, and the best coaching options for smaller budgets.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -209,7 +209,7 @@ export default function PostSEOCoachingSmallBusiness() {
 
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            SEO Coaching for Small Business — What It Looks Like and How to Get Started
+            SEO Coaching for Small Business, What It Looks Like and How to Get Started
           </h1>
 
           {/* Author */}
@@ -256,9 +256,9 @@ export default function PostSEOCoachingSmallBusiness() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#266e80] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Get coaching on your real website</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your website to a live session every Thursday. Pip will look at your GSC data, your content, and your pages — and tell you exactly what to fix. $29/month, cancel anytime.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your website to a live session every Thursday. Pip will look at your GSC data, your content, and your pages, and tell you exactly what to fix. $29/month, cancel anytime.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab — $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
               <a href="/courses/seo" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free SEO Course</a>
             </div>
           </div>

@@ -19,7 +19,7 @@ const blogPosts = [
   //  PILLAR ARTICLE (new) 
   {
     slug: 'data-driven-seo-guide-medium-sized-businesses',
-    title: 'Digital Marketing Blog – SEO, Google Ads & GA4',
+    title: 'Digital Marketing Blog, SEO, Google Ads & GA4',
     excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses - the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the Data-First AI SEO Method step by step.',
     category: 'SEO',
     author: 'Pip Seymour',
@@ -34,7 +34,7 @@ const blogPosts = [
   //  NEW HIGH-PRIORITY SEO POSTS 
   {
     slug: 'ai-seo-course',
-    title: 'AI SEO Course — How to Rank on Google and in ChatGPT, Perplexity & Gemini (2026)',
+    title: 'AI SEO Course, How to Rank on Google and in ChatGPT, Perplexity & Gemini (2026)',
     excerpt: 'The complete AI SEO course for medium-sized businesses. Learn the KnowHow Data-First AI SEO Method: keyword research, on-page optimisation, Generative Engine Optimisation (GEO), and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.',
     category: 'SEO',
     author: 'Pip Seymour & Phelan Lewis',
@@ -49,7 +49,7 @@ const blogPosts = [
   {
     slug: 'google-ads-framework',
     title: 'The KnowHow Google Ads Framework: 5 Phases to Profitable Campaigns',
-    excerpt: 'The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method — Foundation, Research, Build, Optimise, Scale — walks you through every step of building campaigns that actually work, with AI shortcuts for each phase.',
+    excerpt: 'The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method, Foundation, Research, Build, Optimise, Scale, walks you through every step of building campaigns that actually work, with AI shortcuts for each phase.',
     category: 'Google Ads',
     author: 'Pip Seymour & Phelan Lewis',
     date: 'March 23, 2026',
@@ -63,8 +63,8 @@ const blogPosts = [
   //  COACHING POSTS 
   {
     slug: 'seo-coaching-for-small-business',
-    title: 'SEO Coaching for Small Business — What It Looks Like and How to Get Started',
-    excerpt: 'SEO can feel overwhelming for a small business. Coaching means someone looks at your actual website and tells you specifically what to fix — instead of working through generic advice on your own. Here is what SEO coaching looks like and how to get the most out of it.',
+    title: 'SEO Coaching for Small Business, What It Looks Like and How to Get Started',
+    excerpt: 'SEO can feel overwhelming for a small business. Coaching means someone looks at your actual website and tells you specifically what to fix, instead of working through generic advice on your own. Here is what SEO coaching looks like and how to get the most out of it.',
     category: 'Coaching',
     author: 'Pip Seymour',
     date: 'March 24, 2026',
@@ -77,8 +77,8 @@ const blogPosts = [
   },
   {
     slug: 'google-ads-coaching-for-small-business',
-    title: 'Google Ads Coaching for Small Business — What It Costs and How to Get Results',
-    excerpt: 'Google Ads can work really well for small businesses — but it can also drain your budget fast if you don’t know what you’re doing. This post explains what coaching looks like, what it costs, and the highest-priority fixes for small business accounts.',
+    title: 'Google Ads Coaching for Small Business, What It Costs and How to Get Results',
+    excerpt: 'Google Ads can work really well for small businesses, but it can also drain your budget fast if you don’t know what you’re doing. This post explains what coaching looks like, what it costs, and the highest-priority fixes for small business accounts.',
     category: 'Coaching',
     author: 'Phelan Lewis',
     date: 'March 24, 2026',
@@ -91,8 +91,8 @@ const blogPosts = [
   },
   {
     slug: 'google-ads-coaching-for-marketers',
-    title: 'Google Ads Coaching for Marketers — What to Look For and How It Works',
-    excerpt: 'Running Google Ads without knowing what you’re doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching gives you expert feedback on your real campaigns — not a textbook example, your actual account. Here is what good coaching looks like.',
+    title: 'Google Ads Coaching for Marketers, What to Look For and How It Works',
+    excerpt: 'Running Google Ads without knowing what you’re doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching gives you expert feedback on your real campaigns, not a textbook example, your actual account. Here is what good coaching looks like.',
     category: 'Coaching',
     author: 'Phelan Lewis',
     date: 'March 24, 2026',
@@ -105,8 +105,8 @@ const blogPosts = [
   },
   {
     slug: 'seo-and-analytics-coaching-for-marketers',
-    title: 'SEO and Analytics Coaching for Marketers — What to Look For and How It Works',
-    excerpt: 'Most marketing training gives you theory. SEO and analytics coaching works differently — you bring your real website, your real data, and your real questions, and leave with a clear plan. Here is what good coaching looks like and how to find the right fit for your team.',
+    title: 'SEO and Analytics Coaching for Marketers, What to Look For and How It Works',
+    excerpt: 'Most marketing training gives you theory. SEO and analytics coaching works differently, you bring your real website, your real data, and your real questions, and leave with a clear plan. Here is what good coaching looks like and how to find the right fit for your team.',
     category: 'Coaching',
     author: 'Pip Seymour',
     date: 'March 24, 2026',
@@ -117,11 +117,11 @@ const blogPosts = [
     imageAlt: 'Marketing team in a coaching session reviewing SEO and analytics data on a laptop',
     externalUrl: null,
   },
-  //  6-WEEK CONTENT PLAN POSTS (April–May 2026) 
+  //  6-WEEK CONTENT PLAN POSTS (April-May 2026) 
   {
     slug: 'how-to-use-ai-for-seo',
     title: 'How to Use AI for SEO: The KnowHow Method (2026)',
-    excerpt: 'AI tools can speed up SEO — but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimisation, and GEO — without losing the human expertise that makes content rank.',
+    excerpt: 'AI tools can speed up SEO, but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimisation, and GEO, without losing the human expertise that makes content rank.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'April 7, 2026',
@@ -129,13 +129,13 @@ const blogPosts = [
     readTime: '10 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80',
-    imageAlt: 'Using AI tools for SEO — laptop showing AI-generated content and keyword research data',
+    imageAlt: 'Using AI tools for SEO, laptop showing AI-generated content and keyword research data',
     externalUrl: null,
   },
   {
     slug: 'google-ads-coaching',
     title: 'Google Ads Coaching: What to Expect and How to Get Results',
-    excerpt: 'Google Ads coaching is not a course — it is expert feedback on your real campaigns. This post explains what good coaching looks like, what to bring to your first session, and how to measure whether it is working.',
+    excerpt: 'Google Ads coaching is not a course, it is expert feedback on your real campaigns. This post explains what good coaching looks like, what to bring to your first session, and how to measure whether it is working.',
     category: 'Coaching',
     author: 'Phelan Lewis',
     date: 'April 14, 2026',
@@ -143,7 +143,7 @@ const blogPosts = [
     readTime: '8 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-    imageAlt: 'Google Ads coaching session — reviewing campaign performance data with an expert',
+    imageAlt: 'Google Ads coaching session, reviewing campaign performance data with an expert',
     externalUrl: null,
   },
   {
@@ -157,7 +157,7 @@ const blogPosts = [
     readTime: '8 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
-    imageAlt: 'Free data-driven SEO course — analytics dashboard showing Google Search Console data',
+    imageAlt: 'Free data-driven SEO course, analytics dashboard showing Google Search Console data',
     externalUrl: null,
   },
   {
@@ -171,7 +171,7 @@ const blogPosts = [
     readTime: '11 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80',
-    imageAlt: 'Google Ads campaign types 2026 — overview of Search, Display, Shopping, Video, Performance Max, Demand Gen, and App campaigns',
+    imageAlt: 'Google Ads campaign types 2026, overview of Search, Display, Shopping, Video, Performance Max, Demand Gen, and App campaigns',
     externalUrl: null,
   },
   {
@@ -185,13 +185,13 @@ const blogPosts = [
     readTime: '9 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
-    imageAlt: 'SEO coaching for marketing teams — team reviewing analytics data and content strategy together',
+    imageAlt: 'SEO coaching for marketing teams, team reviewing analytics data and content strategy together',
     externalUrl: null,
   },
   {
     slug: 'google-ads-for-small-business',
     title: 'Google Ads for Small Business: A No-Waste Guide for 2026',
-    excerpt: 'Small businesses waste more money on Google Ads than any other type of advertiser — not because the platform doesn\'t work, but because nobody taught them the three things that actually matter. This guide fixes that.',
+    excerpt: 'Small businesses waste more money on Google Ads than any other type of advertiser, not because the platform doesn\'t work, but because nobody taught them the three things that actually matter. This guide fixes that.',
     category: 'Google Ads',
     author: 'Pip Seymour',
     date: 'May 12, 2026',
@@ -199,7 +199,7 @@ const blogPosts = [
     readTime: '10 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
-    imageAlt: 'Google Ads for small business — reviewing campaign performance data on laptop',
+    imageAlt: 'Google Ads for small business, reviewing campaign performance data on laptop',
     externalUrl: null,
   },
   //  CLUSTER POSTS (supporting the pillar) 
@@ -413,7 +413,7 @@ const pillarFaqs = [
 
 export default function Blog() {
   useSEO({
-    title: "Digital Marketing Blog – SEO, Google Ads & AI Guides",
+    title: "Digital Marketing Blog, SEO, Google Ads & AI Guides",
     description: "Free digital marketing guides covering SEO, Google Ads, GA4, and AI marketing. Written by agency veterans for medium-sized businesses.",
     canonical: "https://knowhowmarketinglab.com/blog",
     ogType: "website",

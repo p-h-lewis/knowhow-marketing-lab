@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab — Thank You: Power Hours Registration
+// KnowHow Marketing Lab, Thank You: Power Hours Registration
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599)
 // Purpose: Post-registration confirmation page for Free Power Hours sign-ups
 // Tracking: Fires GTM generate_lead event on mount for GA4 conversion tracking
@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 const ZOOM_URL = 'https://us02web.zoom.us/j/6217417145';
 const FB_GROUP_URL = 'https://www.facebook.com/groups/businessmarketingmixer';
 
-// Build the next Tuesday date dynamically — always returns next Tuesday (never today)
+// Build the next Tuesday date dynamically, always returns next Tuesday (never today)
 // Returns a plain object with year/month/day in Pacific time to avoid timezone confusion
 function getNextTuesdayPT(): { year: number; month: number; day: number } {
   const now = new Date();
@@ -75,9 +75,9 @@ export default function ThankYouPowerHours() {
   // Build a display date string from the PT date parts
   const displayDate = new Date(pt.year, pt.month - 1, pt.day).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
 
-  const eventTitle = encodeURIComponent('Free Marketing Power Hours – KnowHow Marketing Lab');
+  const eventTitle = encodeURIComponent('Free Marketing Power Hours, KnowHow Marketing Lab');
   const eventDesc = encodeURIComponent(
-    'Join Pip live on Zoom for a free open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy. Bring your real questions — no slides, just live answers. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.'
+    'Join Pip live on Zoom for a free open Q&A on Google Ads, SEO, AI, ChatGPT, LLMs, and marketing strategy. Bring your real questions, no slides, just live answers. NOT recorded, you must attend live. Check your confirmation email for the Zoom link.'
   );
   const eventLocation = encodeURIComponent('https://us02web.zoom.us/j/6217417145');
 
@@ -114,8 +114,8 @@ export default function ThankYouPowerHours() {
     `DTSTART:${icsStartStr}`,
     `DTEND:${icsEndStr}`,
     'RRULE:FREQ=WEEKLY;BYDAY=TU',
-    `SUMMARY:Free Marketing Power Hours – KnowHow Marketing Lab`,
-    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\, SEO\, AI\, ChatGPT\, LLMs\, and marketing strategy. NOT recorded — you must attend live. Check your confirmation email for the Zoom link.`,
+    `SUMMARY:Free Marketing Power Hours, KnowHow Marketing Lab`,
+    `DESCRIPTION:Join Pip live on Zoom for a free open Q&A on Google Ads\, SEO\, AI\, ChatGPT\, LLMs\, and marketing strategy. NOT recorded, you must attend live. Check your confirmation email for the Zoom link.`,
     `LOCATION:https://us02web.zoom.us/j/6217417145`,
     `URL:https://us02web.zoom.us/j/6217417145`,
     `UID:power-hours-${pt.year}${pad(pt.month)}${pad(pt.day)}@knowhowmarketinglab.com`,
@@ -141,7 +141,7 @@ export default function ThankYouPowerHours() {
   const outlookUrl = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${eventTitle}&startdt=${gcalStart}&enddt=${gcalEnd}&body=${eventDesc}&location=${eventLocation}`;
 
   useEffect(() => {
-    document.title = "You're Registered! – Free Power Hours | KnowHow Marketing Lab";
+    document.title = "You're Registered!, Free Power Hours | KnowHow Marketing Lab";
     const desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute('content', 'You have registered for Free Marketing Power Hours. Add the session to your calendar and join the Facebook group to get started.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -153,14 +153,14 @@ export default function ThankYouPowerHours() {
     schema.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "You're Registered – Free Power Hours | KnowHow Marketing Lab",
-      "description": "Registration confirmation page for Free Marketing Power Hours. Weekly live Q&A on Google Ads, SEO, AI, and GA4 every Tuesday 12–1pm PT.",
+      "name": "You're Registered, Free Power Hours | KnowHow Marketing Lab",
+      "description": "Registration confirmation page for Free Marketing Power Hours. Weekly live Q&A on Google Ads, SEO, AI, and GA4 every Tuesday 12-1pm PT.",
       "url": "https://knowhowmarketinglab.com/thank-you/power-hours",
       "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" }
     });
     document.head.appendChild(schema);
 
-    // GTM dataLayer push — fires generate_lead conversion event
+    // GTM dataLayer push, fires generate_lead conversion event
     if (typeof window !== 'undefined') {
       (window as any).dataLayer = (window as any).dataLayer || [];
       (window as any).dataLayer.push({
@@ -172,7 +172,7 @@ export default function ThankYouPowerHours() {
     }
 
     return () => {
-      document.title = 'KnowHow Marketing Lab – Free SEO & Google Ads Training';
+      document.title = 'KnowHow Marketing Lab, Free SEO & Google Ads Training';
       if (schema.parentNode) schema.parentNode.removeChild(schema);
     };
   }, []);
@@ -210,7 +210,7 @@ export default function ThankYouPowerHours() {
               Your spot is saved for <strong className="text-gray-900">{displayDate}</strong>.
             </p>
             <p className="text-base text-gray-500 mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Check your inbox — a confirmation email with the session details is on its way. In the meantime, do these two things so you're ready to go.
+              Check your inbox, a confirmation email with the session details is on its way. In the meantime, do these two things so you're ready to go.
             </p>
 
             {/* ── TWO ACTION CARDS ── */}
@@ -274,10 +274,10 @@ export default function ThankYouPowerHours() {
                   </div>
                 </div>
                 <p className="text-sm text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Power Hours runs live on Zoom every Tuesday at 12pm Pacific. Sessions are <strong className="text-gray-700">not recorded</strong> — you must attend live.
+                  Power Hours runs live on Zoom every Tuesday at 12pm Pacific. Sessions are <strong className="text-gray-700">not recorded</strong>, you must attend live.
                 </p>
                 <div className="bg-[#318599]/10 border border-[#318599]/20 rounded-xl p-4 text-sm text-[#1a3a4a]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  <strong style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Check your confirmation email</strong> — the Zoom link is included there. Can't find it? Check your spam folder or re-register above.
+                  <strong style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Check your confirmation email</strong>, the Zoom link is included there. Can't find it? Check your spam folder or re-register above.
                 </div>
               </div>
             </div>
@@ -304,13 +304,13 @@ export default function ThankYouPowerHours() {
                   {
                     step: '3',
                     title: 'You\'ll get a reminder on Monday',
-                    desc: 'We\'ll send you a reminder email on Monday evening so you don\'t forget. No spam — just the one reminder.',
+                    desc: 'We\'ll send you a reminder email on Monday evening so you don\'t forget. No spam, just the one reminder.',
                     color: '#4F37D8',
                   },
                   {
                     step: '4',
                     title: 'Show up Tuesday at 12pm Pacific',
-                    desc: 'Bring your biggest marketing question — SEO, Google Ads, GA4, or AI. Pip will be live on Zoom ready to help. No slides, no agenda, just real answers.',
+                    desc: 'Bring your biggest marketing question, SEO, Google Ads, GA4, or AI. Pip will be live on Zoom ready to help. No slides, no agenda, just real answers.',
                     color: '#E98C28',
                   },
                 ].map(item => (
@@ -338,9 +338,9 @@ export default function ThankYouPowerHours() {
               </h2>
               <ul className="space-y-2" role="list">
                 {[
-                  'Your biggest marketing question right now — SEO, Google Ads, GA4, or AI',
+                  'Your biggest marketing question right now, SEO, Google Ads, GA4, or AI',
                   'Your website URL if you want live feedback on your traffic or ads',
-                  'A notepad — you will leave with a clear next step',
+                  'A notepad, you will leave with a clear next step',
                 ].map(item => (
                   <li key={item} className="flex items-start gap-2.5 text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                     <span className="w-5 h-5 rounded-full bg-[#E98C28] flex items-center justify-center flex-shrink-0 mt-0.5" aria-hidden="true">
@@ -361,7 +361,7 @@ export default function ThankYouPowerHours() {
                 Go deeper in The Lab
               </h2>
               <p className="text-sm text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Power Hours gives you one hour a week. The Lab gives you the full Google Ads course, Thursday live Q&amp;A, AI marketing training, and a private community — for $29/mo.
+                Power Hours gives you one hour a week. The Lab gives you the full Google Ads course, Thursday live Q&amp;A, AI marketing training, and a private community, for $29/mo.
               </p>
               <Link
                 href="/community"

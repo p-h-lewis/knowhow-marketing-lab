@@ -11,8 +11,8 @@ import { useSEO } from "@/hooks/useSEO";
 import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const freeFeatures = [
-  { label: 'Free Power Hours every Tuesday 12–1pm Pacific' },
-  { label: 'Live Q&A with Pip — real questions, real answers' },
+  { label: 'Free Power Hours every Tuesday 12-1pm Pacific' },
+  { label: 'Live Q&A with Pip, real questions, real answers' },
   { label: 'Topics: SEO, Google Ads, AI, Social Media' },
   { label: 'Complete SEO Course (5 modules)' },
   { label: '60+ free YouTube video lessons' },
@@ -28,7 +28,7 @@ const communityFeatures = [
   { label: 'Google Analytics 4 (GA4) training', included: true },
   { label: 'Google Business Profile training', included: true },
   { label: 'Google Tag Manager intro', included: true },
-  { label: 'Thursday Lab sessions — hands-on help with your real campaigns', included: true },
+  { label: 'Thursday Lab sessions, hands-on help with your real campaigns', included: true },
   { label: 'Monthly deep-dive training session', included: true },
   { label: 'Homework & fillable PDF worksheets', included: true },
   { label: 'Google Ads - live monthly training + recordings', included: true },
@@ -46,7 +46,7 @@ const pricingFaqs = [
   },
   {
     q: 'What do I get in The Lab that I cannot get for free?',
-    a: 'The Lab adds Thursday Lab sessions (12–1pm PT) where Pip and Phelan work through your real campaigns, ad accounts, and SEO issues live — not just Q&A, actual hands-on help. Plus monthly deep-dive training, homework with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
+    a: 'The Lab adds Thursday Lab sessions (12-1pm PT) where Pip and Phelan work through your real campaigns, ad accounts, and SEO issues live, not just Q&A, actual hands-on help. Plus monthly deep-dive training, homework with fillable PDF worksheets, the AI Marketing & Automation course, private community group access, and all recorded session replays.',
   },
   {
     q: 'Can I cancel my community membership anytime?',
@@ -78,8 +78,8 @@ export default function Pricing() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   useSEO({
-    title: "Live Coaching for Marketers — SEO, Google Ads & Analytics | KnowHow Marketing Lab",
-    description: "Join The Lab for $29/month — live weekly coaching sessions on your real website and ads every Thursday, monthly Google Ads training, AI SEO course, and a private community.",
+    title: "Live Coaching for Marketers, SEO, Google Ads & Analytics | KnowHow Marketing Lab",
+    description: "Join The Lab for $29/month, live weekly coaching sessions on your real website and ads every Thursday, monthly Google Ads training, AI SEO course, and a private community.",
     canonical: "https://knowhowmarketinglab.com/pricing",
     ogType: "website",
   });
@@ -140,7 +140,7 @@ export default function Pricing() {
       />
 
       <Navbar />
-      {/* Sticky bottom CTA bar — appears after scrolling past hero */}
+      {/* Sticky bottom CTA bar, appears after scrolling past hero */}
       {showStickyBar && (
         <div
           className="fixed bottom-0 left-0 right-0 z-40 bg-[#0f2236] border-t border-[#E98C28]/40 shadow-2xl"
@@ -175,9 +175,9 @@ export default function Pricing() {
               <div className="text-center sm:text-left">
                 <div className="flex items-center justify-center sm:justify-start gap-1.5 mb-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New — 5 of 8 seats remaining · Starts May 12</span>
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New, 5 of 8 seats remaining · Starts May 12</span>
                 </div>
-                <p className="text-white font-semibold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want more than weekly coaching? The AI Marketing Accelerator Mastermind is an 8-week intensive — $2,000, live account reviews every session.</p>
+                <p className="text-white font-semibold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want more than weekly coaching? The AI Marketing Accelerator Mastermind is an 8-week intensive, $2,000, live account reviews every session.</p>
               </div>
               <a
                 href="/mastermind"
@@ -204,7 +204,7 @@ export default function Pricing() {
               Try The Lab Free for 7 Days.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  The Lab gives you live weekly coaching sessions where Pip &amp; Phelan work through your real campaigns, ads, and website every Thursday. Plus full Google Ads &amp; SEO courses, AI training, and a private community. Early access price — locks in forever when you join.
+                  The Lab gives you live weekly coaching sessions where Pip &amp; Phelan work through your real campaigns, ads, and website every Thursday. Plus full Google Ads &amp; SEO courses, AI training, and a private community. Early access price, locks in forever when you join.
             </p>
             <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1">
               <a href="/blog/seo-and-analytics-coaching-for-marketers" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>What is SEO &amp; analytics coaching? →</a>
@@ -241,7 +241,7 @@ export default function Pricing() {
             </div>
             <div className="space-y-3">
               {[
-                { item: 'Thursday Lab Sessions — live campaign & website audit reviews', value: '$200/session × 4 = $800/mo', highlight: true },
+                { item: 'Thursday Lab Sessions, live campaign & website audit reviews', value: '$200/session × 4 = $800/mo', highlight: true },
                 { item: 'Monthly Deep-Dive Training (full-length, recorded)', value: '$197/session', highlight: false },
                 { item: 'AI + SEO Accelerator Course (5 modules)', value: '$497 one-time', highlight: false },
                 { item: 'AI-Powered Google Ads Bootcamp', value: '$397 one-time', highlight: false },
@@ -267,7 +267,7 @@ export default function Pricing() {
             </div>
             <div className="mt-8 rounded-2xl bg-[#E98C28] p-6 text-center">
               <p className="text-white font-extrabold text-2xl" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All of this for $29/month.</p>
-              <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access price — locks in forever when you join today.</p>
+              <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access price, locks in forever when you join today.</p>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
@@ -296,7 +296,7 @@ export default function Pricing() {
           </div>
         </section>
 
-        {/* Reviews — moved BEFORE pricing card: social proof before the ask */}
+        {/* Reviews, moved BEFORE pricing card: social proof before the ask */}
         <section className="py-16 bg-[#0f2236]" aria-labelledby="pricing-reviews-heading">
           <div className="container max-w-5xl">
             <div className="text-center mb-10">
@@ -369,7 +369,7 @@ export default function Pricing() {
                   </div>
                   <p className="text-xs text-[#318599] font-semibold mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial included</p>
                   <p className="text-sm text-gray-400 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-                    Try free for 7 days. Then $29/mo — founding rate, locked in forever.
+                    Try free for 7 days. Then $29/mo, founding rate, locked in forever.
                   </p>
                 </div>
 
@@ -398,7 +398,7 @@ export default function Pricing() {
                   7-day free trial · Then $29/mo · Secure checkout
                 </p>
                 <p className="text-xs text-[#E98C28] font-semibold text-center mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Cancel in 60 seconds — no questions asked, no penalty, no forms.
+                  Cancel in 60 seconds, no questions asked, no penalty, no forms.
                 </p>
                 <div className="mt-4">
                   <FoundingMemberCounter variant="card" />

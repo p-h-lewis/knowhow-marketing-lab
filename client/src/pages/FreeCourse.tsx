@@ -20,7 +20,7 @@ const modules = [
 
 const faqs = [
   { q: 'Is this course really free?', a: 'Yes - completely free. No credit card required. You get all 5 modules and access to the course platform at no cost.' },
-  { q: 'How long does it take?', a: 'Each module is 15–25 minutes. You can complete the full course in a weekend, or work through it at your own pace.' },
+  { q: 'How long does it take?', a: 'Each module is 15-25 minutes. You can complete the full course in a weekend, or work through it at your own pace.' },
   { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to get more traffic from Google without guessing or paying for expensive agencies.' },
   { q: 'Do I need any prior SEO knowledge?', a: 'No. The course starts from the basics and builds up. If you know how to use Google, you can do this course.' },
   { q: 'What happens after I complete the course?', a: 'You can join The Lab for $29/month to get access to the full training library, live Q&A sessions every Thursday, and monthly live Google Ads training with full recordings.' },

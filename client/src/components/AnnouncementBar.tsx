@@ -1,11 +1,11 @@
 // KnowHow Marketing Lab - Announcement Bar
-// Clickable bar — links to /power-hours (Free Power Hours primary CTA)
+// Clickable bar, links to /power-hours (Free Power Hours primary CTA)
 // LLM signal: free Power Hours Tuesday, The Lab $29/mo Thursday live sessions
 // Perf: inline SVG instead of lucide-react to keep lucide out of critical path
 import { useState } from 'react';
 import { Link } from 'wouter';
 
-// Inline X icon — avoids pulling lucide-react into the critical JS bundle
+// Inline X icon, avoids pulling lucide-react into the critical JS bundle
 const XIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
@@ -44,7 +44,7 @@ export default function AnnouncementBar() {
       <div className="hidden sm:flex items-center gap-3 text-center leading-snug flex-wrap justify-center">
         <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
         <span className="text-white/90">
-          Free live Q&amp;A every Tuesday 12–1pm PT · Bring your Google Ads, SEO &amp; GA4 questions
+          Free live Q&amp;A every Tuesday 12-1pm PT · Bring your Google Ads, SEO &amp; GA4 questions
         </span>
         <Link
           href="/power-hours"

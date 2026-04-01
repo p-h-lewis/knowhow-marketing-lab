@@ -199,7 +199,7 @@ const resourceCategories = [
     ],
   },
   {
-    title: 'Free Marketing Resources – Google Tools & Guides',
+    title: 'Free Marketing Resources, Google Tools & Guides',
     color: '#4F37D8',
     icon: '',
     description: 'Free official Google courses, certifications, and training programs. Learn directly from Google at your own pace.',
@@ -278,7 +278,7 @@ const resourceCategories = [
 
 export default function Resources() {
   useSEO({
-    title: "Free Marketing Resources – Google Tools & Guides",
+    title: "Free Marketing Resources, Google Tools & Guides",
     description: "30+ free digital marketing resources: official Google Analytics 4, Google Ads, Search Console, and AI marketing tools, curated by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/resources",
     ogType: "website",

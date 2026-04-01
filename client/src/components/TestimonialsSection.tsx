@@ -22,7 +22,7 @@ const videoTestimonials = [
 
 const textTestimonials = [
   {
-    quote: 'I cannot recommend Seymour Digital Media Marketing enough! They were instrumental in helping me with my Google Business account. Pip was absolutely amazing — super knowledgeable and always willing to go the extra mile. Their expertise and attention to detail were evident every step of the way.',
+    quote: 'I cannot recommend Seymour Digital Media Marketing enough! They were instrumental in helping me with my Google Business account. Pip was absolutely amazing, super knowledgeable and always willing to go the extra mile. Their expertise and attention to detail were evident every step of the way.',
     name: 'Jaime Hall',
     role: 'Business Owner',
     company: 'Google Review ★★★★★',
@@ -40,7 +40,7 @@ const textTestimonials = [
     rating: 5,
   },
   {
-    quote: 'We\'ve worked with Seymour Digital Media for many years. They support us with website help, SEO, Google Ads, local Google optimisation, and e-commerce — all within a specialty industry that requires real expertise. The work truly speaks for itself.',
+    quote: 'We\'ve worked with Seymour Digital Media for many years. They support us with website help, SEO, Google Ads, local Google optimisation, and e-commerce, all within a specialty industry that requires real expertise. The work truly speaks for itself.',
     name: 'Lesley McHale',
     role: 'Business Owner',
     company: 'Google Review ★★★★★',
@@ -49,7 +49,7 @@ const textTestimonials = [
     rating: 5,
   },
   {
-    quote: 'The team at Seymour Digital are unlike any other marketing team we\'ve connected with. They have had a serious impact on our mental health group practice — helping us get our therapists fully booked and expand our reach within the community.',
+    quote: 'The team at Seymour Digital are unlike any other marketing team we\'ve connected with. They have had a serious impact on our mental health group practice, helping us get our therapists fully booked and expand our reach within the community.',
     name: 'Rysa Koch',
     role: 'Mental Health Practice',
     company: 'Google Review ★★★★★',
@@ -145,7 +145,7 @@ export default function TestimonialsSection() {
             What Our Clients Say
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Business owners and marketing professionals across Canada — in their own words. Based on 79 Google reviews.
+            Business owners and marketing professionals across Canada, in their own words. Based on 79 Google reviews.
           </p>
         </div>
 

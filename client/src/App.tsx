@@ -7,7 +7,7 @@ import { lazy, Suspense, useState, useEffect } from "react";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-// Perf: Toaster (sonner) and TooltipProvider (radix-tooltip) are deferred — they pull in
+// Perf: Toaster (sonner) and TooltipProvider (radix-tooltip) are deferred, they pull in
 // the ui-core chunk (33KB gzipped) which was in the critical path. They load after first interaction.
 const Toaster = lazy(() => import("@/components/ui/sonner").then(m => ({ default: m.Toaster })));
 const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => ({ default: m.TooltipProvider })));
@@ -313,10 +313,10 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
-        {/* TooltipProvider deferred — loads ui-core (33KB gz) off critical path */}
+        {/* TooltipProvider deferred, loads ui-core (33KB gz) off critical path */}
         <Suspense fallback={null}>
           <TooltipProvider>
-            {/* Toaster deferred — loads sonner off critical path */}
+            {/* Toaster deferred, loads sonner off critical path */}
             <Suspense fallback={null}>
               <Toaster />
             </Suspense>

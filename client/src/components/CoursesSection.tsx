@@ -50,7 +50,7 @@ export default function CoursesSection() {
             Structured Learning Paths
           </h2>
           <p className="text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Start free — courses, videos, and weekly Power Hours in our Facebook group. Upgrade to The Lab when you're ready to go deeper.
+            Start free, courses, videos, and weekly Power Hours in our Facebook group. Upgrade to The Lab when you're ready to go deeper.
           </p>
         </div>
 

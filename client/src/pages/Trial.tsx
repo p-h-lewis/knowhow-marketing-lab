@@ -1,7 +1,7 @@
-// /trial — Dedicated free trial landing page
+// /trial, Dedicated free trial landing page
 // Design: Distraction-free, no nav, no footer links, single CTA
 // Purpose: High-conversion destination for paid ads, email campaigns, and direct links
-// No navigation bar — only a minimal logo + exit link
+// No navigation bar, only a minimal logo + exit link
 // Brand: Space Grotesk headings, DM Sans body, #E98C28 orange, #318599 teal, #0f2236 dark navy
 
 import { useEffect, useState } from 'react';
@@ -13,8 +13,8 @@ const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/
 const included = [
   {
     icon: '🎯',
-    title: 'Thursday Lab Sessions — Members Only',
-    desc: 'Every Thursday 12–1pm Pacific. Pip & Phelan work through YOUR real campaigns, ad accounts, and websites live — hands-on, not just Q&A.',
+    title: 'Thursday Lab Sessions, Members Only',
+    desc: 'Every Thursday 12-1pm Pacific. Pip & Phelan work through YOUR real campaigns, ad accounts, and websites live, hands-on, not just Q&A.',
   },
   {
     icon: '📚',
@@ -24,7 +24,7 @@ const included = [
   {
     icon: '🤖',
     title: 'AI Marketing & Automation',
-    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use this week.',
+    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows, practical tools you can use this week.',
   },
   {
     icon: '📋',
@@ -39,7 +39,7 @@ const included = [
   {
     icon: '📹',
     title: 'Monthly Deep-Dive Training',
-    desc: 'One focused training session per month on a specific topic — Google Ads scripts, GA4 advanced, AI agents, and more.',
+    desc: 'One focused training session per month on a specific topic, Google Ads scripts, GA4 advanced, AI agents, and more.',
   },
 ];
 
@@ -70,11 +70,11 @@ const testimonials = [
 const faqs = [
   {
     q: 'What happens during the 7-day trial?',
-    a: 'You get full access to everything — the course library, the private community, worksheets, and if a Thursday session falls within your trial, you can attend live. There are no restrictions during the trial.',
+    a: 'You get full access to everything, the course library, the private community, worksheets, and if a Thursday session falls within your trial, you can attend live. There are no restrictions during the trial.',
   },
   {
     q: 'Do I need a credit card to start?',
-    a: 'Yes — the checkout requires a card to set up the subscription, but you will not be charged until after day 7. Cancel before then and you pay nothing.',
+    a: 'Yes, the checkout requires a card to set up the subscription, but you will not be charged until after day 7. Cancel before then and you pay nothing.',
   },
   {
     q: 'How do I cancel if I decide it\'s not for me?',
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: 'What is the price after the trial?',
-    a: '$29/month — that\'s the founding member rate. It will increase as the community grows. Members who join now lock in $29 forever.',
+    a: '$29/month, that\'s the founding member rate. It will increase as the community grows. Members who join now lock in $29 forever.',
   },
   {
     q: 'Who are Pip and Phelan?',
@@ -92,7 +92,7 @@ const faqs = [
 
 export default function Trial() {
   useSEO({
-    title: "Start Your Free 7-Day Trial — The KnowHow Lab",
+    title: "Start Your Free 7-Day Trial, The KnowHow Lab",
     description: "Try The KnowHow Lab free for 7 days. Thursday live sessions, full Google Ads & SEO courses, AI training, and a private community. Then $29/mo. Cancel anytime.",
     canonical: "https://knowhowmarketinglab.com/trial",
     ogType: "website",
@@ -309,7 +309,7 @@ export default function Trial() {
               20+ years of agency experience, teaching live
             </h2>
             <p className="text-gray-500 mb-8 max-w-xl mx-auto">
-              Pip Seymour and Phelan Lewis have spent two decades running Google Ads and SEO campaigns for businesses across Canada. The Lab is how they teach what they actually do — not theory, not slides, but live work on real accounts.
+              Pip Seymour and Phelan Lewis have spent two decades running Google Ads and SEO campaigns for businesses across Canada. The Lab is how they teach what they actually do, not theory, not slides, but live work on real accounts.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
               <div className="flex-1 bg-gray-50 rounded-2xl p-6 border border-gray-100 text-left">

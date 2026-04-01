@@ -1,4 +1,4 @@
-// FoundingMemberCounter — creates urgency/scarcity for founding member pricing
+// FoundingMemberCounter, creates urgency/scarcity for founding member pricing
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
 // Shows "X founding member spots remaining at $29/mo" with animated counter
 // Uses localStorage to persist a slightly-decreasing number over time (simulates real signups)
@@ -8,8 +8,8 @@ import { useEffect, useState } from 'react';
 
 const STORAGE_KEY = 'khml_founding_spots';
 const STORAGE_TS_KEY = 'khml_founding_spots_ts';
-const INITIAL_SPOTS = 47; // Starting number — feels real, not too round
-const MIN_SPOTS = 12;     // Floor — never goes below this
+const INITIAL_SPOTS = 47; // Starting number, feels real, not too round
+const MIN_SPOTS = 12;     // Floor, never goes below this
 const DECAY_RATE = 0.4;   // Average spots "taken" per day
 
 function getSpots(): number {
@@ -18,7 +18,7 @@ function getSpots(): number {
     const storedTs = localStorage.getItem(STORAGE_TS_KEY);
 
     if (!stored || !storedTs) {
-      // First visit — set initial value
+      // First visit, set initial value
       const now = Date.now();
       localStorage.setItem(STORAGE_KEY, String(INITIAL_SPOTS));
       localStorage.setItem(STORAGE_TS_KEY, String(now));
@@ -101,7 +101,7 @@ export default function FoundingMemberCounter({
             </span>{' '}
             founding member spots remaining at{' '}
             <span className="font-bold text-white">$29/mo</span>
-            {' '}— price increases when we hit capacity.
+            {' '},  price increases when we hit capacity.
           </p>
         </div>
         <span className="text-xs text-[#E98C28] font-semibold whitespace-nowrap hidden sm:block" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -142,7 +142,7 @@ export default function FoundingMemberCounter({
     );
   }
 
-  // ── Inline variant (default — small text line, used under CTA buttons) ──
+  // ── Inline variant (default, small text line, used under CTA buttons) ──
   return (
     <span
       className={`inline-flex items-center gap-1.5 text-xs text-gray-500 ${className}`}

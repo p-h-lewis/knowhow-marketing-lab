@@ -10,8 +10,8 @@ import { useSEO } from "@/hooks/useSEO";
 
 export default function About() {
   useSEO({
-    title: "About KnowHow Marketing Lab — Pip Seymour & Phelan Lewis | Google Ads & SEO Experts",
-    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis — Google Ads and SEO specialists with 20+ years of agency experience helping medium-sized businesses get more traffic and leads online.",
+    title: "About KnowHow Marketing Lab, Pip Seymour & Phelan Lewis | Google Ads & SEO Experts",
+    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, Google Ads and SEO specialists with 20+ years of agency experience helping medium-sized businesses get more traffic and leads online.",
     canonical: "https://knowhowmarketinglab.com/about",
     ogType: "website",
   });
@@ -206,7 +206,7 @@ export default function About() {
                   initials: 'PL',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png',
                   bio: [
-                    'Phelan Lewis is the Google Tag Manager and analytics lead at KnowHow Marketing Lab. He has spent 20+ years helping medium-sized businesses build measurement systems that actually tell them what is working — and what is not.',
+                    'Phelan Lewis is the Google Tag Manager and analytics lead at KnowHow Marketing Lab. He has spent 20+ years helping medium-sized businesses build measurement systems that actually tell them what is working, and what is not.',
                     'Phelan\'s expertise covers the full measurement stack: Google Tag Manager, GA4, Google Analytics, conversion tracking, and data layer implementation. He also leads the AI marketing and automation training in The Lab.',
                     'Phelan believes every marketing decision should start with clean data. His training always begins with GA4 and Tag Manager setup before touching a single campaign or piece of content.',
                   ],

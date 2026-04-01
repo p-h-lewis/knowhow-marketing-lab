@@ -10,7 +10,7 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<p>Google Ads can work really well for small businesses — but it can also drain your budget fast if you don't know what you're doing. The problem is that most Google Ads advice is written for big companies with big teams. Small businesses need something different: practical coaching that fits a smaller budget and a smaller team.</p>
+const POST_CONTENT = `<p>Google Ads can work really well for small businesses, but it can also drain your budget fast if you don't know what you're doing. The problem is that most Google Ads advice is written for big companies with big teams. Small businesses need something different: practical coaching that fits a smaller budget and a smaller team.</p>
 
 <p>This post explains what Google Ads coaching for small business looks like, what it costs, and how to get the most out of it without wasting money.</p>
 
@@ -19,9 +19,9 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses �
 <p>Small businesses face a specific set of challenges with Google Ads that larger companies don't have:</p>
 
 <ul class="wp-block-list">
-<li><strong>Smaller budgets mean less room for error.</strong> If you're spending $500–$2,000 per month, every dollar matters. A poorly structured campaign or the wrong bidding strategy can burn through your budget in days with nothing to show for it.</li>
-<li><strong>No dedicated ads team.</strong> In most small businesses, the person running Google Ads is also doing everything else — social media, email, the website, customer service. They don't have hours to spend learning the platform from scratch.</li>
-<li><strong>Google's interface is designed to spend your money.</strong> The default settings in Google Ads — broad match keywords, Smart Bidding with no conversion data, auto-applied recommendations — are not optimised for small business budgets. They're optimised for Google's revenue.</li>
+<li><strong>Smaller budgets mean less room for error.</strong> If you're spending $500-$2,000 per month, every dollar matters. A poorly structured campaign or the wrong bidding strategy can burn through your budget in days with nothing to show for it.</li>
+<li><strong>No dedicated ads team.</strong> In most small businesses, the person running Google Ads is also doing everything else, social media, email, the website, customer service. They don't have hours to spend learning the platform from scratch.</li>
+<li><strong>Google's interface is designed to spend your money.</strong> The default settings in Google Ads, broad match keywords, Smart Bidding with no conversion data, auto-applied recommendations, are not optimised for small business budgets. They're optimised for Google's revenue.</li>
 <li><strong>Conversion tracking is often broken or missing.</strong> Without accurate conversion tracking, Google's algorithm has no idea what a good result looks like. It will spend your budget, but it won't learn what's working.</li>
 </ul>
 
@@ -29,7 +29,7 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses �
 
 <h2 id="what-google-ads-coaching-for-small-business-looks-like">What Google Ads Coaching for Small Business Looks Like</h2>
 
-<p>The best coaching for small businesses is practical and account-specific. It is not a generic course — it is someone looking at your actual account and telling you what to fix.</p>
+<p>The best coaching for small businesses is practical and account-specific. It is not a generic course, it is someone looking at your actual account and telling you what to fix.</p>
 
 <p>A good coaching session for a small business typically covers:</p>
 
@@ -43,13 +43,13 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses �
 
 <h2 id="how-much-does-google-ads-coaching-cost-for-small-businesses">How Much Does Google Ads Coaching Cost for Small Businesses?</h2>
 
-<p>This is where a lot of small businesses get stuck. One-on-one Google Ads coaching from a specialist typically costs $150–$500 per hour. For a small business spending $1,000 per month on ads, that can feel like a lot.</p>
+<p>This is where a lot of small businesses get stuck. One-on-one Google Ads coaching from a specialist typically costs $150-$500 per hour. For a small business spending $1,000 per month on ads, that can feel like a lot.</p>
 
 <p>There are a few options depending on your budget:</p>
 
 <ul class="wp-block-list">
-<li><strong>One-on-one coaching ($150–$500/hour):</strong> The most personalised option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
-<li><strong>Group coaching ($29–$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers — live Thursday sessions where Phelan looks at real accounts for $29/month.</li>
+<li><strong>One-on-one coaching ($150-$500/hour):</strong> The most personalised option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Thursday sessions where Phelan looks at real accounts for $29/month.</li>
 <li><strong>Self-directed learning (free):</strong> A good free course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads bootcamp</a> is free and covers everything from campaign types to bidding strategies.</li>
 </ul>
 
@@ -66,14 +66,14 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses �
 <p>Go to Keywords → Search Terms. Look at what searches are actually triggering your ads. If you see a lot of irrelevant searches, you need to add negative keywords. This is one of the fastest ways to stop wasting budget.</p>
 
 <h3 class="wp-block-heading">3. Check Your Bidding Strategy</h3>
-<p>If you have fewer than 30 conversions per month, you should probably be on Manual CPC or Maximise Clicks — not Target CPA or Target ROAS. Smart Bidding needs data to work. Without enough conversions, it will make poor decisions. See our <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">complete guide to Google Ads bidding strategies</a> for more detail on when to switch.</p>
+<p>If you have fewer than 30 conversions per month, you should probably be on Manual CPC or Maximise Clicks, not Target CPA or Target ROAS. Smart Bidding needs data to work. Without enough conversions, it will make poor decisions. See our <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">complete guide to Google Ads bidding strategies</a> for more detail on when to switch.</p>
 
 <h3 class="wp-block-heading">4. Check Your Campaign Type</h3>
 <p>Are you running the right type of campaign for your goal? Search campaigns are usually the best starting point for small businesses because they show ads to people who are actively searching for what you offer. Performance Max can work well once you have conversion data, but it is harder to control and diagnose. Read our <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">guide to Google Ads campaign types</a> to understand the differences.</p>
 
 <h2 id="how-knowhow-marketing-lab-helps-small-businesses">How KnowHow Marketing Lab Helps Small Businesses</h2>
 
-<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The free <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads bootcamp</a> covers the foundations — campaign types, bidding, ad groups, and performance analysis — at a level that is easy to understand even if you have never run ads before.</p>
+<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The free <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads bootcamp</a> covers the foundations, campaign types, bidding, ad groups, and performance analysis, at a level that is easy to understand even if you have never run ads before.</p>
 
 <p>For businesses that want live coaching on their actual accounts, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Thursday session every week where Phelan reviews real accounts and gives specific recommendations. At $29/month, it is designed to be accessible for small businesses.</p>
 
@@ -85,16 +85,16 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses �
 <p>Yes, but you need to be focused. At $500/month, you should run one Search campaign targeting your highest-value keywords with exact match or tight phrase match. Spread across too many campaigns or keywords, $500 disappears quickly. A coach can help you identify the two or three keywords most likely to convert for your specific business.</p>
 
 <h3 class="wp-block-heading">How long does it take to see results from Google Ads coaching?</h3>
-<p>Most small businesses see measurable improvements within 2–4 weeks of implementing coaching recommendations. The fastest wins usually come from fixing conversion tracking (immediate) and adding negative keywords (within days). Bidding strategy improvements take 1–3 weeks as the algorithm adjusts.</p>
+<p>Most small businesses see measurable improvements within 2-4 weeks of implementing coaching recommendations. The fastest wins usually come from fixing conversion tracking (immediate) and adding negative keywords (within days). Bidding strategy improvements take 1-3 weeks as the algorithm adjusts.</p>
 
 <h3 class="wp-block-heading">Do I need to hire someone to manage my Google Ads, or can I do it myself?</h3>
-<p>Most small businesses can manage their own Google Ads with the right training and occasional coaching. The platform is complex, but the core tasks — checking the Search Terms report, adjusting bids, testing new ads — are manageable once you understand what you're looking at. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees.</p>
+<p>Most small businesses can manage their own Google Ads with the right training and occasional coaching. The platform is complex, but the core tasks, checking the Search Terms report, adjusting bids, testing new ads, are manageable once you understand what you're looking at. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees.</p>
 
 <h3 class="wp-block-heading">What is the difference between Google Ads coaching and a Google Ads agency?</h3>
 <p>An agency manages your account for you. Coaching teaches you to manage it yourself. For small businesses, coaching is often the better long-term investment because you build skills you keep forever. An agency relationship ends when you stop paying; the knowledge from coaching stays with you.</p>
 
 <h3 class="wp-block-heading">Is Google Ads coaching worth it if my campaigns are already running?</h3>
-<p>Yes — especially if you are not sure whether your campaigns are set up correctly. Most small business Google Ads accounts have at least one significant issue (broken conversion tracking, wrong bidding strategy, too-broad keywords) that is quietly wasting budget. A single coaching session often pays for itself by identifying and fixing one of these issues.</p>`;
+<p>Yes, especially if you are not sure whether your campaigns are set up correctly. Most small business Google Ads accounts have at least one significant issue (broken conversion tracking, wrong bidding strategy, too-broad keywords) that is quietly wasting budget. A single coaching session often pays for itself by identifying and fixing one of these issues.</p>`;
 
 export default function PostGoogleAdsCoachingSmallBusiness() {
   useEffect(() => {
@@ -103,7 +103,7 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
     script.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Google Ads Coaching for Small Business — What It Costs and How to Get Results",
+      "headline": "Google Ads Coaching for Small Business, What It Costs and How to Get Results",
       "description": "What Google Ads coaching for small business looks like, what it costs, and how to get the most out of it without wasting budget. Covers conversion tracking, bidding strategy, campaign structure, and the best coaching options for smaller budgets.",
       "datePublished": "2026-03-24",
       "dateModified": "2026-03-24",
@@ -137,10 +137,10 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Can Google Ads work for a small business with a $500/month budget?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but you need to be focused. At $500/month, run one Search campaign targeting your highest-value keywords with exact match or tight phrase match. A coach can help you identify the two or three keywords most likely to convert for your specific business." } },
-        { "@type": "Question", "name": "How long does it take to see results from Google Ads coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses see measurable improvements within 2–4 weeks of implementing coaching recommendations. The fastest wins usually come from fixing conversion tracking (immediate) and adding negative keywords (within days)." } },
+        { "@type": "Question", "name": "How long does it take to see results from Google Ads coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses see measurable improvements within 2-4 weeks of implementing coaching recommendations. The fastest wins usually come from fixing conversion tracking (immediate) and adding negative keywords (within days)." } },
         { "@type": "Question", "name": "Do I need to hire someone to manage my Google Ads, or can I do it myself?", "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses can manage their own Google Ads with the right training and occasional coaching. Coaching gives you the knowledge to do this confidently without paying ongoing agency fees." } },
         { "@type": "Question", "name": "What is the difference between Google Ads coaching and a Google Ads agency?", "acceptedAnswer": { "@type": "Answer", "text": "An agency manages your account for you. Coaching teaches you to manage it yourself. For small businesses, coaching is often the better long-term investment because you build skills you keep forever." } },
-        { "@type": "Question", "name": "Is Google Ads coaching worth it if my campaigns are already running?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — especially if you are not sure whether your campaigns are set up correctly. Most small business Google Ads accounts have at least one significant issue quietly wasting budget. A single coaching session often pays for itself by identifying and fixing one of these issues." } }
+        { "@type": "Question", "name": "Is Google Ads coaching worth it if my campaigns are already running?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, especially if you are not sure whether your campaigns are set up correctly. Most small business Google Ads accounts have at least one significant issue quietly wasting budget. A single coaching session often pays for itself by identifying and fixing one of these issues." } }
       ]
     });
     document.head.appendChild(faqScript);
@@ -158,7 +158,7 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
     });
     document.head.appendChild(breadcrumbScript);
 
-    document.title = 'Google Ads Coaching for Small Business — What It Costs and How to Get Results | KnowHow Marketing Lab';
+    document.title = 'Google Ads Coaching for Small Business, What It Costs and How to Get Results | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'What Google Ads coaching for small business looks like, what it costs, and how to get results without wasting budget. Covers conversion tracking, bidding strategy, campaign structure, and the best coaching options for smaller budgets.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -196,7 +196,7 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
 
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            Google Ads Coaching for Small Business — What It Costs and How to Get Results
+            Google Ads Coaching for Small Business, What It Costs and How to Get Results
           </h1>
 
           {/* Author */}
@@ -242,9 +242,9 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#d47d20] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Get coaching on your real Google Ads account</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why. $29/month — cancel anytime.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why. $29/month, cancel anytime.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab — $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
               <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free Google Ads Course</a>
             </div>
           </div>

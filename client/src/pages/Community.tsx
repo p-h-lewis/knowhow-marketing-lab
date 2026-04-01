@@ -1,4 +1,4 @@
-// KnowHow Marketing Lab – Community Page (/community)
+// KnowHow Marketing Lab, Community Page (/community)
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
 // Purpose: Dedicated page explaining The Lab community, what's inside, and driving direct sign-ups to GoHighLevel
 // CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce
@@ -18,9 +18,9 @@ const perks = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.882v6.236a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
       </svg>
     ),
-    title: 'Thursday Lab Sessions – Members Only',
-    desc: 'Every Thursday 12–1pm Pacific, Lab members bring their real campaigns, ad accounts, website audits, and SEO issues. Pip and Phelan work through them live — hands-on help, not just Q&A. Every session is recorded.',
-    highlight: 'Thursdays 12–1pm PT — Members Only',
+    title: 'Thursday Lab Sessions, Members Only',
+    desc: 'Every Thursday 12-1pm Pacific, Lab members bring their real campaigns, ad accounts, website audits, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A. Every session is recorded.',
+    highlight: 'Thursdays 12-1pm PT, Members Only',
   },
   {
     icon: (
@@ -29,7 +29,7 @@ const perks = [
       </svg>
     ),
     title: 'Monthly Deep-Dive Training',
-    desc: 'A full-length training session every month on a specific topic — Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay anytime.',
+    desc: 'A full-length training session every month on a specific topic, Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay anytime.',
     highlight: 'New topic every month',
   },
   {
@@ -39,7 +39,7 @@ const perks = [
       </svg>
     ),
     title: 'Fillable Worksheets & Homework',
-    desc: 'Every session comes with fillable PDF worksheets and step-by-step homework so you actually implement what you learn — not just watch and forget.',
+    desc: 'Every session comes with fillable PDF worksheets and step-by-step homework so you actually implement what you learn, not just watch and forget.',
     highlight: 'Action-first learning',
   },
   {
@@ -49,7 +49,7 @@ const perks = [
       </svg>
     ),
     title: 'AI & Automation Training',
-    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows — practical tools you can use in your business right away. No fluff, no hype.',
+    desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows, practical tools you can use in your business right away. No fluff, no hype.',
     highlight: 'ChatGPT · AI Agents · Scripts',
   },
   {
@@ -69,7 +69,7 @@ const perks = [
       </svg>
     ),
     title: 'Full On-Demand Course Library',
-    desc: 'Every recorded session, advanced module, and exclusive training — available on-demand anytime. Google Ads Mastery, AI Marketing, and more. Never miss a lesson.',
+    desc: 'Every recorded session, advanced module, and exclusive training, available on-demand anytime. Google Ads Mastery, AI Marketing, and more. Never miss a lesson.',
     highlight: 'Google Ads · SEO · AI courses',
   },
 ];
@@ -96,12 +96,12 @@ const learningHighlights = [
   {
     icon: '📍',
     topic: 'Google Business Profile',
-    desc: 'How to fully optimise your GBP listing so your business shows up in local search — categories, attributes, posts, photos, Q&A, and review strategy.',
+    desc: 'How to fully optimise your GBP listing so your business shows up in local search, categories, attributes, posts, photos, Q&A, and review strategy.',
   },
   {
     icon: '📊',
     topic: 'GA4 & Search Console',
-    desc: 'How to actually read your data — which pages are working, where traffic is dropping off, and what to fix first. No guesswork.',
+    desc: 'How to actually read your data, which pages are working, where traffic is dropping off, and what to fix first. No guesswork.',
   },
   {
     icon: '🎯',
@@ -111,12 +111,12 @@ const learningHighlights = [
   {
     icon: '🤖',
     topic: 'AI tools for real marketing work',
-    desc: 'ChatGPT for content, AI agents for workflows, and Google Ads scripts to automate the repetitive stuff — practical, not theoretical.',
+    desc: 'ChatGPT for content, AI agents for workflows, and Google Ads scripts to automate the repetitive stuff, practical, not theoretical.',
   },
 ];
 
 const schedule = [
-  { day: 'Every Thursday', time: '12–1pm Pacific', event: 'Lab Session — hands-on help with real campaigns', type: 'live' },
+  { day: 'Every Thursday', time: '12-1pm Pacific', event: 'Lab Session, hands-on help with real campaigns', type: 'live' },
   { day: 'Monthly', time: 'Announced in advance', event: 'Deep-dive training session', type: 'training' },
   { day: 'Anytime', time: 'On-demand', event: 'Full course library & replays', type: 'ondemand' },
   { day: 'Ongoing', time: 'Community group', event: 'Ask questions, share wins, get feedback', type: 'community' },
@@ -125,11 +125,11 @@ const schedule = [
 const faqs = [
   {
     q: 'Is there really a free trial?',
-    a: 'Yes — when you sign up, you get 7 days completely free. You can attend a Thursday Lab session, explore the course library, and see if it\'s right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month.',
+    a: 'Yes, when you sign up, you get 7 days completely free. You can attend a Thursday Lab session, explore the course library, and see if it\'s right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month.',
   },
   {
     q: 'Who is The Lab for?',
-    a: 'The Lab is built for business owners and marketing teams who want to go beyond the basics. Whether you\'re managing your own Google Ads, training an in-house team, or looking for a more affordable alternative to full-service agency work — this is for you.',
+    a: 'The Lab is built for business owners and marketing teams who want to go beyond the basics. Whether you\'re managing your own Google Ads, training an in-house team, or looking for a more affordable alternative to full-service agency work, this is for you.',
   },
   {
     q: 'What happens if I miss the Thursday live session?',
@@ -137,11 +137,11 @@ const faqs = [
   },
   {
     q: 'Do I need to be technical to join?',
-    a: 'No. The curriculum starts from the foundations — Google Search Console, GA4, and Google Ads basics — and progressively builds to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.',
+    a: 'No. The curriculum starts from the foundations, Google Search Console, GA4, and Google Ads basics, and progressively builds to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.',
   },
   {
     q: 'What platform does the community run on?',
-    a: 'The Lab runs on GoHighLevel. When you join, you\'ll get access to the private community group, the full course library, and all live session links — all in one place.',
+    a: 'The Lab runs on GoHighLevel. When you join, you\'ll get access to the private community group, the full course library, and all live session links, all in one place.',
   },
   {
     q: 'Can I cancel anytime?',
@@ -184,7 +184,7 @@ const testimonials = [
   },
 ];
 
-function JoinButton({ label = 'Start Free Trial – $29/mo →', className = '' }: { label?: string; className?: string }) {
+function JoinButton({ label = 'Start Free Trial, $29/mo →', className = '' }: { label?: string; className?: string }) {
   return (
     <a
       href={GHL_URL}
@@ -206,8 +206,8 @@ const communitySchema = {
       "@type": "WebPage",
       "@id": "https://knowhowmarketinglab.com/community",
       "url": "https://knowhowmarketinglab.com/community",
-      "name": "The KnowHow Lab – Marketing Community for Business Owners",
-      "description": "Join The Lab — weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month.",
+      "name": "The KnowHow Lab, Marketing Community for Business Owners",
+      "description": "Join The Lab, weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com/#website" }
     },
     {
@@ -241,7 +241,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is The KnowHow Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes Thursday Lab sessions (12–1pm PT) where Pip and Phelan work through members' real campaigns live, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes Thursday Lab sessions (12-1pm PT) where Pip and Phelan work through members' real campaigns live, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
         },
         {
           "@type": "Question",
@@ -256,7 +256,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is the difference between the free Power Hours and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open live sessions every Tuesday on Zoom — anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Q&A sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open live sessions every Tuesday on Zoom, anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Q&A sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
         }
       ]
     }
@@ -274,11 +274,11 @@ export default function Community() {
   }, []);
 
   useSEO({
-    title: 'The Lab — Live Marketing Training Every Thursday | KnowHow Marketing Lab',
-    description: 'Live Google Ads and SEO training every Thursday. Pip & Phelan work through your real campaigns live. Plus AI tools, monthly deep-dives, and a private community. Try free for 7 days — $29/month after.',
+    title: 'The Lab, Live Marketing Training Every Thursday | KnowHow Marketing Lab',
+    description: 'Live Google Ads and SEO training every Thursday. Pip & Phelan work through your real campaigns live. Plus AI tools, monthly deep-dives, and a private community. Try free for 7 days, $29/month after.',
     canonical: 'https://knowhowmarketinglab.com/community',
-    ogTitle: 'The KnowHow Lab – Join Our Marketing Community',
-    ogDescription: 'Thursday Lab sessions — hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
+    ogTitle: 'The KnowHow Lab, Join Our Marketing Community',
+    ogDescription: 'Thursday Lab sessions, hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
     ogType: 'website',
   });
 
@@ -326,7 +326,7 @@ export default function Community() {
                 <span className="text-[#E98C28]">real results</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live — hands-on, not just Q&amp;A. 20+ year agency veterans. $29/mo.
+                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live, hands-on, not just Q&amp;A. 20+ year agency veterans. $29/mo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <JoinButton label="Start 7-Day Free Trial →" />
@@ -348,8 +348,8 @@ export default function Community() {
         <div className="bg-[#E98C28] py-4">
           <div className="container">
             <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-white text-sm font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              <span>✓ 7-day free trial — no risk</span>
-              <span>✓ Thursday Lab sessions — hands-on with your real campaigns</span>
+              <span>✓ 7-day free trial, no risk</span>
+              <span>✓ Thursday Lab sessions, hands-on with your real campaigns</span>
               <span>✓ 20+ year agency veterans</span>
               <span>✓ Cancel anytime · $29/mo after trial</span>
             </div>
@@ -365,7 +365,7 @@ export default function Community() {
                 What's inside The Lab
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                One membership. Everything you need to get better at Google Ads, SEO, and AI marketing — with real expert support every week.
+                One membership. Everything you need to get better at Google Ads, SEO, and AI marketing, with real expert support every week.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -425,7 +425,7 @@ export default function Community() {
                 Real skills. Real tools. Real results.
               </h2>
               <p className="text-gray-500 mt-3 max-w-2xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                We help business owners and marketing teams understand what's actually working in their marketing — and what to do about it. No jargon. No fluff. Just clear, practical help from people who do this every day.
+                We help business owners and marketing teams understand what's actually working in their marketing, and what to do about it. No jargon. No fluff. Just clear, practical help from people who do this every day.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -438,20 +438,20 @@ export default function Community() {
               ))}
             </div>
             <p className="text-center text-sm text-gray-400 mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Topics rotate monthly based on what members are working on — so the content is always relevant to what's happening right now.
+              Topics rotate monthly based on what members are working on, so the content is always relevant to what's happening right now.
             </p>
             {/* GBP sample video */}
             <div className="mt-12 max-w-3xl mx-auto">
               <div className="text-center mb-5">
                 <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Sample session</span>
                 <h3 className="text-xl font-extrabold text-gray-900 mt-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See how we cover Google Business Profile</h3>
-                <p className="text-sm text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical walkthrough members get every week — real screens, real examples, no fluff.</p>
+                <p className="text-sm text-gray-500 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>This is the kind of practical walkthrough members get every week, real screens, real examples, no fluff.</p>
               </div>
               <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200" style={{ paddingBottom: '56.25%' }}>
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube-nocookie.com/embed/i3mOIj1sh9o"
-                  title="Going Into A Google Profile | Google Business Profile — KnowHow Marketing Lab"
+                  title="Going Into A Google Profile | Google Business Profile, KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
@@ -467,7 +467,7 @@ export default function Community() {
             <div className="text-center mb-12">
               <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Clear Learning Path</span>
               <h2 id="curriculum-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                From foundations to advanced — we cover it all
+                From foundations to advanced, we cover it all
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 The curriculum is built for both beginners and experienced marketers. Start where you are. Progress at your own pace.
@@ -546,11 +546,11 @@ export default function Community() {
                 <span className="text-gray-500 font-medium text-lg">/month</span>
               </div>
               <p className="text-sm text-gray-400 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Try it free for 7 days. Then $29/mo — founding rate, locked in forever. Price increases as community grows.
+                Try it free for 7 days. Then $29/mo, founding rate, locked in forever. Price increases as community grows.
               </p>
               <ul className="space-y-3 mb-8 text-left">
                 {[
-                  'Thursday Lab sessions — hands-on help with your real campaigns',
+                  'Thursday Lab sessions, hands-on help with your real campaigns',
                   'Monthly deep-dive training',
                   'Full on-demand course library',
                   'Google Ads Mastery course',
@@ -597,11 +597,11 @@ export default function Community() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    'You run a business and want to understand your own marketing — not just pay someone and hope for the best',
+                    'You run a business and want to understand your own marketing, not just pay someone and hope for the best',
                     'You\'re managing Google Ads or SEO in-house and want expert guidance on your real campaigns',
                     'You want to stop guessing and start making decisions backed by data',
                     'You\'ve tried watching YouTube tutorials but want structured, accountable learning with real feedback',
-                    'You want an affordable alternative to agency fees — or want to hold your agency accountable',
+                    'You want an affordable alternative to agency fees, or want to hold your agency accountable',
                     'You\'re a marketing manager who wants to stay sharp on Google Ads, GA4, and AI tools',
                   ].map(item => (
                     <li key={item} className="flex items-start gap-3">
@@ -627,10 +627,10 @@ export default function Community() {
                 <ul className="space-y-3">
                   {[
                     'You\'re looking for someone to just do your marketing for you (that\'s what agencies are for)',
-                    'You want a passive income course to watch once and forget — The Lab requires showing up and doing the work',
-                    'You\'re after a quick-fix or "hack" — we teach strategy that compounds over time, not shortcuts',
-                    'You\'re not willing to implement — the worksheets and homework are there for a reason',
-                    'You expect overnight results — real SEO and Google Ads results take 60–90 days of consistent work',
+                    'You want a passive income course to watch once and forget, The Lab requires showing up and doing the work',
+                    'You\'re after a quick-fix or "hack", we teach strategy that compounds over time, not shortcuts',
+                    'You\'re not willing to implement, the worksheets and homework are there for a reason',
+                    'You expect overnight results, real SEO and Google Ads results take 60-90 days of consistent work',
                   ].map(item => (
                     <li key={item} className="flex items-start gap-3">
                       <svg className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -659,7 +659,7 @@ export default function Community() {
             <div className="text-center mb-12">
               <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Two Ways to Learn With Us</span>
               <h2 id="free-vs-paid-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Free group or paid Lab — which is right for you?
+                Free group or paid Lab, which is right for you?
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 Start free. Upgrade when you're ready. There's no wrong answer.
@@ -683,8 +683,8 @@ export default function Community() {
                 <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card</p>
                 <ul className="space-y-3 mb-6">
                   {[
-                    'Weekly Power Hours every Tuesday 12–1pm PT',
-                    'Live Q&A with Pip — no slides, real answers',
+                    'Weekly Power Hours every Tuesday 12-1pm PT',
+                    'Live Q&A with Pip, no slides, real answers',
                     'Topics: SEO, Google Ads, AI, Social Media',
                     'Community discussion in the Facebook group',
                     'Weekly session reminders via email',
@@ -699,7 +699,7 @@ export default function Community() {
                   {[
                     'Advanced courses & course library',
                     'Fillable worksheets & homework',
-                    'Thursday Lab sessions — hands-on help (paid only)',
+                    'Thursday Lab sessions, hands-on help (paid only)',
                     'AI & automation training modules',
                   ].map(f => (
                     <li key={f} className="flex items-start gap-2 text-sm text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -741,7 +741,7 @@ export default function Community() {
                 <ul className="space-y-3 mb-6">
                   {[
                     'Everything in the free group, plus:',
-                    'Thursday Lab sessions 12–1pm PT — hands-on with Pip & Phelan',
+                    'Thursday Lab sessions 12-1pm PT, hands-on with Pip & Phelan',
                     'Monthly deep-dive training sessions',
                     'Full on-demand course library',
                     'Google Ads Mastery course',
@@ -767,7 +767,7 @@ export default function Community() {
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                   aria-label="Start your 7-day free trial of The KnowHow Lab"
                 >
-                  Start Free Trial – $29/mo →
+                  Start Free Trial, $29/mo →
                 </a>
               </div>
             </div>

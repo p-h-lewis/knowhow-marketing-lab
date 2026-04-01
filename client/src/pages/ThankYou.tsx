@@ -19,7 +19,7 @@ const modules = [
 
 export default function ThankYou() {
   useSEO({
-    title: "You're In – Start Your Free AI + SEO Course",
+    title: "You're In, Start Your Free AI + SEO Course",
     description: "You have successfully signed up for the free AI + SEO course from KnowHow Marketing Lab. Check your email for your access link.",
     canonical: "https://knowhowmarketinglab.com/thank-you",
     ogType: "website",
@@ -162,10 +162,10 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Free Power Hours — every Tuesday
+                  Free Power Hours, every Tuesday
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Free live Q&amp;A on Zoom every Tuesday 12–1pm Pacific. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
+                  Free live Q&amp;A on Zoom every Tuesday 12-1pm Pacific. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
                 </p>
                 <Link
                   href="/power-hours"

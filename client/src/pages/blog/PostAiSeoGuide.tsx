@@ -58,7 +58,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-alphabet-soup-what-all-these-acronyms-mean">The Alphabet Soup: What All These Acronyms Mean</h2>
 
-<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO — all describing the same evolution in search" class="wp-image-8846"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="Comparison chart of AI SEO acronyms: GEO, AEO, LLMO, AIO and AI SEO, all describing the same evolution in search" class="wp-image-8846"
                   loading="lazy"
                   decoding="async"
                 /></figure>

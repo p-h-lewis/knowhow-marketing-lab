@@ -53,16 +53,16 @@ export default function StickyMobileCTA() {
 
   const ctaConfig = isPowerHoursPage
     ? {
-        title: "Free Live Q&A — Every Tuesday",
-        subtitle: "12–1pm PT · Bring your marketing questions",
+        title: "Free Live Q&A, Every Tuesday",
+        subtitle: "12-1pm PT · Bring your marketing questions",
         href: POWER_HOURS_URL,
-        label: "Register Free — Power Hours",
+        label: "Register Free, Power Hours",
         buttonText: "Register Free →",
         isExternal: false,
         ariaLabel: "Register for free Power Hours Q&A",
       }
     : {
-        title: "7-Day Free Trial — Then $29/mo",
+        title: "7-Day Free Trial, Then $29/mo",
         subtitle: "Thursday live training · Google Ads · SEO · AI",
         href: GHL_JOIN_URL,
         label: "Start your 7-day free trial of The KnowHow Lab",

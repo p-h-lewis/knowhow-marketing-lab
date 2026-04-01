@@ -1,6 +1,6 @@
 // Blog Post: Google Ads Campaign Types: The Complete 2026 Guide
 // Slug: /blog/google-ads-campaign-types-2026
-// Week 4 — Primary keyword: google ads campaign types 2026 (15 imp, pos 7.8)
+// Week 4, Primary keyword: google ads campaign types 2026 (15 imp, pos 7.8)
 // Author: Pip Seymour | Date: April 28, 2026
 // AEO/GEO: Direct answers, decision table, FAQ schema, structured for AI citation
 
@@ -18,7 +18,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Google Ads Campaign Types: The Complete 2026 Guide",
-      "description": "A complete guide to all Google Ads campaign types in 2026 — Search, Display, Shopping, Video, Performance Max, Demand Gen, and App. Includes a decision table and what's new for 2026.",
+      "description": "A complete guide to all Google Ads campaign types in 2026, Search, Display, Shopping, Video, Performance Max, Demand Gen, and App. Includes a decision table and what's new for 2026.",
       "author": { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about" },
       "publisher": { "@type": "Organization", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
       "datePublished": "2026-04-28",
@@ -51,17 +51,17 @@ export default function PostGoogleAdsCampaignTypes2026() {
         {
           "@type": "Question",
           "name": "What is the best Google Ads campaign type for a new advertiser in 2026?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For most new advertisers, a Search campaign is the best starting point. Search campaigns show your ads to people who are actively searching for what you offer, which means higher intent and better conversion rates. Performance Max is powerful but requires conversion data to work well — it is better suited to advertisers who already have at least 30 conversions per month tracked in Google Ads." }
+          "acceptedAnswer": { "@type": "Answer", "text": "For most new advertisers, a Search campaign is the best starting point. Search campaigns show your ads to people who are actively searching for what you offer, which means higher intent and better conversion rates. Performance Max is powerful but requires conversion data to work well, it is better suited to advertisers who already have at least 30 conversions per month tracked in Google Ads." }
         },
         {
           "@type": "Question",
           "name": "What is Performance Max and should I use it in 2026?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Performance Max (PMax) is a Google Ads campaign type that uses AI to show your ads across all Google channels — Search, Display, YouTube, Gmail, Discover, and Maps — from a single campaign. In 2026, PMax has improved significantly with better brand controls and more transparent reporting. However, it works best when you have strong conversion data (30+ conversions/month) and high-quality creative assets. New advertisers should start with Search campaigns first." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Performance Max (PMax) is a Google Ads campaign type that uses AI to show your ads across all Google channels, Search, Display, YouTube, Gmail, Discover, and Maps, from a single campaign. In 2026, PMax has improved significantly with better brand controls and more transparent reporting. However, it works best when you have strong conversion data (30+ conversions/month) and high-quality creative assets. New advertisers should start with Search campaigns first." }
         },
         {
           "@type": "Question",
           "name": "What is Demand Gen in Google Ads?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Demand Gen is a Google Ads campaign type that shows visual ads on YouTube (including Shorts), Google Discover, and Gmail. It replaced Discovery campaigns in 2024 and has expanded significantly in 2026 with better audience targeting and creative formats. Demand Gen is designed for top-of-funnel awareness and consideration — reaching people who are not actively searching but are likely to be interested in what you offer." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Demand Gen is a Google Ads campaign type that shows visual ads on YouTube (including Shorts), Google Discover, and Gmail. It replaced Discovery campaigns in 2024 and has expanded significantly in 2026 with better audience targeting and creative formats. Demand Gen is designed for top-of-funnel awareness and consideration, reaching people who are not actively searching but are likely to be interested in what you offer." }
         },
         {
           "@type": "Question",
@@ -124,14 +124,14 @@ export default function PostGoogleAdsCampaignTypes2026() {
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & GEO Lead — KnowHow Marketing Lab</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & GEO Lead, KnowHow Marketing Lab</p>
             </div>
           </div>
 
           <figure className="mb-10">
             <img
               src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80"
-              alt="Google Ads campaign types 2026 — overview of Search, Display, Shopping, Video, Performance Max, Demand Gen, and App campaigns"
+              alt="Google Ads campaign types 2026, overview of Search, Display, Shopping, Video, Performance Max, Demand Gen, and App campaigns"
               className="w-full rounded-2xl shadow-md"
               loading="eager"
               fetchPriority="high"
@@ -144,7 +144,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
             <ol className="space-y-2 text-sm text-[#318599]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               <li><a href="#whats-new" className="hover:underline">1. What's new in Google Ads campaign types for 2026</a></li>
               <li><a href="#seven-types" className="hover:underline">2. The 7 campaign types explained</a></li>
-              <li><a href="#decision-table" className="hover:underline">3. When to use each type — decision table</a></li>
+              <li><a href="#decision-table" className="hover:underline">3. When to use each type, decision table</a></li>
               <li><a href="#biggest-mistake" className="hover:underline">4. The biggest mistake: wrong campaign type for the goal</a></li>
               <li><a href="#knowhow-recommendation" className="hover:underline">5. The KnowHow recommendation for medium-sized businesses</a></li>
               <li><a href="#faq" className="hover:underline">6. Frequently asked questions</a></li>
@@ -164,27 +164,27 @@ export default function PostGoogleAdsCampaignTypes2026() {
             <h2 id="seven-types">The 7 Campaign Types Explained</h2>
 
             <h3>1. Search Campaigns</h3>
-            <p>Search campaigns show text ads on Google search results pages when someone searches for keywords you're targeting. They are the most direct form of Google Ads — you reach people who are actively looking for what you offer. Best for: lead generation, direct response, any business where customers search for the product or service by name.</p>
+            <p>Search campaigns show text ads on Google search results pages when someone searches for keywords you're targeting. They are the most direct form of Google Ads, you reach people who are actively looking for what you offer. Best for: lead generation, direct response, any business where customers search for the product or service by name.</p>
 
             <h3>2. Display Campaigns</h3>
-            <p>Display campaigns show image and banner ads on websites across the Google Display Network — over 2 million sites, apps, and Google properties. They are best for brand awareness and remarketing (showing ads to people who have already visited your website). Less effective for direct response because the audience is not actively searching.</p>
+            <p>Display campaigns show image and banner ads on websites across the Google Display Network, over 2 million sites, apps, and Google properties. They are best for brand awareness and remarketing (showing ads to people who have already visited your website). Less effective for direct response because the audience is not actively searching.</p>
 
             <h3>3. Shopping Campaigns</h3>
-            <p>Shopping campaigns show product listing ads — images, prices, and store names — at the top of Google search results. They are exclusively for e-commerce businesses selling physical products. Shopping campaigns require a Google Merchant Center account with a product feed.</p>
+            <p>Shopping campaigns show product listing ads, images, prices, and store names, at the top of Google search results. They are exclusively for e-commerce businesses selling physical products. Shopping campaigns require a Google Merchant Center account with a product feed.</p>
 
             <h3>4. Video Campaigns</h3>
             <p>Video campaigns show ads on YouTube and video partner sites. Formats include skippable in-stream ads (the ones you can skip after 5 seconds), non-skippable ads, bumper ads (6 seconds), and YouTube Shorts ads. Best for brand awareness, product demonstrations, and reaching audiences who are not actively searching.</p>
 
             <h3>5. Performance Max (PMax)</h3>
-            <p>Performance Max is Google's AI-driven campaign type that shows ads across all Google channels — Search, Display, YouTube, Gmail, Discover, and Maps — from a single campaign. It uses machine learning to find the best combination of channels, audiences, and creative assets to hit your conversion goals. Requires strong conversion data and high-quality creative assets to work well.</p>
+            <p>Performance Max is Google's AI-driven campaign type that shows ads across all Google channels, Search, Display, YouTube, Gmail, Discover, and Maps, from a single campaign. It uses machine learning to find the best combination of channels, audiences, and creative assets to hit your conversion goals. Requires strong conversion data and high-quality creative assets to work well.</p>
 
             <h3>6. Demand Gen</h3>
-            <p>Demand Gen campaigns show visual ads on YouTube (including Shorts), Google Discover, and Gmail. They are designed for top-of-funnel awareness and consideration — reaching people who are not actively searching but are likely to be interested. Demand Gen replaced Discovery campaigns in 2024 and has expanded significantly in 2026.</p>
+            <p>Demand Gen campaigns show visual ads on YouTube (including Shorts), Google Discover, and Gmail. They are designed for top-of-funnel awareness and consideration, reaching people who are not actively searching but are likely to be interested. Demand Gen replaced Discovery campaigns in 2024 and has expanded significantly in 2026.</p>
 
             <h3>7. App Campaigns</h3>
-            <p>App campaigns are designed specifically to drive app installs and in-app actions. They show ads across Google Search, Google Play, YouTube, and the Display Network. If you have a mobile app, this is the campaign type to use — it is the only one optimised for app store conversions.</p>
+            <p>App campaigns are designed specifically to drive app installs and in-app actions. They show ads across Google Search, Google Play, YouTube, and the Display Network. If you have a mobile app, this is the campaign type to use, it is the only one optimised for app store conversions.</p>
 
-            <h2 id="decision-table">When to Use Each Type — Decision Table</h2>
+            <h2 id="decision-table">When to Use Each Type, Decision Table</h2>
           </div>
 
           <div className="overflow-x-auto my-8">
@@ -220,7 +220,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
 
             <h2 id="biggest-mistake">The Biggest Mistake: Wrong Campaign Type for the Goal</h2>
             <p>The most common mistake we see in coaching sessions is advertisers using Performance Max when they should be using Search. PMax is powerful, but it needs conversion data to work. Without it, Google's AI has nothing to optimise toward and will spend your budget on low-quality placements across Display and YouTube.</p>
-            <p>The second most common mistake is using broad match keywords in Search campaigns without a solid negative keyword list. Broad match in 2026 is much more aggressive than it used to be — it will match your ads to searches that are only loosely related to your keywords. This is fine if you have strong conversion tracking and negative keywords in place. Without them, it is a budget drain.</p>
+            <p>The second most common mistake is using broad match keywords in Search campaigns without a solid negative keyword list. Broad match in 2026 is much more aggressive than it used to be, it will match your ads to searches that are only loosely related to your keywords. This is fine if you have strong conversion tracking and negative keywords in place. Without them, it is a budget drain.</p>
 
             <h2 id="knowhow-recommendation">The KnowHow Recommendation for Medium-Sized Businesses</h2>
             <blockquote>
@@ -232,8 +232,8 @@ export default function PostGoogleAdsCampaignTypes2026() {
 
           <div className="bg-[#fff3e0] border border-[#f5d5a0] rounded-2xl p-8 my-12 text-center">
             <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Google Ads Course</p>
-            <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn how to set up and run Google Ads campaigns — free</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The free course covers campaign setup, conversion tracking, bidding strategy, and how to read your data — with live coaching every Thursday.</p>
+            <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn how to set up and run Google Ads campaigns, free</h3>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The free course covers campaign setup, conversion tracking, bidding strategy, and how to read your data, with live coaching every Thursday.</p>
             <Link href="/courses/google-ads">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Start the Free Course
@@ -248,7 +248,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
                 { q: "What are the Google Ads campaign types in 2026?", a: "In 2026, Google Ads has 7 main campaign types: Search, Display, Shopping, Video, Performance Max, Demand Gen, and App. Each is designed for a different goal and audience." },
                 { q: "What is the best Google Ads campaign type for a new advertiser in 2026?", a: "For most new advertisers, a Search campaign is the best starting point. Search campaigns show your ads to people who are actively searching for what you offer, which means higher intent and better conversion rates. Performance Max requires conversion data to work well and is better suited to advertisers with 30+ conversions per month." },
                 { q: "What is Performance Max and should I use it in 2026?", a: "Performance Max (PMax) is a Google Ads campaign type that uses AI to show your ads across all Google channels from a single campaign. In 2026, PMax has improved with better brand controls and more transparent reporting. It works best when you have strong conversion data (30+ conversions/month) and high-quality creative assets." },
-                { q: "What is Demand Gen in Google Ads?", a: "Demand Gen is a Google Ads campaign type that shows visual ads on YouTube (including Shorts), Google Discover, and Gmail. It is designed for top-of-funnel awareness and consideration — reaching people who are not actively searching but are likely to be interested in what you offer." },
+                { q: "What is Demand Gen in Google Ads?", a: "Demand Gen is a Google Ads campaign type that shows visual ads on YouTube (including Shorts), Google Discover, and Gmail. It is designed for top-of-funnel awareness and consideration, reaching people who are not actively searching but are likely to be interested in what you offer." },
                 { q: "How do I choose between Search and Performance Max?", a: "Choose Search if you are new to Google Ads, have a limited budget, or have fewer than 30 conversions per month. Choose Performance Max if you have strong conversion tracking, 30+ conversions per month, and high-quality creative assets." },
                 { q: "Can I run multiple Google Ads campaign types at once?", a: "Yes. Most businesses run multiple campaign types simultaneously. A common setup is a Search campaign for high-intent keywords, a Performance Max campaign for broader reach, and a Demand Gen campaign for brand awareness. Make sure your conversion tracking is set up correctly before running multiple campaigns." }
               ].map(({ q, a }) => (

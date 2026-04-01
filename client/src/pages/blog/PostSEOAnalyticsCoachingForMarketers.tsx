@@ -10,13 +10,13 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<p>Most marketing training gives you theory. You sit through a course, take notes, and then go back to your desk and still don't know what to do first. SEO and analytics coaching for marketers works differently. You bring your real website, your real data, and your real questions — and you leave with a clear plan.</p>
+const POST_CONTENT = `<p>Most marketing training gives you theory. You sit through a course, take notes, and then go back to your desk and still don't know what to do first. SEO and analytics coaching for marketers works differently. You bring your real website, your real data, and your real questions, and you leave with a clear plan.</p>
 
 <p>This post explains what good SEO and analytics coaching actually looks like, who it is for, and how to find the right fit for your team.</p>
 
 <h2 id="what-is-seo-and-analytics-coaching">What Is SEO and Analytics Coaching for Marketers?</h2>
 
-<p>SEO and analytics coaching is a structured learning experience where a marketing expert works directly with you — or your team — to improve how your business shows up in search and how you measure what's working.</p>
+<p>SEO and analytics coaching is a structured learning experience where a marketing expert works directly with you, or your team, to improve how your business shows up in search and how you measure what's working.</p>
 
 <p>It is different from a course because it is personalised. Instead of watching pre-recorded videos about someone else's website, you are looking at your own Google Search Console, your own GA4 account, and your own content. The feedback is specific to your situation.</p>
 
@@ -25,7 +25,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 <ul class="wp-block-list">
 <li><strong>SEO fundamentals:</strong> How Google finds and ranks your pages, keyword research, on-page optimisation, and content strategy.</li>
 <li><strong>Analytics setup and interpretation:</strong> Making sure your GA4 and Google Search Console are set up correctly, and teaching you how to read the data so you can make better decisions.</li>
-<li><strong>AI-powered search:</strong> How to optimise for AI Overviews, ChatGPT, and Perplexity — the new search engines that are changing how people find businesses like yours.</li>
+<li><strong>AI-powered search:</strong> How to optimise for AI Overviews, ChatGPT, and Perplexity, the new search engines that are changing how people find businesses like yours.</li>
 </ul>
 
 <h2 id="who-needs-seo-and-analytics-coaching">Who Needs SEO and Analytics Coaching?</h2>
@@ -85,7 +85,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 
 <h2 id="how-knowhow-marketing-lab-approaches-coaching">How KnowHow Marketing Lab Approaches Coaching</h2>
 
-<p>Pip Seymour and Phelan Lewis have been doing digital marketing for over 20 years each. They built KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses — not solo freelancers, not enterprise brands.</p>
+<p>Pip Seymour and Phelan Lewis have been doing digital marketing for over 20 years each. They built KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands.</p>
 
 <p>The approach is practical and data-first. Every Thursday, Lab members bring their real websites and ad accounts to a live session. Pip and Phelan look at the data, explain what they see, and give specific recommendations. Members leave each session with a clear list of things to do.</p>
 
@@ -97,16 +97,16 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 <p>An SEO agency does the work for you. SEO coaching teaches you or your team how to do the work yourselves. Coaching is a better fit if you want to build in-house capability, reduce long-term costs, and understand what is happening on your own website. An agency is better if you want to outsource entirely and don't have the time or interest to learn.</p>
 
 <h3 class="wp-block-heading">How long does it take to see results from SEO coaching?</h3>
-<p>Most teams start to see measurable improvements in Google Search Console within 4 to 8 weeks of making the changes recommended in coaching. Full results — significant traffic increases — typically take 3 to 6 months, depending on how competitive your keywords are and how much content you publish.</p>
+<p>Most teams start to see measurable improvements in Google Search Console within 4 to 8 weeks of making the changes recommended in coaching. Full results, significant traffic increases, typically take 3 to 6 months, depending on how competitive your keywords are and how much content you publish.</p>
 
 <h3 class="wp-block-heading">Do I need technical SEO knowledge before starting coaching?</h3>
 <p>No. Good coaching starts where you are. If you are a complete beginner, you start with the basics. If you have some experience, you pick up where your knowledge gaps are. The important thing is that you are working on your real website, not a hypothetical one.</p>
 
 <h3 class="wp-block-heading">Can SEO coaching help with Google Ads too?</h3>
-<p>Yes — at KnowHow Marketing Lab, our coaching covers both organic search (SEO) and paid search (Google Ads). Understanding both together gives you a much clearer picture of your total search presence. You can see which keywords you are paying for that you could also rank for organically, and vice versa.</p>
+<p>Yes, at KnowHow Marketing Lab, our coaching covers both organic search (SEO) and paid search (Google Ads). Understanding both together gives you a much clearer picture of your total search presence. You can see which keywords you are paying for that you could also rank for organically, and vice versa.</p>
 
 <h3 class="wp-block-heading">Is SEO coaching worth it for a small marketing team?</h3>
-<p>Yes — especially for a small team. When you have one or two people responsible for all of marketing, you can't afford to spend months learning by trial and error. Coaching shortens the learning curve significantly. One good coaching session can save weeks of guesswork.</p>`;
+<p>Yes, especially for a small team. When you have one or two people responsible for all of marketing, you can't afford to spend months learning by trial and error. Coaching shortens the learning curve significantly. One good coaching session can save weeks of guesswork.</p>`;
 
 export default function PostSEOAnalyticsCoachingForMarketers() {
   useEffect(() => {
@@ -115,7 +115,7 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
     script.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "SEO and Analytics Coaching for Marketers — What to Look For and How It Works",
+      "headline": "SEO and Analytics Coaching for Marketers, What to Look For and How It Works",
       "description": "What good SEO and analytics coaching for marketers looks like, who it is for, and how to find the right fit for your team. Includes a comparison of coaching vs. courses.",
       "datePublished": "2026-03-24",
       "dateModified": "2026-03-24",
@@ -151,8 +151,8 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
         { "@type": "Question", "name": "What is the difference between SEO coaching and an SEO agency?", "acceptedAnswer": { "@type": "Answer", "text": "An SEO agency does the work for you. SEO coaching teaches you or your team how to do the work yourselves. Coaching is a better fit if you want to build in-house capability, reduce long-term costs, and understand what is happening on your own website." } },
         { "@type": "Question", "name": "How long does it take to see results from SEO coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most teams start to see measurable improvements in Google Search Console within 4 to 8 weeks of making the changes recommended in coaching. Full results typically take 3 to 6 months, depending on how competitive your keywords are." } },
         { "@type": "Question", "name": "Do I need technical SEO knowledge before starting coaching?", "acceptedAnswer": { "@type": "Answer", "text": "No. Good coaching starts where you are. If you are a complete beginner, you start with the basics. If you have some experience, you pick up where your knowledge gaps are." } },
-        { "@type": "Question", "name": "Can SEO coaching help with Google Ads too?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — at KnowHow Marketing Lab, coaching covers both organic search (SEO) and paid search (Google Ads). Understanding both together gives you a much clearer picture of your total search presence." } },
-        { "@type": "Question", "name": "Is SEO coaching worth it for a small marketing team?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — especially for a small team. Coaching shortens the learning curve significantly. One good coaching session can save weeks of guesswork." } }
+        { "@type": "Question", "name": "Can SEO coaching help with Google Ads too?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, at KnowHow Marketing Lab, coaching covers both organic search (SEO) and paid search (Google Ads). Understanding both together gives you a much clearer picture of your total search presence." } },
+        { "@type": "Question", "name": "Is SEO coaching worth it for a small marketing team?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, especially for a small team. Coaching shortens the learning curve significantly. One good coaching session can save weeks of guesswork." } }
       ]
     });
     document.head.appendChild(faqScript);
@@ -170,7 +170,7 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
     });
     document.head.appendChild(breadcrumbScript);
 
-    document.title = 'SEO and Analytics Coaching for Marketers — What to Look For | KnowHow Marketing Lab';
+    document.title = 'SEO and Analytics Coaching for Marketers, What to Look For | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', 'What good SEO and analytics coaching for marketers looks like, who it is for, and how to find the right fit for your team. Covers SEO, GA4, Google Search Console, and AI search.');
     const canonical = document.querySelector('link[rel="canonical"]');
@@ -208,7 +208,7 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
 
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-            SEO and Analytics Coaching for Marketers — What to Look For and How It Works
+            SEO and Analytics Coaching for Marketers, What to Look For and How It Works
           </h1>
 
           {/* Author */}
@@ -257,7 +257,7 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
             <h2 className="text-2xl font-bold mb-3">Ready to get coaching on your real website?</h2>
             <p className="text-white/80 mb-6">Join The Lab and bring your website, ads, and data to a live Q&amp;A session every Thursday. Pip and Phelan will tell you exactly what to fix and why.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab — $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
               <a href="/courses/seo" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free SEO Course</a>
             </div>
           </div>
