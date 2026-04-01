@@ -59,6 +59,12 @@ const PostGoogleAdsCoachingForMarketers = lazy(() => import('./pages/blog/PostGo
 const PostGoogleAdsCoachingSmallBusiness = lazy(() => import('./pages/blog/PostGoogleAdsCoachingSmallBusiness'));
 const PostSEOCoachingSmallBusiness = lazy(() => import('./pages/blog/PostSEOCoachingSmallBusiness'));
 const Mastermind = lazy(() => import('./pages/Mastermind'));
+const PostHowToUseAiForSeo = lazy(() => import('./pages/blog/PostHowToUseAiForSeo'));
+const PostGoogleAdsCoaching = lazy(() => import('./pages/blog/PostGoogleAdsCoaching'));
+const PostFreeDataDrivenSeoCourse = lazy(() => import('./pages/blog/PostFreeDataDrivenSeoCourse'));
+const PostGoogleAdsCampaignTypes2026 = lazy(() => import('./pages/blog/PostGoogleAdsCampaignTypes2026'));
+const PostSeoCoachingForMarketingTeams = lazy(() => import('./pages/blog/PostSeoCoachingForMarketingTeams'));
+const PostGoogleAdsForSmallBusiness = lazy(() => import('./pages/blog/PostGoogleAdsForSmallBusiness'));
 
 // Minimal page-transition fallback - matches site background to avoid flash
 function PageLoader() {
@@ -131,6 +137,18 @@ function Router() {
         <Route path="/blog/google-ads-coaching-for-small-business/" component={PostGoogleAdsCoachingSmallBusiness} />
         <Route path="/blog/seo-coaching-for-small-business" component={PostSEOCoachingSmallBusiness} />
         <Route path="/blog/seo-coaching-for-small-business/" component={PostSEOCoachingSmallBusiness} />
+        <Route path="/blog/how-to-use-ai-for-seo" component={PostHowToUseAiForSeo} />
+        <Route path="/blog/how-to-use-ai-for-seo/" component={PostHowToUseAiForSeo} />
+        <Route path="/blog/google-ads-coaching" component={PostGoogleAdsCoaching} />
+        <Route path="/blog/google-ads-coaching/" component={PostGoogleAdsCoaching} />
+        <Route path="/blog/free-data-driven-seo-course" component={PostFreeDataDrivenSeoCourse} />
+        <Route path="/blog/free-data-driven-seo-course/" component={PostFreeDataDrivenSeoCourse} />
+        <Route path="/blog/google-ads-campaign-types-2026" component={PostGoogleAdsCampaignTypes2026} />
+        <Route path="/blog/google-ads-campaign-types-2026/" component={PostGoogleAdsCampaignTypes2026} />
+        <Route path="/blog/seo-coaching-for-marketing-teams" component={PostSeoCoachingForMarketingTeams} />
+        <Route path="/blog/seo-coaching-for-marketing-teams/" component={PostSeoCoachingForMarketingTeams} />
+        <Route path="/blog/google-ads-for-small-business" component={PostGoogleAdsForSmallBusiness} />
+        <Route path="/blog/google-ads-for-small-business/" component={PostGoogleAdsForSmallBusiness} />
 
         {/* Catch-all for /blog/:slug - must come AFTER specific blog routes */}
         <Route path="/blog/:slug" component={BlogPost} />

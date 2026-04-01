@@ -30,7 +30,7 @@ export default function PostKeywordResearchKeywordClusters() {
       "datePublished": "2026-03-02",
       "dateModified": "2026-03-02",
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://knowhowmarketinglab.com/blog/keyword-research-keyword-clusters" },
-      "image": { "@type": "ImageObject", "url": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1200&q=80", "width": 1200, "height": 630 },
+      "image": { "@type": "ImageObject", "url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80", "width": 1200, "height": 630 },
       "articleSection": "SEO",
       "keywords": ["keyword research", "keyword clusters", "keyword clustering", "how to do keyword research", "google keyword planner", "topical authority SEO"]
     };
@@ -130,8 +130,8 @@ export default function PostKeywordResearchKeywordClusters() {
           {/* Hero Image */}
           <figure className="mb-10">
             <img
-              src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1200&q=80"
-              alt="Keyword research and keyword clustering strategy - mapping keywords to content topics for SEO"
+              src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80"
+              alt="Keyword research data on a laptop screen showing search volume and keyword clusters for SEO content planning"
               className="w-full rounded-2xl shadow-md"
               loading="eager"
               fetchPriority="high"
