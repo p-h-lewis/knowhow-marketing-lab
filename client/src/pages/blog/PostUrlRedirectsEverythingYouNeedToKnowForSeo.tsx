@@ -6,7 +6,7 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-and-tips"><br>Introduction - URL Redirects: Practical applications and tips</h2>
 
-<p>Redirects are important in website management and user experience. <br>This blog post covers the types of URL redirects. It also explains how they can help your SEO strategy. <br>URL redirects are crucial for improving your website's search engine optimization (SEO). <br>Redirects are also important in website management and user experience. <br>Redirects can be temporary or permanent. But first</p>
+<p>Redirects are important in website management and user experience. <br>This blog post covers the types of URL redirects. It also explains how they can help your SEO strategy. <br>URL redirects are crucial for improving your website's search engine optimisation (SEO). <br>Redirects are also important in website management and user experience. <br>Redirects can be temporary or permanent. But first</p>
 
 <figure class="wp-block-image size-large"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/url-redirects-seo-hero-42TixeLBrQF3kLhEd7JrFA.webp" alt="URL Redirects SEO Best Practices " class="wp-image-7639"
                   loading="lazy"

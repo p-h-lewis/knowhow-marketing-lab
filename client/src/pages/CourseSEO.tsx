@@ -79,7 +79,7 @@ export default function CourseSEO() {
               "courseMode": "online",
               "instructor": [
                 { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist with 20+ years of agency experience, specialising in data-driven SEO and Generative Engine Optimisation." },
-                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist", "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing paid search campaigns for medium-sized businesses." }
+                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist with 20+ years of experience helping medium-sized businesses measure what matters." }
               ]
             },
             "syllabusSections": modules.map((m, i) => ({

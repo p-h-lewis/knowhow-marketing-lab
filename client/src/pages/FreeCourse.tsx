@@ -42,7 +42,7 @@ const schema = {
       },
       "instructor": [
         { "@type": "Person", "name": "Pip Seymour", "jobTitle": "SEO & Content Strategy Lead" },
-        { "@type": "Person", "name": "Phelan Lewis", "jobTitle": "Google Ads & Analytics Lead" }
+        { "@type": "Person", "name": "Phelan Lewis", "jobTitle": "Google Tag Manager & Analytics Lead" }
       ],
       "offers": {
         "@type": "Offer",
@@ -283,8 +283,8 @@ export default function FreeCourse() {
                 },
                 {
                   name: 'Phelan Lewis',
-                  role: 'Google Ads & Analytics Lead',
-                  bio: 'Google Ads and analytics specialist. Managed millions in ad spend. Leads AI marketing and automation training in The Lab.',
+                  role: 'Google Tag Manager & Analytics Lead',
+                  bio: 'Google Tag Manager and analytics specialist. Helps businesses measure what matters. Leads AI marketing and automation training in The Lab.',
                   color: '#318599',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png',
                   initials: 'PL',

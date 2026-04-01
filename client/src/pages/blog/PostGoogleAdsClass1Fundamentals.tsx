@@ -48,7 +48,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p>Highly Targeted Reach: Google Ads allows you to target users based on their search intent, location, device, demographics, and even the time of day. This precision targeting ensures your ads are shown to people who are most likely to be interested in your products or services.</p>
 
-<p>Measurable Results: Every click, impression, and conversion is tracked, giving you complete visibility into how your advertising budget is being spent and what results you are getting. This data-driven approach allows you to continuously optimize your campaigns for better performance.</p>
+<p>Measurable Results: Every click, impression, and conversion is tracked, giving you complete visibility into how your advertising budget is being spent and what results you are getting. This data-driven approach allows you to continuously optimise your campaigns for better performance.</p>
 
 <p>Flexible Budgeting: You control how much you spend each day, and you only pay when someone clicks on your ad (in most campaign types). This pay-per-click model means you are paying for actual engagement, not just impressions.</p>
 
@@ -62,7 +62,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p>Every time someone performs a search on Google, an auction takes place in milliseconds to determine which ads will be shown and in what order. The auction considers three main factors:</p>
 
-<p><strong>Your Bid: </strong>This is the maximum amount you are willing to pay for a click on your ad. You can set bids manually or use automated bidding strategies that adjust your bids based on your goals (such as maximizing conversions or achieving a target return on ad spend).</p>
+<p><strong>Your Bid: </strong>This is the maximum amount you are willing to pay for a click on your ad. You can set bids manually or use automated bidding strategies that adjust your bids based on your goals (such as maximising conversions or achieving a target return on ad spend).</p>
 
 <p><strong>Quality Score:</strong> This is Google's rating of the quality and relevance of your keywords, ads, and landing pages. Quality Score is measured on a scale of one to ten, with ten being the best. A higher Quality Score means your ads are more relevant to the user's search, which can result in lower costs and better ad positions.</p>
 
@@ -114,9 +114,9 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p><strong>Performance Max Campaigns</strong></p>
 
-<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimize your ads across all of Google's channels - Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
+<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimise your ads across all of Google's channels - Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
 
-<p><strong>Best for: </strong>Businesses that want to maximize conversions across all Google channels with minimal manual management. We will cover Performance Max in detail in Class 3.</p>
+<p><strong>Best for: </strong>Businesses that want to maximise conversions across all Google channels with minimal manual management. We will cover Performance Max in detail in Class 3.</p>
 
 <p><strong>App Campaigns</strong></p>
 
@@ -126,7 +126,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <h2 id="key-metrics-and-terminology">Key Metrics and Terminology</h2>
 
-<p>Understanding the language of Google Ads is essential for managing and optimizing your campaigns. Here are the key metrics you will encounter:</p>
+<p>Understanding the language of Google Ads is essential for managing and optimising your campaigns. Here are the key metrics you will encounter:</p>
 
 <p><strong>Impressions: </strong>The number of times your ad is shown to users.</p>
 
@@ -164,7 +164,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p><strong>Recommendations: </strong>Google provides automated recommendations to improve your campaigns. While some are helpful, always evaluate recommendations critically before implementing them.</p>
 
-<p><strong>Reports</strong>: Access detailed performance reports to analyze your campaigns by time, device, location, and more.</p>
+<p><strong>Reports</strong>: Access detailed performance reports to analyse your campaigns by time, device, location, and more.</p>
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 https://youtu.be/_jqGM9V1QHY
@@ -205,7 +205,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <li>There are multiple campaign types (Search, Display, Video, Shopping, Performance Max, App), each suited for different goals.</li>
 
-<li>Understanding key metrics like CTR, CPC, conversions, and ROAS is essential for measuring and optimizing campaign performance.</li>
+<li>Understanding key metrics like CTR, CPC, conversions, and ROAS is essential for measuring and optimising campaign performance.</li>
 
 <li>Proper account setup and goal definition are the foundation of successful campaigns.</li>
 </ul>

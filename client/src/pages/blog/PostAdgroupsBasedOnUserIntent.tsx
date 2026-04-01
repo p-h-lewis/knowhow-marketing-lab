@@ -38,7 +38,7 @@ const POST_CONTENT = `<p></p>
 
 <h2 id="3-segmentation-for-budget-allocation"><strong>3. Segmentation for Budget Allocation</strong></h2>
 
-<p>When you organize AdGroups by intent, it becomes easier to allocate budgets based on expected conversion rates and customer value:</p>
+<p>When you organise AdGroups by intent, it becomes easier to allocate budgets based on expected conversion rates and customer value:</p>
 
 <ul class="wp-block-list">
 <li><strong>Transactional intent</strong> groups should receive a higher budget since users are ready to buy.</li>
@@ -46,16 +46,16 @@ const POST_CONTENT = `<p></p>
 <li><strong>Informational intent</strong> AdGroups may have lower CPCs but can be valuable for capturing early-stage leads or nurturing future buyers.</li>
 </ul>
 
-<p>This segmentation allows for smarter spending and higher ROI, as you can prioritize AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
+<p>This segmentation allows for smarter spending and higher ROI, as you can prioritise AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
 
 <figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8362"
                   loading="lazy"
                   decoding="async"
                 /></figure>
 
-<h2 id="4-customized-landing-pages"><strong>4. Customized Landing Pages</strong></h2>
+<h2 id="4-customised-landing-pages"><strong>4. Customized Landing Pages</strong></h2>
 
-<p>Each intent group can lead to specific landing pages optimized for that stage of the journey:</p>
+<p>Each intent group can lead to specific landing pages optimised for that stage of the journey:</p>
 
 <ul class="wp-block-list">
 <li><strong>Informational intent</strong>: Direct to blog posts, guides, or educational resources.</li>
@@ -74,7 +74,7 @@ const POST_CONTENT = `<p></p>
 
 <h2 id="5-easier-performance-analysis"><strong>5. Easier Performance Analysis</strong></h2>
 
-<p>By structuring AdGroups around intent, it becomes easier to analyze performance and adjust strategies. You can see which intent groups are performing well at each stage of the funnel:</p>
+<p>By structuring AdGroups around intent, it becomes easier to analyse performance and adjust strategies. You can see which intent groups are performing well at each stage of the funnel:</p>
 
 <ul class="wp-block-list">
 <li>Are users in the <strong>consideration stage</strong> engaging more but converting less? You can tweak the offer or call-to-action to push them further down the funnel.</li>
@@ -216,7 +216,7 @@ export default function PostAdgroupsBasedOnUserIntent() {
               <li key="1-improved-ad-relevance-and-ctr"><a href="#1-improved-ad-relevance-and-ctr" className="text-[#318599] hover:underline text-sm">1. Improved Ad Relevance and CTR</a></li>
               <li key="2-better-quality-scores"><a href="#2-better-quality-scores" className="text-[#318599] hover:underline text-sm">2. Better Quality Scores</a></li>
               <li key="3-segmentation-for-budget-allocation"><a href="#3-segmentation-for-budget-allocation" className="text-[#318599] hover:underline text-sm">3. Segmentation for Budget Allocation</a></li>
-              <li key="4-customized-landing-pages"><a href="#4-customized-landing-pages" className="text-[#318599] hover:underline text-sm">4. Customized Landing Pages</a></li>
+              <li key="4-customised-landing-pages"><a href="#4-customised-landing-pages" className="text-[#318599] hover:underline text-sm">4. Customized Landing Pages</a></li>
               <li key="5-easier-performance-analysis"><a href="#5-easier-performance-analysis" className="text-[#318599] hover:underline text-sm">5. Easier Performance Analysis</a></li>
               <li key="drawbacks-to-watch-out-for"><a href="#drawbacks-to-watch-out-for" className="text-[#318599] hover:underline text-sm">Drawbacks to Watch Out For:</a></li>
               <li key="conclusion"><a href="#conclusion" className="text-[#318599] hover:underline text-sm">Conclusion</a></li>

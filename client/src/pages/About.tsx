@@ -74,10 +74,10 @@ export default function About() {
                   "@type": "Person",
                   "name": "Phelan Lewis",
                   "url": "https://knowhowmarketinglab.com/about",
-                  "jobTitle": "Google Ads & Analytics Lead",
-                  "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing paid search campaigns for medium-sized businesses. Co-founder of KnowHow Marketing Lab. Specialises in Google Ads strategy, Google Tag Manager, GA4, AI marketing automation, and data-driven campaign optimisation.",
+                  "jobTitle": "Google Tag Manager & Analytics Lead",
+                  "description": "Phelan Lewis is a Google Tag Manager and analytics specialist with 20+ years of experience helping medium-sized businesses measure what matters. Co-founder of KnowHow Marketing Lab. Specialises in Google Tag Manager, GA4, Google Analytics, conversion tracking, AI marketing automation, and data-driven campaign optimisation.",
                   "worksFor": { "@type": "Organization", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
-                  "knowsAbout": ["Google Ads", "Google Tag Manager", "GA4", "AI Marketing Automation", "PPC", "Smart Bidding", "Performance Max"],
+                  "knowsAbout": ["Google Tag Manager", "GA4", "Google Analytics", "Conversion Tracking", "AI Marketing Automation", "Data Layer", "Marketing Measurement"],
                   "sameAs": ["https://www.youtube.com/@knowhowmarketinglab"]
                 }
               ]
@@ -201,16 +201,16 @@ export default function About() {
                 },
                 {
                   name: 'Phelan Lewis',
-                  role: 'Google Ads & Analytics Lead',
+                  role: 'Google Tag Manager & Analytics Lead',
                   color: '#318599',
                   initials: 'PL',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png',
                   bio: [
-                    'Phelan Lewis is the Google Ads and marketing analytics lead at KnowHow Marketing Lab. He has managed millions of dollars in Google Ads spend across industries including retail, professional services, healthcare, and manufacturing.',
-                    'Phelan\'s expertise covers the full Google Ads ecosystem: Search campaigns, Display, Performance Max, Google Ads Editor, and AI-powered bidding strategies. He also leads the AI marketing and automation training in The Lab.',
-                    'Phelan believes that Google Ads only works when it is connected to solid analytics. His training always starts with GA4 and conversion tracking before touching a single campaign.',
+                    'Phelan Lewis is the Google Tag Manager and analytics lead at KnowHow Marketing Lab. He has spent 20+ years helping medium-sized businesses build measurement systems that actually tell them what is working — and what is not.',
+                    'Phelan\'s expertise covers the full measurement stack: Google Tag Manager, GA4, Google Analytics, conversion tracking, and data layer implementation. He also leads the AI marketing and automation training in The Lab.',
+                    'Phelan believes every marketing decision should start with clean data. His training always begins with GA4 and Tag Manager setup before touching a single campaign or piece of content.',
                   ],
-                  expertise: ['Google Ads Strategy', 'Google Ads Editor', 'GA4 & Conversion Tracking', 'Google Tag Manager', 'AI Marketing Automation', 'Performance Max'],
+                  expertise: ['Google Tag Manager', 'GA4 & Google Analytics', 'Conversion Tracking', 'Data Layer Setup', 'AI Marketing Automation', 'Marketing Measurement'],
                   company: null,
                   companyUrl: null,
                 },

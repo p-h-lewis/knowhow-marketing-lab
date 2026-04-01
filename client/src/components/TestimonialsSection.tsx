@@ -40,7 +40,7 @@ const textTestimonials = [
     rating: 5,
   },
   {
-    quote: 'We\'ve worked with Seymour Digital Media for many years. They support us with website help, SEO, Google Ads, local Google optimization, and e-commerce — all within a specialty industry that requires real expertise. The work truly speaks for itself.',
+    quote: 'We\'ve worked with Seymour Digital Media for many years. They support us with website help, SEO, Google Ads, local Google optimisation, and e-commerce — all within a specialty industry that requires real expertise. The work truly speaks for itself.',
     name: 'Lesley McHale',
     role: 'Business Owner',
     company: 'Google Review ★★★★★',

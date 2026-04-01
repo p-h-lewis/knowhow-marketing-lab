@@ -77,7 +77,7 @@ export default function CourseGoogleAds() {
               "courseMode": "online",
               "instructor": [
                 { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist with 20+ years of agency experience in SEO, Google Ads, and AI-driven marketing for medium-sized businesses." },
-                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist", "description": "Phelan Lewis is a Google Ads and analytics specialist with 20+ years of experience managing profitable paid search campaigns for medium-sized businesses." }
+                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist with 20+ years of experience helping medium-sized businesses measure what matters and make better marketing decisions." }
               ]
             },
             "breadcrumb": {

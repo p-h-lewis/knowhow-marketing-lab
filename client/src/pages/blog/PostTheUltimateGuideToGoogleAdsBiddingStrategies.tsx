@@ -26,7 +26,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 
 <p>Here are the four core strategies and when to use them:</p>
 
-<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Bidding Strategy</td><td>Primary Goal</td><td>Best For...</td></tr><tr><td>Maximize Conversions</td><td>Get the most conversions possible within your budget.</td><td>Lead generation or e-commerce campaigns where all conversions have similar value.</td></tr><tr><td>Target CPA</td><td>Get the most conversions possible at a specific Cost Per Acquisition.</td><td>Businesses that know their target cost per lead or sale and need to maintain profitability.</td></tr><tr><td>Maximize Conversion Value</td><td>Get the highest total conversion value within your budget.</td><td>E-commerce businesses with a wide range of product prices, where the AI can prioritize high-value sales.</td></tr><tr><td>Target ROAS</td><td>Achieve a specific Return On Ad Spend.</td><td>Businesses focused on hitting a specific profitability target (e.g., “for every $1 I spend, I want to make $5 back”).</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Bidding Strategy</td><td>Primary Goal</td><td>Best For...</td></tr><tr><td>Maximise Conversions</td><td>Get the most conversions possible within your budget.</td><td>Lead generation or e-commerce campaigns where all conversions have similar value.</td></tr><tr><td>Target CPA</td><td>Get the most conversions possible at a specific Cost Per Acquisition.</td><td>Businesses that know their target cost per lead or sale and need to maintain profitability.</td></tr><tr><td>Maximise Conversion Value</td><td>Get the highest total conversion value within your budget.</td><td>E-commerce businesses with a wide range of product prices, where the AI can prioritise high-value sales.</td></tr><tr><td>Target ROAS</td><td>Achieve a specific Return On Ad Spend.</td><td>Businesses focused on hitting a specific profitability target (e.g., “for every $1 I spend, I want to make $5 back”).</td></tr></tbody></table></figure>
 
 <p><br>Google’s official recommendation is to pair these strategies with Broad Match keywords, as the AI is now smart enough to determine which queries are relevant and which are not, allowing it to learn faster and find more opportunities. [4]</p>
 
@@ -39,7 +39,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 
 <li><strong>Enhanced CPC (eCPC): </strong>This is a hybrid strategy. You set manual bids, but you give Google permission to adjust them up or down if it thinks a click is more or less likely to lead to a conversion. It’s a good stepping stone between full manual and full automation. I don't think it is relevant anymore</li>
 
-<li><strong>Maximize Clicks: </strong>The goal is simple: get as many clicks as possible within your budget. This is useful for driving traffic to a blog post or building brand awareness, but it’s generally not recommended for campaigns focused on leads or sales, as it doesn’t optimize for quality.</li>
+<li><strong>Maximise Clicks: </strong>The goal is simple: get as many clicks as possible within your budget. This is useful for driving traffic to a blog post or building brand awareness, but it’s generally not recommended for campaigns focused on leads or sales, as it doesn’t optimise for quality.</li>
 
 <li><strong>Target Impression Share</strong>: This strategy is all about visibility. You tell Google you want to appear at the top of the page (or absolute top) a certain percentage of the time. It’s best for branded search campaigns where you want to ensure you always show up when someone searches your name.</li>
 </ul>
@@ -51,7 +51,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <h3 class="wp-block-heading" id="h-phase-1-data-gathering-0-15-conversions-month"><strong>Phase 1:</strong> Data Gathering (0-15 Conversions/Month)</h3>
 
 <ul class="wp-block-list">
-<li><strong>Strategy:</strong> Manual CPC or Maximize Clicks</li>
+<li><strong>Strategy:</strong> Manual CPC or Maximise Clicks</li>
 
 <li><strong>Goal:</strong> Get your first conversions and establish baseline metrics (CPC, CTR, Conversion Rate). You don’t have enough data for Smart Bidding to work effectively yet. Experts recommend having at least 15-20 conversions per month before switching. [5]</li>
 </ul>
@@ -59,7 +59,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <h3 class="wp-block-heading" id="h-phase-2-the-switch-to-smart-bidding-15-conversions-month">Phase 2: The Switch to Smart Bidding (15+ Conversions/Month)</h3>
 
 <ul class="wp-block-list">
-<li><strong>Strategy:</strong> Maximize Conversions or Target CPA</li>
+<li><strong>Strategy:</strong> Maximise Conversions or Target CPA</li>
 
 <li><strong>Goal: </strong>Let the AI take over. Once you have a consistent flow of conversions, switch to a Smart Bidding strategy. Give the algorithm 2-3 weeks to go through its “learning phase” before you judge the results. [5]</li>
 </ul>
@@ -67,7 +67,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <h3 class="wp-block-heading" id="h-phase-3-scaling-amp-profitability-50-conversions-month">Phase 3: Scaling & Profitability (50+ Conversions/Month)</h3>
 
 <ul class="wp-block-list">
-<li><strong>Strategy: </strong>Target ROAS or Maximize Conversion Value</li>
+<li><strong>Strategy: </strong>Target ROAS or Maximise Conversion Value</li>
 
 <li><strong>Goal:</strong> Focus on profitability. Once you have significant conversion volume and value data, you can switch to a ROAS-based strategy to ensure your ad spend is generating a positive return.</li>
 </ul>
@@ -85,7 +85,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <ul class="wp-block-list">
 <li><a href="https://support.google.com/google-ads/answer/16294612?hl=en" target="_blank" rel="noreferrer noopener">Smart Bidding Exploration</a>: This allows you to set flexible ROAS targets to help the AI explore new, untapped pockets of traffic. Early results show a 19% average increase in conversions. [7]</li>
 
-<li><a href="https://support.google.com/google-ads/answer/16756291" target="_blank" rel="noreferrer noopener">Omni-Channel Bidding:</a> <a href="https://support.google.com/google-ads/answer/16756291"> Google Ads Highlights of 2025</a><br>For businesses with physical stores, this allows you to optimize for both online sales and in-store visits within the same campaign. [7]</li>
+<li><a href="https://support.google.com/google-ads/answer/16756291" target="_blank" rel="noreferrer noopener">Omni-Channel Bidding:</a> <a href="https://support.google.com/google-ads/answer/16756291"> Google Ads Highlights of 2025</a><br>For businesses with physical stores, this allows you to optimise for both online sales and in-store visits within the same campaign. [7]</li>
 </ul>
 
 <h3 class="wp-block-heading" id="h-conclusion">Conclusion</h3>
@@ -95,7 +95,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">What is the best Google Ads bidding strategy for beginners?</h3>
-<p>If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximize Clicks. These give you control while you gather data. Once you hit 15–20 conversions per month, switch to Maximize Conversions and let Google’s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes.</p>
+<p>If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximise Clicks. These give you control while you gather data. Once you hit 15–20 conversions per month, switch to Maximise Conversions and let Google’s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes.</p>
 
 <h3 class="wp-block-heading">What is the difference between Target CPA and Target ROAS?</h3>
 <p>Target CPA (Cost Per Acquisition) tells Google: “Get me as many conversions as possible, but keep the cost per conversion at or below this number.” Target ROAS (Return On Ad Spend) tells Google: “For every dollar I spend, I want to make back this much in revenue.” Use Target CPA for lead generation. Use Target ROAS for e-commerce where different products have different values.</p>
@@ -125,7 +125,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 
 <li>[5]: <a href="https://www.reddit.com/answers/7cd908f9-028d-4a72-add0-bde1c7da168b/?q=https%3A%2F%2Fadexpert.io%2Fmanual-cpc-vs-smart-bidding-when-to-switch-for-better-roi%2F&source=SERP_SEARCH_BAR_BUTTON&upstreamCID=43f0dcb9-1c41-42e2-be6e-14a93061f5b8&upstreamIID=7cd321bf-55df-4c72-a653-00e40339a50b&upstreamQ=https%3A%2F%2Fadexpert.io%2Fmanual-cpc-vs-smart-bidding-when-to-switch-for-better-roi%2F&upstreamQID=8b048205-8533-4916-9fc3-fa2253cb7734&upstreamQT=search_ask" target="_blank" rel="noreferrer noopener">Manual CPC vs. Smart Bidding: When to Switch for Better ROI</a> </li>
 
-<li>[6]: <a href="https://support.google.com/google-ads/answer/2732132" target="_blank" rel="noreferrer noopener">About bid adjustments - Google Ads Help</a>, <a href="https://support.google.com/google-ads/answer/7684216?hl=en#:~:text=Maximize%20conversion%20value%20bidding%20eligibility,within%20the%20past%2035%20days.">Google Answers</a></li>
+<li>[6]: <a href="https://support.google.com/google-ads/answer/2732132" target="_blank" rel="noreferrer noopener">About bid adjustments - Google Ads Help</a>, <a href="https://support.google.com/google-ads/answer/7684216?hl=en#:~:text=Maximise%20conversion%20value%20bidding%20eligibility,within%20the%20past%2035%20days.">Google Answers</a></li>
 
 <li>[7]: <a href="https://support.google.com/google-ads/answer/16756291" target="_blank" rel="noreferrer noopener">Google Ads Highlights of 2025 - Google Ads Help</a></li>
 </ol>
@@ -218,7 +218,7 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is the best Google Ads bidding strategy for beginners?", "acceptedAnswer": { "@type": "Answer", "text": "If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximize Clicks. Once you hit 15\u201320 conversions per month, switch to Maximize Conversions and let Google\u2019s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes." } },
+        { "@type": "Question", "name": "What is the best Google Ads bidding strategy for beginners?", "acceptedAnswer": { "@type": "Answer", "text": "If you are just starting out and have fewer than 15 conversions per month, start with Manual CPC or Maximise Clicks. Once you hit 15\u201320 conversions per month, switch to Maximise Conversions and let Google\u2019s Smart Bidding take over. Jumping straight to Target CPA or Target ROAS without enough data is one of the most common beginner mistakes." } },
         { "@type": "Question", "name": "What is the difference between Target CPA and Target ROAS?", "acceptedAnswer": { "@type": "Answer", "text": "Target CPA tells Google to get as many conversions as possible at or below a set cost per conversion. Target ROAS tells Google to return a specific amount of revenue for every dollar spent. Use Target CPA for lead generation and Target ROAS for e-commerce where products have different values." } },
         { "@type": "Question", "name": "How long does Smart Bidding take to work?", "acceptedAnswer": { "@type": "Answer", "text": "Smart Bidding goes through a learning phase that typically lasts 1\u20132 weeks. Google recommends giving the algorithm at least 2\u20133 weeks and 50+ conversions before judging results. Avoid making big changes during the learning phase, as it resets the clock." } },
         { "@type": "Question", "name": "Should I use Manual CPC or Smart Bidding in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "For most advertisers in 2026, Smart Bidding is the better choice once you have conversion data. Manual CPC still has a place for brand new campaigns with no conversion history, or for very niche situations where you need tight control over specific keywords." } },

@@ -74,9 +74,9 @@ https://youtu.be/_jqGM9V1QHY
 
 <p>An ad campaign without conversion tracking is just a hobby. We walk you through the technical setup (made simple) to ensure you know exactly which ads are making you money and which are wasting it.</p>
 
-<h3 class="wp-block-heading">Week 5: The Optimization Engine (Class 5)</h3>
+<h3 class="wp-block-heading">Week 5: The Optimisation Engine (Class 5)</h3>
 
-<p>Your campaign is live - now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
+<p>Your campaign is live - now the real work begins. We teach you the weekly and monthly rhythms of optimisation, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
 
 <h3 class="wp-block-heading">Why is This Exclusive to the Lab?</h3>
 
@@ -111,7 +111,7 @@ https://youtu.be/_jqGM9V1QHY
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Free Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns",
-  "description": "A complete 5-week Google Ads training program for medium-sized businesses. Learn fundamentals, campaign creation, automation, conversion tracking, and optimization.",
+  "description": "A complete 5-week Google Ads training program for medium-sized businesses. Learn fundamentals, campaign creation, automation, conversion tracking, and optimisation.",
   "image": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp",
   "author": {
     "@type": "Person",
@@ -146,7 +146,7 @@ https://youtu.be/_jqGM9V1QHY
   "@context": "https://schema.org",
   "@type": "ImageObject",
   "contentUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-masterclass-hero-aUtCFHZma86FKW8uZTKj75.webp",
-  "description": "The KHML Google Ads Mastery Framework: 5-week learning pathway from fundamentals to optimization",
+  "description": "The KHML Google Ads Mastery Framework: 5-week learning pathway from fundamentals to optimisation",
   "name": "KHML Google Ads Mastery Framework"
 }
 </script>
@@ -229,7 +229,7 @@ https://youtu.be/_jqGM9V1QHY
         "Search advertising",
         "Performance Max",
         "Conversion tracking",
-        "Campaign optimization"
+        "Campaign optimisation"
       ],
       "keywords": [
         "Google Ads masterclass",
@@ -239,15 +239,15 @@ https://youtu.be/_jqGM9V1QHY
         "Search campaign",
         "Performance Max",
         "Conversion tracking",
-        "Optimization"
+        "Optimisation"
       ],
-      "description": "A structured 5-week Google Ads masterclass roadmap designed to take beginners from fundamentals to profitable campaign optimization inside the KnowHow Marketing Lab."
+      "description": "A structured 5-week Google Ads masterclass roadmap designed to take beginners from fundamentals to profitable campaign optimisation inside the KnowHow Marketing Lab."
     },
     {
       "@type": "Course",
       "@id": "https://knowhowmarketinglab.com/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns/#course",
       "name": "Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns",
-      "description": "A structured 5-week accelerator designed to take students from beginner fundamentals to confident, data-driven Google Ads campaign creation and optimization.",
+      "description": "A structured 5-week accelerator designed to take students from beginner fundamentals to confident, data-driven Google Ads campaign creation and optimisation.",
       "educationalLevel": "Beginner",
       "inLanguage": "en",
       "provider": {
@@ -269,7 +269,7 @@ https://youtu.be/_jqGM9V1QHY
         "Building a search campaign from scratch",
         "Automation campaign types (Performance Max, Demand Gen)",
         "Conversion tracking and measurement setup",
-        "Ongoing optimization and scaling routines"
+        "Ongoing optimisation and scaling routines"
       ],
       "hasPart": [
         {
@@ -291,7 +291,7 @@ https://youtu.be/_jqGM9V1QHY
         },
         {
           "@type": "Course",
-          "name": "Week 5: The Optimization Engine (Class 5)"
+          "name": "Week 5: The Optimisation Engine (Class 5)"
         }
       ],
       "video": {

@@ -60,7 +60,7 @@ const phases = [
     color: '#318599',
     steps: [
       { name: 'Search term reports', desc: 'Review your search term report weekly for the first month. Add irrelevant terms as negative keywords immediately. Look for high-performing search terms that are not in your keyword list — add them as exact match keywords. This is where most of the early budget waste is found and fixed.' },
-      { name: 'Bidding strategy progression', desc: 'Start with Manual CPC or Maximize Clicks to gather data. Once you have 30+ conversions in a 30-day period, switch to a Smart Bidding strategy (Target CPA or Target ROAS). Smart Bidding needs conversion data to work — launching it on a new campaign with no data is one of the most common Google Ads mistakes. Read our full guide on <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" class="text-[#318599] hover:underline">Google Ads bidding strategies</a>.' },
+      { name: 'Bidding strategy progression', desc: 'Start with Manual CPC or Maximise Clicks to gather data. Once you have 30+ conversions in a 30-day period, switch to a Smart Bidding strategy (Target CPA or Target ROAS). Smart Bidding needs conversion data to work — launching it on a new campaign with no data is one of the most common Google Ads mistakes. Read our full guide on <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" class="text-[#318599] hover:underline">Google Ads bidding strategies</a>.' },
       { name: 'Quality Score optimisation', desc: 'Quality Score (1-10) affects how much you pay per click and where your ads appear. Improve it by increasing ad relevance (match ad copy to keywords), improving expected CTR (write more compelling headlines), and improving landing page experience (faster load times, relevant content, clear CTA).' },
       { name: 'Asset performance review', desc: 'In your RSAs, check which headlines and descriptions are rated "Best," "Good," or "Low." Replace "Low" rated assets with new variations. Over time, you will build a library of proven messaging that you can use across campaigns.' },
     ],
@@ -138,7 +138,7 @@ export default function PostGoogleAdsFramework() {
       "dateModified": "2026-03-23",
       "author": [
         { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Digital Marketing Strategist" },
-        { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist" }
+        { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist" }
       ],
       "publisher": {
         "@type": "Organization",
@@ -349,7 +349,7 @@ export default function PostGoogleAdsFramework() {
                 {
                   num: '03',
                   title: 'Switching to Smart Bidding too early',
-                  desc: 'Smart Bidding (Target CPA, Target ROAS) needs conversion data to work. Switching before you have 30+ conversions in 30 days puts Google\'s AI in a learning phase with no signal — it will spend your budget inefficiently. Start with Manual CPC or Maximize Clicks, gather data, then switch.'
+                  desc: 'Smart Bidding (Target CPA, Target ROAS) needs conversion data to work. Switching before you have 30+ conversions in 30 days puts Google\'s AI in a learning phase with no signal — it will spend your budget inefficiently. Start with Manual CPC or Maximise Clicks, gather data, then switch.'
                 },
                 {
                   num: '04',

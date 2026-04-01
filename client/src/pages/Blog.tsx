@@ -276,7 +276,7 @@ const blogPosts = [
   {
     slug: 'how-ai-is-shaping-marketing',
     title: 'How AI is Shaping Marketing: From Content Creation to Campaign Analysis',
-    excerpt: 'AI is changing every part of digital marketing - from writing ad copy to analyzing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
+    excerpt: 'AI is changing every part of digital marketing - from writing ad copy to analysing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'November 15, 2024',

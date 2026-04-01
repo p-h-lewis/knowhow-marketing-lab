@@ -74,7 +74,7 @@ export default function AboutSection() {
               {
                 name: 'Pip Seymour',
                 role: 'SEO & Content Strategy Lead',
-                bio: 'Pip brings 20+ years of SEO and digital marketing agency experience. Specializes in data-driven SEO, Google Search Console, GA4, and Generative Engine Optimization (GEO) for medium-sized businesses.',
+                bio: 'Pip brings 20+ years of SEO and digital marketing agency experience. Specializes in data-driven SEO, Google Search Console, GA4, and Generative Engine Optimisation (GEO) for medium-sized businesses.',
                 initials: 'PS',
                 color: '#E98C28',
               },

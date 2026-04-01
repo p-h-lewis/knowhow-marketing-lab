@@ -26,7 +26,7 @@ const POST_CONTENT = `<h2 id="industries-charge-industry-rates"><br>Industries c
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Considering the detailed and customized approach outlined, you should expect to invest in the higher end of the spectrum, likely <strong>$4,000 to $6,000 per month</strong> for comprehensive Google Ads management. </p>
+<p>Considering the detailed and customised approach outlined, you should expect to invest in the higher end of the spectrum, likely <strong>$4,000 to $6,000 per month</strong> for comprehensive Google Ads management. </p>
 
 <p>This investment aligns with the strategic objectives of scaling marketing efforts and achieving significant growth through targeted and effective digital advertising.</p>
 

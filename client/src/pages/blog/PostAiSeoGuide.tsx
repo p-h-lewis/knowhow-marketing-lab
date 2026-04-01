@@ -20,7 +20,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Here's the scary part: If AI doesn't know about your business, you don't exist to these shoppers.</p>
 
-<p>For 25 years, businesses played the same game. Rank on Google's first page, get traffic, make sales. We called it <a href="https://seymourdigitalmedia.com/services/getting-found-online/" target="_blank" rel="noreferrer noopener">SEO (Search Engine Optimization)</a>, and it worked great.</p>
+<p>For 25 years, businesses played the same game. Rank on Google's first page, get traffic, make sales. We called it <a href="https://seymourdigitalmedia.com/services/getting-found-online/" target="_blank" rel="noreferrer noopener">SEO (Search Engine Optimisation)</a>, and it worked great.</p>
 
 <h2 id="but-in-october-2025-everything-changed">But in October 2025, everything changed.</h2>
 
@@ -34,7 +34,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>So here's the big question: How do you make sure AI knows about your business and recommends you?</strong></p>
 
-<p>That's exactly what this guide will teach you. You'll learn about seven types of optimization:</p>
+<p>That's exactly what this guide will teach you. You'll learn about seven types of optimisation:</p>
 
 <ul class="wp-block-list">
 <li><strong>SEO</strong> - Getting found on Google (the foundation)</li>
@@ -45,9 +45,9 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li><strong>SGE</strong> - Google's AI-powered search experience (now called AI Overviews)</li>
 
-<li><strong>LLMO</strong> - Optimizing for language models (the technical side)</li>
+<li><strong>LLMO</strong> - Optimising for language models (the technical side)</li>
 
-<li><strong>AIO</strong> - The broader AI optimization picture (the big view)</li>
+<li><strong>AIO</strong> - The broader AI optimisation picture (the big view)</li>
 
 <li><strong>AI SEO</strong> - The umbrella term for everything (the simple way to explain it)</li>
 </ul>
@@ -73,7 +73,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>But let's break down each term so you understand what people mean when they use them:</p>
 
-<h3 class="wp-block-heading" id="h-seo-search-engine-optimization">SEO (Search Engine Optimization)</h3>
+<h3 class="wp-block-heading" id="h-seo-search-engine-optimisation">SEO (Search Engine Optimisation)</h3>
 
 <p>This is the original. SEO is about getting your website to show up when people search on Google, Bing, or other search engines.</p>
 
@@ -81,7 +81,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Learn more:</strong> <a href="https://developers.google.com/search" target="_blank" rel="noreferrer noopener">Google Search Central</a></p>
 
-<h3 class="wp-block-heading" id="h-geo-generative-engine-optimization">GEO (Generative Engine Optimization)</h3>
+<h3 class="wp-block-heading" id="h-geo-generative-engine-optimisation">GEO (Generative Engine Optimisation)</h3>
 
 <p>This is about getting AI models to know about your brand and recommend you when people ask for advice.</p>
 
@@ -89,17 +89,17 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Learn more:</strong> <a href="https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo" target="_blank" rel="noreferrer noopener">The Drum - SEO is Dead, Long Live GEO</a></p>
 
-<h3 class="wp-block-heading" id="h-aeo-answer-engine-optimization">AEO (Answer Engine Optimization)</h3>
+<h3 class="wp-block-heading" id="h-aeo-answer-engine-optimisation">AEO (Answer Engine Optimisation)</h3>
 
 <p>This is about structuring your content so AI can easily extract it and present it as an answer.</p>
 
 <p><strong>Goal:</strong> Become the answer AI provides<br><strong>Platform:</strong> All AI systems that answer questions<br><strong>How it works:</strong> You structure content with clear answers that AI can extract and quote<br><strong>Success metric:</strong> Being cited as the source of answers</p>
 
-<h3 class="wp-block-heading" id="h-llmo-large-language-model-optimization">LLMO (Large Language Model Optimization)</h3>
+<h3 class="wp-block-heading" id="h-llmo-large-language-model-optimisation">LLMO (Large Language Model Optimisation)</h3>
 
-<p>This is the technical term for optimizing specifically for how large language models work.</p>
+<p>This is the technical term for optimising specifically for how large language models work.</p>
 
-<p><strong>Goal:</strong> Optimize for how LLMs retrieve and process information<br><strong>Platform:</strong> GPT-4, Claude, Gemini, and other large language models<br><strong>How it works:</strong> Understanding the technical architecture of how LLMs work and optimizing accordingly<br><strong>Success metric:</strong> Being retrieved and cited by LLMs</p>
+<p><strong>Goal:</strong> Optimise for how LLMs retrieve and process information<br><strong>Platform:</strong> GPT-4, Claude, Gemini, and other large language models<br><strong>How it works:</strong> Understanding the technical architecture of how LLMs work and optimising accordingly<br><strong>Success metric:</strong> Being retrieved and cited by LLMs</p>
 
 <h3 class="wp-block-heading" id="h-sge-search-generative-experience">SGE (Search Generative Experience)</h3>
 
@@ -111,13 +111,13 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Learn more:</strong> <a href="https://blog.google/products/search/generative-ai-search/" target="_blank" rel="noreferrer noopener">Google Blog - AI in Search</a> | <a href="https://www.semrush.com/blog/google-sge/" target="_blank" rel="noreferrer noopener">Semrush - Google SGE Guide</a></p>
 
-<h3 class="wp-block-heading" id="h-aio-artificial-intelligence-optimization">AIO (Artificial Intelligence Optimization)</h3>
+<h3 class="wp-block-heading" id="h-aio-artificial-intelligence-optimisation">AIO (Artificial Intelligence Optimisation)</h3>
 
-<p>This is the broadest term, covering optimization for all AI systems, not just search-related ones.</p>
+<p>This is the broadest term, covering optimisation for all AI systems, not just search-related ones.</p>
 
-<p><strong>Goal:</strong> Be visible across all AI platforms<br><strong>Platform:</strong> All AI systems (search, recommendations, assistants, agents)<br><strong>How it works:</strong> Comprehensive optimization across the entire AI ecosystem<br><strong>Success metric:</strong> Overall AI visibility</p>
+<p><strong>Goal:</strong> Be visible across all AI platforms<br><strong>Platform:</strong> All AI systems (search, recommendations, assistants, agents)<br><strong>How it works:</strong> Comprehensive optimisation across the entire AI ecosystem<br><strong>Success metric:</strong> Overall AI visibility</p>
 
-<h3 class="wp-block-heading" id="h-ai-seo-ai-powered-search-engine-optimization">AI SEO (AI-Powered Search Engine Optimization)</h3>
+<h3 class="wp-block-heading" id="h-ai-seo-ai-powered-search-engine-optimisation">AI SEO (AI-Powered Search Engine Optimisation)</h3>
 
 <p>This is the umbrella term that covers everything. It's essentially SEO evolved for the age of AI.</p>
 
@@ -163,7 +163,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>There's nothing wrong with any of this. But it does create confusion. That's why we're cutting through it and giving you the straight story.</p>
 
-<p>According to <a href="https://backlinko.com/seo-vs-geo">Backlinko's research</a>, search interest in these terms has exploded in the past year. "AI Optimization" searches have grown 400%. But "SEO" still gets 250,000 searches per month in the US alone.</p>
+<p>According to <a href="https://backlinko.com/seo-vs-geo">Backlinko's research</a>, search interest in these terms has exploded in the past year. "AI Optimisation" searches have grown 400%. But "SEO" still gets 250,000 searches per month in the US alone.</p>
 
 <p>The takeaway? SEO isn't dead. It's evolving. And all these new terms are just different ways of describing that evolution.</p>
 
@@ -176,7 +176,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="why-seo-still-matters-and-always-will">Why SEO Still Matters (And Always Will)</h2>
 
-<p>With all this talk about AI, you might be thinking: "Should I just forget about SEO and focus on AI optimization?"</p>
+<p>With all this talk about AI, you might be thinking: "Should I just forget about SEO and focus on AI optimisation?"</p>
 
 <p><strong>Absolutely not.</strong></p>
 
@@ -220,7 +220,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Think of SEO as building your reputation. Once you have that reputation, it spreads everywhere including to AI systems.</p>
 
-<h3 class="wp-block-heading" id="h-good-seo-practices-help-with-ai-optimization">Good SEO Practices Help With AI Optimization</h3>
+<h3 class="wp-block-heading" id="h-good-seo-practices-help-with-ai-optimisation">Good SEO Practices Help With AI Optimisation</h3>
 
 <p>The things that make you rank well on Google also help with AI:</p>
 
@@ -234,7 +234,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Structuring content clearly</strong> - Good organization helps both search engines and AI understand your content.</p>
 
-<p>So when you improve your SEO, you're also improving your AI optimization. They work together, not against each other.</p>
+<p>So when you improve your SEO, you're also improving your AI optimisation. They work together, not against each other.</p>
 
 <h3 class="wp-block-heading" id="h-what-good-seo-looks-like-in-2025">What Good SEO Looks Like in 2025</h3>
 
@@ -262,7 +262,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="geo-how-to-get-ai-to-know-your-brand">GEO: How to Get AI to Know Your Brand</h2>
 
-<p>Generative Engine Optimization (GEO) is about making sure AI models like ChatGPT, Claude, and Gemini know about your business and recommend you to people.</p>
+<p>Generative Engine Optimisation (GEO) is about making sure AI models like ChatGPT, Claude, and Gemini know about your business and recommend you to people.</p>
 
 <h3 class="wp-block-heading" id="h-how-geo-is-different-from-traditional-seo">How GEO is Different from Traditional SEO</h3>
 
@@ -328,7 +328,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Here's the key: <strong>Use natural language.</strong> Write like you're explaining things to a friend.</p>
 
-<p>Instead of: "Enterprise SaaS solutions for project management optimization"</p>
+<p>Instead of: "Enterprise SaaS solutions for project management optimisation"</p>
 
 <p>Say: "Software that helps teams work together on projects, especially when everyone works from different places"</p>
 
@@ -372,7 +372,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="aeo-how-to-become-the-answer-ai-gives">AEO: How to Become the Answer AI Gives</h2>
 
-<p>Answer Engine Optimization (AEO) is about structuring your content so AI can easily extract it and present it as an answer to people's questions.</p>
+<p>Answer Engine Optimisation (AEO) is about structuring your content so AI can easily extract it and present it as an answer to people's questions.</p>
 
 <h3 class="wp-block-heading" id="h-the-rise-of-conversational-commerce">The Rise of Conversational Commerce</h3>
 
@@ -444,7 +444,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Rule 4: Use Structure</strong></p>
 
-<p>Organize your content with:</p>
+<p>Organise your content with:</p>
 
 <ul class="wp-block-list">
 <li>Clear headings and subheadings</li>
@@ -500,13 +500,13 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <li>Reviews (authentic)</li>
 </ul>
 
-<p><strong>Learn more:</strong> <a href="https://contentmarketinginstitute.com/seo-for-content/how-to-optimize-your-content-for-google-s-search-generative-experience" target="_blank" rel="noreferrer noopener">Content Marketing Institute - Optimizing for AI</a></p>
+<p><strong>Learn more:</strong> <a href="https://contentmarketinginstitute.com/seo-for-content/how-to-optimise-your-content-for-google-s-search-generative-experience" target="_blank" rel="noreferrer noopener">Content Marketing Institute - Optimising for AI</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
-<h2 id="llmo-optimizing-for-large-language-models">LLMO: Optimizing for Large Language Models</h2>
+<h2 id="llmo-optimising-for-large-language-models">LLMO: Optimising for Large Language Models</h2>
 
-<p>Large Language Model Optimization (LLMO) is the technical term for optimizing specifically for how large language models like GPT-4, Claude, and Gemini work.</p>
+<p>Large Language Model Optimisation (LLMO) is the technical term for optimising specifically for how large language models like GPT-4, Claude, and Gemini work.</p>
 
 <h3 class="wp-block-heading" id="h-what-are-large-language-models">What Are Large Language Models?</h3>
 
@@ -555,7 +555,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li>Meta tags</li>
 
-<li>Technical optimization</li>
+<li>Technical optimisation</li>
 </ul>
 
 <p><strong>LLMO focuses on:</strong></p>
@@ -574,11 +574,11 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h3 class="wp-block-heading" id="h-the-llmo-strategy">The LLMO Strategy</h3>
 
-<p><strong>Optimize for Semantic Understanding</strong></p>
+<p><strong>Optimise for Semantic Understanding</strong></p>
 
 <p>LLMs understand meaning, not just keywords. They cluster concepts by semantic relationships.</p>
 
-<p>Instead of optimizing for the keyword "<em>project management software</em>," think about:</p>
+<p>Instead of optimising for the keyword "<em>project management software</em>," think about:</p>
 
 <ul class="wp-block-list">
 <li>What problem does project management software solve?</li>
@@ -644,9 +644,9 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
-<h2 id="aio-the-bigger-picture-of-ai-optimization">AIO: The Bigger Picture of AI Optimization</h2>
+<h2 id="aio-the-bigger-picture-of-ai-optimisation">AIO: The Bigger Picture of AI Optimisation</h2>
 
-<p>Artificial Intelligence Optimization (AIO) is the broadest term. It covers optimization for all AI systems, not just search-related ones.</p>
+<p>Artificial Intelligence Optimisation (AIO) is the broadest term. It covers optimisation for all AI systems, not just search-related ones.</p>
 
 <h3 class="wp-block-heading" id="h-beyond-search-the-full-ai-ecosystem">Beyond Search: The Full AI Ecosystem</h3>
 
@@ -678,7 +678,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <li>Filter and curate content</li>
 </ul>
 
-<p>If your brand isn't optimized for AI across all these systems, you'll miss opportunities.</p>
+<p>If your brand isn't optimised for AI across all these systems, you'll miss opportunities.</p>
 
 <h3 class="wp-block-heading" id="h-the-aio-strategy">The AIO Strategy</h3>
 
@@ -765,7 +765,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h3 class="wp-block-heading" id="h-what-ai-seo-means">What AI SEO Means</h3>
 
-<p>AI SEO is search engine optimization that accounts for how AI systems retrieve, understand, and present information.</p>
+<p>AI SEO is search engine optimisation that accounts for how AI systems retrieve, understand, and present information.</p>
 
 <p>It includes:</p>
 
@@ -776,9 +776,9 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li>AEO (being the answer AI provides)</li>
 
-<li>LLMO (optimizing for how LLMs work)</li>
+<li>LLMO (optimising for how LLMs work)</li>
 
-<li>AIO (broader AI optimization)</li>
+<li>AIO (broader AI optimisation)</li>
 </ul>
 
 <p>All in one integrated approach.</p>
@@ -805,7 +805,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Building authority across platforms</strong> - Don't just focus on your website. Build presence on Reddit, YouTube, podcasts, forums, and industry publications.</p>
 
-<p><strong>Optimizing for both humans and AI</strong> - Good content helps both. You don't need to choose.</p>
+<p><strong>Optimising for both humans and AI</strong> - Good content helps both. You don't need to choose.</p>
 
 <p><strong>Measuring success holistically</strong> - Track traditional SEO metrics AND AI visibility metrics.</p>
 
@@ -818,7 +818,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li><strong>Expansion</strong> - Create comprehensive content that teaches AI about you</li>
 
-<li><strong>Optimization</strong> - Structure content for easy extraction and citation</li>
+<li><strong>Optimisation</strong> - Structure content for easy extraction and citation</li>
 
 <li><strong>Distribution</strong> - Share across multiple platforms where AI learns</li>
 
@@ -893,7 +893,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Branded queries</strong> - Minimal impact (people searching for your brand still visit)</p>
 
-<h3 class="wp-block-heading" id="h-how-to-optimize-for-ai-overviews">How to Optimize for AI Overviews</h3>
+<h3 class="wp-block-heading" id="h-how-to-optimise-for-ai-overviews">How to Optimise for AI Overviews</h3>
 
 <p>The strategies overlap with GEO and AEO:</p>
 
@@ -919,7 +919,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Qualified traffic</strong> - When people do click, they're more informed and qualified</p>
 
-<p><strong>Competitive advantage</strong> - Most businesses aren't optimizing for this yet</p>
+<p><strong>Competitive advantage</strong> - Most businesses aren't optimising for this yet</p>
 
 <p>Plus, <a href="https://searchengineland.com/google-expand-ads-ai-overviews-463273" target="_blank" rel="noreferrer noopener">Google announced in October 2025</a> that they're expanding ads within AI Overviews. This creates new paid visibility opportunities alongside AI-generated content.</p>
 
@@ -929,12 +929,12 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <h2 id="the-know-how-framework-your-complete-strategy">The Know How Framework: Your Complete Strategy</h2>
 
-<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="ai seo know how optimization framework " class="wp-image-8849"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="ai seo know how optimisation framework " class="wp-image-8849"
                   loading="lazy"
                   decoding="async"
                 /></figure>
 
-<p>At Know How Marketing Lab, we've developed a comprehensive framework for succeeding with AI SEO. We call it the <strong>Know How Optimization Framework</strong>.</p>
+<p>At Know How Marketing Lab, we've developed a comprehensive framework for succeeding with AI SEO. We call it the <strong>Know How Optimisation Framework</strong>.</p>
 
 <p>It integrates SEO, GEO, AEO, LLMO, and AIO into one cohesive strategy.</p>
 
@@ -1067,8 +1067,8 @@ export default function PostAiSeoGuide() {
               <li key="why-seo-still-matters-and-always-will"><a href="#why-seo-still-matters-and-always-will" className="text-[#318599] hover:underline text-sm">Why SEO Still Matters (And Always Will)</a></li>
               <li key="geo-how-to-get-ai-to-know-your-brand"><a href="#geo-how-to-get-ai-to-know-your-brand" className="text-[#318599] hover:underline text-sm">GEO: How to Get AI to Know Your Brand</a></li>
               <li key="aeo-how-to-become-the-answer-ai-gives"><a href="#aeo-how-to-become-the-answer-ai-gives" className="text-[#318599] hover:underline text-sm">AEO: How to Become the Answer AI Gives</a></li>
-              <li key="llmo-optimizing-for-large-language-models"><a href="#llmo-optimizing-for-large-language-models" className="text-[#318599] hover:underline text-sm">LLMO: Optimizing for Large Language Models</a></li>
-              <li key="aio-the-bigger-picture-of-ai-optimization"><a href="#aio-the-bigger-picture-of-ai-optimization" className="text-[#318599] hover:underline text-sm">AIO: The Bigger Picture of AI Optimization</a></li>
+              <li key="llmo-optimising-for-large-language-models"><a href="#llmo-optimising-for-large-language-models" className="text-[#318599] hover:underline text-sm">LLMO: Optimising for Large Language Models</a></li>
+              <li key="aio-the-bigger-picture-of-ai-optimisation"><a href="#aio-the-bigger-picture-of-ai-optimisation" className="text-[#318599] hover:underline text-sm">AIO: The Bigger Picture of AI Optimisation</a></li>
               <li key="ai-seo-the-umbrella-term-that-covers-everything"><a href="#ai-seo-the-umbrella-term-that-covers-everything" className="text-[#318599] hover:underline text-sm">AI SEO: The Umbrella Term That Covers Everything</a></li>
               <li key="how-sge-ai-overviews-changed-search-forever"><a href="#how-sge-ai-overviews-changed-search-forever" className="text-[#318599] hover:underline text-sm">How SGE/AI Overviews Changed Search Forever</a></li>
               <li key="the-know-how-framework-your-complete-strategy"><a href="#the-know-how-framework-your-complete-strategy" className="text-[#318599] hover:underline text-sm">The Know How Framework: Your Complete Strategy</a></li>

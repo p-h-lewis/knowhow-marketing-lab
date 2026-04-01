@@ -97,7 +97,7 @@ export default function Home() {
                 {
                   "@type": "Person",
                   "name": "Phelan Lewis",
-                  "jobTitle": "Google Ads & Analytics Lead",
+                  "jobTitle": "Google Tag Manager & Analytics Lead",
                   "knowsAbout": ["Google Ads", "Google Tag Manager", "GA4", "AI Marketing Automation", "PPC"]
                 }
               ]
@@ -341,7 +341,7 @@ export default function Home() {
                     color: '#E98C28',
                     label: 'Google Ads',
                     title: 'Google Ads Coaching',
-                    desc: 'Share your Google Ads account and Phelan will review your campaigns live — bidding strategy, campaign structure, conversion tracking, and budget allocation.',
+                    desc: 'Share your Google Ads account and Phelan will review your campaigns live — conversion tracking, Tag Manager setup, campaign structure, and what the data is actually telling you.',
                     href: '/blog/google-ads-coaching-for-marketers',
                   },
                 ].map((card, i) => (

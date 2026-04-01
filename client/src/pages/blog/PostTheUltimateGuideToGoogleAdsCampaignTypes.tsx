@@ -31,7 +31,7 @@ https://youtu.be/nzTa2wJEN9k
 
 <p>The "Do It All" AI Powerhouse</p>
 
-<p>Performance Max is Google's goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It uses AI to optimize your budget and bids across every channel in real-time.</p>
+<p>Performance Max is Google's goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It uses AI to optimise your budget and bids across every channel in real-time.</p>
 
 <h3 class="wp-block-heading" id="h-where-ads-appear">Where Ads Appear:</h3>
 
@@ -280,7 +280,7 @@ https://youtu.be/nzTa2wJEN9k
 
 <h3 class="wp-block-heading"> Ready to Master Google Ads?</h3>
 
-<p>Choosing the campaign type is just step one. To truly succeed, you need to know how to structure your account, write killer ad copy, and optimize for ROI.</p>
+<p>Choosing the campaign type is just step one. To truly succeed, you need to know how to structure your account, write killer ad copy, and optimise for ROI.</p>
 
 <p>Join the Know How Marketing Lab Community on Skool!</p>
 
@@ -307,7 +307,7 @@ https://youtu.be/nzTa2wJEN9k
 
 <li><a href="#" target="_blank" rel="noreferrer noopener">[3] [About Performance Max for store goals - Google Ads Help](https://support.google.com/google-ads/answer/12971048?hl=en )</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[4] [Optimization tips for Performance Max - Google Ads Help](https://support.google.com/google-ads/answer/11385582?hl=en )</a></li>
+<li><a href="#" target="_blank" rel="noreferrer noopener">[4] [Optimisation tips for Performance Max - Google Ads Help](https://support.google.com/google-ads/answer/11385582?hl=en )</a></li>
 
 <li><a href="#" target="_blank" rel="noreferrer noopener">[5] [About Demand Gen campaigns - Google Ads Help](https://support.google.com/google-ads/answer/13695777?hl=en )</a></li>
 
@@ -343,7 +343,7 @@ https://youtu.be/nzTa2wJEN9k
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "Stop Wasting Ad Spend! Master Every Google Ads Campaign Type in Minutes",
-  "description": "Learn how to choose and optimize the right Google Ads campaign types - Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns - to maximize your marketing results. Includes video walkthrough and visual examples.",
+  "description": "Learn how to choose and optimise the right Google Ads campaign types - Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns - to maximise your marketing results. Includes video walkthrough and visual examples.",
   "author": {
     "@type": "Person",
     "name": "Pip Seymour"
@@ -462,7 +462,7 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
       "description": "The 7 active Google Ads campaign types available in 2026, explained by KnowHow Marketing Lab.",
       "numberOfItems": 7,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Performance Max (PMax)", "description": "Goal-based campaign that accesses all Google Ads inventory from a single campaign using AI to optimize across Search, YouTube, Display, Discover, Gmail, and Maps." },
+        { "@type": "ListItem", "position": 1, "name": "Performance Max (PMax)", "description": "Goal-based campaign that accesses all Google Ads inventory from a single campaign using AI to optimise across Search, YouTube, Display, Discover, Gmail, and Maps." },
         { "@type": "ListItem", "position": 2, "name": "Demand Gen", "description": "Replaced Discovery Ads. Focuses on visual engagement on YouTube (In-Stream, Shorts, Feed), Discover Feed, and Gmail. Supports lookalike audience targeting." },
         { "@type": "ListItem", "position": 3, "name": "Search Campaigns", "description": "Classic text ads on Google Search Results and Search Partners. Best for capturing high-intent traffic from people actively searching for your product or service." },
         { "@type": "ListItem", "position": 4, "name": "Shopping Campaigns", "description": "Product listing ads showing photo, title, price, and store name. Essential for e-commerce retailers selling physical products." },

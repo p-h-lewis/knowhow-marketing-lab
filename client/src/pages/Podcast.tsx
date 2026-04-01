@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "What topics does the podcast cover?",
-    a: "The podcast covers SEO strategy, Google Ads campaign management, Google Analytics 4 (GA4), Generative Engine Optimization (GEO), AI marketing tools including ChatGPT and Gemini, Google Search Console, Google Tag Manager, and monthly marketing news. Episodes range from beginner-friendly explainers to advanced technical discussions on topics like Google Ads Scripts, AI Agents, and data-driven decision making.",
+    a: "The podcast covers SEO strategy, Google Ads campaign management, Google Analytics 4 (GA4), Generative Engine Optimisation (GEO), AI marketing tools including ChatGPT and Gemini, Google Search Console, Google Tag Manager, and monthly marketing news. Episodes range from beginner-friendly explainers to advanced technical discussions on topics like Google Ads Scripts, AI Agents, and data-driven decision making.",
   },
   {
     q: "Where can I watch or listen to the podcast?",
@@ -47,9 +47,9 @@ const faqs = [
 
 const topicClusters = [
   {
-    title: "SEO and Generative Engine Optimization (GEO)",
+    title: "SEO and Generative Engine Optimisation (GEO)",
     color: "#318599",
-    body: "Search engine optimization has changed significantly since AI-powered search engines like Google's AI Overviews, Perplexity, and ChatGPT became mainstream. The podcast covers both traditional SEO — keyword research, on-page optimization, Google Search Console, and technical SEO — and the newer discipline of Generative Engine Optimization (GEO), which focuses on making your content discoverable and citable by large language models (LLMs). Episodes explore how to structure content so AI systems can understand and reference it, how to use Google Search Console data to find real ranking opportunities, and how to build a content strategy that works for both human readers and AI crawlers.",
+    body: "Search engine optimisation has changed significantly since AI-powered search engines like Google's AI Overviews, Perplexity, and ChatGPT became mainstream. The podcast covers both traditional SEO — keyword research, on-page optimisation, Google Search Console, and technical SEO — and the newer discipline of Generative Engine Optimisation (GEO), which focuses on making your content discoverable and citable by large language models (LLMs). Episodes explore how to structure content so AI systems can understand and reference it, how to use Google Search Console data to find real ranking opportunities, and how to build a content strategy that works for both human readers and AI crawlers.",
   },
   {
     title: "Google Ads Strategy and Campaign Management",
@@ -131,7 +131,7 @@ const schema = {
         { "@type": "ListItem", "position": 3, "name": "AI Agents vs. ChatGPT: What Every Business Pro Must Know Before 2026", "url": "https://www.youtube.com/watch?v=9d2Jv0F7wYk" },
         { "@type": "ListItem", "position": 4, "name": "How AI Is Changing the Way We Watch and Create Video", "url": "https://www.youtube.com/watch?v=o8SL0_d-Mns" },
         { "@type": "ListItem", "position": 5, "name": "AI and SEO: How to Use Them Together for Maximum Impact", "url": "https://www.youtube.com/watch?v=XSqYY_9Myug" },
-        { "@type": "ListItem", "position": 6, "name": "AI-Powered Search & Social Search Optimization", "url": "https://www.youtube.com/watch?v=7U1eSGtcuBk" },
+        { "@type": "ListItem", "position": 6, "name": "AI-Powered Search & Social Search Optimisation", "url": "https://www.youtube.com/watch?v=7U1eSGtcuBk" },
         { "@type": "ListItem", "position": 7, "name": "How AI is Changing the Search & Social Media Landscape", "url": "https://www.youtube.com/watch?v=ZrF2gvne2dg" },
         { "@type": "ListItem", "position": 8, "name": "Marketing Pulse: This Month's Trends, Tactics & Game-Changers", "url": "https://www.youtube.com/watch?v=cMalSDFK6D4" },
         { "@type": "ListItem", "position": 9, "name": "This Month In The World Of Marketing", "url": "https://www.youtube.com/watch?v=vIPNsUrNu5k" },
@@ -277,7 +277,7 @@ export default function Podcast() {
               Every month, Pip Seymour and Phelan Lewis sit down to talk about what is actually happening in SEO, Google Ads, and AI marketing — no fluff, no hype, just honest analysis from two agency owners who are in it every day.
             </p>
             <p className="text-base text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Since 2022, the show has published 99+ episodes covering everything from Google Analytics 4 setup and Google Ads bidding strategies to Generative Engine Optimization (GEO) and AI marketing tools. All episodes are free on YouTube.
+              Since 2022, the show has published 99+ episodes covering everything from Google Analytics 4 setup and Google Ads bidding strategies to Generative Engine Optimisation (GEO) and AI marketing tools. All episodes are free on YouTube.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -321,7 +321,7 @@ export default function Podcast() {
                   The <strong>KnowHow Marketing Lab Podcast</strong> is a free video podcast produced by <strong>Seymour Digital Media</strong>, a Canadian digital marketing agency. Hosts <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> have been working in digital marketing for a combined 30+ years, and the podcast reflects the kind of honest, practical conversations they have with clients every day.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-base">
-                  The show launched in 2022 and has published over 99 episodes. It covers the full spectrum of modern digital marketing: <strong>SEO strategy</strong>, <strong>Google Ads campaign management</strong>, <strong>Google Analytics 4 (GA4)</strong>, <strong>Google Search Console</strong>, <strong>Google Tag Manager</strong>, <strong>AI marketing tools</strong>, and the emerging discipline of <strong>Generative Engine Optimization (GEO)</strong> — the practice of making your content discoverable and citable by large language models like ChatGPT, Google Gemini, and Perplexity.
+                  The show launched in 2022 and has published over 99 episodes. It covers the full spectrum of modern digital marketing: <strong>SEO strategy</strong>, <strong>Google Ads campaign management</strong>, <strong>Google Analytics 4 (GA4)</strong>, <strong>Google Search Console</strong>, <strong>Google Tag Manager</strong>, <strong>AI marketing tools</strong>, and the emerging discipline of <strong>Generative Engine Optimisation (GEO)</strong> — the practice of making your content discoverable and citable by large language models like ChatGPT, Google Gemini, and Perplexity.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-base">
                   What makes this podcast different is its focus on <strong>data-driven marketing</strong>. Every recommendation is grounded in real data — from Google Search Console keyword reports to GA4 conversion tracking to Google Ads Quality Score analysis. Pip and Phelan use the same tools and methods they teach, which means every episode reflects what is actually working right now, not what worked three years ago.
@@ -407,7 +407,7 @@ export default function Podcast() {
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Pip has 20+ years of experience helping medium-sized businesses grow their organic search presence. She specialises in SEO strategy, Google Analytics 4, content marketing, and Generative Engine Optimization (GEO). Pip built the Data-First AI SEO Method — a five-step framework for growing a business online using real data instead of guesswork.
+                  Pip has 20+ years of experience helping medium-sized businesses grow their organic search presence. She specialises in SEO strategy, Google Analytics 4, content marketing, and Generative Engine Optimisation (GEO). Pip built the Data-First AI SEO Method — a five-step framework for growing a business online using real data instead of guesswork.
                 </p>
               </div>
               {/* Phelan Lewis */}

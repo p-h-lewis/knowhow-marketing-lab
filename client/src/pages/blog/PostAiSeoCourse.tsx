@@ -115,7 +115,7 @@ export default function PostAiSeoCourse() {
       "dateModified": "2026-03-23",
       "author": [
         { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist" },
-        { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Ads & Analytics Specialist" }
+        { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist" }
       ],
       "publisher": {
         "@type": "Organization",
