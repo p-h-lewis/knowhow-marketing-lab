@@ -74,6 +74,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
+                { label: '🚀 Mastermind', href: '/mastermind', internal: true },
                 { label: 'AI + SEO Course', href: '/courses/seo', internal: true },
                 { label: 'Video Library', href: '/#videos', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
@@ -122,6 +123,7 @@ export default function Footer() {
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
+                { label: 'Mastermind — 8-Week Intensive', href: '/mastermind' },
                 { label: 'The Lab, $29/mo', href: '/community' },
                 { label: 'Free vs Paid, Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },
