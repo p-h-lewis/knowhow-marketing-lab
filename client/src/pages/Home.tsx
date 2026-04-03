@@ -28,7 +28,7 @@ export default function Home() {
     description: "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search, from 20-year agency veterans Pip Seymour and Phelan Lewis.",
     canonical: "https://knowhowmarketinglab.com/",
     ogType: "website",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-home_84ca4ccc.png",
   });
 
   return (

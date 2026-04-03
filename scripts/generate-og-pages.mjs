@@ -22,6 +22,15 @@ const SITE_URL = "https://knowhowmarketinglab.com";
 // ─── Page meta definitions ────────────────────────────────────────────────────
 const PAGE_META = [
   {
+    path: "/",
+    title: "KnowHow Marketing Lab - Free AI SEO & Google Ads Training",
+    description:
+      "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search — from 20-year agency veterans Pip Seymour and Phelan Lewis.",
+    image:
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-home_84ca4ccc.png",
+    ogType: "website",
+  },
+  {
     path: "/power-hours",
     title: "Free Tuesday Power Hours - Live Marketing Help | KnowHow Marketing Lab",
     description:
@@ -81,7 +90,7 @@ const PAGE_META = [
     description:
       "Weekly live Q&A, monthly deep-dive training, Google Ads Bootcamp, and private community access. $29/month, founding member rate, cancel anytime.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_b63bc55e.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
     ogType: "website",
   },
   {
@@ -90,7 +99,7 @@ const PAGE_META = [
     description:
       "Join the free KnowHow Marketing Lab community. Get access to weekly Power Hours, marketing guides, and connect with other business owners.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_b63bc55e.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
     ogType: "website",
   },
 ];
