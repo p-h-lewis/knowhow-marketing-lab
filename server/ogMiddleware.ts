@@ -34,7 +34,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       "Join Pip Seymour every Tuesday for a free live Power Hour. Bring your SEO, Google Ads, and AI marketing questions. No fluff, just real help.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-power-hours_de202f3e.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-power-hours_3ed463f2.png",
   },
   "/mastermind": {
     title: "AI Marketing Accelerator Mastermind - 8-Week Intensive | KnowHow Marketing Lab",

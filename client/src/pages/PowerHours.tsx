@@ -253,7 +253,7 @@ export default function PowerHours() {
     ogTitle: 'Free Marketing Power Hours, KnowHow Marketing Lab',
     ogDescription: 'Free weekly live Power Hours every Tuesday 12-1pm PT. SEO, Google Ads, AI, bring your real questions and get live help from Pip.',
     ogType: 'website',
-    ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-power-hours_de202f3e.png',
+    ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-power-hours_3ed463f2.png',
   });
 
   return (
