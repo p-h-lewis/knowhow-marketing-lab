@@ -59,6 +59,7 @@ const PostGoogleAdsCoachingForMarketers = lazy(() => import('./pages/blog/PostGo
 const PostGoogleAdsCoachingSmallBusiness = lazy(() => import('./pages/blog/PostGoogleAdsCoachingSmallBusiness'));
 const PostSEOCoachingSmallBusiness = lazy(() => import('./pages/blog/PostSEOCoachingSmallBusiness'));
 const Mastermind = lazy(() => import('./pages/Mastermind'));
+const MastermindThankYou = lazy(() => import('./pages/MastermindThankYou'));
 const PostHowToUseAiForSeo = lazy(() => import('./pages/blog/PostHowToUseAiForSeo'));
 const PostGoogleAdsCoaching = lazy(() => import('./pages/blog/PostGoogleAdsCoaching'));
 const PostFreeDataDrivenSeoCourse = lazy(() => import('./pages/blog/PostFreeDataDrivenSeoCourse'));
@@ -94,6 +95,8 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/pricing" component={Pricing} />
         <Route path="/mastermind" component={Mastermind} />
+        <Route path="/mastermind-thank-you" component={MastermindThankYou} />
+        <Route path="/mastermind-thank-you/" component={MastermindThankYou} />
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
