@@ -50,7 +50,7 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 <ul class="wp-block-list">
 <li><strong>One-on-one coaching ($150-$500/hour):</strong> The most personalised option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
 <li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Thursday sessions where Phelan looks at real accounts for $29/month.</li>
-<li><strong>Self-directed learning (free):</strong> A good free course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads bootcamp</a> is free and covers everything from campaign types to bidding strategies.</li>
+<li><strong>Self-directed learning (free):</strong> A good free course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads Bootcamp</a> (included in The Lab, $29/mo) covers everything from campaign types to bidding strategies.</li>
 </ul>
 
 <p>For most small businesses, the best approach is to start with the free course to understand the basics, then use group coaching to get feedback on your specific account. This gives you the knowledge to manage the account yourself while still getting expert eyes on what you're doing.</p>
@@ -73,7 +73,7 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 
 <h2 id="how-knowhow-marketing-lab-helps-small-businesses">How KnowHow Marketing Lab Helps Small Businesses</h2>
 
-<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The free <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads bootcamp</a> covers the foundations, campaign types, bidding, ad groups, and performance analysis, at a level that is easy to understand even if you have never run ads before.</p>
+<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads Bootcamp</a> (included in The Lab, $29/mo) covers the foundations, campaign types, bidding, ad groups, and performance analysis, at a level that is easy to understand even if you have never run ads before.</p>
 
 <p>For businesses that want live coaching on their actual accounts, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Thursday session every week where Phelan reviews real accounts and gives specific recommendations. At $29/month, it is designed to be accessible for small businesses.</p>
 
@@ -245,7 +245,7 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
             <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why. $29/month, cancel anytime.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
-              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free Google Ads Course</a>
+              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join the Google Ads Bootcamp</a>
             </div>
           </div>
 

@@ -295,9 +295,9 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
           {/* CTA - internal link to Google Ads course */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Want to go deeper on Google Ads?</h2>
-            <p className="text-white/80 mb-6">The Google Ads Mastery Course is included in The Lab membership at $29/mo — live coaching every Thursday, community support, and a step-by-step system built for medium-sized businesses.</p>
+            <p className="text-white/80 mb-6">The Google Ads Bootcamp is included in The Lab at $29/mo — live coaching every Thursday, community support, and a step-by-step system built for medium-sized businesses.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Explore the Google Ads Course →</a>
+              <a href="/courses/google-ads" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join the Google Ads Bootcamp →</a>
               <a href="/pricing" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join The Lab - $29/mo</a>
             </div>
           </div>

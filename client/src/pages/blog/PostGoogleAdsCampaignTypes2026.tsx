@@ -226,7 +226,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
             <blockquote>
               <strong>Start with Search. Add Performance Max once you have 30+ conversions per month. Add Demand Gen when you are ready to scale awareness.</strong>
             </blockquote>
-            <p>This is the progression we recommend in our <Link href="/courses/google-ads">Google Ads course (included in The Lab, $29/mo)</Link> and in coaching sessions. Search gives you control and data. PMax uses that data to scale. Demand Gen builds the top of your funnel so you have a steady flow of new prospects entering the system.</p>
+            <p>This is the progression we recommend in our <Link href="/courses/google-ads">Google Ads Bootcamp — included in The Lab at $29/mo</Link> and in coaching sessions. Search gives you control and data. PMax uses that data to scale. Demand Gen builds the top of your funnel so you have a steady flow of new prospects entering the system.</p>
             <p>For more on how campaign type connects to bidding strategy, see our <Link href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">complete guide to Google Ads bidding strategies</Link>. For the full campaign setup process, see the <Link href="/blog/the-ultimate-guide-to-google-ads-campaign-types">ultimate guide to Google Ads campaign types</Link>.</p>
           </div>
 

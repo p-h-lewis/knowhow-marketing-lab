@@ -63,7 +63,7 @@ export default function Navbar() {
     { label: 'Community', href: '/community' },
     { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },
-    { label: 'Google Ads Course', href: '/courses/google-ads' },
+    { label: 'Google Ads Bootcamp', href: '/courses/google-ads' },
     { label: 'About', href: '/about' },
     { label: 'Resources', href: '/resources' },
   ];

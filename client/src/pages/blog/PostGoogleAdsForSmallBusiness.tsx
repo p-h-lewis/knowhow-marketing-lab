@@ -176,7 +176,7 @@ export default function PostGoogleAdsForSmallBusiness() {
 
             <h2 id="conversion-tracking">Conversion Tracking, The Non-Negotiable First Step</h2>
             <p>Before you spend a single dollar on Google Ads, set up conversion tracking. In Google Ads, go to Tools → Conversions and create a conversion action for each valuable action on your website: form submissions, phone calls, purchases, and email clicks.</p>
-            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">Google Ads course (included in The Lab, $29/mo)</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
+            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">Google Ads Bootcamp — included in The Lab at $29/mo</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
 
             <h2 id="negative-keywords">Negative Keywords, The Fastest Way to Stop Wasting Money</h2>
             <p>After your campaign has been running for 7 to 14 days, go to Keywords → Search Terms in your Google Ads account. This report shows you the actual searches that triggered your ads. Look for searches that are clearly not relevant to your business and add them as negative keywords.</p>
@@ -191,12 +191,12 @@ export default function PostGoogleAdsForSmallBusiness() {
           </div>
 
           <div className="bg-[#fff3e0] border border-[#f5d5a0] rounded-2xl p-8 my-12 text-center">
-            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Google Ads Course</p>
+            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Bootcamp — Included in The Lab</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn to run Google Ads without wasting money</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The free KnowHow Google Ads course covers conversion tracking, campaign setup, bidding strategy, and how to read your data, with live coaching every Thursday.</p>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The KnowHow Google Ads Bootcamp covers conversion tracking, campaign setup, bidding strategy, and how to read your data — with live coaching every Thursday. Included in The Lab at $29/mo.</p>
             <Link href="/courses/google-ads">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Start the Free Course
+                Join the Google Ads Bootcamp
               </button>
             </Link>
           </div>
