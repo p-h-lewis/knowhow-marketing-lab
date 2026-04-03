@@ -19,6 +19,7 @@ function PowerHoursForm() {
       script.async = true;
       document.body.appendChild(script);
     }
+
     return () => {
       // Leave script in DOM, removing it breaks the form if the component remounts
     };
