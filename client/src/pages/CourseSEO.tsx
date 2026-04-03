@@ -40,6 +40,7 @@ export default function CourseSEO() {
     description: "Free data-driven AI + SEO skills accelerator for business owners and marketing teams. 5 modules: keyword research, on-page SEO, Google Search Console, GA4, and ranking in AI search engines like ChatGPT and Perplexity.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-seo-course-3NTrrZbwtsArAVDRoPZ22S.png",
   });
 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
