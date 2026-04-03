@@ -120,7 +120,7 @@ export default function Mastermind() {
     description: `Small-group intensive for marketers who want real results. 8 seats, 8 weeks, $2,000. Live account reviews, AI tools, Google Ads, SEO, and GA4. Cohort starts ${COHORT_START}.`,
     canonical: 'https://knowhowmarketinglab.com/mastermind',
     ogType: 'website',
-    ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind-H5eP5hpSdzr7Ds6pz94nu3.png',
+    ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind_de7ef791.png',
   });
 
   return (

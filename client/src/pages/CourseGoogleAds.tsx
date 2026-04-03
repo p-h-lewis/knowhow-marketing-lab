@@ -38,7 +38,7 @@ export default function CourseGoogleAds() {
     description: "Google Ads course for medium-sized businesses. 8 modules covering Search, Display, Shopping, and Performance Max campaigns. Free to start.",
     canonical: "https://knowhowmarketinglab.com/courses/google-ads",
     ogType: "course",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bootcamp-Dy58pJFn43YmqD3kFXsXuK.png",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bootcamp_aa1bdf46.png",
   });
 
   const [openFaq, setOpenFaq] = useState<number | null>(null);

@@ -417,7 +417,7 @@ export default function Blog() {
     description: "Free digital marketing guides covering SEO, Google Ads, GA4, and AI marketing. Written by agency veterans for medium-sized businesses.",
     canonical: "https://knowhowmarketinglab.com/blog",
     ogType: "website",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-blog-A7Ah2pjo4CGwwDteftmnxh.png",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-blog_75654f29.png",
   });
 
   const [activeCategory, setActiveCategory] = useState('All');
