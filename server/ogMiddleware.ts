@@ -26,7 +26,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       "Free AI SEO and Google Ads training for business owners and marketing teams. Learn how to rank on Google and in ChatGPT, Perplexity, and AI search.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_b63bc55e.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
     ogType: "website",
   },
   "/power-hours": {
@@ -41,21 +41,21 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       "8 weeks of intensive small-group coaching for business owners who want a real AI-powered marketing system. Only 8 seats per cohort. $2,000 one-time investment.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind_de7ef791.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind_d6b886b8.png",
   },
   "/mastermind-thank-you": {
     title: "You're Booked - Mastermind Discovery Call | KnowHow Marketing Lab",
     description:
       "Your Mastermind Discovery Call is confirmed. Here is what to expect and how to prepare.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind_de7ef791.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-mastermind_d6b886b8.png",
   },
   "/courses/seo": {
     title: "Free Data-Driven AI SEO Course | KnowHow Marketing Lab",
     description:
       "A free 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, and Generative Engine Optimisation.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-seo-course_fd927588.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-seo-course_37267649.png",
     ogType: "article",
   },
   "/courses/google-ads": {
@@ -63,7 +63,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       "The Google Ads Bootcamp covers campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bootcamp_aa1bdf46.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads_5a66d9dd.png",
     ogType: "article",
   },
   "/blog": {
@@ -71,14 +71,14 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       "Free guides on SEO, Google Ads, GA4, Google Tag Manager, and AI marketing. Written by agency veterans Pip Seymour and Phelan Lewis.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-blog_75654f29.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-blog_fe9e6640.png",
   },
   "/pricing": {
     title: "The Lab - $29/mo VIP Marketing Community | KnowHow Marketing Lab",
     description:
       "Weekly live Q&A, monthly deep-dive training, Google Ads Bootcamp, and private community access. $29/month, founding member rate, cancel anytime.",
     image:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_b63bc55e.png",
+      "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
   },
 };
 
@@ -88,7 +88,7 @@ const DEFAULT_META: PageMeta = {
   description:
     "Free expert training in SEO, Google Ads, GA4, and AI marketing for business owners and marketing teams.",
   image:
-    "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_b63bc55e.png",
+    "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-the-lab_27e632ed.png",
   ogType: "website",
 };
 
