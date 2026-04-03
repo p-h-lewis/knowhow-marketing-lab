@@ -47,7 +47,7 @@ export default function Navbar() {
 
   const coachingDropdownLinks = [
     { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions, $29/mo', highlight: false },
-    { label: '🚀 Mastermind, 8 Seats Left', href: '/mastermind', desc: '8-week intensive · $2,000 · Starts May 12', highlight: true },
+    { label: '🚀 Mastermind', href: '/mastermind', desc: '8-week intensive · $2,000 · Starts May 12', highlight: true },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site', highlight: false },
@@ -57,13 +57,13 @@ export default function Navbar() {
   const mobileNavLinks = [
     { label: 'Blog', href: '/blog' },
     { label: 'Live Coaching', href: '/pricing' },
-    { label: '🚀 Mastermind, 8 Seats', href: '/mastermind', indent: true, highlight: true },
+    { label: '🚀 Mastermind', href: '/mastermind', indent: true, highlight: true },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', indent: true },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', indent: true },
     { label: 'Community', href: '/community' },
     { label: 'Free Power Hours (Tuesdays)', href: '/power-hours' },
     { label: 'AI + SEO Course', href: '/courses/seo' },
-    { label: 'Google Ads Bootcamp', href: '/courses/google-ads' },
+    { label: 'Google Ads Course', href: '/courses/google-ads' },
     { label: 'About', href: '/about' },
     { label: 'Resources', href: '/resources' },
   ];

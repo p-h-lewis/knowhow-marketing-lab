@@ -5,6 +5,53 @@
 // Features: Add to Calendar widget, real YouTube session embed, FB group + Power Hours CTA
 
 import { useState } from 'react';
+
+// YouTube facade — loads real iframe only on click, saves ~500KB on mobile
+function YouTubeFacade({ videoId, title }: { videoId: string; title: string }) {
+  const [playing, setPlaying] = useState(false);
+  const thumb = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+
+  if (playing) {
+    return (
+      <iframe
+        width="100%"
+        height="100%"
+        src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&autoplay=1`}
+        title={title}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="w-full h-full"
+      />
+    );
+  }
+
+  return (
+    <button
+      onClick={() => setPlaying(true)}
+      className="relative w-full h-full group block"
+      aria-label={`Play: ${title}`}
+      style={{ background: '#000' }}
+    >
+      <img
+        src={thumb}
+        alt={title}
+        className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-16 h-16 md:w-20 md:h-20 bg-[#E98C28] rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+          <svg className="w-7 h-7 md:w-9 md:h-9 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+      <div className="absolute bottom-3 left-3 right-3 text-left">
+        <span className="text-white text-sm font-semibold drop-shadow-lg line-clamp-1">{title}</span>
+      </div>
+    </button>
+  );
+}
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
@@ -222,15 +269,9 @@ export default function MastermindThankYou() {
               </p>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 aspect-video">
-              <iframe
-                width="100%"
-                height="100%"
-                src={`https://www.youtube.com/embed/${SESSION_VIDEO_ID}?rel=0&modestbranding=1`}
+              <YouTubeFacade
+                videoId={SESSION_VIDEO_ID}
                 title="KnowHow Marketing Lab — Live Coworking Session: Audit & Strategy Summary"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
               />
             </div>
           </div>

@@ -66,7 +66,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <li><strong>Choose coaching</strong> if you already have campaigns running and you want someone to look at your specific account and tell you what to fix. Coaching is also the right choice if you are spending significant money and need to get results faster than trial and error allows.</li>
 </ul>
 
-<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">free Google Ads bootcamp</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Thursday where members bring their real accounts.</p>
+<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course (included in The Lab, $29/mo)</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Thursday where members bring their real accounts.</p>
 
 <h2 id="what-good-google-ads-coaching-covers">What Good Google Ads Coaching Covers</h2>
 
@@ -96,7 +96,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 
 <p>The approach is practical and data-first. Every Thursday, Lab members bring their real Google Ads accounts to a live session. Phelan looks at the data, explains what he sees, and gives specific recommendations. Members leave each session with a clear list of things to do.</p>
 
-<p>If you want to understand what the coaching looks like before committing, start with the <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">free Google Ads bootcamp</a>. It covers the same foundations used in coaching sessions. You can also read <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">the complete guide to Google Ads campaign types</a> to get a sense of how Phelan explains complex topics.</p>
+<p>If you want to understand what the coaching looks like before committing, start with the <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course (included in The Lab, $29/mo)</a>. It covers the same foundations used in coaching sessions. You can also read <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">the complete guide to Google Ads campaign types</a> to get a sense of how Phelan explains complex topics.</p>
 
 <p>If you are also looking for coaching on the SEO and analytics side, see our companion post: <a href="/blog/seo-and-analytics-coaching-for-marketers" style="color:#318599;text-decoration:underline;">SEO and analytics coaching for marketers</a>.</p>
 

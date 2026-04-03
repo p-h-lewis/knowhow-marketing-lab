@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     q: 'Do I need a Google Ads agency or can I manage it myself?',
-    a: 'You can manage Google Ads yourself if you invest in learning the platform properly. The KnowHow Marketing Lab offers a free Google Ads course covering the fundamentals, and The Lab community ($29/month) provides live weekly training where Pip and Phelan work through your actual campaigns in real time. Many medium-sized businesses manage their own Google Ads successfully with the right training and tools. An agency makes sense when you have proven campaigns you want to scale aggressively, or when you do not have the time to manage the platform yourself.'
+    a: 'You can manage Google Ads yourself if you invest in learning the platform properly. The KnowHow Marketing Lab offers a Google Ads course (included in The Lab, $29/mo) covering the fundamentals, and The Lab community ($29/month) provides live weekly training where Pip and Phelan work through your actual campaigns in real time. Many medium-sized businesses manage their own Google Ads successfully with the right training and tools. An agency makes sense when you have proven campaigns you want to scale aggressively, or when you do not have the time to manage the platform yourself.'
   },
   {
     q: 'What is the difference between Google Ads and SEO?',
@@ -254,7 +254,7 @@ export default function PostGoogleAdsFramework() {
               Most Google Ads campaigns fail for the same reasons: no conversion tracking, wrong campaign type, keywords without intent, and budgets increased before the data is ready. The result is a lot of spend with nothing to show for it.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients, and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our free Google Ads course</Link> and <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link>, to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
+              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients, and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our Google Ads course (included in The Lab, $29/mo)</Link> and <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link>, to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               The five phases are: <strong>Foundation</strong> (set up to measure everything), <strong>Research</strong> (know your market before you bid), <strong>Build</strong> (structure your account for scale), <strong>Optimise</strong> (let data drive every decision), and <strong>Scale</strong> (grow what works, cut what does not). Each phase has specific steps, tools, and AI-assisted shortcuts.

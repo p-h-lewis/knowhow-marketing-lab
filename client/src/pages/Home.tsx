@@ -82,7 +82,7 @@ export default function Home() {
                 "name": "KnowHow Marketing Lab Courses",
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI-Powered Google Ads Bootcamp", "description": "Free Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Mastery Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },

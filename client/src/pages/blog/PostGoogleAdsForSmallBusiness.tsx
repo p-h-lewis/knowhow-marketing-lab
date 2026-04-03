@@ -176,7 +176,7 @@ export default function PostGoogleAdsForSmallBusiness() {
 
             <h2 id="conversion-tracking">Conversion Tracking, The Non-Negotiable First Step</h2>
             <p>Before you spend a single dollar on Google Ads, set up conversion tracking. In Google Ads, go to Tools → Conversions and create a conversion action for each valuable action on your website: form submissions, phone calls, purchases, and email clicks.</p>
-            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">free Google Ads course</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
+            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">Google Ads course (included in The Lab, $29/mo)</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
 
             <h2 id="negative-keywords">Negative Keywords, The Fastest Way to Stop Wasting Money</h2>
             <p>After your campaign has been running for 7 to 14 days, go to Keywords → Search Terms in your Google Ads account. This report shows you the actual searches that triggered your ads. Look for searches that are clearly not relevant to your business and add them as negative keywords.</p>
