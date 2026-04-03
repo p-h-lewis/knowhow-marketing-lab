@@ -187,6 +187,7 @@ export default defineConfig({
   },
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
+  publicDir: path.resolve(import.meta.dirname, "client", "public"),
   build: {
     outDir: process.env.VERCEL ? path.resolve(import.meta.dirname, "dist") : path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
@@ -244,8 +245,6 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3000,
-    strictPort: false, // Will find next available port if 3000 is busy
     host: true,
     allowedHosts: [
       ".manuspre.computer",
