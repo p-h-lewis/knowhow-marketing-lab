@@ -20,6 +20,11 @@ interface PageMeta {
   ogType?: string;
 }
 
+// Example: Exclude specific paths from middleware logic
+export const config = {
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|login).*)'],
+};
+
 const PAGE_META: Record<string, PageMeta> = {
   "/": {
     title: "KnowHow Marketing Lab - AI SEO & Google Ads Training for Business Owners",
