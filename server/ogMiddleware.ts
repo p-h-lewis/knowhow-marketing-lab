@@ -136,7 +136,7 @@ function buildOGHtml(path: string, meta: PageMeta): string {
   <title>${escapeHtml(meta.title)}</title>
   <meta name="description" content="${escapeHtml(meta.description)}" />
   <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
-
+ <meta name="google-site-verification" content="9qPdOix31uKq_SaPdHHqXvDbPPa2g-eMb1oUFEP7H8Y" />
   <!-- Open Graph -->
   <meta property="og:type" content="${escapeHtml(ogType)}" />
   <meta property="og:url" content="${escapeHtml(canonicalUrl)}" />
