@@ -22,7 +22,7 @@ const modules: { num: string; title: string; desc: string; aiTip: string }[] = F
 const faqs = [
   { q: 'Is this course really free?', a: `Yes, completely free. No credit card required. ${FREE_COURSE_SUMMARY}` },
   { q: 'How long does it take?', a: FREE_COURSE_SUMMARY },
-  { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to get more traffic from Google without guessing or paying for expensive agencies.' },
+  { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to understand their own SEO without guessing or paying for expensive agencies.' },
   { q: 'Do I need any prior SEO knowledge?', a: 'No. The course starts from the basics and builds up. If you know how to use Google, you can do this course.' },
   { q: 'What happens after I complete the course?', a: 'You can join The Lab for $29 CAD/month to get access to the full training library, and a live session every Tuesday, 12 to 1 pm Pacific: teaching or a tip, then Q&A and live audits.' },
 ];
@@ -58,13 +58,7 @@ const schema = {
         "inLanguage": "en-CA"
       },
       "educationalLevel": "Beginner to Intermediate",
-      "teaches": ["SEO", "AI Marketing", "Google Analytics 4", "Google Search Console", "Keyword Research", "On-Page SEO", "Google Business Profile"],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "79",
-        "bestRating": "5"
-      }
+      "teaches": ["SEO", "AI Marketing", "Google Analytics 4", "Google Search Console", "Keyword Research", "On-Page SEO", "Google Business Profile"]
     },
     {
       "@type": "FAQPage",
@@ -355,7 +349,7 @@ export default function FreeCourse() {
               className="text-3xl sm:text-4xl font-extrabold mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Ready to get more traffic from Google?
+              Ready to start your own SEO?
             </h2>
             <p className="text-gray-400 mb-8 text-lg">
               Join thousands of business owners learning the Data-First AI SEO Method. Free forever.

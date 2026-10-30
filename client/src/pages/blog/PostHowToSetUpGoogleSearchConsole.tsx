@@ -167,7 +167,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
 <p>Google Search Console (GSC) is a free tool from Google that shows you how your website performs in Google search results. It is not the same as Google Analytics. While Google Analytics 4 (GA4) tells you what people do <em>after</em> they arrive on your site, Google Search Console tells you what happens <em>before</em> they click - how often your pages appear in search, which keywords trigger them, and where you rank.</p>
 
-<p>For medium-sized businesses, this data is essential. Without it, you are guessing. With it, you can see exactly which pages are bringing in search traffic, which keywords you are almost ranking for (and can push to page one with a small content update), and whether Google can actually find and read your pages properly.</p>
+<p>For medium-sized businesses, this data is essential. Without it, you are guessing. With it, you can see exactly which pages are bringing in search traffic, which keywords you are almost ranking for (and might move up with a small content update), and whether Google can actually find and read your pages properly.</p>
 
 <p>This is the first tool we set up for every client at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer">Seymour Digital Media</a>, and it is Step 1 of the <a href="/framework">Data-First AI SEO Method</a> we teach at KnowHow Marketing Lab.</p>
 
@@ -263,7 +263,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 <tr><td><strong>Total clicks</strong></td><td>How many times people clicked your site in Google search</td><td>Is this growing month over month?</td></tr>
 <tr><td><strong>Total impressions</strong></td><td>How many times your pages appeared in search results</td><td>High impressions + low clicks = title/description needs work</td></tr>
 <tr><td><strong>Average CTR</strong></td><td>Click-through rate - what percentage of impressions turn into clicks</td><td>Under 2% for most pages is a sign your title tags need improvement</td></tr>
-<tr><td><strong>Average position</strong></td><td>Where your pages rank on average across all searches</td><td>Positions 4-10 are the "almost there" zone - small improvements can move you to page one</td></tr>
+<tr><td><strong>Average position</strong></td><td>Where your pages rank on average across all searches</td><td>Positions 4-10 are the "almost there" zone - small improvements may help you move up</td></tr>
 </tbody>
 </table>
 
@@ -301,7 +301,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 <p>Go to <strong>Core Web Vitals</strong> in the left menu. This shows you how fast your pages load and how stable they are for users. Pages with "Poor" scores are worth fixing - Google uses these scores as a ranking factor.</p>
 
 <h3>4. Queries near the top - find your "almost there" keywords</h3>
-<p>In the Performance report, filter by average position between 4 and 15. These are pages that are close to the top of page one. A small content update - adding a section that answers a related question, improving your title tag, or adding internal links - can often push them into the top 3.</p>
+<p>In the Performance report, filter by average position between 4 and 15. These are pages that are close to the top of page one. A small content update - adding a section that answers a related question, improving your title tag, or adding internal links - may help them move up.</p>
 
 <p>For a full walkthrough of how to use this data to build a keyword strategy, read our guide: <a href="/blog/keyword-research-keyword-clusters">How to Do Keyword Research Using Keyword Clusters</a>.</p>
 

@@ -61,12 +61,12 @@ export default function PostSeoCoachingForMarketingTeams() {
         {
           "@type": "Question",
           "name": "What results can a marketing team expect from SEO coaching?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Marketing teams that complete the KnowHow coaching programme typically see: a clear, documented SEO strategy within the first 4 weeks; measurable improvements in Google Search Console impressions within 6 to 8 weeks; and a repeatable content process that the team can execute without external help within 3 months. Results vary depending on the team's starting point, website authority, and how consistently the strategy is implemented." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The aim is a clear, documented SEO strategy and a repeatable content process the team can run on its own. We cannot promise rankings or traffic. There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." }
         },
         {
           "@type": "Question",
           "name": "How long does it take to see results from team SEO coaching?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most teams see measurable improvements in Google Search Console impressions within 6 to 8 weeks of starting coaching. Clicks typically follow 4 to 8 weeks after impressions improve, as Google re-indexes updated and new content. The full benefit of a team SEO coaching programme, a well-established content cluster with consistent organic traffic, typically takes 3 to 6 months." }
+          "acceptedAnswer": { "@type": "Answer", "text": "There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." }
         },
         {
           "@type": "Question",
@@ -222,8 +222,8 @@ export default function PostSeoCoachingForMarketingTeams() {
                 { q: "What is SEO coaching for marketing teams?", a: "SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your marketing team to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently." },
                 { q: "How is team SEO coaching different from individual coaching?", a: "Individual coaching focuses on one person's skills. Team coaching focuses on alignment, making sure everyone understands the strategy, knows their role, and is measuring the right things. It also addresses organisational challenges like prioritisation and buy-in that individual coaching doesn't cover." },
                 { q: "How many people can join a coaching session?", a: "Team SEO coaching works best with 2 to 6 people from the same team. In The Lab, your team brings its questions to the live session every Tuesday, 12 to 1 pm Pacific. Check The Lab page for current membership details." },
-                { q: "What results can a marketing team expect from SEO coaching?", a: "Teams typically see a clear documented SEO strategy within 4 weeks, measurable improvements in Google Search Console impressions within 6 to 8 weeks, and a repeatable content process within 3 months. Results vary depending on the team's starting point and how consistently the strategy is implemented." },
-                { q: "How long does it take to see results from team SEO coaching?", a: "Most teams see measurable improvements in GSC impressions within 6 to 8 weeks. Clicks typically follow 4 to 8 weeks after impressions improve. The full benefit of a team coaching programme typically takes 3 to 6 months." },
+                { q: "What results can a marketing team expect from SEO coaching?", a: "The aim is a clear, documented SEO strategy and a repeatable content process the team can run on its own. We cannot promise rankings or traffic. There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." },
+                { q: "How long does it take to see results from team SEO coaching?", a: "There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." },
                 { q: "What is the difference between SEO coaching and an SEO agency?", a: "An SEO agency does the work for you. An SEO coach teaches your team how to do it themselves. Coaching is better if you want to build internal capability and reduce long-term agency costs. Agencies are better if you don't have the internal bandwidth to execute SEO." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">

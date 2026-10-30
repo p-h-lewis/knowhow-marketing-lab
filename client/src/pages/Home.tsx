@@ -384,7 +384,7 @@ export default function Home() {
                   href: '/blog/adgroups-based-on-user-intent',
                   tag: 'Google Ads',
                   title: 'How to Structure Ad Groups Based on User Intent',
-                  desc: 'The ad group structure that actually works - based on what your customers are trying to do, not just what they type.',
+                  desc: 'An ad group structure based on what your customers are trying to do, not just what they type.',
                   color: '#318599',
                 },
                 {

@@ -24,7 +24,7 @@ const modules: { num: string; title: string; desc: string; aiTip: string }[] = F
 const faqs = [
   { q: 'Is this a good intro to SEO for beginners?', a: `Yes - this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. ${FREE_COURSE_SUMMARY}` },
   { q: 'Is this AI + SEO course free to access?', a: `Yes - no credit card required. ${FREE_COURSE_SUMMARY}` },
-  { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
+  { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to do your own SEO without guessing, this is for you.' },
   { q: 'How long does the course take?', a: `${FREE_COURSE_SUMMARY} You can go at your own pace, there is no deadline.` },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
   { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The free course is a five-day start. Live sessions, site reviews and the full SEO course and class library are in The Lab. The Lab ($29 CAD/mo) adds a live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
@@ -82,13 +82,6 @@ export default function CourseSEO() {
                 { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist, specialising in data-driven SEO and AI SEO." },
                 { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist helping medium-sized businesses measure what matters." }
               ]
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "79",
-              "bestRating": "5",
-              "worstRating": "1"
             },
             "breadcrumb": {
               "@type": "BreadcrumbList",

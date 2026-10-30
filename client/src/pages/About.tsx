@@ -11,7 +11,7 @@ import { useSEO } from "@/hooks/useSEO";
 export default function About() {
   useSEO({
     title: "About KnowHow Marketing Lab, Pip Seymour & Phelan Lewis | Google Ads & SEO Experts",
-    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, Google Ads and SEO specialists with 30+ years of combined agency experience helping medium-sized businesses get more traffic and leads online.",
+    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, Google Ads and SEO specialists with 30+ years of combined agency experience helping medium-sized businesses with their marketing online.",
     canonical: "https://knowhowmarketinglab.com/about",
     ogType: "website",
   });

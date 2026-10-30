@@ -101,7 +101,7 @@ const posts: Record<string, {
     faqs: [
       {
         q: "How long does data-driven SEO take to show results?",
-        a: "Most businesses see measurable improvements in 3 to 6 months. Pages that are already ranking between position 5 and 20 can often be improved to page one within 4 to 8 weeks with targeted content updates.",
+        a: "There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes. Pages already ranking between position 5 and 20 are often the best place to start.",
       },
       {
         q: "Do I need to hire an SEO agency to do this?",

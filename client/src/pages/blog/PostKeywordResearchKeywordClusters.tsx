@@ -165,7 +165,7 @@ export default function PostKeywordResearchKeywordClusters() {
 
 <p>A keyword cluster is a group of related keywords that all share the same search intent. Instead of targeting one keyword per page, you target a whole cluster - the main topic plus all the related questions and variations people search for around that topic.</p>
 
-<p>Here is a simple example. If you sell accounting software for manufacturers, your seed keyword might be "accounting software for manufacturers." But people also search for "manufacturing ERP software," "job costing software for manufacturers," "inventory accounting software," and "best accounting software for small manufacturers." These are all part of the same cluster. One well-written page that covers the full topic will rank for all of them - not just the one keyword you optimised for.</p>
+<p>Here is a simple example. If you sell accounting software for manufacturers, your seed keyword might be "accounting software for manufacturers." But people also search for "manufacturing ERP software," "job costing software for manufacturers," "inventory accounting software," and "best accounting software for small manufacturers." These are all part of the same cluster. One well-written page that covers the full topic can show up for many of them - not just the one keyword you optimised for.</p>
 
 <p>This matters because Google has shifted from matching keywords to understanding topics. Its systems now evaluate whether your content demonstrates genuine expertise on a subject - what Google calls "topical authority." Keyword clusters are how you build that authority systematically.</p>
 
@@ -283,7 +283,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <p>You cannot write all your content at once. Here is how to prioritise which clusters to tackle first:</p>
 
 <h3>Priority 1 - Clusters where you already have some ranking</h3>
-<p>Check Google Search Console for keywords where you rank between position 4 and 15. These are your "almost there" keywords - you are already on page one or close to it. A well-written cluster post targeting these keywords can push you into the top 3 faster than starting from scratch.</p>
+<p>Check Google Search Console for keywords where you rank between position 4 and 15. These are your "almost there" keywords - you are already on page one or close to it. A well-written cluster post targeting these keywords may help you move up.</p>
 
 <h3>Priority 2 - Clusters with high commercial intent and moderate volume</h3>
 <p>Keywords with 200 to 2,000 monthly searches and high competition often indicate strong commercial intent. These are the keywords that bring in customers who are ready to buy, not just browsers.</p>
@@ -303,7 +303,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <ol>
 <li><strong>Find your existing clusters</strong> - In the Performance report, look at which keywords are already bringing you traffic. Group them by topic. These are your existing clusters - they tell you which topics Google already associates with your site.</li>
 <li><strong>Find gaps in your clusters</strong> - If you rank for "SEO for manufacturers" but not for "keyword research for manufacturers" or "on-page SEO for manufacturing companies," those are gaps in your cluster. Write content to fill them.</li>
-<li><strong>Find your "almost there" keywords</strong> - Filter the Performance report by average position 4-15. These keywords are close to the top of page one. A targeted cluster post can often push them into the top 3.</li>
+<li><strong>Find your "almost there" keywords</strong> - Filter the Performance report by average position 4-15. These keywords are close to the top of page one. A targeted cluster post may help them move up.</li>
 <li><strong>Track cluster performance over time</strong> - As you add cluster posts, watch whether the total impressions and clicks for that topic area grow. This is how you measure whether your cluster strategy is working.</li>
 </ol>
 

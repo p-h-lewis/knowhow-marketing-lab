@@ -62,7 +62,7 @@ export default function PostGoogleAdsCoaching() {
         {
           "@type": "Question",
           "name": "How many Google Ads coaching sessions do I need?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most businesses see meaningful improvement after 3 to 5 coaching sessions. The first session identifies the biggest problems. Sessions 2 and 3 implement fixes and review results. Sessions 4 and 5 focus on scaling what's working. After that, monthly check-ins are usually enough to keep campaigns on track." }
+          "acceptedAnswer": { "@type": "Answer", "text": "It depends on your account, and we cannot promise results. A common pattern: the first session identifies the biggest problems. Sessions 2 and 3 implement fixes and review results. Sessions 4 and 5 focus on scaling what's working. After that, monthly check-ins are usually enough to keep campaigns on track." }
         },
         {
           "@type": "Question",
@@ -225,7 +225,7 @@ export default function PostGoogleAdsCoaching() {
                 { q: "What is Google Ads coaching?", a: "Google Ads coaching is a one-on-one or small group session where an experienced Google Ads specialist reviews your real account and gives you specific, actionable feedback. Unlike a course, which teaches general principles, coaching looks at your actual campaigns, your actual data, and your actual goals, and tells you exactly what to fix." },
                 { q: "How much does Google Ads coaching cost?", a: "Google Ads coaching typically costs between $150 and $500 per hour for a one-on-one session. At KnowHow Marketing Lab, coaching is included in The Lab membership at $29 CAD per month, which includes a live session every Tuesday, 12 to 1 pm Pacific." },
                 { q: "What is the difference between Google Ads coaching and a Google Ads course?", a: "A Google Ads course teaches you general principles and best practices. Coaching applies those principles to your specific account. Coaching is more valuable when you already have campaigns running and want to know why they are not performing. A course is better if you are starting from scratch." },
-                { q: "How many Google Ads coaching sessions do I need?", a: "Most businesses see meaningful improvement after 3 to 5 coaching sessions. The first session identifies the biggest problems. Sessions 2 and 3 implement fixes and review results. After that, monthly check-ins are usually enough to keep campaigns on track." },
+                { q: "How many Google Ads coaching sessions do I need?", a: "It depends on your account, and we cannot promise results. A common pattern: the first session identifies the biggest problems. Sessions 2 and 3 implement fixes and review results. After that, monthly check-ins are usually enough to keep campaigns on track." },
                 { q: "What does a Google Ads coach actually look at?", a: "A good Google Ads coach looks at: campaign structure, conversion tracking, bidding strategy, keyword match types and negative keywords, ad copy and landing page alignment, and Quality Score. The goal is to find the highest-impact fixes to make first." },
                 { q: "Is Google Ads coaching worth it for small budgets?", a: "Yes, especially for small budgets. When you are spending $500 to $2,000 per month on Google Ads, a single coaching session that fixes your conversion tracking or removes wasted spend can pay for itself many times over." }
               ].map(({ q, a }) => (

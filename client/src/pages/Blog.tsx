@@ -404,7 +404,7 @@ const pillarFaqs = [
   },
   {
     q: 'How long does it take to see results from SEO?',
-    a: 'For most medium-sized businesses, you can expect to see meaningful improvements in 3 to 6 months with consistent effort. Some quick wins - like fixing technical issues or optimising existing pages - can show results in weeks. New content targeting low-competition keywords can rank in 1 to 3 months.',
+    a: 'There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes. Fixing technical issues or improving pages that already get impressions is usually the best place to start.',
   },
   {
     q: 'What is AI SEO (also called GEO)?',
@@ -670,7 +670,7 @@ export default function Blog() {
                     </p>
 
                     <h2 id="on-page-optimisation" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      Step 4: On-Page Optimisation That Actually Works
+                      Step 4: On-Page Optimisation, Step by Step
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       On-page SEO is about making sure each page on your website clearly communicates its topic to both Google and your visitors. The basics are: a clear H1 heading that includes your target keyword, a meta title and description that make people want to click, and content that fully answers the question the searcher is asking.
