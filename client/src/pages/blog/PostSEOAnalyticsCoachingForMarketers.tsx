@@ -85,7 +85,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 
 <h2 id="how-knowhow-marketing-lab-approaches-coaching">How KnowHow Marketing Lab Approaches Coaching</h2>
 
-<p>Pip Seymour and Phelan Lewis have been doing digital marketing for over 20 years each. They built KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands.</p>
+<p>Pip Seymour and Phelan Lewis have 30+ years of combined digital marketing experience. They built KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands.</p>
 
 <p>The approach is practical and data-first. Every Tuesday, Lab members bring their real websites and ad accounts to a live session. Pip and Phelan look at the data, explain what they see, and give specific recommendations. Members leave each session with a clear list of things to do.</p>
 

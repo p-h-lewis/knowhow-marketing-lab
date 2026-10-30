@@ -368,7 +368,7 @@ export default function Pricing() {
             <div className="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
               {[
                 { label: 'Read the Community page', href: '/community', desc: 'See everything included in The Lab' },
-                { label: 'About Pip & Phelan', href: '/about', desc: '20+ years agency experience' },
+                { label: 'About Pip & Phelan', href: '/about', desc: '30+ years combined experience' },
                 { label: 'Read the Blog', href: '/blog', desc: 'Free guides on SEO, Ads & AI' },
               ].map(link => (
                 <a

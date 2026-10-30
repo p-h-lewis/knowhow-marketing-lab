@@ -79,8 +79,8 @@ export default function CourseSEO() {
               "@type": "CourseInstance",
               "courseMode": "online",
               "instructor": [
-                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist with 20+ years of agency experience, specialising in data-driven SEO and Generative Engine Optimisation." },
-                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist with 20+ years of experience helping medium-sized businesses measure what matters." }
+                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist, specialising in data-driven SEO and Generative Engine Optimisation." },
+                { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist helping medium-sized businesses measure what matters." }
               ]
             },
             "syllabusSections": modules.map((m, i) => ({
@@ -149,7 +149,7 @@ export default function CourseSEO() {
                   Learn how to get your business found on Google - using real data, not guesswork. This AI + SEO course is a structured SEO accelerator that takes you from zero to a working data-driven strategy. Covers keyword research, Google Search Console, GA4, on-page SEO, and content strategy for AI-driven search.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 20+ years of hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
+                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 30+ years of combined hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -180,7 +180,7 @@ export default function CourseSEO() {
                   { value: '5', label: 'Course Modules', sub: 'Structured, step-by-step' },
                   { value: '60+', label: 'Video Lessons', sub: 'Free on YouTube' },
                   { value: '100%', label: 'No Credit Card', sub: 'Start immediately' },
-                  { value: '20+', label: 'Years Experience', sub: 'Real agency knowledge' },
+                  { value: '30+', label: 'Years Combined', sub: 'Real agency knowledge' },
                 ].map(s => (
                   <div key={s.label} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 text-center">
                     <div className="text-3xl font-extrabold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{s.value}</div>

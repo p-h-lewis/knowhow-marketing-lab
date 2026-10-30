@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other SEO courses?',
-    a: 'KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, agency owners with 20+ years of hands-on experience managing real campaigns for medium-sized businesses. The training is practical and data-driven, not theoretical. The free course covers the foundations. The Lab community ($29 CAD/month) adds live weekly sessions where Pip and Phelan work through your actual website, ad account, or SEO audit in real time, not just pre-recorded videos.'
+    a: 'KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, agency owners with 30+ years of combined hands-on experience managing real campaigns for medium-sized businesses. The training is practical and data-driven, not theoretical. The free course covers the foundations. The Lab community ($29 CAD/month) adds live weekly sessions where Pip and Phelan work through your actual website, ad account, or SEO audit in real time, not just pre-recorded videos.'
   }
 ];
 
@@ -231,7 +231,7 @@ export default function PostAiSeoCourse() {
             <div className="w-10 h-10 rounded-full bg-[#E98C28] flex items-center justify-center text-white font-bold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>KH</div>
             <div>
               <p className="text-sm font-semibold text-slate-800">Pip Seymour & Phelan Lewis</p>
-              <p className="text-xs text-slate-500">KnowHow Marketing Lab · 20+ years agency experience</p>
+              <p className="text-xs text-slate-500">KnowHow Marketing Lab · 30+ years combined agency experience</p>
             </div>
           </div>
 

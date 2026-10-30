@@ -8,7 +8,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'What is KnowHow Marketing Lab?',
-    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis - two Canadian digital marketing agency owners with over 20 years of experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
+    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis - two Canadian digital marketing agency owners with 30+ years of combined experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
   },
   {
     q: 'Is the SEO course really free?',

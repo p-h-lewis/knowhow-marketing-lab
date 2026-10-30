@@ -440,7 +440,7 @@ export default function Blog() {
             "@context": "https://schema.org",
             "@type": "Blog",
             "name": "KnowHow Marketing Lab Blog",
-            "description": "Free digital marketing guides for medium-sized businesses. SEO, Google Ads, GA4, and AI marketing tutorials written by agency professionals with 20+ years of experience.",
+            "description": "Free digital marketing guides for medium-sized businesses. SEO, Google Ads, GA4, and AI marketing tutorials written by agency professionals with 30+ years of combined experience.",
             "url": "https://knowhowmarketinglab.com/blog",
             "publisher": {
               "@type": "Organization",
@@ -507,7 +507,7 @@ export default function Blog() {
               The KnowHow Marketing Lab Blog
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Practical SEO, Google Ads, GA4, and AI marketing guides - written for medium-sized businesses by agency professionals with 20+ years of experience. No fluff. No jargon. Just what works.
+              Practical SEO, Google Ads, GA4, and AI marketing guides - written for medium-sized businesses by agency professionals with 30+ years of combined experience. No fluff. No jargon. Just what works.
             </p>
           </div>
         </section>

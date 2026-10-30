@@ -85,7 +85,7 @@ const faqs = [
   },
   {
     q: 'Who are Pip and Phelan?',
-    a: 'Pip Seymour and Phelan Lewis are the founders of KnowHow Marketing Lab. Together they have 20+ years of agency experience running Google Ads and SEO campaigns for businesses across Canada and beyond.',
+    a: 'Pip Seymour and Phelan Lewis are the founders of KnowHow Marketing Lab. Together they have 30+ years of combined agency experience running Google Ads and SEO campaigns for businesses across Canada and beyond.',
   },
 ];
 
@@ -209,7 +209,7 @@ export default function Trial() {
               <span>✓ No charge for 14 days</span>
               <span>✓ Full access from day one</span>
               <span>✓ Cancel in 60 seconds</span>
-              <span>✓ 20+ year agency veterans</span>
+              <span>✓ 30+ years of combined agency experience</span>
             </div>
           </div>
         </div>
@@ -302,17 +302,17 @@ export default function Trial() {
               className="text-2xl md:text-3xl font-extrabold text-gray-900 mt-2 mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              20+ years of agency experience, teaching live
+              30+ years of combined experience, teaching live
             </h2>
             <p className="text-gray-500 mb-8 max-w-xl mx-auto">
-              Pip Seymour and Phelan Lewis have spent two decades running Google Ads and SEO campaigns for businesses across Canada. The Lab is how they teach what they actually do, not theory, not slides, but live work on real accounts.
+              Pip Seymour and Phelan Lewis have 30+ years of combined experience running Google Ads and SEO campaigns for businesses across Canada. The Lab is how they teach what they actually do, not theory, not slides, but live work on real accounts.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
               <div className="flex-1 bg-gray-50 rounded-2xl p-6 border border-gray-100 text-left">
                 <div className="w-12 h-12 rounded-xl bg-[#E98C28] flex items-center justify-center text-white font-extrabold text-lg mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-hidden="true">P</div>
                 <h3 className="font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</h3>
                 <p className="text-xs text-[#E98C28] font-semibold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads & SEO Specialist</p>
-                <p className="text-sm text-gray-500">20+ years managing Google Ads campaigns. Founder of Seymour Digital Media. Teaches Tuesday Lab sessions and the complete Google Ads curriculum.</p>
+                <p className="text-sm text-gray-500">Founder of Seymour Digital Media. Teaches Tuesday Lab sessions and the complete Google Ads curriculum.</p>
               </div>
               <div className="flex-1 bg-gray-50 rounded-2xl p-6 border border-gray-100 text-left">
                 <div className="w-12 h-12 rounded-xl bg-[#318599] flex items-center justify-center text-white font-extrabold text-lg mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-hidden="true">P</div>

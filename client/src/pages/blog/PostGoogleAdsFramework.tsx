@@ -244,7 +244,7 @@ export default function PostGoogleAdsFramework() {
             <div className="w-10 h-10 rounded-full bg-[#E98C28] flex items-center justify-center text-white font-bold text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>KH</div>
             <div>
               <p className="text-sm font-semibold text-slate-800">Pip Seymour & Phelan Lewis</p>
-              <p className="text-xs text-slate-500">KnowHow Marketing Lab · 20+ years Google Ads experience</p>
+              <p className="text-xs text-slate-500">KnowHow Marketing Lab · 30+ years combined agency experience</p>
             </div>
           </div>
 
@@ -332,7 +332,7 @@ export default function PostGoogleAdsFramework() {
           <section id="common-mistakes" className="mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The 5 Most Common Google Ads Mistakes</h2>
             <p className="text-lg text-slate-600 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              After managing Google Ads for medium-sized businesses for 20+ years, these are the mistakes we see most often, and the ones that cost the most money.
+              Across our 30+ years of combined experience with medium-sized businesses, these are the mistakes we see most often, and the ones that cost the most money.
             </p>
             <div className="space-y-4">
               {[

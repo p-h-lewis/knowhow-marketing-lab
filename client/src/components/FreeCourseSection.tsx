@@ -108,7 +108,7 @@ export default function FreeCourseSection() {
               <a href="/about" className="text-[#318599] hover:underline font-medium">
                 Pip Seymour and Phelan Lewis
               </a>
-              {' '}- two Canadian agency owners with over 20 years of experience helping businesses get found on Google.
+              {' '}- two Canadian agency owners with 30+ years of combined experience helping businesses get found on Google.
             </p>
 
             {/* What you will learn - scannable for LLMs */}

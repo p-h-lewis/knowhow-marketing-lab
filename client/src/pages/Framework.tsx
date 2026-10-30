@@ -110,7 +110,7 @@ const steps = [
 const faqs = [
   {
     q: "What is The Data-First AI SEO Method?",
-    a: "The Data-First AI SEO Method is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimise. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 20+ years of working with medium-sized businesses.",
+    a: "The Data-First AI SEO Method is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimise. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 30+ years of combined experience working with medium-sized businesses.",
   },
   {
     q: "Who is this framework designed for?",
@@ -238,7 +238,7 @@ export default function Framework() {
             <a href="https://seymourdigitalmedia.com/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline font-medium">
               Seymour Digital Media
             </a>{" "}
-            after 20+ years of working with medium-sized businesses across Canada. Every step is backed by Google's own tools and data.
+            after 30+ years of combined experience working with medium-sized businesses across Canada. Every step is backed by Google's own tools and data.
           </p>
 
           {/* Single clean step tracker */}

@@ -156,7 +156,7 @@ export default function FreeCourse() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              A free 5-module course for medium-sized businesses. No jargon. No guesswork. Just a clear, data-driven method that actually works - taught by agency veterans with 20+ years of experience.
+              A free 5-module course for medium-sized businesses. No jargon. No guesswork. Just a clear, data-driven method that actually works - taught by agency owners with 30+ years of combined experience.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-sm text-gray-500">
@@ -276,7 +276,7 @@ export default function FreeCourse() {
                 {
                   name: 'Pip Seymour',
                   role: 'SEO & Content Strategy Lead',
-                  bio: 'Founder of Seymour Digital Media. 20+ years helping medium-sized businesses rank on Google using data-driven SEO and AI.',
+                  bio: 'Founder of Seymour Digital Media. Helps medium-sized businesses get found on Google using data-driven SEO and AI.',
                   color: '#E98C28',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png',
                   initials: 'PS',

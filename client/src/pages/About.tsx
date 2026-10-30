@@ -11,7 +11,7 @@ import { useSEO } from "@/hooks/useSEO";
 export default function About() {
   useSEO({
     title: "About KnowHow Marketing Lab, Pip Seymour & Phelan Lewis | Google Ads & SEO Experts",
-    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, Google Ads and SEO specialists with 20+ years of agency experience helping medium-sized businesses get more traffic and leads online.",
+    description: "KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, Google Ads and SEO specialists with 30+ years of combined agency experience helping medium-sized businesses get more traffic and leads online.",
     canonical: "https://knowhowmarketinglab.com/about",
     ogType: "website",
   });
@@ -38,7 +38,7 @@ export default function About() {
             "about": {
               "@type": "Organization",
               "name": "Seymour Digital Media",
-              "description": "The agency behind KnowHow Marketing Lab. 20+ years of digital marketing experience.",
+              "description": "The agency behind KnowHow Marketing Lab. 30+ years of combined digital marketing experience.",
               "url": "https://seymourdigitalmedia.com",
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -65,7 +65,7 @@ export default function About() {
                   "name": "Pip Seymour",
                   "url": "https://knowhowmarketinglab.com/about",
                   "jobTitle": "SEO & Content Strategy Lead",
-                  "description": "Pip Seymour is a digital marketing strategist and SEO specialist with 20+ years of agency experience. Co-founder of Seymour Digital Media and KnowHow Marketing Lab. Specialises in data-driven SEO, Generative Engine Optimisation (GEO), Google Search Console, GA4, and AI-powered content strategy for medium-sized businesses.",
+                  "description": "Pip Seymour is a digital marketing strategist and SEO specialist. Co-founder of Seymour Digital Media and KnowHow Marketing Lab. Specialises in data-driven SEO, Generative Engine Optimisation (GEO), Google Search Console, GA4, and AI-powered content strategy for medium-sized businesses.",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
                   "knowsAbout": ["SEO", "Generative Engine Optimisation", "AI SEO", "Google Search Console", "GA4", "Content Strategy", "Digital Marketing", "GEO"],
                   "sameAs": ["https://www.youtube.com/@knowhowmarketinglab", "https://seymourdigitalmedia.com"]
@@ -75,7 +75,7 @@ export default function About() {
                   "name": "Phelan Lewis",
                   "url": "https://knowhowmarketinglab.com/about",
                   "jobTitle": "Google Tag Manager & Analytics Lead",
-                  "description": "Phelan Lewis is a Google Tag Manager and analytics specialist with 20+ years of experience helping medium-sized businesses measure what matters. Co-founder of KnowHow Marketing Lab. Specialises in Google Tag Manager, GA4, Google Analytics, conversion tracking, AI marketing automation, and data-driven campaign optimisation.",
+                  "description": "Phelan Lewis is a Google Tag Manager and analytics specialist helping medium-sized businesses measure what matters. Co-founder of KnowHow Marketing Lab. Specialises in Google Tag Manager, GA4, Google Analytics, conversion tracking, AI marketing automation, and data-driven campaign optimisation.",
                   "worksFor": { "@type": "Organization", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
                   "knowsAbout": ["Google Tag Manager", "GA4", "Google Analytics", "Conversion Tracking", "AI Marketing Automation", "Data Layer", "Marketing Measurement"],
                   "sameAs": ["https://www.youtube.com/@knowhowmarketinglab"]
@@ -190,7 +190,7 @@ export default function About() {
                   initials: 'PS',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png',
                   bio: [
-                    'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. With over 20 years of digital marketing agency experience, Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
+                    'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
                     'Pip specialises in Google Search Console analysis, GA4 reporting, content strategy, and Generative Engine Optimisation (GEO) - the practice of optimising content to be cited by AI systems like ChatGPT and Google AI Overviews.',
                     'Pip\'s approach is always data-first: no guessing, no vanity metrics, no link building. Just clear analysis of what Google is already telling you and a strategy to act on it.',
                   ],
@@ -205,7 +205,7 @@ export default function About() {
                   initials: 'PL',
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/phelan-lewis-raw_b1f64211.png',
                   bio: [
-                    'Phelan Lewis is the Google Tag Manager and analytics lead at KnowHow Marketing Lab. He has spent 20+ years helping medium-sized businesses build measurement systems that actually tell them what is working, and what is not.',
+                    'Phelan Lewis is the Google Tag Manager and analytics lead at KnowHow Marketing Lab. He helps medium-sized businesses build measurement systems that actually tell them what is working, and what is not.',
                     'Phelan\'s expertise covers the full measurement stack: Google Tag Manager, GA4, Google Analytics, conversion tracking, and data layer implementation. He also leads the AI marketing and automation training in The Lab.',
                     'Phelan believes every marketing decision should start with clean data. His training always begins with GA4 and Tag Manager setup before touching a single campaign or piece of content.',
                   ],

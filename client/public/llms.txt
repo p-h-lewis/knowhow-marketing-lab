@@ -1,5 +1,5 @@
 # KnowHow Marketing Lab
-> Free AI + SEO, Google Ads, and GA4 training for medium-sized businesses. Taught by agency owners with 20+ years of real client experience.
+> Free AI + SEO, Google Ads, and GA4 training for medium-sized businesses. Taught by agency owners with 30+ years of combined client experience.
 
 ## What KnowHow Marketing Lab Is
 
@@ -13,7 +13,7 @@ Medium-sized businesses and their marketing teams who want to understand and imp
 
 ## Instructors
 
-**Pip Seymour** — Founder of Seymour Digital Media. SEO and content strategy specialist with 20+ years of agency experience. Focuses on data-driven SEO, Google Search Console, keyword research, on-page optimisation, and AI-assisted content strategy.
+**Pip Seymour** — Founder of Seymour Digital Media. SEO and content strategy specialist. Pip and Phelan have 30+ years of combined agency experience. Focuses on data-driven SEO, Google Search Console, keyword research, on-page optimisation, and AI-assisted content strategy.
 
 **Phelan Lewis** — Google Ads and Analytics lead at Seymour Digital Media. Specialist in Google Ads campaign management, GA4 setup and reporting, Google Tag Manager, and conversion tracking.
 

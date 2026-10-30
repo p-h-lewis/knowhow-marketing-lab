@@ -112,7 +112,7 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-4 sm:gap-8">
               {[
                 { value: '$29 CAD/mo', label: 'The Lab, Monthly' },
-                { value: '20+', label: 'Years Agency Experience' },
+                { value: '30+', label: 'Years Combined Experience' },
                 { value: 'Tuesday', label: 'Live Lab Sessions' },
                 { value: 'Cancel', label: 'Anytime, No Contracts' },
               ].map(stat => (

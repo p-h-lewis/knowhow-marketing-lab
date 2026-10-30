@@ -27,7 +27,7 @@ export default function AboutSection() {
               Real Agency Experience. Real Results.
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-              KnowHow Marketing Lab was built by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two digital marketing veterans with over 20 years of combined agency experience. We've managed millions in Google Ads spend, ranked hundreds of businesses on Google, and built data-driven marketing strategies for medium-sized businesses across North America.
+              KnowHow Marketing Lab was built by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two digital marketing veterans with 30+ years of combined agency experience. We've managed millions in Google Ads spend, ranked hundreds of businesses on Google, and built data-driven marketing strategies for medium-sized businesses across North America.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               We created KnowHow Marketing Lab because we believe every business deserves access to the same strategies that enterprise brands pay agencies six figures for. Our approach is data-first, jargon-free, and always actionable.
@@ -55,7 +55,7 @@ export default function AboutSection() {
             {/* Credentials */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { label: '20+ Years', sub: 'Agency Experience' },
+                { label: '30+ Years', sub: 'Combined Experience' },
                 { label: 'GA4 + GSC', sub: 'Data-Driven Methods' },
                 { label: 'Google Ads', sub: 'Certified Specialists' },
                 { label: 'AI-First', sub: 'Modern Strategies' },
@@ -74,7 +74,7 @@ export default function AboutSection() {
               {
                 name: 'Pip Seymour',
                 role: 'SEO & Content Strategy Lead',
-                bio: 'Pip brings 20+ years of SEO and digital marketing agency experience. Specializes in data-driven SEO, Google Search Console, GA4, and Generative Engine Optimisation (GEO) for medium-sized businesses.',
+                bio: 'Pip leads SEO and digital marketing at Seymour Digital Media. Specializes in data-driven SEO, Google Search Console, GA4, and Generative Engine Optimisation (GEO) for medium-sized businesses.',
                 initials: 'PS',
                 color: '#E98C28',
               },

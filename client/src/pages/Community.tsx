@@ -315,7 +315,7 @@ export default function Community() {
                 <span className="text-[#E98C28]">real results</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live, hands-on, not just Q&amp;A. 20+ year agency veterans. $29 CAD/mo.
+                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live, hands-on, not just Q&amp;A. 30+ years of combined agency experience. $29 CAD/mo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <JoinButton label="Start 14-Day Free Trial →" />
@@ -336,7 +336,7 @@ export default function Community() {
             <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-white text-sm font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               <span>✓ 14-day free trial, no risk</span>
               <span>✓ Tuesday Lab sessions, hands-on with your real campaigns</span>
-              <span>✓ 20+ year agency veterans</span>
+              <span>✓ 30+ years of combined agency experience</span>
               <span>✓ Cancel anytime · $29 CAD/mo after trial</span>
             </div>
           </div>
