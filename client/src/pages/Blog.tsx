@@ -21,7 +21,7 @@ const blogPosts = [
   {
     slug: 'data-driven-seo-guide-medium-sized-businesses',
     title: 'Digital Marketing Blog, SEO, Google Ads & GA4',
-    excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses - the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the Data-First AI SEO Method step by step.',
+    excerpt: 'Most SEO advice is written for startups or enterprise brands. This guide is built specifically for medium-sized businesses, the ones with a real marketing budget, a real team, and real pressure to show ROI. Learn the Data-First AI SEO Method step by step.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'February 26, 2026',
@@ -44,7 +44,7 @@ const blogPosts = [
     readTime: '16 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80',
-    imageAlt: 'AI SEO course - learning how to rank on Google and in AI search engines like ChatGPT and Perplexity',
+    imageAlt: 'AI SEO course, learning how to rank on Google and in AI search engines like ChatGPT and Perplexity',
     externalUrl: null,
   },
   {
@@ -58,7 +58,7 @@ const blogPosts = [
     readTime: '15 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80',
-    imageAlt: 'Google Ads framework - 5 phases to building profitable Google Ads campaigns for medium-sized businesses',
+    imageAlt: 'Google Ads framework, 5 phases to building profitable Google Ads campaigns for medium-sized businesses',
     externalUrl: null,
   },
   //  COACHING POSTS 
@@ -207,7 +207,7 @@ const blogPosts = [
   {
     slug: 'how-to-set-up-google-search-console',
     title: 'How to Set Up Google Search Console (Step-by-Step Guide for 2026)',
-    excerpt: 'Google Search Console is one of the most important free tools for any business with a website. It shows you exactly how your site appears in Google search - which keywords bring people to you, which pages Google has indexed, and whether there are any technical problems. This guide walks you through the full setup.',
+    excerpt: 'Google Search Console is one of the most important free tools for any business with a website. It shows you exactly how your site appears in Google search, which keywords bring people to you, which pages Google has indexed, and whether there are any technical problems. This guide walks you through the full setup.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'March 2, 2026',
@@ -221,7 +221,7 @@ const blogPosts = [
   {
     slug: 'keyword-research-keyword-clusters',
     title: 'How to Do Keyword Research Using Keyword Clusters (2026 Guide)',
-    excerpt: 'Most keyword research guides teach you how to find keywords. This one teaches you what to do with them. Keyword clustering is the strategy that turns a list of keywords into a content plan - and it is the reason some businesses dominate entire topic areas in Google while others rank for nothing.',
+    excerpt: 'Most keyword research guides teach you how to find keywords. This one teaches you what to do with them. Keyword clustering is the strategy that turns a list of keywords into a content plan, and it is the reason some businesses dominate entire topic areas in Google while others rank for nothing.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'March 2, 2026',
@@ -235,7 +235,7 @@ const blogPosts = [
   {
     slug: 'ga4-explained-for-business-owners',
     title: 'GA4 Explained for Business Owners (Plain Language Guide for 2026)',
-    excerpt: 'Google Analytics 4 explained in plain language for business owners. Learn what GA4 tracks, what the key reports mean, and how to use it to make better marketing decisions - without needing to be a data analyst.',
+    excerpt: 'Google Analytics 4 explained in plain language for business owners. Learn what GA4 tracks, what the key reports mean, and how to use it to make better marketing decisions, without needing to be a data analyst.',
     category: 'Analytics',
     author: 'Pip Seymour',
     date: 'March 2, 2026',
@@ -250,7 +250,7 @@ const blogPosts = [
   {
     slug: 'the-ultimate-guide-to-google-ads-campaign-types',
     title: 'The Ultimate Guide to Google Ads Campaign Types (Updated for 2026)',
-    excerpt: 'The single most important decision you will make when creating a Google Ads campaign is choosing the right campaign type. This guide covers every type - Search, Display, Performance Max, Demand Gen, and more - with clear guidance on when to use each.',
+    excerpt: 'The single most important decision you will make when creating a Google Ads campaign is choosing the right campaign type. This guide covers every type: Search, Display, Performance Max, Demand Gen, and more, with clear guidance on when to use each.',
     category: 'Google Ads',
     author: 'Pip Seymour',
     date: 'December 27, 2025',
@@ -258,13 +258,13 @@ const blogPosts = [
     readTime: '12 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80',
-    imageAlt: 'Google Ads campaign types overview - Search, Display, Performance Max, and Demand Gen campaigns explained',
+    imageAlt: 'Google Ads campaign types overview: Search, Display, Performance Max, and Demand Gen campaigns explained',
     externalUrl: null,
   },
   {
     slug: 'google-ads-class-1-fundamentals',
     title: 'Google Ads Class 1: Fundamentals',
-    excerpt: 'Part of the KnowHow Marketing Lab Master Google Ads Series. This first class covers the fundamentals - what Google Ads is, how the auction works, and why it is the most powerful paid channel for medium-sized businesses.',
+    excerpt: 'Part of the KnowHow Marketing Lab Master Google Ads Series. This first class covers the fundamentals, what Google Ads is, how the auction works, and why it is the most powerful paid channel for medium-sized businesses.',
     category: 'Google Ads',
     author: 'Pip Seymour',
     date: 'December 27, 2025',
@@ -272,13 +272,13 @@ const blogPosts = [
     readTime: '8 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80',
-    imageAlt: 'Google Ads fundamentals - understanding the Google Ads auction, keywords, and bidding for beginners',
+    imageAlt: 'Google Ads fundamentals, understanding the Google Ads auction, keywords, and bidding for beginners',
     externalUrl: null,
   },
   {
     slug: 'google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns',
     title: 'Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns',
-    excerpt: 'Google Ads feels like a casino where the house always wins - until you know the rules. This 5-week roadmap gives you a clear, step-by-step path from zero to profitable campaigns, without burning through your budget.',
+    excerpt: 'Google Ads feels like a casino where the house always wins, until you know the rules. This 5-week roadmap gives you a clear, step-by-step path from zero to profitable campaigns, without burning through your budget.',
     category: 'Google Ads',
     author: 'Pip Seymour',
     date: 'December 20, 2025',
@@ -286,7 +286,7 @@ const blogPosts = [
     readTime: '10 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-    imageAlt: 'Google Ads masterclass 5-week roadmap to profitable campaigns - step-by-step guide for business owners',
+    imageAlt: 'Google Ads masterclass 5-week roadmap to profitable campaigns, step-by-step guide for business owners',
     externalUrl: null,
   },
   {
@@ -300,13 +300,13 @@ const blogPosts = [
     readTime: '9 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
-    imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximize Conversions, and Manual CPC explained',
+    imageAlt: 'Google Ads bidding strategies guide 2026: Target CPA, Target ROAS, Maximize Conversions, and Manual CPC explained',
     externalUrl: null,
   },
   {
     slug: 'ai-seo-guide',
     title: 'The Complete Guide to AI SEO',
-    excerpt: 'All 7 AI search optimization acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
+    excerpt: 'All 7 AI search optimization acronyms: SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO, explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'October 19, 2025',
@@ -314,13 +314,13 @@ const blogPosts = [
     readTime: '11 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80',
-    imageAlt: 'Complete guide to AI SEO - GEO, AEO, SGE, LLMO, AIO explained for medium-sized businesses',
+    imageAlt: 'Complete guide to AI SEO: GEO, AEO, SGE, LLMO, AIO explained for medium-sized businesses',
     externalUrl: null,
   },
   {
     slug: 'url-redirects-everything-you-need-to-know-for-seo',
     title: 'URL Redirects: Everything You Need to Know for SEO',
-    excerpt: 'Redirects are important in website management and user experience. This guide covers the types of URL redirects - 301, 302, and more - and explains how they affect your SEO strategy and Google rankings.',
+    excerpt: 'Redirects are important in website management and user experience. This guide covers the types of URL redirects, 301, 302, and more, and explains how they affect your SEO strategy and Google rankings.',
     category: 'SEO',
     author: 'Phelan Lewis',
     date: 'December 2, 2024',
@@ -328,13 +328,13 @@ const blogPosts = [
     readTime: '6 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80',
-    imageAlt: 'URL redirects SEO guide - 301 vs 302 redirects and how they impact Google rankings and website traffic',
+    imageAlt: 'URL redirects SEO guide, 301 vs 302 redirects and how they impact Google rankings and website traffic',
     externalUrl: null,
   },
   {
     slug: 'how-people-charge-for-google-ads',
     title: 'How People Charge for Google Ads Management',
-    excerpt: 'Google Ads management services typically range from $75 to $200 per hour, depending on the agency\'s experience. This guide breaks down all the pricing models - hourly, flat monthly fee, percentage of spend - so you know what to expect.',
+    excerpt: 'Google Ads management services typically range from $75 to $200 per hour, depending on the agency\'s experience. This guide breaks down all the pricing models, hourly, flat monthly fee, percentage of spend, so you know what to expect.',
     category: 'Google Ads',
     author: 'Phelan Lewis',
     date: 'December 2, 2024',
@@ -342,13 +342,13 @@ const blogPosts = [
     readTime: '5 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
-    imageAlt: 'How Google Ads agencies charge - hourly rates, flat monthly fees, and percentage of ad spend pricing models',
+    imageAlt: 'How Google Ads agencies charge, hourly rates, flat monthly fees, and percentage of ad spend pricing models',
     externalUrl: null,
   },
   {
     slug: 'adgroups-based-on-user-intent',
     title: 'How to Structure Ad Groups Based on User Intent',
-    excerpt: 'Organizing ad groups based on user intent is a highly effective strategy in PPC advertising. This approach aligns the structure of your campaigns with the different stages of the buyer journey - awareness, consideration, and decision.',
+    excerpt: 'Organizing ad groups based on user intent is a highly effective strategy in PPC advertising. This approach aligns the structure of your campaigns with the different stages of the buyer journey, awareness, consideration, and decision.',
     category: 'Google Ads',
     author: 'Phelan Lewis',
     date: 'December 2, 2024',
@@ -356,13 +356,13 @@ const blogPosts = [
     readTime: '7 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80',
-    imageAlt: 'Google Ads ad group structure based on user intent - awareness, consideration, and decision stage campaigns',
+    imageAlt: 'Google Ads ad group structure based on user intent, awareness, consideration, and decision stage campaigns',
     externalUrl: null,
   },
   {
     slug: 'how-ai-is-shaping-marketing',
     title: 'How AI is Shaping Marketing: From Content Creation to Campaign Analysis',
-    excerpt: 'AI is changing every part of digital marketing - from writing ad copy to analyzing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
+    excerpt: 'AI is changing every part of digital marketing, from writing ad copy to analyzing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'November 15, 2024',
@@ -370,13 +370,13 @@ const blogPosts = [
     readTime: '8 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80',
-    imageAlt: 'How AI is shaping digital marketing - content creation, campaign analysis, and automation tools for businesses',
+    imageAlt: 'How AI is shaping digital marketing, content creation, campaign analysis, and automation tools for businesses',
     externalUrl: null,
   },
   {
     slug: 'ga4-set-up-guide',
     title: 'GA4 Set Up & Guide: Step-by-Step for Business Owners',
-    excerpt: 'Google Analytics 4 (GA4) is the most important free tool for understanding your website traffic. This step-by-step guide walks you through setting up GA4, creating a data stream, and reading your first reports - no technical background needed.',
+    excerpt: 'Google Analytics 4 (GA4) is the most important free tool for understanding your website traffic. This step-by-step guide walks you through setting up GA4, creating a data stream, and reading your first reports, no technical background needed.',
     category: 'Analytics',
     author: 'Pip Seymour',
     date: 'October 27, 2024',
@@ -384,7 +384,7 @@ const blogPosts = [
     readTime: '10 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-    imageAlt: 'GA4 setup guide for business owners - step-by-step Google Analytics 4 configuration and first report walkthrough',
+    imageAlt: 'GA4 setup guide for business owners, step-by-step Google Analytics 4 configuration and first report walkthrough',
     externalUrl: null,
   },
 ];
@@ -392,7 +392,7 @@ const blogPosts = [
 const pillarFaqs = [
   {
     q: 'What is data-driven SEO?',
-    a: 'Data-driven SEO means making every decision based on real data - from Google Search Console, GA4, and keyword research tools - rather than guesswork. Instead of publishing content and hoping it ranks, you use data to find exactly what your audience is searching for, what pages are already getting traffic, and where the biggest opportunities are.',
+    a: 'Data-driven SEO means making every decision based on real data, from Google Search Console, GA4, and keyword research tools, rather than guesswork. Instead of publishing content and hoping it ranks, you use data to find exactly what your audience is searching for, what pages are already getting traffic, and where the biggest opportunities are.',
   },
   {
     q: 'How is data-driven SEO different from regular SEO?',
@@ -408,7 +408,7 @@ const pillarFaqs = [
   },
   {
     q: 'What is AI SEO (also called GEO)?',
-    a: 'AI SEO (also called GEO) is the practice of optimizing your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
+    a: 'AI SEO (also called GEO) is the practice of optimizing your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely, the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
   },
 ];
 
@@ -508,7 +508,7 @@ export default function Blog() {
               The KnowHow Marketing Lab Blog
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Practical SEO, Google Ads, GA4, and AI marketing guides - written for medium-sized businesses by agency professionals with 30+ years of combined experience. No fluff. No jargon. Just what works.
+              Practical SEO, Google Ads, GA4, and AI marketing guides, written for medium-sized businesses by agency professionals with 30+ years of combined experience. No fluff. No jargon. Just what works.
             </p>
           </div>
         </section>
@@ -602,7 +602,7 @@ export default function Blog() {
                       What is Data-Driven SEO?
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Data-driven SEO means making every decision based on real numbers - not gut feelings, not trends, not what your competitor is doing. You use tools like{' '}
+                      Data-driven SEO means making every decision based on real numbers, not gut feelings, not trends, not what your competitor is doing. You use tools like{' '}
                       <a href="https://support.google.com/webmasters/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Google Search Console</a>{' '}
                       and{' '}
                       <a href="https://support.google.com/analytics/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Google Analytics 4</a>{' '}
@@ -621,11 +621,11 @@ export default function Blog() {
                       Here is how it works:
                     </p>
                     <ol className="list-decimal list-inside space-y-2 text-gray-600 mb-6 ml-2">
-                      <li><strong>Measure first</strong> - set up Google Search Console and GA4 before doing anything else</li>
-                      <li><strong>Find your baseline</strong> - understand what traffic and rankings you already have</li>
-                      <li><strong>Identify opportunities</strong> - find keywords where you rank on page 2 or 3 and can realistically reach page 1</li>
-                      <li><strong>Optimize with intent</strong> - improve pages based on what the data tells you, not what you think looks good</li>
-                      <li><strong>Measure and repeat</strong> - track changes, learn from results, and keep improving</li>
+                      <li><strong>Measure first</strong>: set up Google Search Console and GA4 before doing anything else</li>
+                      <li><strong>Find your baseline</strong>: understand what traffic and rankings you already have</li>
+                      <li><strong>Identify opportunities</strong>: find keywords where you rank on page 2 or 3 and can realistically reach page 1</li>
+                      <li><strong>Optimize with intent</strong>: improve pages based on what the data tells you, not what you think looks good</li>
+                      <li><strong>Measure and repeat</strong>: track changes, learn from results, and keep improving</li>
                     </ol>
 
                     <h2 id="google-search-console-setup" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -641,7 +641,7 @@ export default function Blog() {
                       add your property, and verify ownership using the HTML tag method or your domain registrar. Once verified, data starts flowing within 48 hours.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-6">
-                      The most important report to check first is the <strong>Performance report</strong>. Look for queries where your average position is between 8 and 20 - these are your best quick-win opportunities. A small improvement in a page that already ranks on page 1 or 2 can double or triple your traffic.
+                      The most important report to check first is the <strong>Performance report</strong>. Look for queries where your average position is between 8 and 20, these are your best quick-win opportunities. A small improvement in a page that already ranks on page 1 or 2 can double or triple your traffic.
                     </p>
 
                     <h2 id="ga4-for-seo" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -652,7 +652,7 @@ export default function Blog() {
                       tells you what happens after someone lands on your website. Which pages keep people engaged? Which ones cause people to leave immediately? What actions do visitors take before they become leads or customers?
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-6">
-                      Connect GA4 to Search Console for the most powerful combination. You will be able to see which organic search queries lead to the most conversions - not just the most traffic. This is the difference between vanity metrics and real business results. Our{' '}
+                      Connect GA4 to Search Console for the most powerful combination. You will be able to see which organic search queries lead to the most conversions, not just the most traffic. This is the difference between vanity metrics and real business results. Our{' '}
                       <a href="/blog/google-analytics-4-setup-guide" className="text-[#318599] hover:underline">GA4 setup guide</a>{' '}
                       walks you through the full configuration step by step.
                     </p>
@@ -666,7 +666,7 @@ export default function Blog() {
                     <p className="text-gray-600 leading-relaxed mb-6">
                       For finding new keywords, the{' '}
                       <a href="https://ads.google.com/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Google Keyword Planner</a>{' '}
-                      (free with a Google Ads account) gives you real search volume data directly from Google. Focus on keywords with clear commercial intent - the ones people search when they are ready to buy or hire.
+                      (free with a Google Ads account) gives you real search volume data directly from Google. Focus on keywords with clear commercial intent, the ones people search when they are ready to buy or hire.
                     </p>
 
                     <h2 id="on-page-optimisation" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -853,7 +853,7 @@ export default function Blog() {
             {/* Bottom CTA */}
             <div className="mt-14 text-center">
               <p className="text-gray-500 mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Want to go deeper? The AI + SEO course covers all of this - step by step, with real examples.
+                Want to go deeper? The AI + SEO course covers all of this, step by step, with real examples.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a href="/courses/seo" className="btn-primary" aria-label="Start the free KnowHow Marketing Lab SEO course">

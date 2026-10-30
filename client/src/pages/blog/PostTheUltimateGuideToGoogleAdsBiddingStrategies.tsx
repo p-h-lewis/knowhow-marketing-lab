@@ -22,7 +22,7 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 
 <h2 id="the-4-main-automated-smart-bidding-strategies">The 4 Main Automated “Smart Bidding” Strategies</h2>
 
-<p>Smart Bidding is Google’s suite of AI-powered, conversion-based bid strategies. To use them, you must have conversion tracking enabled. [4] These strategies use thousands of signals - like device, location, time of day, and user behaviour to predict the likelihood of a conversion and bid accordingly.</p>
+<p>Smart Bidding is Google’s suite of AI-powered, conversion-based bid strategies. To use them, you must have conversion tracking enabled. [4] These strategies use thousands of signals, like device, location, time of day, and user behaviour to predict the likelihood of a conversion and bid accordingly.</p>
 
 <p>Here are the four core strategies and when to use them:</p>
 
@@ -117,17 +117,17 @@ const POST_CONTENT = `<p>Choosing the right bidding strategy in Google Ads can f
 <ol class="wp-block-list">
 <li>[1]: <a href="https://support.google.com/google-ads/answer/2979071?hl=en#:~:text=Automated%20bidding%20takes%20the%20heavy,or%20services)%20and%20conversion%20values." target="_blank" rel="noreferrer noopener">Manual Bidding vs. Automated Bidding in Google Ads</a> </li>
 
-<li>[2]: <a href="https://support.google.com/google-ads/answer/2979071" target="_blank" rel="noreferrer noopener">About automated bidding - Google Ads Help</a> </li>
+<li>[2]: <a href="https://support.google.com/google-ads/answer/2979071" target="_blank" rel="noreferrer noopener">About automated bidding: Google Ads Help</a> </li>
 
 <li>[3] <a href="https://www.reddit.com/r/PPC/comments/1h0tt7e/manual_cpc_vs_smart_bidding/" target="_blank" rel="noreferrer noopener">Manual CPC vs. Smart Bidding: When to Switch for Better ROI</a> </li>
 
-<li>[4]: <a href="https://support.google.com/google-ads/answer/7065882" target="_blank" rel="noreferrer noopener">About Smart Bidding - Google Ads Help</a> </li>
+<li>[4]: <a href="https://support.google.com/google-ads/answer/7065882" target="_blank" rel="noreferrer noopener">About Smart Bidding: Google Ads Help</a> </li>
 
 <li>[5]: <a href="https://www.reddit.com/answers/7cd908f9-028d-4a72-add0-bde1c7da168b/?q=https%3A%2F%2Fadexpert.io%2Fmanual-cpc-vs-smart-bidding-when-to-switch-for-better-roi%2F&source=SERP_SEARCH_BAR_BUTTON&upstreamCID=43f0dcb9-1c41-42e2-be6e-14a93061f5b8&upstreamIID=7cd321bf-55df-4c72-a653-00e40339a50b&upstreamQ=https%3A%2F%2Fadexpert.io%2Fmanual-cpc-vs-smart-bidding-when-to-switch-for-better-roi%2F&upstreamQID=8b048205-8533-4916-9fc3-fa2253cb7734&upstreamQT=search_ask" target="_blank" rel="noreferrer noopener">Manual CPC vs. Smart Bidding: When to Switch for Better ROI</a> </li>
 
-<li>[6]: <a href="https://support.google.com/google-ads/answer/2732132" target="_blank" rel="noreferrer noopener">About bid adjustments - Google Ads Help</a>, <a href="https://support.google.com/google-ads/answer/7684216?hl=en#:~:text=Maximise%20conversion%20value%20bidding%20eligibility,within%20the%20past%2035%20days.">Google Answers</a></li>
+<li>[6]: <a href="https://support.google.com/google-ads/answer/2732132" target="_blank" rel="noreferrer noopener">About bid adjustments: Google Ads Help</a>, <a href="https://support.google.com/google-ads/answer/7684216?hl=en#:~:text=Maximise%20conversion%20value%20bidding%20eligibility,within%20the%20past%2035%20days.">Google Answers</a></li>
 
-<li>[7]: <a href="https://support.google.com/google-ads/answer/16756291" target="_blank" rel="noreferrer noopener">Google Ads Highlights of 2025 - Google Ads Help</a></li>
+<li>[7]: <a href="https://support.google.com/google-ads/answer/16756291" target="_blank" rel="noreferrer noopener">Google Ads Highlights of 2025: Google Ads Help</a></li>
 </ol>
 
 <script type="application/ld+json">
@@ -194,11 +194,11 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bidding-7qDykP2qmd95Sngyo4orcR.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies - The Ultimate Guide');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies, The Ultimate Guide');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-bidding-7qDykP2qmd95Sngyo4orcR.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies - The Ultimate Guide');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Bidding Strategies, The Ultimate Guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
@@ -268,7 +268,7 @@ export default function PostTheUltimateGuideToGoogleAdsBiddingStrategies() {
           <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
             <img
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
-              alt="Google Ads bidding strategies - data analytics dashboard showing campaign performance metrics"
+              alt="Google Ads bidding strategies, data analytics dashboard showing campaign performance metrics"
               className="w-full h-full object-cover"
               loading="eager"
               fetchPriority="high"

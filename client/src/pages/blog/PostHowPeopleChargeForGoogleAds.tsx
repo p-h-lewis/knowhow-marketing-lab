@@ -4,7 +4,7 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 
-const POST_CONTENT = `<h2 id="industries-charge-industry-rates"><br>Industries charge - Industry Rates</h2>
+const POST_CONTENT = `<h2 id="industries-charge-industry-rates"><br>Industries charge: Industry Rates</h2>
 
 <p><strong>Hourly Rates:</strong> <a href="https://seymourdigitalmedia.com/services/professional-google-ads-consulting-service/">Google Ads management services </a>typically range from $75 to $200 per hour, depending on the agency’s experience and expertise.</p>
 
@@ -48,7 +48,7 @@ export default function PostHowPeopleChargeForGoogleAds() {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "How People Charge for Google Ads",
-  "description": "Industries charge - Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency\u2019s exp...",
+  "description": "Industries charge: Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency\u2019s exp...",
   "datePublished": "2024-12-02",
   "dateModified": "2024-12-02",
   "author": {
@@ -77,7 +77,7 @@ export default function PostHowPeopleChargeForGoogleAds() {
     document.head.appendChild(script);
     document.title = 'How People Charge for Google Ads | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Industries charge - Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency’s exp...');
+    if (metaDesc) metaDesc.setAttribute('content', 'Industries charge: Industry Rates Hourly Rates: Google Ads management services typically range from $75 to $200 per hour, depending on the agency’s exp...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/how-people-charge-for-google-ads');
     const ogImage = document.querySelector('meta[property="og:image"]');
@@ -153,7 +153,7 @@ export default function PostHowPeopleChargeForGoogleAds() {
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
           <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">In This Article</h2>
           <ol className="list-decimal list-inside space-y-1.5">
-              <li key="industries-charge-industry-rates"><a href="#industries-charge-industry-rates" className="text-[#318599] hover:underline text-sm">Industries charge - Industry Rates</a></li>
+              <li key="industries-charge-industry-rates"><a href="#industries-charge-industry-rates" className="text-[#318599] hover:underline text-sm">Industries charge: Industry Rates</a></li>
               <li key="ad-spend"><a href="#ad-spend" className="text-[#318599] hover:underline text-sm">Ad Spend</a></li>
               <li key="customization-and-expertise"><a href="#customization-and-expertise" className="text-[#318599] hover:underline text-sm">Customization and Expertise</a></li>
               <li key="estimated-cost"><a href="#estimated-cost" className="text-[#318599] hover:underline text-sm">Estimated Cost</a></li>

@@ -16,7 +16,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill-element"><div class="wp-block-media-text__content">
 <p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behaviour and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 helps marketers optimize strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
-</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup - key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"
+</div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup, key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"
                   loading="lazy"
                   decoding="async"
                 /></figure></div>
@@ -60,7 +60,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <ol class="wp-block-list">
 <li>Google Analytics Account (you'll need admin access). Account login <a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noreferrer noopener">Google Analytics</a> or get <a href="https://support.google.com/analytics/?hl=en#topic=10737980" target="_blank" rel="noreferrer noopener">Analytics Help</a> for more info).</li>
 
-<li><a href="https://tagmanager.google.com/#/home" target="_blank" rel="noreferrer noopener">Google Tag Manager</a> (you'll need Publishing Permissions - <a href="https://support.google.com/tagmanager/answer/6107011?hl=en-GB" target="_blank" rel="noreferrer noopener">Users and Permissions - Tag Manager Help</a>).<br><br>Go to Google and type <a href="https://analytics.google.com/" target="_blank" rel="noreferrer noopener">Google Analytics</a> into Chrome or whatever browser you use. If you already have an account, log in.</li>
+<li><a href="https://tagmanager.google.com/#/home" target="_blank" rel="noreferrer noopener">Google Tag Manager</a> (you'll need Publishing Permissions, <a href="https://support.google.com/tagmanager/answer/6107011?hl=en-GB" target="_blank" rel="noreferrer noopener">Users and Permissions: Tag Manager Help</a>).<br><br>Go to Google and type <a href="https://analytics.google.com/" target="_blank" rel="noreferrer noopener">Google Analytics</a> into Chrome or whatever browser you use. If you already have an account, log in.</li>
 </ol>
 
 <p>If you don't have an account yet, don't worry; we'll create one.</p>
@@ -90,7 +90,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Add your organization’s name and check off the boxes you want to check off. Read what they say. There is no wrong answer here. Then click the blue button <strong>Next</strong> at the bottom of the page.</p>
 
-<figure class="wp-block-image is-style-default"><img src="https://lh4.googleusercontent.com/CZ2PrITJyp1an75857ShapSWT4QVMUVNhutGDC1GpKc1kpowHoePERlPrC34YbhV9RnlDgVZRJ8WbmnHznaiqwzExAxzENuLoTPaQewNahnr4Phut9S7FIyy2cHRbPVvZ-8-y2Gpr6Q73mMj_OcQJMk" alt="GA - account setup - property details"
+<figure class="wp-block-image is-style-default"><img src="https://lh4.googleusercontent.com/CZ2PrITJyp1an75857ShapSWT4QVMUVNhutGDC1GpKc1kpowHoePERlPrC34YbhV9RnlDgVZRJ8WbmnHznaiqwzExAxzENuLoTPaQewNahnr4Phut9S7FIyy2cHRbPVvZ-8-y2Gpr6Q73mMj_OcQJMk" alt="GA, account setup, property details"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -107,7 +107,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <li>click next </li>
 </ul>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/New-Account-Details-add-setup-GA-account-1024x613.jpg" alt="add business name & click boxes and click next - GA account setup" class="wp-image-52105"
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/New-Account-Details-add-setup-GA-account-1024x613.jpg" alt="add business name & click boxes and click next, GA account setup" class="wp-image-52105"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -149,7 +149,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p> Then add the size and hit next. </p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/industry-category-and-business-size-GA4-setup-1024x448.png" alt="industry category and business size - GA4 setup" class="wp-image-52110"
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/industry-category-and-business-size-GA4-setup-1024x448.png" alt="industry category and business size, GA4 setup" class="wp-image-52110"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -182,12 +182,12 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>You just set up your Google Analytics Account and a Google Analytics property! Bam! Pop the cork! You did it! Please have a quick break. We need to get your data stream set up and connected.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Step-1-complete-setup-a-GA-account-GA4-property-1024x416.jpg" alt="Step 1 complete - setup a GA account & GA4 property" class="wp-image-52112"
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Step-1-complete-setup-a-GA-account-GA4-property-1024x416.jpg" alt="Step 1 complete, setup a GA account & GA4 property" class="wp-image-52112"
                   loading="lazy"
                   decoding="async"
                 /></figure>
 
-<p><br>Choose a platform - choose web. Add your website and business name. </p>
+<p><br>Choose a platform, choose web. Add your website and business name. </p>
 
 <p>We're going to setup the Web data stream <br><br>Two windows will slide open from the right to left to see options. All we want to do is grab a piece of code and save it. </p>
 
@@ -231,7 +231,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>View the search results event each time a visitor performs a search on your site (you need to have the search feature). Form interaction Video play, progress.</p>
 
-<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-2-1024x348.png" alt="CREATE STREAM - SETUP DATA STREAM GA4 " class="wp-image-52115"
+<figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/CREATE-STREAM-SETUP-DATA-STREAM-GA4-1-2-1024x348.png" alt="CREATE STREAM, SETUP DATA STREAM GA4 " class="wp-image-52115"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -247,7 +247,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>You can If you want to go grab the code hit install manually. You can also play around here scan your site with the scan button or choose anothe installation method. We're going to do the manual version. Why? because this way we insure we know the exact process and know where thing are and what's been done. Plus then we can get out of here and have the first part of the process complete. </p>
 
-<p>Copy the GA4 Id tag - we need this because this is the id we will use in tagmanager to start connecting data. That being said we can easily get back here when we need the code.</p>
+<p>Copy the GA4 Id tag, we need this because this is the id we will use in tagmanager to start connecting data. That being said we can easily get back here when we need the code.</p>
 
 <figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Copy-the-GA4-Id-tag-we-need-this-because-this-is-the-id-we-will-use-in-tagmanager-to-start-connecting-data-1-1024x471.jpg" alt="" class="wp-image-52122"
                   loading="lazy"
@@ -551,9 +551,9 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading"><strong>Data Collection</strong></h3>
 
-<p>Mark Data collection as complete (because we've done it - see above). Now make sure you're collecting data first.<br><br><img width="602" height="271" src="https://lh4.googleusercontent.com/LbshWrQ-W3zAeIWjb2WdSko2P-hUcQ9hgeTilBkfNvSFfq99Ohmx0vCRZUKrhMnOVF3zGg436OXZFIqR5NNcoZTKRHTknyvxW7He75PU-G80MxhbKKSofs4Qkv6P8Vtlf_NlVJcNlyJZhPvcUeqFDNI" loading='lazy'></p>
+<p>Mark Data collection as complete (because we've done it, see above). Now make sure you're collecting data first.<br><br><img width="602" height="271" src="https://lh4.googleusercontent.com/LbshWrQ-W3zAeIWjb2WdSko2P-hUcQ9hgeTilBkfNvSFfq99Ohmx0vCRZUKrhMnOVF3zGg436OXZFIqR5NNcoZTKRHTknyvxW7He75PU-G80MxhbKKSofs4Qkv6P8Vtlf_NlVJcNlyJZhPvcUeqFDNI" loading='lazy'></p>
 
-<p><br>Mark Data collection as complete (because we've done it - see above). Now make sure you're collecting data first.</p>
+<p><br>Mark Data collection as complete (because we've done it, see above). Now make sure you're collecting data first.</p>
 
 <p><strong>How?</strong> It will say data is flowing. Click into your "manage data streams" if you want to see more. We're going to click compltee. <br><br></p>
 
@@ -584,7 +584,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <h3 class="wp-block-heading"><strong>Two Other Events To Note</strong></h3>
 
 <ol class="wp-block-list">
-<li>Recommended events - these are predefined, but you choose to implement them. Not all may work for you.<br></li>
+<li>Recommended events, these are predefined, but you choose to implement them. Not all may work for you.<br></li>
 
 <li>Custom events you define yourself. You select names and parameters, and you can collect specific data specific to your business. Google Analytics does not set these up.</li>
 </ol>
@@ -626,7 +626,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
                   decoding="async"
                 /></figure>
 
-<p>If you get the pop up just click skip. Where to go - Cog bottom, left-hand side.</p>
+<p>If you get the pop up just click skip. Where to go: Cog bottom, left-hand side.</p>
 
 <p><strong> Admin > setup assistant. </strong></p>
 
@@ -641,14 +641,14 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Once you click on that setup assistant, a new window will slide open from right to left. Go to Data Collection You can get to it in the middle of the screen or down the left-hand side column. Mark off as complete.</p>
 
-<h3 class="wp-block-heading">Setup Assistant - Data Streams</h3>
+<h3 class="wp-block-heading">Setup Assistant: Data Streams</h3>
 
 <figure class="wp-block-image size-large"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Data-collection-setup-assistant-complete-1-1024x429.jpeg" alt="" class="wp-image-52166"
                   loading="lazy"
                   decoding="async"
                 /></figure>
 
-<h3 class="wp-block-heading">Setup Assistant - Property Settings</h3>
+<h3 class="wp-block-heading">Setup Assistant: Property Settings</h3>
 
 <p>Turn on signals! we did it above! now we're just checking it off</p>
 
@@ -668,7 +668,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>Mark it as complete using the drop down menu and watch that gamification bar.</p>
 
-<h2 id="set-up-conversions-property-settings"><strong>Set Up Conversions</strong> - Property Settings</h2>
+<h2 id="set-up-conversions-property-settings"><strong>Set Up Conversions</strong>: Property Settings</h2>
 
 <p>We are setting up the conversion configuration, not the actual event data from the website. </p>
 
@@ -793,7 +793,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p>In the next few days, we'll also add the  <strong>How to set up your Conversions using Tag Manager and GA4 set up video. </strong>You need to set up tags in Tag Manager to have everything configured. </p>
 
-<p>These other videos might be helpful as well. - The last step to all of this madness. So bookmark this and come back!<br><br>Some other videos to help with the Google ads if you are raring to go. </p>
+<p>These other videos might be helpful as well.: The last step to all of this madness. So bookmark this and come back!<br><br>Some other videos to help with the Google ads if you are raring to go. </p>
 
 <p><a href="https://www.youtube.com/watch?v=UFB8FVwp-RI&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Google Ads Linking in Google Analytics</a></p>
 
@@ -807,7 +807,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <p><a href="https://www.youtube.com/watch?v=rndv3pDTXH8&list=PLI5YfMzCfRtbwTOIToN-GemNcoddushAI&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Migration Series Day 1: What, why, and how to migrate to Google Analytics 4</a> <a href="https://www.youtube.com/watch?v=Qzy2bd4eVGE&list=PLI5YfMzCfRtbwTOIToN-GemNcoddushAI&index=3&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Migration Series Day 2: Tagging and Data Streams in Google Analytics 4</a> <a href="https://www.youtube.com/watch?v=j42_2A81F3E&list=PLI5YfMzCfRtbwTOIToN-GemNcoddushAI&index=3&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Migration Series Day 3: Events and conversions in Google Analytics 4</a></p>
 
-<p><a href="https://support.google.com/analytics/answer/12366001?hl=en&utm_id=ad" target="_blank" rel="noreferrer noopener">[UA→GA4] Recreate Universal Analytics audiences</a><br><a href="https://support.google.com/analytics/answer/9744165#finish-creating-property&zippy=%2Cin-this-article" target="_blank" rel="noreferrer noopener">[GA4] Add a Google Analytics 4 property (to a site that already has Analytics)<br></a><a href="https://support.google.com/analytics/answer/9973999" target="_blank" rel="noreferrer noopener">[GA4] About connected site tags - Analytics Help<br></a><a href="https://support.google.com/analytics/answer/9333790" target="_blank" rel="noreferrer noopener">[GA4] Confirm that you're collecting data - Analytics Help<br></a><a href="https://support.google.com/analytics/troubleshooter/7264014" target="_blank" rel="noreferrer noopener">Unable to sign in to account - Analytics Help<br></a><a href="https://developers.google.com/tag-platform/devguides/cross-domain" target="_blank" rel="noreferrer noopener">Measure activity across multiple domains | Tags | Google for Developers</a> <a href="https://www.youtube.com/watch?v=47mpnwPQ10I&t=0s&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Conversions in Google Analytics</a><br><a href="https://www.youtube.com/watch?v=FVzJkB4IxEQ&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Creating Events in Google Analytics 4 Properties</a><br><a href="https://www.youtube.com/playlist?list=PLI5YfMzCfRtZ4bHJJDl_IJejxMwZFiBwz" target="_blank" rel="noreferrer noopener">Google Analytics 4 Tutorials - YouTube<br></a><a href="https://support.google.com/analytics/answer/13583724?sjid=10657008603212131812-NA" target="_blank" rel="noreferrer noopener">Migration Video Series Live on YouTube<br></a><a href="https://searchengineland.com/google-analytics-4-adds-new-integrations-with-ads-ai-powered-insights-and-predictions-342048#:~:text=The%20latest%20iteration%20of%20Google's,and%20more%20granular%20data%20controls." target="_blank" rel="noreferrer noopener">Meet Google Analytics 4: Google’s vision for the future of analytics<br></a><a href="https://blog.google/products/marketingplatform/analytics/new_google_analytics/" target="_blank" rel="noreferrer noopener">Introducing the new Google Analytics</a></p>
+<p><a href="https://support.google.com/analytics/answer/12366001?hl=en&utm_id=ad" target="_blank" rel="noreferrer noopener">[UA→GA4] Recreate Universal Analytics audiences</a><br><a href="https://support.google.com/analytics/answer/9744165#finish-creating-property&zippy=%2Cin-this-article" target="_blank" rel="noreferrer noopener">[GA4] Add a Google Analytics 4 property (to a site that already has Analytics)<br></a><a href="https://support.google.com/analytics/answer/9973999" target="_blank" rel="noreferrer noopener">[GA4] About connected site tags: Analytics Help<br></a><a href="https://support.google.com/analytics/answer/9333790" target="_blank" rel="noreferrer noopener">[GA4] Confirm that you're collecting data: Analytics Help<br></a><a href="https://support.google.com/analytics/troubleshooter/7264014" target="_blank" rel="noreferrer noopener">Unable to sign in to account: Analytics Help<br></a><a href="https://developers.google.com/tag-platform/devguides/cross-domain" target="_blank" rel="noreferrer noopener">Measure activity across multiple domains | Tags | Google for Developers</a> <a href="https://www.youtube.com/watch?v=47mpnwPQ10I&t=0s&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Conversions in Google Analytics</a><br><a href="https://www.youtube.com/watch?v=FVzJkB4IxEQ&ab_channel=GoogleAnalytics" target="_blank" rel="noreferrer noopener">Creating Events in Google Analytics 4 Properties</a><br><a href="https://www.youtube.com/playlist?list=PLI5YfMzCfRtZ4bHJJDl_IJejxMwZFiBwz" target="_blank" rel="noreferrer noopener">Google Analytics 4 Tutorials: YouTube<br></a><a href="https://support.google.com/analytics/answer/13583724?sjid=10657008603212131812-NA" target="_blank" rel="noreferrer noopener">Migration Video Series Live on YouTube<br></a><a href="https://searchengineland.com/google-analytics-4-adds-new-integrations-with-ads-ai-powered-insights-and-predictions-342048#:~:text=The%20latest%20iteration%20of%20Google's,and%20more%20granular%20data%20controls." target="_blank" rel="noreferrer noopener">Meet Google Analytics 4: Google’s vision for the future of analytics<br></a><a href="https://blog.google/products/marketingplatform/analytics/new_google_analytics/" target="_blank" rel="noreferrer noopener">Introducing the new Google Analytics</a></p>
 
 <h2 id="contact-us">Contact Us</h2>
 
@@ -860,11 +860,11 @@ export default function PostGa4SetUpGuide() {
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ga4-setup-guide-kX3KdScEiQhSbLyJazy5Np.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide - Everything You Need to Know');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide, Everything You Need to Know');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-ga4-setup-guide-kX3KdScEiQhSbLyJazy5Np.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide - Everything You Need to Know');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: GA4 Set Up Guide, Everything You Need to Know');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
@@ -937,7 +937,7 @@ export default function PostGa4SetUpGuide() {
               <li key="third-step-data-stream-setup"><a href="#third-step-data-stream-setup" className="text-[#318599] hover:underline text-sm">Third Step: Data Stream Setup</a></li>
               <li key="fourth-step-connecting-tag-manager-to-ga4"><a href="#fourth-step-connecting-tag-manager-to-ga4" className="text-[#318599] hover:underline text-sm">Fourth Step: Connecting Tag Manager To GA4</a></li>
               <li key="fifth-step-setup-assistant-ga4-gamification"><a href="#fifth-step-setup-assistant-ga4-gamification" className="text-[#318599] hover:underline text-sm">Fifth Step: Setup Assistant & GA4 Gamification</a></li>
-              <li key="set-up-conversions-property-settings"><a href="#set-up-conversions-property-settings" className="text-[#318599] hover:underline text-sm">Set Up Conversions - Property Settings</a></li>
+              <li key="set-up-conversions-property-settings"><a href="#set-up-conversions-property-settings" className="text-[#318599] hover:underline text-sm">Set Up Conversions: Property Settings</a></li>
               <li key="step-6-audience"><a href="#step-6-audience" className="text-[#318599] hover:underline text-sm">Step 6 Audience</a></li>
               <li key="step-7-google-ads-linking"><a href="#step-7-google-ads-linking" className="text-[#318599] hover:underline text-sm">Step 7: Google Ads Linking</a></li>
               <li key="additional-ga4-resources"><a href="#additional-ga4-resources" className="text-[#318599] hover:underline text-sm">Additional GA4 Resources</a></li>

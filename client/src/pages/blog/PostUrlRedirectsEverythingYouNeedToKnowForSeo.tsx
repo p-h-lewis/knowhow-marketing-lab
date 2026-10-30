@@ -6,7 +6,7 @@ import { Link } from 'wouter';
 import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
 import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
-const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-and-tips"><br>Introduction - URL Redirects: Practical applications and tips</h2>
+const POST_CONTENT = `<h2 id="introduction-url-redirects-practical-applications-and-tips"><br>Introduction: URL Redirects: Practical applications and tips</h2>
 
 <p>Redirects are important in website management and user experience. <br>This blog post covers the types of URL redirects. It also explains how they can help your SEO strategy. <br>URL redirects are important for improving your website's search engine optimization (SEO). <br>Redirects are also important in website management and user experience. <br>Redirects can be temporary or permanent. But first</p>
 
@@ -127,7 +127,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "URL Redirects: Everything You Need to Know for SEO",
-  "description": "Introduction - URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...",
+  "description": "Introduction: URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...",
   "datePublished": "2024-12-02",
   "dateModified": "2024-12-02",
   "author": {
@@ -156,17 +156,17 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
     document.head.appendChild(script);
     document.title = 'URL Redirects: Everything You Need to Know for SEO | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Introduction - URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...');
+    if (metaDesc) metaDesc.setAttribute('content', 'Introduction: URL Redirects: Practical applications and tips Redirects are important in website management and user experience. This blog post covers t...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/url-redirects-everything-you-need-to-know-for-seo');
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-url-redirects-EK4PxxyXK2BU9PSJWFBdHC.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects - Everything You Need to Know for SEO');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects, Everything You Need to Know for SEO');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-url-redirects-EK4PxxyXK2BU9PSJWFBdHC.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects - Everything You Need to Know for SEO');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: URL Redirects, Everything You Need to Know for SEO');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
@@ -232,7 +232,7 @@ export default function PostUrlRedirectsEverythingYouNeedToKnowForSeo() {
         <nav className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
           <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">In This Article</h2>
           <ol className="list-decimal list-inside space-y-1.5">
-              <li key="introduction-url-redirects-practical-applications-and-tips"><a href="#introduction-url-redirects-practical-applications-and-tips" className="text-[#318599] hover:underline text-sm">Introduction - URL Redirects: Practical applications and tips</a></li>
+              <li key="introduction-url-redirects-practical-applications-and-tips"><a href="#introduction-url-redirects-practical-applications-and-tips" className="text-[#318599] hover:underline text-sm">Introduction: URL Redirects: Practical applications and tips</a></li>
               <li key="what-are-url-redirects"><a href="#what-are-url-redirects" className="text-[#318599] hover:underline text-sm">What are URL Redirects?</a></li>
               <li key="link-equity-the-importance-of-301-redirects"><a href="#link-equity-the-importance-of-301-redirects" className="text-[#318599] hover:underline text-sm">Link Equity The Importance of 301 Redirects</a></li>
               <li key="types-of-url-redirects-and-their-uses"><a href="#types-of-url-redirects-and-their-uses" className="text-[#318599] hover:underline text-sm">Types of URL Redirects and Their Uses:</a></li>

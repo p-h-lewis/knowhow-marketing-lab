@@ -54,7 +54,7 @@ const posts: Record<string, {
   "data-driven-seo-guide-medium-sized-businesses": {
     slug: "data-driven-seo-guide-medium-sized-businesses",
     title: "Data-Driven SEO for Medium-Sized Businesses: The Complete Guide",
-    metaTitle: "Data-Driven SEO for Medium-Sized Businesses - Complete Guide 2025",
+    metaTitle: "Data-Driven SEO for Medium-Sized Businesses: Complete Guide 2025",
     metaDescription:
       "Learn how to use real data to improve your SEO. This guide covers keyword research, Google Search Console, GA4, and content strategy for medium-sized businesses.",
     category: "SEO",
@@ -67,7 +67,7 @@ const posts: Record<string, {
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
     imageAlt: "Data-driven SEO dashboard showing Google Search Console and GA4 analytics for a medium-sized business",
     intro:
-      "Most businesses treat SEO like a mystery. They publish content, wait, and hope something ranks. Data-driven SEO is different. It starts with what people are actually searching for - and uses real numbers to decide what to create, what to fix, and what to ignore. This guide shows you exactly how to do it.",
+      "Most businesses treat SEO like a mystery. They publish content, wait, and hope something ranks. Data-driven SEO is different. It starts with what people are actually searching for, and uses real numbers to decide what to create, what to fix, and what to ignore. This guide shows you exactly how to do it.",
     sections: [
       {
         heading: "What is data-driven SEO?",
@@ -76,17 +76,17 @@ const posts: Record<string, {
       },
       {
         heading: "Step 1: Set up your measurement tools",
-        body: "Before you do anything else, you need to be able to measure results. Set up Google Analytics 4 (GA4) to track how people use your website. Set up Google Search Console to see which keywords bring people to your site. Connect both tools to Google Tag Manager so you can track specific actions - like form submissions and phone calls. Without these tools, you are flying blind.",
+        body: "Before you do anything else, you need to be able to measure results. Set up Google Analytics 4 (GA4) to track how people use your website. Set up Google Search Console to see which keywords bring people to your site. Connect both tools to Google Tag Manager so you can track specific actions, like form submissions and phone calls. Without these tools, you are flying blind.",
         externalLink: { text: "Google Analytics 4 Setup Guide", url: "https://support.google.com/analytics/answer/9304153" },
       },
       {
         heading: "Step 2: Find your keyword opportunities",
-        body: "Open Google Search Console and look at the Queries report. You will see every keyword that brought someone to your site in the last 90 days. Look for keywords where you rank between position 5 and 20 - these are your best opportunities. You are already showing up, but not quite on page one. A small improvement in content quality can move you from position 12 to position 3.",
+        body: "Open Google Search Console and look at the Queries report. You will see every keyword that brought someone to your site in the last 90 days. Look for keywords where you rank between position 5 and 20, these are your best opportunities. You are already showing up, but not quite on page one. A small improvement in content quality can move you from position 12 to position 3.",
         externalLink: { text: "Google Keyword Planner", url: "https://ads.google.com/home/tools/keyword-planner/" },
       },
       {
         heading: "Step 3: Create content that answers real questions",
-        body: "Once you know what people are searching for, create content that answers those questions better than anyone else. Write at a level anyone can understand. Use short paragraphs. Use headings to break up the page. Include the keyword in your title, your first paragraph, and at least two subheadings. Do not stuff keywords - just write naturally about the topic.",
+        body: "Once you know what people are searching for, create content that answers those questions better than anyone else. Write at a level anyone can understand. Use short paragraphs. Use headings to break up the page. Include the keyword in your title, your first paragraph, and at least two subheadings. Do not stuff keywords, just write naturally about the topic.",
       },
       {
         heading: "Step 4: Track your results every month",
@@ -95,7 +95,7 @@ const posts: Record<string, {
       },
       {
         heading: "Common SEO mistakes medium-sized businesses make",
-        body: "The most common mistake is creating content without checking if anyone is searching for it. The second most common mistake is ignoring existing pages that already rank. The third is focusing on domain authority and link building instead of content quality. Google rewards pages that genuinely help people - not pages optimized for algorithms.",
+        body: "The most common mistake is creating content without checking if anyone is searching for it. The second most common mistake is ignoring existing pages that already rank. The third is focusing on domain authority and link building instead of content quality. Google rewards pages that genuinely help people, not pages optimized for algorithms.",
       },
     ],
     faqs: [
@@ -105,29 +105,29 @@ const posts: Record<string, {
       },
       {
         q: "Do I need to hire an SEO agency to do this?",
-        a: "No. The tools we recommend - Google Search Console, GA4, and Google Keyword Planner - are all free. With the right training, your internal marketing team can do this themselves. That is exactly what our AI + SEO course teaches.",
+        a: "No. The tools we recommend: Google Search Console, GA4, and Google Keyword Planner, are all free. With the right training, your internal marketing team can do this themselves. That is exactly what our AI + SEO course teaches.",
       },
       {
         q: "What is the difference between SEO and Google Ads?",
-        a: "SEO (Search Engine Optimization) gets your website to rank organically in Google search results - you do not pay per click. Google Ads puts your website at the top of search results immediately - you pay each time someone clicks. Both work best when used together.",
+        a: "SEO (Search Engine Optimization) gets your website to rank organically in Google search results, you do not pay per click. Google Ads puts your website at the top of search results immediately, you pay each time someone clicks. Both work best when used together.",
       },
       {
         q: "How is this approach different from traditional SEO?",
-        a: "Traditional SEO often focuses on technical fixes and link building. Data-driven SEO starts with what your customers are actually searching for and builds content around real demand. It uses GA4 and Search Console data to make every decision - not assumptions.",
+        a: "Traditional SEO often focuses on technical fixes and link building. Data-driven SEO starts with what your customers are actually searching for and builds content around real demand. It uses GA4 and Search Console data to make every decision, not assumptions.",
       },
     ],
     relatedLinks: [
       { label: "AI + SEO Course", href: FREE_COURSE_URL, internal: false },
       { label: "The Data-First AI SEO Method", href: "/framework", internal: true },
       { label: "SEO Course Details", href: "/courses/seo", internal: true },
-      { label: "Video Library - SEO Lessons", href: "https://www.youtube.com/@KnowHowMarketingLab", internal: false },
+      { label: "Video Library: SEO Lessons", href: "https://www.youtube.com/@KnowHowMarketingLab", internal: false },
       { label: "Join the Community", href: COMMUNITY_URL, internal: false },
     ],
   },
   "google-analytics-4-setup-guide": {
     slug: "google-analytics-4-setup-guide",
-    title: "How to Set Up Google Analytics 4 (GA4) - Step-by-Step Guide",
-    metaTitle: "How to Set Up Google Analytics 4 (GA4) in 2025 - Step-by-Step",
+    title: "How to Set Up Google Analytics 4 (GA4): Step-by-Step Guide",
+    metaTitle: "How to Set Up Google Analytics 4 (GA4) in 2025: Step-by-Step",
     metaDescription:
       "Learn how to set up Google Analytics 4 (GA4) for your business website. Step-by-step guide covering property creation, data streams, and key reports.",
     category: "Analytics",
@@ -140,11 +140,11 @@ const posts: Record<string, {
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     imageAlt: "Google Analytics 4 dashboard showing website traffic reports and conversion data",
     intro:
-      "Google Analytics 4 (GA4) is Google's latest analytics platform. It replaced Universal Analytics in July 2023. If you have not set it up yet - or if you set it up but are not sure what you are looking at - this guide will walk you through everything from scratch.",
+      "Google Analytics 4 (GA4) is Google's latest analytics platform. It replaced Universal Analytics in July 2023. If you have not set it up yet, or if you set it up but are not sure what you are looking at, this guide will walk you through everything from scratch.",
     sections: [
       {
         heading: "What is Google Analytics 4?",
-        body: "Google Analytics 4 (GA4) is a free tool from Google that tracks how people use your website. It tells you how many people visited your site, where they came from, which pages they looked at, and what they did. GA4 uses an event-based model - instead of tracking page views, it tracks actions like button clicks, form submissions, and video plays.",
+        body: "Google Analytics 4 (GA4) is a free tool from Google that tracks how people use your website. It tells you how many people visited your site, where they came from, which pages they looked at, and what they did. GA4 uses an event-based model, instead of tracking page views, it tracks actions like button clicks, form submissions, and video plays.",
         externalLink: { text: "Google Analytics 4 Help Centre", url: "https://support.google.com/analytics/" },
       },
       {
@@ -153,12 +153,12 @@ const posts: Record<string, {
       },
       {
         heading: "Step 2: Add a data stream",
-        body: "After creating your property, GA4 will ask you to add a data stream. Choose Web. Enter your website URL and give the stream a name. GA4 will give you a Measurement ID (it starts with G-). Copy this ID - you will need it in the next step.",
+        body: "After creating your property, GA4 will ask you to add a data stream. Choose Web. Enter your website URL and give the stream a name. GA4 will give you a Measurement ID (it starts with G-). Copy this ID, you will need it in the next step.",
         externalLink: { text: "Set up a GA4 data stream", url: "https://support.google.com/analytics/answer/9304153" },
       },
       {
         heading: "Step 3: Install the tracking code",
-        body: "The easiest way to install GA4 is through Google Tag Manager. If you use GTM, create a new Google Analytics: GA4 Configuration tag, paste your Measurement ID, and set the trigger to All Pages. If you do not use GTM, you can add the GA4 code directly to your website's HTML - paste it in the <head> section of every page.",
+        body: "The easiest way to install GA4 is through Google Tag Manager. If you use GTM, create a new Google Analytics: GA4 Configuration tag, paste your Measurement ID, and set the trigger to All Pages. If you do not use GTM, you can add the GA4 code directly to your website's HTML, paste it in the <head> section of every page.",
         externalLink: { text: "Google Tag Manager Help", url: "https://support.google.com/tagmanager/" },
       },
       {
@@ -167,7 +167,7 @@ const posts: Record<string, {
       },
       {
         heading: "The most important GA4 reports to check every month",
-        body: "Once GA4 is set up, check these three reports every month: (1) Acquisition > Traffic Acquisition - see where your visitors come from. (2) Engagement > Pages and Screens - see which pages get the most traffic. (3) Conversions - see how many people complete your key goals. These three reports give you 80% of the insights you need to make smart marketing decisions.",
+        body: "Once GA4 is set up, check these three reports every month: (1) Acquisition > Traffic Acquisition, see where your visitors come from. (2) Engagement > Pages and Screens, see which pages get the most traffic. (3) Conversions, see how many people complete your key goals. These three reports give you 80% of the insights you need to make smart marketing decisions.",
         externalLink: { text: "GA4 Reports Overview", url: "https://support.google.com/analytics/answer/9212670" },
       },
     ],
@@ -192,8 +192,8 @@ const posts: Record<string, {
     relatedLinks: [
       { label: "SEO Starter, Free 5-Day Course", href: FREE_COURSE_URL, internal: false },
       { label: "The Data-First AI SEO Method", href: "/framework", internal: true },
-      { label: "Video Library - Analytics Lessons", href: "https://www.youtube.com/@KnowHowMarketingLab", internal: false },
-      { label: "Resources - Official Google Tools", href: "/resources", internal: true },
+      { label: "Video Library: Analytics Lessons", href: "https://www.youtube.com/@KnowHowMarketingLab", internal: false },
+      { label: "Resources: Official Google Tools", href: "/resources", internal: true },
     ],
   },
 };
@@ -202,7 +202,7 @@ const posts: Record<string, {
 const fallbackPost = {
   slug: "",
   title: "Article Not Found",
-  metaTitle: "Article Not Found - KnowHow Marketing Lab",
+  metaTitle: "Article Not Found: KnowHow Marketing Lab",
   metaDescription: "This article could not be found. Browse all articles on the KnowHow Marketing Lab blog.",
   category: "",
   tag: "",
@@ -510,7 +510,7 @@ export default function BlogPost() {
             Want to put this into practice?
           </h2>
           <p className="text-gray-600 mb-6">
-            Our AI + SEO course walks you through every step - with real examples and no jargon. No credit card needed.
+            Our AI + SEO course walks you through every step, with real examples and no jargon. No credit card needed.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

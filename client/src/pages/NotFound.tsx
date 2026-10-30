@@ -18,7 +18,7 @@ const recoveryLinks = [
   {
     href: "https://www.youtube.com/@KnowHowMarketingLab",
     label: "Video Library",
-    desc: "60+ free marketing videos - no sign-up required.",
+    desc: "60+ free marketing videos, no sign-up required.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -38,7 +38,7 @@ const recoveryLinks = [
   },
   {
     href: "/pricing",
-    label: "Community - $29 CAD/mo",
+    label: "Community, $29 CAD/mo",
     desc: "Weekly live Q&A, AI marketing training, and private group.",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -50,7 +50,7 @@ const recoveryLinks = [
 
 export default function NotFound() {
   useSEO({
-    title: "Page Not Found - KnowHow Marketing Lab",
+    title: "Page Not Found | KnowHow Marketing Lab",
     description: "The page you are looking for could not be found. Browse our free course, video library, blog, or community.",
     canonical: "https://knowhowmarketinglab.com/404",
     ogType: "website",
@@ -64,7 +64,7 @@ export default function NotFound() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Page Not Found - KnowHow Marketing Lab",
+            "name": "Page Not Found: KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/404",
             "description": "The page you are looking for could not be found.",
             "inLanguage": "en",

@@ -20,7 +20,7 @@ const steps = [
     name: "Measure",
     headline: "Know what is actually happening",
     description:
-      "Before you change anything, you need to know what is working and what is not. We set up Google Analytics 4 (GA4) and Google Search Console so you can see real numbers - not guesses. You will know exactly where your traffic comes from, which pages people visit, and what they do next.",
+      "Before you change anything, you need to know what is working and what is not. We set up Google Analytics 4 (GA4) and Google Search Console so you can see real numbers, not guesses. You will know exactly where your traffic comes from, which pages people visit, and what they do next.",
     tools: ["Google Analytics 4", "Google Search Console", "Google Tag Manager"],
     toolLinks: [
       "https://support.google.com/analytics/",
@@ -30,7 +30,7 @@ const steps = [
     outcome: "You have a clear picture of your current marketing performance.",
     color: "#318599",
     icon: "",
-    aiTip: "Use AI to summarize your GA4 and GSC data into plain-language insights - so you know exactly what to fix first.",
+    aiTip: "Use AI to summarize your GA4 and GSC data into plain-language insights, so you know exactly what to fix first.",
   },
   {
     id: "find",
@@ -38,7 +38,7 @@ const steps = [
     name: "Find",
     headline: "Find the words your customers use",
     description:
-      "Keyword research is not about finding the most popular words. It is about finding the words your ideal customers type into Google when they need what you offer. We use Google Keyword Planner and Search Console data to find real opportunities - keywords with real intent and real traffic.",
+      "Keyword research is not about finding the most popular words. It is about finding the words your ideal customers type into Google when they need what you offer. We use Google Keyword Planner and Search Console data to find real opportunities, keywords with real intent and real traffic.",
     tools: ["Google Keyword Planner", "Google Search Console", "Google Trends"],
     toolLinks: [
       "https://ads.google.com/home/tools/keyword-planner/",
@@ -66,7 +66,7 @@ const steps = [
     outcome: "You have content that ranks, gets shared, and builds your authority.",
     color: "#4F37D8",
     icon: "",
-    aiTip: "Use AI to draft content outlines and first drafts - then edit for accuracy and brand voice. Structure content for AI Overviews and AI SEO.",
+    aiTip: "Use AI to draft content outlines and first drafts, then edit for accuracy and brand voice. Structure content for AI Overviews and AI SEO.",
   },
   {
     id: "amplify",
@@ -74,7 +74,7 @@ const steps = [
     name: "Amplify",
     headline: "Get in front of the right people faster",
     description:
-      "Organic SEO takes time. Google Ads gets you in front of the right people right now. We use data from your keyword research and GA4 to build Google Ads campaigns that target people who are ready to buy - not just browsing. Every dollar is tracked back to a real result.",
+      "Organic SEO takes time. Google Ads gets you in front of the right people right now. We use data from your keyword research and GA4 to build Google Ads campaigns that target people who are ready to buy, not just browsing. Every dollar is tracked back to a real result.",
     tools: ["Google Ads", "Google Keyword Planner", "Google Analytics 4"],
     toolLinks: [
       "https://support.google.com/google-ads/",
@@ -92,14 +92,14 @@ const steps = [
     name: "Optimize",
     headline: "Keep improving based on real data",
     description:
-      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip - and it is why most marketing fails. The Data-First AI SEO Method makes optimization a habit, not an afterthought.",
+      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip, and it is why most marketing fails. The Data-First AI SEO Method makes optimization a habit, not an afterthought.",
     tools: ["Google Analytics 4", "Google Search Console", "Google Ads"],
     toolLinks: [
       "https://support.google.com/analytics/",
       "https://support.google.com/webmasters/",
       "https://support.google.com/google-ads/",
     ],
-    outcome: "Your marketing gets better every month - automatically.",
+    outcome: "Your marketing gets better every month, automatically.",
     color: "#318599",
     icon: "",
     aiTip: "Use AI to write your monthly performance summary, spot anomalies in your data, and generate a prioritized action list.",
@@ -113,15 +113,15 @@ const faqs = [
   },
   {
     q: "Who is this framework designed for?",
-    a: "It is designed for medium-sized businesses that want to grow their organic search traffic, run better Google Ads campaigns, and understand their marketing data. It works for businesses in any industry - from professional services to e-commerce.",
+    a: "It is designed for medium-sized businesses that want to grow their organic search traffic, run better Google Ads campaigns, and understand their marketing data. It works for businesses in any industry, from professional services to e-commerce.",
   },
   {
     q: "How is this different from other SEO frameworks?",
-    a: "Most SEO frameworks focus only on content or only on technical fixes. The Data-First AI SEO Method starts with measurement - you cannot improve what you cannot see. It also integrates Google Ads and GA4 into the same process, so your paid and organic efforts work together instead of separately.",
+    a: "Most SEO frameworks focus only on content or only on technical fixes. The Data-First AI SEO Method starts with measurement, you cannot improve what you cannot see. It also integrates Google Ads and GA4 into the same process, so your paid and organic efforts work together instead of separately.",
   },
   {
     q: "Do I need to be technical to use this framework?",
-    a: "No. The framework is designed to be understood by anyone - including business owners with no marketing background. Every step is explained in plain language with real examples. Our AI + SEO course walks you through the first three steps in detail.",
+    a: "No. The framework is designed to be understood by anyone, including business owners with no marketing background. Every step is explained in plain language with real examples. Our AI + SEO course walks you through the first three steps in detail.",
   },
   {
     q: "Where can I learn this framework in detail?",
@@ -136,7 +136,7 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://knowhowmarketinglab.com/framework",
       "url": "https://knowhowmarketinglab.com/framework",
-      "name": "The Data-First AI SEO Method - 5-Step Process",
+      "name": "The Data-First AI SEO Method, 5-Step Process",
       "description":
         "The Data-First AI SEO Method is a five-step process for growing your business online using real data. Steps: Measure, Find, Create, Amplify, Optimize.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com" },
@@ -168,7 +168,7 @@ const schema = {
       "step": steps.map((s, i) => ({
         "@type": "HowToStep",
         "position": i + 1,
-        "name": `Step ${s.number}: ${s.name} - ${s.headline}`,
+        "name": `Step ${s.number}: ${s.name}, ${s.headline}`,
         "text": s.description,
         "url": `https://knowhowmarketinglab.com/framework#${s.id}`,
       })),
@@ -202,7 +202,7 @@ const schema = {
 
 export default function Framework() {
   useSEO({
-    title: "The Data-First AI SEO Method - 5 Steps to Grow Online",
+    title: "The Data-First AI SEO Method | 5 Steps to Grow Online",
     description: "The Data-First AI SEO Method: 5 steps to grow online using real data. Measure, Find, Create, Amplify, Optimize. Free training by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/framework",
     ogType: "article",
@@ -230,7 +230,7 @@ export default function Framework() {
             AI SEO Method
           </h1>
           <p className="text-xl text-gray-600 mb-4 speakable-intro" style={{ fontFamily: "DM Sans, sans-serif" }}>
-            A five-step process for growing your business online - using real data, not guesswork.
+            A five-step process for growing your business online, using real data, not guesswork.
           </p>
           <p className="text-base text-gray-500 mb-8 max-w-2xl mx-auto">
             Developed by{" "}
@@ -272,7 +272,7 @@ export default function Framework() {
               rel="noopener noreferrer"
               className="btn-primary"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
-              aria-label="Start the AI + SEO course - covers steps 1 to 3"
+              aria-label="Start the AI + SEO course, covers steps 1 to 3"
             >
               Start AI + SEO Course →
             </a>
@@ -281,7 +281,7 @@ export default function Framework() {
               className="btn-outline"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
             >
-              Join The Lab - All 5 Steps
+              Join The Lab: All 5 Steps
             </Link>
           </div>
         </div>
@@ -383,7 +383,7 @@ export default function Framework() {
             Ready to put the framework into practice?
           </h2>
           <p className="text-gray-300 text-lg mb-8">
-            Start with our AI + SEO course - it covers Steps 1 through 3 in full detail. Then join the community to get access to Steps 4 and 5, plus weekly live Q&A with Pip and Phelan.
+            Start with our AI + SEO course, it covers Steps 1 through 3 in full detail. Then join the community to get access to Steps 4 and 5, plus weekly live Q&A with Pip and Phelan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -402,7 +402,7 @@ export default function Framework() {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-gray-900 text-lg bg-white hover:bg-gray-100 transition-all"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
             >
-              Join the Community - $29 CAD/mo
+              Join the Community, $29 CAD/mo
             </a>
           </div>
           <p className="text-gray-500 text-sm mt-6">
@@ -414,7 +414,7 @@ export default function Framework() {
           <div className="mt-8 p-5 bg-white/8 border border-white/15 rounded-xl max-w-2xl mx-auto text-left">
             <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Deep Dive</p>
             <p className="text-white font-semibold text-base mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Read the full guide: Data-Driven SEO for Medium-Sized Businesses</p>
-            <p className="text-gray-400 text-sm mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the Data-First AI SEO Method - with step-by-step instructions, real examples, and a complete FAQ.</p>
+            <p className="text-gray-400 text-sm mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>An 18-minute walkthrough of the Data-First AI SEO Method, with step-by-step instructions, real examples, and a complete FAQ.</p>
             <Link href="/blog/data-driven-seo-guide-medium-sized-businesses" className="inline-flex items-center gap-1 text-sm font-bold text-[#E98C28] hover:underline" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Read the complete guide →
             </Link>

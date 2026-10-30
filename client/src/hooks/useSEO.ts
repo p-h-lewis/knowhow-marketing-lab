@@ -90,7 +90,7 @@ export function useSEO({
 
     return () => {
       // Reset to site defaults on unmount
-      document.title = "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training";
+      document.title = "KnowHow Marketing Lab | AI + SEO, Google Ads & AI Marketing Training";
     };
   }, [title, description, canonical, ogTitle, ogDescription, ogImage, ogType]);
 }

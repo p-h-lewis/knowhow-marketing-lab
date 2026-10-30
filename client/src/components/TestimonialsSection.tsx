@@ -124,7 +124,7 @@ export default function TestimonialsSection() {
               <div className="relative aspect-video bg-gray-100">
                 <img
                   src={v.thumbnail}
-                  alt={`Video testimonial thumbnail - ${v.label} - KnowHow Marketing Lab student review`}
+                  alt={`Video testimonial thumbnail, ${v.label}: KnowHow Marketing Lab student review`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   width="480"

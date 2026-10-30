@@ -10,6 +10,7 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { LAB_TRIAL_URL as COMMUNITY_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 
 export default function PostHowToSetUpGoogleSearchConsole() {
@@ -51,7 +52,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
       "mainEntity": [
         { "@type": "Question", "name": "Is Google Search Console free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Google Search Console is completely free. You just need a Google account to sign up at search.google.com/search-console." } },
         { "@type": "Question", "name": "How long does it take for Google Search Console to show data?", "acceptedAnswer": { "@type": "Answer", "text": "It usually takes 24 to 48 hours after verification before you start seeing data. Full performance data (clicks, impressions, average position) typically appears within 3 to 7 days." } },
-        { "@type": "Question", "name": "Do I need Google Search Console if I already have GA4?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. GA4 and Google Search Console measure different things. GA4 tracks what happens after someone arrives on your site. Google Search Console tracks how your site appears in Google search results - which keywords you rank for, how many people see your pages, and whether Google can crawl your site properly." } },
+        { "@type": "Question", "name": "Do I need Google Search Console if I already have GA4?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. GA4 and Google Search Console measure different things. GA4 tracks what happens after someone arrives on your site. Google Search Console tracks how your site appears in Google search results, which keywords you rank for, how many people see your pages, and whether Google can crawl your site properly." } },
         { "@type": "Question", "name": "What is the difference between a domain property and a URL prefix property in Google Search Console?", "acceptedAnswer": { "@type": "Answer", "text": "A domain property covers all versions of your site (http, https, www, non-www) in one property. A URL prefix property only covers the exact URL you enter. Domain properties are recommended because they give you a complete picture of your site's performance." } },
         { "@type": "Question", "name": "How do I submit my sitemap in Google Search Console?", "acceptedAnswer": { "@type": "Answer", "text": "In Google Search Console, go to Sitemaps in the left menu, type your sitemap URL (usually sitemap.xml), and click Submit. Google will then crawl your sitemap and use it to discover all your pages." } }
       ]
@@ -118,14 +119,14 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
           {/* Subtitle */}
           <p className="text-lg text-gray-600 mb-6 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Google Search Console is one of the most important free tools for any business with a website. It shows you exactly how your site appears in Google search - which keywords bring people to you, which pages Google has indexed, and whether there are any technical problems holding you back. This guide walks you through the full setup from start to finish.
+            Google Search Console is one of the most important free tools for any business with a website. It shows you exactly how your site appears in Google search, which keywords bring people to you, which pages Google has indexed, and whether there are any technical problems holding you back. This guide walks you through the full setup from start to finish.
           </p>
 
           {/* Author */}
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour &amp; Phelan Lewis</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>KnowHow Marketing Lab - Seymour Digital Media</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>KnowHow Marketing Lab: Seymour Digital Media</p>
             </div>
           </div>
 
@@ -146,13 +147,13 @@ export default function PostHowToSetUpGoogleSearchConsole() {
             <p className="text-sm font-bold text-gray-700 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>In this guide:</p>
             <ol className="space-y-2 text-sm text-[#318599]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               <li><a href="#what-is-gsc" className="hover:underline">1. What is Google Search Console and why does it matter?</a></li>
-              <li><a href="#gsc-vs-ga4" className="hover:underline">2. Google Search Console vs GA4 - what is the difference?</a></li>
-              <li><a href="#create-account" className="hover:underline">3. Step 1 - Create your Google Search Console account</a></li>
-              <li><a href="#add-property" className="hover:underline">4. Step 2 - Add your website as a property</a></li>
-              <li><a href="#verify-site" className="hover:underline">5. Step 3 - Verify your website</a></li>
-              <li><a href="#submit-sitemap" className="hover:underline">6. Step 4 - Submit your sitemap</a></li>
-              <li><a href="#read-data" className="hover:underline">7. Step 5 - Read your first performance report</a></li>
-              <li><a href="#link-ga4" className="hover:underline">8. Step 6 - Link Google Search Console to GA4</a></li>
+              <li><a href="#gsc-vs-ga4" className="hover:underline">2. Google Search Console vs GA4, what is the difference?</a></li>
+              <li><a href="#create-account" className="hover:underline">3. Step 1: Create your Google Search Console account</a></li>
+              <li><a href="#add-property" className="hover:underline">4. Step 2: Add your website as a property</a></li>
+              <li><a href="#verify-site" className="hover:underline">5. Step 3: Verify your website</a></li>
+              <li><a href="#submit-sitemap" className="hover:underline">6. Step 4: Submit your sitemap</a></li>
+              <li><a href="#read-data" className="hover:underline">7. Step 5: Read your first performance report</a></li>
+              <li><a href="#link-ga4" className="hover:underline">8. Step 6: Link Google Search Console to GA4</a></li>
               <li><a href="#what-to-check" className="hover:underline">9. What to check in Google Search Console every month</a></li>
               <li><a href="#faq" className="hover:underline">10. Frequently asked questions</a></li>
             </ol>
@@ -165,13 +166,13 @@ export default function PostHowToSetUpGoogleSearchConsole() {
             dangerouslySetInnerHTML={{ __html: `
 <h2 id="what-is-gsc">What is Google Search Console and why does it matter?</h2>
 
-<p>Google Search Console (GSC) is a free tool from Google that shows you how your website performs in Google search results. It is not the same as Google Analytics. While Google Analytics 4 (GA4) tells you what people do <em>after</em> they arrive on your site, Google Search Console tells you what happens <em>before</em> they click - how often your pages appear in search, which keywords trigger them, and where you rank.</p>
+<p>Google Search Console (GSC) is a free tool from Google that shows you how your website performs in Google search results. It is not the same as Google Analytics. While Google Analytics 4 (GA4) tells you what people do <em>after</em> they arrive on your site, Google Search Console tells you what happens <em>before</em> they click, how often your pages appear in search, which keywords trigger them, and where you rank.</p>
 
 <p>For medium-sized businesses, this data is essential. Without it, you are guessing. With it, you can see exactly which pages are bringing in search traffic, which keywords you are almost ranking for (and might move up with a small content update), and whether Google can actually find and read your pages properly.</p>
 
 <p>This is the first tool we set up for every client at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer">Seymour Digital Media</a>, and it is Step 1 of the <a href="/framework">Data-First AI SEO Method</a> we teach at KnowHow Marketing Lab.</p>
 
-<h2 id="gsc-vs-ga4">Google Search Console vs GA4 - what is the difference?</h2>
+<h2 id="gsc-vs-ga4">Google Search Console vs GA4, what is the difference?</h2>
 
 <p>This is the most common question we get. Here is the simple version:</p>
 
@@ -190,48 +191,48 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
 <p>If you have not set up GA4 yet, read our guide: <a href="/blog/ga4-set-up-guide">How to Set Up Google Analytics 4 (Step by Step)</a>.</p>
 
-<h2 id="create-account">Step 1 - Create your Google Search Console account</h2>
+<h2 id="create-account">Step 1: Create your Google Search Console account</h2>
 
 <p>Go to <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer">search.google.com/search-console</a> and sign in with your Google account. Use the same Google account that manages your other Google tools (Google Ads, GA4, Google Business Profile) so everything is connected.</p>
 
 <p>If this is your first time, you will land on a welcome screen asking you to add a property. If you already have an account, click the property selector in the top left and choose "Add property."</p>
 
-<h2 id="add-property">Step 2 - Add your website as a property</h2>
+<h2 id="add-property">Step 2: Add your website as a property</h2>
 
 <p>Google Search Console gives you two types of properties:</p>
 
 <ul>
-<li><strong>Domain property</strong> - covers your entire domain including all subdomains, http, https, www, and non-www versions. This is the recommended option because it gives you a complete picture of your site.</li>
-<li><strong>URL prefix property</strong> - only covers the exact URL you enter (e.g., https://yourdomain.com). Use this if you only want to track one specific version of your site.</li>
+<li><strong>Domain property</strong>: covers your entire domain including all subdomains, http, https, www, and non-www versions. This is the recommended option because it gives you a complete picture of your site.</li>
+<li><strong>URL prefix property</strong>: only covers the exact URL you enter (e.g., https://yourdomain.com). Use this if you only want to track one specific version of your site.</li>
 </ul>
 
 <p><strong>We recommend the Domain property.</strong> It is more complete and avoids the problem of your data being split across multiple properties (for example, if some of your pages are indexed under www and some under non-www).</p>
 
 <p>To add a domain property, type your domain name without https:// (just yourdomain.com) and click Continue.</p>
 
-<h2 id="verify-site">Step 3 - Verify your website</h2>
+<h2 id="verify-site">Step 3: Verify your website</h2>
 
 <p>Google needs to confirm that you actually own the website before it shows you data. There are several ways to verify. Here are the most common ones:</p>
 
-<h3>Option A - DNS record verification (recommended for domain properties)</h3>
+<h3>Option A: DNS record verification (recommended for domain properties)</h3>
 
 <p>Google will give you a TXT record to add to your DNS settings. Log into your domain registrar or DNS provider (GoDaddy, HostGator, Cloudflare, etc.), go to your DNS settings, add the TXT record Google provides, and click Verify in Search Console. This can take a few minutes to a few hours to propagate.</p>
 
-<h3>Option B - HTML file upload</h3>
+<h3>Option B: HTML file upload</h3>
 
 <p>Download the HTML verification file Google provides, upload it to the root folder of your website, and click Verify. The file needs to stay there permanently or verification will fail.</p>
 
-<h3>Option C - HTML meta tag</h3>
+<h3>Option C: HTML meta tag</h3>
 
-<p>Add a meta tag to the &lt;head&gt; section of your website's homepage. This is the easiest option if you use a CMS like WordPress - just paste the meta tag into your theme's header or use a plugin like Yoast SEO or Rank Math.</p>
+<p>Add a meta tag to the &lt;head&gt; section of your website's homepage. This is the easiest option if you use a CMS like WordPress, just paste the meta tag into your theme's header or use a plugin like Yoast SEO or Rank Math.</p>
 
-<h3>Option D - Google Analytics or Google Tag Manager</h3>
+<h3>Option D: Google Analytics or Google Tag Manager</h3>
 
 <p>If you already have GA4 or Google Tag Manager installed on your site, you can verify through either of those. Google will automatically confirm ownership because you already have their code on your site.</p>
 
 <p>Once verification is complete, Google will start collecting data for your site. It usually takes 24 to 48 hours before you see your first performance data.</p>
 
-<h2 id="submit-sitemap">Step 4 - Submit your sitemap</h2>
+<h2 id="submit-sitemap">Step 4: Submit your sitemap</h2>
 
 <p>A sitemap is a file that lists all the pages on your website. Submitting it to Google Search Console tells Google exactly which pages exist and helps it crawl your site faster and more completely.</p>
 
@@ -249,11 +250,11 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 <li>Click <strong>Submit</strong></li>
 </ol>
 
-<p>Google will show you the status of your sitemap - how many URLs it found, how many it has indexed, and whether there are any errors. Check back after a few days to see the results.</p>
+<p>Google will show you the status of your sitemap, how many URLs it found, how many it has indexed, and whether there are any errors. Check back after a few days to see the results.</p>
 
 <p>If you do not have a sitemap, most SEO plugins (Yoast, Rank Math) generate one automatically. If you are on a custom-built site, your developer can create one or you can use a free sitemap generator tool.</p>
 
-<h2 id="read-data">Step 5 - Read your first performance report</h2>
+<h2 id="read-data">Step 5: Read your first performance report</h2>
 
 <p>Once data starts coming in, the most important report to check is the <strong>Performance</strong> report. You will find it in the left menu. Here is what the key metrics mean:</p>
 
@@ -262,16 +263,16 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 <tbody>
 <tr><td><strong>Total clicks</strong></td><td>How many times people clicked your site in Google search</td><td>Is this growing month over month?</td></tr>
 <tr><td><strong>Total impressions</strong></td><td>How many times your pages appeared in search results</td><td>High impressions + low clicks = title/description needs work</td></tr>
-<tr><td><strong>Average CTR</strong></td><td>Click-through rate - what percentage of impressions turn into clicks</td><td>Under 2% for most pages is a sign your title tags need improvement</td></tr>
-<tr><td><strong>Average position</strong></td><td>Where your pages rank on average across all searches</td><td>Positions 4-10 are the "almost there" zone - small improvements may help you move up</td></tr>
+<tr><td><strong>Average CTR</strong></td><td>Click-through rate, what percentage of impressions turn into clicks</td><td>Under 2% for most pages is a sign your title tags need improvement</td></tr>
+<tr><td><strong>Average position</strong></td><td>Where your pages rank on average across all searches</td><td>Positions 4-10 are the "almost there" zone, small improvements may help you move up</td></tr>
 </tbody>
 </table>
 
-<p>The most valuable thing you can do in your first week is look at the <strong>Queries</strong> tab in the Performance report. This shows you every keyword that triggered your pages in Google search. You will often find keywords you did not know you were ranking for - and keywords you are almost ranking for that you can target more deliberately.</p>
+<p>The most valuable thing you can do in your first week is look at the <strong>Queries</strong> tab in the Performance report. This shows you every keyword that triggered your pages in Google search. You will often find keywords you did not know you were ranking for, and keywords you are almost ranking for that you can target more deliberately.</p>
 
-<p>This is exactly the kind of data we use in the <a href="/framework">Data-First AI SEO Method</a> - starting with what Google is already telling you, then building on it.</p>
+<p>This is exactly the kind of data we use in the <a href="/framework">Data-First AI SEO Method</a>, starting with what Google is already telling you, then building on it.</p>
 
-<h2 id="link-ga4">Step 6 - Link Google Search Console to GA4</h2>
+<h2 id="link-ga4">Step 6: Link Google Search Console to GA4</h2>
 
 <p>Connecting Google Search Console to GA4 gives you a combined view of your search performance and user behaviour in one place. You can see which organic search keywords bring people to your site AND what those people do once they arrive.</p>
 
@@ -291,30 +292,30 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
 <p>Once your account is set up, here is a simple monthly routine that takes about 20 minutes:</p>
 
-<h3>1. Performance report - check for wins and drops</h3>
+<h3>1. Performance report, check for wins and drops</h3>
 <p>Compare this month to last month. Are clicks and impressions growing? If a page has dropped significantly, check whether Google has changed how it ranks that topic or whether a competitor has published better content.</p>
 
-<h3>2. Coverage report - check for indexing issues</h3>
+<h3>2. Coverage report, check for indexing issues</h3>
 <p>Go to <strong>Pages</strong> (previously called Coverage) in the left menu. Look for any pages with errors or warnings. Common issues include pages that are "Discovered but not indexed" (Google knows they exist but has not crawled them yet) and pages with "Crawl anomaly" errors.</p>
 
-<h3>3. Core Web Vitals - check your page experience scores</h3>
-<p>Go to <strong>Core Web Vitals</strong> in the left menu. This shows you how fast your pages load and how stable they are for users. Pages with "Poor" scores are worth fixing - Google uses these scores as a ranking factor.</p>
+<h3>3. Core Web Vitals, check your page experience scores</h3>
+<p>Go to <strong>Core Web Vitals</strong> in the left menu. This shows you how fast your pages load and how stable they are for users. Pages with "Poor" scores are worth fixing: Google uses these scores as a ranking factor.</p>
 
-<h3>4. Queries near the top - find your "almost there" keywords</h3>
-<p>In the Performance report, filter by average position between 4 and 15. These are pages that are close to the top of page one. A small content update - adding a section that answers a related question, improving your title tag, or adding internal links - may help them move up.</p>
+<h3>4. Queries near the top, find your "almost there" keywords</h3>
+<p>In the Performance report, filter by average position between 4 and 15. These are pages that are close to the top of page one. A small content update, adding a section that answers a related question, improving your title tag, or adding internal links, may help them move up.</p>
 
 <p>For a full walkthrough of how to use this data to build a keyword strategy, read our guide: <a href="/blog/keyword-research-keyword-clusters">How to Do Keyword Research Using Keyword Clusters</a>.</p>
 
 <h2 id="faq">Frequently Asked Questions</h2>
 
 <h3>Is Google Search Console free?</h3>
-<p>Yes. Google Search Console is completely free. You just need a Google account to sign up at <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer">search.google.com/search-console</a>. There is no paid version - all features are available to everyone at no cost.</p>
+<p>Yes. Google Search Console is completely free. You just need a Google account to sign up at <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer">search.google.com/search-console</a>. There is no paid version, all features are available to everyone at no cost.</p>
 
 <h3>How long does it take for Google Search Console to show data?</h3>
-<p>It usually takes 24 to 48 hours after verification before you start seeing data. Full performance data (clicks, impressions, average position) typically appears within 3 to 7 days. Historical data is not available - GSC only shows data from the date you verified your site onwards, up to 16 months back.</p>
+<p>It usually takes 24 to 48 hours after verification before you start seeing data. Full performance data (clicks, impressions, average position) typically appears within 3 to 7 days. Historical data is not available: GSC only shows data from the date you verified your site onwards, up to 16 months back.</p>
 
 <h3>Do I need Google Search Console if I already have GA4?</h3>
-<p>Yes. GA4 and Google Search Console measure different things. GA4 tracks what happens after someone arrives on your site. Google Search Console tracks how your site appears in Google search results - which keywords you rank for, how many people see your pages, and whether Google can crawl your site properly. You need both tools working together for a complete picture.</p>
+<p>Yes. GA4 and Google Search Console measure different things. GA4 tracks what happens after someone arrives on your site. Google Search Console tracks how your site appears in Google search results, which keywords you rank for, how many people see your pages, and whether Google can crawl your site properly. You need both tools working together for a complete picture.</p>
 
 <h3>What is the difference between a domain property and a URL prefix property?</h3>
 <p>A domain property covers all versions of your site (http, https, www, non-www) in one property. A URL prefix property only covers the exact URL you enter. Domain properties are recommended because they give you a complete picture of your site's performance without splitting data across multiple properties.</p>
@@ -333,7 +334,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
               Want to learn how to use this data to grow your business?
             </h2>
             <p className="text-white/80 mb-6 text-base" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The free AI + SEO Course covers Google Search Console, GA4, keyword research, and on-page SEO - step by step. No credit card required.
+              {FREE_COURSE_SUMMARY}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3 rounded-full hover:bg-[#d4791f] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI + SEO Course</a>

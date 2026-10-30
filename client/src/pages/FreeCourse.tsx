@@ -96,7 +96,7 @@ export default function FreeCourse() {
       {/* Minimal header - no full nav to keep focus on conversion */}
       <header className="fixed top-0 left-0 right-0 z-40 bg-white border-b border-gray-100 shadow-sm">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2" aria-label="KnowHow Marketing Lab - home">
+          <Link href="/" className="flex items-center gap-2" aria-label="KnowHow Marketing Lab, home">
             <div
               className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-black text-base flex-shrink-0"
               style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
@@ -166,7 +166,7 @@ export default function FreeCourse() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5"
               style={{ background: 'linear-gradient(135deg, #E98C28, #d47d20)', fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Start the free AI + SEO course - no credit card required"
+              aria-label="Start the free AI + SEO course, no credit card required"
             >
               Start the Free Course →
             </a>
@@ -228,7 +228,7 @@ export default function FreeCourse() {
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { name: 'Jaime Hall', text: 'Pip was absolutely amazing - super knowledgeable and always willing to go the extra mile.' },
+                { name: 'Jaime Hall', text: 'Pip was absolutely amazing, super knowledgeable and always willing to go the extra mile.' },
                 { name: 'Chloe Dertinger', text: 'Pip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.' },
                 { name: 'Robert Trasolini', text: 'We instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.' },
                 { name: 'Jason McCormick', text: 'Our goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.' },
@@ -242,7 +242,7 @@ export default function FreeCourse() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-700 leading-relaxed mb-3 italic">"{r.text}"</p>
-                  <footer className="text-xs font-bold text-gray-500" style={{ fontFamily: 'Space Grotesk, sans-serif' }}> - {r.name}</footer>
+                  <footer className="text-xs font-bold text-gray-500" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{r.name}</footer>
                 </blockquote>
               ))}
             </div>
@@ -282,7 +282,7 @@ export default function FreeCourse() {
                   {instructor.photo ? (
                     <img
                       src={instructor.photo}
-                      alt={`${instructor.name} - ${instructor.role}`}
+                      alt={`${instructor.name}, ${instructor.role}`}
                       className="w-16 h-16 rounded-full object-cover flex-shrink-0 border-2 shadow-sm"
                       style={{ borderColor: instructor.color }}
                       loading="lazy"

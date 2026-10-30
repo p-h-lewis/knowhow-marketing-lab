@@ -15,7 +15,7 @@ const SITE_URL = "https://knowhowmarketinglab.com";
 
 export default function Terms() {
   useSEO({
-    title: "Terms & Conditions - KnowHow Marketing Lab",
+    title: "Terms & Conditions | KnowHow Marketing Lab",
     description: "Terms and Conditions for KnowHow Marketing Lab. Read our terms for using our free courses, community, and marketing resources.",
     canonical: "https://knowhowmarketinglab.com/terms",
     ogType: "website",
@@ -29,7 +29,7 @@ export default function Terms() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Terms & Conditions - KnowHow Marketing Lab",
+            "name": "Terms & Conditions: KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/terms",
             "description": "Terms and conditions for using KnowHow Marketing Lab's courses, community membership, and website.",
             "inLanguage": "en",
@@ -154,7 +154,7 @@ export default function Terms() {
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>8. Intellectual Property</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                All content on this website and within The KnowHow Lab - including course videos, written materials, templates, frameworks, and graphics - is owned by {COMPANY_NAME} and protected by copyright law. You are granted a limited, non-exclusive, non-transferable licence to access and use this content for your own personal or business purposes during your membership. This licence does not permit you to reproduce, distribute, or create derivative works from our content.
+                All content on this website and within The KnowHow Lab, including course videos, written materials, templates, frameworks, and graphics, is owned by {COMPANY_NAME} and protected by copyright law. You are granted a limited, non-exclusive, non-transferable licence to access and use this content for your own personal or business purposes during your membership. This licence does not permit you to reproduce, distribute, or create derivative works from our content.
               </p>
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>9. Third-Party Platforms</h2>

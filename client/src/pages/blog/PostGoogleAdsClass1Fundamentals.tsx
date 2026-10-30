@@ -6,7 +6,7 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginner</p>
 
-<p>Course: KnowHow Marketing Lab - Master Google Ads Series</p>
+<p>Course: KnowHow Marketing Lab, Master Google Ads Series</p>
 
 <h2 id="learning-objectives">Learning Objectives</h2>
 
@@ -30,7 +30,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p>Welcome to Google Ads Class 1! This is the foundation of your Google Ads journey. </p>
 
-<p>Today, we start with the fundamentals - understanding what Google Ads is, how it works, and the key concepts you need to know before launching your first campaign. If you like reading and watching you'll get double the information :) </p>
+<p>Today, we start with the fundamentals, understanding what Google Ads is, how it works, and the key concepts you need to know before launching your first campaign. If you like reading and watching you'll get double the information :) </p>
 
 <p>Google Ads is one of the most powerful advertising platforms available to businesses of all sizes. Whether you are a local service provider, an e-commerce store, or a B2B company, Google Ads can help you reach potential customers at the exact moment they are searching for what you offer. The key to success is understanding how the platform works and building campaigns strategically from the ground up.</p>
 
@@ -114,7 +114,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p><strong>Performance Max Campaigns</strong></p>
 
-<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimize your ads across all of Google's channels - Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
+<p>Performance Max is Google's newest campaign type that uses automation and machine learning to optimize your ads across all of Google's channels: Search, Display, YouTube, Gmail, and Discover. You provide assets (headlines, descriptions, images, videos), and Google automatically creates and tests combinations to find what works best.</p>
 
 <p><strong>Best for: </strong>Businesses that want to maximize conversions across all Google channels with minimal manual management. We will cover Performance Max in detail in Class 3.</p>
 
@@ -176,7 +176,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading" id="h-task-1-set-up-your-google-ads-account">Task 1: Set Up Your Google Ads Account</h3>
 
-<p>If you do not already have a Google Ads account, create one at <a target="_blank" rel="noreferrer noopener" href="http://ads.google.com">ads.google.com</a>. You do not need to launch a campaign yet - just complete the account setup process. Make sure you link your Google Ads account to a Google Analytics property if you have one, as this will provide valuable insights into user behaviour after they click your ads.</p>
+<p>If you do not already have a Google Ads account, create one at <a target="_blank" rel="noreferrer noopener" href="http://ads.google.com">ads.google.com</a>. You do not need to launch a campaign yet, just complete the account setup process. Make sure you link your Google Ads account to a Google Analytics property if you have one, as this will provide valuable insights into user behaviour after they click your ads.</p>
 
 <h3 class="wp-block-heading" id="h-task-2-explore-the-interface">Task 2: Explore the Interface</h3>
 
@@ -192,7 +192,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading" id="h-task-5-identify-10-keywords">Task 5: Identify 10 Keywords</h3>
 
-<p>Brainstorm at least ten keywords that potential customers might use to search for your products or services. Think about the specific terms people would type into Google when they are ready to buy or take action. Write these down - you will use them when we build your first campaign in Class 2.</p>
+<p>Brainstorm at least ten keywords that potential customers might use to search for your products or services. Think about the specific terms people would type into Google when they are ready to buy or take action. Write these down, you will use them when we build your first campaign in Class 2.</p>
 
 <h2 id="key-takeaways">Key Takeaways</h2>
 
@@ -201,7 +201,7 @@ https://youtu.be/_jqGM9V1QHY
 <ul class="wp-block-list">
 <li>The Google Ads auction considers both your bid and your Quality Score to determine ad position and cost.</li>
 
-<li>Quality Score is critical - it affects both your ad rank and your cost per click.</li>
+<li>Quality Score is critical, it affects both your ad rank and your cost per click.</li>
 
 <li>There are multiple campaign types (Search, Display, Video, Shopping, Performance Max, App), each suited for different goals.</li>
 
@@ -226,7 +226,7 @@ export default function PostGoogleAdsClass1Fundamentals() {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Google Ads Class 1: Fundamentals",
-  "description": "Duration: 45 minutes + 15 minutes Q&A Level: Beginner Course: KnowHow Marketing Lab - Master Google Ads Series Learning Objectives By the end of this cl...",
+  "description": "Duration: 45 minutes + 15 minutes Q&A Level: Beginner Course: KnowHow Marketing Lab, Master Google Ads Series Learning Objectives By the end of this cl...",
   "datePublished": "2025-12-27",
   "dateModified": "2025-12-27",
   "author": {
@@ -251,17 +251,17 @@ export default function PostGoogleAdsClass1Fundamentals() {
     document.head.appendChild(script);
     document.title = 'Google Ads Class 1: Fundamentals | KnowHow Marketing Lab';
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', 'Duration: 45 minutes + 15 minutes Q&A Level: Beginner Course: KnowHow Marketing Lab - Master Google Ads Series Learning Objectives By the end of this cl...');
+    if (metaDesc) metaDesc.setAttribute('content', 'Duration: 45 minutes + 15 minutes Q&A Level: Beginner Course: KnowHow Marketing Lab, Master Google Ads Series Learning Objectives By the end of this cl...');
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute('href', 'https://knowhowmarketinglab.com/blog/google-ads-class-1-fundamentals');
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-class1-CZ9PyiNYxU9vk3rfuHxzFE.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Class 1 - Fundamentals');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Class 1, Fundamentals');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-class1-CZ9PyiNYxU9vk3rfuHxzFE.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Class 1 - Fundamentals');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Class 1, Fundamentals');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
@@ -316,7 +316,7 @@ export default function PostGoogleAdsClass1Fundamentals() {
           <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
             <img
               src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80"
-              alt="Google Ads fundamentals - person working on a laptop with Google Ads dashboard"
+              alt="Google Ads fundamentals, person working on a laptop with Google Ads dashboard"
               className="w-full h-full object-cover"
               loading="eager"
               fetchPriority="high"

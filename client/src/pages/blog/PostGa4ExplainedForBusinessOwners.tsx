@@ -10,6 +10,7 @@ import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 export default function PostGa4ExplainedForBusinessOwners() {
   useEffect(() => {
@@ -154,7 +155,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour &amp; Phelan Lewis</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>KnowHow Marketing Lab - Seymour Digital Media</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>KnowHow Marketing Lab: Seymour Digital Media</p>
             </div>
           </div>
 
@@ -256,7 +257,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
 <tbody>
 <tr><td><strong>Users</strong></td><td>The number of individual people who visited your site. One person who visits three times counts as one user.</td></tr>
 <tr><td><strong>Sessions</strong></td><td>The number of visits to your site. One person who visits three times counts as three sessions.</td></tr>
-<tr><td><strong>Events</strong></td><td>Any action a user takes. Viewing a page, clicking a button, filling out a form, watching a video - all of these are events.</td></tr>
+<tr><td><strong>Events</strong></td><td>Any action a user takes. Viewing a page, clicking a button, filling out a form, watching a video, all of these are events.</td></tr>
 <tr><td><strong>Conversions</strong></td><td>The events that matter most to your business. Usually form submissions, phone calls, purchases, or sign-ups. You decide which events count as conversions.</td></tr>
 <tr><td><strong>Engagement rate</strong></td><td>The percentage of sessions where someone actually engaged with your site (spent more than 10 seconds, viewed more than one page, or converted). This replaced bounce rate.</td></tr>
 <tr><td><strong>Traffic source</strong></td><td>Where your visitors came from. Common sources include Organic Search (Google), Direct (typed your URL), Referral (another website), Social (social media), and Email.</td></tr>
@@ -269,11 +270,11 @@ export default function PostGa4ExplainedForBusinessOwners() {
 
 <p>GA4 has a lot of reports. Most of them you will never need. Here are the five that actually matter for a medium-sized business:</p>
 
-<h3>1. Acquisition - Traffic Acquisition</h3>
+<h3>1. Acquisition: Traffic Acquisition</h3>
 <p>This report shows where your visitors come from. It breaks down your traffic by channel: Organic Search, Direct, Referral, Social, Email, and Paid Search. This tells you which marketing channels are working. If organic search is bringing you 80% of your traffic, that is a sign your SEO is working. If direct traffic is very high, that means people are coming back to your site directly, which is a sign of brand awareness.</p>
 <p>To find it: Reports > Acquisition > Traffic Acquisition.</p>
 
-<h3>2. Engagement - Pages and Screens</h3>
+<h3>2. Engagement: Pages and Screens</h3>
 <p>This report shows which pages on your site get the most views. It also shows how long people spend on each page and how many of those visits lead to a conversion. This tells you which content is most popular and which pages are doing the best job of converting visitors into leads or customers.</p>
 <p>To find it: Reports > Engagement > Pages and Screens.</p>
 
@@ -281,7 +282,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
 <p>This report shows how many times your key actions (form submissions, purchases, sign-ups) happened. It is the most important report for measuring whether your website is actually doing its job. If you are getting a lot of traffic but very few conversions, something is wrong with your pages or your offer.</p>
 <p>To find it: Reports > Engagement > Conversions.</p>
 
-<h3>4. Acquisition - User Acquisition</h3>
+<h3>4. Acquisition: User Acquisition</h3>
 <p>Similar to Traffic Acquisition, but this report focuses on where your new users came from the first time they ever visited your site. This is useful for understanding which channels are bringing in new customers versus which ones are bringing back people who already know you.</p>
 <p>To find it: Reports > Acquisition > User Acquisition.</p>
 
@@ -316,16 +317,16 @@ export default function PostGa4ExplainedForBusinessOwners() {
 
 <p>You do not need to check GA4 every day. A monthly review is enough for most businesses. Here is a simple routine that takes about 15 minutes:</p>
 
-<h3>Step 1 - Check your traffic trend</h3>
+<h3>Step 1: Check your traffic trend</h3>
 <p>Go to Reports > Acquisition > Traffic Acquisition. Set the date range to the last 30 days and compare it to the previous 30 days. Is total traffic going up or down? Which channels are growing and which are shrinking?</p>
 
-<h3>Step 2 - Check your conversions</h3>
+<h3>Step 2: Check your conversions</h3>
 <p>Go to Reports > Engagement > Conversions. How many conversions did you get this month? Is that more or less than last month? Which pages are driving the most conversions?</p>
 
-<h3>Step 3 - Check your top pages</h3>
+<h3>Step 3: Check your top pages</h3>
 <p>Go to Reports > Engagement > Pages and Screens. Which pages got the most views? Are the pages you care about (your service pages, your pricing page, your contact page) getting traffic? If not, that is a sign you need to do more to drive people to those pages.</p>
 
-<h3>Step 4 - Look for anything unusual</h3>
+<h3>Step 4: Look for anything unusual</h3>
 <p>Is there a page that suddenly got a lot more or a lot less traffic? Is there a channel that dropped off? Unusual changes are worth investigating. They might mean a technical problem, a Google algorithm update, or a marketing campaign that worked really well.</p>
 
 <p>Once you have your GA4 data, the next step is to connect it with your Google Search Console data to understand the full picture. Read our guide: <a href="/blog/how-to-set-up-google-search-console">How to Set Up Google Search Console (Step by Step)</a>.</p>
@@ -360,7 +361,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
               Want to learn how to use GA4 to grow your business?
             </h2>
             <p className="text-white/80 mb-6 text-base" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The free AI + SEO Course covers GA4, Google Search Console, keyword research, and on-page SEO. Step by step. No credit card required.
+              {FREE_COURSE_SUMMARY}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3 rounded-full hover:bg-[#d4791f] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI + SEO Course</a>

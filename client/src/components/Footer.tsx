@@ -44,7 +44,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-[#E98C28] hover:text-white transition-colors font-semibold"
-                aria-label="Subscribe to KnowHow Marketing Lab on YouTube - 60+ free marketing lessons"
+                aria-label="Subscribe to KnowHow Marketing Lab on YouTube, 60+ free marketing lessons"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -57,7 +57,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
-                aria-label="Visit Seymour Digital Media - the agency behind KnowHow Marketing Lab"
+                aria-label="Visit Seymour Digital Media, the agency behind KnowHow Marketing Lab"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -182,7 +182,7 @@ export default function Footer() {
                     className="text-sm text-gray-300 hover:text-white transition-colors"
                     style={{ fontFamily: 'DM Sans, sans-serif' }}
                     title={link.title}
-                    aria-label={`${link.label} - opens in new tab`}
+                    aria-label={`${link.label}, opens in new tab`}
                   >
                     {link.label} ↗
                   </a>

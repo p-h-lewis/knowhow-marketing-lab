@@ -302,41 +302,41 @@ https://youtu.be/nzTa2wJEN9k
 <h2 id="references">References</h2>
 
 <ul class="wp-block-list">
-<li><a href="https://support.google.com/google-ads/answer/10724817?hl=en" target="_blank" rel="noreferrer noopener">[1] About Performance Max campaigns - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10724817?hl=en" target="_blank" rel="noreferrer noopener">[1] About Performance Max campaigns: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/10724896?hl=en" target="_blank" rel="noreferrer noopener">[2] Create a Performance Max campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10724896?hl=en" target="_blank" rel="noreferrer noopener">[2] Create a Performance Max campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/12971048?hl=en" target="_blank" rel="noreferrer noopener">[3] About Performance Max for store goals - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/12971048?hl=en" target="_blank" rel="noreferrer noopener">[3] About Performance Max for store goals: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/11385582?hl=en" target="_blank" rel="noreferrer noopener">[4] Optimization tips for Performance Max - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/11385582?hl=en" target="_blank" rel="noreferrer noopener">[4] Optimization tips for Performance Max: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[5] About Demand Gen campaigns - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[5] About Demand Gen campaigns: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/13695389?hl=en" target="_blank" rel="noreferrer noopener">[6] Create a Demand Gen campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695389?hl=en" target="_blank" rel="noreferrer noopener">[6] Create a Demand Gen campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/13704860?hl=en" target="_blank" rel="noreferrer noopener">[7] Demand Gen campaign asset specs - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13704860?hl=en" target="_blank" rel="noreferrer noopener">[7] Demand Gen campaign asset specs: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[8] About lookalike segments - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[8] About lookalike segments: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[9] Create a Search campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[9] Create a Search campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[10] About Search campaigns - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[10] About Search campaigns: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/2454022?hl=en" target="_blank" rel="noreferrer noopener">[11] About Shopping ads - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2454022?hl=en" target="_blank" rel="noreferrer noopener">[11] About Shopping ads: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/3455481?hl=en" target="_blank" rel="noreferrer noopener">[12] Create a Standard Shopping campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/3455481?hl=en" target="_blank" rel="noreferrer noopener">[12] Create a Standard Shopping campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/6340491?hl=en" target="_blank" rel="noreferrer noopener">[13] About Video campaigns - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/6340491?hl=en" target="_blank" rel="noreferrer noopener">[13] About Video campaigns: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/2375497?hl=en" target="_blank" rel="noreferrer noopener">[14] Create a Video campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2375497?hl=en" target="_blank" rel="noreferrer noopener">[14] Create a Video campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/2404190?hl=en" target="_blank" rel="noreferrer noopener">[15] About Display ads and the Google Display Network - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2404190?hl=en" target="_blank" rel="noreferrer noopener">[15] About Display ads and the Google Display Network: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/10759203?hl=en" target="_blank" rel="noreferrer noopener">[16] Create a Display campaign - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10759203?hl=en" target="_blank" rel="noreferrer noopener">[16] Create a Display campaign: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/6287125?hl=en" target="_blank" rel="noreferrer noopener">[17] Set up dynamic remarketing - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/6287125?hl=en" target="_blank" rel="noreferrer noopener">[17] Set up dynamic remarketing: Google Ads Help</a></li>
 
-<li><a href="https://support.google.com/google-ads/answer/6247380?hl=en" target="_blank" rel="noreferrer noopener">[18] About App campaigns - Google Ads Help</a></li>
+<li><a href="https://support.google.com/google-ads/answer/6247380?hl=en" target="_blank" rel="noreferrer noopener">[18] About App campaigns: Google Ads Help</a></li>
 </ul>
 
 <script type="application/ld+json">
@@ -344,7 +344,7 @@ https://youtu.be/nzTa2wJEN9k
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "Stop Wasting Ad Spend! Master Every Google Ads Campaign Type in Minutes",
-  "description": "Learn how to choose and optimize the right Google Ads campaign types - Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns - to maximize your marketing results. Includes video walkthrough and visual examples.",
+  "description": "Learn how to choose and optimize the right Google Ads campaign types, Performance Max, Demand Gen, Search, Shopping, Video, Display, and App Campaigns, to maximize your marketing results. Includes video walkthrough and visual examples.",
   "author": {
     "@type": "Person",
     "name": "Pip Seymour"
@@ -420,11 +420,11 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-campaign-types-5uLbH7Efx2SoV8jfE45VZN.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types - The Ultimate Guide');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types, The Ultimate Guide');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-campaign-types-5uLbH7Efx2SoV8jfE45VZN.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types - The Ultimate Guide');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Campaign Types, The Ultimate Guide');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';

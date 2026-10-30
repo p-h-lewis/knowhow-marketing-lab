@@ -13,7 +13,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>They opened ChatGPT and typed: "<em>What should I make for dinner tonight?"</em></p>
 
-<p>The AI suggested three recipes based on their dietary preferences. Then it recommended ingredients. Then it asked if they wanted to buy everything. They said yes. ChatGPT completed the purchase at Walmart - all in one conversation.</p>
+<p>The AI suggested three recipes based on their dietary preferences. Then it recommended ingredients. Then it asked if they wanted to buy everything. They said yes. ChatGPT completed the purchase at Walmart, all in one conversation.</p>
 
 <p>No Google search. No clicking through websites. No adding items to a cart. Just a simple conversation with AI.</p>
 
@@ -38,19 +38,19 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <p>That's exactly what this guide will teach you. You'll learn about seven types of optimization:</p>
 
 <ul class="wp-block-list">
-<li><strong>SEO</strong> - Getting found on Google (the foundation)</li>
+<li><strong>SEO</strong>: Getting found on Google (the foundation)</li>
 
-<li><strong>GEO</strong> - Getting recommended by AI (the new way)</li>
+<li><strong>GEO</strong>: Getting recommended by AI (the new way)</li>
 
-<li><strong>AEO</strong> - Becoming the answer AI gives (the direct approach)</li>
+<li><strong>AEO</strong>: Becoming the answer AI gives (the direct approach)</li>
 
-<li><strong>SGE</strong> - Google's AI-powered search experience (now called AI Overviews)</li>
+<li><strong>SGE</strong>: Google's AI-powered search experience (now called AI Overviews)</li>
 
-<li><strong>LLMO</strong> - Optimizing for language models (the technical side)</li>
+<li><strong>LLMO</strong>: Optimizing for language models (the technical side)</li>
 
-<li><strong>AIO</strong> - The broader AI optimization picture (the big view)</li>
+<li><strong>AIO</strong>: The broader AI optimization picture (the big view)</li>
 
-<li><strong>AI SEO</strong> - The umbrella term for everything (the simple way to explain it)</li>
+<li><strong>AI SEO</strong>: The umbrella term for everything (the simple way to explain it)</li>
 </ul>
 
 <p>By the end of this guide, you'll understand what each term means, how they work together, and exactly what to do to stay visible no matter how people search.</p>
@@ -88,7 +88,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Goal:</strong> Get mentioned in AI-generated responses<br><strong>Platform:</strong> ChatGPT, Claude, Gemini, Perplexity<br><strong>How it works:</strong> AI models learn about your brand from their training data and recommend you when relevant<br><strong>Success metric:</strong> Being mentioned by AI</p>
 
-<p><strong>Learn more:</strong> <a href="https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo" target="_blank" rel="noreferrer noopener">The Drum - SEO is Dead, Long Live GEO</a></p>
+<p><strong>Learn more:</strong> <a href="https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo" target="_blank" rel="noreferrer noopener">The Drum: SEO is Dead, Long Live GEO</a></p>
 
 <h3 class="wp-block-heading" id="h-aeo-answer-engine-optimisation">AEO (Answer Engine Optimization)</h3>
 
@@ -110,7 +110,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Important note:</strong> SGE and AI Overviews are the same thing. Google launched it as "Search Generative Experience" in 2023, then renamed it to "AI Overviews" in 2024. You'll see both terms used, but they mean the same feature.</p>
 
-<p><strong>Learn more:</strong> <a href="https://blog.google/products/search/generative-ai-search/" target="_blank" rel="noreferrer noopener">Google Blog - AI in Search</a> | <a href="https://www.semrush.com/blog/google-sge/" target="_blank" rel="noreferrer noopener">Semrush - Google SGE Guide</a></p>
+<p><strong>Learn more:</strong> <a href="https://blog.google/products/search/generative-ai-search/" target="_blank" rel="noreferrer noopener">Google Blog: AI in Search</a> | <a href="https://www.semrush.com/blog/google-sge/" target="_blank" rel="noreferrer noopener">Semrush: Google SGE Guide</a></p>
 
 <h3 class="wp-block-heading" id="h-aio-artificial-intelligence-optimisation">AIO (Artificial Intelligence Optimization)</h3>
 
@@ -148,7 +148,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Similarly, you don't need separate strategies for SEO, GEO, AEO, LLMO, and AIO. You need one integrated strategy that works across all platforms where people search.</p>
 
-<p>We call this <strong>AI SEO</strong> - and it's what the rest of this guide will teach you.</p>
+<p>We call this <strong>AI SEO</strong>: and it's what the rest of this guide will teach you.</p>
 
 <h3 class="wp-block-heading" id="h-why-so-many-terms">Why So Many Terms?</h3>
 
@@ -225,15 +225,15 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>The things that make you rank well on Google also help with AI:</p>
 
-<p><strong>Creating helpful, thorough content</strong> - Both Google and AI reward content that genuinely helps people.</p>
+<p><strong>Creating helpful, thorough content</strong>: Both Google and AI reward content that genuinely helps people.</p>
 
-<p><strong>Building a fast, easy-to-use website</strong> - Technical excellence matters for both traditional search and AI crawlers.</p>
+<p><strong>Building a fast, easy-to-use website</strong>: Technical excellence matters for both traditional search and AI crawlers.</p>
 
-<p><strong>Getting other websites to link to you</strong> - Backlinks signal authority to both Google and AI systems.</p>
+<p><strong>Getting other websites to link to you</strong>: Backlinks signal authority to both Google and AI systems.</p>
 
-<p><strong>Showing expertise and credentials</strong> - E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) matters for both.</p>
+<p><strong>Showing expertise and credentials</strong>: E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) matters for both.</p>
 
-<p><strong>Structuring content clearly</strong> - Good organization helps both search engines and AI understand your content.</p>
+<p><strong>Structuring content clearly</strong>: Good organization helps both search engines and AI understand your content.</p>
 
 <p>So when you improve your SEO, you're also improving your AI optimization. They work together, not against each other.</p>
 
@@ -367,7 +367,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>This is your chance to leapfrog bigger competitors who aren't paying attention to AI yet.</p>
 
-<p><strong>Learn more:</strong> <a href="https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo" target="_blank" rel="noreferrer noopener">The Drum - Why GEO is the Future</a></p>
+<p><strong>Learn more:</strong> <a href="https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo" target="_blank" rel="noreferrer noopener">The Drum: Why GEO is the Future</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -501,7 +501,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <li>Reviews (authentic)</li>
 </ul>
 
-<p><strong>Learn more:</strong> <a href="https://contentmarketinginstitute.com/seo-for-content/how-to-optimise-your-content-for-google-s-search-generative-experience" target="_blank" rel="noreferrer noopener">Content Marketing Institute - Optimizing for AI</a></p>
+<p><strong>Learn more:</strong> <a href="https://contentmarketinginstitute.com/seo-for-content/how-to-optimise-your-content-for-google-s-search-generative-experience" target="_blank" rel="noreferrer noopener">Content Marketing Institute: Optimizing for AI</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -532,13 +532,13 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <p>LLMs work by:</p>
 
 <ol class="wp-block-list">
-<li><strong>Training</strong> - Reading billions of web pages, books, and documents</li>
+<li><strong>Training</strong>: Reading billions of web pages, books, and documents</li>
 
-<li><strong>Learning patterns</strong> - Understanding how language works and how concepts relate</li>
+<li><strong>Learning patterns</strong>: Understanding how language works and how concepts relate</li>
 
-<li><strong>Generating responses</strong> - Creating new text based on patterns they learned</li>
+<li><strong>Generating responses</strong>: Creating new text based on patterns they learned</li>
 
-<li><strong>Citing sources</strong> - Sometimes referencing where they learned information</li>
+<li><strong>Citing sources</strong>: Sometimes referencing where they learned information</li>
 </ol>
 
 <p>The key insight: LLMs don't "search" the internet in real-time (most of them). They generate responses based on patterns in their training data.</p>
@@ -593,7 +593,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Build Strong Entity Associations</strong></p>
 
-<p>An "entity" is a clearly defined thing - a person, company, product, concept, etc.</p>
+<p>An "entity" is a clearly defined thing, a person, company, product, concept, etc.</p>
 
 <p>Help LLMs understand your entity by:</p>
 
@@ -641,7 +641,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <li>JSON-LD structured data</li>
 </ul>
 
-<p><strong>Learn more:</strong> <a href="https://www.semrush.com/blog/google-sge/" target="_blank" rel="noreferrer noopener">Semrush - Understanding LLMO</a></p>
+<p><strong>Learn more:</strong> <a href="https://www.semrush.com/blog/google-sge/" target="_blank" rel="noreferrer noopener">Semrush: Understanding LLMO</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -653,15 +653,15 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>While SEO, GEO, AEO, and LLMO focus primarily on search and information retrieval, AIO encompasses:</p>
 
-<p><strong>AI Assistants</strong> - Siri, Alexa, Google Assistant, and other voice-activated helpers</p>
+<p><strong>AI Assistants</strong>: Siri, Alexa, Google Assistant, and other voice-activated helpers</p>
 
-<p><strong>AI Agents</strong> - Autonomous AI that makes decisions and takes actions on behalf of users</p>
+<p><strong>AI Agents</strong>: Autonomous AI that makes decisions and takes actions on behalf of users</p>
 
-<p><strong>Recommendation Systems</strong> - AI that suggests products, content, or services (like Netflix, Amazon, Spotify)</p>
+<p><strong>Recommendation Systems</strong>: AI that suggests products, content, or services (like Netflix, Amazon, Spotify)</p>
 
-<p><strong>AI-Powered Platforms</strong> - Social media algorithms, content discovery systems, personalization engines</p>
+<p><strong>AI-Powered Platforms</strong>: Social media algorithms, content discovery systems, personalization engines</p>
 
-<p><strong>Conversational AI</strong> - Chatbots, customer service AI, shopping assistants</p>
+<p><strong>Conversational AI</strong>: Chatbots, customer service AI, shopping assistants</p>
 
 <h3 class="wp-block-heading" id="h-why-aio-matters">Why AIO Matters</h3>
 
@@ -751,7 +751,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <li>Review APIs for reputation management</li>
 </ul>
 
-<p><strong>Learn more:</strong> <a href="https://xponent21.com/insights/all-about-ai-seo-other-new-terms-navigating-the-new-frontier-of-search/" target="_blank" rel="noreferrer noopener">Xponent21 - AI SEO and New Terms</a></p>
+<p><strong>Learn more:</strong> <a href="https://xponent21.com/insights/all-about-ai-seo-other-new-terms-navigating-the-new-frontier-of-search/" target="_blank" rel="noreferrer noopener">Xponent21: AI SEO and New Terms</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -802,35 +802,35 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>AI SEO means:</p>
 
-<p><strong>Creating content that works everywhere</strong> - Your content should rank in Google AND be cited by ChatGPT AND appear in AI Overviews.</p>
+<p><strong>Creating content that works everywhere</strong>: Your content should rank in Google AND be cited by ChatGPT AND appear in AI Overviews.</p>
 
-<p><strong>Building authority across platforms</strong> - Don't just focus on your website. Build presence on Reddit, YouTube, podcasts, forums, and industry publications.</p>
+<p><strong>Building authority across platforms</strong>: Don't just focus on your website. Build presence on Reddit, YouTube, podcasts, forums, and industry publications.</p>
 
-<p><strong>Optimizing for both humans and AI</strong> - Good content helps both. You don't need to choose.</p>
+<p><strong>Optimizing for both humans and AI</strong>: Good content helps both. You don't need to choose.</p>
 
-<p><strong>Measuring success holistically</strong> - Track traditional SEO metrics AND AI visibility metrics.</p>
+<p><strong>Measuring success holistically</strong>: Track traditional SEO metrics AND AI visibility metrics.</p>
 
-<p><strong>Staying adaptable</strong> - AI search changes fast. Stay informed and be ready to adjust.</p>
+<p><strong>Staying adaptable</strong>: AI search changes fast. Stay informed and be ready to adjust.</p>
 
 <h3 class="wp-block-heading" id="h-the-simple-ai-seo-framework">The Simple AI SEO Framework</h3>
 
 <ol class="wp-block-list">
-<li><strong>Foundation</strong> - Build solid traditional SEO (technical, content, authority)</li>
+<li><strong>Foundation</strong>: Build solid traditional SEO (technical, content, authority)</li>
 
-<li><strong>Expansion</strong> - Create thorough content that teaches AI about you</li>
+<li><strong>Expansion</strong>: Create thorough content that teaches AI about you</li>
 
-<li><strong>Optimization</strong> - Structure content for easy extraction and citation</li>
+<li><strong>Optimization</strong>: Structure content for easy extraction and citation</li>
 
-<li><strong>Distribution</strong> - Share across multiple platforms where AI learns</li>
+<li><strong>Distribution</strong>: Share across multiple platforms where AI learns</li>
 
-<li><strong>Measurement</strong> - Track both traditional and AI visibility</li>
+<li><strong>Measurement</strong>: Track both traditional and AI visibility</li>
 
-<li><strong>Adaptation</strong> - Continuously improve based on results</li>
+<li><strong>Adaptation</strong>: Continuously improve based on results</li>
 </ol>
 
 <p>This framework works for businesses of any size in any industry.</p>
 
-<p><strong>Learn more:</strong> <a href="https://backlinko.com/seo-vs-geo" target="_blank" rel="noreferrer noopener">Backlinko - SEO vs GEO Complete Guide</a></p>
+<p><strong>Learn more:</strong> <a href="https://backlinko.com/seo-vs-geo" target="_blank" rel="noreferrer noopener">Backlinko: SEO vs GEO Complete Guide</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -886,45 +886,45 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>But the impact varies:</p>
 
-<p><strong>Informational queries</strong> - Significant traffic decrease (people get answers without clicking)</p>
+<p><strong>Informational queries</strong>: Significant traffic decrease (people get answers without clicking)</p>
 
-<p><strong>Transactional queries</strong> - Minimal impact (people still want to visit sites to make purchases)</p>
+<p><strong>Transactional queries</strong>: Minimal impact (people still want to visit sites to make purchases)</p>
 
-<p><strong>Navigational queries</strong> - No impact (people are specifically looking for your site)</p>
+<p><strong>Navigational queries</strong>: No impact (people are specifically looking for your site)</p>
 
-<p><strong>Branded queries</strong> - Minimal impact (people searching for your brand still visit)</p>
+<p><strong>Branded queries</strong>: Minimal impact (people searching for your brand still visit)</p>
 
 <h3 class="wp-block-heading" id="h-how-to-optimise-for-ai-overviews">How to Optimize for AI Overviews</h3>
 
 <p>The strategies overlap with GEO and AEO:</p>
 
-<p><strong>Create thorough content</strong> - Cover topics thoroughly, not superficially</p>
+<p><strong>Create thorough content</strong>: Cover topics thoroughly, not superficially</p>
 
-<p><strong>Use clear structure</strong> - Headings, subheadings, bullet points, tables</p>
+<p><strong>Use clear structure</strong>: Headings, subheadings, bullet points, tables</p>
 
-<p><strong>Answer directly</strong> - Put the answer up front, then explain details</p>
+<p><strong>Answer directly</strong>: Put the answer up front, then explain details</p>
 
-<p><strong>Build authority</strong> - Get quality backlinks from respected sources</p>
+<p><strong>Build authority</strong>: Get quality backlinks from respected sources</p>
 
-<p><strong>Implement structured data</strong> - Use schema markup to help Google understand your content</p>
+<p><strong>Implement structured data</strong>: Use schema markup to help Google understand your content</p>
 
-<p><strong>Diversify content formats</strong> - Google's AI increasingly cites videos, forums, and podcasts</p>
+<p><strong>Diversify content formats</strong>: Google's AI increasingly cites videos, forums, and podcasts</p>
 
 <h3 class="wp-block-heading" id="h-the-opportunity-in-ai-overviews">The Opportunity in AI Overviews</h3>
 
 <p>While AI Overviews present challenges for traffic, they create opportunities:</p>
 
-<p><strong>Massive credibility</strong> - Being cited in an AI Overview gives you enormous authority</p>
+<p><strong>Massive credibility</strong>: Being cited in an AI Overview gives you enormous authority</p>
 
-<p><strong>Brand awareness</strong> - Even without clicks, people see your brand as an expert</p>
+<p><strong>Brand awareness</strong>: Even without clicks, people see your brand as an expert</p>
 
-<p><strong>Qualified traffic</strong> - When people do click, they're more informed and qualified</p>
+<p><strong>Qualified traffic</strong>: When people do click, they're more informed and qualified</p>
 
-<p><strong>Competitive advantage</strong> - Most businesses aren't optimizing for this yet</p>
+<p><strong>Competitive advantage</strong>: Most businesses aren't optimizing for this yet</p>
 
 <p>Plus, <a href="https://searchengineland.com/google-expand-ads-ai-overviews-463273" target="_blank" rel="noreferrer noopener">Google announced in October 2025</a> that they're expanding ads within AI Overviews. This creates new paid visibility opportunities alongside AI-generated content.</p>
 
-<p><strong>Learn more:</strong> <a href="https://searchengineland.com/google-expand-ads-ai-overviews-463273" target="_blank" rel="noreferrer noopener">Search Engine Land - Google AI Overviews Expansion</a></p>
+<p><strong>Learn more:</strong> <a href="https://searchengineland.com/google-expand-ads-ai-overviews-463273" target="_blank" rel="noreferrer noopener">Search Engine Land: Google AI Overviews Expansion</a></p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
@@ -942,9 +942,9 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <p>The foundation of the framework starts with three free Google tools. You need all three working together before anything else:</p>
 
 <ul class="wp-block-list">
-<li><strong>Google Search Console</strong> - shows you how Google sees your site and which searches bring people to you. <a href="/blog/how-to-set-up-google-search-console">Set it up here: How to Set Up Google Search Console</a></li>
-<li><strong>Google Analytics 4 (GA4)</strong> - tracks what people do once they arrive on your site. <a href="/blog/ga4-explained-for-business-owners">Read our plain-language guide: GA4 Explained for Business Owners</a></li>
-<li><strong>Keyword research using keyword clusters</strong> - finds the exact topics your audience is searching for and groups them into a content plan. <a href="/blog/keyword-research-keyword-clusters">Learn the full method: How to Do Keyword Research Using Keyword Clusters</a></li>
+<li><strong>Google Search Console</strong>: shows you how Google sees your site and which searches bring people to you. <a href="/blog/how-to-set-up-google-search-console">Set it up here: How to Set Up Google Search Console</a></li>
+<li><strong>Google Analytics 4 (GA4)</strong>: tracks what people do once they arrive on your site. <a href="/blog/ga4-explained-for-business-owners">Read our plain-language guide: GA4 Explained for Business Owners</a></li>
+<li><strong>Keyword research using keyword clusters</strong>: finds the exact topics your audience is searching for and groups them into a content plan. <a href="/blog/keyword-research-keyword-clusters">Learn the full method: How to Do Keyword Research Using Keyword Clusters</a></li>
 </ul>
 
 <p>These three steps are the "Measure" and "Find" phases of the Data-First AI SEO Method. Without them, you are guessing. With them, every piece of content you create is backed by real data.</p>`;

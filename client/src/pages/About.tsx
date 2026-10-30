@@ -25,7 +25,7 @@ export default function About() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            "name": "About KnowHow Marketing Lab - Pip Seymour & Phelan Lewis",
+            "name": "About KnowHow Marketing Lab: Pip Seymour & Phelan Lewis",
             "description": "KnowHow Marketing Lab was founded by Pip Seymour and Phelan Lewis of Seymour Digital Media. Learn about our data-driven approach to SEO, Google Ads, and AI marketing education.",
             "url": "https://knowhowmarketinglab.com/about",
             "breadcrumb": {
@@ -88,7 +88,7 @@ export default function About() {
               We Teach What We Actually Do
             </h1>
             <p className="text-gray-500 text-lg leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              KnowHow Marketing Lab was built by two agency veterans who were tired of seeing businesses pay for marketing they did not understand. We believe every medium-sized business deserves access to the same data-driven strategies that enterprise brands use - taught clearly, without jargon, and without a six-figure agency retainer.
+              KnowHow Marketing Lab was built by two agency veterans who were tired of seeing businesses pay for marketing they did not understand. We believe every medium-sized business deserves access to the same data-driven strategies that enterprise brands use, taught clearly, without jargon, and without a six-figure agency retainer.
             </p>
           </div>
         </section>
@@ -101,7 +101,7 @@ export default function About() {
               className="text-2xl font-extrabold text-gray-900 text-center mb-10"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              What KnowHow Marketing Lab Is - and Is Not
+              What KnowHow Marketing Lab Is, and Is Not
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-[#f0faf7] rounded-2xl border border-[#318599]/20 p-6">
@@ -134,7 +134,7 @@ export default function About() {
                 </h3>
                 <ul className="space-y-2.5">
                   {[
-                    'Link building - we focus on content building instead',
+                    'Link building, we focus on content building instead',
                     'Social media marketing courses',
                     'Email marketing or CRM training',
                     'Generic "digital marketing" theory',
@@ -176,7 +176,7 @@ export default function About() {
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png',
                   bio: [
                     'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
-                    'Pip specializes in Google Search Console analysis, GA4 reporting, content strategy, and AI SEO (also called GEO) - the practice of optimizing content to be cited by AI systems like ChatGPT and Google AI Overviews.',
+                    'Pip specializes in Google Search Console analysis, GA4 reporting, content strategy, and AI SEO (also called GEO), the practice of optimizing content to be cited by AI systems like ChatGPT and Google AI Overviews.',
                     'Pip\'s approach is always data-first: no guessing, no vanity metrics, no link building. Just clear analysis of what Google is already telling you and a strategy to act on it.',
                   ],
                   expertise: ['SEO Strategy', 'Google Search Console', 'GA4 Analytics', 'AI SEO (GEO)', 'Content Strategy', 'Google Business Profile'],
@@ -299,11 +299,11 @@ export default function About() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#318599] font-semibold hover:underline"
-                  aria-label="Visit Seymour Digital Media - digital marketing agency"
+                  aria-label="Visit Seymour Digital Media, digital marketing agency"
                 >
                   Seymour Digital Media
                 </a>
-                , a full-service digital marketing agency. Everything we teach in our courses and community is based on the same strategies we use for our agency clients. When you learn from KnowHow Marketing Lab, you are learning from practitioners - not theorists.
+                , a full-service digital marketing agency. Everything we teach in our courses and community is based on the same strategies we use for our agency clients. When you learn from KnowHow Marketing Lab, you are learning from practitioners, not theorists.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <a

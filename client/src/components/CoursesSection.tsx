@@ -12,7 +12,7 @@ const courses = [
   },
   {
     title: 'AI Marketing & Automation',
-    subtitle: 'ChatGPT for brands, AI agents, automation workflows - inside The Lab.',
+    subtitle: 'ChatGPT for brands, AI agents, automation workflows, inside The Lab.',
     level: 'Intermediate → Advanced',
     cta: 'Access in The Lab →',
     href: LAB_TRIAL_URL,

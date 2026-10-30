@@ -14,7 +14,7 @@ const modules = [
   {
     num: '02',
     title: 'Setting Up Your SEO Tools',
-    desc: 'Set up Google Search Console and Google Analytics 4 - the two tools that show you exactly what is happening on your website. Plus AI tools to interpret the data faster.',
+    desc: 'Set up Google Search Console and Google Analytics 4, the two tools that show you exactly what is happening on your website. Plus AI tools to interpret the data faster.',
     tag: 'GSC + GA4',
   },
   {
@@ -37,6 +37,7 @@ const modules = [
   },
 ];
 import { FREE_COURSE_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 export default function FreeCourseSection() {
   return (
@@ -55,7 +56,7 @@ export default function FreeCourseSection() {
             "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Learn AI + SEO Using the KnowHow Marketing Lab Data-First AI SEO Method",
-            "description": "A 5-module AI + SEO course for medium-sized businesses. Covers SEO fundamentals, Google Search Console, GA4, keyword research, on-page SEO, and Google Business Profile.",
+            "description": FREE_COURSE_SUMMARY,
             "totalTime": "PT5H",
             "step": modules.map((m, i) => ({
               "@type": "HowToStep",
@@ -99,7 +100,7 @@ export default function FreeCourseSection() {
               className="text-gray-600 leading-relaxed mb-3"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              The KnowHow Marketing Lab AI + SEO course teaches you how to use real data to grow your website traffic. You will learn how to use Google's own free tools - Search Console, GA4, and Keyword Planner - to make smart decisions for your business.
+              The KnowHow Marketing Lab AI + SEO course teaches you how to use real data to grow your website traffic. You will learn how to use Google's own free tools: Search Console, GA4, and Keyword Planner, to make smart decisions for your business.
             </p>
             <p
               className="text-gray-600 leading-relaxed mb-8"
@@ -204,7 +205,7 @@ export default function FreeCourseSection() {
             >
               5 Course Modules
             </h3>
-            <ol className="space-y-3" aria-label="AI + SEO course modules - the Data-First AI SEO Method">
+            <ol className="space-y-3" aria-label="AI + SEO course modules, the Data-First AI SEO Method">
               {modules.map(mod => (
                 <li
                   key={mod.num}

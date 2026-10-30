@@ -86,7 +86,7 @@ export default function VideoLibrary() {
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             itemProp="name"
           >
-            60+ Free Marketing Lessons - Start Learning Today
+            60+ Free Marketing Lessons: Start Learning Today
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
             Every video is free. No sign-up required to watch. Want live help on your real campaigns? <a href="/pricing" className="text-[#E98C28] font-semibold hover:underline">Join The Lab ($29 CAD/mo) →</a>
@@ -149,7 +149,7 @@ export default function VideoLibrary() {
               <div className="relative aspect-video overflow-hidden bg-gray-100">
                 <img
                   src={getYouTubeThumbnail(video.id)}
-                  alt={`${video.title} - KnowHow Marketing Lab free tutorial on YouTube`}
+                  alt={`${video.title}: KnowHow Marketing Lab free tutorial on YouTube`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                   decoding="async"

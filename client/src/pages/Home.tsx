@@ -43,7 +43,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
+            "name": "KnowHow Marketing Lab: AI + SEO, Google Ads & AI Marketing Training",
             "description": "Free expert training in SEO, GA4, and AI marketing. 60+ free video lessons, and The Lab community on GoHighLevel with a live session every Tuesday. Built by agency veterans Pip Seymour and Phelan Lewis.",
             "url": "https://knowhowmarketinglab.com/",
             "inLanguage": "en-US",
@@ -83,7 +83,7 @@ export default function Home() {
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Free AI + SEO Course", "description": FREE_COURSE_SUMMARY, "url": "https://knowhowmarketinglab.com/courses/seo" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimization. Included in The Lab membership at $29 CAD/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29 CAD/month community with one live session every Tuesday, 12 to 1 pm Pacific, courses, and private community access. 14-day free trial.", "url": "https://knowhowmarketinglab.com/pricing" } }
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab: VIP Marketing Community", "description": "$29 CAD/month community with one live session every Tuesday, 12 to 1 pm Pacific, courses, and private community access. 14-day free trial.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },
               "founder": [
@@ -155,15 +155,15 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "KnowHow Marketing Lab - Page Sections",
+            "name": "KnowHow Marketing Lab: Page Sections",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "AI + SEO Course", "url": "https://knowhowmarketinglab.com/courses/seo" },
               { "@type": "ListItem", "position": 2, "name": "Free Video Library", "url": "https://www.youtube.com/@KnowHowMarketingLab" },
-              { "@type": "ListItem", "position": 3, "name": "Courses - AI + SEO & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
+              { "@type": "ListItem", "position": 3, "name": "Courses: AI + SEO & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
               { "@type": "ListItem", "position": 4, "name": "The Lab on GoHighLevel", "url": "https://knowhowmarketinglab.com/#community" },
-              { "@type": "ListItem", "position": 5, "name": "Pricing - Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
+              { "@type": "ListItem", "position": 5, "name": "Pricing: Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },
               { "@type": "ListItem", "position": 6, "name": "About Pip Seymour & Phelan Lewis", "url": "https://knowhowmarketinglab.com/about" },
-              { "@type": "ListItem", "position": 7, "name": "Free Resources - Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" },
+              { "@type": "ListItem", "position": 7, "name": "Free Resources: Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" },
               { "@type": "ListItem", "position": 8, "name": "The KnowHow Lab Community", "url": "https://knowhowmarketinglab.com/community" },
               { "@type": "ListItem", "position": 9, "name": "The Data-First AI SEO Framework", "url": "https://knowhowmarketinglab.com/framework" }
             ]
@@ -248,7 +248,7 @@ export default function Home() {
                   id="vid-frame-2"
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube-nocookie.com/embed/TDlgrr0cviE"
-                  title="Google Business Profile - Everything You Need To Know, KnowHow Marketing Lab"
+                  title="Google Business Profile: Everything You Need To Know, KnowHow Marketing Lab"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
@@ -377,7 +377,7 @@ export default function Home() {
                   href: '/blog/ai-seo-guide',
                   tag: 'AI + SEO',
                   title: 'The Complete Guide to AI SEO',
-                  desc: 'How to use AI tools to do keyword research, write content, and optimize your site - faster than ever before.',
+                  desc: 'How to use AI tools to do keyword research, write content, and optimize your site, faster than ever before.',
                   color: '#E98C28',
                 },
                 {
@@ -398,7 +398,7 @@ export default function Home() {
                   href: '/blog/data-driven-seo-guide-medium-sized-businesses',
                   tag: 'SEO',
                   title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses',
-                  desc: 'The full playbook for using real data - not guesswork - to grow your organic traffic.',
+                  desc: 'The full playbook for using real data, not guesswork, to grow your organic traffic.',
                   color: '#E98C28',
                 },
                 {

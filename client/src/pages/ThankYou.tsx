@@ -33,7 +33,7 @@ export default function ThankYou() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Thank You - KnowHow Marketing Lab",
+            "name": "Thank You: KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/thank-you",
             "description": "Confirmation page after signing up for the free course.",
             "inLanguage": "en",
@@ -59,7 +59,7 @@ export default function ThankYou() {
 
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-4">
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                You're in - check your inbox
+                You're in, check your inbox
               </span>
             </div>
 
@@ -72,7 +72,7 @@ export default function ThankYou() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Your free course access is on its way. Check your inbox for an email from Pip Seymour - it includes your login link and everything you need to get started.
+              Your free course access is on its way. Check your inbox for an email from Pip Seymour, it includes your login link and everything you need to get started.
             </p>
             <p className="text-base text-gray-500 mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Didn't get it? Check your spam folder, or{' '}
@@ -155,7 +155,7 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  The Lab - $29 CAD/month
+                  The Lab, $29 CAD/month
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Go deeper with a live session every Tuesday, 12 to 1 pm Pacific, AI marketing lessons, and a private community group. Try it free for 14 days. No contracts. Cancel anytime.

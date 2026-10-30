@@ -8,7 +8,7 @@ export default function TrustBar() {
     { name: 'Google Tag Manager', abbr: 'G', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help centre' },
     { name: 'Google Ads', abbr: 'A', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help centre' },
     { name: 'ChatGPT / AI', abbr: 'A', href: 'https://openai.com/chatgpt/', title: 'ChatGPT by OpenAI' },
-    { name: 'GoHighLevel', abbr: 'G', href: 'https://www.gohighlevel.com/', title: 'GoHighLevel - the all-in-one marketing platform used by KnowHow Marketing Lab' },
+    { name: 'GoHighLevel', abbr: 'G', href: 'https://www.gohighlevel.com/', title: 'GoHighLevel, the all-in-one marketing platform used by KnowHow Marketing Lab' },
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function TrustBar() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm hover:border-[#E98C28] hover:shadow-md transition-all duration-150 whitespace-nowrap"
                 title={tool.title}
-                aria-label={`${tool.name} - ${tool.title}`}
+                aria-label={`${tool.name}, ${tool.title}`}
                 style={{ minHeight: '40px' }}
               >
                 <span className="w-5 h-5 rounded bg-[#E98C28]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">

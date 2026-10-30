@@ -17,19 +17,19 @@ const modules = [
   { num: '02', title: 'Google Ads Course, Search, Display & Shopping', desc: 'Set up your account, campaigns, ad groups, and keywords the right way from day one.' },
   { num: '03', title: 'Keyword Strategy for Google Ads', desc: 'Find the right keywords, use match types correctly, and build a negative keyword list that saves money.' },
   { num: '04', title: 'Writing Ads That Get Clicks', desc: 'Write responsive search ads and headlines that speak directly to what your customer wants.' },
-  { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals - manual CPC, target CPA, target ROAS, and more.' },
+  { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals, manual CPC, target CPA, target ROAS, and more.' },
   { num: '06', title: 'Conversion Tracking Setup', desc: 'Track every form fill, phone call, and purchase so you know exactly which ads are making money.' },
   { num: '07', title: 'Reading Your Data and Optimizing', desc: 'Learn which numbers matter, how to spot wasted spend, and what to change to improve results.' },
-  { num: '08', title: 'Advanced Campaigns - Display, YouTube, Performance Max', desc: 'Expand beyond search with display ads, YouTube campaigns, and Performance Max.' },
+  { num: '08', title: 'Advanced Campaigns: Display, YouTube, Performance Max', desc: 'Expand beyond search with display ads, YouTube campaigns, and Performance Max.' },
 ];
 
 const faqs = [
-  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to The Lab members at $29 CAD/mo. The free plan includes the full SEO course only.' },
+  { q: 'Is the Google Ads course included in the free plan?', a: 'No, the Google Ads Mastery Course is available exclusively to The Lab members at $29 CAD/mo. The free plan includes the full SEO course only.' },
   { q: 'Do I need a Google Ads account to take this course?', a: 'Yes, you will need a Google Ads account. You can create one for free at ads.google.com. We walk you through the setup in Module 2.' },
   { q: 'How much budget do I need to run Google Ads?', a: 'You can start with as little as $10 to $20 per day to test. We teach you how to get the most out of a small budget before scaling up.' },
   { q: 'Is this course for beginners or advanced marketers?', a: 'Both. We start from the very basics in Module 1 and build up to advanced strategies like Performance Max and ROAS bidding by Module 8.' },
   { q: 'Does this course cover Google Analytics 4 integration?', a: 'Yes. Module 6 covers linking Google Ads to GA4 for full conversion tracking. We also have a dedicated GA4 video series in the free video library.' },
-  { q: 'Can I ask questions while taking the course?', a: 'Yes - The Lab members get a live session every Tuesday, 12 to 1 pm Pacific, where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
+  { q: 'Can I ask questions while taking the course?', a: 'Yes: The Lab members get a live session every Tuesday, 12 to 1 pm Pacific, where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
 ];
 
 export default function CourseGoogleAds() {
@@ -53,7 +53,7 @@ export default function CourseGoogleAds() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Google Ads Mastery Course for Medium-Sized Businesses",
-            "description": "An 8-module Google Ads course for marketing teams and business owners. Learn campaign structure, keyword strategy, bidding, conversion tracking, and advanced campaign types - taught by Pip Seymour and Phelan Lewis.",
+            "description": "An 8-module Google Ads course for marketing teams and business owners. Learn campaign structure, keyword strategy, bidding, conversion tracking, and advanced campaign types, taught by Pip Seymour and Phelan Lewis.",
             "url": "https://knowhowmarketinglab.com/courses/google-ads",
             "provider": {
               "@type": "EducationalOrganization",
@@ -133,7 +133,7 @@ export default function CourseGoogleAds() {
                   <span className="text-[#E98C28]">Mastery Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Stop wasting money on Google Ads that don't work. This Google Ads course takes you from your first campaign to advanced bidding strategies - using the same data-driven approach we use for our agency clients.
+                  Stop wasting money on Google Ads that don't work. This Google Ads course takes you from your first campaign to advanced bidding strategies, using the same data-driven approach we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29 CAD/mo. Also includes the AI + SEO course and a live session every Tuesday, 12 to 1 pm Pacific.
@@ -146,7 +146,7 @@ export default function CourseGoogleAds() {
                     className="btn-primary pulse-cta"
                     aria-label="Join The Lab to access the Google Ads Mastery Course for $29 CAD per month"
                   >
-                    Join to Access - $29 CAD/mo →
+                    Join to Access, $29 CAD/mo →
                   </a>
                   <Link
                     href="/courses/seo"
@@ -188,18 +188,18 @@ export default function CourseGoogleAds() {
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI-Assisted Google Ads Course</span>
                 <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Step-by-Step Google Ads Course</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most Google Ads courses teach you the theory. This course gives you a step-by-step system - the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
+                  Most Google Ads courses teach you the theory. This course gives you a step-by-step system, the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module - use them to write ad copy, analyze performance data, and find wasted spend in minutes.
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module, use them to write ad copy, analyze performance data, and find wasted spend in minutes.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { title: 'Course Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
+                  { title: 'Course Structure', desc: '8 modules that build on each other, no jumping around, no confusion.' },
                   { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyze performance, and find wasted spend fast.' },
                   { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Tuesday, 12 to 1 pm Pacific.' },
-                  { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it - using real data, not guesswork.' },
+                  { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it, using real data, not guesswork.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
                     <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center mb-2">
@@ -252,7 +252,7 @@ export default function CourseGoogleAds() {
                 className="btn-primary pulse-cta"
                 aria-label="Join The Lab to access the Google Ads Mastery Course"
               >
-                Join the Community - $29 CAD/mo →
+                Join the Community, $29 CAD/mo →
               </a>
             </div>
           </div>
@@ -278,7 +278,7 @@ export default function CourseGoogleAds() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-xl border border-gray-200 hover:border-[#318599] hover:shadow-sm transition-all duration-200 text-sm text-gray-700"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  aria-label={`${r.label} - ${r.desc}`}
+                  aria-label={`${r.label}, ${r.desc}`}
                 >
                   <svg className="w-4 h-4 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                   {r.label}

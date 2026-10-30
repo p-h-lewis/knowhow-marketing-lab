@@ -10,7 +10,7 @@ import { FREE_COURSE_NAME, FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 const faqs = [
   {
     q: 'What is KnowHow Marketing Lab?',
-    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis - two Canadian digital marketing agency owners with 30+ years of combined experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
+    a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis, two Canadian digital marketing agency owners with 30+ years of combined experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
   },
   {
     q: 'Is the free course really free?',
@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other marketing courses?',
-    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, AI SEO (also called GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
+    a: 'KnowHow Marketing Lab focuses on data-driven methods, using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, AI SEO (also called GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
   },
   {
     q: 'What is AI SEO (also called GEO)?',
-    a: 'AI SEO (also called GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
+    a: 'AI SEO (also called GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions, the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 
@@ -141,7 +141,7 @@ export default function LeadCaptureSection() {
             <a
               href="/about"
               className="btn-outline text-sm py-2.5 px-4"
-              aria-label="About Pip Seymour and Phelan Lewis - KnowHow Marketing Lab instructors"
+              aria-label="About Pip Seymour and Phelan Lewis: KnowHow Marketing Lab instructors"
             >
               About Us →
             </a>

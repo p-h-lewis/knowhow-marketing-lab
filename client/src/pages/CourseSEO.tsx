@@ -22,8 +22,8 @@ const modules: { num: string; title: string; desc: string; aiTip: string }[] = F
 }));
 
 const faqs = [
-  { q: 'Is this a good intro to SEO for beginners?', a: `Yes - this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. ${FREE_COURSE_SUMMARY}` },
-  { q: 'Is this AI + SEO course free to access?', a: `Yes - no credit card required. ${FREE_COURSE_SUMMARY}` },
+  { q: 'Is this a good intro to SEO for beginners?', a: `Yes, this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. ${FREE_COURSE_SUMMARY}` },
+  { q: 'Is this AI + SEO course free to access?', a: `Yes, no credit card required. ${FREE_COURSE_SUMMARY}` },
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to do your own SEO without guessing, this is for you.' },
   { q: 'How long does the course take?', a: `${FREE_COURSE_SUMMARY} You can go at your own pace, there is no deadline.` },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
@@ -136,7 +136,7 @@ export default function CourseSEO() {
                   {FREE_COURSE_SUMMARY}
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 30+ years of combined hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
+                  Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong>, two Canadian agency owners with 30+ years of combined hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -144,7 +144,7 @@ export default function CourseSEO() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary pulse-cta"
-                    aria-label="Start the AI + SEO course - no credit card required"
+                    aria-label="Start the AI + SEO course, no credit card required"
                   >
                     Start AI + SEO Course →
                   </a>
@@ -188,7 +188,7 @@ export default function CourseSEO() {
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI + SEO Accelerator Program</span>
                 <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>This Is Your AI + SEO Accelerator</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system - the same one we use at our agency for medium-sized businesses across Canada.
+                  Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system, the same one we use at our agency for medium-sized businesses across Canada.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Each day comes with an AI prompt, so you can use tools like ChatGPT or Gemini to help with the day's task.
@@ -286,7 +286,7 @@ export default function CourseSEO() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-xl border border-gray-200 hover:border-[#318599] hover:shadow-sm transition-all duration-200 text-sm text-gray-700"
                   style={{ fontFamily: 'DM Sans, sans-serif' }}
-                  aria-label={`${r.label} - ${r.desc}`}
+                  aria-label={`${r.label}, ${r.desc}`}
                 >
                   <svg className="w-4 h-4 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                   {r.label}
@@ -314,7 +314,7 @@ export default function CourseSEO() {
                 className="btn-primary pulse-cta"
                 aria-label="Join The Lab for $29 CAD per month"
               >
-                Join The Lab - $29 CAD/mo →
+                Join The Lab, $29 CAD/mo →
               </a>
               <Link
                 href="/pricing"

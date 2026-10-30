@@ -29,7 +29,7 @@ const communityFeatures = [
 
 const pricingFaqs = [
   {
-    q: 'Is the AI + SEO course really free - no hidden fees?',
+    q: 'Is the AI + SEO course really free, no hidden fees?',
     a: 'Yes, completely free. No credit card, no trial period, no hidden costs. The AI + SEO course and all 60+ YouTube videos are available with no sign-up required to watch.',
   },
   {
@@ -46,7 +46,7 @@ const pricingFaqs = [
   },
   {
     q: 'Do I need any prior marketing experience?',
-    a: 'No. The AI + SEO course starts from the very beginning - what Google is, how search works, and why SEO matters. The community covers beginner through advanced topics.',
+    a: 'No. The AI + SEO course starts from the very beginning, what Google is, how search works, and why SEO matters. The community covers beginner through advanced topics.',
   },
 ];
 
@@ -77,7 +77,7 @@ export default function Pricing() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "KnowHow Marketing Lab Pricing - Free vs The Lab",
+            "name": "KnowHow Marketing Lab Pricing: Free vs The Lab",
             "description": "Compare KnowHow Marketing Lab's free AI + SEO course with The Lab membership ($29 CAD/month). See exactly what is included in each plan.",
             "url": "https://knowhowmarketinglab.com/pricing",
             "breadcrumb": {
@@ -351,7 +351,7 @@ export default function Pricing() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#318599] font-semibold hover:underline"
-                  aria-label="Google Skillshop - free official Google Ads and Analytics certifications"
+                  aria-label="Google Skillshop, free official Google Ads and Analytics certifications"
                 >
                   Google Skillshop
                 </a>{' '}

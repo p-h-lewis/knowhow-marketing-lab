@@ -39,11 +39,11 @@ const POST_CONTENT = `<p>By Pip Seymour • December 20, 2025 • 5 min read</p>
 
 <p>Before you can build a house, you need a solid foundation. This class ensures you understand the core concepts that 90% of beginners skip. We'll demystify the platform and give you the confidence to navigate it like a pro.</p>
 
-<p>What You'll Master:Understanding how Google Ads works isn't optional - it's the difference between profitable campaigns and wasted budget. In this first class, we break down the Google Ads Auction so you understand why it's not just about the highest bid. You'll learn how <a href="https://youtu.be/E5iVGlfjxTc" target="_blank" rel="noreferrer noopener">Quality Score</a> impacts your costs and why relevance is more important than budget size.</p>
+<p>What You'll Master:Understanding how Google Ads works isn't optional, it's the difference between profitable campaigns and wasted budget. In this first class, we break down the Google Ads Auction so you understand why it's not just about the highest bid. You'll learn how <a href="https://youtu.be/E5iVGlfjxTc" target="_blank" rel="noreferrer noopener">Quality Score</a> impacts your costs and why relevance is more important than budget size.</p>
 
 <h2 id="the-roadmap-what-you-ll-master-in-5-weeks">The Roadmap: What You’ll Master in 5 Weeks</h2>
 
-<p>Here’s the curriculum - the exact path you’ll follow to build your profit machine.</p>
+<p>Here’s the curriculum, the exact path you’ll follow to build your profit machine.</p>
 
 <h3 class="wp-block-heading">Week 1: The Foundation (Class 1)</h3>
 
@@ -69,7 +69,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Week 3: Mastering Automation (Class 3)</h3>
 
-<p>Meet Performance Max and Demand Gen - Google’s powerful AI-driven campaign types. We show you how to “feed the machine” the right data to find customers you never knew you had, across YouTube, Gmail, and the Discover feed.</p>
+<p>Meet Performance Max and Demand Gen: Google’s powerful AI-driven campaign types. We show you how to “feed the machine” the right data to find customers you never knew you had, across YouTube, Gmail, and the Discover feed.</p>
 
 <h3 class="wp-block-heading">Week 4: Tracking What Matters (Class 4)</h3>
 
@@ -77,7 +77,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Week 5: The Optimization Engine (Class 5)</h3>
 
-<p>Your campaign is live - now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
+<p>Your campaign is live, now the real work begins. We teach you the weekly and monthly rhythms of optimization, from managing negative keywords to <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">adjusting bids </a>and scaling your winners.</p>
 
 <h3 class="wp-block-heading">Why is This Exclusive to the Lab?</h3>
 
@@ -342,11 +342,11 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-masterclass-oPDF2n3RKTcXmhNNrUF5s3.png');
     const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
-    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass - The 5-Week Roadmap to Profitable Campaigns');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass, The 5-Week Roadmap to Profitable Campaigns');
     const twitterImage = document.querySelector('meta[name="twitter:image"]');
     if (twitterImage) twitterImage.setAttribute('content', 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-google-ads-masterclass-oPDF2n3RKTcXmhNNrUF5s3.png');
     const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
-    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass - The 5-Week Roadmap to Profitable Campaigns');
+    if (twitterImageAlt) twitterImageAlt.setAttribute('content', 'Social share image for KnowHow Marketing Lab blog post: Google Ads Masterclass, The 5-Week Roadmap to Profitable Campaigns');
 
     const breadcrumbScript = document.createElement('script');
     breadcrumbScript.type = 'application/ld+json';
@@ -401,7 +401,7 @@ export default function PostGoogleAdsMasterclassThe5WeekRoadmapToProfitableCampa
           <div className="relative h-64 md:h-96 overflow-hidden rounded-2xl mb-10">
             <img
               src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&q=80"
-              alt="Google Ads Masterclass - 5-week roadmap to profitable campaigns"
+              alt="Google Ads Masterclass, 5-week roadmap to profitable campaigns"
               className="w-full h-full object-cover"
               loading="eager"
               fetchPriority="high"
