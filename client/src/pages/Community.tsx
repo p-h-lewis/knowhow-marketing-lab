@@ -77,7 +77,7 @@ const curriculum = [
   {
     phase: 'Foundation',
     color: '#318599',
-    topics: ['Google Search Console setup & interpretation', 'GA4 basics for business owners', 'Google Tag Manager fundamentals', 'Keyword research & keyword clusters', 'Google Business Profile optimisation & local SEO'],
+    topics: ['Google Search Console setup & interpretation', 'GA4 basics for business owners', 'Google Tag Manager fundamentals', 'Keyword research & keyword clusters', 'Google Business Profile optimization & local SEO'],
   },
   {
     phase: 'Intermediate',
@@ -95,7 +95,7 @@ const learningHighlights = [
   {
     icon: '📍',
     topic: 'Google Business Profile',
-    desc: 'How to fully optimise your GBP listing so your business shows up in local search, categories, attributes, posts, photos, Q&A, and review strategy.',
+    desc: 'How to fully optimize your GBP listing so your business shows up in local search, categories, attributes, posts, photos, Q&A, and review strategy.',
   },
   {
     icon: '📊',

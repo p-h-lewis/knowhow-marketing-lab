@@ -95,7 +95,7 @@ const posts: Record<string, {
       },
       {
         heading: "Common SEO mistakes medium-sized businesses make",
-        body: "The most common mistake is creating content without checking if anyone is searching for it. The second most common mistake is ignoring existing pages that already rank. The third is focusing on domain authority and link building instead of content quality. Google rewards pages that genuinely help people - not pages optimised for algorithms.",
+        body: "The most common mistake is creating content without checking if anyone is searching for it. The second most common mistake is ignoring existing pages that already rank. The third is focusing on domain authority and link building instead of content quality. Google rewards pages that genuinely help people - not pages optimized for algorithms.",
       },
     ],
     faqs: [
@@ -109,7 +109,7 @@ const posts: Record<string, {
       },
       {
         q: "What is the difference between SEO and Google Ads?",
-        a: "SEO (Search Engine Optimisation) gets your website to rank organically in Google search results - you do not pay per click. Google Ads puts your website at the top of search results immediately - you pay each time someone clicks. Both work best when used together.",
+        a: "SEO (Search Engine Optimization) gets your website to rank organically in Google search results - you do not pay per click. Google Ads puts your website at the top of search results immediately - you pay each time someone clicks. Both work best when used together.",
       },
       {
         q: "How is this approach different from traditional SEO?",

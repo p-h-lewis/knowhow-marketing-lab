@@ -15,7 +15,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <h3 class="wp-block-heading"><br>Why is GA4 Important</h3>
 
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill-element"><div class="wp-block-media-text__content">
-<p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behavior and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 helps marketers optimise strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
+<p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behaviour and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 helps marketers optimize strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
 </div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup - key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"
                   loading="lazy"
                   decoding="async"
@@ -313,7 +313,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading">What are signals in GA4</h3>
 
-<p>In simple terms, signals in GA4 are the information gathered from websites and/or apps. When you're website visitors are logged into their Google account and have chosen to personalize the ads having signals on will allow the tracking to add them to the lists you have setup. Using Signals helps Google understand your users preferences and provides them with with more relevant advertisements so we definetly want this and because audiences will be super easy to make in GA4 we want to organise this so that we get the most out of our signals. </p>
+<p>In simple terms, signals in GA4 are the information gathered from websites and/or apps. When you're website visitors are logged into their Google account and have chosen to personalize the ads having signals on will allow the tracking to add them to the lists you have setup. Using Signals helps Google understand your users preferences and provides them with with more relevant advertisements so we definetly want this and because audiences will be super easy to make in GA4 we want to organize this so that we get the most out of our signals. </p>
 
 <h3 class="wp-block-heading"><strong>Data Settings, Collection</strong> & Retention<br></h3>
 
@@ -427,7 +427,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
 <h3 class="wp-block-heading"><strong>Create New GA4 Tag</strong></h3>
 
-<p>Sign into your Google Tag Manager account, and select the container for the website where you want to add Google Analytics 4 tag. Once you have signed in, you will be on the Overview Page. Click Add a new tag or New Tag in the center or click on Tags on the left menu. </p>
+<p>Sign into your Google Tag Manager account, and select the container for the website where you want to add Google Analytics 4 tag. Once you have signed in, you will be on the Overview Page. Click Add a new tag or New Tag in the centre or click on Tags on the left menu. </p>
 
 <figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/UoAdLFiczpqQV0ARHI8Nlu95fUB74z4U2REaSU8A0wKtLQAmxkL8oJvKmrmlVIs4HZx0mcFcC06IeqoRRksz9Fkx7anD4YR6yJutI_DkA9eAdz1IlSYn0mkl5j2RFKzXgX4sQfEeQmfOB3tHjmz0-Ls" alt=""
                   loading="lazy"

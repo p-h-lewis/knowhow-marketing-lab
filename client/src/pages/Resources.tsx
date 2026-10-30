@@ -16,7 +16,7 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google SEO Starter Guide',
-        desc: 'The official Google guide to search engine optimisation fundamentals. The best starting point for any business learning SEO.',
+        desc: 'The official Google guide to search engine optimization fundamentals. The best starting point for any business learning SEO.',
         href: 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide',
         source: 'Google Search Central',
       },
@@ -34,7 +34,7 @@ const resourceCategories = [
       },
       {
         name: 'Google Business Profile Help Center',
-        desc: 'Official guide to setting up and optimising your Google Business Profile for local search and Google Maps visibility.',
+        desc: 'Official guide to setting up and optimizing your Google Business Profile for local search and Google Maps visibility.',
         href: 'https://support.google.com/business/',
         source: 'Google Support',
       },
@@ -48,7 +48,7 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google Analytics Help Center',
-        desc: 'The official GA4 help center - covers account setup, reports, events, conversions, and data analysis.',
+        desc: 'The official GA4 help centre - covers account setup, reports, events, conversions, and data analysis.',
         href: 'https://support.google.com/analytics/',
         source: 'Google Support',
       },
@@ -88,7 +88,7 @@ const resourceCategories = [
     title: 'Google Ads',
     color: '#4F37D8',
     icon: '',
-    description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimisation.',
+    description: 'Official Google Ads help documentation - from campaign setup to bidding strategy, ad formats, and performance optimization.',
     resources: [
       {
         name: 'Google Ads Help Center',
@@ -128,7 +128,7 @@ const resourceCategories = [
       },
       {
         name: 'Google Merchant Center Help',
-        desc: 'Official help center for Google Merchant Center - set up product feeds, Shopping campaigns, and free product listings.',
+        desc: 'Official help centre for Google Merchant Center - set up product feeds, Shopping campaigns, and free product listings.',
         href: 'https://support.google.com/merchants/',
         source: 'Google Support',
       },
@@ -142,7 +142,7 @@ const resourceCategories = [
     resources: [
       {
         name: 'Google Tag Manager Help Center',
-        desc: 'Official GTM help center - covers account setup, container configuration, tags, triggers, variables, and debugging.',
+        desc: 'Official GTM help centre - covers account setup, container configuration, tags, triggers, variables, and debugging.',
         href: 'https://support.google.com/tagmanager/',
         source: 'Google Support',
       },
@@ -268,7 +268,7 @@ const resourceCategories = [
       },
       {
         name: 'Google NotebookLM',
-        desc: 'Google\'s AI-powered research and note-taking tool - useful for summarising long documents, research papers, and marketing reports.',
+        desc: 'Google\'s AI-powered research and note-taking tool - useful for summarizing long documents, research papers, and marketing reports.',
         href: 'https://notebooklm.google.com/',
         source: 'Google',
       },

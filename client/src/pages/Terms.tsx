@@ -105,7 +105,7 @@ export default function Terms() {
                 The KnowHow Lab is currently priced at <strong>$29 CAD per month</strong>. This price is subject to change for new members. Existing members will be given at least 30 days' notice before any price increase takes effect for their account.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Your membership renews automatically on a monthly basis on the same date each month. Payment is processed by GoHighLevel. By providing your payment details, you authorise GoHighLevel to charge your payment method on a recurring monthly basis until you cancel.
+                Your membership renews automatically on a monthly basis on the same date each month. Payment is processed by GoHighLevel. By providing your payment details, you authorize GoHighLevel to charge your payment method on a recurring monthly basis until you cancel.
               </p>
 
               <h3 className="text-base font-bold text-gray-900 mt-6 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>3.3 Cancellation and Refunds</h3>

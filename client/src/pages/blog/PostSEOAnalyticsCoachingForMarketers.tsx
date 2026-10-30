@@ -18,14 +18,14 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 
 <p>SEO and analytics coaching is a structured learning experience where a marketing expert works directly with you, or your team, to improve how your business shows up in search and how you measure what's working.</p>
 
-<p>It is different from a course because it is personalised. Instead of watching pre-recorded videos about someone else's website, you are looking at your own Google Search Console, your own GA4 account, and your own content. The feedback is specific to your situation.</p>
+<p>It is different from a course because it is personalized. Instead of watching pre-recorded videos about someone else's website, you are looking at your own Google Search Console, your own GA4 account, and your own content. The feedback is specific to your situation.</p>
 
 <p>Good coaching covers three areas:</p>
 
 <ul class="wp-block-list">
-<li><strong>SEO fundamentals:</strong> How Google finds and ranks your pages, keyword research, on-page optimisation, and content strategy.</li>
+<li><strong>SEO fundamentals:</strong> How Google finds and ranks your pages, keyword research, on-page optimization, and content strategy.</li>
 <li><strong>Analytics setup and interpretation:</strong> Making sure your GA4 and Google Search Console are set up correctly, and teaching you how to read the data so you can make better decisions.</li>
-<li><strong>AI-powered search:</strong> How to optimise for AI Overviews, ChatGPT, and Perplexity, the new search engines that are changing how people find businesses like yours.</li>
+<li><strong>AI-powered search:</strong> How to optimize for AI Overviews, ChatGPT, and Perplexity, the new search engines that are changing how people find businesses like yours.</li>
 </ul>
 
 <h2 id="who-needs-seo-and-analytics-coaching">Who Needs SEO and Analytics Coaching?</h2>
@@ -49,7 +49,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 <ul class="wp-block-list">
 <li><strong>They use your data, not generic examples.</strong> A good coach will look at your actual Google Search Console and GA4 reports, not a demo account.</li>
 <li><strong>They explain the why, not just the what.</strong> You should understand why you are making each change, so you can keep doing it after the coaching ends.</li>
-<li><strong>They cover modern search, including AI.</strong> SEO in 2026 includes optimising for AI Overviews and generative search engines. If your coach is not talking about this, they are behind.</li>
+<li><strong>They cover modern search, including AI.</strong> SEO in 2026 includes optimizing for AI Overviews and generative search engines. If your coach is not talking about this, they are behind.</li>
 <li><strong>They give you a clear action list.</strong> Every session should end with specific next steps you can take this week.</li>
 </ul>
 
@@ -66,7 +66,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 
 <h2 id="what-good-seo-coaching-covers">What Good SEO and Analytics Coaching Covers</h2>
 
-<p>A structured coaching programme for marketing teams typically covers these areas:</p>
+<p>A structured coaching program for marketing teams typically covers these areas:</p>
 
 <h3 class="wp-block-heading">1. SEO Foundations</h3>
 <p>How Google crawls and ranks pages, search intent, keyword research using Google Keyword Planner and AI tools, and how to build a content strategy that targets the right queries.</p>
@@ -78,7 +78,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 <p>How to set up GA4 so the data is trustworthy, how to read the key reports, how to set up conversion tracking, and how to connect GA4 to GSC for a complete picture of your organic traffic.</p>
 
 <h3 class="wp-block-heading">4. On-Page SEO</h3>
-<p>Title tags, meta descriptions, heading structure, internal linking, and how to use AI tools to speed up optimisation without losing your brand voice.</p>
+<p>Title tags, meta descriptions, heading structure, internal linking, and how to use AI tools to speed up optimization without losing your brand voice.</p>
 
 <h3 class="wp-block-heading">5. AI and Generative Search</h3>
 <p>How to structure your content so it appears in Google AI Overviews and gets cited by ChatGPT, Perplexity, and Gemini. This is the fastest-growing area of SEO in 2026 and most coaches are not covering it yet.</p>

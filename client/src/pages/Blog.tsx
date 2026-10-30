@@ -5,7 +5,7 @@
 // External links: → Google Search Central, Google Ads Help, GA4 Help (non-competing authority only)
 // Target audience: Medium-sized businesses
 // Readability: Grade 5-6
-// GEO priority: Data-Driven SEO, Generative Engine Optimisation
+// GEO priority: Data-Driven SEO, Generative Engine Optimization
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -36,7 +36,7 @@ const blogPosts = [
   {
     slug: 'ai-seo-course',
     title: 'AI SEO Course, How to Rank on Google and in ChatGPT, Perplexity & Gemini (2026)',
-    excerpt: 'The complete AI SEO course for medium-sized businesses. Learn the KnowHow Data-First AI SEO Method: keyword research, on-page optimisation, AI SEO (also called GEO), and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.',
+    excerpt: 'The complete AI SEO course for medium-sized businesses. Learn the KnowHow Data-First AI SEO Method: keyword research, on-page optimization, AI SEO (also called GEO), and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.',
     category: 'SEO',
     author: 'Pip Seymour & Phelan Lewis',
     date: 'March 23, 2026',
@@ -50,7 +50,7 @@ const blogPosts = [
   {
     slug: 'google-ads-framework',
     title: 'The KnowHow Google Ads Framework: 5 Phases to Profitable Campaigns',
-    excerpt: 'The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method, Foundation, Research, Build, Optimise, Scale, walks you through every step of building campaigns that actually work, with AI shortcuts for each phase.',
+    excerpt: 'The complete Google Ads framework for medium-sized businesses. The KnowHow 5-phase method, Foundation, Research, Build, Optimize, Scale, walks you through every step of building campaigns that actually work, with AI shortcuts for each phase.',
     category: 'Google Ads',
     author: 'Pip Seymour & Phelan Lewis',
     date: 'March 23, 2026',
@@ -122,7 +122,7 @@ const blogPosts = [
   {
     slug: 'how-to-use-ai-for-seo',
     title: 'How to Use AI for SEO: The KnowHow Method (2026)',
-    excerpt: 'AI tools can speed up SEO, but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimisation, and AI SEO, without losing the human expertise that makes content rank.',
+    excerpt: 'AI tools can speed up SEO, but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimization, and AI SEO, without losing the human expertise that makes content rank.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'April 7, 2026',
@@ -300,13 +300,13 @@ const blogPosts = [
     readTime: '9 min read',
     isPillar: false,
     image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
-    imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximise Conversions, and Manual CPC explained',
+    imageAlt: 'Google Ads bidding strategies guide 2026 - Target CPA, Target ROAS, Maximize Conversions, and Manual CPC explained',
     externalUrl: null,
   },
   {
     slug: 'ai-seo-guide',
     title: 'The Complete Guide to AI SEO',
-    excerpt: 'All 7 AI search optimisation acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
+    excerpt: 'All 7 AI search optimization acronyms - SEO, GEO, AEO, SGE, LLMO, AIO, AI SEO - explained in plain language. They are all related approaches to the same goal: being visible when people search, whether on Google or ChatGPT.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'October 19, 2025',
@@ -362,7 +362,7 @@ const blogPosts = [
   {
     slug: 'how-ai-is-shaping-marketing',
     title: 'How AI is Shaping Marketing: From Content Creation to Campaign Analysis',
-    excerpt: 'AI is changing every part of digital marketing - from writing ad copy to analysing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
+    excerpt: 'AI is changing every part of digital marketing - from writing ad copy to analyzing campaign performance. This guide covers the practical ways medium-sized businesses can use AI tools right now to save time and improve results.',
     category: 'AI Marketing',
     author: 'Pip Seymour',
     date: 'November 15, 2024',
@@ -408,7 +408,7 @@ const pillarFaqs = [
   },
   {
     q: 'What is AI SEO (also called GEO)?',
-    a: 'AI SEO (also called GEO) is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
+    a: 'AI SEO (also called GEO) is the practice of optimizing your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
   },
 ];
 
@@ -557,7 +557,7 @@ export default function Blog() {
                         <li><a href="#google-search-console-setup" className="hover:underline">Step 1: Google Search Console setup</a></li>
                         <li><a href="#ga4-for-seo" className="hover:underline">Step 2: GA4 for SEO decisions</a></li>
                         <li><a href="#keyword-research" className="hover:underline">Step 3: Keyword research with real data</a></li>
-                        <li><a href="#on-page-optimisation" className="hover:underline">Step 4: On-page optimisation</a></li>
+                        <li><a href="#on-page-optimisation" className="hover:underline">Step 4: On-page optimization</a></li>
                         <li><a href="#geo-ai-overviews" className="hover:underline">Step 5: AI SEO and AI Overviews</a></li>
                         <li><a href="#pillar-faqs" className="hover:underline">Frequently asked questions</a></li>
                       </ul>
@@ -624,7 +624,7 @@ export default function Blog() {
                       <li><strong>Measure first</strong> - set up Google Search Console and GA4 before doing anything else</li>
                       <li><strong>Find your baseline</strong> - understand what traffic and rankings you already have</li>
                       <li><strong>Identify opportunities</strong> - find keywords where you rank on page 2 or 3 and can realistically reach page 1</li>
-                      <li><strong>Optimise with intent</strong> - improve pages based on what the data tells you, not what you think looks good</li>
+                      <li><strong>Optimize with intent</strong> - improve pages based on what the data tells you, not what you think looks good</li>
                       <li><strong>Measure and repeat</strong> - track changes, learn from results, and keep improving</li>
                     </ol>
 
@@ -670,7 +670,7 @@ export default function Blog() {
                     </p>
 
                     <h2 id="on-page-optimisation" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      Step 4: On-Page Optimisation, Step by Step
+                      Step 4: On-Page Optimization, Step by Step
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       On-page SEO is about making sure each page on your website clearly communicates its topic to both Google and your visitors. The basics are: a clear H1 heading that includes your target keyword, a meta title and description that make people want to click, and content that fully answers the question the searcher is asking.
@@ -684,7 +684,7 @@ export default function Blog() {
                       Step 5: AI SEO, Getting Cited in AI Overviews and ChatGPT
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      AI SEO (also called GEO) is the practice of optimising your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
+                      AI SEO (also called GEO) is the practice of optimizing your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Thorough coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}

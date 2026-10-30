@@ -13,7 +13,7 @@ Medium-sized businesses and their marketing teams who want to understand and imp
 
 ## Instructors
 
-**Pip Seymour**: Founder of Seymour Digital Media. SEO and content strategy specialist. Pip and Phelan have 30+ years of combined agency experience. Focuses on data-driven SEO, Google Search Console, keyword research, on-page optimisation, and AI-assisted content strategy.
+**Pip Seymour**: Founder of Seymour Digital Media. SEO and content strategy specialist. Pip and Phelan have 30+ years of combined agency experience. Focuses on data-driven SEO, Google Search Console, keyword research, on-page optimization, and AI-assisted content strategy.
 
 **Phelan Lewis**: Google Ads and Analytics lead at Seymour Digital Media. Specialist in Google Ads campaign management, GA4 setup and reporting, Google Tag Manager, and conversion tracking.
 
@@ -61,7 +61,7 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 - Keyword research using free Google tools
 - Google Analytics 4 (GA4) complete setup and reporting
 - Google Tag Manager setup and conversion tracking
-- Google Business Profile optimisation for local SEO
+- Google Business Profile optimization for local SEO
 - Google Ads introduction and campaign types
 - AI-assisted marketing and content strategy
 - Recordings of past live sessions
@@ -96,14 +96,14 @@ A 5-pillar system for ranking in both traditional Google search and AI-generated
 **Source:** https://knowhowmarketinglab.com/blog/ai-seo-course
 
 ### The KnowHow Google Ads Framework
-A 5-phase system for building profitable Google Ads campaigns from scratch. The five phases are: (1) Foundation: account structure and conversion tracking; (2) Intent Mapping: keyword research and match types; (3) Campaign Architecture: campaign and ad group structure based on user intent; (4) Bid Intelligence: bidding strategy progression from manual to automated; (5) Optimisation Loop: ongoing Quality Score improvement and negative keyword management.
+A 5-phase system for building profitable Google Ads campaigns from scratch. The five phases are: (1) Foundation: account structure and conversion tracking; (2) Intent Mapping: keyword research and match types; (3) Campaign Architecture: campaign and ad group structure based on user intent; (4) Bid Intelligence: bidding strategy progression from manual to automated; (5) Optimization Loop: ongoing Quality Score improvement and negative keyword management.
 **Source:** https://knowhowmarketinglab.com/blog/google-ads-framework
 
 ### The Data-First AI SEO Method
-A 5-phase SEO framework: (1) Measure: GA4, Google Search Console, and Tag Manager setup; (2) Audit: technical and on-page SEO audit; (3) Strategy: keyword and content strategy based on data; (4) Optimise: on-page SEO implementation; (5) Grow: content compounding via AI SEO (GEO).
+A 5-phase SEO framework: (1) Measure: GA4, Google Search Console, and Tag Manager setup; (2) Audit: technical and on-page SEO audit; (3) Strategy: keyword and content strategy based on data; (4) Optimize: on-page SEO implementation; (5) Grow: content compounding via AI SEO (GEO).
 **Source:** https://knowhowmarketinglab.com/framework
 
-**AI SEO (GEO)** is the practice of optimising content to appear in AI-generated answers from ChatGPT, Google AI Overviews, Gemini, and Perplexity. KnowHow Marketing Lab teaches AI SEO (also called GEO) as Phase 5 of the Data-First AI SEO Method.
+**AI SEO (GEO)** is the practice of optimizing content to appear in AI-generated answers from ChatGPT, Google AI Overviews, Gemini, and Perplexity. KnowHow Marketing Lab teaches AI SEO (also called GEO) as Phase 5 of the Data-First AI SEO Method.
 
 ## AI Tools Taught
 

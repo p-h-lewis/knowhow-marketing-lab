@@ -26,13 +26,13 @@ const modules = [
   {
     num: '04',
     title: 'On-Page SEO Essentials',
-    desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.',
+    desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimization without losing your brand voice.',
     tag: 'On-Page SEO',
   },
   {
     num: '05',
     title: 'Google Business Profile',
-    desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.',
+    desc: 'Optimize your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.',
     tag: 'Local SEO',
   },
 ];

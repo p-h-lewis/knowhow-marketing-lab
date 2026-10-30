@@ -21,7 +21,7 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 <ul class="wp-block-list">
 <li><strong>Smaller budgets mean less room for error.</strong> If you're spending $500-$2,000 per month, every dollar matters. A poorly structured campaign or the wrong bidding strategy can burn through your budget in days with nothing to show for it.</li>
 <li><strong>No dedicated ads team.</strong> In most small businesses, the person running Google Ads is also doing everything else, social media, email, the website, customer service. They don't have hours to spend learning the platform from scratch.</li>
-<li><strong>Google's interface is designed to spend your money.</strong> The default settings in Google Ads, broad match keywords, Smart Bidding with no conversion data, auto-applied recommendations, are not optimised for small business budgets. They're optimised for Google's revenue.</li>
+<li><strong>Google's interface is designed to spend your money.</strong> The default settings in Google Ads, broad match keywords, Smart Bidding with no conversion data, auto-applied recommendations, are not optimized for small business budgets. They're optimized for Google's revenue.</li>
 <li><strong>Conversion tracking is often broken or missing.</strong> Without accurate conversion tracking, Google's algorithm has no idea what a good result looks like. It will spend your budget, but it won't learn what's working.</li>
 </ul>
 
@@ -37,7 +37,7 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 <li><strong>Conversion tracking check:</strong> Is your conversion tracking set up correctly in Google Ads and GA4? This is the single most important thing to get right. Without it, nothing else works properly.</li>
 <li><strong>Campaign structure review:</strong> Are your campaigns and ad groups set up in a way that gives Google clear signals? Small businesses often have too many keywords in a single ad group, which makes it hard to write relevant ads and hurts Quality Score.</li>
 <li><strong>Budget allocation:</strong> Is your budget spread across too many campaigns? For small budgets, it is usually better to focus on one or two campaigns that are working rather than spreading thin across five.</li>
-<li><strong>Bidding strategy:</strong> Are you on the right bidding strategy for your conversion volume? Most small businesses should start with Manual CPC or Maximise Clicks until they have at least 30 conversions per month. Moving to Target CPA or Target ROAS too early is one of the most common mistakes.</li>
+<li><strong>Bidding strategy:</strong> Are you on the right bidding strategy for your conversion volume? Most small businesses should start with Manual CPC or Maximize Clicks until they have at least 30 conversions per month. Moving to Target CPA or Target ROAS too early is one of the most common mistakes.</li>
 <li><strong>Negative keywords:</strong> Are you blocking irrelevant searches? Without a solid negative keyword list, broad match and phrase match keywords will show your ads to people who will never buy from you.</li>
 </ul>
 
@@ -48,8 +48,8 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 <p>There are a few options depending on your budget:</p>
 
 <ul class="wp-block-list">
-<li><strong>One-on-one coaching ($150-$500/hour):</strong> The most personalised option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
-<li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Tuesday sessions where Phelan looks at real accounts for $29 CAD/month.</li>
+<li><strong>One-on-one coaching ($150-$500/hour):</strong> The most personalized option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalized than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Tuesday sessions where Phelan looks at real accounts for $29 CAD/month.</li>
 <li><strong>Self-directed learning:</strong> A good course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads course</a> (included in The Lab, $29 CAD/mo) covers everything from campaign types to bidding strategies.</li>
 </ul>
 
@@ -60,13 +60,13 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 <p>If you're a small business running Google Ads right now, here are the highest-priority things to check before anything else:</p>
 
 <h3 class="wp-block-heading">1. Fix Your Conversion Tracking</h3>
-<p>Go to your Google Ads account → Tools → Conversions. Do you have at least one conversion action set up and recording data? If not, this is your first job. Without conversion tracking, Google has no idea what a good outcome looks like for your business. It will spend your budget, but it won't optimise for results.</p>
+<p>Go to your Google Ads account → Tools → Conversions. Do you have at least one conversion action set up and recording data? If not, this is your first job. Without conversion tracking, Google has no idea what a good outcome looks like for your business. It will spend your budget, but it won't optimize for results.</p>
 
 <h3 class="wp-block-heading">2. Check Your Search Terms Report</h3>
 <p>Go to Keywords → Search Terms. Look at what searches are actually triggering your ads. If you see a lot of irrelevant searches, you need to add negative keywords. This is one of the fastest ways to stop wasting budget.</p>
 
 <h3 class="wp-block-heading">3. Check Your Bidding Strategy</h3>
-<p>If you have fewer than 30 conversions per month, you should probably be on Manual CPC or Maximise Clicks, not Target CPA or Target ROAS. Smart Bidding needs data to work. Without enough conversions, it will make poor decisions. See our <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">complete guide to Google Ads bidding strategies</a> for more detail on when to switch.</p>
+<p>If you have fewer than 30 conversions per month, you should probably be on Manual CPC or Maximize Clicks, not Target CPA or Target ROAS. Smart Bidding needs data to work. Without enough conversions, it will make poor decisions. See our <a href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies" style="color:#318599;text-decoration:underline;">complete guide to Google Ads bidding strategies</a> for more detail on when to switch.</p>
 
 <h3 class="wp-block-heading">4. Check Your Campaign Type</h3>
 <p>Are you running the right type of campaign for your goal? Search campaigns are usually the best starting point for small businesses because they show ads to people who are actively searching for what you offer. Performance Max can work well once you have conversion data, but it is harder to control and diagnose. Read our <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">guide to Google Ads campaign types</a> to understand the differences.</p>

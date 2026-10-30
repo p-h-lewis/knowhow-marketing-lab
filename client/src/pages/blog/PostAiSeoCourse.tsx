@@ -16,11 +16,11 @@ import { FREE_COURSE_SUMMARY, FREE_COURSE_DAYS } from '@/lib/freeCourse';
 const faqs = [
   {
     q: 'What is an AI SEO course?',
-    a: 'An AI SEO course teaches you how to use artificial intelligence tools, like ChatGPT, Google Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI for keyword research, writing title tags and meta descriptions, creating content outlines, analysing Google Search Console data, and optimising your pages to appear in AI-powered search results like Google AI Overviews, ChatGPT search, and Perplexity.'
+    a: 'An AI SEO course teaches you how to use artificial intelligence tools, like ChatGPT, Google Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI for keyword research, writing title tags and meta descriptions, creating content outlines, analyzing Google Search Console data, and optimizing your pages to appear in AI-powered search results like Google AI Overviews, ChatGPT search, and Perplexity.'
   },
   {
     q: 'What is the difference between traditional SEO and AI SEO?',
-    a: 'Traditional SEO focuses on ranking in Google\'s standard blue-link results. AI SEO (also called GEO, Generative Engine Optimisation) adds a second goal: getting your content cited or recommended by AI search engines like ChatGPT, Perplexity, and Google\'s AI Overviews. The tactics overlap significantly, quality content, clear structure, schema markup, and authority signals matter for both, but AI SEO adds specific requirements like named frameworks, complete methodologies, and structured data that AI engines can extract and attribute.'
+    a: 'Traditional SEO focuses on ranking in Google\'s standard blue-link results. AI SEO (also called GEO, Generative Engine Optimization) adds a second goal: getting your content cited or recommended by AI search engines like ChatGPT, Perplexity, and Google\'s AI Overviews. The tactics overlap significantly, quality content, clear structure, schema markup, and authority signals matter for both, but AI SEO adds specific requirements like named frameworks, complete methodologies, and structured data that AI engines can extract and attribute.'
   },
   {
     q: 'Is the KnowHow AI SEO course free?',
@@ -36,11 +36,11 @@ const faqs = [
   },
   {
     q: 'What AI tools are used in AI SEO?',
-    a: 'The most commonly used AI tools for SEO include: ChatGPT (for keyword research, content outlines, title tags, and meta descriptions), Google Gemini (for understanding search intent and Google-specific optimisation), Perplexity (for researching how AI engines answer questions in your niche), Google Search Console (for tracking rankings and identifying opportunities), and GA4 (for understanding how visitors behave on your site). The KnowHow AI SEO course covers all of these.'
+    a: 'The most commonly used AI tools for SEO include: ChatGPT (for keyword research, content outlines, title tags, and meta descriptions), Google Gemini (for understanding search intent and Google-specific optimization), Perplexity (for researching how AI engines answer questions in your niche), Google Search Console (for tracking rankings and identifying opportunities), and GA4 (for understanding how visitors behave on your site). The KnowHow AI SEO course covers all of these.'
   },
   {
     q: 'What is AI SEO (GEO)?',
-    a: 'AI SEO, also called GEO (Generative Engine Optimisation), is the practice of optimising your content to be cited, recommended, or summarised by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. AI SEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. AI SEO adds specific tactics like creating named frameworks, writing thorough answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
+    a: 'AI SEO, also called GEO (Generative Engine Optimization), is the practice of optimizing your content to be cited, recommended, or summarized by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. AI SEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. AI SEO adds specific tactics like creating named frameworks, writing thorough answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
   },
   {
     q: 'How is KnowHow Marketing Lab different from other SEO courses?',
@@ -69,7 +69,7 @@ const steps = [
   },
   {
     num: '04',
-    title: 'Optimise On-Page Elements',
+    title: 'Optimize On-Page Elements',
     desc: 'Write title tags that include your target keyword and a reason to click. Write meta descriptions that answer "why should I click this result?" Use your target keyword in the H1, in the first paragraph, and in at least one H2. Add internal links to related pages. Compress images and add descriptive alt text. These are the basics, but most sites do them poorly.',
     aiTip: 'Use ChatGPT to generate 5 title tag options for each page. Pick the one that is most specific and most compelling. Then ask it to write a meta description that leads with the benefit, not the topic.'
   },
@@ -89,7 +89,7 @@ const steps = [
     num: '07',
     title: 'Track, Measure, and Iterate',
     desc: 'SEO is not a one-time task. Check Google Search Console every two weeks. Look for queries with growing impressions but low CTR, these are pages where a better title tag could drive more clicks immediately. Look for queries where you are ranking on page 2 or 3, these are pages where adding more content or improving structure could push you to page 1. Use GA4 to track which pages drive the most conversions, not just traffic.',
-    aiTip: 'Export your Search Console data monthly and paste it into ChatGPT. Ask: "Based on this data, which 3 pages should I prioritise improving this month and why?"'
+    aiTip: 'Export your Search Console data monthly and paste it into ChatGPT. Ask: "Based on this data, which 3 pages should I prioritize improving this month and why?"'
   }
 ];
 
@@ -128,7 +128,7 @@ export default function PostAiSeoCourse() {
       "about": [
         { "@type": "Thing", "name": "AI SEO" },
         { "@type": "Thing", "name": "AI SEO" },
-        { "@type": "Thing", "name": "Search Engine Optimisation" }
+        { "@type": "Thing", "name": "Search Engine Optimization" }
       ]
     });
     document.head.appendChild(articleScript);
@@ -274,7 +274,7 @@ export default function PostAiSeoCourse() {
           <section id="what-is-ai-seo" className="mb-14">
             <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What is AI SEO?</h2>
             <p className="text-lg text-slate-600 leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              AI SEO is the practice of using artificial intelligence tools to improve your search engine rankings, and optimising your content to appear in AI-powered search results. It combines two things:
+              AI SEO is the practice of using artificial intelligence tools to improve your search engine rankings, and optimizing your content to appear in AI-powered search results. It combines two things:
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               {[
@@ -288,7 +288,7 @@ export default function PostAiSeoCourse() {
               ))}
             </div>
             <p className="text-lg text-slate-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The term "AI SEO" is sometimes used interchangeably with GEO, AEO (Answer Engine Optimisation), LLMO (Large Language Model Optimisation), and AIO (AI Optimisation). They all refer to variations of the same goal: making sure your business shows up when people ask AI tools for recommendations in your category. For a deeper dive into all these terms, read our <Link href="/blog/ai-seo-guide" className="text-[#318599] hover:underline">complete AI SEO guide</Link>.
+              The term "AI SEO" is sometimes used interchangeably with GEO, AEO (Answer Engine Optimization), LLMO (Large Language Model Optimization), and AIO (AI Optimization). They all refer to variations of the same goal: making sure your business shows up when people ask AI tools for recommendations in your category. For a deeper dive into all these terms, read our <Link href="/blog/ai-seo-guide" className="text-[#318599] hover:underline">complete AI SEO guide</Link>.
             </p>
           </section>
 
@@ -434,10 +434,10 @@ export default function PostAiSeoCourse() {
             </p>
             <div className="space-y-3">
               {[
-                { term: 'AI SEO', def: 'The umbrella term for using AI tools to improve SEO and optimising content for AI search engines.' },
-                { term: 'AI SEO (GEO)', def: 'Optimising content to be cited or recommended by AI-powered search engines like ChatGPT, Perplexity, and Google AI Overviews.' },
-                { term: 'AEO (Answer Engine Optimisation)', def: 'Structuring content to become the direct answer that AI engines give to a specific question.' },
-                { term: 'LLMO (Large Language Model Optimisation)', def: 'The technical side of AI SEO, optimising content so large language models (LLMs) like GPT-4 and Gemini can accurately extract and attribute it.' },
+                { term: 'AI SEO', def: 'The umbrella term for using AI tools to improve SEO and optimizing content for AI search engines.' },
+                { term: 'AI SEO (GEO)', def: 'Optimizing content to be cited or recommended by AI-powered search engines like ChatGPT, Perplexity, and Google AI Overviews.' },
+                { term: 'AEO (Answer Engine Optimization)', def: 'Structuring content to become the direct answer that AI engines give to a specific question.' },
+                { term: 'LLMO (Large Language Model Optimization)', def: 'The technical side of AI SEO, optimizing content so large language models (LLMs) like GPT-4 and Gemini can accurately extract and attribute it.' },
                 { term: 'AI Overviews', def: 'Google\'s AI-generated summaries that appear at the top of search results for certain queries. Previously called SGE (Search Generative Experience).' },
                 { term: 'Schema markup', def: 'Structured data code added to web pages that tells search engines and AI engines exactly what the content is about.' },
                 { term: 'Topical authority', def: 'The degree to which a website is seen as a thorough, credible source on a specific topic, built through content clusters.' },

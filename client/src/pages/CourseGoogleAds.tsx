@@ -19,7 +19,7 @@ const modules = [
   { num: '04', title: 'Writing Ads That Get Clicks', desc: 'Write responsive search ads and headlines that speak directly to what your customer wants.' },
   { num: '05', title: 'Bidding Strategies Explained', desc: 'Choose the right bidding strategy for your goals - manual CPC, target CPA, target ROAS, and more.' },
   { num: '06', title: 'Conversion Tracking Setup', desc: 'Track every form fill, phone call, and purchase so you know exactly which ads are making money.' },
-  { num: '07', title: 'Reading Your Data and Optimising', desc: 'Learn which numbers matter, how to spot wasted spend, and what to change to improve results.' },
+  { num: '07', title: 'Reading Your Data and Optimizing', desc: 'Learn which numbers matter, how to spot wasted spend, and what to change to improve results.' },
   { num: '08', title: 'Advanced Campaigns - Display, YouTube, Performance Max', desc: 'Expand beyond search with display ads, YouTube campaigns, and Performance Max.' },
 ];
 
@@ -191,13 +191,13 @@ export default function CourseGoogleAds() {
                   Most Google Ads courses teach you the theory. This course gives you a step-by-step system - the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module - use them to write ad copy, analyse performance data, and find wasted spend in minutes.
+                  In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module - use them to write ad copy, analyze performance data, and find wasted spend in minutes.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { title: 'Course Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
-                  { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
+                  { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyze performance, and find wasted spend fast.' },
                   { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Tuesday, 12 to 1 pm Pacific.' },
                   { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it - using real data, not guesswork.' },
                 ].map(item => (

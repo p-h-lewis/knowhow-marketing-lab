@@ -50,7 +50,7 @@ export default function PostKeywordResearchKeywordClusters() {
         { "@type": "Question", "name": "What is a keyword cluster?", "acceptedAnswer": { "@type": "Answer", "text": "A keyword cluster is a group of related keywords that all share the same search intent. Instead of targeting one keyword per page, you target a whole cluster - the main topic plus all the related questions and variations people search for around that topic. This is how Google actually evaluates topical authority." } },
         { "@type": "Question", "name": "How many keywords should be in a cluster?", "acceptedAnswer": { "@type": "Answer", "text": "A typical keyword cluster has 5 to 20 keywords. The main head term (e.g., 'keyword research') plus 4 to 19 related long-tail keywords and question keywords that share the same intent. The exact number depends on how broad the topic is." } },
         { "@type": "Question", "name": "Is Google Keyword Planner free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Google Keyword Planner is free to use. You need a Google Ads account to access it, but you do not need to run any ads or spend any money. Just create a Google Ads account, skip the campaign setup, and go directly to the Keyword Planner tool." } },
-        { "@type": "Question", "name": "What is the difference between keyword research and keyword clustering?", "acceptedAnswer": { "@type": "Answer", "text": "Keyword research is the process of finding keywords people search for. Keyword clustering is the process of organising those keywords into topic groups based on shared intent. You do keyword research first, then cluster the results. Clustering is what turns a list of keywords into a content strategy." } },
+        { "@type": "Question", "name": "What is the difference between keyword research and keyword clustering?", "acceptedAnswer": { "@type": "Answer", "text": "Keyword research is the process of finding keywords people search for. Keyword clustering is the process of organizing those keywords into topic groups based on shared intent. You do keyword research first, then cluster the results. Clustering is what turns a list of keywords into a content strategy." } },
         { "@type": "Question", "name": "How does keyword clustering help with AI search?", "acceptedAnswer": { "@type": "Answer", "text": "AI systems like ChatGPT and Google AI Overviews look for thorough, authoritative coverage of a topic - not just a page that mentions a keyword. When you build content around keyword clusters, you demonstrate topical authority. This makes your content more likely to be cited by AI systems when someone asks a question in your topic area." } }
       ]
     };
@@ -150,7 +150,7 @@ export default function PostKeywordResearchKeywordClusters() {
               <li><a href="#step3-ai" className="hover:underline">5. Step 3 - Use AI to expand your clusters fast</a></li>
               <li><a href="#step4-group" className="hover:underline">6. Step 4 - Group keywords by intent</a></li>
               <li><a href="#step5-map" className="hover:underline">7. Step 5 - Map clusters to pages</a></li>
-              <li><a href="#step6-prioritise" className="hover:underline">8. Step 6 - Prioritise which clusters to target first</a></li>
+              <li><a href="#step6-prioritise" className="hover:underline">8. Step 6 - Prioritize which clusters to target first</a></li>
               <li><a href="#gsc-data" className="hover:underline">9. How to use Google Search Console data in your cluster strategy</a></li>
               <li><a href="#faq" className="hover:underline">10. Frequently asked questions</a></li>
             </ol>
@@ -165,7 +165,7 @@ export default function PostKeywordResearchKeywordClusters() {
 
 <p>A keyword cluster is a group of related keywords that all share the same search intent. Instead of targeting one keyword per page, you target a whole cluster - the main topic plus all the related questions and variations people search for around that topic.</p>
 
-<p>Here is a simple example. If you sell accounting software for manufacturers, your seed keyword might be "accounting software for manufacturers." But people also search for "manufacturing ERP software," "job costing software for manufacturers," "inventory accounting software," and "best accounting software for small manufacturers." These are all part of the same cluster. One well-written page that covers the full topic can show up for many of them - not just the one keyword you optimised for.</p>
+<p>Here is a simple example. If you sell accounting software for manufacturers, your seed keyword might be "accounting software for manufacturers." But people also search for "manufacturing ERP software," "job costing software for manufacturers," "inventory accounting software," and "best accounting software for small manufacturers." These are all part of the same cluster. One well-written page that covers the full topic can show up for many of them - not just the one keyword you optimized for.</p>
 
 <p>This matters because Google has shifted from matching keywords to understanding topics. Its systems now evaluate whether your content demonstrates genuine expertise on a subject - what Google calls "topical authority." Keyword clusters are how you build that authority systematically.</p>
 
@@ -178,7 +178,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <tbody>
 <tr><td>Write a page targeting "accounting software for manufacturers"</td><td>Write a page covering the full topic: what it is, who needs it, key features, how to choose, top options</td></tr>
 <tr><td>Ranks for one keyword (maybe)</td><td>Ranks for 10-50 related keywords</td></tr>
-<tr><td>Thin content that Google deprioritises</td><td>Thorough content that builds topical authority</td></tr>
+<tr><td>Thin content that Google deprioritizes</td><td>Thorough content that builds topical authority</td></tr>
 <tr><td>No connection between pages</td><td>Pages link to each other, reinforcing the topic cluster</td></tr>
 <tr><td>Ignored by AI systems</td><td>More likely to be cited by ChatGPT, Gemini, AI Overviews</td></tr>
 </tbody>
@@ -224,7 +224,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <li><strong>Long-tail variations</strong> - keywords with 4 or more words that are more specific. These are often easier to rank for and convert better because the searcher knows exactly what they want.</li>
 </ul>
 
-<p>Repeat this process for each of your seed keywords. You will end up with a large list of keywords - that is fine. The next step is to organise them.</p>
+<p>Repeat this process for each of your seed keywords. You will end up with a large list of keywords - that is fine. The next step is to organize them.</p>
 
 <h2 id="step3-ai">Step 3 - Use AI to expand your clusters fast</h2>
 
@@ -278,9 +278,9 @@ export default function PostKeywordResearchKeywordClusters() {
 
 <p>The pillar post covers the broad topic. The cluster posts cover specific subtopics in more detail. Each cluster post links back to the pillar post, and the pillar post links out to all the cluster posts. This internal linking structure tells Google that your site has thorough coverage of the topic - which is exactly what builds topical authority.</p>
 
-<h2 id="step6-prioritise">Step 6 - Prioritise which clusters to target first</h2>
+<h2 id="step6-prioritise">Step 6 - Prioritize which clusters to target first</h2>
 
-<p>You cannot write all your content at once. Here is how to prioritise which clusters to tackle first:</p>
+<p>You cannot write all your content at once. Here is how to prioritize which clusters to tackle first:</p>
 
 <h3>Priority 1 - Clusters where you already have some ranking</h3>
 <p>Check Google Search Console for keywords where you rank between position 4 and 15. These are your "almost there" keywords - you are already on page one or close to it. A well-written cluster post targeting these keywords may help you move up.</p>
@@ -321,7 +321,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <p>Yes. Google Keyword Planner is completely free. You need a Google Ads account to access it, but you do not need to run any ads or spend any money. Create a Google Ads account at ads.google.com, skip the campaign setup, and go to Tools > Keyword Planner. All the data is available at no cost.</p>
 
 <h3>What is the difference between keyword research and keyword clustering?</h3>
-<p>Keyword research is the process of finding keywords people search for. Keyword clustering is the process of organising those keywords into topic groups based on shared intent. You do keyword research first, then cluster the results. Clustering is what turns a list of keywords into a content strategy. Without clustering, keyword research is just a spreadsheet of words. With clustering, it becomes a roadmap for your content.</p>
+<p>Keyword research is the process of finding keywords people search for. Keyword clustering is the process of organizing those keywords into topic groups based on shared intent. You do keyword research first, then cluster the results. Clustering is what turns a list of keywords into a content strategy. Without clustering, keyword research is just a spreadsheet of words. With clustering, it becomes a roadmap for your content.</p>
 
 <h3>How does keyword clustering help with AI search?</h3>
 <p>AI systems like ChatGPT and Google AI Overviews look for thorough, authoritative coverage of a topic - not just a page that mentions a keyword. When you build content around keyword clusters, you demonstrate topical authority. This makes your content more likely to be cited by AI systems when someone asks a question in your topic area. This is a core part of AI SEO (also called GEO) - the strategy of making your content visible in AI-generated answers, not just traditional search results.</p>

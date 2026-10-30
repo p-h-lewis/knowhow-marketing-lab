@@ -30,7 +30,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ul class="wp-block-list">
 <li>Efficient content drafting and keyword integration</li>
 
-<li>Tools like Microsoft Clarity for analysing user interactions</li>
+<li>Tools like Microsoft Clarity for analyzing user interactions</li>
 
 <li>Rapid script development and application building with AI coding assistants like ChatGPT</li>
 </ul>
@@ -59,7 +59,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ul class="wp-block-list">
 <li>Clearly define your marketing needs</li>
 
-<li>Consider platforms that optimise workflow for efficiency</li>
+<li>Consider platforms that optimize workflow for efficiency</li>
 </ul>
 
 <figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="AI marketing tool comparison chart" class="wp-image-8350"
@@ -111,7 +111,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ul class="wp-block-list">
 <li>Creation of brand-consistent AI-generated images</li>
 
-<li>Resource optimisation without compromising quality</li>
+<li>Resource optimization without compromising quality</li>
 </ul>
 
 <p><strong>[Image: Before and after examples of AI-generated ad visuals]</strong></p>
@@ -125,10 +125,10 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ul class="wp-block-list">
 <li>More conversational search queries with long-tail keywords</li>
 
-<li>Search engines prioritising intent-based results</li>
+<li>Search engines prioritizing intent-based results</li>
 </ul>
 
-<h3 class="wp-block-heading has--font-size" id="h-optimising-your-content">Optimising Your Content:</h3>
+<h3 class="wp-block-heading has--font-size" id="h-optimising-your-content">Optimizing Your Content:</h3>
 
 <ul class="wp-block-list">
 <li>Align content structure with user intent and needs</li>

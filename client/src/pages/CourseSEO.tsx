@@ -29,9 +29,9 @@ const faqs = [
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
   { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The free course is a five-day start. Live sessions, site reviews and the full SEO course and class library are in The Lab. The Lab ($29 CAD/mo) adds a live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
   { q: 'Does this course cover AI and generative search?', a: 'Yes. Each day comes with an AI prompt to help, and Day 4 covers how you show up on Google. Deeper AI SEO training is in The Lab.' },
-  { q: 'How does AI affect SEO in 2026?', a: 'AI has changed SEO in three big ways. First, Google now shows AI Overviews at the top of search results, which means your content needs to be structured so AI can summarise it accurately. Second, people are searching directly in ChatGPT, Perplexity, and Gemini instead of Google, so your site needs to be cited by those systems too. Third, AI tools like ChatGPT and Gemini can now help you do keyword research, write title tags, and optimise content much faster. This course covers all three shifts.' },
+  { q: 'How does AI affect SEO in 2026?', a: 'AI has changed SEO in three big ways. First, Google now shows AI Overviews at the top of search results, which means your content needs to be structured so AI can summarize it accurately. Second, people are searching directly in ChatGPT, Perplexity, and Gemini instead of Google, so your site needs to be cited by those systems too. Third, AI tools like ChatGPT and Gemini can now help you do keyword research, write title tags, and optimize content much faster. This course covers all three shifts.' },
   { q: 'What is AI SEO (also called GEO)?', a: 'AI SEO (also called GEO) is the practice of making your content easy for AI search engines like ChatGPT, Perplexity, and Google Gemini to find, understand, and cite. It includes using structured data (schema markup), writing complete answers to specific questions, creating named frameworks, and building topical authority on a subject. The free course touches on it, and The Lab goes deeper.' },
-  { q: 'Will AI replace SEO?', a: 'No, but it is changing it fast. AI tools are making SEO faster and more accessible, while AI search engines are creating new ways for people to find content. Businesses that learn to optimise for both traditional search and AI search will have a significant advantage. This course teaches you both.' },
+  { q: 'Will AI replace SEO?', a: 'No, but it is changing it fast. AI tools are making SEO faster and more accessible, while AI search engines are creating new ways for people to find content. Businesses that learn to optimize for both traditional search and AI search will have a significant advantage. This course teaches you both.' },
 ];
 
 export default function CourseSEO() {
@@ -70,7 +70,7 @@ export default function CourseSEO() {
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
             "teaches": ["SEO", "AI SEO", "Google Search Console", "GA4", "Keyword Research", "On-Page SEO", "Google Business Profile"],
             "about": [
-              { "@type": "Thing", "name": "Search Engine Optimisation" },
+              { "@type": "Thing", "name": "Search Engine Optimization" },
               { "@type": "Thing", "name": "AI SEO" },
               { "@type": "Thing", "name": "Google Analytics 4" },
               { "@type": "Thing", "name": "Google Search Console" }
@@ -79,7 +79,7 @@ export default function CourseSEO() {
               "@type": "CourseInstance",
               "courseMode": "online",
               "instructor": [
-                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist, specialising in data-driven SEO and AI SEO." },
+                { "@type": "Person", "name": "Pip Seymour", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "SEO & Digital Marketing Strategist", "description": "Pip Seymour is a digital marketing strategist and SEO specialist, specializing in data-driven SEO and AI SEO." },
                 { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist helping medium-sized businesses measure what matters." }
               ]
             },

@@ -164,9 +164,9 @@ export default function PostGoogleAdsCoaching() {
 
             <h2 id="three-mistakes">The 3 Biggest Mistakes People Make Without Coaching</h2>
             <h3>1. Wrong campaign type for the goal</h3>
-            <p>The most common mistake is using Performance Max when you should be using Search, or using broad match keywords when you should be using phrase match. These decisions have a massive impact on where your budget goes. Without coaching, most people never realise this is happening.</p>
+            <p>The most common mistake is using Performance Max when you should be using Search, or using broad match keywords when you should be using phrase match. These decisions have a massive impact on where your budget goes. Without coaching, most people never realize this is happening.</p>
             <h3>2. No conversion tracking</h3>
-            <p>If Google Ads cannot measure what a conversion looks like, a phone call, a form submission, a purchase, it cannot optimise your campaigns. Smart Bidding strategies like Target CPA and Target ROAS are completely blind without conversion data. This is the single most important thing to fix before increasing any budget.</p>
+            <p>If Google Ads cannot measure what a conversion looks like, a phone call, a form submission, a purchase, it cannot optimize your campaigns. Smart Bidding strategies like Target CPA and Target ROAS are completely blind without conversion data. This is the single most important thing to fix before increasing any budget.</p>
             <h3>3. No negative keywords</h3>
             <p>Without a solid negative keyword list, your ads will show for irrelevant searches. A business selling commercial cleaning services will show for "how to clean my bathroom at home." A coaching session typically uncovers dozens of wasted keywords in the first account review.</p>
 
@@ -181,7 +181,7 @@ export default function PostGoogleAdsCoaching() {
             </ol>
 
             <h2 id="what-phelan-covers">What Phelan Covers at KnowHow</h2>
-            <p>Phelan Lewis is KnowHow's Google Tag Manager and Analytics Lead. His coaching focuses on the measurement side of Google Ads, making sure your campaigns are actually tracking the right things before you try to optimise them.</p>
+            <p>Phelan Lewis is KnowHow's Google Tag Manager and Analytics Lead. His coaching focuses on the measurement side of Google Ads, making sure your campaigns are actually tracking the right things before you try to optimize them.</p>
             <p>In coaching sessions, Phelan covers:</p>
             <ul>
               <li>Google Tag Manager setup and conversion tracking implementation</li>

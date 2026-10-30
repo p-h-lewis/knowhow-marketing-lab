@@ -38,7 +38,7 @@ const POST_CONTENT = `<p></p>
 
 <h2 id="3-segmentation-for-budget-allocation"><strong>3. Segmentation for Budget Allocation</strong></h2>
 
-<p>When you organise AdGroups by intent, it becomes easier to allocate budgets based on expected conversion rates and customer value:</p>
+<p>When you organize AdGroups by intent, it becomes easier to allocate budgets based on expected conversion rates and customer value:</p>
 
 <ul class="wp-block-list">
 <li><strong>Transactional intent</strong> groups should receive a higher budget since users are ready to buy.</li>
@@ -46,7 +46,7 @@ const POST_CONTENT = `<p></p>
 <li><strong>Informational intent</strong> AdGroups may have lower CPCs but can be valuable for capturing early-stage leads or nurturing future buyers.</li>
 </ul>
 
-<p>This segmentation allows for smarter spending and higher ROI, as you can prioritise AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
+<p>This segmentation allows for smarter spending and higher ROI, as you can prioritize AdGroups that drive direct conversions while still nurturing broader awareness campaigns.</p>
 
 <figure class="wp-block-image aligncenter size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/google-ads-adgroups-user-intent-hero-QRtgpvEbTcbhoy4M6jh62x.webp" alt="" class="wp-image-8362"
                   loading="lazy"
@@ -55,7 +55,7 @@ const POST_CONTENT = `<p></p>
 
 <h2 id="4-customised-landing-pages"><strong>4. Customized Landing Pages</strong></h2>
 
-<p>Each intent group can lead to specific landing pages optimised for that stage of the journey:</p>
+<p>Each intent group can lead to specific landing pages optimized for that stage of the journey:</p>
 
 <ul class="wp-block-list">
 <li><strong>Informational intent</strong>: Direct to blog posts, guides, or educational resources.</li>
@@ -74,7 +74,7 @@ const POST_CONTENT = `<p></p>
 
 <h2 id="5-easier-performance-analysis"><strong>5. Easier Performance Analysis</strong></h2>
 
-<p>By structuring AdGroups around intent, it becomes easier to analyse performance and adjust strategies. You can see which intent groups are performing well at each stage of the funnel:</p>
+<p>By structuring AdGroups around intent, it becomes easier to analyze performance and adjust strategies. You can see which intent groups are performing well at each stage of the funnel:</p>
 
 <ul class="wp-block-list">
 <li>Are users in the <strong>consideration stage</strong> engaging more but converting less? You can tweak the offer or call-to-action to push them further down the funnel.</li>

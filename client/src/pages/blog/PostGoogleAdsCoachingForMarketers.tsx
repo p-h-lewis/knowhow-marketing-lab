@@ -18,7 +18,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 
 <p>Google Ads coaching is a structured learning and feedback process where an experienced Google Ads specialist works directly with you on your campaigns. You share your account, your data, and your goals, and you get specific, actionable advice on what to fix and why.</p>
 
-<p>It is different from a course because it is personalised to your account. A course teaches you general principles. Coaching looks at your specific campaign structure, your keyword list, your Quality Scores, your bidding strategy, and your conversion tracking, and tells you exactly what is working and what is not.</p>
+<p>It is different from a course because it is personalized to your account. A course teaches you general principles. Coaching looks at your specific campaign structure, your keyword list, your Quality Scores, your bidding strategy, and your conversion tracking, and tells you exactly what is working and what is not.</p>
 
 <p>Good Google Ads coaching covers:</p>
 
@@ -66,17 +66,17 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <li><strong>Choose coaching</strong> if you already have campaigns running and you want someone to look at your specific account and tell you what to fix. Coaching is also the right choice if you are spending significant money and need to get results faster than trial and error allows.</li>
 </ul>
 
-<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course, included in The Lab at $29 CAD/mo,</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Tuesday, 12 to 1 pm Pacific, where members bring their real accounts.</p>
+<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course, included in The Lab at $29 CAD/mo,</a> covers campaign types, bidding strategies, ad groups, and performance optimization. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Tuesday, 12 to 1 pm Pacific, where members bring their real accounts.</p>
 
 <h2 id="what-good-google-ads-coaching-covers">What Good Google Ads Coaching Covers</h2>
 
-<p>A structured coaching programme for marketing teams typically works through these areas in order:</p>
+<p>A structured coaching program for marketing teams typically works through these areas in order:</p>
 
 <h3 class="wp-block-heading">1. Conversion Tracking Audit</h3>
-<p>Before anything else, a good coach will check that your conversion tracking is set up correctly in GA4 and imported into Google Ads. If the data is wrong, every optimisation decision you make will be based on bad information. This is the most important step and the one most often skipped.</p>
+<p>Before anything else, a good coach will check that your conversion tracking is set up correctly in GA4 and imported into Google Ads. If the data is wrong, every optimization decision you make will be based on bad information. This is the most important step and the one most often skipped.</p>
 
 <h3 class="wp-block-heading">2. Campaign Structure Review</h3>
-<p>How your campaigns and ad groups are organised determines how much control you have over your budget and how well Google's algorithm can learn. A common mistake is having too many keywords in a single ad group, which makes it impossible to write ads that are highly relevant to each keyword. Good structure means tighter ad groups, better Quality Scores, and lower cost per click.</p>
+<p>How your campaigns and ad groups are organized determines how much control you have over your budget and how well Google's algorithm can learn. A common mistake is having too many keywords in a single ad group, which makes it impossible to write ads that are highly relevant to each keyword. Good structure means tighter ad groups, better Quality Scores, and lower cost per click.</p>
 
 <h3 class="wp-block-heading">3. Keyword and Match Type Strategy</h3>
 <p>Broad match, phrase match, and exact match all behave very differently in 2026. Broad match with Smart Bidding can work well when you have enough conversion data, but it can also drain your budget on irrelevant searches if your negative keyword list is not maintained. A coach will help you find the right balance for your account size and conversion volume.</p>
@@ -103,7 +103,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">How much does Google Ads coaching cost?</h3>
-<p>Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. Agency-based coaching programmes can cost $1,000-$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29 CAD/month, the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
+<p>Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. Agency-based coaching programs can cost $1,000-$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29 CAD/month, the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
 
 <h3 class="wp-block-heading">How long does it take to see results from Google Ads coaching?</h3>
 <p>There is no set timeline and no guaranteed result. Fixing conversion tracking and adding negative keywords take effect quickly; bidding changes need time for the algorithm to learn. How much your results change depends on your account, budget and market.</p>

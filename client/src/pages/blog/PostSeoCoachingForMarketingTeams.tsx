@@ -46,12 +46,12 @@ export default function PostSeoCoachingForMarketingTeams() {
         {
           "@type": "Question",
           "name": "What is SEO coaching for marketing teams?",
-          "acceptedAnswer": { "@type": "Answer", "text": "SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your marketing team, not just one person, to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently. It combines live coaching sessions, account reviews, and training tailored to the team's current skill level and business goals." }
+          "acceptedAnswer": { "@type": "Answer", "text": "SEO coaching for marketing teams is a structured program where an SEO specialist works directly with your marketing team, not just one person, to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently. It combines live coaching sessions, account reviews, and training tailored to the team's current skill level and business goals." }
         },
         {
           "@type": "Question",
           "name": "How is team SEO coaching different from individual coaching?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Individual SEO coaching focuses on one person's skills and one website's performance. Team coaching focuses on alignment, making sure everyone on the team understands the SEO strategy, knows their role in executing it, and is measuring the right things. Team coaching also addresses the organisational challenges that individual coaching doesn't: how to prioritise SEO work alongside other marketing activities, how to get buy-in from leadership, and how to build a content process that the whole team can follow." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Individual SEO coaching focuses on one person's skills and one website's performance. Team coaching focuses on alignment, making sure everyone on the team understands the SEO strategy, knows their role in executing it, and is measuring the right things. Team coaching also addresses the organizational challenges that individual coaching doesn't: how to prioritize SEO work alongside other marketing activities, how to get buy-in from leadership, and how to build a content process that the whole team can follow." }
         },
         {
           "@type": "Question",
@@ -155,14 +155,14 @@ export default function PostSeoCoachingForMarketingTeams() {
 
             <h2 id="why-teams-different">Why Marketing Teams Need SEO Coaching Differently</h2>
             <blockquote>
-              <strong>Definition:</strong> SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your team to build a shared strategy, review real performance data together, and develop the skills to execute SEO independently, without relying on an external agency.
+              <strong>Definition:</strong> SEO coaching for marketing teams is a structured program where an SEO specialist works directly with your team to build a shared strategy, review real performance data together, and develop the skills to execute SEO independently, without relying on an external agency.
             </blockquote>
             <p>We have worked with marketing teams where one person owned the entire SEO strategy. Then that person went on leave. Or moved to a new role. Or just got pulled onto something urgent for three months. And the SEO work stopped completely. Not because the strategy was bad. Because it lived in one person's head. Team coaching fixes that.</p>
-            <p>Team coaching also addresses the organisational challenges that individual coaching doesn't. How do you prioritise SEO work alongside paid media, social, and email? How do you get leadership buy-in for a 6-month content strategy? How do you build a content process that doesn't depend on one person? These are team problems, not individual ones.</p>
+            <p>Team coaching also addresses the organizational challenges that individual coaching doesn't. How do you prioritize SEO work alongside paid media, social, and email? How do you get leadership buy-in for a 6-month content strategy? How do you build a content process that doesn't depend on one person? These are team problems, not individual ones.</p>
 
             <h2 id="three-mistakes">The 3 Things Teams Get Wrong Without Coaching</h2>
             <h3>1. Siloed content</h3>
-            <p>Without a shared SEO strategy, different team members write content about overlapping topics without realising it. You end up with three blog posts targeting similar keywords, none of which rank because they are competing with each other. Coaching establishes a content calendar and keyword ownership system that prevents this.</p>
+            <p>Without a shared SEO strategy, different team members write content about overlapping topics without realizing it. You end up with three blog posts targeting similar keywords, none of which rank because they are competing with each other. Coaching establishes a content calendar and keyword ownership system that prevents this.</p>
             <h3>2. No keyword strategy</h3>
             <p>Most marketing teams have a content calendar but not a keyword strategy. They write about topics that feel relevant without checking whether anyone is actually searching for those topics. Coaching introduces the data-driven approach: start with Google Search Console, find what's already getting impressions, and build content around real search demand.</p>
             <h3>3. Measuring the wrong things</h3>
@@ -219,8 +219,8 @@ export default function PostSeoCoachingForMarketingTeams() {
             <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently Asked Questions</h2>
             <div className="space-y-6">
               {[
-                { q: "What is SEO coaching for marketing teams?", a: "SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your marketing team to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently." },
-                { q: "How is team SEO coaching different from individual coaching?", a: "Individual coaching focuses on one person's skills. Team coaching focuses on alignment, making sure everyone understands the strategy, knows their role, and is measuring the right things. It also addresses organisational challenges like prioritisation and buy-in that individual coaching doesn't cover." },
+                { q: "What is SEO coaching for marketing teams?", a: "SEO coaching for marketing teams is a structured program where an SEO specialist works directly with your marketing team to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently." },
+                { q: "How is team SEO coaching different from individual coaching?", a: "Individual coaching focuses on one person's skills. Team coaching focuses on alignment, making sure everyone understands the strategy, knows their role, and is measuring the right things. It also addresses organizational challenges like prioritization and buy-in that individual coaching doesn't cover." },
                 { q: "How many people can join a coaching session?", a: "Team SEO coaching works best with 2 to 6 people from the same team. In The Lab, your team brings its questions to the live session every Tuesday, 12 to 1 pm Pacific. Check The Lab page for current membership details." },
                 { q: "What results can a marketing team expect from SEO coaching?", a: "The aim is a clear, documented SEO strategy and a repeatable content process the team can run on its own. We cannot promise rankings or traffic. There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." },
                 { q: "How long does it take to see results from team SEO coaching?", a: "There is no set timeline and no guaranteed result. Changes can start to show in Google Search Console within a few weeks or take several months, depending on your starting point, your competition, and how consistently you make the changes." },

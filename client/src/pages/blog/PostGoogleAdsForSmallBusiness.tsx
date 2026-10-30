@@ -46,12 +46,12 @@ export default function PostGoogleAdsForSmallBusiness() {
         {
           "@type": "Question",
           "name": "How much should a small business spend on Google Ads?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses should start with a minimum daily budget of $20 to $30 per day ($600 to $900 per month) for a single Search campaign. This is enough to get meaningful data within 30 days. Spending less than this makes it very difficult to gather enough data to optimise the campaign. The right budget ultimately depends on your average cost per click in your industry, use Google's Keyword Planner to check CPC estimates before setting your budget." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Most small businesses should start with a minimum daily budget of $20 to $30 per day ($600 to $900 per month) for a single Search campaign. This is enough to get meaningful data within 30 days. Spending less than this makes it very difficult to gather enough data to optimize the campaign. The right budget ultimately depends on your average cost per click in your industry, use Google's Keyword Planner to check CPC estimates before setting your budget." }
         },
         {
           "@type": "Question",
           "name": "Is Google Ads worth it for small businesses?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, Google Ads can be very effective for small businesses, but only if conversion tracking is set up correctly and the campaign is actively managed. The biggest mistake small businesses make is setting up a campaign, leaving it running, and judging it by clicks rather than conversions. Google Ads works best when you know your cost per lead or cost per sale, and you are optimising toward that number rather than traffic." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, Google Ads can be very effective for small businesses, but only if conversion tracking is set up correctly and the campaign is actively managed. The biggest mistake small businesses make is setting up a campaign, leaving it running, and judging it by clicks rather than conversions. Google Ads works best when you know your cost per lead or cost per sale, and you are optimizing toward that number rather than traffic." }
         },
         {
           "@type": "Question",
@@ -71,7 +71,7 @@ export default function PostGoogleAdsForSmallBusiness() {
         {
           "@type": "Question",
           "name": "How long does it take for Google Ads to work for a small business?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most small business Google Ads campaigns need 30 to 60 days to gather enough data to optimise effectively. The first 2 weeks are typically a learning phase where Google's algorithm is figuring out who to show your ads to. Results usually improve significantly after the first month once you have enough conversion data to make informed optimisation decisions." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Most small business Google Ads campaigns need 30 to 60 days to gather enough data to optimize effectively. The first 2 weeks are typically a learning phase where Google's algorithm is figuring out who to show your ads to. Results usually improve significantly after the first month once you have enough conversion data to make informed optimization decisions." }
         }
       ]
     };
@@ -157,7 +157,7 @@ export default function PostGoogleAdsForSmallBusiness() {
             <h2 id="three-mistakes">The 3 Reasons Small Businesses Waste Money on Google Ads</h2>
             <p>We have seen $500 a month accounts and $10,000 a month accounts with the exact same problems. Budget size doesn't protect you from these mistakes. But knowing what to look for does.</p>
             <h3>1. No conversion tracking</h3>
-            <p>If you don't have conversion tracking set up, you are flying blind. You can see how many clicks you are getting, but you have no idea which clicks are turning into leads or sales. Without this data, you cannot optimise your campaign, you are just spending money and hoping for the best. Setting up conversion tracking in Google Ads and Google Tag Manager is the single most important thing you can do before running any campaign.</p>
+            <p>If you don't have conversion tracking set up, you are flying blind. You can see how many clicks you are getting, but you have no idea which clicks are turning into leads or sales. Without this data, you cannot optimize your campaign, you are just spending money and hoping for the best. Setting up conversion tracking in Google Ads and Google Tag Manager is the single most important thing you can do before running any campaign.</p>
             <h3>2. Too broad keyword matching</h3>
             <p>Google's broad match keyword option has become much more aggressive in recent years. A broad match keyword like "marketing software" will now trigger your ads for searches like "best free marketing tools" and "how to do digital marketing", searches that are unlikely to convert for your specific product. Start with phrase match or exact match keywords until you have enough conversion data to use broad match safely.</p>
             <h3>3. No negative keywords</h3>
@@ -167,7 +167,7 @@ export default function PostGoogleAdsForSmallBusiness() {
             <blockquote>
               <strong>The minimum viable Google Ads budget for a small business is $20 to $30 per day ($600 to $900 per month) for a single Search campaign.</strong>
             </blockquote>
-            <p>Spending less than this makes it very difficult to gather enough data within 30 days to make informed optimisation decisions. Google's algorithm needs approximately 30 to 50 clicks per week to start learning effectively.</p>
+            <p>Spending less than this makes it very difficult to gather enough data within 30 days to make informed optimization decisions. Google's algorithm needs approximately 30 to 50 clicks per week to start learning effectively.</p>
             <p>The right budget for your business depends on your average cost per click (CPC) in your industry. Use Google's Keyword Planner to check CPC estimates for your target keywords before setting your budget. If your industry has high CPCs (legal, finance, insurance can be $10 to $50+ per click), you will need a larger budget to get meaningful data.</p>
 
             <h2 id="campaign-type">Which Campaign Type to Start With</h2>
@@ -185,7 +185,7 @@ export default function PostGoogleAdsForSmallBusiness() {
 
             <h2 id="coaching">When to Get Coaching vs. Hire an Agency</h2>
             <p>The decision between coaching and an agency comes down to one question: do you want to build internal capability, or do you want someone else to handle it?</p>
-            <p>Coaching makes sense if you have someone on your team (or you yourself) who can dedicate 2 to 3 hours per week to managing and optimising Google Ads campaigns. The learning curve is real, but the long-term cost is much lower than agency fees, and you end up with a team that deeply understands your campaigns.</p>
+            <p>Coaching makes sense if you have someone on your team (or you yourself) who can dedicate 2 to 3 hours per week to managing and optimizing Google Ads campaigns. The learning curve is real, but the long-term cost is much lower than agency fees, and you end up with a team that deeply understands your campaigns.</p>
             <p>An agency makes sense if you genuinely don't have the bandwidth to manage campaigns yourself and you have a budget large enough to justify agency fees (typically $1,500 to $3,000+ per month in management fees on top of your ad spend).</p>
             <p><Link href="/blog/google-ads-coaching-for-small-business">KnowHow Google Ads coaching</Link> is designed for small business owners and marketing managers who want to learn to manage their own campaigns with expert guidance. It happens in <Link href="/pricing">The Lab</Link>, at the live session every Tuesday, 12 to 1 pm Pacific.</p>
           </div>
@@ -206,11 +206,11 @@ export default function PostGoogleAdsForSmallBusiness() {
             <div className="space-y-6">
               {[
                 { q: "How much should a small business spend on Google Ads?", a: "Most small businesses should start with a minimum daily budget of $20 to $30 per day ($600 to $900 per month) for a single Search campaign. This is enough to get meaningful data within 30 days. The right budget depends on your average cost per click in your industry, use Google's Keyword Planner to check CPC estimates before setting your budget." },
-                { q: "Is Google Ads worth it for small businesses?", a: "Yes, Google Ads can be very effective for small businesses, but only if conversion tracking is set up correctly and the campaign is actively managed. The biggest mistake is judging campaigns by clicks rather than conversions. Google Ads works best when you know your cost per lead or cost per sale and are optimising toward that number." },
+                { q: "Is Google Ads worth it for small businesses?", a: "Yes, Google Ads can be very effective for small businesses, but only if conversion tracking is set up correctly and the campaign is actively managed. The biggest mistake is judging campaigns by clicks rather than conversions. Google Ads works best when you know your cost per lead or cost per sale and are optimizing toward that number." },
                 { q: "What Google Ads campaign type is best for a small business?", a: "For most small businesses, a Search campaign is the best starting point. Search campaigns show your ads to people who are actively searching for what you offer. Performance Max can be effective but requires at least 30 conversions per month to work well." },
                 { q: "How do I stop wasting money on Google Ads?", a: "The three most common causes of wasted spend are: no conversion tracking, too broad keyword matching, and no negative keywords. Fix these three things first before worrying about anything else." },
                 { q: "Do I need a Google Ads agency or can I manage it myself?", a: "Many small businesses successfully manage their own Google Ads campaigns with the right training and coaching. A Google Ads coach can teach you the fundamentals so you can manage campaigns yourself, which is often more cost-effective than an agency, especially at smaller budgets." },
-                { q: "How long does it take for Google Ads to work for a small business?", a: "Most small business Google Ads campaigns need 30 to 60 days to gather enough data to optimise effectively. The first 2 weeks are typically a learning phase. Results usually improve significantly after the first month once you have enough conversion data." }
+                { q: "How long does it take for Google Ads to work for a small business?", a: "Most small business Google Ads campaigns need 30 to 60 days to gather enough data to optimize effectively. The first 2 weeks are typically a learning phase. Results usually improve significantly after the first month once you have enough conversion data." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">
                   <h3 className="font-bold text-gray-900 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{q}</h3>

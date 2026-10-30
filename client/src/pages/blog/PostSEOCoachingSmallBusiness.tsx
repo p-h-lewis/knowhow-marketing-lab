@@ -41,7 +41,7 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <p>A small business owner or marketing manager has a full-time job already. Spending 20 hours learning SEO theory is not realistic. Coaching is faster because you skip the parts that don't apply to you and focus on what matters most for your specific situation.</p>
 
 <h3 class="wp-block-heading">3. Hard to know if you're doing it right</h3>
-<p>SEO results take time, usually 3-6 months to see meaningful changes. Without someone to check your work, it is easy to spend months doing the wrong things and not realise it until much later. A coach gives you feedback in real time so you can course-correct quickly.</p>
+<p>SEO results take time, usually 3-6 months to see meaningful changes. Without someone to check your work, it is easy to spend months doing the wrong things and not realize it until much later. A coach gives you feedback in real time so you can course-correct quickly.</p>
 
 <h2 id="what-to-look-for-in-seo-coaching-for-small-business">What to Look For in SEO Coaching for Small Business</h2>
 
@@ -61,12 +61,12 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <p>SEO coaching costs vary widely depending on the format:</p>
 
 <ul class="wp-block-list">
-<li><strong>One-on-one SEO coaching ($100-$400/hour):</strong> The most personalised option. A specialist looks at your website and gives you specific recommendations. Best for businesses that need fast, focused help and have the budget for it.</li>
-<li><strong>Group coaching ($29-$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalised than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29 CAD/month, Pip reviews real websites every Tuesday.</li>
+<li><strong>One-on-one SEO coaching ($100-$400/hour):</strong> The most personalized option. A specialist looks at your website and gives you specific recommendations. Best for businesses that need fast, focused help and have the budget for it.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalized than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29 CAD/month, Pip reviews real websites every Tuesday.</li>
 <li><strong>Self-directed learning (free):</strong> A good free course teaches you the fundamentals so you can start improving your website on your own. The <a href="/courses/seo" style="color:#318599;text-decoration:underline;">KnowHow free SEO course</a> covers keyword research, Google Search Console, on-page SEO, and content strategy, all for free.</li>
 </ul>
 
-<p>For most small businesses, the best approach is to start with the free course to understand the basics, then use group coaching to get feedback on your specific website. This gives you the knowledge to manage your own SEO while still getting expert input on what to prioritise.</p>
+<p>For most small businesses, the best approach is to start with the free course to understand the basics, then use group coaching to get feedback on your specific website. This gives you the knowledge to manage your own SEO while still getting expert input on what to prioritize.</p>
 
 <h2 id="the-highest-priority-seo-fixes-for-small-businesses">The Highest-Priority SEO Fixes for Small Businesses</h2>
 

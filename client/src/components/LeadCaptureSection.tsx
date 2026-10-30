@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: 'What is AI SEO (also called GEO)?',
-    a: 'AI SEO (also called GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
+    a: 'AI SEO (also called GEO) is the practice of optimizing your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 

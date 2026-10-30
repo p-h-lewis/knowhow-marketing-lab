@@ -167,10 +167,10 @@ export default function Footer() {
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
                 { label: 'Google SEO Starter Guide', href: 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide', title: 'Official Google SEO documentation' },
-                { label: 'Google Search Console Help', href: 'https://support.google.com/webmasters/', title: 'Official Google Search Console help center' },
-                { label: 'Google Ads Help Center', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help center' },
-                { label: 'GA4 Analytics Help', href: 'https://support.google.com/analytics/', title: 'Official Google Analytics 4 help center' },
-                { label: 'Tag Manager Help', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help center' },
+                { label: 'Google Search Console Help', href: 'https://support.google.com/webmasters/', title: 'Official Google Search Console help centre' },
+                { label: 'Google Ads Help Center', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help centre' },
+                { label: 'GA4 Analytics Help', href: 'https://support.google.com/analytics/', title: 'Official Google Analytics 4 help centre' },
+                { label: 'Tag Manager Help', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help centre' },
                 { label: 'Google Skillshop', href: 'https://skillshop.withgoogle.com/', title: 'Free official Google certifications' },
                 { label: 'Think with Google', href: 'https://www.thinkwithgoogle.com/', title: 'Google marketing research and insights' },
               ].map(link => (

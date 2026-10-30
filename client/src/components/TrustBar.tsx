@@ -3,10 +3,10 @@
 
 export default function TrustBar() {
   const tools = [
-    { name: 'Google Analytics 4', abbr: 'G', href: 'https://support.google.com/analytics/', title: 'Official Google Analytics 4 help center' },
-    { name: 'Google Search Console', abbr: 'G', href: 'https://support.google.com/webmasters/', title: 'Official Google Search Console help center' },
-    { name: 'Google Tag Manager', abbr: 'G', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help center' },
-    { name: 'Google Ads', abbr: 'A', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help center' },
+    { name: 'Google Analytics 4', abbr: 'G', href: 'https://support.google.com/analytics/', title: 'Official Google Analytics 4 help centre' },
+    { name: 'Google Search Console', abbr: 'G', href: 'https://support.google.com/webmasters/', title: 'Official Google Search Console help centre' },
+    { name: 'Google Tag Manager', abbr: 'G', href: 'https://support.google.com/tagmanager/', title: 'Official Google Tag Manager help centre' },
+    { name: 'Google Ads', abbr: 'A', href: 'https://support.google.com/google-ads/supporthub', title: 'Official Google Ads help centre' },
     { name: 'ChatGPT / AI', abbr: 'A', href: 'https://openai.com/chatgpt/', title: 'ChatGPT by OpenAI' },
     { name: 'GoHighLevel', abbr: 'G', href: 'https://www.gohighlevel.com/', title: 'GoHighLevel - the all-in-one marketing platform used by KnowHow Marketing Lab' },
   ];

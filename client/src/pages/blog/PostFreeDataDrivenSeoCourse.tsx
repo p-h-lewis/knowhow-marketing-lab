@@ -165,7 +165,7 @@ export default function PostFreeDataDrivenSeoCourse() {
             <p>In practice, data-driven SEO means:</p>
             <ul>
               <li>Opening Google Search Console before you write any new content, to see what queries are already getting impressions</li>
-              <li>Finding pages that are close to page 1 (positions 8-15) and optimising those first, because they are the fastest path to more clicks</li>
+              <li>Finding pages that are close to page 1 (positions 8-15) and optimizing those first, because they are the fastest path to more clicks</li>
               <li>Using GA4 to track which content is actually driving conversions, not just traffic</li>
               <li>Building keyword clusters based on what your audience is actually searching for, not what you think they are searching for</li>
             </ul>

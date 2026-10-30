@@ -30,7 +30,7 @@ const steps = [
     outcome: "You have a clear picture of your current marketing performance.",
     color: "#318599",
     icon: "",
-    aiTip: "Use AI to summarise your GA4 and GSC data into plain-language insights - so you know exactly what to fix first.",
+    aiTip: "Use AI to summarize your GA4 and GSC data into plain-language insights - so you know exactly what to fix first.",
   },
   {
     id: "find",
@@ -87,12 +87,12 @@ const steps = [
     aiTip: "Use AI-powered Smart Bidding and Performance Max, but always layer in your own audience signals and negative keyword lists.",
   },
   {
-    id: "optimise",
+    id: "optimize",
     number: "05",
-    name: "Optimise",
+    name: "Optimize",
     headline: "Keep improving based on real data",
     description:
-      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip - and it is why most marketing fails. The Data-First AI SEO Method makes optimisation a habit, not an afterthought.",
+      "Marketing is never finished. Every month, you look at your data, find what is working, do more of it, and fix what is not. This is the step most businesses skip - and it is why most marketing fails. The Data-First AI SEO Method makes optimization a habit, not an afterthought.",
     tools: ["Google Analytics 4", "Google Search Console", "Google Ads"],
     toolLinks: [
       "https://support.google.com/analytics/",
@@ -102,14 +102,14 @@ const steps = [
     outcome: "Your marketing gets better every month - automatically.",
     color: "#318599",
     icon: "",
-    aiTip: "Use AI to write your monthly performance summary, spot anomalies in your data, and generate a prioritised action list.",
+    aiTip: "Use AI to write your monthly performance summary, spot anomalies in your data, and generate a prioritized action list.",
   },
 ];
 
 const faqs = [
   {
     q: "What is The Data-First AI SEO Method?",
-    a: "The Data-First AI SEO Method is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimise. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 30+ years of combined experience working with medium-sized businesses.",
+    a: "The Data-First AI SEO Method is a five-step process for growing a business online using real data instead of guesswork. The five steps are: Measure, Find, Create, Amplify, and Optimize. It was developed by Pip Seymour and Phelan Lewis of Seymour Digital Media based on 30+ years of combined experience working with medium-sized businesses.",
   },
   {
     q: "Who is this framework designed for?",
@@ -125,7 +125,7 @@ const faqs = [
   },
   {
     q: "Where can I learn this framework in detail?",
-    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimisation, join The Lab for $29 CAD/month.",
+    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimization, join The Lab for $29 CAD/month.",
   },
 ];
 
@@ -138,7 +138,7 @@ const schema = {
       "url": "https://knowhowmarketinglab.com/framework",
       "name": "The Data-First AI SEO Method - 5-Step Process",
       "description":
-        "The Data-First AI SEO Method is a five-step process for growing your business online using real data. Steps: Measure, Find, Create, Amplify, Optimise.",
+        "The Data-First AI SEO Method is a five-step process for growing your business online using real data. Steps: Measure, Find, Create, Amplify, Optimize.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -190,7 +190,7 @@ const schema = {
       "@type": "DefinedTerm",
       "name": "The Data-First AI SEO Method",
       "description":
-        "A five-step digital marketing process developed by KnowHow Marketing Lab: Measure (set up GA4 and Search Console), Find (keyword research), Create (content creation), Amplify (Google Ads), and Optimise (monthly data review). Designed for medium-sized businesses.",
+        "A five-step digital marketing process developed by KnowHow Marketing Lab: Measure (set up GA4 and Search Console), Find (keyword research), Create (content creation), Amplify (Google Ads), and Optimize (monthly data review). Designed for medium-sized businesses.",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "KnowHow Marketing Lab Glossary",
@@ -203,7 +203,7 @@ const schema = {
 export default function Framework() {
   useSEO({
     title: "The Data-First AI SEO Method - 5 Steps to Grow Online",
-    description: "The Data-First AI SEO Method: 5 steps to grow online using real data. Measure, Find, Create, Amplify, Optimise. Free training by KnowHow Marketing Lab.",
+    description: "The Data-First AI SEO Method: 5 steps to grow online using real data. Measure, Find, Create, Amplify, Optimize. Free training by KnowHow Marketing Lab.",
     canonical: "https://knowhowmarketinglab.com/framework",
     ogType: "article",
   });

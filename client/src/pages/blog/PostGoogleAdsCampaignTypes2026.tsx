@@ -71,7 +71,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
         {
           "@type": "Question",
           "name": "Can I run multiple Google Ads campaign types at once?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Most businesses run multiple campaign types simultaneously. A common setup is a Search campaign for high-intent keywords, a Performance Max campaign for broader reach, and a Demand Gen campaign for brand awareness. The key is to make sure your conversion tracking is set up correctly before running multiple campaigns, so Google's AI can optimise each campaign effectively." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Most businesses run multiple campaign types simultaneously. A common setup is a Search campaign for high-intent keywords, a Performance Max campaign for broader reach, and a Demand Gen campaign for brand awareness. The key is to make sure your conversion tracking is set up correctly before running multiple campaigns, so Google's AI can optimize each campaign effectively." }
         }
       ]
     };
@@ -182,7 +182,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
             <p>Demand Gen campaigns show visual ads on YouTube (including Shorts), Google Discover, and Gmail. They are designed for top-of-funnel awareness and consideration, reaching people who are not actively searching but are likely to be interested. Demand Gen replaced Discovery campaigns in 2024 and has expanded significantly in 2026.</p>
 
             <h3>7. App Campaigns</h3>
-            <p>App campaigns are designed specifically to drive app installs and in-app actions. They show ads across Google Search, Google Play, YouTube, and the Display Network. If you have a mobile app, this is the campaign type to use, it is the only one optimised for app store conversions.</p>
+            <p>App campaigns are designed specifically to drive app installs and in-app actions. They show ads across Google Search, Google Play, YouTube, and the Display Network. If you have a mobile app, this is the campaign type to use, it is the only one optimized for app store conversions.</p>
 
             <h2 id="decision-table">When to Use Each Type, Decision Table</h2>
           </div>
@@ -219,7 +219,7 @@ export default function PostGoogleAdsCampaignTypes2026() {
           <div className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-blockquote:border-l-[#318599]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
 
             <h2 id="biggest-mistake">The Biggest Mistake: Wrong Campaign Type for the Goal</h2>
-            <p>The most common mistake we see in coaching sessions is advertisers using Performance Max when they should be using Search. PMax is powerful, but it needs conversion data to work. Without it, Google's AI has nothing to optimise toward and will spend your budget on low-quality placements across Display and YouTube.</p>
+            <p>The most common mistake we see in coaching sessions is advertisers using Performance Max when they should be using Search. PMax is powerful, but it needs conversion data to work. Without it, Google's AI has nothing to optimize toward and will spend your budget on low-quality placements across Display and YouTube.</p>
             <p>The second most common mistake is using broad match keywords in Search campaigns without a solid negative keyword list. Broad match in 2026 is much more aggressive than it used to be, it will match your ads to searches that are only loosely related to your keywords. This is fine if you have strong conversion tracking and negative keywords in place. Without them, it is a budget drain.</p>
 
             <h2 id="knowhow-recommendation">The KnowHow Recommendation for Medium-Sized Businesses</h2>

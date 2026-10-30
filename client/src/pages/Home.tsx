@@ -82,7 +82,7 @@ export default function Home() {
                 "name": "KnowHow Marketing Lab Courses",
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Free AI + SEO Course", "description": FREE_COURSE_SUMMARY, "url": "https://knowhowmarketinglab.com/courses/seo" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29 CAD/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimization. Included in The Lab membership at $29 CAD/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29 CAD/month community with one live session every Tuesday, 12 to 1 pm Pacific, courses, and private community access. 14-day free trial.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },
@@ -138,7 +138,7 @@ export default function Home() {
               ]
             },
             "about": [
-              { "@type": "Thing", "name": "Search Engine Optimisation" },
+              { "@type": "Thing", "name": "Search Engine Optimization" },
               { "@type": "Thing", "name": "Google Search Console" },
               { "@type": "Thing", "name": "Google Analytics 4" },
               { "@type": "Thing", "name": "Google Business Profile" },
@@ -377,7 +377,7 @@ export default function Home() {
                   href: '/blog/ai-seo-guide',
                   tag: 'AI + SEO',
                   title: 'The Complete Guide to AI SEO',
-                  desc: 'How to use AI tools to do keyword research, write content, and optimise your site - faster than ever before.',
+                  desc: 'How to use AI tools to do keyword research, write content, and optimize your site - faster than ever before.',
                   color: '#E98C28',
                 },
                 {
