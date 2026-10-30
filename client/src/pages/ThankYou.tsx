@@ -188,11 +188,22 @@ export default function ThankYou() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                { label: 'Free Video Library', href: '/#video-library' },
+                { label: 'Free Video Library', href: 'https://www.youtube.com/@KnowHowMarketingLab' },
                 { label: 'The SEO Framework', href: '/framework' },
                 { label: 'Resources & Tools', href: '/resources' },
                 { label: 'Blog', href: '/blog' },
-              ].map(link => (
+              ].map(link => link.href.startsWith('http') ? (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-[#318599] border border-[#318599]/30 rounded-full px-4 py-2 hover:bg-[#e6f4f7] transition-colors"
+                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                >
+                  {link.label}
+                </a>
+              ) : (
                 <Link
                   key={link.href}
                   href={link.href}

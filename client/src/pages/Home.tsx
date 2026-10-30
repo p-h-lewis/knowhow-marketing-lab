@@ -158,8 +158,8 @@ export default function Home() {
             "@type": "ItemList",
             "name": "KnowHow Marketing Lab - Page Sections",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "AI + SEO Course", "url": "https://knowhowmarketinglab.com/#free-course" },
-              { "@type": "ListItem", "position": 2, "name": "Free Video Library", "url": "https://knowhowmarketinglab.com/#videos" },
+              { "@type": "ListItem", "position": 1, "name": "AI + SEO Course", "url": "https://knowhowmarketinglab.com/courses/seo" },
+              { "@type": "ListItem", "position": 2, "name": "Free Video Library", "url": "https://www.youtube.com/@KnowHowMarketingLab" },
               { "@type": "ListItem", "position": 3, "name": "Courses - AI + SEO & AI Marketing", "url": "https://knowhowmarketinglab.com/#courses" },
               { "@type": "ListItem", "position": 4, "name": "The Lab on GoHighLevel", "url": "https://knowhowmarketinglab.com/#community" },
               { "@type": "ListItem", "position": 5, "name": "Pricing - Free vs Community", "url": "https://knowhowmarketinglab.com/pricing" },

@@ -1,7 +1,7 @@
 // Blog Post: How to Set Up Google Search Console (Step by Step)
 // Slug: /blog/how-to-set-up-google-search-console
 // Cluster: AI SEO / Data-Driven SEO
-// Internal links: /blog/ai-seo-guide, /blog/ga4-set-up-guide, /blog/keyword-research-keyword-clusters, /courses/seo, /our-method
+// Internal links: /blog/ai-seo-guide, /blog/ga4-set-up-guide, /blog/keyword-research-keyword-clusters, /courses/seo, /framework
 // Author: Pip Seymour & Phelan Lewis
 
 import { useEffect } from 'react';
@@ -169,7 +169,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
 <p>For medium-sized businesses, this data is essential. Without it, you are guessing. With it, you can see exactly which pages are bringing in search traffic, which keywords you are almost ranking for (and can push to page one with a small content update), and whether Google can actually find and read your pages properly.</p>
 
-<p>This is the first tool we set up for every client at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer">Seymour Digital Media</a>, and it is Step 1 of the <a href="/our-method">Data-First AI SEO Method</a> we teach at KnowHow Marketing Lab.</p>
+<p>This is the first tool we set up for every client at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer">Seymour Digital Media</a>, and it is Step 1 of the <a href="/framework">Data-First AI SEO Method</a> we teach at KnowHow Marketing Lab.</p>
 
 <h2 id="gsc-vs-ga4">Google Search Console vs GA4 - what is the difference?</h2>
 
@@ -269,7 +269,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
 
 <p>The most valuable thing you can do in your first week is look at the <strong>Queries</strong> tab in the Performance report. This shows you every keyword that triggered your pages in Google search. You will often find keywords you did not know you were ranking for - and keywords you are almost ranking for that you can target more deliberately.</p>
 
-<p>This is exactly the kind of data we use in the <a href="/our-method">Data-First AI SEO Method</a> - starting with what Google is already telling you, then building on it.</p>
+<p>This is exactly the kind of data we use in the <a href="/framework">Data-First AI SEO Method</a> - starting with what Google is already telling you, then building on it.</p>
 
 <h2 id="link-ga4">Step 6 - Link Google Search Console to GA4</h2>
 
@@ -337,7 +337,7 @@ export default function PostHowToSetUpGoogleSearchConsole() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3 rounded-full hover:bg-[#d4791f] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI + SEO Course</a>
-              <a href="/our-method" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
+              <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
             </div>
           </div>
 

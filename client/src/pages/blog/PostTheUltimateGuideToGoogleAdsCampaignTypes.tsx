@@ -302,39 +302,39 @@ https://youtu.be/nzTa2wJEN9k
 <h2 id="references">References</h2>
 
 <ul class="wp-block-list">
-<li><a href="#" target="_blank" rel="noreferrer noopener">[1] [About Performance Max campaigns - Google Ads Help](https://support.google.com/google-ads/answer/10724817?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10724817?hl=en" target="_blank" rel="noreferrer noopener">[1] About Performance Max campaigns - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[2] [Create a Performance Max campaign - Google Ads Help](https://support.google.com/google-ads/answer/10724896?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10724896?hl=en" target="_blank" rel="noreferrer noopener">[2] Create a Performance Max campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[3] [About Performance Max for store goals - Google Ads Help](https://support.google.com/google-ads/answer/12971048?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/12971048?hl=en" target="_blank" rel="noreferrer noopener">[3] About Performance Max for store goals - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[4] [Optimisation tips for Performance Max - Google Ads Help](https://support.google.com/google-ads/answer/11385582?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/11385582?hl=en" target="_blank" rel="noreferrer noopener">[4] Optimisation tips for Performance Max - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[5] [About Demand Gen campaigns - Google Ads Help](https://support.google.com/google-ads/answer/13695777?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[5] About Demand Gen campaigns - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[6] [Create a Demand Gen campaign - Google Ads Help](https://support.google.com/google-ads/answer/13695389?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695389?hl=en" target="_blank" rel="noreferrer noopener">[6] Create a Demand Gen campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[7] [Demand Gen campaign asset specs - Google Ads Help](https://support.google.com/google-ads/answer/13704860?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13704860?hl=en" target="_blank" rel="noreferrer noopener">[7] Demand Gen campaign asset specs - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[8] [About lookalike segments - Google Ads Help](https://support.google.com/google-ads/answer/13695777?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noreferrer noopener">[8] About lookalike segments - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[9] [Create a Search campaign - Google Ads Help](https://support.google.com/google-ads/answer/9510373?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[9] Create a Search campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[10] [About Search campaigns - Google Ads Help](https://support.google.com/google-ads/answer/9510373?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/9510373?hl=en" target="_blank" rel="noreferrer noopener">[10] About Search campaigns - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[11] [About Shopping ads - Google Ads Help](https://support.google.com/google-ads/answer/2454022?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2454022?hl=en" target="_blank" rel="noreferrer noopener">[11] About Shopping ads - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[12] [Create a Standard Shopping campaign - Google Ads Help](https://support.google.com/google-ads/answer/3455481?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/3455481?hl=en" target="_blank" rel="noreferrer noopener">[12] Create a Standard Shopping campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[13] [About Video campaigns - Google Ads Help](https://support.google.com/google-ads/answer/6340491?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/6340491?hl=en" target="_blank" rel="noreferrer noopener">[13] About Video campaigns - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[14] [Create a Video campaign - Google Ads Help](https://support.google.com/google-ads/answer/2375497?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2375497?hl=en" target="_blank" rel="noreferrer noopener">[14] Create a Video campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[15] [About Display ads and the Google Display Network - Google Ads Help](https://support.google.com/google-ads/answer/2404190?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/2404190?hl=en" target="_blank" rel="noreferrer noopener">[15] About Display ads and the Google Display Network - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[16] [Create a Display campaign - Google Ads Help](https://support.google.com/google-ads/answer/10759203?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/10759203?hl=en" target="_blank" rel="noreferrer noopener">[16] Create a Display campaign - Google Ads Help</a></li>
 
-<li><a href="#" target="_blank" rel="noreferrer noopener">[17] [Set up dynamic remarketing - Google Ads Help](https://support.google.com/google-ads/answer/6287125?hl=en )</a></li>
+<li><a href="https://support.google.com/google-ads/answer/6287125?hl=en" target="_blank" rel="noreferrer noopener">[17] Set up dynamic remarketing - Google Ads Help</a></li>
 
 <li><a href="https://support.google.com/google-ads/answer/6247380?hl=en" target="_blank" rel="noreferrer noopener">[18] About App campaigns - Google Ads Help</a></li>
 </ul>

@@ -154,7 +154,7 @@ export default function FreeCourseSection() {
                 Start AI + SEO Course →
               </a>
               <a
-                href="#videos"
+                href="https://www.youtube.com/@KnowHowMarketingLab"
                 className="btn-outline"
                 aria-label="Browse Free Videos"
               >

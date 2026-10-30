@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Footer
 // Full internal linking strategy + authoritative external links (Google official docs only)
-// Internal: /, /pricing, /about, /resources, /#free-course, /#videos, /#courses, /#community
+// Internal: /, /pricing, /about, /resources, /courses/seo
 // External (non-competing, authoritative): seymourdigitalmedia.com, youtube.com, support.google.com, developers.google.com, skillshop.withgoogle.com
 
 import { Link } from 'wouter';
@@ -76,7 +76,7 @@ export default function Footer() {
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
                 { label: 'AI + SEO Course', href: '/courses/seo', internal: true },
-                { label: 'Video Library', href: '/#videos', internal: false },
+                { label: 'Video Library', href: 'https://www.youtube.com/@KnowHowMarketingLab', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
                 { label: 'Our Method', href: '/framework', internal: true },
                 { label: 'Free Resources', href: '/resources', internal: true },

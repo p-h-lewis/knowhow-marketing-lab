@@ -128,7 +128,7 @@
     },
     {
       "source": "/sem-ai-knowhow-community/",
-      "destination": "https://community.knowhowmarketinglab.com",
+      "destination": "/community",
       "permanent": true
     },
     {

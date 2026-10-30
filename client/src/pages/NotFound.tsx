@@ -15,7 +15,7 @@ const recoveryLinks = [
     ),
   },
   {
-    href: "/#videos",
+    href: "https://www.youtube.com/@KnowHowMarketingLab",
     label: "Video Library",
     desc: "60+ free marketing videos - no sign-up required.",
     icon: (
@@ -113,7 +113,23 @@ export default function NotFound() {
 
           {/* Recovery links grid */}
           <div className="grid sm:grid-cols-2 gap-4 mb-12">
-            {recoveryLinks.map(link => (
+            {recoveryLinks.map(link => link.href.startsWith('http') ? (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 p-5 rounded-xl border-2 border-gray-100 hover:border-[#E98C28] hover:shadow-sm transition-all duration-200 text-left group"
+              >
+                <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#fef3e2] flex items-center justify-center text-[#E98C28] group-hover:bg-[#E98C28] group-hover:text-white transition-all duration-200">
+                  {link.icon}
+                </span>
+                <div>
+                  <p className="font-bold text-gray-900 text-sm mb-0.5" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{link.label}</p>
+                  <p className="text-gray-500 text-xs leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>{link.desc}</p>
+                </div>
+              </a>
+            ) : (
               <Link
                 key={link.href}
                 href={link.href}

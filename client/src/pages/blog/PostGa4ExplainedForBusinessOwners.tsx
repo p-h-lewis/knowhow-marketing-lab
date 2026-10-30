@@ -1,7 +1,7 @@
 // Blog Post: GA4 Explained for Business Owners
 // Slug: /blog/ga4-explained-for-business-owners
 // Cluster: AI SEO / Data-Driven SEO
-// Internal links: /blog/ai-seo-guide, /blog/ga4-set-up-guide, /blog/how-to-set-up-google-search-console, /courses/seo, /our-method
+// Internal links: /blog/ai-seo-guide, /blog/ga4-set-up-guide, /blog/how-to-set-up-google-search-console, /courses/seo, /framework
 // Author: Pip Seymour & Phelan Lewis
 // Voice: Grade 6 level, conversational, no emojis, no em dashes
 
@@ -205,7 +205,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
 <li>Which marketing channel is bringing in the most leads?</li>
 </ul>
 
-<p>This is the "Measure" step in the <a href="/our-method">Data-First AI SEO Method</a>. Before you can improve your marketing, you need to know what is happening right now. GA4 gives you that starting point.</p>
+<p>This is the "Measure" step in the <a href="/framework">Data-First AI SEO Method</a>. Before you can improve your marketing, you need to know what is happening right now. GA4 gives you that starting point.</p>
 
 <h2 id="ga4-vs-ua">GA4 vs the old Google Analytics</h2>
 
@@ -364,7 +364,7 @@ export default function PostGa4ExplainedForBusinessOwners() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3 rounded-full hover:bg-[#d4791f] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI + SEO Course</a>
-              <a href="/our-method" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
+              <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
             </div>
           </div>
 

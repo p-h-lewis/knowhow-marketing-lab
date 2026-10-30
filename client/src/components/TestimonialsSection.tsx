@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - Testimonials Section
 // Video testimonials (YouTube embeds) + text quotes from real students
 // Schema: Review, AggregateRating
-// Internal links: → /pricing, → /#free-course
+// Internal links: → /pricing, → /courses/seo
 
 import { useState } from 'react';
 
@@ -244,7 +244,7 @@ export default function TestimonialsSection() {
         <div className="text-center mt-12">
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="#free-course"
+              href="/courses/seo"
               className="btn-primary"
               aria-label="Start AI + SEO Course"
             >
@@ -303,7 +303,7 @@ export default function TestimonialsSection() {
                 Ready to get the same results?
               </p>
               <a
-                href="#free-course"
+                href="/courses/seo"
                 className="btn-primary text-sm py-2 px-4 whitespace-nowrap"
                 onClick={closeVideo}
                 aria-label="Start AI + SEO Course"

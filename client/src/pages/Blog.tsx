@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - Blog Page
 // /blog - All existing posts + new pillar article
 // Schema: Blog, BlogPosting, BreadcrumbList, FAQPage
-// Internal links: → /#free-course, /pricing, /about, /resources
+// Internal links: /courses/seo, /pricing, /about, /resources, YouTube channel
 // External links: → Google Search Central, Google Ads Help, GA4 Help (non-competing authority only)
 // Target audience: Medium-sized businesses
 // Readability: Grade 5-6
@@ -691,7 +691,7 @@ export default function Blog() {
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-8">
                       The KnowHow Marketing Lab AI + SEO course covers all five steps of the Data-First AI SEO Method in detail, with hands-on exercises and real examples.{' '}
-                      <a href="/#free-course" className="text-[#E98C28] font-semibold hover:underline">Start the AI + SEO course →</a>
+                      <a href="/courses/seo" className="text-[#E98C28] font-semibold hover:underline">Start the AI + SEO course →</a>
                     </p>
 
                     {/* FAQ Section */}
@@ -718,7 +718,7 @@ export default function Blog() {
                         The free KnowHow Marketing Lab SEO course covers all 5 modules - including Google Search Console, GA4, keyword research, and on-page optimisation.
                       </p>
                       <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                        <a href="/#free-course" className="btn-primary text-sm py-2.5 px-5">
+                        <a href="/courses/seo" className="btn-primary text-sm py-2.5 px-5">
                           Start AI + SEO Course →
                         </a>
                         <Link href="/pricing" className="btn-outline text-sm py-2.5 px-5">
@@ -855,7 +855,7 @@ export default function Blog() {
                 Want to go deeper? The AI + SEO course covers all of this - step by step, with real examples.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <a href="/#free-course" className="btn-primary" aria-label="Start the free KnowHow Marketing Lab SEO course">
+                <a href="/courses/seo" className="btn-primary" aria-label="Start the free KnowHow Marketing Lab SEO course">
                   Start AI + SEO Course →
                 </a>
                 <Link href="/resources" className="btn-outline" aria-label="Browse free marketing resources and Google official docs">

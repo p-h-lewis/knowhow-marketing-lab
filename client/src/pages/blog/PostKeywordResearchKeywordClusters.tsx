@@ -1,7 +1,7 @@
 // Blog Post: How to Do Keyword Research Using Keyword Clusters
 // Slug: /blog/keyword-research-keyword-clusters
 // Cluster: AI SEO / Data-Driven SEO
-// Internal links: /blog/ai-seo-guide, /blog/how-to-set-up-google-search-console, /blog/ga4-set-up-guide, /courses/seo, /our-method
+// Internal links: /blog/ai-seo-guide, /blog/how-to-set-up-google-search-console, /blog/ga4-set-up-guide, /courses/seo, /framework
 // Author: Pip Seymour & Phelan Lewis
 
 import { useEffect } from 'react';
@@ -238,7 +238,7 @@ export default function PostKeywordResearchKeywordClusters() {
 
 <p>The AI will generate a list of keyword ideas that complement what you found in Keyword Planner. Add the relevant ones to your keyword list. You are not trying to rank for all of them - you are trying to understand the full shape of the topic so your content covers it completely.</p>
 
-<p>This is part of the "Find" phase in the <a href="/our-method">Data-First AI SEO Method</a> - using data and AI together to build a complete picture of what your audience is searching for before you write a single word.</p>
+<p>This is part of the "Find" phase in the <a href="/framework">Data-First AI SEO Method</a> - using data and AI together to build a complete picture of what your audience is searching for before you write a single word.</p>
 
 <h2 id="step4-group">Step 4 - Group keywords by intent</h2>
 
@@ -341,7 +341,7 @@ export default function PostKeywordResearchKeywordClusters() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3 rounded-full hover:bg-[#d4791f] transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI + SEO Course</a>
-              <a href="/our-method" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
+              <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See the Data-First Method</a>
             </div>
           </div>
 
