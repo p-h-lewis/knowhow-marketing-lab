@@ -396,7 +396,7 @@ const pillarFaqs = [
   },
   {
     q: 'How is data-driven SEO different from regular SEO?',
-    a: 'Traditional SEO often focuses on tactics like keyword stuffing, link building, or publishing lots of content without a clear strategy. Data-driven SEO starts with your actual performance data. You look at what is already working, find the gaps, and make targeted improvements that are most likely to move the needle.',
+    a: 'Traditional SEO often focuses on tactics like keyword stuffing, link building, or publishing lots of content without a clear strategy. Data-driven SEO starts with your actual performance data. You look at what is already working, find the gaps, and make targeted improvements that are most likely to make a difference.',
   },
   {
     q: 'What tools do I need for data-driven SEO?',
@@ -408,7 +408,7 @@ const pillarFaqs = [
   },
   {
     q: 'What is Generative Engine Optimisation (GEO)?',
-    a: 'GEO is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating comprehensive, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
+    a: 'GEO is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
   },
 ];
 
@@ -609,7 +609,7 @@ export default function Blog() {
                       to find out exactly what is working, what is not, and where the biggest opportunities are.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-6">
-                      For medium-sized businesses, this approach is especially powerful. You have enough data to make meaningful decisions, but you do not have the budget to waste on tactics that do not move the needle. Data-driven SEO helps you focus your effort where it counts.
+                      For medium-sized businesses, this approach is especially powerful. You have enough data to make meaningful decisions, but you do not have the budget to waste on tactics that do not make a difference. Data-driven SEO helps you focus your effort where it counts.
                     </p>
 
                     <h2 id="the-knowhow-data-first-method" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
@@ -687,7 +687,7 @@ export default function Blog() {
                       Generative Engine Optimisation (GEO) is the practice of optimising your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Comprehensive coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}
+                      The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Thorough coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}
                       <a href="/ai-seo-guide" className="text-[#318599] hover:underline">Complete Guide to AI SEO</a>.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-8">

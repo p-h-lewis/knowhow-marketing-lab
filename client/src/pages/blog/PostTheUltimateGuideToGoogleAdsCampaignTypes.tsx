@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
-const POST_CONTENT = `<p>Author: Know How Marketing Lab & Manus AI</p>
+const POST_CONTENT = `<p>Author: KnowHow Marketing Lab & Manus AI</p>
 
 <p>Published: December 27, 2025</p>
 
@@ -17,9 +17,9 @@ https://youtu.be/nzTa2wJEN9k
 
 <h2 id="the-single-most-important-decision-you-ll-make">The single most important decision you'll make</h2>
 
-<p>Choosing the right Google Ads campaign type is the single most important decision you'll make when setting up your account. Pick the wrong one, and you could burn through your budget with zero results. Pick the right one, and you unlock scalable growth.</p>
+<p>Choosing the right Google Ads campaign type is the single most important decision you'll make when setting up your account. Pick the wrong one, and you could burn through your budget with zero results. Pick the right one, and your budget has a fair chance to work.</p>
 
-<p>But Google changes the rules constantly. In 2025, the landscape looks completely different than it did just a few years ago. Discovery Ads are gone (replaced by Demand Gen). Performance Max has become the default growth engine. And AI is now driving almost every placement decision.</p>
+<p>But Google changes the rules constantly. In 2025, things look completely different than it did just a few years ago. Discovery Ads are gone (replaced by Demand Gen). Performance Max has become the default growth engine. And AI is now driving almost every placement decision.</p>
 
 <p>In this guide, we'll break down every active Google Ads campaign type, when to use it, and how to choose the right strategy for your business. All information is backed by official Google Ads documentation.</p>
 
@@ -53,7 +53,7 @@ https://youtu.be/nzTa2wJEN9k
 <h3 class="wp-block-heading" id="h-best-for">Best For:</h3>
 
 <ul class="wp-block-list">
-<li>Automated Growth: Advertisers who want to leverage AI to find conversions anywhere.</li>
+<li>Automated Growth: Advertisers who want to use AI to find conversions anywhere.</li>
 
 <li>Multi-Channel Reach: Businesses that want to be everywhere without managing 6 different campaigns.</li>
 
@@ -88,7 +88,7 @@ https://youtu.be/nzTa2wJEN9k
 <ul class="wp-block-list">
 <li>Brand Engagement: Capturing attention when users are in a "discovery" mindset</li>
 
-<li>Social-Style Creative: Leveraging your best social media videos and images </li>
+<li>Social-Style Creative: Using your best social media videos and images </li>
 
 <li>Finding New Audiences: Using "Lookalike segments" to find people similar to your best customers</li>
 </ul>
@@ -117,7 +117,7 @@ https://youtu.be/nzTa2wJEN9k
 <ul class="wp-block-list">
 <li>Direct Sales & Leads: Capturing users ready to buy.</li>
 
-<li>Specific Keywords: Targeting exact problems or solutions (e.g., "emergency plumber near me").</li>
+<li>Specific Keywords: Targeting exact problems or services (e.g., "emergency plumber near me").</li>
 
 <li>Tight Budget Control: You only pay when someone clicks.</li>
 </ul>
@@ -385,7 +385,7 @@ export default function PostTheUltimateGuideToGoogleAdsCampaignTypes() {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Ultimate Guide to Google Ads Campaign Types (Updated for 2026)",
-  "description": "Author: Know How Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...",
+  "description": "Author: KnowHow Marketing Lab & Manus AI Published: December 27, 2025 Category: Google Ads Strategy https://youtu.be/nzTa2wJEN9k The single most import...",
   "datePublished": "2025-12-27",
   "dateModified": "2025-12-27",
   "author": {

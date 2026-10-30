@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
-const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powered content creation to the evolution of search engines. <em>Explore the detailed discussion on AI's revolutionary impact on marketing. </em></p>
+const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powered content creation to the evolution of search engines. <em>Explore the detailed discussion on AI's big impact on marketing. </em></p>
 
 <h2 id="watch-our-video-podcast">Watch Our Video Podcast</h2>
 
@@ -37,7 +37,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 
 <p>These advancements allow marketers to focus more on creativity and strategy.</p>
 
-<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="Discover how AI transforms marketing with advanced image and text generation." class="wp-image-8348"
+<figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="How AI changes marketing with advanced image and text generation." class="wp-image-8348"
                   loading="lazy"
                   decoding="async"
                 /></figure>
@@ -76,7 +76,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ol class="wp-block-list">
 <li>Addressing common user queries efficiently</li>
 
-<li>Utilizing platforms like ChatGPT for real-time interactions</li>
+<li>Using platforms like ChatGPT for real-time interactions</li>
 
 <li>Regularly updating the chatbot's knowledge base</li>
 </ol>
@@ -133,7 +133,7 @@ const POST_CONTENT = `<p>In our latest podcast, covering everything from AI-powe
 <ul class="wp-block-list">
 <li>Align content structure with user intent and needs</li>
 
-<li>Provide comprehensive answers to potential queries</li>
+<li>Provide thorough answers to potential queries</li>
 </ul>
 
 <figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/how-ai-is-shaping-marketing-hero-WUxswqqXMPcCibGTRiK54F.webp" alt="Keyword intent funnel: Awareness, Interest, Consideration, Intent, Evaluation, Purchase." class="wp-image-8352"

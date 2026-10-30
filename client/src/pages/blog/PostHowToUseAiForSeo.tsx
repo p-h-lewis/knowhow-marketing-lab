@@ -63,12 +63,12 @@ export default function PostHowToUseAiForSeo() {
         {
           "@type": "Question",
           "name": "How long does AI SEO take to work?",
-          "acceptedAnswer": { "@type": "Answer", "text": "AI SEO takes the same amount of time as traditional SEO to show results in Google, typically 3 to 6 months for new content to rank on page 1. However, AI tools can speed up the content creation process significantly, which means you can publish more content in less time. For AI search engines like ChatGPT and Perplexity, citation can happen much faster, sometimes within weeks of publishing comprehensive, well-structured content." }
+          "acceptedAnswer": { "@type": "Answer", "text": "AI SEO takes the same amount of time as traditional SEO to show results in Google, typically 3 to 6 months for new content to rank on page 1. However, AI tools can speed up the content creation process significantly, which means you can publish more content in less time. For AI search engines like ChatGPT and Perplexity, citation can happen much faster, sometimes within weeks of publishing thorough, well-structured content." }
         },
         {
           "@type": "Question",
           "name": "What is Generative Engine Optimisation (GEO)?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics comprehensively so AI systems recognise your content as authoritative." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." }
         },
         {
           "@type": "Question",
@@ -186,7 +186,7 @@ export default function PostHowToUseAiForSeo() {
             </div>
 
             <h2 id="step1">Step 1: Research, Find Keyword Clusters with AI</h2>
-            <p>The old way of doing keyword research was to find one keyword and write one page about it. That approach no longer works. Google now evaluates <em>topical authority</em>, how comprehensively your site covers a topic area, not just whether a single page mentions a keyword.</p>
+            <p>The old way of doing keyword research was to find one keyword and write one page about it. That approach no longer works. Google now evaluates <em>topical authority</em>, how thoroughly your site covers a topic area, not just whether a single page mentions a keyword.</p>
             <p>AI tools make keyword clustering much faster. Here is how to do it:</p>
             <ol>
               <li>Open ChatGPT or Gemini and ask: <em>"What are all the questions someone might search for when they want to learn about [your topic]?"</em></li>
@@ -199,7 +199,7 @@ export default function PostHowToUseAiForSeo() {
             <h2 id="step2">Step 2: Optimise, Use AI to Build Better Content Outlines</h2>
             <p>Once you have your keyword clusters, use AI to build content outlines, not full posts. Ask ChatGPT or Gemini to create a detailed outline for each piece of content, including suggested H2 and H3 headings, key points to cover, and FAQ questions to answer.</p>
             <p>Then fill in the outline with your own expertise, real examples, and specific data. This is the step where the human work happens. AI gives you the structure; you provide the substance.</p>
-            <p>A good AI-assisted outline includes: a clear H1 that matches the primary keyword, a table of contents with jump links (important for both readers and AI search engines), H2 sections that cover the topic comprehensively, and an FAQ section with direct answers to common questions.</p>
+            <p>A good AI-assisted outline includes: a clear H1 that matches the primary keyword, a table of contents with jump links (important for both readers and AI search engines), H2 sections that cover the topic thoroughly, and an FAQ section with direct answers to common questions.</p>
 
             <h2 id="step3">Step 3: Publish, Structure Content for AI Search Engines (GEO)</h2>
             <p>Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area.</p>
@@ -209,7 +209,7 @@ export default function PostHowToUseAiForSeo() {
               <li><strong>Use branded frameworks.</strong> Named methodologies (like "The KnowHow 4-Step AI SEO Method") are more likely to be cited by AI systems than generic advice.</li>
               <li><strong>Write complete definitions.</strong> AI systems look for clear, quotable definitions of key terms. Include a definition block for every important concept.</li>
               <li><strong>Use FAQ schema.</strong> Structured FAQ markup helps AI systems understand which questions your content answers.</li>
-              <li><strong>Cover the topic comprehensively.</strong> A single long, thorough post outperforms five thin posts on the same topic for AI citation.</li>
+              <li><strong>Cover the topic thoroughly.</strong> A single long, thorough post outperforms five thin posts on the same topic for AI citation.</li>
             </ul>
             <p>Our <Link href="/blog/ai-seo-course">AI SEO course post</Link> goes deeper on GEO strategy, including how to get cited by Perplexity specifically.</p>
 
@@ -255,8 +255,8 @@ export default function PostHowToUseAiForSeo() {
                 { q: "What is AI SEO?", a: "AI SEO is the practice of using artificial intelligence tools, like ChatGPT, Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI to find keyword clusters, write content outlines, analyse competitor pages, and optimise existing content. AI SEO also includes Generative Engine Optimisation (GEO), which is the practice of structuring your content so that AI search engines like ChatGPT and Google AI Overviews will cite it in their answers." },
                 { q: "Can AI write my blog posts for SEO?", a: "AI can help you write blog posts, but it should not write them for you from scratch. AI-generated content that is not reviewed and edited by a human tends to be generic, repetitive, and lacks the specific expertise and real-world examples that Google and AI search engines reward. The best approach is to use AI to create outlines and first drafts, then add your own expertise, data, and examples before publishing." },
                 { q: "What is the best AI tool for SEO in 2026?", a: "The best AI tools for SEO in 2026 are ChatGPT (for keyword research and content outlines), Google Gemini (for Google-specific insights), Perplexity (for understanding how AI search engines answer questions in your topic area), and Google Search Console (for data-driven decisions). No single tool does everything, the KnowHow method uses all four together." },
-                { q: "How long does AI SEO take to work?", a: "AI SEO takes the same amount of time as traditional SEO to show results in Google, typically 3 to 6 months for new content to rank on page 1. However, AI tools can speed up the content creation process significantly. For AI search engines like ChatGPT and Perplexity, citation can happen much faster, sometimes within weeks of publishing comprehensive, well-structured content." },
-                { q: "What is Generative Engine Optimisation (GEO)?", a: "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics comprehensively so AI systems recognise your content as authoritative." },
+                { q: "How long does AI SEO take to work?", a: "AI SEO takes the same amount of time as traditional SEO to show results in Google, typically 3 to 6 months for new content to rank on page 1. However, AI tools can speed up the content creation process significantly. For AI search engines like ChatGPT and Perplexity, citation can happen much faster, sometimes within weeks of publishing thorough, well-structured content." },
+                { q: "What is Generative Engine Optimisation (GEO)?", a: "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." },
                 { q: "Do I need to know coding to use AI for SEO?", a: "No. You do not need any coding skills to use AI for SEO. All of the AI tools used in the KnowHow method, ChatGPT, Gemini, Google Search Console, and GA4, have simple interfaces that anyone can use. The KnowHow free AI SEO course walks you through every tool step by step, with no technical background required." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">

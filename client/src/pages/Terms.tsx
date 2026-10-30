@@ -146,10 +146,10 @@ export default function Terms() {
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>7. Results Disclaimer</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our courses and community teach real, proven digital marketing strategies used by our agency, Seymour Digital Media, with real clients. However, we cannot guarantee specific results from applying what you learn. Marketing outcomes depend on many factors outside our control, including your industry, competitive landscape, budget, website quality, and how consistently and correctly you apply the strategies taught.
+                Our courses and community teach real, proven digital marketing strategies used by our agency, Seymour Digital Media, with real clients. However, we cannot guarantee specific results from applying what you learn. Marketing outcomes depend on many factors outside our control, including your industry, competition, budget, website quality, and how consistently and correctly you apply the strategies taught.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Any case studies, examples, or results mentioned on this website represent the experiences of specific clients and are not a guarantee that you will achieve the same outcomes. We commit to teaching you everything we know, clearly and honestly, and to keeping our content current as the digital marketing landscape evolves.
+                Any case studies, examples, or results mentioned on this website represent the experiences of specific clients and are not a guarantee that you will achieve the same outcomes. We commit to teaching you everything we know, clearly and honestly, and to keeping our content current as digital marketing changes.
               </p>
 
               <h2 className="text-xl font-extrabold text-gray-900 mt-10 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>8. Intellectual Property</h2>

@@ -613,7 +613,7 @@ export default function Community() {
                   {[
                     'You\'re looking for someone to just do your marketing for you (that\'s what agencies are for)',
                     'You want a passive income course to watch once and forget, The Lab requires showing up and doing the work',
-                    'You\'re after a quick-fix or "hack", we teach strategy that compounds over time, not shortcuts',
+                    'You\'re after a quick fix or shortcut, we teach strategy that compounds over time, not shortcuts',
                     'You\'re not willing to implement, the worksheets and homework are there for a reason',
                     'You expect overnight results, real SEO and Google Ads results take 60-90 days of consistent work',
                   ].map(item => (

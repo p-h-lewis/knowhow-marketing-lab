@@ -160,7 +160,7 @@ const resourceCategories = [
       },
       {
         name: 'Google Tag Platform Documentation',
-        desc: 'Technical documentation for Google Tag Manager from Google Developers - for advanced implementations and custom solutions.',
+        desc: 'Technical documentation for Google Tag Manager from Google Developers - for advanced and custom setups.',
         href: 'https://developers.google.com/tag-platform/tag-manager',
         source: 'Google Developers',
       },

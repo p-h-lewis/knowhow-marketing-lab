@@ -15,7 +15,7 @@ const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 <h3 class="wp-block-heading"><br>Why is GA4 Important</h3>
 
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill-element"><div class="wp-block-media-text__content">
-<p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behavior and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 empowers marketers to optimise strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
+<p>GA4 lets businesses track users' journeys on their websites. It shows all customer interactions, from engagement to conversion.<br><br>Its event-based model and advanced reporting tools, help provide granular insights into user behavior and potential conversion barriers. <br><br>With machine learning and cross-platform tracking, GA4 helps marketers optimise strategies, personalize user experiences, and drive conversions more effectively than previous analytics versions.<br></p>
 </div><figure class="wp-block-media-text__media"><img src="https://seymourdigitalmedia.com/wp-content/uploads/2023/06/Some-of-the-key.png" alt="GA4 Property SEtup - key benifits" class="wp-image-52051 size-full" style="object-position:50% 50%"
                   loading="lazy"
                   decoding="async"

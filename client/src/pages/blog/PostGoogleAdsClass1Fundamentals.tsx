@@ -110,7 +110,7 @@ const POST_CONTENT = `<p>Duration: 45 minutes + 15 minutes Q&A<br>Level: Beginne
 
 <p>Shopping campaigns are designed specifically for e-commerce businesses. Your product listings appear in Google Shopping results with an image, price, and store name. These ads are highly visual and allow users to compare products before clicking.</p>
 
-<p><strong>Best for:</strong> E-commerce stores that want to showcase their products directly in search results.</p>
+<p><strong>Best for:</strong> E-commerce stores that want to show their products directly in search results.</p>
 
 <p><strong>Performance Max Campaigns</strong></p>
 

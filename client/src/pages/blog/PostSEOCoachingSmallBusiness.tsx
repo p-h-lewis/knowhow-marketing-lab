@@ -38,7 +38,7 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 <p>Search for "how to do SEO" and you will get thousands of articles, most of which contradict each other. Some say to focus on backlinks. Others say content is everything. Some push technical SEO. A coach cuts through the noise and tells you what actually matters for your specific website and industry.</p>
 
 <h3 class="wp-block-heading">2. No time to learn everything from scratch</h3>
-<p>A small business owner or marketing manager has a full-time job already. Spending 20 hours learning SEO theory is not realistic. Coaching is faster because you skip the parts that don't apply to you and focus on what will move the needle for your specific situation.</p>
+<p>A small business owner or marketing manager has a full-time job already. Spending 20 hours learning SEO theory is not realistic. Coaching is faster because you skip the parts that don't apply to you and focus on what matters most for your specific situation.</p>
 
 <h3 class="wp-block-heading">3. Hard to know if you're doing it right</h3>
 <p>SEO results take time, usually 3-6 months to see meaningful changes. Without someone to check your work, it is easy to spend months doing the wrong things and not realise it until much later. A coach gives you feedback in real time so you can course-correct quickly.</p>

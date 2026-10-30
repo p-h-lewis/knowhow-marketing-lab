@@ -12,7 +12,7 @@ import { Link } from 'wouter';
 
 const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is one of the fastest ways to burn through a marketing budget. Google Ads coaching for marketers solves this by giving you expert feedback on your real campaigns, not a textbook example, not a demo account, your actual account.</p>
 
-<p>This post explains what Google Ads coaching looks like, who it is for, and how to find a coach who will actually move the needle for your business.</p>
+<p>This post explains what Google Ads coaching looks like, who it is for, and how to find a coach who can make a real difference for your business.</p>
 
 <h2 id="what-is-google-ads-coaching">What Is Google Ads Coaching for Marketers?</h2>
 

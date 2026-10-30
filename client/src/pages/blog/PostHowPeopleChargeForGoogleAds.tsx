@@ -16,17 +16,17 @@ const POST_CONTENT = `<h2 id="industries-charge-industry-rates"><br>Industries c
 
 <h2 id="customization-and-expertise">Customization and Expertise</h2>
 
-<p>Given the high level of customization, including advanced targeting, <a href="https://seymourdigitalmedia.com/remarketing-retargeting/">retargeting</a>, and comprehensive reporting, fees could be on the higher end, reflecting the expertise required.</p>
+<p>Given the high level of customization, including advanced targeting, <a href="https://seymourdigitalmedia.com/remarketing-retargeting/">retargeting</a>, and detailed reporting, fees could be on the higher end, reflecting the expertise required.</p>
 
 <h2 id="estimated-cost">Estimated Cost</h2>
 
-<p><strong>For a comprehensive plans:</strong> A fair monthly management fee might range from <strong>$3,000 to $5,000</strong>.</p>
+<p><strong>For full-service plans:</strong> A fair monthly management fee might range from <strong>$3,000 to $5,000</strong>.</p>
 
 <p><strong>Higher-end services:</strong> If the ad spend is significant (e.g., $20,000+ per month) and the strategy involves highly sophisticated targeting and segmentation, the fee could be <strong>$5,000 to $7,500</strong> or more.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Considering the detailed and customised approach outlined, you should expect to invest in the higher end of the spectrum, likely <strong>$4,000 to $6,000 per month</strong> for comprehensive Google Ads management. </p>
+<p>Considering the detailed and customised approach outlined, you should expect to invest in the higher end of the spectrum, likely <strong>$4,000 to $6,000 per month</strong> for full-service Google Ads management. </p>
 
 <p>This investment aligns with the strategic objectives of scaling marketing efforts and achieving significant growth through targeted and effective digital advertising.</p>
 

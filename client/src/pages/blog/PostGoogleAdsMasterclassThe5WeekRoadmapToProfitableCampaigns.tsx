@@ -81,7 +81,7 @@ https://youtu.be/_jqGM9V1QHY
 
 <h3 class="wp-block-heading">Why is This Exclusive to the Lab?</h3>
 
-<p>Because information alone isn’t enough. Transformation requires support.</p>
+<p>Because information alone isn’t enough. Real change takes support.</p>
 
 <p>Inside the KnowHow Marketing Lab, you don’t just get the videos. You get:</p>
 

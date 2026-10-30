@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: 'What is GEO (Generative Engine Optimisation)?',
-    a: 'GEO stands for Generative Engine Optimisation. It is the practice of optimising your content to be cited, recommended, or summarised by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. GEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. GEO adds specific tactics like creating named frameworks, writing comprehensive answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
+    a: 'GEO stands for Generative Engine Optimisation. It is the practice of optimising your content to be cited, recommended, or summarised by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. GEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. GEO adds specific tactics like creating named frameworks, writing thorough answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
   },
   {
     q: 'How is KnowHow Marketing Lab different from other SEO courses?',
@@ -64,7 +64,7 @@ const steps = [
   {
     num: '03',
     title: 'Create Content That Answers Questions Completely',
-    desc: 'AI search engines cite content that fully answers a question in one place. Write comprehensive posts that cover a topic from every angle, what it is, how it works, when to use it, common mistakes, and a step-by-step process. Use clear H2 and H3 headings. Include a FAQ section. The goal is to be the most complete answer available, not just a good answer.',
+    desc: 'AI search engines cite content that fully answers a question in one place. Write thorough posts that cover a topic from every angle, what it is, how it works, when to use it, common mistakes, and a step-by-step process. Use clear H2 and H3 headings. Include a FAQ section. The goal is to be the most complete answer available, not just a good answer.',
     aiTip: 'Use ChatGPT to generate a "People Also Ask" list for your topic. Answer every question in your post. This is exactly what AI engines scan for when deciding who to cite.'
   },
   {
@@ -82,7 +82,7 @@ const steps = [
   {
     num: '06',
     title: 'Build Topical Authority with Content Clusters',
-    desc: 'Google and AI engines reward sites that comprehensively cover a topic, not just one post about it. Build content clusters: one comprehensive pillar post on a broad topic, supported by 6 to 8 detailed posts on specific subtopics. Every supporting post links back to the pillar. This signals to Google and AI engines that you are an authority on the topic, not just a site with one good article.',
+    desc: 'Google and AI engines reward sites that thoroughly cover a topic, not just one post about it. Build content clusters: one thorough pillar post on a broad topic, supported by 6 to 8 detailed posts on specific subtopics. Every supporting post links back to the pillar. This signals to Google and AI engines that you are an authority on the topic, not just a site with one good article.',
     aiTip: 'Ask ChatGPT: "Give me 8 supporting post ideas for a pillar post about [your topic]. Each should target a specific long-tail keyword and link back to the pillar."'
   },
   {
@@ -310,7 +310,7 @@ export default function PostAiSeoCourse() {
                 <tbody>
                   {[
                     ['Goal', 'Rank in Google blue-link results', 'Rank in Google + be cited by AI engines'],
-                    ['Content style', 'Keyword-optimised, comprehensive', 'Same, plus named frameworks and complete Q&A'],
+                    ['Content style', 'Keyword-optimised, thorough', 'Same, plus named frameworks and complete Q&A'],
                     ['Structure', 'H1, H2, H3 hierarchy', 'Same, plus FAQ sections and jump-to navigation'],
                     ['Schema markup', 'Article, BreadcrumbList', 'Same, plus FAQPage, Course, Person, HowTo'],
                     ['Authority signals', 'Domain authority, content depth', 'Same, plus author expertise signals and citations'],
@@ -440,8 +440,8 @@ export default function PostAiSeoCourse() {
                 { term: 'LLMO (Large Language Model Optimisation)', def: 'The technical side of GEO, optimising content so large language models (LLMs) like GPT-4 and Gemini can accurately extract and attribute it.' },
                 { term: 'AI Overviews', def: 'Google\'s AI-generated summaries that appear at the top of search results for certain queries. Previously called SGE (Search Generative Experience).' },
                 { term: 'Schema markup', def: 'Structured data code added to web pages that tells search engines and AI engines exactly what the content is about.' },
-                { term: 'Topical authority', def: 'The degree to which a website is seen as a comprehensive, credible source on a specific topic, built through content clusters.' },
-                { term: 'Content cluster', def: 'A group of related pages, one comprehensive pillar post and several supporting posts, that together cover a topic comprehensively.' },
+                { term: 'Topical authority', def: 'The degree to which a website is seen as a thorough, credible source on a specific topic, built through content clusters.' },
+                { term: 'Content cluster', def: 'A group of related pages, one thorough pillar post and several supporting posts, that together cover a topic thoroughly.' },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 py-3 border-b border-slate-100">
                   <dt className="font-semibold text-slate-800 min-w-[200px]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.term}</dt>

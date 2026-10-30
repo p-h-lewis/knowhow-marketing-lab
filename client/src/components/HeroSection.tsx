@@ -82,7 +82,7 @@ export default function HeroSection() {
                   &ldquo;I felt totally ignorant before the course. After completing it I feel like I am an expert.&rdquo;
                 </p>
                 <footer className="text-xs text-gray-400 mt-1 not-italic" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  <cite>Bob &mdash; Photographer, Lab Member</cite>
+                  <cite>Bob, Photographer, Lab Member</cite>
                 </footer>
               </div>
             </blockquote>

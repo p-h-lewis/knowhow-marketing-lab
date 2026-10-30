@@ -106,7 +106,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>This is Google's original name for their AI-powered search feature. In 2025, Google renamed it to "AI Overviews."</p>
 
-<p><strong>Goal:</strong> Appear in Google's AI-generated search summaries<br><strong>Platform:</strong> Google Search<br><strong>How it works:</strong> Google's AI generates comprehensive answers at the top of search results, citing sources<br><strong>Success metric:</strong> Being cited in AI Overviews</p>
+<p><strong>Goal:</strong> Appear in Google's AI-generated search summaries<br><strong>Platform:</strong> Google Search<br><strong>How it works:</strong> Google's AI generates thorough answers at the top of search results, citing sources<br><strong>Success metric:</strong> Being cited in AI Overviews</p>
 
 <p><strong>Important note:</strong> SGE and AI Overviews are the same thing. Google launched it as "Search Generative Experience" in 2023, then renamed it to "AI Overviews" in 2024. You'll see both terms used, but they mean the same feature.</p>
 
@@ -116,7 +116,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>This is the broadest term, covering optimisation for all AI systems, not just search-related ones.</p>
 
-<p><strong>Goal:</strong> Be visible across all AI platforms<br><strong>Platform:</strong> All AI systems (search, recommendations, assistants, agents)<br><strong>How it works:</strong> Comprehensive optimisation across the entire AI ecosystem<br><strong>Success metric:</strong> Overall AI visibility</p>
+<p><strong>Goal:</strong> Be visible across all AI platforms<br><strong>Platform:</strong> All AI systems (search, recommendations, assistants, agents)<br><strong>How it works:</strong> Thorough optimisation across the entire AI ecosystem<br><strong>Success metric:</strong> Overall AI visibility</p>
 
 <h3 class="wp-block-heading" id="h-ai-seo-ai-powered-search-engine-optimisation">AI SEO (AI-Powered Search Engine Optimisation)</h3>
 
@@ -133,7 +133,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 <p>The tactics that work for one generally work for all of them:</p>
 
 <ul class="wp-block-list">
-<li>Create comprehensive, helpful content</li>
+<li>Create thorough, helpful content</li>
 
 <li>Build authority and trust</li>
 
@@ -158,13 +158,13 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Different industries are naming the same shift.</strong> SEO professionals call it GEO. Content marketers call it AEO. Data scientists call it LLMO. They're all describing the same evolution from different perspectives.</p>
 
-<p><strong>People want to look ahead of the curve.</strong> Creating a new term makes you look like an innovator. It's marketing for marketing professionals.</p>
+<p><strong>People want to look ahead of the curve.</strong> Creating a new term makes you look like a leader. It's marketing for marketing professionals.</p>
 
 <p><strong>Agencies are selling new services.</strong> If you can convince clients that "GEO" is different from "SEO," you can sell them a new service package.</p>
 
 <p>There's nothing wrong with any of this. But it does create confusion. That's why we're cutting through it and giving you the straight story.</p>
 
-<p>According to <a href="https://backlinko.com/seo-vs-geo">Backlinko's research</a>, search interest in these terms has exploded in the past year. "AI Optimisation" searches have grown 400%. But "SEO" still gets 250,000 searches per month in the US alone.</p>
+<p>According to <a href="https://backlinko.com/seo-vs-geo">Backlinko's research</a>, search interest in these terms has grown fast in the past year. "AI Optimisation" searches have grown 400%. But "SEO" still gets 250,000 searches per month in the US alone.</p>
 
 <p>The takeaway? SEO isn't dead. It's evolving. And all these new terms are just different ways of describing that evolution.</p>
 
@@ -225,7 +225,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>The things that make you rank well on Google also help with AI:</p>
 
-<p><strong>Creating helpful, comprehensive content</strong> - Both Google and AI reward content that genuinely helps people.</p>
+<p><strong>Creating helpful, thorough content</strong> - Both Google and AI reward content that genuinely helps people.</p>
 
 <p><strong>Building a fast, easy-to-use website</strong> - Technical excellence matters for both traditional search and AI crawlers.</p>
 
@@ -293,7 +293,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Step 1: Find Out What AI Knows About You Right Now</strong></p>
 
-<p>This is crucial. You need to know your starting point.</p>
+<p>This is important. You need to know your starting point.</p>
 
 <p>Open ChatGPT, Claude, Gemini, and Perplexity. Ask each one:</p>
 
@@ -302,7 +302,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li>"What does [your company name] do?"</li>
 
-<li>"What's the best solution for [your type of product/service]?"</li>
+<li>"What's the best option for [your type of product/service]?"</li>
 
 <li>"Who are the top companies in [your industry]?"</li>
 </ul>
@@ -616,7 +616,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <li>Provides unique insights or data</li>
 
-<li>Is comprehensive and detailed</li>
+<li>Is thorough and detailed</li>
 
 <li>Uses clear, quotable language</li>
 
@@ -703,7 +703,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Structured Product Data</strong></p>
 
-<p>For e-commerce, structured product data is crucial. Implement:</p>
+<p>For e-commerce, structured product data is important. Implement:</p>
 
 <ul class="wp-block-list">
 <li>Product schema markup</li>
@@ -810,14 +810,14 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p><strong>Measuring success holistically</strong> - Track traditional SEO metrics AND AI visibility metrics.</p>
 
-<p><strong>Staying adaptable</strong> - The AI landscape changes fast. Stay informed and be ready to adjust.</p>
+<p><strong>Staying adaptable</strong> - AI search changes fast. Stay informed and be ready to adjust.</p>
 
 <h3 class="wp-block-heading" id="h-the-simple-ai-seo-framework">The Simple AI SEO Framework</h3>
 
 <ol class="wp-block-list">
 <li><strong>Foundation</strong> - Build solid traditional SEO (technical, content, authority)</li>
 
-<li><strong>Expansion</strong> - Create comprehensive content that teaches AI about you</li>
+<li><strong>Expansion</strong> - Create thorough content that teaches AI about you</li>
 
 <li><strong>Optimisation</strong> - Structure content for easy extraction and citation</li>
 
@@ -848,7 +848,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>Instead of just showing ten blue links, Google now generates AI-powered summaries that answer queries directly within the search results page.</p>
 
-<p>Search for "how to start a podcast" and Google's AI writes a detailed answer right there. It pulls information from multiple sources and creates one comprehensive response.</p>
+<p>Search for "how to start a podcast" and Google's AI writes a detailed answer right there. It pulls information from multiple sources and creates one thorough response.</p>
 
 <p>The websites used as sources get small citation links within or below the AI answer. But many people get their answer from the AI and never click through.</p>
 
@@ -898,7 +898,7 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <p>The strategies overlap with GEO and AEO:</p>
 
-<p><strong>Create comprehensive content</strong> - Cover topics thoroughly, not superficially</p>
+<p><strong>Create thorough content</strong> - Cover topics thoroughly, not superficially</p>
 
 <p><strong>Use clear structure</strong> - Headings, subheadings, bullet points, tables</p>
 
@@ -928,14 +928,14 @@ const POST_CONTENT = `<p><strong>Published:</strong> October 19, 2025</p>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
-<h2 id="the-know-how-framework-your-complete-strategy">The Know How Framework: Your Complete Strategy</h2>
+<h2 id="the-know-how-framework-your-complete-strategy">The KnowHow Framework: Your Complete Strategy</h2>
 
 <figure class="wp-block-image size-full"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/ai-seo-marketing-strategy-hero-bzqvgsmmmJEeKMoJGue5Hz.webp" alt="ai seo know how optimisation framework " class="wp-image-8849"
                   loading="lazy"
                   decoding="async"
                 /></figure>
 
-<p>At Know How Marketing Lab, we've developed a comprehensive framework for succeeding with AI SEO. We call it the <strong>Know How Optimisation Framework</strong>.</p>
+<p>At KnowHow Marketing Lab, we've developed a complete framework for succeeding with AI SEO. We call it the <strong>KnowHow Optimisation Framework</strong>.</p>
 
 <p>It integrates SEO, GEO, AEO, LLMO, and AIO into one cohesive strategy.</p>
 
@@ -1072,7 +1072,7 @@ export default function PostAiSeoGuide() {
               <li key="aio-the-bigger-picture-of-ai-optimisation"><a href="#aio-the-bigger-picture-of-ai-optimisation" className="text-[#318599] hover:underline text-sm">AIO: The Bigger Picture of AI Optimisation</a></li>
               <li key="ai-seo-the-umbrella-term-that-covers-everything"><a href="#ai-seo-the-umbrella-term-that-covers-everything" className="text-[#318599] hover:underline text-sm">AI SEO: The Umbrella Term That Covers Everything</a></li>
               <li key="how-sge-ai-overviews-changed-search-forever"><a href="#how-sge-ai-overviews-changed-search-forever" className="text-[#318599] hover:underline text-sm">How SGE/AI Overviews Changed Search Forever</a></li>
-              <li key="the-know-how-framework-your-complete-strategy"><a href="#the-know-how-framework-your-complete-strategy" className="text-[#318599] hover:underline text-sm">The Know How Framework: Your Complete Strategy</a></li>
+              <li key="the-know-how-framework-your-complete-strategy"><a href="#the-know-how-framework-your-complete-strategy" className="text-[#318599] hover:underline text-sm">The KnowHow Framework: Your Complete Strategy</a></li>
           </ol>
         </nav>
           {/* Article Content */}

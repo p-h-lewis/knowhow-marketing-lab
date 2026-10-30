@@ -245,14 +245,14 @@ export default function Pricing() {
                 5.0 Stars &middot; 79 Google Reviews
               </h2>
               <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a> &mdash; the agency behind KnowHow Marketing Lab
+                Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>, the agency behind KnowHow Marketing Lab
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
               {[
                 { name: 'Rysa Koch', role: 'Mental Health Group Practice, Chicago', review: '\u201cThey have had a serious impact on our ability to get our therapists all full and further expand our reach within the community.\u201d' },
                 { name: 'Robert Trasolini', role: 'Business Owner', review: '\u201cWe instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic.\u201d' },
-                { name: 'Jaime Hall', role: 'Client', review: '\u201cPip was absolutely amazing \u2014 super knowledgeable and always willing to go the extra mile.\u201d' },
+                { name: 'Jaime Hall', role: 'Client', review: '\u201cPip was absolutely amazing, super knowledgeable and always willing to go the extra mile.\u201d' },
                 { name: 'Chloe Dertinger', role: 'Client', review: '\u201cPip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console.\u201d' },
                 { name: 'Jason McCormick', role: 'Coastal Power Vacuum', review: '\u201cOur goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas.\u201d' },
               ].map((r, i) => (
