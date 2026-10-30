@@ -126,14 +126,14 @@ export default function CourseGoogleAds() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Google Ads Bootcamp · 8 Modules · The Lab · $29/mo
+                  Google Ads Course · 8 Modules · The Lab · $29/mo
                 </span>
                 <h1 id="google-ads-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Google Ads<br />
                   <span className="text-[#E98C28]">Mastery Course</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Stop wasting money on Google Ads that don't work. This Google Ads bootcamp takes you from your first campaign to advanced bidding strategies - using the same data-driven approach we use for our agency clients.
+                  Stop wasting money on Google Ads that don't work. This Google Ads course takes you from your first campaign to advanced bidding strategies - using the same data-driven approach we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
@@ -180,15 +180,15 @@ export default function CourseGoogleAds() {
           </div>
         </section>
 
-        {/* Google Ads Bootcamp section - targets 'google ads bootcamp' keyword */}
-        <section className="py-12 bg-[#4F37D8] text-white" aria-label="Google Ads Bootcamp">
+        {/* Course approach section */}
+        <section className="py-12 bg-[#4F37D8] text-white" aria-label="How the Google Ads course works">
           <div className="container max-w-5xl">
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI-Powered Google Ads Bootcamp</span>
-                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Real AI-Powered Google Ads Bootcamp</h2>
+                <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI-Assisted Google Ads Course</span>
+                <h2 className="text-3xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>A Step-by-Step Google Ads Course</h2>
                 <p className="text-white/80 text-base leading-relaxed mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Most Google Ads courses teach you the theory. This AI-powered bootcamp gives you a step-by-step system - the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
+                  Most Google Ads courses teach you the theory. This course gives you a step-by-step system - the same one we use at Seymour Digital Media for medium-sized businesses spending real budget.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   In 8 structured modules, you'll go from setting up your first campaign to running advanced Performance Max and ROAS bidding. ChatGPT, Gemini, and Manus are woven into every module - use them to write ad copy, analyse performance data, and find wasted spend in minutes.
@@ -196,7 +196,7 @@ export default function CourseGoogleAds() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { title: 'Bootcamp Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
+                  { title: 'Course Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
                   { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
                   { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
                   { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it - using real data, not guesswork.' },

@@ -83,7 +83,7 @@ export default function Home() {
                 "name": "KnowHow Marketing Lab Courses",
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Bootcamp", "description": "Google Ads bootcamp covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },
@@ -166,8 +166,7 @@ export default function Home() {
               { "@type": "ListItem", "position": 6, "name": "About Pip Seymour & Phelan Lewis", "url": "https://knowhowmarketinglab.com/about" },
               { "@type": "ListItem", "position": 7, "name": "Free Resources - Official Google Docs", "url": "https://knowhowmarketinglab.com/resources" },
               { "@type": "ListItem", "position": 8, "name": "The KnowHow Lab Community", "url": "https://knowhowmarketinglab.com/community" },
-              { "@type": "ListItem", "position": 9, "name": "GeekSpeak Podcast", "url": "https://knowhowmarketinglab.com/podcast" },
-              { "@type": "ListItem", "position": 10, "name": "The Data-First AI SEO Framework", "url": "https://knowhowmarketinglab.com/framework" }
+              { "@type": "ListItem", "position": 9, "name": "The Data-First AI SEO Framework", "url": "https://knowhowmarketinglab.com/framework" }
             ]
           })
         }}
@@ -316,17 +315,6 @@ export default function Home() {
                     What coaching looks like
                   </Link>
                 </div>
-                {/* Mastermind callout */}
-                <div className="mt-2 p-4 rounded-2xl border border-[#E98C28]/30 bg-[#E98C28]/5 flex items-center justify-between gap-4">
-                  <div>
-                    <div className="flex items-center gap-1.5 mb-0.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#E98C28] animate-pulse" />
-                      <span className="text-xs font-bold uppercase tracking-wider text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>New, 5 seats left</span>
-                    </div>
-                    <p className="text-sm font-semibold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI Marketing Accelerator Mastermind, 8 weeks, $2,000</p>
-                  </div>
-                  <Link href="/mastermind" className="flex-shrink-0 text-xs font-bold text-[#E98C28] hover:underline whitespace-nowrap" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>See details →</Link>
-                </div>
               </div>
               {/* Right: coaching cards */}
               <div className="grid grid-cols-1 gap-4">
@@ -355,69 +343,6 @@ export default function Home() {
                     <p className="text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>{card.desc}</p>
                   </Link>
                 ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ── MASTERMIND SECTION ── */}
-        <section className="py-20 bg-[#1a1a2e] relative overflow-hidden" aria-labelledby="mastermind-home-heading">
-          {/* Background glow */}
-          <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 15% 50%, #E98C28 0%, transparent 45%), radial-gradient(circle at 85% 30%, #318599 0%, transparent 45%)' }} />
-          <div className="container max-w-5xl relative">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Left: copy */}
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-widest text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Limited to 8 seats · Cohort starts May 12</span>
-                </div>
-                <h2 id="mastermind-home-heading" className="text-3xl md:text-4xl font-extrabold text-white leading-tight mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Ready to go deeper?<br />
-                  <span style={{ color: '#E98C28' }}>The AI Marketing Accelerator</span>
-                </h2>
-                <p className="text-gray-300 text-lg mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  8 weeks of intensive, small-group coaching for business owners who want to build a real AI-powered marketing system — not just learn theory. Only 8 seats per cohort.
-                </p>
-                <ul className="space-y-3 mb-8">
-                  {[
-                    'Weekly 90-min live sessions with Pip & Phelan',
-                    'Your real website, ads, and data reviewed every week',
-                    'AI tools, automations, and frameworks built for your business',
-                    '$2,000 one-time investment · 8 seats · starts May 12',
-                  ].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/20 text-[#E98C28] text-xs font-bold flex items-center justify-center">✓</span>
-                      <span className="text-gray-300 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Link href="/mastermind" className="inline-block bg-[#E98C28] text-white font-bold px-8 py-3.5 rounded-full hover:bg-[#d47d20] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                    See the full details →
-                  </Link>
-                  <a href="https://crm.seymourdigitalmedia.com/widget/booking/6AuyeLl8HIzgz285Vfca" target="_blank" rel="noopener noreferrer" className="inline-block border border-white/20 text-white font-semibold px-8 py-3.5 rounded-full hover:border-[#E98C28] hover:text-[#E98C28] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                    Book a discovery call
-                  </a>
-                </div>
-              </div>
-              {/* Right: stats cards */}
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { value: '8', label: 'Seats per cohort', color: '#E98C28' },
-                  { value: '8', label: 'Weeks of live coaching', color: '#318599' },
-                  { value: '$2,000', label: 'One-time investment', color: '#4F37D8' },
-                  { value: '90 min', label: 'Per weekly session', color: '#E98C28' },
-                ].map((stat, i) => (
-                  <div key={i} className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
-                    <div className="text-3xl font-extrabold mb-1" style={{ color: stat.color, fontFamily: 'Space Grotesk, sans-serif' }}>{stat.value}</div>
-                    <div className="text-xs text-gray-400 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>{stat.label}</div>
-                  </div>
-                ))}
-                <div className="col-span-2 rounded-2xl border border-[#E98C28]/30 bg-[#E98C28]/10 p-5 text-center">
-                  <p className="text-sm text-[#E98C28] font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>"This is for the business owner who is done guessing and wants a real system."</p>
-                  <p className="text-xs text-gray-400 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>— Pip Seymour, KnowHow Marketing Lab</p>
-                </div>
               </div>
             </div>
           </div>
@@ -471,13 +396,6 @@ export default function Home() {
                   color: '#4F37D8',
                 },
                 {
-                  href: '/blog/google-ads-masterclass-the-5-week-roadmap-to-profitable-campaigns',
-                  tag: 'Google Ads',
-                  title: 'Google Ads Masterclass: The 5-Week Roadmap to Profitable Campaigns',
-                  desc: 'A structured 5-week plan to go from zero to running profitable Google Ads campaigns for your business.',
-                  color: '#318599',
-                },
-                {
                   href: '/blog/data-driven-seo-guide-medium-sized-businesses',
                   tag: 'SEO',
                   title: 'Data-Driven SEO: The Complete Guide for Medium-Sized Businesses',
@@ -497,13 +415,6 @@ export default function Home() {
                   title: 'The KnowHow Lab, Join the Community',
                   desc: 'Thursday Lab sessions where Pip & Phelan work through your real campaigns live, plus advanced courses, AI tools, and a private group for $29/month.',
                   color: '#318599',
-                },
-                {
-                  href: '/podcast',
-                  tag: 'Podcast',
-                  title: 'GeekSpeak, The Marketing Podcast',
-                  desc: 'Monthly deep-dives on SEO, Google Ads, AI, and the latest in digital marketing. Hosted by Pip Seymour and Phelan Lewis.',
-                  color: '#E98C28',
                 },
               ].map(post => (
                 <Link

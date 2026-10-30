@@ -1,5 +1,5 @@
 // StickyMobileCTA - appears on mobile only after scrolling past the hero section
-// Context-aware: shows Power Hours CTA on /power-hours, Lab CTA on all other pages
+// Promotes The Lab 14-day free trial on every page
 // Only shown on mobile (md:hidden), dismissible per session
 
 import { useEffect, useState } from "react";
@@ -8,14 +8,10 @@ import { useLocation } from "wouter";
 const GHL_JOIN_URL =
   "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 
-const POWER_HOURS_URL = "/power-hours#register";
-
 export default function StickyMobileCTA() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
   const [location] = useLocation();
-
-  const isPowerHoursPage = location === "/power-hours" || location.startsWith("/power-hours");
 
   useEffect(() => {
     // Reset dismissed state when page changes so CTA shows on new pages
@@ -25,7 +21,7 @@ export default function StickyMobileCTA() {
 
   useEffect(() => {
     // Don't show if already dismissed this session for this page
-    const dismissKey = `sticky-cta-dismissed-${isPowerHoursPage ? "ph" : "lab"}`;
+    const dismissKey = "sticky-cta-dismissed-lab";
     if (sessionStorage.getItem(dismissKey)) {
       return;
     }
@@ -40,36 +36,26 @@ export default function StickyMobileCTA() {
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [dismissed, isPowerHoursPage]);
+  }, [dismissed]);
 
   const handleDismiss = () => {
     setDismissed(true);
     setVisible(false);
-    const dismissKey = `sticky-cta-dismissed-${isPowerHoursPage ? "ph" : "lab"}`;
+    const dismissKey = "sticky-cta-dismissed-lab";
     sessionStorage.setItem(dismissKey, "1");
   };
 
   if (dismissed || !visible) return null;
 
-  const ctaConfig = isPowerHoursPage
-    ? {
-        title: "Free Live Q&A, Every Tuesday",
-        subtitle: "12-1pm PT · Bring your marketing questions",
-        href: POWER_HOURS_URL,
-        label: "Register Free, Power Hours",
-        buttonText: "Register Free →",
-        isExternal: false,
-        ariaLabel: "Register for free Power Hours Q&A",
-      }
-    : {
-        title: "7-Day Free Trial, Then $29/mo",
-        subtitle: "Thursday live training · Google Ads · SEO · AI",
-        href: GHL_JOIN_URL,
-        label: "Start your 7-day free trial of The KnowHow Lab",
-        buttonText: "Try Free →",
-        isExternal: true,
-        ariaLabel: "Start your 7-day free trial of The KnowHow Lab",
-      };
+  const ctaConfig = {
+    title: "7-Day Free Trial, Then $29/mo",
+    subtitle: "Thursday live training · Google Ads · SEO · AI",
+    href: GHL_JOIN_URL,
+    label: "Start your 7-day free trial of The KnowHow Lab",
+    buttonText: "Try Free →",
+    isExternal: true,
+    ariaLabel: "Start your 7-day free trial of The KnowHow Lab",
+  };
 
   return (
     <div

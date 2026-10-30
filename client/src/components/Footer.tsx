@@ -74,11 +74,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: '🚀 Mastermind', href: '/mastermind', internal: true },
                 { label: 'AI + SEO Course', href: '/courses/seo', internal: true },
                 { label: 'Video Library', href: '/#videos', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
-                { label: 'Podcast', href: '/podcast', internal: true },
                 { label: 'Our Method', href: '/framework', internal: true },
                 { label: 'Free Resources', href: '/resources', internal: true },
                 { label: 'Pricing', href: '/pricing', internal: true },
@@ -112,18 +110,17 @@ export default function Footer() {
             <h3 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Community
             </h3>
-            {/* Power Hours highlight */}
+            {/* The Lab highlight */}
             <div className="mb-4 rounded-lg border border-[#E98C28]/30 bg-[#E98C28]/10 px-3 py-2.5">
-              <Link href="/power-hours" className="block" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                <span className="text-xs font-bold text-[#E98C28] uppercase tracking-wide block mb-0.5">Free, Every Tuesday</span>
-                <span className="text-sm text-white font-medium">Power Hours →</span>
-                <span className="text-xs text-gray-400 block mt-0.5">Live Q&amp;A on Zoom · No sign-up required</span>
+              <Link href="/pricing" className="block" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                <span className="text-xs font-bold text-[#E98C28] uppercase tracking-wide block mb-0.5">Live Every Tuesday</span>
+                <span className="text-sm text-white font-medium">The Lab →</span>
+                <span className="text-xs text-gray-400 block mt-0.5">12 to 1 pm Pacific · 14-day free trial</span>
               </Link>
             </div>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
-                { label: 'Mastermind — 8-Week Intensive', href: '/mastermind' },
                 { label: 'The Lab, $29/mo', href: '/community' },
                 { label: 'Free vs Paid, Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },

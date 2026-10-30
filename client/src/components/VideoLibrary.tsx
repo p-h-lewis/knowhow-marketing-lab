@@ -89,7 +89,7 @@ export default function VideoLibrary() {
             60+ Free Marketing Lessons - Start Learning Today
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Every video is free. No sign-up required to watch. Want live Q&amp;A and community? <a href="/power-hours" className="text-[#1877F2] font-semibold hover:underline">Join free Power Hours →</a> or <a href="#community" className="text-[#E98C28] font-semibold hover:underline">Join The Lab ($29/mo) →</a>
+            Every video is free. No sign-up required to watch. Want live help on your real campaigns? <a href="/pricing" className="text-[#E98C28] font-semibold hover:underline">Join The Lab ($29/mo) →</a>
           </p>
         </div>
 
@@ -296,7 +296,7 @@ export default function VideoLibrary() {
             {/* CTA below video */}
             <div className="bg-gray-900 px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
               <p className="text-gray-300 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Start free with Power Hours, or get the full experience in The Lab.
+                Watch free here, or get live help every Tuesday in The Lab.
               </p>
               <a
                 href="/community"

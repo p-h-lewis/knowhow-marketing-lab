@@ -50,7 +50,7 @@ export default function CoursesSection() {
             Structured Learning Paths
           </h2>
           <p className="text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Start free, courses, videos, and weekly Power Hours in our Facebook group. Upgrade to The Lab when you're ready to go deeper.
+            Start free with our courses, videos, and Facebook group. Join The Lab when you're ready for live help every Tuesday.
           </p>
         </div>
 
@@ -121,8 +121,8 @@ export default function CoursesSection() {
         {/* Simple compare link */}
         <p className="text-center mt-6 text-sm text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>
           Not sure where to start?{' '}
-          <a href="/power-hours" className="text-[#318599] font-semibold hover:underline">
-            Try a free Tuesday Power Hour first →
+          <a href="/pricing" className="text-[#318599] font-semibold hover:underline">
+            Try The Lab free for 14 days →
           </a>
           {' '}&nbsp;·&nbsp;{' '}
           <a href="/community" className="text-[#E98C28] font-semibold hover:underline">

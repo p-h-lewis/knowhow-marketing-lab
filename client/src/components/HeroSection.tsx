@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Hero Section
-// The Lab is the PRIMARY offer. Power Hours is a secondary trust signal, not a competing CTA.
+// The Lab is the only paid offer and the only live session (Tuesdays 12 to 1 pm Pacific).
 // Desktop: 2-col grid (copy left, image right). Mobile: stacked.
 // Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 

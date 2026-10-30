@@ -247,11 +247,6 @@ const communitySchema = {
           "@type": "Question",
           "name": "How much does The Lab cost?",
           "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month after the 7-day free trial. You can cancel anytime." }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between the free Power Hours and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free Power Hours are open live sessions every Tuesday on Zoom, anyone can join, no credit card required. The Lab is a paid membership ($29/month) that includes Thursday Q&A sessions where Pip and Phelan work through your real campaigns live, full course access, monthly training, worksheets, and a private community group." }
         }
       ]
     }
@@ -672,11 +667,11 @@ export default function Community() {
                 <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card</p>
                 <ul className="space-y-3 mb-6">
                   {[
-                    'Weekly Power Hours every Tuesday 12-1pm PT',
-                    'Live Q&A with Pip, no slides, real answers',
+                    'Monday question posts and Wednesday marketing tips',
+                    'Friday wins thread to share what worked',
                     'Topics: SEO, Google Ads, AI, Social Media',
                     'Community discussion in the Facebook group',
-                    'Weekly session reminders via email',
+                    'Weekend self-promotion thread (#WeekendPromo)',
                   ].map(f => (
                     <li key={f} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                       <svg className="w-4 h-4 text-[#1877F2] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -759,11 +754,6 @@ export default function Community() {
                   Start Free Trial, $29/mo →
                 </a>
               </div>
-            </div>
-            <div className="text-center mt-8">
-              <a href="/power-hours" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Learn more about the free Tuesday Power Hours →
-              </a>
             </div>
           </div>
         </section>

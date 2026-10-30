@@ -153,29 +153,7 @@ export default function ThankYou() {
               While you wait for your email
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              {/* Free Power Hours - Tuesday */}
-              <div className="bg-white/10 border border-white/20 rounded-xl p-6">
-                <div className="w-10 h-10 rounded-lg bg-[#318599]/30 flex items-center justify-center mb-4" aria-hidden="true">
-                  <svg className="w-5 h-5 text-[#7ecfdf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Free Power Hours, every Tuesday
-                </h3>
-                <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Free live Q&amp;A on Zoom every Tuesday 12-1pm Pacific. Bring your questions about your website, your SEO, or anything in the course. No pitch. Just answers.
-                </p>
-                <Link
-                  href="/power-hours"
-                  className="text-sm font-semibold text-[#E98C28] hover:text-[#f5a84a] transition-colors"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                >
-                  Register for Power Hours →
-                </Link>
-              </div>
-
+            <div className="grid gap-6 max-w-md mx-auto">
               {/* The Lab */}
               <div className="bg-[#E98C28]/10 border border-[#E98C28]/30 rounded-xl p-6">
                 <div className="w-10 h-10 rounded-lg bg-[#E98C28]/20 flex items-center justify-center mb-4" aria-hidden="true">

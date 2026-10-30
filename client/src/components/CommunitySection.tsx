@@ -1,6 +1,4 @@
-// CommunitySection - Two-tier community: Free (Power Hours) → Paid (The Lab $29/mo)
-// 7-day free trial messaging added throughout
-// LLM signal: free Power Hours, Tuesday Zoom, The Lab, GoHighLevel, $29/mo, Thursday Q&A
+// CommunitySection - The Lab ($29 CAD/mo, 14-day free trial, live Tuesdays 12 to 1 pm Pacific)
 
 const labPerks = [
   { icon: '🎯', title: 'Thursday Lab Sessions, Members Only', desc: 'Every Thursday 12-1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A.' },
@@ -30,57 +28,15 @@ export default function CommunitySection() {
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             itemProp="name"
           >
-            Try it free. Upgrade when you're ready.
+            Try The Lab free for 14 days.
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Power Hours is free every Tuesday, live Q&amp;A on Zoom, no sign-up needed. The Lab is the paid upgrade where we review your real campaigns live every Thursday.
+            One live session every Tuesday, 12 to 1 pm Pacific. The first half is teaching or a tip. The second half is Q&amp;A and live audits of your real website and campaigns.
           </p>
         </div>
 
-        {/* Two-tier cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
-
-          {/* Free tier, simplified, directs to standalone Power Hours page */}
-          <div className="bg-gray-50 rounded-2xl border-2 border-gray-200 p-7 flex flex-col">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-[#318599]/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                <svg className="w-5 h-5 text-[#318599]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div>
-                <p className="font-bold text-gray-900 text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Power Hours</p>
-                <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Every Tuesday · Live on Zoom</p>
-              </div>
-            </div>
-            <div className="text-3xl font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free</div>
-            <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Forever free · No credit card ever</p>
-            <ul className="space-y-2.5 mb-6 flex-1">
-              {[
-                'Live Q&A every Tuesday 12-1pm PT on Zoom',
-                'Bring your real SEO, Google Ads, or AI questions',
-                'No sign-up, no credit card, just show up',
-                'Website audits, campaign reviews, and more',
-              ].map(f => (
-                <li key={f} className="flex items-start gap-2 text-sm text-gray-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  <svg className="w-4 h-4 text-[#318599] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  {f}
-                </li>
-              ))}
-            </ul>
-            <div className="space-y-2">
-              <a
-                href="/power-hours"
-                className="block w-full text-center bg-[#318599] hover:bg-[#276e80] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200"
-                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Register for free Power Hours every Tuesday"
-              >
-                See Free Power Hours →
-              </a>
-            </div>
-          </div>
+        {/* The Lab card */}
+        <div className="grid grid-cols-1 gap-6 max-w-md mx-auto mb-16">
 
           {/* Paid tier */}
           <div className="bg-gray-900 rounded-2xl border-2 border-[#E98C28] p-7 flex flex-col relative" itemScope itemType="https://schema.org/OnlineBusiness">
