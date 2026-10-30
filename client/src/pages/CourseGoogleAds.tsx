@@ -288,26 +288,24 @@ export default function CourseGoogleAds() {
           </div>
         </section>
 
-        {/* Booking Calendar */}
+        {/* The Lab CTA (replaces the old 1:1 strategy call booking calendar) */}
         <section className="py-16 bg-white" aria-labelledby="ads-book-call-heading">
           <div className="container max-w-3xl text-center">
-            <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Strategy Call</span>
+            <span className="text-xs font-bold text-[#318599] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live Help Every Tuesday</span>
             <h2 id="ads-book-call-heading" className="text-3xl font-extrabold text-gray-900 mt-2 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Want Us to Review Your Google Ads?
+              Want Us to Look at Your Google Ads?
             </h2>
             <p className="text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Book a free 30-minute call. We will review your current campaigns, show you where you are wasting money, and tell you what to fix first.
+              Bring your account to The Lab. Every Tuesday, 12 to 1 pm Pacific, Pip and Phelan start with teaching or a tip, then answer questions and review real campaigns live.
             </p>
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
-              <iframe
-                src="https://crm.seymourdigitalmedia.com/widget/booking/vRBWL3TL9wPMAoiDTQuH"
-                style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }}
-                scrolling="no"
-                id="vRBWL3TL9wPMAoiDTQuH_google_ads"
-                title="Book a free Google Ads review call with KnowHow Marketing Lab"
-                loading="lazy"
-              />
-            </div>
+            <Link
+              href="/pricing"
+              className="inline-flex items-center justify-center bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold rounded-xl py-3.5 px-7 text-base transition-colors"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+            >
+              Try The Lab free for 14 days →
+            </Link>
+            <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29 CAD/mo · Cancel anytime</p>
           </div>
         </section>
 
@@ -355,7 +353,6 @@ export default function CourseGoogleAds() {
 
       </main>
       <Footer />
-      <script src="https://crm.seymourdigitalmedia.com/js/form_embed.js" type="text/javascript" async />
     </div>
   );
 }
