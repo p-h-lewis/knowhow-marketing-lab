@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Navbar
-// Desktop: Blog · Live Coaching (dropdown) · Community | Log In + Try Free 7 Days
+// Desktop: Blog · Live Coaching (dropdown) · Community | Log In + Try Free 14 Days
 // Live Coaching dropdown: Overview, SEO Coaching, Google Ads Coaching, SEO for Business, Google Ads for Business, Join CTA
 // Mobile: full-screen slide-down menu with large touch targets + coaching sub-links
 
@@ -46,7 +46,7 @@ export default function Navbar() {
   }, []);
 
   const coachingDropdownLinks = [
-    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Thursday sessions, $29/mo', highlight: false },
+    { label: 'Live Coaching Overview', href: '/pricing', desc: 'Tuesday sessions, $29 CAD/mo', highlight: false },
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', desc: 'For marketers & business owners', highlight: false },
     { label: 'SEO Coaching for Business', href: '/blog/seo-coaching-for-small-business', desc: 'Practical SEO help for your site', highlight: false },
@@ -168,7 +168,7 @@ export default function Navbar() {
                       className="flex items-center justify-between py-2 text-sm font-bold text-[#E98C28] hover:text-[#d47d20] transition-colors"
                       style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                     >
-                      Join The Lab, $29/mo
+                      Join The Lab, $29 CAD/mo
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -211,9 +211,9 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Start your 7-day free trial of The KnowHow Lab"
+              aria-label="Start your 14-day free trial of The KnowHow Lab"
             >
-              Try Free 7 Days →
+              Try Free 14 Days →
             </a>
           </div>
 
@@ -227,7 +227,7 @@ export default function Navbar() {
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               onClick={closeMobile}
             >
-              Try Free 7 Days
+              Try Free 14 Days
             </a>
             <button
               className="p-2.5 rounded-lg text-gray-600 hover:bg-gray-100 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
@@ -288,9 +288,9 @@ export default function Navbar() {
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 onClick={closeMobile}
               >
-                Start Free 7-Day Trial →
+                Start Free 14-Day Trial →
               </a>
-              <p className="text-xs text-gray-400 text-center -mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29/mo · Cancel anytime</p>
+              <p className="text-xs text-gray-400 text-center -mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29 CAD/mo · Cancel anytime</p>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
                 target="_blank"

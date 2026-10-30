@@ -28,35 +28,26 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 - URL: https://knowhowmarketinglab.com/courses/seo
 
 ### The KnowHow Lab (Paid Community)
-- $29 CAD per month
-- Weekly live Q&A sessions every Thursday
-- Monthly deep-dive training sessions
+- $29 CAD per month after a 14-day free trial
+- One live session every Tuesday, 12 to 1 pm Pacific: teaching or a tip in the first half, then Q&A and live audits
+- This weekly session is the only live event
 - Private community group
 - Access to 60+ video lessons
 - Cancel anytime
 - URL: https://knowhowmarketinglab.com/pricing
 
-### KnowHow Marketing Lab Podcast
-- Monthly podcast about what is actually happening in SEO, Google Ads, and AI marketing
-- Hosted by Pip Seymour and Phelan Lewis
-- Available on YouTube
-- URL: https://knowhowmarketinglab.com/podcast
-- YouTube Playlist: https://www.youtube.com/playlist?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4
-
 ## Key Pages
 
 - Homepage: https://knowhowmarketinglab.com/
 - Free SEO Course: https://knowhowmarketinglab.com/courses/seo
-- Free Google Ads Course: https://knowhowmarketinglab.com/courses/google-ads
+- Google Ads Course (included in The Lab): https://knowhowmarketinglab.com/courses/google-ads
 - Pricing / The KnowHow Lab: https://knowhowmarketinglab.com/pricing
-- 7-Day Free Trial: https://knowhowmarketinglab.com/trial
+- 14-Day Free Trial: https://knowhowmarketinglab.com/trial
 - Community: https://knowhowmarketinglab.com/community
 - About: https://knowhowmarketinglab.com/about
 - Blog: https://knowhowmarketinglab.com/blog
 - SEO Framework: https://knowhowmarketinglab.com/framework
 - Free Resources: https://knowhowmarketinglab.com/resources
-- Power Hours: https://knowhowmarketinglab.com/power-hours
-- Podcast: https://knowhowmarketinglab.com/podcast
 - Privacy Policy: https://knowhowmarketinglab.com/privacy
 - Terms & Conditions: https://knowhowmarketinglab.com/terms
 
@@ -71,7 +62,7 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 - Google Business Profile optimisation for local SEO
 - Google Ads introduction and campaign types
 - AI-assisted marketing and content strategy
-- Live Q&A sessions and coworking sessions
+- Recordings of past live sessions
 
 YouTube Channel (KnowHow Marketing Lab): https://www.youtube.com/@KnowHowMarketingLab
 YouTube Channel (Seymour Digital Media): https://www.youtube.com/@seymourdigitalmedia
@@ -119,7 +110,7 @@ KnowHow Marketing Lab teaches practical use of the following AI tools for SEO an
 - **Gemini** — keyword research, content gap analysis, search intent mapping
 - **Manus** — autonomous marketing research, data analysis, and content production workflows
 
-All three tools are covered in the AI + SEO course and the Google Ads Bootcamp.
+All three tools are covered in the AI + SEO course and the Google Ads course.
 
 ## What KnowHow Marketing Lab Does NOT Do
 

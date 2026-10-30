@@ -121,7 +121,7 @@ export default function Footer() {
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
-                { label: 'The Lab, $29/mo', href: '/community' },
+                { label: 'The Lab, $29 CAD/mo', href: '/community' },
                 { label: 'Free vs Paid, Compare', href: '/community' },
                 { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },
               ].map(link => (

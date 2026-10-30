@@ -20,8 +20,8 @@ const courses = [
     color: '#4F37D8',
   },
   {
-    title: 'Google Ads - Live Monthly',
-    subtitle: 'Search, Display & Performance Max. Taught live with full recordings.',
+    title: 'Google Ads Course',
+    subtitle: 'Search, Display & Performance Max. On demand inside The Lab.',
     level: 'All Levels',
     cta: 'Start Free Trial →',
     href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce',

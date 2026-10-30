@@ -24,7 +24,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-[#fef3e2] border border-[#f5c87a] rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
               <span className="text-xs font-bold text-[#a05c0a]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                7-day free trial · Then $29/mo · Cancel anytime
+                14-day free trial · Then $29 CAD/mo · Cancel anytime
               </span>
             </div>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              You know how most business owners spend thousands on marketing courses and agencies and still can't tell if any of it is actually working? What we do is look at your actual website, ads, and content live every week so you leave each Thursday session knowing exactly what to fix and why. In fact, we ran these sessions for two years and members kept showing up every single week.
+              You know how most business owners spend thousands on marketing courses and agencies and still can't tell if any of it is actually working? What we do is look at your actual website, ads, and content live every week so you leave each Tuesday session knowing exactly what to fix and why. In fact, we ran these sessions for two years and members kept showing up every single week.
             </p>
 
             {/* Primary CTA */}
@@ -56,9 +56,9 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg pulse-cta"
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                aria-label="Start your 7-day free trial of The KnowHow Lab"
+                aria-label="Start your 14-day free trial of The KnowHow Lab"
               >
-                Start Free 7-Day Trial →
+                Start Free 14-Day Trial →
               </a>
               <Link
                 href="/pricing"
@@ -111,9 +111,9 @@ export default function HeroSection() {
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-4 sm:gap-8">
               {[
-                { value: '$29/mo', label: 'The Lab, Monthly' },
+                { value: '$29 CAD/mo', label: 'The Lab, Monthly' },
                 { value: '20+', label: 'Years Agency Experience' },
-                { value: 'Thursday', label: 'Live Lab Sessions' },
+                { value: 'Tuesday', label: 'Live Lab Sessions' },
                 { value: 'Cancel', label: 'Anytime, No Contracts' },
               ].map(stat => (
                 <div key={stat.label} className="flex flex-col">
@@ -152,8 +152,8 @@ export default function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Thursday Lab, every week</p>
-                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12-1pm Pacific · Your real website and ads, live</p>
+                  <p className="text-xs font-bold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Tuesday Lab, every week</p>
+                  <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>12 to 1 pm Pacific · Your real website and ads, live</p>
                 </div>
               </div>
             </div>

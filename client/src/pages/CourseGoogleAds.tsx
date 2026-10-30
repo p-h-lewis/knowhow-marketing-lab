@@ -24,12 +24,12 @@ const modules = [
 ];
 
 const faqs = [
-  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to The Lab members at $29/mo. The free plan includes the full SEO course only.' },
+  { q: 'Is the Google Ads course included in the free plan?', a: 'No - the Google Ads Mastery Course is available exclusively to The Lab members at $29 CAD/mo. The free plan includes the full SEO course only.' },
   { q: 'Do I need a Google Ads account to take this course?', a: 'Yes, you will need a Google Ads account. You can create one for free at ads.google.com. We walk you through the setup in Module 2.' },
   { q: 'How much budget do I need to run Google Ads?', a: 'You can start with as little as $10 to $20 per day to test. We teach you how to get the most out of a small budget before scaling up.' },
   { q: 'Is this course for beginners or advanced marketers?', a: 'Both. We start from the very basics in Module 1 and build up to advanced strategies like Performance Max and ROAS bidding by Module 8.' },
   { q: 'Does this course cover Google Analytics 4 integration?', a: 'Yes. Module 6 covers linking Google Ads to GA4 for full conversion tracking. We also have a dedicated GA4 video series in the free video library.' },
-  { q: 'Can I ask questions while taking the course?', a: 'Yes - The Lab members get weekly live Q&A every Thursday where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
+  { q: 'Can I ask questions while taking the course?', a: 'Yes - The Lab members get a live session every Tuesday, 12 to 1 pm Pacific, where you can ask Pip and Phelan anything about your Google Ads campaigns in real time.' },
 ];
 
 export default function CourseGoogleAds() {
@@ -65,7 +65,7 @@ export default function CourseGoogleAds() {
             "educationalLevel": "Beginner to Advanced",
             "inLanguage": "en",
             "isAccessibleForFree": false,
-            "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD", "billingIncrement": "P1M", "description": "Included with The Lab membership at $29/month" },
+            "offers": { "@type": "Offer", "price": "29", "priceCurrency": "CAD", "billingIncrement": "P1M", "description": "Included with The Lab membership at $29 CAD/month" },
             "teaches": ["Google Ads", "PPC Advertising", "Smart Bidding", "Performance Max", "Google Ads Campaign Types", "Conversion Tracking", "Google Tag Manager", "GA4"],
             "about": [
               { "@type": "Thing", "name": "Google Ads" },
@@ -126,7 +126,7 @@ export default function CourseGoogleAds() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Google Ads Course · 8 Modules · The Lab · $29/mo
+                  Google Ads Course · 8 Modules · The Lab · $29 CAD/mo
                 </span>
                 <h1 id="google-ads-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Google Ads<br />
@@ -136,7 +136,7 @@ export default function CourseGoogleAds() {
                   Stop wasting money on Google Ads that don't work. This Google Ads course takes you from your first campaign to advanced bidding strategies - using the same data-driven approach we use for our agency clients.
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29/mo. Also includes the AI + SEO course, weekly live Q&amp;A, and monthly training.
+                  Included with the <Link href="/pricing" className="text-[#318599] hover:underline">The Lab membership</Link> at $29 CAD/mo. Also includes the AI + SEO course and a live session every Tuesday, 12 to 1 pm Pacific.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
@@ -144,9 +144,9 @@ export default function CourseGoogleAds() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary pulse-cta"
-                    aria-label="Join The Lab to access the Google Ads Mastery Course for $29 per month"
+                    aria-label="Join The Lab to access the Google Ads Mastery Course for $29 CAD per month"
                   >
-                    Join to Access - $29/mo →
+                    Join to Access - $29 CAD/mo →
                   </a>
                   <Link
                     href="/courses/seo"
@@ -165,8 +165,8 @@ export default function CourseGoogleAds() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { value: '8', label: 'Course Modules', sub: 'Beginner to advanced' },
-                  { value: 'Weekly', label: 'Live Q&A', sub: 'Every Thursday' },
-                  { value: 'Monthly', label: 'Deep-Dive Training', sub: 'New topic each month' },
+                  { value: 'Weekly', label: 'Live Session', sub: 'Tuesdays, 12 to 1 pm Pacific' },
+                  { value: '14 days', label: 'Free Trial', sub: 'Then $29 CAD a month' },
                   { value: '$29', label: 'Per Month', sub: 'Cancel anytime' },
                 ].map(s => (
                   <div key={s.label} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 text-center">
@@ -198,7 +198,7 @@ export default function CourseGoogleAds() {
                 {[
                   { title: 'Course Structure', desc: '8 modules that build on each other - no jumping around, no confusion.' },
                   { title: 'AI in Every Module', desc: 'Use ChatGPT, Gemini, and Manus to write ad copy, analyse performance, and find wasted spend fast.' },
-                  { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Thursday at 12pm Pacific.' },
+                  { title: 'Weekly Live Q&A', desc: 'Ask Pip and Phelan anything about your campaigns every Tuesday, 12 to 1 pm Pacific.' },
                   { title: 'Stop Wasting Budget', desc: 'Learn exactly where your money is going and how to fix it - using real data, not guesswork.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
@@ -252,7 +252,7 @@ export default function CourseGoogleAds() {
                 className="btn-primary pulse-cta"
                 aria-label="Join The Lab to access the Google Ads Mastery Course"
               >
-                Join the Community - $29/mo →
+                Join the Community - $29 CAD/mo →
               </a>
             </div>
           </div>

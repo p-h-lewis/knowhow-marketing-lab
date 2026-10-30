@@ -16,11 +16,11 @@ const faqs = [
   },
   {
     q: 'How do I get started for free?',
-    a: 'The easiest free starting point is the free Power Hours on Zoom every Tuesday from 12-1pm Pacific, Pip answers real marketing questions live with no sign-up, no credit card, and no commitment. You can also join the Business Marketing Mixer Facebook group for ongoing community support. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
+    a: 'The easiest free starting point is the Business Marketing Mixer Facebook group for ongoing community support. When you want live help, The Lab has a 14-day free trial with a live session every Tuesday, 12 to 1 pm Pacific. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
   },
   {
     q: 'What is The Lab?',
-    a: 'The Lab is a paid membership at $29 per month, hosted on the GoHighLevel platform. It is the next step after the free resources. Members get Thursday Lab sessions (12-1pm Pacific) where Pip and Phelan work through their real campaigns, ad accounts, and SEO issues live, hands-on help, not just Q&A. Plus monthly deep-dive training, homework with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group.',
+    a: 'The Lab is a paid membership at $29 CAD per month, hosted on the GoHighLevel platform. It is the next step after the free resources. Members get Tuesday Lab sessions (12 to 1 pm Pacific) where Pip and Phelan work through their real campaigns, ad accounts, and SEO issues live, hands-on help, not just Q&A. The first half of each session is teaching or a tip, then Q&A and live audits. Plus homework with fillable PDF worksheets, advanced courses on Google Ads and AI marketing, and access to a private community group.',
   },
   {
     q: 'Who is this training for?',

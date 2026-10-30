@@ -142,7 +142,7 @@ export default function ThankYou() {
           </div>
         </section>
 
-        {/* What's next - Thursday Q&A + VIP */}
+        {/* What's next - Tuesday Q&A + VIP */}
         <section className="py-16 bg-[#0f2236]" aria-labelledby="next-steps-heading">
           <div className="container max-w-3xl mx-auto px-4">
             <h2
@@ -162,10 +162,10 @@ export default function ThankYou() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  The Lab - $29/month
+                  The Lab - $29 CAD/month
                 </h3>
                 <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Go deeper with weekly live training, AI marketing lessons, monthly deep-dive sessions, and a private community group. No contracts. Cancel anytime.
+                  Go deeper with a live session every Tuesday, 12 to 1 pm Pacific, AI marketing lessons, and a private community group. Try it free for 14 days. No contracts. Cancel anytime.
                 </p>
                 <Link
                   href="/pricing"

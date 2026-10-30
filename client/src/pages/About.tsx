@@ -131,8 +131,7 @@ export default function About() {
                     'AI marketing tools: ChatGPT, AI agents, automation',
                     'Google Tag Manager and conversion tracking setup',
                     'Training for medium-sized businesses and marketing teams',
-                    'Weekly live Q&A and support sessions every Thursday',
-                    'Monthly deep-dive training on a specific topic',
+                    'One live session every Tuesday, 12 to 1 pm Pacific: teaching or a tip, then Q&A and live audits',
                     'Actionable homework with fillable worksheets',
                   ].map(item => (
                     <li key={item} className="flex items-start gap-2.5 text-sm text-gray-700" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -391,7 +390,7 @@ export default function About() {
               {[
                 { label: 'AI + SEO Course', href: '/#free-course', desc: '5 modules, no credit card' },
                 { label: 'Video Library', href: '/#videos', desc: '60+ free lessons' },
-                { label: 'The Lab', href: '/pricing', desc: '$29/mo membership' },
+                { label: 'The Lab', href: '/pricing', desc: '$29 CAD/mo membership' },
                 { label: 'Free Resources', href: '/resources', desc: 'Official Google docs' },
               ].map(link => (
                 <a

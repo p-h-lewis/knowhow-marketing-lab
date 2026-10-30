@@ -1,8 +1,8 @@
 // CommunitySection - The Lab ($29 CAD/mo, 14-day free trial, live Tuesdays 12 to 1 pm Pacific)
 
 const labPerks = [
-  { icon: '🎯', title: 'Thursday Lab Sessions, Members Only', desc: 'Every Thursday 12-1pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A.' },
-  { icon: '📚', title: 'Monthly Deep-Dive Training', desc: 'A full-length training each month on Google Ads, SEO audits, GA4, AI tools, and more. Recorded for on-demand replay.' },
+  { icon: '🎯', title: 'Tuesday Lab Sessions, Members Only', desc: 'Every Tuesday 12 to 1 pm Pacific, Lab members bring their real campaigns, ad accounts, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A.' },
+  { icon: '📚', title: 'Teaching, Then Live Audits', desc: 'The first half of each Tuesday session is teaching or a tip. The second half is Q&A and live audits of your real website and campaigns.' },
   { icon: '📝', title: 'Homework & Worksheets', desc: 'Fillable PDF worksheets and step-by-step homework for every session so you actually implement what you learn.' },
   { icon: '🤖', title: 'AI & Automation Training', desc: 'ChatGPT for brands, AI agents, Google Ads scripts, and automation workflows, practical tools you can use right away.' },
   { icon: '💬', title: 'Private Community Group', desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel group.' },
@@ -54,10 +54,10 @@ export default function CommunitySection() {
             </div>
             <div className="flex items-baseline gap-2 mb-1">
               <span className="text-3xl font-extrabold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29</span>
-              <span className="text-gray-300 font-medium">/month</span>
+              <span className="text-gray-300 font-medium">CAD/month</span>
             </div>
             <p className="text-xs text-[#318599] font-semibold mb-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              7-day free trial included
+              14-day free trial included
             </p>
             <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               No contracts · Cancel anytime
@@ -65,8 +65,7 @@ export default function CommunitySection() {
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
                 'Everything in the free group, plus:',
-                'Thursday Lab sessions, hands-on help with your real campaigns',
-                'Monthly deep-dive training sessions',
+                'Tuesday Lab sessions, hands-on help with your real campaigns',
                 'Full on-demand course library',
                 'Google Ads Mastery course',
                 'AI & automation training',
@@ -89,13 +88,13 @@ export default function CommunitySection() {
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Start your 7-day free trial of The KnowHow Lab"
+              aria-label="Start your 14-day free trial of The KnowHow Lab"
               itemProp="url"
             >
-              Start Free 7-Day Trial →
+              Start Free 14-Day Trial →
             </a>
             <p className="text-xs text-gray-500 text-center mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              7-day free trial · Then $29/mo · Cancel anytime
+              14-day free trial · Then $29 CAD/mo · Cancel anytime
             </p>
           </div>
         </div>

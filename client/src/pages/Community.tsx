@@ -17,9 +17,9 @@ const perks = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.069A1 1 0 0121 8.882v6.236a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
       </svg>
     ),
-    title: 'Thursday Lab Sessions, Members Only',
-    desc: 'Every Thursday 12-1pm Pacific, Lab members bring their real campaigns, ad accounts, website audits, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A. Every session is recorded.',
-    highlight: 'Thursdays 12-1pm PT, Members Only',
+    title: 'Tuesday Lab Sessions, Members Only',
+    desc: 'Every Tuesday 12 to 1 pm Pacific, Lab members bring their real campaigns, ad accounts, website audits, and SEO issues. Pip and Phelan work through them live, hands-on help, not just Q&A. Every session is recorded.',
+    highlight: 'Tuesdays 12 to 1 pm Pacific, Members Only',
   },
   {
     icon: (
@@ -27,9 +27,9 @@ const perks = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
       </svg>
     ),
-    title: 'Monthly Deep-Dive Training',
-    desc: 'A full-length training session every month on a specific topic, Google Ads strategy, SEO audits, GA4 reporting, AI tools, and more. Recorded for on-demand replay anytime.',
-    highlight: 'New topic every month',
+    title: 'Teaching First, Then Live Audits',
+    desc: 'Each Tuesday session starts with teaching or a tip on Google Ads, SEO, GA4 or AI tools. The second half is Q&A and live audits of members\' real websites and campaigns.',
+    highlight: 'Same weekly session, two parts',
   },
   {
     icon: (
@@ -115,8 +115,7 @@ const learningHighlights = [
 ];
 
 const schedule = [
-  { day: 'Every Thursday', time: '12-1pm Pacific', event: 'Lab Session, hands-on help with real campaigns', type: 'live' },
-  { day: 'Monthly', time: 'Announced in advance', event: 'Deep-dive training session', type: 'training' },
+  { day: 'Every Tuesday', time: '12 to 1 pm Pacific', event: 'Lab Session, hands-on help with real campaigns', type: 'live' },
   { day: 'Anytime', time: 'On-demand', event: 'Full course library & replays', type: 'ondemand' },
   { day: 'Ongoing', time: 'Community group', event: 'Ask questions, share wins, get feedback', type: 'community' },
 ];
@@ -124,14 +123,14 @@ const schedule = [
 const faqs = [
   {
     q: 'Is there really a free trial?',
-    a: 'Yes, when you sign up, you get 7 days completely free. You can attend a Thursday Lab session, explore the course library, and see if it\'s right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month.',
+    a: 'Yes, when you sign up, you get 14 days completely free. You can attend a Tuesday Lab session, explore the course library, and see if it\'s right for you. If you cancel before day 14, you pay nothing. After the trial, billing starts at $29 CAD/month.',
   },
   {
     q: 'Who is The Lab for?',
     a: 'The Lab is built for business owners and marketing teams who want to go beyond the basics. Whether you\'re managing your own Google Ads, training an in-house team, or looking for a more affordable alternative to full-service agency work, this is for you.',
   },
   {
-    q: 'What happens if I miss the Thursday live session?',
+    q: 'What happens if I miss the Tuesday live session?',
     a: 'Every session is recorded and uploaded to the course library. You can watch the replay anytime, at your own pace. Nothing is gated behind attendance.',
   },
   {
@@ -179,7 +178,7 @@ const testimonials = [
   },
 ];
 
-function JoinButton({ label = 'Start Free Trial, $29/mo →', className = '' }: { label?: string; className?: string }) {
+function JoinButton({ label = 'Start Free Trial, $29 CAD/mo →', className = '' }: { label?: string; className?: string }) {
   return (
     <a
       href={GHL_URL}
@@ -187,7 +186,7 @@ function JoinButton({ label = 'Start Free Trial, $29/mo →', className = '' }: 
       rel="noopener noreferrer"
       className={`inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-8 py-4 text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 pulse-cta ${className}`}
       style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-      aria-label="Start your 7-day free trial of The KnowHow Lab community"
+      aria-label="Start your 14-day free trial of The KnowHow Lab community"
     >
       {label}
     </a>
@@ -202,14 +201,14 @@ const communitySchema = {
       "@id": "https://knowhowmarketinglab.com/community",
       "url": "https://knowhowmarketinglab.com/community",
       "name": "The KnowHow Lab, Marketing Community for Business Owners",
-      "description": "Join The Lab, weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29/month.",
+      "description": "Join The Lab, weekly live Q&A, Google Ads & SEO training, AI tools, and a private community for $29 CAD/month.",
       "isPartOf": { "@id": "https://knowhowmarketinglab.com/#website" }
     },
     {
       "@type": "Service",
       "@id": "https://knowhowmarketinglab.com/community#service",
       "name": "The KnowHow Lab Membership",
-      "description": "A paid membership community ($29/month) for business owners and marketing teams. Includes Thursday Lab sessions where members get hands-on help with their real campaigns, monthly deep-dive training, Google Ads and AI + SEO courses, fillable worksheets, and a private community group.",
+      "description": "A paid membership community ($29 CAD/month) for business owners and marketing teams. Includes Tuesday Lab sessions where members get hands-on help with their real campaigns, Google Ads and AI + SEO courses, fillable worksheets, and a private community group.",
       "provider": {
         "@type": "Organization",
         "name": "KnowHow Marketing Lab",
@@ -218,11 +217,11 @@ const communitySchema = {
       "offers": {
         "@type": "Offer",
         "price": "29",
-        "priceCurrency": "USD",
+        "priceCurrency": "CAD",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
           "price": "29",
-          "priceCurrency": "USD",
+          "priceCurrency": "CAD",
           "unitText": "MONTH"
         },
         "availability": "https://schema.org/InStock"
@@ -236,17 +235,17 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "What is The KnowHow Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29/month) for business owners and marketing teams who want to go deeper than free content. It includes Thursday Lab sessions (12-1pm PT) where Pip and Phelan work through members' real campaigns live, monthly deep-dive training sessions, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The KnowHow Lab is a paid membership community ($29 CAD/month) for business owners and marketing teams who want to go deeper than free content. It includes Tuesday Lab sessions (12 to 1 pm Pacific) where Pip and Phelan work through members' real campaigns live, Google Ads and AI + SEO courses, fillable worksheets, and a private community group." }
         },
         {
           "@type": "Question",
           "name": "Is there a free trial for The KnowHow Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow Lab includes a 7-day free trial. You can join, attend a Thursday Lab session, explore the course library, and see if it's right for you. If you cancel before day 7, you pay nothing. After the trial, billing starts at $29/month." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow Lab includes a 14-day free trial. You can join, attend a Tuesday Lab session, explore the course library, and see if it's right for you. If you cancel before day 14, you pay nothing. After the trial, billing starts at $29 CAD/month." }
         },
         {
           "@type": "Question",
           "name": "How much does The Lab cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month after the 7-day free trial. You can cancel anytime." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 CAD per month after the 14-day free trial. You can cancel anytime." }
         }
       ]
     }
@@ -264,11 +263,11 @@ export default function Community() {
   }, []);
 
   useSEO({
-    title: 'The Lab, Live Marketing Training Every Thursday | KnowHow Marketing Lab',
-    description: 'Live Google Ads and SEO training every Thursday. Pip & Phelan work through your real campaigns live. Plus AI tools, monthly deep-dives, and a private community. Try free for 7 days, $29/month after.',
+    title: 'The Lab, Live Marketing Training Every Tuesday | KnowHow Marketing Lab',
+    description: 'Live Google Ads and SEO training every Tuesday. Pip & Phelan work through your real campaigns live. Plus AI tools and a private community. Try free for 14 days, $29 CAD/month after.',
     canonical: 'https://knowhowmarketinglab.com/community',
     ogTitle: 'The KnowHow Lab, Join Our Marketing Community',
-    ogDescription: 'Thursday Lab sessions, hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29/month.',
+    ogDescription: 'Tuesday Lab sessions, hands-on help with your real campaigns. Plus Google Ads & SEO training, AI tools, and a private community for $29 CAD/month.',
     ogType: 'website',
   });
 
@@ -282,10 +281,10 @@ export default function Community() {
         <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#0f2236] border-t border-[#E98C28]/40 shadow-2xl" role="complementary" aria-label="Join The Lab sticky call to action">
           <div className="container py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>
-              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Try The Lab Free for 7 Days · Then $29/mo · Cancel anytime</p>
-              <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
+              <p className="text-sm font-bold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Try The Lab Free for 14 Days · Then $29 CAD/mo · Cancel anytime</p>
+              <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Tuesday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
             </div>
-            <a href={GHL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-label="Start your 7-day free trial of The KnowHow Lab">
+            <a href={GHL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-label="Start your 14-day free trial of The KnowHow Lab">
               Start Free Trial →
             </a>
           </div>
@@ -316,16 +315,16 @@ export default function Community() {
                 <span className="text-[#E98C28]">real results</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live, hands-on, not just Q&amp;A. 20+ year agency veterans. $29/mo.
+                Weekly live sessions where Pip &amp; Phelan work through your real Google Ads campaigns, SEO, website audits, and AI tools live, hands-on, not just Q&amp;A. 20+ year agency veterans. $29 CAD/mo.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <JoinButton label="Start 7-Day Free Trial →" />
+                <JoinButton label="Start 14-Day Free Trial →" />
                 <a href="#whats-inside" className="text-gray-300 hover:text-white font-medium underline underline-offset-4 transition-colors" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   See what's inside ↓
                 </a>
               </div>
               <p className="text-xs text-gray-500 mt-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                7-day free trial · Then $29/mo · Cancel anytime · No contracts
+                14-day free trial · Then $29 CAD/mo · Cancel anytime · No contracts
               </p>
             </div>
           </div>
@@ -335,10 +334,10 @@ export default function Community() {
         <div className="bg-[#E98C28] py-4">
           <div className="container">
             <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-white text-sm font-semibold" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              <span>✓ 7-day free trial, no risk</span>
-              <span>✓ Thursday Lab sessions, hands-on with your real campaigns</span>
+              <span>✓ 14-day free trial, no risk</span>
+              <span>✓ Tuesday Lab sessions, hands-on with your real campaigns</span>
               <span>✓ 20+ year agency veterans</span>
-              <span>✓ Cancel anytime · $29/mo after trial</span>
+              <span>✓ Cancel anytime · $29 CAD/mo after trial</span>
             </div>
           </div>
         </div>
@@ -524,21 +523,20 @@ export default function Community() {
           <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 30% 50%, #E98C28 0%, transparent 50%)' }} aria-hidden="true" />
           <div className="container relative">
             <div className="max-w-lg mx-auto bg-white rounded-3xl shadow-2xl p-8 md:p-10 text-center">
-              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>7-Day Free Trial</span>
+              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>14-Day Free Trial</span>
               <div className="flex items-baseline justify-center gap-2 mb-2">
                 <span className="text-4xl font-extrabold text-[#318599] line-through opacity-50" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$0</span>
-                <span className="text-gray-400 font-medium text-base line-through opacity-50">first 7 days</span>
+                <span className="text-gray-400 font-medium text-base line-through opacity-50">first 14 days</span>
                 <span className="text-gray-400 mx-2">→</span>
                 <span className="text-6xl font-extrabold text-gray-900" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29</span>
-                <span className="text-gray-500 font-medium text-lg">/month</span>
+                <span className="text-gray-500 font-medium text-lg">CAD/month</span>
               </div>
               <p className="text-sm text-gray-400 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Try it free for 7 days. Then $29/mo. Cancel anytime.
+                Try it free for 14 days. Then $29 CAD/mo. Cancel anytime.
               </p>
               <ul className="space-y-3 mb-8 text-left">
                 {[
-                  'Thursday Lab sessions, hands-on help with your real campaigns',
-                  'Monthly deep-dive training',
+                  'Tuesday Lab sessions, hands-on help with your real campaigns',
                   'Full on-demand course library',
                   'Google Ads Mastery course',
                   'AI & automation training',
@@ -554,9 +552,9 @@ export default function Community() {
                   </li>
                 ))}
               </ul>
-              <JoinButton label="Start My Free 7-Day Trial →" className="w-full text-lg py-5" />
+              <JoinButton label="Start My Free 14-Day Trial →" className="w-full text-lg py-5" />
               <p className="text-xs text-gray-400 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                7-day free trial · Then $29/mo · Secure checkout · Cancel anytime
+                14-day free trial · Then $29 CAD/mo · Secure checkout · Cancel anytime
               </p>
             </div>
           </div>
@@ -631,8 +629,8 @@ export default function Community() {
             </div>
 
             <div className="mt-10 text-center">
-              <JoinButton label="Start My Free 7-Day Trial →" />
-              <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
+              <JoinButton label="Start My Free 14-Day Trial →" />
+              <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>14-day free trial · Then $29 CAD/mo · No contracts · Cancel anytime</p>
             </div>
           </div>
         </section>
@@ -683,7 +681,7 @@ export default function Community() {
                   {[
                     'Advanced courses & course library',
                     'Fillable worksheets & homework',
-                    'Thursday Lab sessions, hands-on help (paid only)',
+                    'Tuesday Lab sessions, hands-on help (paid only)',
                     'AI & automation training modules',
                   ].map(f => (
                     <li key={f} className="flex items-start gap-2 text-sm text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -720,13 +718,12 @@ export default function Community() {
                     <p className="text-xs text-gray-400" style={{ fontFamily: 'DM Sans, sans-serif' }}>Paid community on GoHighLevel</p>
                   </div>
                 </div>
-                <div className="text-2xl font-extrabold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29<span className="text-base font-normal text-gray-400">/mo</span></div>
+                <div className="text-2xl font-extrabold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29<span className="text-base font-normal text-gray-400"> CAD/mo</span></div>
                 <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>No contracts · Cancel anytime</p>
                 <ul className="space-y-3 mb-6">
                   {[
                     'Everything in the free group, plus:',
-                    'Thursday Lab sessions 12-1pm PT, hands-on with Pip & Phelan',
-                    'Monthly deep-dive training sessions',
+                    'Tuesday Lab sessions 12 to 1 pm Pacific, hands-on with Pip & Phelan',
                     'Full on-demand course library',
                     'Google Ads Mastery course',
                     'AI & automation training',
@@ -749,9 +746,9 @@ export default function Community() {
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                  aria-label="Start your 7-day free trial of The KnowHow Lab"
+                  aria-label="Start your 14-day free trial of The KnowHow Lab"
                 >
-                  Start Free Trial, $29/mo →
+                  Start Free Trial, $29 CAD/mo →
                 </a>
               </div>
             </div>
@@ -802,10 +799,10 @@ export default function Community() {
         <section className="py-20 bg-[#E98C28]" aria-labelledby="final-cta-heading">
           <div className="container text-center">
             <h2 id="final-cta-heading" className="text-3xl md:text-4xl font-extrabold text-white mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Try The Lab free for 7 days. No risk.
+              Try The Lab free for 14 days. No risk.
             </h2>
             <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Start your free trial today. Weekly live sessions, advanced training, AI tools, and a community that actually helps. If it's not for you, cancel before day 7 and pay nothing.
+              Start your free trial today. Weekly live sessions, advanced training, AI tools, and a community that actually helps. If it's not for you, cancel before day 14 and pay nothing.
             </p>
             <a
               href={GHL_URL}
@@ -813,12 +810,12 @@ export default function Community() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#E98C28] font-bold rounded-xl px-10 py-5 text-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Start your 7-day free trial of The KnowHow Lab"
+              aria-label="Start your 14-day free trial of The KnowHow Lab"
             >
-              Start My Free 7-Day Trial →
+              Start My Free 14-Day Trial →
             </a>
             <p className="text-white/70 text-xs mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              7-day free trial · Then $29/mo · Secure checkout · Cancel anytime
+              14-day free trial · Then $29 CAD/mo · Secure checkout · Cancel anytime
             </p>
           </div>
         </section>

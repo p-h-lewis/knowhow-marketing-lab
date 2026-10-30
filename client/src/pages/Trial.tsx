@@ -12,8 +12,8 @@ const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/
 const included = [
   {
     icon: '🎯',
-    title: 'Thursday Lab Sessions, Members Only',
-    desc: 'Every Thursday 12-1pm Pacific. Pip & Phelan work through YOUR real campaigns, ad accounts, and websites live, hands-on, not just Q&A.',
+    title: 'Tuesday Lab Sessions, Members Only',
+    desc: 'Every Tuesday 12 to 1 pm Pacific. Pip & Phelan work through YOUR real campaigns, ad accounts, and websites live, hands-on, not just Q&A.',
   },
   {
     icon: '📚',
@@ -37,8 +37,8 @@ const included = [
   },
   {
     icon: '📹',
-    title: 'Monthly Deep-Dive Training',
-    desc: 'One focused training session per month on a specific topic, Google Ads scripts, GA4 advanced, AI agents, and more.',
+    title: 'Teaching, Then Live Audits',
+    desc: 'Each Tuesday session opens with teaching or a tip, then moves to Q&A and live audits of members\' real websites and campaigns.',
   },
 ];
 
@@ -68,12 +68,12 @@ const testimonials = [
 
 const faqs = [
   {
-    q: 'What happens during the 7-day trial?',
-    a: 'You get full access to everything, the course library, the private community, worksheets, and if a Thursday session falls within your trial, you can attend live. There are no restrictions during the trial.',
+    q: 'What happens during the 14-day trial?',
+    a: 'You get full access to everything, the course library, the private community, worksheets, and if a Tuesday session falls within your trial, you can attend live. There are no restrictions during the trial.',
   },
   {
     q: 'Do I need a credit card to start?',
-    a: 'Yes, the checkout requires a card to set up the subscription, but you will not be charged until after day 7. Cancel before then and you pay nothing.',
+    a: 'Yes, the checkout requires a card to set up the subscription, but you will not be charged until after day 14. Cancel before then and you pay nothing.',
   },
   {
     q: 'How do I cancel if I decide it\'s not for me?',
@@ -81,7 +81,7 @@ const faqs = [
   },
   {
     q: 'What is the price after the trial?',
-    a: '$29/month after the trial. No contracts. Cancel anytime.',
+    a: '$29 CAD/month after the trial. No contracts. Cancel anytime.',
   },
   {
     q: 'Who are Pip and Phelan?',
@@ -91,8 +91,8 @@ const faqs = [
 
 export default function Trial() {
   useSEO({
-    title: "Start Your Free 7-Day Trial, The KnowHow Lab",
-    description: "Try The KnowHow Lab free for 7 days. Thursday live sessions, full Google Ads & SEO courses, AI training, and a private community. Then $29/mo. Cancel anytime.",
+    title: "Start Your Free 14-Day Trial, The KnowHow Lab",
+    description: "Try The KnowHow Lab free for 14 days. Tuesday live sessions, full Google Ads & SEO courses, AI training, and a private community. Then $29 CAD/mo. Cancel anytime.",
     canonical: "https://knowhowmarketinglab.com/trial",
     ogType: "website",
   });
@@ -159,7 +159,7 @@ export default function Trial() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#E98C28]" />
               </span>
               <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                7-Day Free Trial
+                14-Day Free Trial
               </span>
             </div>
 
@@ -173,7 +173,7 @@ export default function Trial() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Get 7 days of full access to Thursday live sessions, the complete course library, AI training, and a private community. If it's not for you, cancel before day 7 and pay nothing.
+              Get 14 days of full access to Tuesday live sessions, the complete course library, AI training, and a private community. If it's not for you, cancel before day 14 and pay nothing.
             </p>
 
             {/* Primary CTA */}
@@ -187,16 +187,16 @@ export default function Trial() {
                 fontFamily: 'Space Grotesk, sans-serif',
                 boxShadow: '0 8px 32px rgba(233,140,40,0.4)',
               }}
-              aria-label="Start your free 7-day trial of The KnowHow Lab"
+              aria-label="Start your free 14-day trial of The KnowHow Lab"
             >
-              Start My Free 7-Day Trial
+              Start My Free 14-Day Trial
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
 
             <p className="text-xs text-gray-400 mt-4">
-              7 days free · Then $29/mo · Cancel anytime in 60 seconds
+              14 days free · Then $29 CAD/mo · Cancel anytime in 60 seconds
             </p>
 
           </div>
@@ -206,7 +206,7 @@ export default function Trial() {
         <div className="bg-[#E98C28] py-3.5">
           <div className="max-w-5xl mx-auto px-4 sm:px-6">
             <div className="flex flex-wrap justify-center gap-4 md:gap-10 text-white text-xs font-bold uppercase tracking-wide" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              <span>✓ No charge for 7 days</span>
+              <span>✓ No charge for 14 days</span>
               <span>✓ Full access from day one</span>
               <span>✓ Cancel in 60 seconds</span>
               <span>✓ 20+ year agency veterans</span>
@@ -312,13 +312,13 @@ export default function Trial() {
                 <div className="w-12 h-12 rounded-xl bg-[#E98C28] flex items-center justify-center text-white font-extrabold text-lg mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-hidden="true">P</div>
                 <h3 className="font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</h3>
                 <p className="text-xs text-[#E98C28] font-semibold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads & SEO Specialist</p>
-                <p className="text-sm text-gray-500">20+ years managing Google Ads campaigns. Founder of Seymour Digital Media. Teaches Thursday Lab sessions and the complete Google Ads curriculum.</p>
+                <p className="text-sm text-gray-500">20+ years managing Google Ads campaigns. Founder of Seymour Digital Media. Teaches Tuesday Lab sessions and the complete Google Ads curriculum.</p>
               </div>
               <div className="flex-1 bg-gray-50 rounded-2xl p-6 border border-gray-100 text-left">
                 <div className="w-12 h-12 rounded-xl bg-[#318599] flex items-center justify-center text-white font-extrabold text-lg mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }} aria-hidden="true">P</div>
                 <h3 className="font-extrabold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Phelan Lewis</h3>
                 <p className="text-xs text-[#318599] font-semibold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI & Automation Specialist</p>
-                <p className="text-sm text-gray-500">Expert in AI marketing tools, Google Ads scripts, and automation workflows. Teaches the AI Marketing & Automation curriculum and co-hosts Thursday sessions.</p>
+                <p className="text-sm text-gray-500">Expert in AI marketing tools, Google Ads scripts, and automation workflows. Teaches the AI Marketing & Automation curriculum and co-hosts Tuesday sessions.</p>
               </div>
             </div>
           </div>
@@ -390,7 +390,7 @@ export default function Trial() {
               Ready to try it free?
             </h2>
             <p className="text-gray-300 mb-8 text-lg">
-              7 days. Full access. No charge until day 8. Cancel anytime in 60 seconds.
+              14 days. Full access. No charge until day 15. Cancel anytime in 60 seconds.
             </p>
 
             <a
@@ -403,16 +403,16 @@ export default function Trial() {
                 fontFamily: 'Space Grotesk, sans-serif',
                 boxShadow: '0 8px 32px rgba(233,140,40,0.4)',
               }}
-              aria-label="Start your free 7-day trial of The KnowHow Lab"
+              aria-label="Start your free 14-day trial of The KnowHow Lab"
             >
-              Start My Free 7-Day Trial
+              Start My Free 14-Day Trial
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
 
             <p className="text-xs text-gray-400 mb-4">
-              7 days free · Then $29/mo · Cancel anytime in 60 seconds
+              14 days free · Then $29 CAD/mo · Cancel anytime in 60 seconds
             </p>
 
 

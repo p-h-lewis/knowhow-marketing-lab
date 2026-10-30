@@ -95,15 +95,14 @@ export default function Terms() {
               <p className="text-gray-700 leading-relaxed mb-3">The KnowHow Lab is a paid monthly membership hosted on GoHighLevel. As a member you receive:</p>
               <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-4">
                 <li>Access to all paid courses on our GoHighLevel platform</li>
-                <li>Weekly live Q&amp;A sessions every Thursday</li>
-                <li>Monthly deep-dive training workshops</li>
+                <li>One weekly live session every Tuesday, 12 to 1 pm Pacific</li>
                 <li>Access to the private member community</li>
                 <li>All future courses and content added during your membership</li>
               </ul>
 
               <h3 className="text-base font-bold text-gray-900 mt-6 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>3.2 Pricing and Billing</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                The KnowHow Lab is currently priced at <strong>$29 per month (USD)</strong>. This is an early access price and is subject to change for new members. Existing members will be given at least 30 days' notice before any price increase takes effect for their account.
+                The KnowHow Lab is currently priced at <strong>$29 CAD per month</strong>. This price is subject to change for new members. Existing members will be given at least 30 days' notice before any price increase takes effect for their account.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your membership renews automatically on a monthly basis on the same date each month. Payment is processed by GoHighLevel. By providing your payment details, you authorise GoHighLevel to charge your payment method on a recurring monthly basis until you cancel.

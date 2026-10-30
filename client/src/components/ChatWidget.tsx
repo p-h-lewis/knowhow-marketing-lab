@@ -15,19 +15,19 @@ interface Message {
 const QUICK_REPLIES = [
   { label: 'What is The Lab?', key: 'what' },
   { label: 'How much does it cost?', key: 'price' },
-  { label: 'What are Thursday sessions?', key: 'thursday' },
+  { label: 'What are Tuesday sessions?', key: 'tuesday' },
   { label: 'Can I cancel anytime?', key: 'cancel' },
   { label: 'Do I need to be technical?', key: 'technical' },
   { label: "What's the difference vs free?", key: 'diff' },
 ];
 
 const ANSWERS: Record<string, string> = {
-  what: "The KnowHow Lab is a $29/month membership community for business owners and marketing managers. Every Thursday 12-1pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live, hands-on help, not just Q&A. You also get full course access, monthly deep-dive training, and a private community group.",
-  price: "The Lab is $29/month, And there's a 7-day free trial so you can try it before you pay. You can cancel anytime in 60 seconds, no questions asked.",
-  thursday: "Thursday Lab sessions run every Thursday 12-1pm Pacific (members only). You bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen, not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
+  what: "The KnowHow Lab is a $29 CAD/month membership community for business owners and marketing managers. Every Tuesday 12 to 1 pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live, hands-on help, not just Q&A. The first half is teaching or a tip, then Q&A and live audits. You also get full course access and a private community group.",
+  price: "The Lab is $29 CAD/month, and there's a 14-day free trial so you can try it before you pay. You can cancel anytime.",
+  tuesday: "Tuesday Lab sessions run every Tuesday, 12 to 1 pm Pacific (members only). The first half is teaching or a tip. Then you bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen, not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
   cancel: "Yes, cancel anytime, directly from your GoHighLevel account. No lock-in contracts, no cancellation fees, no forms to fill out. Your access continues until the end of your billing period.",
   technical: "Not at all. The curriculum starts from the foundations, how Google Search works, what Search Console is, and why SEO matters, and builds progressively to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.",
-  diff: "The free Power Hours (Tuesdays) are open to anyone, general Q&A, no sign-up required. The Lab ($29/mo) is members-only and goes much deeper: Thursday sessions where Pip and Phelan work through YOUR specific campaigns live, full course library, monthly training, fillable worksheets, and a private community group.",
+  diff: "The free courses, videos and Facebook group are open to anyone. The Lab ($29 CAD/mo, 14-day free trial) adds the live Tuesday session where Pip and Phelan work through YOUR specific campaigns, the full course library, fillable worksheets, and a private community group.",
 };
 
 const WELCOME: Message = {
@@ -191,12 +191,12 @@ export default function ChatWidget() {
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 text-sm transition-all duration-200"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-              aria-label="Start your 7-day free trial of The KnowHow Lab"
+              aria-label="Start your 14-day free trial of The KnowHow Lab"
             >
-              Start Free 7-Day Trial →
+              Start Free 14-Day Trial →
             </a>
             <p className="text-center text-xs text-gray-400 mt-1.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              7-day free trial · Then $29/mo · Cancel anytime
+              14-day free trial · Then $29 CAD/mo · Cancel anytime
             </p>
           </div>
         </div>

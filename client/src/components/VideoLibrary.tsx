@@ -89,7 +89,7 @@ export default function VideoLibrary() {
             60+ Free Marketing Lessons - Start Learning Today
           </h2>
           <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Every video is free. No sign-up required to watch. Want live help on your real campaigns? <a href="/pricing" className="text-[#E98C28] font-semibold hover:underline">Join The Lab ($29/mo) →</a>
+            Every video is free. No sign-up required to watch. Want live help on your real campaigns? <a href="/pricing" className="text-[#E98C28] font-semibold hover:underline">Join The Lab ($29 CAD/mo) →</a>
           </p>
         </div>
 
@@ -232,16 +232,16 @@ export default function VideoLibrary() {
         <div>
           <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Want live Q&amp;A on these topics?</p>
           <h3 className="text-xl sm:text-2xl font-extrabold text-white mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Take it further in The Lab</h3>
-          <p className="text-gray-300 text-sm max-w-md" style={{ fontFamily: 'DM Sans, sans-serif' }}>Thursday Lab sessions where Pip &amp; Phelan work through your real campaigns live, plus Google Ads &amp; SEO courses, AI tools, and a private community. All for $29/mo.</p>
+          <p className="text-gray-300 text-sm max-w-md" style={{ fontFamily: 'DM Sans, sans-serif' }}>Tuesday Lab sessions where Pip &amp; Phelan work through your real campaigns live, plus Google Ads &amp; SEO courses, AI tools, and a private community. All for $29 CAD/mo.</p>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
           <a
             href="/community"
             className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-6 text-sm transition-all duration-200 shadow-md whitespace-nowrap"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-            aria-label="Join The Lab for $29 per month"
+            aria-label="Join The Lab for $29 CAD per month"
           >
-            Join The Lab, $29/mo →
+            Join The Lab, $29 CAD/mo →
           </a>
           <a
             href="https://www.facebook.com/groups/businessmarketingmixer"
@@ -303,7 +303,7 @@ export default function VideoLibrary() {
                 className="btn-primary text-sm py-2 px-4 whitespace-nowrap"
                 onClick={closeVideo}
               >
-                Free or $29/mo, See options →
+                Free or $29 CAD/mo, See options →
               </a>
             </div>
           </div>

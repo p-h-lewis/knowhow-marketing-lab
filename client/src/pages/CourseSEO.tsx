@@ -27,7 +27,7 @@ const faqs = [
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
   { q: 'How long does the course take?', a: 'Most people finish the core 5 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace - there is no deadline.' },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
-  { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The AI + SEO course gives you the full SEO foundation. The Lab ($29/mo) adds weekly live Q&A every Thursday, a monthly deep-dive training, the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
+  { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The AI + SEO course gives you the full SEO foundation. The Lab ($29 CAD/mo) adds a live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
   { q: 'Does this course cover AI and generative search?', a: 'Yes. Module 8 covers content strategy for AI-driven search, including how to structure your content to appear in AI Overviews and be cited by large language models (LLMs).' },
   { q: 'How does AI affect SEO in 2026?', a: 'AI has changed SEO in three big ways. First, Google now shows AI Overviews at the top of search results, which means your content needs to be structured so AI can summarise it accurately. Second, people are searching directly in ChatGPT, Perplexity, and Gemini instead of Google, so your site needs to be cited by those systems too. Third, AI tools like ChatGPT and Gemini can now help you do keyword research, write title tags, and optimise content 10x faster. This course covers all three shifts.' },
   { q: 'What is Generative Engine Optimisation (GEO)?', a: 'Generative Engine Optimisation (GEO) is the practice of making your content easy for AI search engines like ChatGPT, Perplexity, and Google Gemini to find, understand, and cite. It includes using structured data (schema markup), writing complete answers to specific questions, creating named frameworks, and building topical authority on a subject. GEO is covered in depth in this course.' },
@@ -67,7 +67,7 @@ export default function CourseSEO() {
             "educationalLevel": "Beginner to Intermediate",
             "inLanguage": "en",
             "isAccessibleForFree": true,
-            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
             "teaches": ["SEO", "Generative Engine Optimisation", "AI SEO", "Google Search Console", "GA4", "Keyword Research", "On-Page SEO", "Google Business Profile"],
             "about": [
               { "@type": "Thing", "name": "Search Engine Optimisation" },
@@ -315,7 +315,7 @@ export default function CourseSEO() {
               Want Live Help Every Week?
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The AI + SEO course gives you the foundation. The Lab gives you live Q&amp;A every Thursday, a monthly deep-dive training, the AI Marketing &amp; Automation course, and a private group of marketers doing the same work you are.
+              The AI + SEO course gives you the foundation. The Lab gives you a live session every Tuesday, 12 to 1 pm Pacific, the AI Marketing &amp; Automation course, and a private group of marketers doing the same work you are.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -323,9 +323,9 @@ export default function CourseSEO() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary pulse-cta"
-                aria-label="Join The Lab for $29 per month"
+                aria-label="Join The Lab for $29 CAD per month"
               >
-                Join The Lab - $29/mo →
+                Join The Lab - $29 CAD/mo →
               </a>
               <Link
                 href="/pricing"

@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "Where can I learn this framework in detail?",
-    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimisation, join The Lab for $29/month.",
+    a: "You can start with our AI + SEO course, which covers the Measure, Find, and Create steps. For the full framework including Google Ads and advanced optimisation, join The Lab for $29 CAD/month.",
   },
 ];
 
@@ -403,7 +403,7 @@ export default function Framework() {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg font-bold text-gray-900 text-lg bg-white hover:bg-gray-100 transition-all"
               style={{ fontFamily: "Space Grotesk, sans-serif" }}
             >
-              Join the Community - $29/mo
+              Join the Community - $29 CAD/mo
             </a>
           </div>
           <p className="text-gray-500 text-sm mt-6">

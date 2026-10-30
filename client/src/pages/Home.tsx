@@ -83,8 +83,8 @@ export default function Home() {
                 "name": "KnowHow Marketing Lab Courses",
                 "itemListElement": [
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29/month exclusive community with weekly live Q&A, monthly deep-dive training, and private community access.", "url": "https://knowhowmarketinglab.com/pricing" } }
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29 CAD/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29 CAD/month community with one live session every Tuesday, 12 to 1 pm Pacific, courses, and private community access. 14-day free trial.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
               },
               "founder": [
@@ -126,7 +126,7 @@ export default function Home() {
             "offers": {
               "@type": "Offer",
               "price": "0",
-              "priceCurrency": "USD",
+              "priceCurrency": "CAD",
               "availability": "https://schema.org/InStock",
               "category": "Free"
             },
@@ -264,7 +264,7 @@ export default function Home() {
                   className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"
                   style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
-                  Join The Lab, $29/mo →
+                  Join The Lab, $29 CAD/mo →
                 </a>
               </div>
             </div>
@@ -292,14 +292,14 @@ export default function Home() {
                   Get expert eyes on your real campaigns, every week
                 </h2>
                 <p className="text-gray-600 text-lg mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Every Thursday at 12pm Pacific, Pip and Phelan review real websites and Google Ads accounts live. You bring your actual data. We tell you exactly what to fix and why. No slides. No theory. Just practical help on your specific situation.
+                  Every Tuesday at 12 pm Pacific, Pip and Phelan review real websites and Google Ads accounts live. You bring your actual data. We tell you exactly what to fix and why. No slides. No theory. Just practical help on your specific situation.
                 </p>
                 <ul className="space-y-3 mb-8">
                   {[
-                    { icon: '✓', text: 'Live SEO and Google Ads account reviews every Thursday' },
+                    { icon: '✓', text: 'Live SEO and Google Ads account reviews every Tuesday' },
                     { icon: '✓', text: 'Ask questions about your specific campaigns and website' },
                     { icon: '✓', text: 'Access to all session recordings and course materials' },
-                    { icon: '✓', text: '$29/month, cancel anytime' },
+                    { icon: '✓', text: '$29 CAD/month, cancel anytime' },
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/10 text-[#E98C28] text-xs font-bold flex items-center justify-center">{item.icon}</span>
@@ -309,7 +309,7 @@ export default function Home() {
                 </ul>
                 <div className="flex flex-col sm:flex-row gap-3 mb-4">
                   <Link href="/pricing" className="inline-block bg-[#E98C28] text-white font-bold px-7 py-3 rounded-full hover:bg-[#d47d20] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                    Join The Lab, $29/mo →
+                    Join The Lab, $29 CAD/mo →
                   </Link>
                   <Link href="/blog/seo-and-analytics-coaching-for-marketers" className="inline-block border border-gray-300 text-gray-700 font-semibold px-7 py-3 rounded-full hover:border-[#318599] hover:text-[#318599] transition-colors text-sm" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                     What coaching looks like
@@ -413,7 +413,7 @@ export default function Home() {
                   href: '/community',
                   tag: 'Community',
                   title: 'The KnowHow Lab, Join the Community',
-                  desc: 'Thursday Lab sessions where Pip & Phelan work through your real campaigns live, plus advanced courses, AI tools, and a private group for $29/month.',
+                  desc: 'Tuesday Lab sessions where Pip & Phelan work through your real campaigns live, plus advanced courses, AI tools, and a private group for $29 CAD/month.',
                   color: '#318599',
                 },
               ].map(post => (

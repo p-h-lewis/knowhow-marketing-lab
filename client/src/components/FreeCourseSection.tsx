@@ -243,7 +243,7 @@ export default function FreeCourseSection() {
                 Want to go deeper?
               </p>
               <p className="text-xs text-gray-500 mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                The Lab adds weekly live Q&A, monthly deep-dive training, and the AI Marketing & Automation course.
+                The Lab adds a live session every Tuesday, 12 to 1 pm Pacific, and the AI Marketing & Automation course.
               </p>
               <a
                 href="/pricing"

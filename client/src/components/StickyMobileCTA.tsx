@@ -48,13 +48,13 @@ export default function StickyMobileCTA() {
   if (dismissed || !visible) return null;
 
   const ctaConfig = {
-    title: "7-Day Free Trial, Then $29/mo",
-    subtitle: "Thursday live training · Google Ads · SEO · AI",
+    title: "14-Day Free Trial, Then $29 CAD/mo",
+    subtitle: "Tuesday live training · Google Ads · SEO · AI",
     href: GHL_JOIN_URL,
-    label: "Start your 7-day free trial of The KnowHow Lab",
+    label: "Start your 14-day free trial of The KnowHow Lab",
     buttonText: "Try Free →",
     isExternal: true,
-    ariaLabel: "Start your 7-day free trial of The KnowHow Lab",
+    ariaLabel: "Start your 14-day free trial of The KnowHow Lab",
   };
 
   return (
