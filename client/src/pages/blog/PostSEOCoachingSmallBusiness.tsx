@@ -62,7 +62,7 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 
 <ul class="wp-block-list">
 <li><strong>One-on-one SEO coaching ($100-$400/hour):</strong> The most personalised option. A specialist looks at your website and gives you specific recommendations. Best for businesses that need fast, focused help and have the budget for it.</li>
-<li><strong>Group coaching ($29-$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalised than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29/month, Pip reviews real websites every Thursday.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a live session where a specialist reviews real websites and answers questions. Less personalised than one-on-one, but you still get specific feedback on your site. The Lab offers this for $29 CAD/month, Pip reviews real websites every Tuesday.</li>
 <li><strong>Self-directed learning (free):</strong> A good free course teaches you the fundamentals so you can start improving your website on your own. The <a href="/courses/seo" style="color:#318599;text-decoration:underline;">KnowHow free SEO course</a> covers keyword research, Google Search Console, on-page SEO, and content strategy, all for free.</li>
 </ul>
 
@@ -88,7 +88,7 @@ const POST_CONTENT = `<p>SEO can feel overwhelming for a small business. There a
 
 <p>KnowHow Marketing Lab was built for small and medium-sized businesses that want to understand and manage their own SEO without paying agency fees. The free <a href="/courses/seo" style="color:#318599;text-decoration:underline;">SEO course</a> covers the Data-First AI SEO Method, keyword research, Google Search Console, on-page SEO, content strategy, and how to use AI tools to work faster.</p>
 
-<p>For businesses that want live coaching on their actual website, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Thursday session every week where Pip reviews real websites and gives specific recommendations. At $29/month, it is designed to be accessible for small businesses.</p>
+<p>For businesses that want live coaching on their actual website, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Tuesday session every week where Pip reviews real websites and gives specific recommendations. At $29 CAD/month, it is designed to be accessible for small businesses.</p>
 
 <p>If you are also running Google Ads alongside your SEO, see the companion post on <a href="/blog/google-ads-coaching-for-small-business" style="color:#318599;text-decoration:underline;">Google Ads coaching for small business</a>. And if you are a marketing professional rather than a business owner, the <a href="/blog/seo-and-analytics-coaching-for-marketers" style="color:#318599;text-decoration:underline;">SEO and analytics coaching for marketers</a> post covers what to look for in a coach at a more advanced level.</p>
 
@@ -256,9 +256,9 @@ export default function PostSEOCoachingSmallBusiness() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#266e80] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Get coaching on your real website</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your website to a live session every Thursday. Pip will look at your GSC data, your content, and your pages, and tell you exactly what to fix. $29/month, cancel anytime.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your website to a live session every Tuesday. Pip will look at your GSC data, your content, and your pages, and tell you exactly what to fix. $29 CAD/month, cancel anytime.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29 CAD/mo →</a>
               <a href="/courses/seo" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free SEO Course</a>
             </div>
           </div>

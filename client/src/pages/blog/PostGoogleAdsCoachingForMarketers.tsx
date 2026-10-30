@@ -66,7 +66,7 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 <li><strong>Choose coaching</strong> if you already have campaigns running and you want someone to look at your specific account and tell you what to fix. Coaching is also the right choice if you are spending significant money and need to get results faster than trial and error allows.</li>
 </ul>
 
-<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads Bootcamp — included in The Lab at $29/mo</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Thursday where members bring their real accounts.</p>
+<p>At KnowHow Marketing Lab, we offer both. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course, included in The Lab at $29 CAD/mo,</a> covers campaign types, bidding strategies, ad groups, and performance optimisation. If you want live coaching on top of that, where Phelan looks at your actual account and tells you what to change, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live session every Tuesday, 12 to 1 pm Pacific, where members bring their real accounts.</p>
 
 <h2 id="what-good-google-ads-coaching-covers">What Good Google Ads Coaching Covers</h2>
 
@@ -94,16 +94,16 @@ const POST_CONTENT = `<p>Running Google Ads without knowing what you're doing is
 
 <p>Phelan Lewis has managed millions of dollars in Google Ads spend across retail, professional services, healthcare, and manufacturing. He built the Google Ads curriculum at KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands with dedicated agencies.</p>
 
-<p>The approach is practical and data-first. Every Thursday, Lab members bring their real Google Ads accounts to a live session. Phelan looks at the data, explains what he sees, and gives specific recommendations. Members leave each session with a clear list of things to do.</p>
+<p>The approach is practical and data-first. Every Tuesday, Lab members bring their real Google Ads accounts to a live session. Phelan looks at the data, explains what he sees, and gives specific recommendations. Members leave each session with a clear list of things to do.</p>
 
-<p>If you want to understand what the coaching looks like before committing, start with the <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads Bootcamp</a> (included in The Lab, $29/mo). It covers the same foundations used in coaching sessions. You can also read <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">the complete guide to Google Ads campaign types</a> to get a sense of how Phelan explains complex topics.</p>
+<p>If you want to understand what the coaching looks like before committing, start with the <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course</a> (included in The Lab, $29 CAD/mo, 14-day free trial). It covers the same foundations used in coaching sessions. You can also read <a href="/blog/the-ultimate-guide-to-google-ads-campaign-types" style="color:#318599;text-decoration:underline;">the complete guide to Google Ads campaign types</a> to get a sense of how Phelan explains complex topics.</p>
 
 <p>If you are also looking for coaching on the SEO and analytics side, see our companion post: <a href="/blog/seo-and-analytics-coaching-for-marketers" style="color:#318599;text-decoration:underline;">SEO and analytics coaching for marketers</a>.</p>
 
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3 class="wp-block-heading">How much does Google Ads coaching cost?</h3>
-<p>Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. Agency-based coaching programmes can cost $1,000-$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month, the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
+<p>Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. Agency-based coaching programmes can cost $1,000-$3,000 per month. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29 CAD/month, the trade-off is that it is a group session rather than one-on-one, but members consistently get specific feedback on their real accounts.</p>
 
 <h3 class="wp-block-heading">How long does it take to see results from Google Ads coaching?</h3>
 <p>Most accounts see measurable improvements within 2-4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2-4 weeks for the algorithm to re-learn). Bidding strategy changes take 1-3 weeks to stabilise after the learning phase.</p>
@@ -157,7 +157,7 @@ export default function PostGoogleAdsCoachingForMarketers() {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How much does Google Ads coaching cost?", "acceptedAnswer": { "@type": "Answer", "text": "Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29/month as part of a group format." } },
+        { "@type": "Question", "name": "How much does Google Ads coaching cost?", "acceptedAnswer": { "@type": "Answer", "text": "Independent Google Ads coaches typically charge $150-$500 per hour for one-on-one sessions. At KnowHow Marketing Lab, The Lab membership includes live weekly coaching sessions for $29 CAD/month as part of a group format." } },
         { "@type": "Question", "name": "How long does it take to see results from Google Ads coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Most accounts see measurable improvements within 2-4 weeks of implementing coaching recommendations. The biggest gains usually come from fixing conversion tracking (immediate) and restructuring campaigns (2-4 weeks for the algorithm to re-learn)." } },
         { "@type": "Question", "name": "Do I need to share access to my Google Ads account for coaching?", "acceptedAnswer": { "@type": "Answer", "text": "For one-on-one coaching, yes. For group coaching like The Lab, you can share your screen during the session. You should never give a coach admin access, manager access (read-only or standard) is sufficient." } },
         { "@type": "Question", "name": "Can Google Ads coaching help with Performance Max campaigns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Performance Max is now the default campaign type for most advertisers. A good coach will help you set up your asset groups correctly, understand what the campaign is doing, and use the Insights tab to interpret performance." } },
@@ -264,10 +264,10 @@ export default function PostGoogleAdsCoachingForMarketers() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#d47d20] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to get coaching on your real Google Ads account?</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Tuesday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
-              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join the Google Ads Bootcamp</a>
+              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29 CAD/mo →</a>
+              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Google Ads course</a>
             </div>
           </div>
 

@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: 'Is the KnowHow AI SEO course free?',
-    a: 'Yes. The foundational AI + SEO course at KnowHow Marketing Lab is completely free. No credit card required. You get 5 modules covering AI-powered keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile. For live weekly training, monthly deep-dives, and hands-on help with your real campaigns, The Lab membership is $29/month with a 7-day free trial.'
+    a: 'Yes. The foundational AI + SEO course at KnowHow Marketing Lab is completely free. No credit card required. You get 5 modules covering AI-powered keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile. For a live session every Tuesday and hands-on help with your real campaigns, The Lab membership is $29 CAD/month with a 14-day free trial.'
   },
   {
     q: 'How long does it take to learn AI SEO?',
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other SEO courses?',
-    a: 'KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, agency owners with 20+ years of hands-on experience managing real campaigns for medium-sized businesses. The training is practical and data-driven, not theoretical. The free course covers the foundations. The Lab community ($29/month) adds live weekly sessions where Pip and Phelan work through your actual website, ad account, or SEO audit in real time, not just pre-recorded videos.'
+    a: 'KnowHow Marketing Lab is built by Pip Seymour and Phelan Lewis, agency owners with 20+ years of hands-on experience managing real campaigns for medium-sized businesses. The training is practical and data-driven, not theoretical. The free course covers the foundations. The Lab community ($29 CAD/month) adds live weekly sessions where Pip and Phelan work through your actual website, ad account, or SEO audit in real time, not just pre-recorded videos.'
   }
 ];
 
@@ -426,7 +426,7 @@ export default function PostAiSeoCourse() {
                 </button>
               </Link>
               <p className="text-slate-400 text-sm mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Want live weekly training? <Link href="/community" className="text-[#E98C28] hover:underline">Try The Lab free for 7 days →</Link>
+                Want live weekly training? <Link href="/community" className="text-[#E98C28] hover:underline">Try The Lab free for 14 days →</Link>
               </p>
             </div>
           </section>
@@ -507,7 +507,7 @@ export default function PostAiSeoCourse() {
           <div className="bg-[#E98C28] rounded-2xl p-8 text-center text-white">
             <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Ready to Put This Into Practice?</h2>
             <p className="text-white/90 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Join The Lab, live AI SEO and Google Ads training every Thursday with Pip and Phelan. Try free for 7 days.
+              Join The Lab, live AI SEO and Google Ads training every Tuesday with Pip and Phelan. Try free for 14 days.
             </p>
             <a
               href={COMMUNITY_URL}
@@ -516,9 +516,9 @@ export default function PostAiSeoCourse() {
               className="inline-block bg-white text-[#E98C28] font-bold px-8 py-4 rounded-xl hover:bg-orange-50 transition-colors text-lg"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Start Your Free 7-Day Trial →
+              Start Your Free 14-Day Trial →
             </a>
-            <p className="text-white/70 text-sm mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>$29/month after trial · Cancel anytime</p>
+            <p className="text-white/70 text-sm mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>$29 CAD/month after trial · Cancel anytime</p>
           </div>
 
         </article>

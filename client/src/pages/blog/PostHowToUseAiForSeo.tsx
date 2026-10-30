@@ -165,7 +165,7 @@ export default function PostHowToUseAiForSeo() {
           <div className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-[#318599] prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700 prose-li:mb-1 prose-blockquote:border-l-[#318599] prose-blockquote:text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>
 
             <h2 id="what-ai-does">What AI Actually Does for SEO</h2>
-            <p>We get asked about AI and SEO every single week in our Tuesday Power Hours. And the honest answer is: it depends entirely on how you use it. Most people are either ignoring AI completely or using it to churn out content that sounds like everyone else's content. Neither works. What actually works is using AI to do the research and drafting faster, then bringing your own data and experience to make it worth reading.</p>
+            <p>We get asked about AI and SEO every single week in our Tuesday Lab sessions. And the honest answer is: it depends entirely on how you use it. Most people are either ignoring AI completely or using it to churn out content that sounds like everyone else's content. Neither works. What actually works is using AI to do the research and drafting faster, then bringing your own data and experience to make it worth reading.</p>
             <p>We use this approach on our own site and teach it in our free course. The businesses getting traction are not the ones publishing AI-written content at volume. They are the ones using AI to work faster, then bringing their own knowledge to the table. That is the difference.</p>
 
             <blockquote>
@@ -221,7 +221,7 @@ export default function PostHowToUseAiForSeo() {
               <li><strong>Queries you are ranking for but not targeting</strong>, these are your next content opportunities.</li>
               <li><strong>Pages that dropped in position</strong>, these need to be refreshed with updated information.</li>
             </ul>
-            <p>In GA4, track which blog posts are leading to course sign-ups, The Lab trials, or Mastermind enquiries. Content that drives conversions gets more resources; content that only drives traffic gets refreshed or consolidated.</p>
+            <p>In GA4, track which blog posts are leading to course sign-ups or The Lab trials. Content that drives conversions gets more resources; content that only drives traffic gets refreshed or consolidated.</p>
 
             <h2 id="what-ai-cant-do">What AI Cannot Do for SEO</h2>
             <p>We want to be straight with you about this. AI cannot:</p>

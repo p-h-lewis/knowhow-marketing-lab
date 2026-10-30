@@ -226,17 +226,17 @@ export default function PostGoogleAdsCampaignTypes2026() {
             <blockquote>
               <strong>Start with Search. Add Performance Max once you have 30+ conversions per month. Add Demand Gen when you are ready to scale awareness.</strong>
             </blockquote>
-            <p>This is the progression we recommend in our <Link href="/courses/google-ads">Google Ads Bootcamp — included in The Lab at $29/mo</Link> and in coaching sessions. Search gives you control and data. PMax uses that data to scale. Demand Gen builds the top of your funnel so you have a steady flow of new prospects entering the system.</p>
+            <p>This is the progression we recommend in our <Link href="/courses/google-ads">Google Ads course, included in The Lab at $29 CAD/mo</Link>. Search gives you control and data. PMax uses that data to scale. Demand Gen builds the top of your funnel so you have a steady flow of new prospects entering the system.</p>
             <p>For more on how campaign type connects to bidding strategy, see our <Link href="/blog/the-ultimate-guide-to-google-ads-bidding-strategies">complete guide to Google Ads bidding strategies</Link>. For the full campaign setup process, see the <Link href="/blog/the-ultimate-guide-to-google-ads-campaign-types">ultimate guide to Google Ads campaign types</Link>.</p>
           </div>
 
           <div className="bg-[#fff3e0] border border-[#f5d5a0] rounded-2xl p-8 my-12 text-center">
-            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free Google Ads Course</p>
-            <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn how to set up and run Google Ads campaigns, free</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The free course covers campaign setup, conversion tracking, bidding strategy, and how to read your data, with live coaching every Thursday.</p>
-            <Link href="/courses/google-ads">
+            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Course, Included in The Lab</p>
+            <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn how to set up and run Google Ads campaigns</h3>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The course covers campaign setup, conversion tracking, bidding strategy, and how to read your data, with a live session every Tuesday, 12 to 1 pm Pacific. Try The Lab free for 14 days.</p>
+            <Link href="/pricing">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Start the Free Course
+                Try The Lab free for 14 days
               </button>
             </Link>
           </div>

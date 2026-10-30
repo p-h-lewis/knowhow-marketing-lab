@@ -49,8 +49,8 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 
 <ul class="wp-block-list">
 <li><strong>One-on-one coaching ($150-$500/hour):</strong> The most personalised option. A specialist looks at your account, gives you specific recommendations, and answers your questions. Best for businesses that need fast results and have a budget for it.</li>
-<li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Thursday sessions where Phelan looks at real accounts for $29/month.</li>
-<li><strong>Self-directed learning (free):</strong> A good free course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads Bootcamp</a> (included in The Lab, $29/mo) covers everything from campaign types to bidding strategies.</li>
+<li><strong>Group coaching ($29-$99/month):</strong> You join a group session where a specialist reviews accounts and answers questions live. Less personalised than one-on-one, but you still get specific feedback on your account. This is what The Lab offers, live Tuesday sessions where Phelan looks at real accounts for $29 CAD/month.</li>
+<li><strong>Self-directed learning:</strong> A good course can teach you the fundamentals so you can manage your own account. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">KnowHow Google Ads course</a> (included in The Lab, $29 CAD/mo) covers everything from campaign types to bidding strategies.</li>
 </ul>
 
 <p>For most small businesses, the best approach is to start with the free course to understand the basics, then use group coaching to get feedback on your specific account. This gives you the knowledge to manage the account yourself while still getting expert eyes on what you're doing.</p>
@@ -73,9 +73,9 @@ const POST_CONTENT = `<p>Google Ads can work really well for small businesses, b
 
 <h2 id="how-knowhow-marketing-lab-helps-small-businesses">How KnowHow Marketing Lab Helps Small Businesses</h2>
 
-<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads Bootcamp</a> (included in The Lab, $29/mo) covers the foundations, campaign types, bidding, ad groups, and performance analysis, at a level that is easy to understand even if you have never run ads before.</p>
+<p>KnowHow Marketing Lab was built specifically for small and medium-sized businesses that want to manage their own marketing without paying agency fees. The <a href="/courses/google-ads" style="color:#318599;text-decoration:underline;">Google Ads course</a> (included in The Lab, $29 CAD/mo) covers the foundations, campaign types, bidding, ad groups, and performance analysis, at a level that is easy to understand even if you have never run ads before.</p>
 
-<p>For businesses that want live coaching on their actual accounts, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Thursday session every week where Phelan reviews real accounts and gives specific recommendations. At $29/month, it is designed to be accessible for small businesses.</p>
+<p>For businesses that want live coaching on their actual accounts, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Tuesday session every week where Phelan reviews real accounts and gives specific recommendations. At $29 CAD/month, it is designed to be accessible for small businesses.</p>
 
 <p>If you are also looking for help with your website's SEO and analytics alongside your Google Ads, see our post on <a href="/blog/seo-and-analytics-coaching-for-marketers" style="color:#318599;text-decoration:underline;">SEO and analytics coaching for marketers</a>. And if you are a marketing professional rather than a business owner, the <a href="/blog/google-ads-coaching-for-marketers" style="color:#318599;text-decoration:underline;">Google Ads coaching for marketers</a> post covers what to look for in a coach at a more advanced level.</p>
 
@@ -242,10 +242,10 @@ export default function PostGoogleAdsCoachingSmallBusiness() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#E98C28] to-[#d47d20] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Get coaching on your real Google Ads account</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Thursday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why. $29/month, cancel anytime.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your Google Ads account to a live session every Tuesday. Phelan will look at your campaigns, tell you what to fix, and explain exactly why. $29 CAD/month, cancel anytime.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
-              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Join the Google Ads Bootcamp</a>
+              <a href="/pricing" className="inline-block bg-white text-[#E98C28] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29 CAD/mo →</a>
+              <a href="/courses/google-ads" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Google Ads course</a>
             </div>
           </div>
 

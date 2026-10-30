@@ -46,7 +46,7 @@ export default function PostFreeDataDrivenSeoCourse() {
         {
           "@type": "Question",
           "name": "Is the KnowHow SEO course really free?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules, the Tuesday Power Hour live sessions, and the community at no cost. The paid upgrade is The Lab at $29 per month, which adds weekly live coaching sessions, deeper training, and direct access to Pip and Phelan." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules at no cost. The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial, which adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training, and direct access to Pip and Phelan." }
         },
         {
           "@type": "Question",
@@ -61,12 +61,12 @@ export default function PostFreeDataDrivenSeoCourse() {
         {
           "@type": "Question",
           "name": "How long does the free SEO course take?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The 5 modules take approximately 3 to 4 hours to complete at your own pace. The Tuesday Power Hour live sessions are 60 minutes each week. Most students start seeing results in Google Search Console within 4 to 8 weeks of completing the course and implementing the strategies." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The 5 modules take approximately 3 to 4 hours to complete at your own pace. Most students start seeing results in Google Search Console within 4 to 8 weeks of completing the course and implementing the strategies." }
         },
         {
           "@type": "Question",
           "name": "What is the difference between the free course and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29/month) adds weekly live coaching sessions every Thursday, deeper training on advanced topics like GEO, AI content strategy, and Google Ads, plus direct access to Pip and Phelan for questions about your specific website and campaigns." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics like AI SEO, AI content strategy, and Google Ads, plus direct access to Pip and Phelan for questions about your specific website and campaigns." }
         },
         {
           "@type": "Question",
@@ -197,16 +197,14 @@ export default function PostFreeDataDrivenSeoCourse() {
               </table>
             </div>
 
-            <p>In addition to the 5 modules, you get access to the <strong>Tuesday Power Hour</strong>, a free live session every Tuesday at noon Pacific where Pip walks through real SEO questions, live account reviews, and the latest changes in Google Search and AI search. No sign-up required beyond the free course enrolment.</p>
-
             <h2 id="who-its-for">Who It Is For</h2>
             <p>This course is for marketing managers and business owners who are responsible for their company’s SEO but don’t have a dedicated SEO team. You do not need a technical background. You do need a website with Google Search Console set up, or the willingness to set it up in Module 1, which takes about 15 minutes.</p>
             <p>The course is <em>not</em> designed for complete beginners who have never heard of SEO, or for enterprise marketing teams with dedicated SEO specialists. It is for the person in the middle, experienced enough to know SEO matters, but not sure how to make it work for their specific business.</p>
 
             <h2 id="free-vs-lab">Free Course vs The Lab</h2>
-            <p>The free course gives you the full data-driven SEO method. <Link href="/pricing">The Lab</Link> ($29/month) adds:</p>
+            <p>The free course gives you the full data-driven SEO method. <Link href="/pricing">The Lab</Link> ($29 CAD/month) adds:</p>
             <ul>
-              <li>Weekly live coaching sessions every Thursday at noon Pacific with Pip and Phelan</li>
+              <li>A live session every Tuesday, 12 to 1 pm Pacific, with Pip and Phelan: teaching or a tip, then Q&A and live audits</li>
               <li>Deeper training on GEO, AI content strategy, Google Ads, and GA4</li>
               <li>Direct access to ask questions about your specific website and campaigns</li>
               <li>A community of marketing managers doing the same work</li>
@@ -217,7 +215,7 @@ export default function PostFreeDataDrivenSeoCourse() {
           <div className="bg-[#f0f9fb] border border-[#c8e8ef] rounded-2xl p-8 my-12 text-center">
             <p className="text-xs font-bold text-[#318599] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free, No Credit Card Required</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the free data-driven SEO course today</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>5 modules, Tuesday Power Hour live sessions, and a community of marketers, all free.</p>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>5 modules, all free.</p>
             <Link href="/courses/seo">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Enrol for Free
@@ -229,11 +227,11 @@ export default function PostFreeDataDrivenSeoCourse() {
             <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently Asked Questions</h2>
             <div className="space-y-6">
               {[
-                { q: "Is the KnowHow SEO course really free?", a: "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules, the Tuesday Power Hour live sessions, and the community at no cost. The paid upgrade is The Lab at $29 per month." },
+                { q: "Is the KnowHow SEO course really free?", a: "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules at no cost. The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial." },
                 { q: "What is data-driven SEO?", a: "Data-driven SEO is the practice of making every SEO decision based on real data from Google Search Console, GA4, and keyword research tools, rather than guessing or following generic best practices. It starts with what Google is already showing you, then builds a strategy around those signals." },
                 { q: "What do I need to take the course?", a: "You need a website with Google Search Console and Google Analytics 4 set up. If you don't have these yet, the course starts with a module on how to set them up. No coding skills or technical background is required." },
                 { q: "How long does the free SEO course take?", a: "The 5 modules take approximately 3 to 4 hours to complete at your own pace. Most students start seeing results in Google Search Console within 4 to 8 weeks of completing the course and implementing the strategies." },
-                { q: "What is the difference between the free course and The Lab?", a: "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29/month) adds weekly live coaching sessions every Thursday, deeper training on advanced topics, and direct access to Pip and Phelan for questions about your specific website." },
+                { q: "What is the difference between the free course and The Lab?", a: "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics, and direct access to Pip and Phelan for questions about your specific website." },
                 { q: "Will the course work for my industry?", a: "Yes. The data-driven SEO method works for any industry because it is based on your own Google Search Console data, not generic keyword lists. Whether you are in professional services, e-commerce, SaaS, or local business, the process is the same." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">

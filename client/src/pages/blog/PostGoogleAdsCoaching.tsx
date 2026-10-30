@@ -52,7 +52,7 @@ export default function PostGoogleAdsCoaching() {
         {
           "@type": "Question",
           "name": "How much does Google Ads coaching cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Google Ads coaching typically costs between $150 and $500 per hour for a one-on-one session with an experienced specialist. At KnowHow Marketing Lab, Google Ads coaching is included in The Lab membership at $29 per month, which includes weekly live coaching sessions every Thursday at noon Pacific, plus access to the full course library and community." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Google Ads coaching typically costs between $150 and $500 per hour for a one-on-one session with an experienced specialist. At KnowHow Marketing Lab, Google Ads coaching is included in The Lab membership at $29 CAD per month, which includes a live session every Tuesday, 12 to 1 pm Pacific, plus access to the full course library and community." }
         },
         {
           "@type": "Question",
@@ -204,13 +204,13 @@ export default function PostGoogleAdsCoaching() {
 
             <h2 id="cost-vs-savings">What Coaching Costs vs What It Saves</h2>
             <p>The most common pushback we hear is about cost. Here is how we think about it. If you are spending $1,000 a month on Google Ads and 30% of that is going to irrelevant searches, which is typical for accounts that have never had a proper review, you are wasting $300 every month. One coaching session that fixes your negative keyword list pays for itself before the month is out.</p>
-            <p>At KnowHow, Google Ads coaching is included in <Link href="/pricing">The Lab membership at $29 per month</Link>, which includes weekly live sessions every Thursday, the full course library, and community access. For businesses ready to go deeper, the <Link href="/mastermind">8-week AI Marketing Accelerator Mastermind</Link> includes dedicated Google Ads coaching as part of the programme.</p>
+            <p>At KnowHow, Google Ads coaching is included in <Link href="/pricing">The Lab membership at $29 CAD per month</Link>, which includes a live session every Tuesday, 12 to 1 pm Pacific, the full course library, and community access. You can try it free for 14 days.</p>
           </div>
 
           <div className="bg-[#fff3e0] border border-[#f5d5a0] rounded-2xl p-8 my-12 text-center">
-            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live Coaching Every Thursday</p>
+            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Live Coaching Every Tuesday</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Get expert eyes on your Google Ads account</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>Join The Lab for $29/month and bring your real campaigns to weekly live coaching sessions with Phelan and Pip.</p>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>Join The Lab for $29 CAD/month and bring your real campaigns to weekly live coaching sessions with Phelan and Pip.</p>
             <Link href="/pricing">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Join The Lab
@@ -223,7 +223,7 @@ export default function PostGoogleAdsCoaching() {
             <div className="space-y-6">
               {[
                 { q: "What is Google Ads coaching?", a: "Google Ads coaching is a one-on-one or small group session where an experienced Google Ads specialist reviews your real account and gives you specific, actionable feedback. Unlike a course, which teaches general principles, coaching looks at your actual campaigns, your actual data, and your actual goals, and tells you exactly what to fix." },
-                { q: "How much does Google Ads coaching cost?", a: "Google Ads coaching typically costs between $150 and $500 per hour for a one-on-one session. At KnowHow Marketing Lab, coaching is included in The Lab membership at $29 per month, which includes weekly live coaching sessions every Thursday at noon Pacific." },
+                { q: "How much does Google Ads coaching cost?", a: "Google Ads coaching typically costs between $150 and $500 per hour for a one-on-one session. At KnowHow Marketing Lab, coaching is included in The Lab membership at $29 CAD per month, which includes a live session every Tuesday, 12 to 1 pm Pacific." },
                 { q: "What is the difference between Google Ads coaching and a Google Ads course?", a: "A Google Ads course teaches you general principles and best practices. Coaching applies those principles to your specific account. Coaching is more valuable when you already have campaigns running and want to know why they are not performing. A course is better if you are starting from scratch." },
                 { q: "How many Google Ads coaching sessions do I need?", a: "Most businesses see meaningful improvement after 3 to 5 coaching sessions. The first session identifies the biggest problems. Sessions 2 and 3 implement fixes and review results. After that, monthly check-ins are usually enough to keep campaigns on track." },
                 { q: "What does a Google Ads coach actually look at?", a: "A good Google Ads coach looks at: campaign structure, conversion tracking, bidding strategy, keyword match types and negative keywords, ad copy and landing page alignment, and Quality Score. The goal is to find the highest-leverage fixes that will improve performance the fastest." },

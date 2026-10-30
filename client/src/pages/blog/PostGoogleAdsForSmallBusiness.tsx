@@ -176,7 +176,7 @@ export default function PostGoogleAdsForSmallBusiness() {
 
             <h2 id="conversion-tracking">Conversion Tracking, The Non-Negotiable First Step</h2>
             <p>Before you spend a single dollar on Google Ads, set up conversion tracking. In Google Ads, go to Tools → Conversions and create a conversion action for each valuable action on your website: form submissions, phone calls, purchases, and email clicks.</p>
-            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">Google Ads Bootcamp — included in The Lab at $29/mo</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
+            <p>The cleanest way to implement conversion tracking is through Google Tag Manager, you can set up all your conversion tags in one place without touching your website code. This is what Phelan covers in the <Link href="/courses/google-ads">Google Ads course, included in The Lab at $29 CAD/mo</Link>: GTM setup, conversion tag implementation, and how to verify that your conversions are firing correctly.</p>
 
             <h2 id="negative-keywords">Negative Keywords, The Fastest Way to Stop Wasting Money</h2>
             <p>After your campaign has been running for 7 to 14 days, go to Keywords → Search Terms in your Google Ads account. This report shows you the actual searches that triggered your ads. Look for searches that are clearly not relevant to your business and add them as negative keywords.</p>
@@ -187,16 +187,16 @@ export default function PostGoogleAdsForSmallBusiness() {
             <p>The decision between coaching and an agency comes down to one question: do you want to build internal capability, or do you want someone else to handle it?</p>
             <p>Coaching makes sense if you have someone on your team (or you yourself) who can dedicate 2 to 3 hours per week to managing and optimising Google Ads campaigns. The learning curve is real, but the long-term cost is much lower than agency fees, and you end up with a team that deeply understands your campaigns.</p>
             <p>An agency makes sense if you genuinely don't have the bandwidth to manage campaigns yourself and you have a budget large enough to justify agency fees (typically $1,500 to $3,000+ per month in management fees on top of your ad spend).</p>
-            <p>The <Link href="/blog/google-ads-coaching-for-small-business">KnowHow Google Ads coaching programme</Link> is designed for small business owners and marketing managers who want to learn to manage their own campaigns with expert guidance. The <Link href="/mastermind">8-week Mastermind</Link> takes this further for teams ready to build a full digital marketing system.</p>
+            <p><Link href="/blog/google-ads-coaching-for-small-business">KnowHow Google Ads coaching</Link> is designed for small business owners and marketing managers who want to learn to manage their own campaigns with expert guidance. It happens in <Link href="/pricing">The Lab</Link>, at the live session every Tuesday, 12 to 1 pm Pacific.</p>
           </div>
 
           <div className="bg-[#fff3e0] border border-[#f5d5a0] rounded-2xl p-8 my-12 text-center">
-            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Bootcamp — Included in The Lab</p>
+            <p className="text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Google Ads Course, Included in The Lab</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn to run Google Ads without wasting money</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The KnowHow Google Ads Bootcamp covers conversion tracking, campaign setup, bidding strategy, and how to read your data — with live coaching every Thursday. Included in The Lab at $29/mo.</p>
-            <Link href="/courses/google-ads">
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The KnowHow Google Ads course covers conversion tracking, campaign setup, bidding strategy, and how to read your data, with a live session every Tuesday, 12 to 1 pm Pacific. Included in The Lab at $29 CAD/mo, with a 14-day free trial.</p>
+            <Link href="/pricing">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Join the Google Ads Bootcamp
+                Try The Lab free for 14 days
               </button>
             </Link>
           </div>

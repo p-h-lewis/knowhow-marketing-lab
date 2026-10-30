@@ -62,7 +62,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 <li><strong>Choose coaching</strong> if you have already done some SEO and you are stuck, if you want faster results, or if you need someone to look at your specific situation and tell you exactly what to fix.</li>
 </ul>
 
-<p>At KnowHow Marketing Lab, we offer both. Our <a href="/courses/seo" style="color:#318599;text-decoration:underline;">free data-driven AI + SEO course</a> is a great starting point. If you want live coaching on top of that, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Q&amp;A session every Thursday where Pip and Phelan look at your actual website and ads and tell you what to fix.</p>
+<p>At KnowHow Marketing Lab, we offer both. Our <a href="/courses/seo" style="color:#318599;text-decoration:underline;">free data-driven AI + SEO course</a> is a great starting point. If you want live coaching on top of that, <a href="/pricing" style="color:#318599;text-decoration:underline;">The Lab membership</a> includes a live Q&amp;A session every Tuesday where Pip and Phelan look at your actual website and ads and tell you what to fix.</p>
 
 <h2 id="what-good-seo-coaching-covers">What Good SEO and Analytics Coaching Covers</h2>
 
@@ -87,7 +87,7 @@ const POST_CONTENT = `<p>Most marketing training gives you theory. You sit throu
 
 <p>Pip Seymour and Phelan Lewis have been doing digital marketing for over 20 years each. They built KnowHow Marketing Lab specifically for marketing teams at medium-sized businesses, not solo freelancers, not enterprise brands.</p>
 
-<p>The approach is practical and data-first. Every Thursday, Lab members bring their real websites and ad accounts to a live session. Pip and Phelan look at the data, explain what they see, and give specific recommendations. Members leave each session with a clear list of things to do.</p>
+<p>The approach is practical and data-first. Every Tuesday, Lab members bring their real websites and ad accounts to a live session. Pip and Phelan look at the data, explain what they see, and give specific recommendations. Members leave each session with a clear list of things to do.</p>
 
 <p>If you want to see what the coaching looks like before committing, start with the <a href="/courses/seo" style="color:#318599;text-decoration:underline;">free AI + SEO course</a>. It covers the same foundations we use in coaching sessions. Or <a href="/about" style="color:#318599;text-decoration:underline;">read more about Pip and Phelan</a> to understand their background.</p>
 
@@ -255,9 +255,9 @@ export default function PostSEOAnalyticsCoachingForMarketers() {
           {/* CTA */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to get coaching on your real website?</h2>
-            <p className="text-white/80 mb-6">Join The Lab and bring your website, ads, and data to a live Q&amp;A session every Thursday. Pip and Phelan will tell you exactly what to fix and why.</p>
+            <p className="text-white/80 mb-6">Join The Lab and bring your website, ads, and data to a live Q&amp;A session every Tuesday. Pip and Phelan will tell you exactly what to fix and why.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29/mo →</a>
+              <a href="/pricing" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Join The Lab, $29 CAD/mo →</a>
               <a href="/courses/seo" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">Start the Free SEO Course</a>
             </div>
           </div>

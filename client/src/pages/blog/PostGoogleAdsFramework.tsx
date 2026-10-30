@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     q: 'Do I need a Google Ads agency or can I manage it myself?',
-    a: 'You can manage Google Ads yourself if you invest in learning the platform properly. The KnowHow Marketing Lab offers a Google Ads Bootcamp — included in The Lab at $29/mo covering the fundamentals, and The Lab community ($29/month) provides live weekly training where Pip and Phelan work through your actual campaigns in real time. Many medium-sized businesses manage their own Google Ads successfully with the right training and tools. An agency makes sense when you have proven campaigns you want to scale aggressively, or when you do not have the time to manage the platform yourself.'
+    a: 'You can manage Google Ads yourself if you invest in learning the platform properly. KnowHow Marketing Lab offers a Google Ads course covering the fundamentals, included in The Lab ($29 CAD/month), which also has a live session every Tuesday, 12 to 1 pm Pacific, where Pip and Phelan work through your actual campaigns in real time. Many medium-sized businesses manage their own Google Ads successfully with the right training and tools. An agency makes sense when you have proven campaigns you want to scale aggressively, or when you do not have the time to manage the platform yourself.'
   },
   {
     q: 'What is the difference between Google Ads and SEO?',
@@ -254,7 +254,7 @@ export default function PostGoogleAdsFramework() {
               Most Google Ads campaigns fail for the same reasons: no conversion tracking, wrong campaign type, keywords without intent, and budgets increased before the data is ready. The result is a lot of spend with nothing to show for it.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients, and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our Google Ads Bootcamp — included in The Lab at $29/mo</Link> and <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link>, to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
+              <strong>The KnowHow Google Ads Framework</strong> is the 5-phase process we use with our agency clients, and teach in <Link href="/courses/google-ads" className="text-[#318599] hover:underline">our Google Ads course</Link> inside <Link href="/community" className="text-[#318599] hover:underline">The Lab</Link>, to build campaigns that actually work. It is not a shortcut. It is a structured process that removes the guesswork and replaces it with data.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               The five phases are: <strong>Foundation</strong> (set up to measure everything), <strong>Research</strong> (know your market before you bid), <strong>Build</strong> (structure your account for scale), <strong>Optimise</strong> (let data drive every decision), and <strong>Scale</strong> (grow what works, cut what does not). Each phase has specific steps, tools, and AI-assisted shortcuts.
@@ -375,17 +375,17 @@ export default function PostGoogleAdsFramework() {
 
           {/* Free course CTA */}
           <div className="bg-slate-900 rounded-2xl p-8 mb-16 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn the Full Framework, Free</h2>
+            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Learn the Full Framework in The Lab</h2>
             <p className="text-slate-300 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The KnowHow Google Ads course walks through every phase of this framework with video lessons, templates, and real campaign examples. No credit card required.
+              The KnowHow Google Ads course walks through every phase of this framework with video lessons, templates, and real campaign examples. It is included in The Lab, with a 14-day free trial.
             </p>
-            <Link href="/courses/google-ads">
+            <Link href="/pricing">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-4 rounded-xl transition-colors text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                Join the Google Ads Bootcamp →
+                Try The Lab free for 14 days →
               </button>
             </Link>
             <p className="text-slate-400 text-sm mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Want live help with your campaigns? <Link href="/community" className="text-[#E98C28] hover:underline">Try The Lab free for 7 days →</Link>
+              Want live help with your campaigns? <Link href="/community" className="text-[#E98C28] hover:underline">Try The Lab free for 14 days →</Link>
             </p>
           </div>
 
@@ -440,7 +440,7 @@ export default function PostGoogleAdsFramework() {
           <div className="bg-[#E98C28] rounded-2xl p-8 text-center text-white">
             <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Get Help With Your Google Ads Campaigns</h2>
             <p className="text-white/90 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Join The Lab, Pip and Phelan work through your actual campaigns live every Thursday. Try free for 7 days.
+              Join The Lab, Pip and Phelan work through your actual campaigns live every Tuesday. Try free for 14 days.
             </p>
             <a
               href={COMMUNITY_URL}
@@ -449,9 +449,9 @@ export default function PostGoogleAdsFramework() {
               className="inline-block bg-white text-[#E98C28] font-bold px-8 py-4 rounded-xl hover:bg-orange-50 transition-colors text-lg"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Start Your Free 7-Day Trial →
+              Start Your Free 14-Day Trial →
             </a>
-            <p className="text-white/70 text-sm mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>$29/month after trial · Cancel anytime</p>
+            <p className="text-white/70 text-sm mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>$29 CAD/month after trial · Cancel anytime</p>
           </div>
 
         </article>

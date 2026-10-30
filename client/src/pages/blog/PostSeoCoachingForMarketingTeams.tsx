@@ -56,7 +56,7 @@ export default function PostSeoCoachingForMarketingTeams() {
         {
           "@type": "Question",
           "name": "How many people can join a coaching session?",
-          "acceptedAnswer": { "@type": "Answer", "text": "KnowHow coaching sessions work best with 2 to 6 people from the same team. The Tuesday Power Hour is open to any number of participants and is a good starting point for teams. The Lab membership includes weekly live coaching sessions for up to 6 team members. For larger teams or dedicated team coaching programmes, the 8-week AI Marketing Accelerator Mastermind is designed for teams of up to 8 people." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Team SEO coaching works best with 2 to 6 people from the same team. In The Lab, your team brings its questions to the live session every Tuesday, 12 to 1 pm Pacific. Check The Lab page for current membership details." }
         },
         {
           "@type": "Question",
@@ -176,15 +176,15 @@ export default function PostSeoCoachingForMarketingTeams() {
               <li><strong>Strategy update (15 minutes)</strong>, what to publish next, based on the data</li>
               <li><strong>Q&A (10 minutes)</strong>, open questions from the team</li>
             </ol>
-            <p>The Tuesday Power Hour is open to any number of participants and is a good starting point for teams who want to experience the format before committing to a coaching programme.</p>
+            <p>The Lab has a 14-day free trial, so your team can try the live session format before committing.</p>
 
             <h2 id="how-pip-structures">How Pip Structures Team Coaching at KnowHow</h2>
-            <p>For teams joining <Link href="/pricing">The Lab</Link>, coaching happens in two layers:</p>
+            <p>For teams joining <Link href="/pricing">The Lab</Link>, coaching happens at one weekly live session:</p>
             <ul>
-              <li><strong>Weekly Power Hour (Tuesday, noon Pacific)</strong>, open to the whole team, covers the latest in SEO and GEO, includes live Q&A</li>
-              <li><strong>Weekly Lab Session (Thursday, noon Pacific)</strong>, paid members only, includes live account reviews and direct coaching on specific team questions</li>
+              <li><strong>First half: teaching or a tip</strong>, covering the latest in SEO and AI SEO</li>
+              <li><strong>Second half: Q&A and live audits</strong>, including live account reviews and direct coaching on specific team questions</li>
             </ul>
-            <p>For teams ready to go deeper, the <Link href="/mastermind">8-week AI Marketing Accelerator Mastermind</Link> is a small-group intensive (maximum 8 seats) that takes teams through the full KnowHow methodology, SEO, GEO, Google Ads, analytics, and content strategy, with weekly 90-minute sessions and direct access to Pip and Phelan throughout.</p>
+            <p>The session runs every Tuesday, 12 to 1 pm Pacific, and covers the full KnowHow method: SEO, AI SEO, Google Ads, analytics, and content strategy.</p>
 
             <h2 id="tools-needed">What Tools the Team Needs Before Starting</h2>
             <p>Before your first coaching session, make sure the team has access to:</p>
@@ -200,16 +200,16 @@ export default function PostSeoCoachingForMarketingTeams() {
           <div className="bg-[#f0f9fb] border border-[#c8e8ef] rounded-2xl p-8 my-12 text-center">
             <p className="text-xs font-bold text-[#318599] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>For Marketing Teams</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Bring your whole team to The Lab</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The Lab membership includes weekly live coaching sessions for your whole team, Tuesday Power Hour and Thursday Lab sessions, for $29/month.</p>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>The Lab includes a live session every Tuesday, 12 to 1 pm Pacific, for $29 CAD/month after a 14-day free trial.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/pricing">
                 <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Join The Lab
                 </button>
               </Link>
-              <Link href="/mastermind">
+              <Link href="/courses/seo">
                 <button className="border-2 border-[#318599] text-[#318599] hover:bg-[#318599] hover:text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Explore the Mastermind
+                  See the free AI + SEO course
                 </button>
               </Link>
             </div>
@@ -221,7 +221,7 @@ export default function PostSeoCoachingForMarketingTeams() {
               {[
                 { q: "What is SEO coaching for marketing teams?", a: "SEO coaching for marketing teams is a structured programme where an SEO specialist works directly with your marketing team to build a shared SEO strategy, review real performance data together, and develop the skills to execute SEO independently." },
                 { q: "How is team SEO coaching different from individual coaching?", a: "Individual coaching focuses on one person's skills. Team coaching focuses on alignment, making sure everyone understands the strategy, knows their role, and is measuring the right things. It also addresses organisational challenges like prioritisation and buy-in that individual coaching doesn't cover." },
-                { q: "How many people can join a coaching session?", a: "KnowHow coaching sessions work best with 2 to 6 people from the same team. The Tuesday Power Hour is open to any number of participants. The Lab membership includes weekly live coaching for up to 6 team members. The Mastermind is designed for teams of up to 8 people." },
+                { q: "How many people can join a coaching session?", a: "Team SEO coaching works best with 2 to 6 people from the same team. In The Lab, your team brings its questions to the live session every Tuesday, 12 to 1 pm Pacific. Check The Lab page for current membership details." },
                 { q: "What results can a marketing team expect from SEO coaching?", a: "Teams typically see a clear documented SEO strategy within 4 weeks, measurable improvements in Google Search Console impressions within 6 to 8 weeks, and a repeatable content process within 3 months. Results vary depending on the team's starting point and how consistently the strategy is implemented." },
                 { q: "How long does it take to see results from team SEO coaching?", a: "Most teams see measurable improvements in GSC impressions within 6 to 8 weeks. Clicks typically follow 4 to 8 weeks after impressions improve. The full benefit of a team coaching programme typically takes 3 to 6 months." },
                 { q: "What is the difference between SEO coaching and an SEO agency?", a: "An SEO agency does the work for you. An SEO coach teaches your team how to do it themselves. Coaching is better if you want to build internal capability and reduce long-term agency costs. Agencies are better if you don't have the internal bandwidth to execute SEO." }
