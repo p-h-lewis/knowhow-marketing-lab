@@ -142,7 +142,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/Z2Ci1UPFcKg/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Home Page | On-Page SEO</video:title>
-      <video:description>How to optimise your home page for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
+      <video:description>How to optimize your home page for SEO. Free on-page SEO lesson from KnowHow Marketing Lab.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Z2Ci1UPFcKg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Z2Ci1UPFcKg</video:player_loc>
       <video:publication_date>2023-01-01</video:publication_date>
@@ -153,7 +153,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/Brvt0HSKH5s/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Contact Page SEO Best Practices – Convert More Visitors</video:title>
-      <video:description>How to optimise your contact page for SEO and conversions. Free lesson from KnowHow Marketing Lab.</video:description>
+      <video:description>How to optimize your contact page for SEO and conversions. Free lesson from KnowHow Marketing Lab.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Brvt0HSKH5s</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Brvt0HSKH5s</video:player_loc>
       <video:publication_date>2024-01-01</video:publication_date>
@@ -254,7 +254,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/1cvo5VpEJKA/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Google Ads | Display Campaigns Class</video:title>
-      <video:description>How to set up and optimise Google Display campaigns. Free Google Ads lesson from KnowHow Marketing Lab.</video:description>
+      <video:description>How to set up and optimize Google Display campaigns. Free Google Ads lesson from KnowHow Marketing Lab.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1cvo5VpEJKA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1cvo5VpEJKA</video:player_loc>
       <video:publication_date>2024-01-01</video:publication_date>
@@ -265,7 +265,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/m1DvSc46FDI/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Live Class | Google Ads | Optimization 2</video:title>
-      <video:description>Live Google Ads optimisation class. Advanced strategies for improving Google Ads performance from KnowHow Marketing Lab.</video:description>
+      <video:description>Live Google Ads optimization class. Advanced strategies for improving Google Ads performance from KnowHow Marketing Lab.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=m1DvSc46FDI</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/m1DvSc46FDI</video:player_loc>
       <video:publication_date>2024-01-01</video:publication_date>
@@ -277,7 +277,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/EXNB6zHug-k/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Live Class | Google Business Profile</video:title>
-      <video:description>Live class on Google Business Profile optimisation for local SEO. From KnowHow Marketing Lab's weekly live Q&amp;A series.</video:description>
+      <video:description>Live class on Google Business Profile optimization for local SEO. Recorded from a KnowHow Marketing Lab live session.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=EXNB6zHug-k</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/EXNB6zHug-k</video:player_loc>
       <video:publication_date>2023-01-01</video:publication_date>
@@ -322,7 +322,7 @@
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/Gzh0UcU_C8A/mqdefault.jpg</video:thumbnail_loc>
       <video:title>Knowledge Panel | Google Business Profile</video:title>
-      <video:description>How to optimise your Google Knowledge Panel. Free lesson on AI and Google Business Profile from KnowHow Marketing Lab.</video:description>
+      <video:description>How to optimize your Google Knowledge Panel. Free lesson on AI and Google Business Profile from KnowHow Marketing Lab.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Gzh0UcU_C8A</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Gzh0UcU_C8A</video:player_loc>
       <video:publication_date>2023-01-01</video:publication_date>
@@ -382,19 +382,5 @@
     </video:video>
    </url>
 
-  <!-- Podcast page -->
-  <url>
-    <loc>https://knowhowmarketinglab.com/podcast</loc>
-    <video:video>
-      <video:thumbnail_loc>https://img.youtube.com/vi/PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4/mqdefault.jpg</video:thumbnail_loc>
-      <video:title>KnowHow Marketing Lab Podcast - Monthly Marketing News</video:title>
-      <video:description>Monthly podcast by Pip Seymour and Phelan Lewis covering what is actually happening in SEO, Google Ads, and AI marketing. Practical advice for medium-sized businesses. No sponsors. No scripts. Just what we are actually seeing.</video:description>
-      <video:content_loc>https://www.youtube.com/playlist?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/videoseries?list=PL3NGUighqOX6JF-ImrO289qWbpsd7kuA4</video:player_loc>
-      <video:publication_date>2026-01-01</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:live>no</video:live>
-    </video:video>
-  </url>
 
 </urlset>
