@@ -23,7 +23,7 @@ const QUICK_REPLIES = [
 
 const ANSWERS: Record<string, string> = {
   what: "The KnowHow Lab is a $29/month membership community for business owners and marketing managers. Every Thursday 12-1pm Pacific, Pip and Phelan work through real member campaigns, ad accounts, website audits, and SEO issues live, hands-on help, not just Q&A. You also get full course access, monthly deep-dive training, and a private community group.",
-  price: "The Lab is $29/month, that's the early access founding rate. And there's a 7-day free trial so you can try it before you pay. It will increase as the community grows. Members who join now lock in $29 forever. You can cancel anytime in 60 seconds, no questions asked.",
+  price: "The Lab is $29/month, And there's a 7-day free trial so you can try it before you pay. You can cancel anytime in 60 seconds, no questions asked.",
   thursday: "Thursday Lab sessions run every Thursday 12-1pm Pacific (members only). You bring your real campaigns, ad accounts, website, or SEO questions. Pip and Phelan review them live on screen, not just advice, actual hands-on work. Every session is recorded so you can watch the replay anytime.",
   cancel: "Yes, cancel anytime, directly from your GoHighLevel account. No lock-in contracts, no cancellation fees, no forms to fill out. Your access continues until the end of your billing period.",
   technical: "Not at all. The curriculum starts from the foundations, how Google Search works, what Search Console is, and why SEO matters, and builds progressively to advanced topics like Google Ads scripts and AI agents. Beginners and experienced marketers both get value.",

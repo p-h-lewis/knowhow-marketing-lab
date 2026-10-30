@@ -6,7 +6,6 @@
 
 import { useEffect, useState } from 'react';
 import { useSEO } from '@/hooks/useSEO';
-import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
@@ -82,7 +81,7 @@ const faqs = [
   },
   {
     q: 'What is the price after the trial?',
-    a: '$29/month, that\'s the founding member rate. It will increase as the community grows. Members who join now lock in $29 forever.',
+    a: '$29/month after the trial. No contracts. Cancel anytime.',
   },
   {
     q: 'Who are Pip and Phelan?',
@@ -200,9 +199,6 @@ export default function Trial() {
               7 days free · Then $29/mo · Cancel anytime in 60 seconds
             </p>
 
-            <div className="mt-4 flex justify-center">
-              <FoundingMemberCounter variant="inline" className="text-gray-400" />
-            </div>
           </div>
         </section>
 
@@ -419,9 +415,6 @@ export default function Trial() {
               7 days free · Then $29/mo · Cancel anytime in 60 seconds
             </p>
 
-            <div className="flex justify-center mb-6">
-              <FoundingMemberCounter variant="inline" className="text-gray-400" />
-            </div>
 
             {/* Risk reversal */}
             <div className="flex flex-wrap justify-center gap-6 text-xs text-gray-500">

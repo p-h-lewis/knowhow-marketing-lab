@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
-import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
@@ -147,10 +146,6 @@ const faqs = [
     q: 'Can I cancel anytime?',
     a: 'Yes. There are no lock-in contracts. Cancel anytime directly from your GoHighLevel account. No questions asked.',
   },
-  {
-    q: 'Why is the price so low right now?',
-    a: 'We\'re in early access. The price is $29/month now and will increase as the community grows and more content is added. Members who join early lock in their rate permanently.',
-  },
 ];
 
 const testimonials = [
@@ -251,7 +246,7 @@ const communitySchema = {
         {
           "@type": "Question",
           "name": "How much does The Lab cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month after the 7-day free trial. This is an early access price that will increase as the community grows. You can cancel anytime." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The Lab is $29 per month after the 7-day free trial. You can cancel anytime." }
         },
         {
           "@type": "Question",
@@ -337,9 +332,6 @@ export default function Community() {
               <p className="text-xs text-gray-500 mt-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 7-day free trial · Then $29/mo · Cancel anytime · No contracts
               </p>
-              <div className="mt-3 flex justify-center">
-                <FoundingMemberCounter variant="inline" className="text-gray-400" />
-              </div>
             </div>
           </div>
         </section>
@@ -537,7 +529,7 @@ export default function Community() {
           <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 30% 50%, #E98C28 0%, transparent 50%)' }} aria-hidden="true" />
           <div className="container relative">
             <div className="max-w-lg mx-auto bg-white rounded-3xl shadow-2xl p-8 md:p-10 text-center">
-              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>7-Day Free Trial · Early Access Price</span>
+              <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest bg-[#E98C28]/10 px-3 py-1 rounded-full mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>7-Day Free Trial</span>
               <div className="flex items-baseline justify-center gap-2 mb-2">
                 <span className="text-4xl font-extrabold text-[#318599] line-through opacity-50" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$0</span>
                 <span className="text-gray-400 font-medium text-base line-through opacity-50">first 7 days</span>
@@ -546,7 +538,7 @@ export default function Community() {
                 <span className="text-gray-500 font-medium text-lg">/month</span>
               </div>
               <p className="text-sm text-gray-400 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Try it free for 7 days. Then $29/mo, founding rate, locked in forever. Price increases as community grows.
+                Try it free for 7 days. Then $29/mo. Cancel anytime.
               </p>
               <ul className="space-y-3 mb-8 text-left">
                 {[
@@ -646,9 +638,6 @@ export default function Community() {
             <div className="mt-10 text-center">
               <JoinButton label="Start My Free 7-Day Trial →" />
               <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
-              <div className="mt-4 flex justify-center">
-                <FoundingMemberCounter variant="inline" />
-              </div>
             </div>
           </div>
         </section>
@@ -737,7 +726,7 @@ export default function Community() {
                   </div>
                 </div>
                 <div className="text-2xl font-extrabold text-white mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29<span className="text-base font-normal text-gray-400">/mo</span></div>
-                <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access · Cancel anytime</p>
+                <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>No contracts · Cancel anytime</p>
                 <ul className="space-y-3 mb-6">
                   {[
                     'Everything in the free group, plus:',

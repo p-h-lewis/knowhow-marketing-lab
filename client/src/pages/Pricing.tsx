@@ -8,7 +8,6 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
-import FoundingMemberCounter from '@/components/FoundingMemberCounter';
 
 const freeFeatures = [
   { label: 'Free Power Hours every Tuesday 12-1pm Pacific' },
@@ -36,7 +35,6 @@ const communityFeatures = [
   { label: 'Private community group access', included: true },
   { label: 'Live Q&A with Pip & Phelan', included: true },
   { label: 'All recorded session replays', included: true },
-  { label: 'Early access to new content', included: true },
 ];
 
 const pricingFaqs = [
@@ -51,10 +49,6 @@ const pricingFaqs = [
   {
     q: 'Can I cancel my community membership anytime?',
     a: 'Yes. Cancel anytime with no penalty. Your access continues until the end of your billing period.',
-  },
-  {
-    q: 'Will the price increase?',
-    a: 'Yes - the $29/month rate is an early access price. As the community grows, the price will increase. Members who join now lock in their rate.',
   },
   {
     q: 'Is the community hosted on GoHighLevel?',
@@ -204,7 +198,7 @@ export default function Pricing() {
               Try The Lab Free for 7 Days.
             </h1>
             <p className="text-gray-500 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  The Lab gives you live weekly coaching sessions where Pip &amp; Phelan work through your real campaigns, ads, and website every Thursday. Plus full Google Ads &amp; SEO courses, AI training, and a private community. Early access price, locks in forever when you join.
+                  The Lab gives you live weekly coaching sessions where Pip &amp; Phelan work through your real campaigns, ads, and website every Thursday. Plus full Google Ads &amp; SEO courses, AI training, and a private community.
             </p>
             <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1">
               <a href="/blog/seo-and-analytics-coaching-for-marketers" className="text-sm text-[#318599] hover:underline font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>What is SEO &amp; analytics coaching? →</a>
@@ -222,9 +216,6 @@ export default function Pricing() {
                 Start Free 7-Day Trial →
               </a>
               <p className="text-xs text-gray-400 mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial · Then $29/mo · No contracts · Cancel anytime</p>
-              <div className="mt-3 flex justify-center">
-                <FoundingMemberCounter variant="inline" />
-              </div>
             </div>
           </div>
         </section>
@@ -267,7 +258,7 @@ export default function Pricing() {
             </div>
             <div className="mt-8 rounded-2xl bg-[#E98C28] p-6 text-center">
               <p className="text-white font-extrabold text-2xl" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All of this for $29/month.</p>
-              <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Early access price, locks in forever when you join today.</p>
+              <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>No contracts. Cancel anytime.</p>
               <a
                 href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
                 target="_blank"
@@ -281,20 +272,6 @@ export default function Pricing() {
           </div>
         </section>
 
-        {/* Urgency bar */}
-        <section className="py-5 bg-[#1a3a50] border-y border-[#E98C28]/30" aria-label="Urgency notice">
-          <div className="container max-w-3xl">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-center sm:text-left">
-              <span className="inline-flex items-center gap-2 bg-[#E98C28]/20 border border-[#E98C28]/40 rounded-full px-4 py-1.5">
-                <span className="w-2 h-2 rounded-full bg-[#E98C28] animate-pulse flex-shrink-0" aria-hidden="true" />
-                <span className="text-xs font-bold text-[#E98C28]" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access Pricing</span>
-              </span>
-              <p className="text-sm text-gray-300" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                The $29/mo rate is available to founding members only. <strong className="text-white">Price increases as the community grows.</strong> Members who join now lock in their rate forever.
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Reviews, moved BEFORE pricing card: social proof before the ask */}
         <section className="py-16 bg-[#0f2236]" aria-labelledby="pricing-reviews-heading">
@@ -365,11 +342,10 @@ export default function Pricing() {
                   <div className="flex items-baseline gap-2 mt-3">
                     <span className="text-5xl font-extrabold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="price">$29</span>
                     <span className="text-gray-400 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>/month</span>
-                    <span className="text-xs bg-[#E98C28]/20 text-[#E98C28] font-bold px-2 py-0.5 rounded-full border border-[#E98C28]/40">Early Access</span>
                   </div>
                   <p className="text-xs text-[#318599] font-semibold mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>7-day free trial included</p>
                   <p className="text-sm text-gray-400 mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }} itemProp="description">
-                    Try free for 7 days. Then $29/mo, founding rate, locked in forever.
+                    Try free for 7 days. Then $29/mo. Cancel anytime.
                   </p>
                 </div>
 
@@ -398,11 +374,8 @@ export default function Pricing() {
                   7-day free trial · Then $29/mo · Secure checkout
                 </p>
                 <p className="text-xs text-[#E98C28] font-semibold text-center mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Cancel in 60 seconds, no questions asked, no penalty, no forms.
+                  No contracts. Cancel anytime.
                 </p>
-                <div className="mt-4">
-                  <FoundingMemberCounter variant="card" />
-                </div>
               </article>
             </div>
 

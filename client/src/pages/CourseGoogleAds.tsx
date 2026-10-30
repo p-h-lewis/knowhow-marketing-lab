@@ -157,7 +157,7 @@ export default function CourseGoogleAds() {
                   </Link>
                 </div>
                 <p className="text-xs text-gray-400 mt-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Cancel anytime · Price increases as community grows · Powered by GoHighLevel
+                  Cancel anytime · No contracts · Powered by GoHighLevel
                 </p>
               </div>
 

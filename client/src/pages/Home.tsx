@@ -300,7 +300,7 @@ export default function Home() {
                     { icon: '✓', text: 'Live SEO and Google Ads account reviews every Thursday' },
                     { icon: '✓', text: 'Ask questions about your specific campaigns and website' },
                     { icon: '✓', text: 'Access to all session recordings and course materials' },
-                    { icon: '✓', text: '$29/month, founding member rate, cancel anytime' },
+                    { icon: '✓', text: '$29/month, cancel anytime' },
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <span className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[#E98C28]/10 text-[#E98C28] text-xs font-bold flex items-center justify-center">{item.icon}</span>

@@ -45,7 +45,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               itemProp="description"
             >
-              You know how most business owners spend thousands on marketing courses and agencies and still can't tell if any of it is actually working? What we do is look at your actual website, ads, and content live every week so you leave each Thursday session knowing exactly what to fix and why. In fact, we ran these sessions for two years and members kept showing up every single week. We're bringing it back and founding members lock in $29/mo before the price goes up.
+              You know how most business owners spend thousands on marketing courses and agencies and still can't tell if any of it is actually working? What we do is look at your actual website, ads, and content live every week so you leave each Thursday session knowing exactly what to fix and why. In fact, we ran these sessions for two years and members kept showing up every single week.
             </p>
 
             {/* Primary CTA */}
@@ -111,7 +111,7 @@ export default function HeroSection() {
             {/* Social proof micro-stats */}
             <div className="flex flex-wrap gap-4 sm:gap-8">
               {[
-                { value: '$29/mo', label: 'The Lab, Founding Rate' },
+                { value: '$29/mo', label: 'The Lab, Monthly' },
                 { value: '20+', label: 'Years Agency Experience' },
                 { value: 'Thursday', label: 'Live Lab Sessions' },
                 { value: 'Cancel', label: 'Anytime, No Contracts' },

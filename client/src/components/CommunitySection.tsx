@@ -99,13 +99,12 @@ export default function CommunitySection() {
             <div className="flex items-baseline gap-2 mb-1">
               <span className="text-3xl font-extrabold text-white" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>$29</span>
               <span className="text-gray-300 font-medium">/month</span>
-              <span className="text-xs bg-[#E98C28]/20 text-[#E98C28] font-bold px-2 py-0.5 rounded-full ml-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Early Access</span>
             </div>
             <p className="text-xs text-[#318599] font-semibold mb-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               7-day free trial included
             </p>
             <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Founding rate · Price increases as community grows
+              No contracts · Cancel anytime
             </p>
             <ul className="space-y-2.5 mb-6 flex-1">
               {[
