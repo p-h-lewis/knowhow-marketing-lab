@@ -292,7 +292,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <p>If you sell accounting software for manufacturers, your highest priority cluster is "accounting software for manufacturers" - not a tangentially related topic. Start with the clusters that are closest to what you actually sell.</p>
 
 <h3>Priority 4 - Clusters with low competition and growing volume</h3>
-<p>New topics (like AI SEO, GEO, or AI Overviews) often have lower competition because fewer people have written about them yet. Getting in early on a growing topic can establish your site as an authority before the competition catches up.</p>
+<p>New topics (like AI SEO or AI Overviews) often have lower competition because fewer people have written about them yet. Getting in early on a growing topic can establish your site as an authority before the competition catches up.</p>
 
 <h2 id="gsc-data">How to use Google Search Console data in your cluster strategy</h2>
 
@@ -324,7 +324,7 @@ export default function PostKeywordResearchKeywordClusters() {
 <p>Keyword research is the process of finding keywords people search for. Keyword clustering is the process of organising those keywords into topic groups based on shared intent. You do keyword research first, then cluster the results. Clustering is what turns a list of keywords into a content strategy. Without clustering, keyword research is just a spreadsheet of words. With clustering, it becomes a roadmap for your content.</p>
 
 <h3>How does keyword clustering help with AI search?</h3>
-<p>AI systems like ChatGPT and Google AI Overviews look for thorough, authoritative coverage of a topic - not just a page that mentions a keyword. When you build content around keyword clusters, you demonstrate topical authority. This makes your content more likely to be cited by AI systems when someone asks a question in your topic area. This is a core part of Generative Engine Optimisation (GEO) - the strategy of making your content visible in AI-generated answers, not just traditional search results.</p>
+<p>AI systems like ChatGPT and Google AI Overviews look for thorough, authoritative coverage of a topic - not just a page that mentions a keyword. When you build content around keyword clusters, you demonstrate topical authority. This makes your content more likely to be cited by AI systems when someone asks a question in your topic area. This is a core part of AI SEO (also called GEO) - the strategy of making your content visible in AI-generated answers, not just traditional search results.</p>
 
 <h3>How many clusters should a medium-sized business target?</h3>
 <p>Start with 3 to 5 clusters that are directly related to your core services. Build out each cluster fully before moving to the next one. A well-built cluster of 5 to 10 pieces of content will outperform 50 thin, unrelated pages every time. Quality and topical depth beat volume.</p>

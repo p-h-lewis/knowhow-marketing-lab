@@ -74,7 +74,7 @@ export default function AboutSection() {
               {
                 name: 'Pip Seymour',
                 role: 'SEO & Content Strategy Lead',
-                bio: 'Pip leads SEO and digital marketing at Seymour Digital Media. Specializes in data-driven SEO, Google Search Console, GA4, and Generative Engine Optimisation (GEO) for medium-sized businesses.',
+                bio: 'Pip leads SEO and digital marketing at Seymour Digital Media. Specializes in data-driven SEO, Google Search Console, GA4, and AI SEO (also called GEO) for medium-sized businesses.',
                 initials: 'PS',
                 color: '#E98C28',
               },

@@ -65,8 +65,6 @@ export default function Home() {
               ],
               "knowsAbout": [
                 "Data-Driven SEO",
-                "Generative Engine Optimisation",
-                "GEO",
                 "AI SEO",
                 "Google Ads",
                 "Google Analytics 4",
@@ -94,7 +92,7 @@ export default function Home() {
                   "name": "Pip Seymour",
                   "jobTitle": "SEO & Content Strategy Lead",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
-                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "Generative Engine Optimisation", "Content Strategy"]
+                  "knowsAbout": ["SEO", "Google Search Console", "GA4", "AI SEO", "Content Strategy"]
                 },
                 {
                   "@type": "Person",
@@ -144,7 +142,7 @@ export default function Home() {
               { "@type": "Thing", "name": "Google Search Console" },
               { "@type": "Thing", "name": "Google Analytics 4" },
               { "@type": "Thing", "name": "Google Business Profile" },
-              { "@type": "Thing", "name": "Generative Engine Optimisation" }
+              { "@type": "Thing", "name": "AI SEO" }
             ]
           })
         }}

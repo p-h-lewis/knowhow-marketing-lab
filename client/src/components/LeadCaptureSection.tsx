@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     q: 'How is KnowHow Marketing Lab different from other marketing courses?',
-    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, Generative Engine Optimisation (GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
+    a: 'KnowHow Marketing Lab focuses on data-driven methods - using real analytics tools like GA4 and Google Search Console to make decisions. The training does not teach link building. Instead, it focuses on content building, AI SEO (also called GEO), and AI-powered strategies. Everything taught is based on what Pip and Phelan actually do for their agency clients at Seymour Digital Media.',
   },
   {
-    q: 'What is Generative Engine Optimisation (GEO)?',
-    a: 'Generative Engine Optimisation (GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
+    q: 'What is AI SEO (also called GEO)?',
+    a: 'AI SEO (also called GEO) is the practice of optimising your website content so it gets cited by AI tools like ChatGPT, Google AI Overviews, and Perplexity. It is a core part of our SEO curriculum. The key is creating clear, well-structured content that fully answers questions - the same content that ranks well on Google also tends to get cited by AI systems.',
   },
 ];
 

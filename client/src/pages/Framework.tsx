@@ -66,7 +66,7 @@ const steps = [
     outcome: "You have content that ranks, gets shared, and builds your authority.",
     color: "#4F37D8",
     icon: "",
-    aiTip: "Use AI to draft content outlines and first drafts - then edit for accuracy and brand voice. Structure content for AI Overviews and GEO.",
+    aiTip: "Use AI to draft content outlines and first drafts - then edit for accuracy and brand voice. Structure content for AI Overviews and AI SEO.",
   },
   {
     id: "amplify",

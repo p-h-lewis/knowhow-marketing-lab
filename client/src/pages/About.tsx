@@ -64,9 +64,9 @@ export default function About() {
                   "name": "Pip Seymour",
                   "url": "https://knowhowmarketinglab.com/about",
                   "jobTitle": "SEO & Content Strategy Lead",
-                  "description": "Pip Seymour is a digital marketing strategist and SEO specialist. Co-founder of Seymour Digital Media and KnowHow Marketing Lab. Specialises in data-driven SEO, Generative Engine Optimisation (GEO), Google Search Console, GA4, and AI-powered content strategy for medium-sized businesses.",
+                  "description": "Pip Seymour is a digital marketing strategist and SEO specialist. Co-founder of Seymour Digital Media and KnowHow Marketing Lab. Specialises in data-driven SEO, AI SEO (also called GEO), Google Search Console, GA4, and AI-powered content strategy for medium-sized businesses.",
                   "worksFor": { "@type": "Organization", "name": "Seymour Digital Media", "url": "https://seymourdigitalmedia.com/" },
-                  "knowsAbout": ["SEO", "Generative Engine Optimisation", "AI SEO", "Google Search Console", "GA4", "Content Strategy", "Digital Marketing", "GEO"],
+                  "knowsAbout": ["SEO", "AI SEO", "Google Search Console", "GA4", "Content Strategy", "Digital Marketing"],
                   "sameAs": ["https://www.youtube.com/@knowhowmarketinglab", "https://seymourdigitalmedia.com"]
                 },
                 {
@@ -126,7 +126,7 @@ export default function About() {
                   {[
                     'Data-driven SEO using GA4, GSC, and real analytics',
                     'Google Ads strategy built for ROI, not just clicks',
-                    'Content building and Generative Engine Optimisation (GEO)',
+                    'Content building and AI SEO (also called GEO)',
                     'AI marketing tools: ChatGPT, AI agents, automation',
                     'Google Tag Manager and conversion tracking setup',
                     'Training for medium-sized businesses and marketing teams',
@@ -190,10 +190,10 @@ export default function About() {
                   photo: 'https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/pip-seymour-raw_1df8431d.png',
                   bio: [
                     'Pip Seymour is the founder of Seymour Digital Media and the lead SEO and content strategist at KnowHow Marketing Lab. Pip has helped hundreds of medium-sized businesses improve their Google rankings using data-driven SEO methods.',
-                    'Pip specialises in Google Search Console analysis, GA4 reporting, content strategy, and Generative Engine Optimisation (GEO) - the practice of optimising content to be cited by AI systems like ChatGPT and Google AI Overviews.',
+                    'Pip specialises in Google Search Console analysis, GA4 reporting, content strategy, and AI SEO (also called GEO) - the practice of optimising content to be cited by AI systems like ChatGPT and Google AI Overviews.',
                     'Pip\'s approach is always data-first: no guessing, no vanity metrics, no link building. Just clear analysis of what Google is already telling you and a strategy to act on it.',
                   ],
-                  expertise: ['SEO Strategy', 'Google Search Console', 'GA4 Analytics', 'GEO / AI SEO', 'Content Strategy', 'Google Business Profile'],
+                  expertise: ['SEO Strategy', 'Google Search Console', 'GA4 Analytics', 'AI SEO (GEO)', 'Content Strategy', 'Google Business Profile'],
                   company: 'Seymour Digital Media',
                   companyUrl: 'https://seymourdigitalmedia.com/',
                 },

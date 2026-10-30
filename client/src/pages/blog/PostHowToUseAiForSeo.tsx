@@ -48,7 +48,7 @@ export default function PostHowToUseAiForSeo() {
         {
           "@type": "Question",
           "name": "What is AI SEO?",
-          "acceptedAnswer": { "@type": "Answer", "text": "AI SEO is the practice of using artificial intelligence tools, like ChatGPT, Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI to find keyword clusters, write content outlines, analyse competitor pages, and optimise existing content. AI SEO also includes Generative Engine Optimisation (GEO), which is the practice of structuring your content so that AI search engines like ChatGPT and Google AI Overviews will cite it in their answers." }
+          "acceptedAnswer": { "@type": "Answer", "text": "AI SEO is the practice of using artificial intelligence tools, like ChatGPT, Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI to find keyword clusters, write content outlines, analyse competitor pages, and optimise existing content. AI SEO also includes AI SEO (also called GEO), which is the practice of structuring your content so that AI search engines like ChatGPT and Google AI Overviews will cite it in their answers." }
         },
         {
           "@type": "Question",
@@ -67,8 +67,8 @@ export default function PostHowToUseAiForSeo() {
         },
         {
           "@type": "Question",
-          "name": "What is Generative Engine Optimisation (GEO)?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." }
+          "name": "What is AI SEO (also called GEO)?",
+          "acceptedAnswer": { "@type": "Answer", "text": "AI SEO (also called GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. AI SEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." }
         },
         {
           "@type": "Question",
@@ -130,7 +130,7 @@ export default function PostHowToUseAiForSeo() {
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & GEO Lead, KnowHow Marketing Lab</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & AI SEO Lead, KnowHow Marketing Lab</p>
             </div>
           </div>
 
@@ -154,7 +154,7 @@ export default function PostHowToUseAiForSeo() {
               <li><a href="#the-method" className="hover:underline">2. The KnowHow 4-step AI SEO method</a></li>
               <li><a href="#step1" className="hover:underline">3. Step 1: Research, find keyword clusters with AI</a></li>
               <li><a href="#step2" className="hover:underline">4. Step 2: Optimise, use AI to build better content outlines</a></li>
-              <li><a href="#step3" className="hover:underline">5. Step 3: Publish, structure content for AI search engines (GEO)</a></li>
+              <li><a href="#step3" className="hover:underline">5. Step 3: Publish, structure content for AI search engines (AI SEO)</a></li>
               <li><a href="#step4" className="hover:underline">6. Step 4: Measure, use GSC and GA4 to find what's working</a></li>
               <li><a href="#what-ai-cant-do" className="hover:underline">7. What AI cannot do for SEO</a></li>
               <li><a href="#faq" className="hover:underline">8. Frequently asked questions</a></li>
@@ -169,7 +169,7 @@ export default function PostHowToUseAiForSeo() {
             <p>We use this approach on our own site and teach it in our free course. The businesses getting traction are not the ones publishing AI-written content at volume. They are the ones using AI to work faster, then bringing their own knowledge to the table. That is the difference.</p>
 
             <blockquote>
-              <strong>Definition:</strong> AI SEO is the practice of using artificial intelligence tools to speed up keyword research, content planning, and optimisation, combined with Generative Engine Optimisation (GEO), which structures your content so that AI search engines like ChatGPT, Perplexity, and Google AI Overviews will cite it in their answers.
+              <strong>Definition:</strong> AI SEO is the practice of using artificial intelligence tools to speed up keyword research, content planning, and optimisation, combined with AI SEO (also called GEO), which structures your content so that AI search engines like ChatGPT, Perplexity, and Google AI Overviews will cite it in their answers.
             </blockquote>
 
             <h2 id="the-method">The KnowHow 4-Step AI SEO Method</h2>
@@ -180,7 +180,7 @@ export default function PostHowToUseAiForSeo() {
               <ol className="space-y-2 text-slate-700">
                 <li><strong>1. Research</strong>, Use AI to find keyword clusters and content gaps fast</li>
                 <li><strong>2. Optimise</strong>, Use AI to build better content outlines (not full posts)</li>
-                <li><strong>3. Publish</strong>, Structure content for both Google and AI search engines (GEO)</li>
+                <li><strong>3. Publish</strong>, Structure content for both Google and AI search engines (AI SEO)</li>
                 <li><strong>4. Measure</strong>, Use Google Search Console and GA4 to find what's working</li>
               </ol>
             </div>
@@ -201,9 +201,9 @@ export default function PostHowToUseAiForSeo() {
             <p>Then fill in the outline with your own expertise, real examples, and specific data. This is the step where the human work happens. AI gives you the structure; you provide the substance.</p>
             <p>A good AI-assisted outline includes: a clear H1 that matches the primary keyword, a table of contents with jump links (important for both readers and AI search engines), H2 sections that cover the topic thoroughly, and an FAQ section with direct answers to common questions.</p>
 
-            <h2 id="step3">Step 3: Publish, Structure Content for AI Search Engines (GEO)</h2>
-            <p>Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area.</p>
-            <p>The key GEO principles are:</p>
+            <h2 id="step3">Step 3: Publish, Structure Content for AI Search Engines (AI SEO)</h2>
+            <p>AI SEO (also called GEO) is the practice of structuring your content so that AI search engines, ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area.</p>
+            <p>The key AI SEO principles are:</p>
             <ul>
               <li><strong>Answer first, explain second.</strong> Put the direct answer at the top of each section, then expand on it. AI systems pull the first clear answer they find.</li>
               <li><strong>Use branded frameworks.</strong> Named methodologies (like "The KnowHow 4-Step AI SEO Method") are more likely to be cited by AI systems than generic advice.</li>
@@ -211,7 +211,7 @@ export default function PostHowToUseAiForSeo() {
               <li><strong>Use FAQ schema.</strong> Structured FAQ markup helps AI systems understand which questions your content answers.</li>
               <li><strong>Cover the topic thoroughly.</strong> A single long, thorough post outperforms five thin posts on the same topic for AI citation.</li>
             </ul>
-            <p>Our <Link href="/blog/ai-seo-course">AI SEO course post</Link> goes deeper on GEO strategy, including how to get cited by Perplexity specifically.</p>
+            <p>Our <Link href="/blog/ai-seo-course">AI SEO course post</Link> goes deeper on AI SEO strategy, including how to get cited by Perplexity specifically.</p>
 
             <h2 id="step4">Step 4: Measure, Use GSC and GA4 to Find What's Working</h2>
             <p>AI tools are great for creating content, but they cannot tell you whether your content is actually working. That requires real data from Google Search Console and GA4.</p>
@@ -252,11 +252,11 @@ export default function PostHowToUseAiForSeo() {
             <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently Asked Questions</h2>
             <div className="space-y-6">
               {[
-                { q: "What is AI SEO?", a: "AI SEO is the practice of using artificial intelligence tools, like ChatGPT, Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI to find keyword clusters, write content outlines, analyse competitor pages, and optimise existing content. AI SEO also includes Generative Engine Optimisation (GEO), which is the practice of structuring your content so that AI search engines like ChatGPT and Google AI Overviews will cite it in their answers." },
+                { q: "What is AI SEO?", a: "AI SEO is the practice of using artificial intelligence tools, like ChatGPT, Gemini, and Perplexity, to speed up and improve your SEO work. This includes using AI to find keyword clusters, write content outlines, analyse competitor pages, and optimise existing content. AI SEO also includes AI SEO (also called GEO), which is the practice of structuring your content so that AI search engines like ChatGPT and Google AI Overviews will cite it in their answers." },
                 { q: "Can AI write my blog posts for SEO?", a: "AI can help you write blog posts, but it should not write them for you from scratch. AI-generated content that is not reviewed and edited by a human tends to be generic, repetitive, and lacks the specific expertise and real-world examples that Google and AI search engines reward. The best approach is to use AI to create outlines and first drafts, then add your own expertise, data, and examples before publishing." },
                 { q: "What is the best AI tool for SEO in 2026?", a: "The best AI tools for SEO in 2026 are ChatGPT (for keyword research and content outlines), Google Gemini (for Google-specific insights), Perplexity (for understanding how AI search engines answer questions in your topic area), and Google Search Console (for data-driven decisions). No single tool does everything, the KnowHow method uses all four together." },
                 { q: "How long does AI SEO take to work?", a: "AI SEO takes the same amount of time as traditional SEO to show results in Google, typically 3 to 6 months for new content to rank on page 1. However, AI tools can speed up the content creation process significantly. For AI search engines like ChatGPT and Perplexity, citation can happen much faster, sometimes within weeks of publishing thorough, well-structured content." },
-                { q: "What is Generative Engine Optimisation (GEO)?", a: "Generative Engine Optimisation (GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. GEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." },
+                { q: "What is AI SEO (also called GEO)?", a: "AI SEO (also called GEO) is the practice of structuring your content so that AI search engines, like ChatGPT, Perplexity, Google AI Overviews, and Gemini, will cite your website when someone asks a question in your topic area. AI SEO focuses on writing direct, complete answers, using branded frameworks, and covering topics thoroughly so AI systems recognise your content as authoritative." },
                 { q: "Do I need to know coding to use AI for SEO?", a: "No. You do not need any coding skills to use AI for SEO. All of the AI tools used in the KnowHow method, ChatGPT, Gemini, Google Search Console, and GA4, have simple interfaces that anyone can use. The KnowHow free AI SEO course walks you through every tool step by step, with no technical background required." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">

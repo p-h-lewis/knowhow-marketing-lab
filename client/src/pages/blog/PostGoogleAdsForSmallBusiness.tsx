@@ -124,7 +124,7 @@ export default function PostGoogleAdsForSmallBusiness() {
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & GEO Lead, KnowHow Marketing Lab</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & AI SEO Lead, KnowHow Marketing Lab</p>
             </div>
           </div>
 

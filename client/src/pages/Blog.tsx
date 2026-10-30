@@ -36,7 +36,7 @@ const blogPosts = [
   {
     slug: 'ai-seo-course',
     title: 'AI SEO Course, How to Rank on Google and in ChatGPT, Perplexity & Gemini (2026)',
-    excerpt: 'The complete AI SEO course for medium-sized businesses. Learn the KnowHow Data-First AI SEO Method: keyword research, on-page optimisation, Generative Engine Optimisation (GEO), and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.',
+    excerpt: 'The complete AI SEO course for medium-sized businesses. Learn the KnowHow Data-First AI SEO Method: keyword research, on-page optimisation, AI SEO (also called GEO), and how to get cited by ChatGPT, Perplexity, and Google AI Overviews.',
     category: 'SEO',
     author: 'Pip Seymour & Phelan Lewis',
     date: 'March 23, 2026',
@@ -122,7 +122,7 @@ const blogPosts = [
   {
     slug: 'how-to-use-ai-for-seo',
     title: 'How to Use AI for SEO: The KnowHow Method (2026)',
-    excerpt: 'AI tools can speed up SEO, but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimisation, and GEO, without losing the human expertise that makes content rank.',
+    excerpt: 'AI tools can speed up SEO, but only if you use them in the right order. This guide covers the KnowHow AI SEO method: how to use AI for keyword research, content briefs, on-page optimisation, and AI SEO, without losing the human expertise that makes content rank.',
     category: 'SEO',
     author: 'Pip Seymour',
     date: 'April 7, 2026',
@@ -407,8 +407,8 @@ const pillarFaqs = [
     a: 'For most medium-sized businesses, you can expect to see meaningful improvements in 3 to 6 months with consistent effort. Some quick wins - like fixing technical issues or optimising existing pages - can show results in weeks. New content targeting low-competition keywords can rank in 1 to 3 months.',
   },
   {
-    q: 'What is Generative Engine Optimisation (GEO)?',
-    a: 'GEO is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
+    q: 'What is AI SEO (also called GEO)?',
+    a: 'AI SEO (also called GEO) is the practice of optimising your content to appear in AI-generated answers from tools like ChatGPT, Google AI Overviews, and Perplexity. The key is creating thorough, well-structured content that answers questions completely - the same content that ranks well in traditional SEO also tends to get cited by AI systems.',
   },
 ];
 
@@ -558,7 +558,7 @@ export default function Blog() {
                         <li><a href="#ga4-for-seo" className="hover:underline">Step 2: GA4 for SEO decisions</a></li>
                         <li><a href="#keyword-research" className="hover:underline">Step 3: Keyword research with real data</a></li>
                         <li><a href="#on-page-optimisation" className="hover:underline">Step 4: On-page optimisation</a></li>
-                        <li><a href="#geo-ai-overviews" className="hover:underline">Step 5: GEO and AI Overviews</a></li>
+                        <li><a href="#geo-ai-overviews" className="hover:underline">Step 5: AI SEO and AI Overviews</a></li>
                         <li><a href="#pillar-faqs" className="hover:underline">Frequently asked questions</a></li>
                       </ul>
                     </nav>
@@ -681,10 +681,10 @@ export default function Blog() {
                     </p>
 
                     <h2 id="geo-ai-overviews" className="text-2xl font-extrabold text-gray-900 mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      Step 5: GEO - Getting Cited in AI Overviews and ChatGPT
+                      Step 5: AI SEO, Getting Cited in AI Overviews and ChatGPT
                     </h2>
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Generative Engine Optimisation (GEO) is the practice of optimising your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
+                      AI SEO (also called GEO) is the practice of optimising your content to appear in AI-generated answers. When someone asks ChatGPT or Google AI Overviews a question about your industry, you want your content to be the source they cite.
                     </p>
                     <p className="text-gray-600 leading-relaxed mb-4">
                       The good news: the same practices that make content rank well in traditional SEO also help it get cited by AI. Thorough coverage, clear structure, specific facts, and authoritative sources all signal to AI systems that your content is trustworthy and useful. For a deep dive, read our{' '}

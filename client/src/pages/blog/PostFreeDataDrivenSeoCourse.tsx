@@ -125,7 +125,7 @@ export default function PostFreeDataDrivenSeoCourse() {
           <div className="flex items-center gap-3 mb-8 pb-8 border-b border-gray-100">
             <div>
               <p className="text-sm font-bold text-gray-800" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Pip Seymour</p>
-              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & GEO Lead, KnowHow Marketing Lab</p>
+              <p className="text-xs text-gray-500" style={{ fontFamily: 'DM Sans, sans-serif' }}>SEO & AI SEO Lead, KnowHow Marketing Lab</p>
             </div>
           </div>
 
@@ -200,7 +200,7 @@ export default function PostFreeDataDrivenSeoCourse() {
             <p>The free course is a five-day start. {FREE_COURSE_NOT_INCLUDED} <Link href="/pricing">The Lab</Link> adds:</p>
             <ul>
               <li>A live session every Tuesday, 12 to 1 pm Pacific, with Pip and Phelan: teaching or a tip, then Q&A and live audits</li>
-              <li>Deeper training on GEO, AI content strategy, Google Ads, and GA4</li>
+              <li>Deeper training on AI SEO, AI content strategy, Google Ads, and GA4</li>
               <li>Direct access to ask questions about your specific website and campaigns</li>
               <li>A community of marketing managers doing the same work</li>
             </ul>

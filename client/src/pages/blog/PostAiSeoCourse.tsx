@@ -39,8 +39,8 @@ const faqs = [
     a: 'The most commonly used AI tools for SEO include: ChatGPT (for keyword research, content outlines, title tags, and meta descriptions), Google Gemini (for understanding search intent and Google-specific optimisation), Perplexity (for researching how AI engines answer questions in your niche), Google Search Console (for tracking rankings and identifying opportunities), and GA4 (for understanding how visitors behave on your site). The KnowHow AI SEO course covers all of these.'
   },
   {
-    q: 'What is GEO (Generative Engine Optimisation)?',
-    a: 'GEO stands for Generative Engine Optimisation. It is the practice of optimising your content to be cited, recommended, or summarised by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. GEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. GEO adds specific tactics like creating named frameworks, writing thorough answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
+    q: 'What is AI SEO (GEO)?',
+    a: 'AI SEO, also called GEO (Generative Engine Optimisation), is the practice of optimising your content to be cited, recommended, or summarised by AI-powered search engines like ChatGPT, Perplexity, Google AI Overviews, and Microsoft Copilot. AI SEO builds on traditional SEO, if you rank well on Google, you are already doing many of the right things. AI SEO adds specific tactics like creating named frameworks, writing thorough answers to specific questions, and using structured data so AI engines can extract and attribute your content accurately.'
   },
   {
     q: 'How is KnowHow Marketing Lab different from other SEO courses?',
@@ -127,7 +127,7 @@ export default function PostAiSeoCourse() {
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://knowhowmarketinglab.com/blog/ai-seo-course" },
       "about": [
         { "@type": "Thing", "name": "AI SEO" },
-        { "@type": "Thing", "name": "Generative Engine Optimisation" },
+        { "@type": "Thing", "name": "AI SEO" },
         { "@type": "Thing", "name": "Search Engine Optimisation" }
       ]
     });
@@ -257,7 +257,7 @@ export default function PostAiSeoCourse() {
                 { href: '#what-is-ai-seo', label: 'What is AI SEO?' },
                 { href: '#traditional-vs-ai-seo', label: 'Traditional SEO vs AI SEO, what is different?' },
                 { href: '#the-knowhow-method', label: 'The KnowHow AI SEO Method (7 steps)' },
-                { href: '#geo-explained', label: 'GEO: How to get cited by ChatGPT and Perplexity' },
+                { href: '#geo-explained', label: 'AI SEO: How to get cited by ChatGPT and Perplexity' },
                 { href: '#free-course', label: 'Free AI SEO course, what is included' },
                 { href: '#faq', label: 'Frequently Asked Questions' },
               ].map((item, i) => (
@@ -279,7 +279,7 @@ export default function PostAiSeoCourse() {
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               {[
                 { label: 'AI-assisted SEO', desc: 'Using tools like ChatGPT and Gemini to speed up keyword research, content creation, title tag writing, and data analysis.' },
-                { label: 'Generative Engine Optimisation (GEO)', desc: 'Structuring your content so AI search engines like ChatGPT, Perplexity, and Google AI Overviews cite and recommend it.' },
+                { label: 'AI SEO (also called GEO)', desc: 'Structuring your content so AI search engines like ChatGPT, Perplexity, and Google AI Overviews cite and recommend it.' },
               ].map((item, i) => (
                 <div key={i} className="bg-white border border-slate-200 rounded-xl p-5">
                   <p className="font-semibold text-slate-800 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{item.label}</p>
@@ -360,9 +360,9 @@ export default function PostAiSeoCourse() {
 
           {/* Section 4: GEO */}
           <section id="geo-explained" className="mb-14">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>GEO: How to Get Cited by ChatGPT and Perplexity</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>AI SEO: How to Get Cited by ChatGPT and Perplexity</h2>
             <p className="text-lg text-slate-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Generative Engine Optimisation (GEO) is the part of AI SEO that most guides skip. Here is what actually works, based on how AI engines select and cite sources.
+              Getting cited by AI engines is the part of AI SEO that most guides skip. Here is what actually works, based on how AI engines select and cite sources.
             </p>
             <div className="space-y-4 mb-8">
               {[
@@ -435,9 +435,9 @@ export default function PostAiSeoCourse() {
             <div className="space-y-3">
               {[
                 { term: 'AI SEO', def: 'The umbrella term for using AI tools to improve SEO and optimising content for AI search engines.' },
-                { term: 'GEO (Generative Engine Optimisation)', def: 'Optimising content to be cited or recommended by AI-powered search engines like ChatGPT, Perplexity, and Google AI Overviews.' },
+                { term: 'AI SEO (GEO)', def: 'Optimising content to be cited or recommended by AI-powered search engines like ChatGPT, Perplexity, and Google AI Overviews.' },
                 { term: 'AEO (Answer Engine Optimisation)', def: 'Structuring content to become the direct answer that AI engines give to a specific question.' },
-                { term: 'LLMO (Large Language Model Optimisation)', def: 'The technical side of GEO, optimising content so large language models (LLMs) like GPT-4 and Gemini can accurately extract and attribute it.' },
+                { term: 'LLMO (Large Language Model Optimisation)', def: 'The technical side of AI SEO, optimising content so large language models (LLMs) like GPT-4 and Gemini can accurately extract and attribute it.' },
                 { term: 'AI Overviews', def: 'Google\'s AI-generated summaries that appear at the top of search results for certain queries. Previously called SGE (Search Generative Experience).' },
                 { term: 'Schema markup', def: 'Structured data code added to web pages that tells search engines and AI engines exactly what the content is about.' },
                 { term: 'Topical authority', def: 'The degree to which a website is seen as a thorough, credible source on a specific topic, built through content clusters.' },
