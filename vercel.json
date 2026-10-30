@@ -7,6 +7,56 @@
   ],
   "redirects": [
     {
+      "source": "/mastermind",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/mastermind/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/mastermind-thank-you",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/mastermind-thank-you/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/power-hours",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/power-hours/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you/power-hours",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you/power-hours/",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/podcast",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
       "source": "/seo-course/",
       "destination": "/courses/seo",
       "permanent": true

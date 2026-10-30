@@ -1,7 +1,7 @@
 // KnowHow Marketing Lab - App Root
 // Light theme, conversion-optimized routing
 // Code-split with React.lazy: each page loads only when visited
-// Routes: / | /blog | /blog/:slug | /framework | /pricing | /mastermind | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /podcast | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
+// Routes: / | /blog | /blog/:slug | /framework | /pricing | /resources | /about | /privacy | /terms | /courses/seo | /courses/google-ads | /thank-you | /free-course | /blog/how-to-set-up-google-search-console | /blog/keyword-research-keyword-clusters | /blog/ga4-explained-for-business-owners
 
 import { lazy, Suspense, useState, useEffect } from "react";
 import { Route, Switch, Redirect } from "wouter";
@@ -31,12 +31,9 @@ const Terms = lazy(() => import("./pages/Terms"));
 const CourseSEO = lazy(() => import("./pages/CourseSEO"));
 const CourseGoogleAds = lazy(() => import("./pages/CourseGoogleAds"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
-const Podcast = lazy(() => import("./pages/Podcast"));
 const FreeCourse = lazy(() => import('./pages/FreeCourse'));
 const Community = lazy(() => import('./pages/Community'));
-const PowerHours = lazy(() => import('./pages/PowerHours'));
 const Trial = lazy(() => import('./pages/Trial'));
-const ThankYouPowerHours = lazy(() => import('./pages/ThankYouPowerHours'));
 
 // WordPress migrated blog posts - exact same URLs to preserve SEO rankings
 const PostUrlRedirectsEverythingYouNeedToKnowForSeo = lazy(() => import('./pages/blog/PostUrlRedirectsEverythingYouNeedToKnowForSeo'));
@@ -58,8 +55,6 @@ const PostSEOAnalyticsCoachingForMarketers = lazy(() => import('./pages/blog/Pos
 const PostGoogleAdsCoachingForMarketers = lazy(() => import('./pages/blog/PostGoogleAdsCoachingForMarketers'));
 const PostGoogleAdsCoachingSmallBusiness = lazy(() => import('./pages/blog/PostGoogleAdsCoachingSmallBusiness'));
 const PostSEOCoachingSmallBusiness = lazy(() => import('./pages/blog/PostSEOCoachingSmallBusiness'));
-const Mastermind = lazy(() => import('./pages/Mastermind'));
-const MastermindThankYou = lazy(() => import('./pages/MastermindThankYou'));
 const PostHowToUseAiForSeo = lazy(() => import('./pages/blog/PostHowToUseAiForSeo'));
 const PostGoogleAdsCoaching = lazy(() => import('./pages/blog/PostGoogleAdsCoaching'));
 const PostFreeDataDrivenSeoCourse = lazy(() => import('./pages/blog/PostFreeDataDrivenSeoCourse'));
@@ -94,9 +89,17 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/pricing" component={Pricing} />
-        <Route path="/mastermind" component={Mastermind} />
-        <Route path="/mastermind-thank-you" component={MastermindThankYou} />
-        <Route path="/mastermind-thank-you/" component={MastermindThankYou} />
+        {/* Retired offers: Mastermind, free Power Hours and the podcast (Oct 2026) */}
+        <Route path="/mastermind"><Redirect to="/pricing" /></Route>
+        <Route path="/mastermind/"><Redirect to="/pricing" /></Route>
+        <Route path="/mastermind-thank-you"><Redirect to="/pricing" /></Route>
+        <Route path="/mastermind-thank-you/"><Redirect to="/pricing" /></Route>
+        <Route path="/power-hours"><Redirect to="/pricing" /></Route>
+        <Route path="/power-hours/"><Redirect to="/pricing" /></Route>
+        <Route path="/thank-you/power-hours"><Redirect to="/pricing" /></Route>
+        <Route path="/thank-you/power-hours/"><Redirect to="/pricing" /></Route>
+        <Route path="/podcast"><Redirect to="/blog" /></Route>
+        <Route path="/podcast/"><Redirect to="/blog" /></Route>
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
@@ -161,14 +164,10 @@ function Router() {
         <Route path="/terms" component={Terms} />
         <Route path="/courses/seo" component={CourseSEO} />
         <Route path="/courses/google-ads" component={CourseGoogleAds} />
-        <Route path="/thank-you/power-hours" component={ThankYouPowerHours} />
         <Route path="/thank-you" component={ThankYou} />
-        <Route path="/podcast" component={Podcast} />
         <Route path="/free-course" component={FreeCourse} />
         <Route path="/community" component={Community} />
         <Route path="/community/" component={Community} />
-        <Route path="/power-hours" component={PowerHours} />
-        <Route path="/power-hours/" component={PowerHours} />
         <Route path="/trial" component={Trial} />
         <Route path="/trial/" component={Trial} />
 
