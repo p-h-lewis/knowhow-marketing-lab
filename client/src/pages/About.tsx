@@ -40,20 +40,6 @@ export default function About() {
               "name": "Seymour Digital Media",
               "description": "The agency behind KnowHow Marketing Lab. 30+ years of combined digital marketing experience.",
               "url": "https://seymourdigitalmedia.com",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "79",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "review": [
-                { "@type": "Review", "author": { "@type": "Person", "name": "Rysa Koch" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "They have had a serious impact on our ability to get our therapists all full and further expand our reach within the community." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Robert Trasolini" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "We instantly saw an increase in traffic on all our sites. Their attention to detail has been fantastic." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Jaime Hall" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Pip was absolutely amazing - super knowledgeable and always willing to go the extra mile." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Chloe Dertinger" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Pip and Phelan are incredibly knowledgeable on all things Google Business and Google Search Console." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Jason McCormick" }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Our goals have been met, monthly budgets have been on point and we have seen growth in multiple service areas." }
-              ],
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
                 "https://seymourdigitalmedia.com/"
@@ -344,7 +330,7 @@ export default function About() {
             <div className="text-center mb-10">
               <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What Clients Say</span>
               <h2 id="reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                5.0 Stars &middot; 79 Google Reviews
+                Google Reviews of Our Agency
               </h2>
               <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>, the agency behind KnowHow Marketing Lab
@@ -375,7 +361,7 @@ export default function About() {
               ))}
             </div>
             <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all our reviews on Google &rarr;</a>
             </p>
           </div>
         </section>

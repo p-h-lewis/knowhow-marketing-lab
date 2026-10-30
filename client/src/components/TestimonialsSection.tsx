@@ -1,6 +1,6 @@
 // KnowHow Marketing Lab - Testimonials Section
 // Video testimonials (YouTube embeds) + text quotes from real students
-// Schema: Review, AggregateRating
+// Schema: none (self-serving review markup removed)
 // Internal links: → /pricing, → /courses/seo
 
 import { useState } from 'react';
@@ -90,44 +90,7 @@ export default function TestimonialsSection() {
       id="testimonials"
       className="py-14 md:py-20 bg-gray-50 border-t border-gray-100"
       aria-labelledby="testimonials-heading"
-      itemScope
-      itemType="https://schema.org/ItemList"
     >
-      {/* Aggregate Rating schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "KnowHow Marketing Lab AI + SEO Course",
-            "url": "https://knowhowmarketinglab.com/",
-            "provider": {
-              "@type": "Organization",
-              "name": "KnowHow Marketing Lab",
-              "url": "https://knowhowmarketinglab.com"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "79",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "review": textTestimonials.map(t => ({
-              "@type": "Review",
-              "author": { "@type": "Person", "name": t.name },
-              "reviewBody": t.quote,
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": t.rating,
-                "bestRating": "5"
-              }
-            }))
-          })
-        }}
-      />
-
       <div className="container">
         {/* Header */}
         <div className="text-center mb-14">
@@ -145,7 +108,7 @@ export default function TestimonialsSection() {
             What Our Clients Say
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-            Business owners and marketing professionals across Canada, in their own words. Based on 79 Google reviews.
+            Business owners and marketing professionals across Canada, in their own words.
           </p>
         </div>
 
@@ -198,15 +161,11 @@ export default function TestimonialsSection() {
               key={t.name}
               className="card-base p-6 flex flex-col gap-4"
               aria-label={`Testimonial from ${t.name}, ${t.role}`}
-              itemScope
-              itemType="https://schema.org/Review"
-              itemProp="item"
             >
               <StarRating count={t.rating} />
               <blockquote
                 className="text-gray-700 text-sm leading-relaxed flex-1"
                 style={{ fontFamily: 'DM Sans, sans-serif' }}
-                itemProp="reviewBody"
               >
                 "{t.quote}"
               </blockquote>
@@ -222,7 +181,6 @@ export default function TestimonialsSection() {
                   <p
                     className="text-sm font-bold text-gray-900"
                     style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                    itemProp="author"
                   >
                     {t.name}
                   </p>

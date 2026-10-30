@@ -242,7 +242,7 @@ export default function Pricing() {
             <div className="text-center mb-10">
               <span className="text-xs font-bold text-[#E98C28] uppercase tracking-widest" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Why People Trust Us</span>
               <h2 id="pricing-reviews-heading" className="text-3xl font-extrabold text-white mt-2 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                5.0 Stars &middot; 79 Google Reviews
+                Google Reviews of Our Agency
               </h2>
               <p className="text-gray-400 text-sm" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 Reviews of <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>, the agency behind KnowHow Marketing Lab
@@ -273,7 +273,7 @@ export default function Pricing() {
               ))}
             </div>
             <p className="text-center text-gray-500 text-xs mt-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all 79 reviews on Google &rarr;</a>
+              <a href="https://www.google.com/search?q=seymour+digital+media#lrd=0x548f13328d738a05:0xc0375cb879d3f04b,1,,,," target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">See all our reviews on Google &rarr;</a>
             </p>
           </div>
         </section>
