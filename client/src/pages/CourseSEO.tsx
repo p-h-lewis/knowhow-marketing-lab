@@ -10,24 +10,25 @@ import { Link } from 'wouter';
 import { useState } from 'react';
 import { useSEO } from "@/hooks/useSEO";
 import { FREE_COURSE_URL, LAB_TRIAL_URL as COMMUNITY_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY, FREE_COURSE_DAYS } from '@/lib/freeCourse';
 
 
-const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages. Learn search intent, SERPs, and how to use AI tools to understand what your audience is actually searching for.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds - before you write a single word.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Set up Google Search Console and Google Analytics 4 - the two free tools that show you exactly what is happening on your website. Plus AI tools to help you interpret the data faster.', aiTip: 'Ask AI to explain your GA4 and GSC reports in plain language - no data analyst required.' },
-  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using Google Keyword Planner. Learn how to use AI to expand your keyword list and spot content gaps your competitors miss.', aiTip: 'Use AI to generate 50 keyword variations from one seed term - then validate them in Keyword Planner.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags, meta descriptions, and internal links that help Google understand your site. Use AI to speed up on-page optimisation without losing your brand voice.', aiTip: 'Use AI to draft title tags and meta descriptions at scale - then edit for brand voice in minutes.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results. Learn how AI-powered search is changing local visibility and what to do about it.', aiTip: 'AI Overviews and Google AI now pull from your Business Profile - learn exactly how to optimise for both.' },
-];
+// The five days of the free course, from @/lib/freeCourse (shared everywhere).
+const modules: { num: string; title: string; desc: string; aiTip: string }[] = FREE_COURSE_DAYS.map(d => ({
+  num: `0${d.day}`,
+  title: `Day ${d.day}: ${d.title}`,
+  desc: '',
+  aiTip: '',
+}));
 
 const faqs = [
-  { q: 'Is this a good intro to SEO for beginners?', a: 'Yes - this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. Module 1 starts with the basics and each module builds on the last, so you go from zero to a working SEO strategy by Module 5.' },
-  { q: 'Is this AI + SEO course free to access?', a: 'Yes - no credit card required. You get all 5 modules, all the video lessons, and access to the course platform at no cost.' },
+  { q: 'Is this a good intro to SEO for beginners?', a: `Yes - this course is designed as a complete intro to SEO for business owners and marketing teams. You do not need any prior experience. ${FREE_COURSE_SUMMARY}` },
+  { q: 'Is this AI + SEO course free to access?', a: `Yes - no credit card required. ${FREE_COURSE_SUMMARY}` },
   { q: 'Who is this course for?', a: 'This course is built for marketing teams and business owners at medium-sized businesses. If you want to get more traffic from Google without guessing, this is for you.' },
-  { q: 'How long does the course take?', a: 'Most people finish the core 5 modules in 2 to 4 weeks, depending on how much time they have. You can go at your own pace - there is no deadline.' },
+  { q: 'How long does the course take?', a: `${FREE_COURSE_SUMMARY} You can go at your own pace, there is no deadline.` },
   { q: 'Do I need any technical skills?', a: 'No. We teach everything from scratch. If you can use Google, you can take this course.' },
-  { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The AI + SEO course gives you the full SEO foundation. The Lab ($29 CAD/mo) adds a live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
-  { q: 'Does this course cover AI and generative search?', a: 'Yes. Module 8 covers content strategy for AI-driven search, including how to structure your content to appear in AI Overviews and be cited by large language models (LLMs).' },
+  { q: 'What is the difference between the AI + SEO course and The Lab?', a: 'The free course is a five-day start. Live sessions, site reviews and the full SEO course and class library are in The Lab. The Lab ($29 CAD/mo) adds a live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the AI marketing course, private community access, and all recorded session replays. See the full comparison on our pricing page.' },
+  { q: 'Does this course cover AI and generative search?', a: 'Yes. Each day comes with an AI prompt to help, and Day 4 covers how you show up on Google. Deeper AI SEO training is in The Lab.' },
   { q: 'How does AI affect SEO in 2026?', a: 'AI has changed SEO in three big ways. First, Google now shows AI Overviews at the top of search results, which means your content needs to be structured so AI can summarise it accurately. Second, people are searching directly in ChatGPT, Perplexity, and Gemini instead of Google, so your site needs to be cited by those systems too. Third, AI tools like ChatGPT and Gemini can now help you do keyword research, write title tags, and optimise content 10x faster. This course covers all three shifts.' },
   { q: 'What is Generative Engine Optimisation (GEO)?', a: 'Generative Engine Optimisation (GEO) is the practice of making your content easy for AI search engines like ChatGPT, Perplexity, and Google Gemini to find, understand, and cite. It includes using structured data (schema markup), writing complete answers to specific questions, creating named frameworks, and building topical authority on a subject. GEO is covered in depth in this course.' },
   { q: 'Will AI replace SEO?', a: 'No, but it is changing it fast. AI tools are making SEO faster and more accessible, while AI search engines are creating new ways for people to find content. Businesses that learn to optimise for both traditional search and AI search will have a significant advantage. This course teaches you both.' },
@@ -35,8 +36,8 @@ const faqs = [
 
 export default function CourseSEO() {
   useSEO({
-    title: "Free Data-Driven AI SEO Course & Skills Accelerator | KnowHow Marketing Lab",
-    description: "Free data-driven AI + SEO skills accelerator for business owners and marketing teams. 5 modules: keyword research, on-page SEO, Google Search Console, GA4, and ranking in AI search engines like ChatGPT and Perplexity.",
+    title: "SEO Starter: Free 5-Day SEO Course | KnowHow Marketing Lab",
+    description: "A free 5-day start to SEO for business owners who want to do their own. Each day is a few short videos (about 72 minutes in total) and one thing to do on your own website or Business Profile, with an AI prompt to help. Free, no credit card.",
     canonical: "https://knowhowmarketinglab.com/courses/seo",
     ogType: "course",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/og-seo-course_37267649.png",
@@ -54,7 +55,7 @@ export default function CourseSEO() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "AI + SEO Course for Medium-Sized Businesses",
-            "description": "A 5-module AI + SEO course taught by Pip Seymour and Phelan Lewis. Learn keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile - using real data and AI tools.",
+            "description": FREE_COURSE_SUMMARY,
             "url": "https://knowhowmarketinglab.com/courses/seo",
             "provider": {
               "@type": "EducationalOrganization",
@@ -82,12 +83,6 @@ export default function CourseSEO() {
                 { "@type": "Person", "name": "Phelan Lewis", "url": "https://knowhowmarketinglab.com/about", "jobTitle": "Google Tag Manager & Analytics Specialist", "description": "Phelan Lewis is a Google Tag Manager and analytics specialist helping medium-sized businesses measure what matters." }
               ]
             },
-            "syllabusSections": modules.map((m, i) => ({
-              "@type": "Syllabus",
-              "name": `Module ${m.num}: ${m.title}`,
-              "description": m.desc,
-              "position": i + 1
-            })),
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5.0",
@@ -138,14 +133,14 @@ export default function CourseSEO() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-xs font-bold text-[#E98C28] uppercase tracking-widest mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  AI + SEO Course · SEO Accelerator · 5 Modules · Self-Paced
+                  SEO Starter · Free · 5 Days
                 </span>
                 <h1 id="seo-course-heading" className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Data-Driven<br />
-                  <span className="text-[#E98C28]">AI + SEO Course</span>
+                  SEO Starter:<br />
+                  <span className="text-[#E98C28]">5 Days, One Thing at a Time</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Learn how to get your business found on Google - using real data, not guesswork. This AI + SEO course is a structured SEO accelerator that takes you from zero to a working data-driven strategy. Covers keyword research, Google Search Console, GA4, on-page SEO, and content strategy for AI-driven search.
+                  {FREE_COURSE_SUMMARY}
                 </p>
                 <p className="text-base text-gray-500 mb-8" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                   Taught by <strong>Pip Seymour</strong> and <strong>Phelan Lewis</strong> - two Canadian agency owners with 30+ years of combined hands-on experience at <a href="https://seymourdigitalmedia.com" target="_blank" rel="noopener noreferrer" className="text-[#318599] hover:underline">Seymour Digital Media</a>.
@@ -203,15 +198,15 @@ export default function CourseSEO() {
                   Most SEO courses give you theory. This AI + SEO accelerator gives you a repeatable, AI-powered system - the same one we use at our agency for medium-sized businesses across Canada.
                 </p>
                 <p className="text-white/80 text-base leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  In 5 structured modules, you'll go from setting up your tools to publishing content that ranks. AI is built into every step - use ChatGPT, Gemini, and Manus to do keyword research, write title tags, and optimise your content in a fraction of the time.
+                  Each day comes with an AI prompt, so you can use tools like ChatGPT or Gemini to help with the day's task.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: '', title: 'Accelerated Learning', desc: 'Structured modules designed to build on each other - no filler, no fluff.' },
-                  { icon: '', title: 'Data-First Method', desc: 'Every decision backed by real data from GA4, GSC, and keyword research.' },
-                  { icon: '', title: 'AI at Every Step', desc: 'Use ChatGPT, Gemini, and Manus to do keyword research, write content, and optimise - faster than ever.' },
-                  { icon: '', title: 'Measurable Results', desc: 'Know exactly what to track and how to prove your AI + SEO strategy is working.' },
+                  { icon: '', title: 'One Thing a Day', desc: 'Five short days. Each one ends with one thing to do on your own website or Business Profile.' },
+                  { icon: '', title: 'Data-First Method', desc: 'The same data-first approach we use with our agency clients, in plain English.' },
+                  { icon: '', title: 'AI Prompt Each Day', desc: 'Each day has an AI prompt to help you do the task.' },
+                  { icon: '', title: 'A Clear Next Step', desc: 'Day 5 looks at your competition and what to do next.' },
                 ].map(item => (
                   <div key={item.title} className="bg-white/10 rounded-xl p-4">
                     <div className="text-2xl mb-2">{item.icon}</div>
@@ -233,7 +228,7 @@ export default function CourseSEO() {
                 What You Will Learn
               </h2>
               <p className="text-gray-500 mt-3 max-w-xl mx-auto" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                Five modules that take you from "I don't know where to start" to running a real, data-driven AI + SEO strategy for your business.
+                {FREE_COURSE_SUMMARY}
               </p>
             </div>
 
@@ -252,11 +247,13 @@ export default function CourseSEO() {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-bold text-gray-900 text-sm mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }} itemProp="name">{m.title}</h3>
-                    <p className="text-xs text-gray-500 leading-relaxed mb-2.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>
+                    {m.desc && <p className="text-xs text-gray-500 leading-relaxed mb-2.5" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>}
+                    {m.aiTip && (
                     <div className="flex items-start gap-1.5 bg-amber-50 rounded-lg px-2.5 py-1.5">
                       
                       <p className="text-xs text-amber-800 leading-snug" style={{ fontFamily: 'DM Sans, sans-serif' }}><strong>AI tip:</strong> {m.aiTip}</p>
                     </div>
+                    )}
                   </div>
                 </article>
               ))}

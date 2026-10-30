@@ -60,7 +60,7 @@ export default function Navbar() {
     { label: 'SEO Coaching', href: '/blog/seo-and-analytics-coaching-for-marketers', indent: true },
     { label: 'Google Ads Coaching', href: '/blog/google-ads-coaching-for-marketers', indent: true },
     { label: 'Community', href: '/community' },
-    { label: 'AI + SEO Course', href: '/courses/seo' },
+    { label: 'SEO Starter (Free)', href: '/courses/seo' },
     { label: 'Google Ads Course', href: '/courses/google-ads' },
     { label: 'About', href: '/about' },
     { label: 'Resources', href: '/resources' },

@@ -4,6 +4,7 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 const POST_CONTENT = `<h2 id="ga-4-set-up">GA 4 Set-Up</h2>
 
@@ -952,7 +953,7 @@ export default function PostGa4SetUpGuide() {
           {/* CTA - internal link to AI + SEO course */}
           <div className="mt-16 bg-gradient-to-br from-[#318599] to-[#4F37D8] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to put this into practice?</h2>
-            <p className="text-white/80 mb-6">Take the free AI + SEO Accelerator course - 5 modules, 60+ video lessons, weekly live Q&amp;A. No credit card needed.</p>
+            <p className="text-white/80 mb-6">Take the free AI + SEO course. {FREE_COURSE_SUMMARY} No credit card needed.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/courses/seo" className="inline-block bg-white text-[#318599] font-bold px-8 py-3 rounded-full hover:bg-slate-100 transition-colors">Start the Free AI + SEO Course →</a>
               <a href="/framework" className="inline-block bg-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition-colors">See the Data-First AI SEO Method</a>

@@ -190,7 +190,7 @@ const posts: Record<string, {
       },
     ],
     relatedLinks: [
-      { label: "AI + SEO Course - Includes GA4 Module", href: FREE_COURSE_URL, internal: false },
+      { label: "SEO Starter, Free 5-Day Course", href: FREE_COURSE_URL, internal: false },
       { label: "The Data-First AI SEO Method", href: "/framework", internal: true },
       { label: "Video Library - Analytics Lessons", href: "https://www.youtube.com/@KnowHowMarketingLab", internal: false },
       { label: "Resources - Official Google Tools", href: "/resources", internal: true },

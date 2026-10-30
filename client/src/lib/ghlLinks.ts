@@ -1,28 +1,23 @@
-// GoHighLevel links and ids for KnowHow Marketing Lab.
+// GoHighLevel links and ids for KnowHow Marketing Lab (KnowHow sub-account).
 //
-// Every link to the GHL member portal, offer checkout or lead form on the
-// site reads from this file. Do not hardcode GHL URLs or ids anywhere else.
+// Every link to the GHL member portal or offer pages on the site reads from
+// this file. Do not hardcode GHL URLs or ids anywhere else.
 //
-// The old account (location Bk3wb95yNZ5UAEn0KG00, *.app.clientclub.net,
-// form l71tHQPMO7st6TFSPmo5) has been removed from the code. The values
-// below are placeholders and MUST be set from the KnowHow sub-account
-// before deploy. `pnpm check:ghl` (or grep for TODO_SET_BY_MAIN) finds
-// any left unset.
+// The old account (location Bk3wb95yNZ5UAEn0KG00 on
+// bk3wb95ynz5uaen0kg00.app.clientclub.net) is no longer used.
+// There is no GHL form for the free course: the free offer page itself
+// collects name and email, so the site only links to FREE_COURSE_URL.
 
 /** Checkout / sign-up page for The Lab 14-day free trial. */
-export const LAB_TRIAL_URL: string = 'TODO_SET_BY_MAIN';
+export const LAB_TRIAL_URL: string =
+  'https://oakjrocjtthk4gjdkurp.app.clientclub.net/courses/offers/916a6984-8954-4eca-a554-29e54234a9f1';
 
-/** Sign-up page (or offer) for the free AI + SEO course. */
-export const FREE_COURSE_URL: string = 'TODO_SET_BY_MAIN';
+/** Sign-up page for the free course (SEO Starter). */
+export const FREE_COURSE_URL: string =
+  'https://oakjrocjtthk4gjdkurp.app.clientclub.net/courses/offers/a7df3e9b-d009-4184-a1d7-8648c86db6c5';
 
 /** Member portal log-in page. */
-export const MEMBER_LOGIN_URL: string = 'TODO_SET_BY_MAIN';
+export const MEMBER_LOGIN_URL: string = 'https://oakjrocjtthk4gjdkurp.app.clientclub.net/login';
 
-/** KnowHow GHL sub-account location id, sent with form submissions. */
-export const GHL_LOCATION_ID: string = 'TODO_SET_BY_MAIN';
-
-/** GHL form id for the free course lead form on the home page. */
-export const FREE_COURSE_FORM_ID: string = 'TODO_SET_BY_MAIN';
-
-/** True when a value above has not been set yet. */
-export const isUnset = (value: string): boolean => value === 'TODO_SET_BY_MAIN';
+/** KnowHow GHL sub-account location id. */
+export const GHL_LOCATION_ID: string = 'oAKjrocjTThK4GJDKuRP';

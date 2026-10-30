@@ -12,6 +12,7 @@ import Footer from '@/components/Footer';
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 const categories = ['All', 'SEO', 'Google Ads', 'Coaching', 'AI Marketing', 'Analytics'];
 
@@ -715,7 +716,7 @@ export default function Blog() {
                         Want to learn the full Data-First AI SEO Method?
                       </p>
                       <p className="text-gray-500 text-sm mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                        The free KnowHow Marketing Lab SEO course covers all 5 modules - including Google Search Console, GA4, keyword research, and on-page optimisation.
+                        {FREE_COURSE_SUMMARY}
                       </p>
                       <div className="flex flex-col sm:flex-row gap-3 justify-center">
                         <a href="/courses/seo" className="btn-primary text-sm py-2.5 px-5">

@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
+import { FREE_COURSE_NAME, FREE_COURSE_SUMMARY, FREE_COURSE_DAYS, FREE_COURSE_NOT_INCLUDED } from '@/lib/freeCourse';
 
 export default function PostFreeDataDrivenSeoCourse() {
   useEffect(() => {
@@ -46,7 +47,7 @@ export default function PostFreeDataDrivenSeoCourse() {
         {
           "@type": "Question",
           "name": "Is the KnowHow SEO course really free?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules at no cost. The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial, which adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training, and direct access to Pip and Phelan." }
+          "acceptedAnswer": { "@type": "Answer", "text": `Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. ${FREE_COURSE_SUMMARY} The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial, which adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training, and direct access to Pip and Phelan.` }
         },
         {
           "@type": "Question",
@@ -56,17 +57,17 @@ export default function PostFreeDataDrivenSeoCourse() {
         {
           "@type": "Question",
           "name": "What do I need to take the course?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You need a website with Google Search Console and Google Analytics 4 set up. If you don't have these yet, the course starts with a module on how to set them up. You also need a Google account. No coding skills or technical background is required." }
+          "acceptedAnswer": { "@type": "Answer", "text": "You need your own website or Google Business Profile. You also need a Google account. No coding skills or technical background is required." }
         },
         {
           "@type": "Question",
           "name": "How long does the free SEO course take?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The 5 modules take approximately 3 to 4 hours to complete at your own pace. Most students start seeing results in Google Search Console within 4 to 8 weeks of completing the course and implementing the strategies." }
+          "acceptedAnswer": { "@type": "Answer", "text": FREE_COURSE_SUMMARY }
         },
         {
           "@type": "Question",
           "name": "What is the difference between the free course and The Lab?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics like AI SEO, AI content strategy, and Google Ads, plus direct access to Pip and Phelan for questions about your specific website and campaigns." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The free course is a five-day start to SEO. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics like AI SEO, AI content strategy, and Google Ads, plus direct access to Pip and Phelan for questions about your specific website and campaigns." }
         },
         {
           "@type": "Question",
@@ -170,24 +171,18 @@ export default function PostFreeDataDrivenSeoCourse() {
             </ul>
 
             <h2 id="what-you-get">What the KnowHow Free Course Covers</h2>
-            <p>The free <Link href="/courses/seo">KnowHow AI SEO course</Link> covers 5 modules:</p>
+            <p>The free course, <Link href="/courses/seo">{FREE_COURSE_NAME}</Link>, runs over five days. {FREE_COURSE_SUMMARY}</p>
 
             <div className="not-prose overflow-x-auto my-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="bg-[#f0f9fb]">
-                    <th className="text-left p-3 font-bold text-gray-900 border border-gray-200" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Module</th>
+                    <th className="text-left p-3 font-bold text-gray-900 border border-gray-200" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Day</th>
                     <th className="text-left p-3 font-bold text-gray-900 border border-gray-200" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>What You Learn</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    ["Module 1", "Google Search Console setup and the 5 reports that matter"],
-                    ["Module 2", "Keyword clusters, how to find them and how to use them"],
-                    ["Module 3", "On-page SEO, title tags, meta descriptions, H1s, and internal linking"],
-                    ["Module 4", "GEO, how to structure content so ChatGPT, Perplexity, and Google AI Overviews cite you"],
-                    ["Module 5", "Measuring results, GA4 basics and how to know if your SEO is working"]
-                  ].map(([mod, desc]) => (
+                  {FREE_COURSE_DAYS.map(d => [`Day ${d.day}`, d.title]).map(([mod, desc]) => (
                     <tr key={mod} className="border-b border-gray-100">
                       <td className="p-3 font-bold text-[#318599] border border-gray-200" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{mod}</td>
                       <td className="p-3 text-gray-700 border border-gray-200">{desc}</td>
@@ -198,11 +193,11 @@ export default function PostFreeDataDrivenSeoCourse() {
             </div>
 
             <h2 id="who-its-for">Who It Is For</h2>
-            <p>This course is for marketing managers and business owners who are responsible for their company’s SEO but don’t have a dedicated SEO team. You do not need a technical background. You do need a website with Google Search Console set up, or the willingness to set it up in Module 1, which takes about 15 minutes.</p>
+            <p>This course is for marketing managers and business owners who are responsible for their company’s SEO but don’t have a dedicated SEO team. You do not need a technical background. You do need a website with Google Search Console set up, or the willingness to set it up.</p>
             <p>The course is <em>not</em> designed for complete beginners who have never heard of SEO, or for enterprise marketing teams with dedicated SEO specialists. It is for the person in the middle, experienced enough to know SEO matters, but not sure how to make it work for their specific business.</p>
 
             <h2 id="free-vs-lab">Free Course vs The Lab</h2>
-            <p>The free course gives you the full data-driven SEO method. <Link href="/pricing">The Lab</Link> ($29 CAD/month) adds:</p>
+            <p>The free course is a five-day start. {FREE_COURSE_NOT_INCLUDED} <Link href="/pricing">The Lab</Link> adds:</p>
             <ul>
               <li>A live session every Tuesday, 12 to 1 pm Pacific, with Pip and Phelan: teaching or a tip, then Q&A and live audits</li>
               <li>Deeper training on GEO, AI content strategy, Google Ads, and GA4</li>
@@ -215,7 +210,7 @@ export default function PostFreeDataDrivenSeoCourse() {
           <div className="bg-[#f0f9fb] border border-[#c8e8ef] rounded-2xl p-8 my-12 text-center">
             <p className="text-xs font-bold text-[#318599] uppercase tracking-widest mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Free, No Credit Card Required</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the free data-driven SEO course today</h3>
-            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>5 modules, all free.</p>
+            <p className="text-gray-600 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>{FREE_COURSE_SUMMARY}</p>
             <Link href="/courses/seo">
               <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-3 rounded-xl transition-colors" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                 Enrol for Free
@@ -227,11 +222,11 @@ export default function PostFreeDataDrivenSeoCourse() {
             <h2 className="text-2xl font-extrabold text-gray-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Frequently Asked Questions</h2>
             <div className="space-y-6">
               {[
-                { q: "Is the KnowHow SEO course really free?", a: "Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. You get access to all 5 modules at no cost. The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial." },
+                { q: "Is the KnowHow SEO course really free?", a: `Yes. The KnowHow data-driven AI SEO course is completely free. There is no credit card required and no trial period. ${FREE_COURSE_SUMMARY} The paid upgrade is The Lab at $29 CAD per month, with a 14-day free trial.` },
                 { q: "What is data-driven SEO?", a: "Data-driven SEO is the practice of making every SEO decision based on real data from Google Search Console, GA4, and keyword research tools, rather than guessing or following generic best practices. It starts with what Google is already showing you, then builds a strategy around those signals." },
-                { q: "What do I need to take the course?", a: "You need a website with Google Search Console and Google Analytics 4 set up. If you don't have these yet, the course starts with a module on how to set them up. No coding skills or technical background is required." },
-                { q: "How long does the free SEO course take?", a: "The 5 modules take approximately 3 to 4 hours to complete at your own pace. Most students start seeing results in Google Search Console within 4 to 8 weeks of completing the course and implementing the strategies." },
-                { q: "What is the difference between the free course and The Lab?", a: "The free course covers the core data-driven SEO method across 5 modules. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics, and direct access to Pip and Phelan for questions about your specific website." },
+                { q: "What do I need to take the course?", a: "You need your own website or Google Business Profile. No coding skills or technical background is required." },
+                { q: "How long does the free SEO course take?", a: FREE_COURSE_SUMMARY },
+                { q: "What is the difference between the free course and The Lab?", a: "The free course is a five-day start to SEO. The Lab ($29 CAD/month) adds a live session every Tuesday, 12 to 1 pm Pacific, deeper training on advanced topics, and direct access to Pip and Phelan for questions about your specific website." },
                 { q: "Will the course work for my industry?", a: "Yes. The data-driven SEO method works for any industry because it is based on your own Google Search Console data, not generic keyword lists. Whether you are in professional services, e-commerce, SaaS, or local business, the process is the same." }
               ].map(({ q, a }) => (
                 <div key={q} className="border border-gray-100 rounded-xl p-6">

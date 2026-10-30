@@ -2,9 +2,9 @@
 
 const courses = [
   {
-    title: 'Complete AI + SEO Course',
-    subtitle: 'Keyword research, on-page SEO, GSC & GA4 - built for business owners.',
-    level: 'Beginner → Advanced',
+    title: FREE_COURSE_NAME,
+    subtitle: FREE_COURSE_SUMMARY,
+    level: 'Beginner',
     cta: 'Enroll Free →',
     href: FREE_COURSE_URL,
     free: true,
@@ -30,6 +30,7 @@ const courses = [
   },
 ];
 import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_NAME, FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 export default function CoursesSection() {
   return (

@@ -9,9 +9,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
 import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 const communityFeatures = [
-  { label: 'Complete SEO Course (5 modules)', included: true },
+  { label: 'Free AI + SEO course', included: true },
   { label: '60+ free YouTube video lessons', included: true },
   { label: 'Google Search Console training', included: true },
   { label: 'Google Analytics 4 (GA4) training', included: true },
@@ -92,7 +93,7 @@ export default function Pricing() {
                 "name": "AI + SEO Course",
                 "price": "0",
                 "priceCurrency": "CAD",
-                "description": "Free access to the complete data-driven SEO course and 60+ YouTube video lessons.",
+                "description": FREE_COURSE_SUMMARY,
                 "url": FREE_COURSE_URL
               },
               {

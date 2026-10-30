@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import { Link } from 'wouter';
 import { LAB_TRIAL_URL as COMMUNITY_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY, FREE_COURSE_DAYS } from '@/lib/freeCourse';
 
 
 const faqs = [
@@ -23,11 +24,11 @@ const faqs = [
   },
   {
     q: 'Is the KnowHow AI SEO course free?',
-    a: 'Yes. The foundational AI + SEO course at KnowHow Marketing Lab is completely free. No credit card required. You get 5 modules covering AI-powered keyword research, on-page SEO, Google Search Console, GA4, and Google Business Profile. For a live session every Tuesday and hands-on help with your real campaigns, The Lab membership is $29 CAD/month with a 14-day free trial.'
+    a: `Yes. ${FREE_COURSE_SUMMARY} For a live session every Tuesday and hands-on help with your real campaigns, The Lab membership is $29 CAD/month with a 14-day free trial.`
   },
   {
     q: 'How long does it take to learn AI SEO?',
-    a: 'You can learn the core concepts of AI SEO in 2 to 4 weeks if you dedicate a few hours per week. The KnowHow free course covers the foundations in 5 modules. Applying what you learn and seeing results in Google Search Console typically takes 4 to 12 weeks, depending on how competitive your niche is and how consistently you publish content.'
+    a: 'You can learn the core concepts of AI SEO in 2 to 4 weeks if you dedicate a few hours per week. The KnowHow free course is a five-day start. How long it takes to see changes in Google Search Console varies with your niche and how consistently you publish, and there is no guaranteed timeline.'
   },
   {
     q: 'Do I need to know coding to do AI SEO?',
@@ -398,20 +399,14 @@ export default function PostAiSeoCourse() {
           <section id="free-course" className="mb-14">
             <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>The Free KnowHow AI SEO Course, What Is Included</h2>
             <p className="text-lg text-slate-600 leading-relaxed mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              The <Link href="/courses/seo" className="text-[#318599] hover:underline">KnowHow AI + SEO course</Link> is completely free. No credit card required. It covers the foundations of AI SEO in 5 modules:
+              The <Link href="/courses/seo" className="text-[#318599] hover:underline">KnowHow AI + SEO course</Link> is free. {FREE_COURSE_SUMMARY}
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
-              {[
-                { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks pages. Search intent, SERPs, and AI tools for understanding what your audience searches for.' },
-                { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4, the two free tools that show you exactly what is happening on your website.' },
-                { num: '03', title: 'Keyword Research', desc: 'Find the exact words your customers type using Google Keyword Planner, expanded with AI tools.' },
-                { num: '04', title: 'On-Page SEO Essentials', desc: 'Title tags, meta descriptions, and internal links that help Google and AI engines understand your site.' },
-                { num: '05', title: 'Google Business Profile', desc: 'Optimise for local search and AI Overviews, increasingly important as AI pulls from Business Profiles.' },
-              ].map((m, i) => (
+              {FREE_COURSE_DAYS.map(d => ({ num: `0${d.day}`, title: d.title, desc: '' })).map((m, i) => (
                 <div key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
-                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-wider">Module {m.num}</span>
+                  <span className="text-xs font-bold text-[#E98C28] uppercase tracking-wider">Day {m.num}</span>
                   <h3 className="font-bold text-slate-900 mt-1 mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{m.title}</h3>
-                  <p className="text-sm text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>
+                  {m.desc && <p className="text-sm text-slate-600" style={{ fontFamily: 'DM Sans, sans-serif' }}>{m.desc}</p>}
                 </div>
               ))}
             </div>
@@ -419,7 +414,7 @@ export default function PostAiSeoCourse() {
             {/* CTA box */}
             <div className="bg-slate-900 rounded-2xl p-8 text-center">
               <h3 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Start the Free AI SEO Course</h3>
-              <p className="text-slate-300 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>5 modules. No credit card. Start learning today.</p>
+              <p className="text-slate-300 mb-6" style={{ fontFamily: 'DM Sans, sans-serif' }}>{FREE_COURSE_SUMMARY}</p>
               <Link href="/courses/seo">
                 <button className="bg-[#E98C28] hover:bg-[#d47d20] text-white font-bold px-8 py-4 rounded-xl transition-colors text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                   Access the Free Course →

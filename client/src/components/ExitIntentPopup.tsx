@@ -2,11 +2,12 @@
 // Triggers when user has scrolled 80% of the page and then scrolls back up quickly
 // OR after 60 seconds on page (time-based fallback)
 // Only shows once per session; dismissed state persists in sessionStorage
-// Promotes the free AI + SEO course CTA
+// Promotes The Lab trial, with the free course (SEO Starter) as the secondary CTA
 // Design: Space Grotesk / DM Sans, brand colors
 
 import { useState, useEffect, useCallback } from 'react';
 import { LAB_TRIAL_URL, FREE_COURSE_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SHORT_NAME } from '@/lib/freeCourse';
 
 const SESSION_KEY = 'kml_exit_popup_shown';
 
@@ -182,7 +183,7 @@ export default function ExitIntentPopup() {
               style={{ fontFamily: 'DM Sans, sans-serif' }}
               onClick={close}
             >
-              Try the free AI + SEO course first
+              Try the free course first: {FREE_COURSE_SHORT_NAME}
             </a>
 
             <button

@@ -21,8 +21,10 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 
 ## Main Offers
 
-### Free AI + SEO Course
-- 5 modules covering SEO fundamentals, Google Search Console, GA4, keyword research, on-page SEO, and Google Business Profile
+### Free Course: SEO Starter: 5 Days, One Thing at a Time
+- A free 5-day start to SEO for business owners who want to do their own. Each day is a few short videos (about 72 minutes in total) and one thing to do on your own website or Business Profile, with an AI prompt to help. Free, no credit card.
+- Day 1 How Google works; Day 2 Your Business Profile; Day 3 Fix your key page; Day 4 How you show up on Google; Day 5 Your competition and next step
+- Not included: live sessions, site reviews and the full SEO course and class library are in The Lab
 - Hosted on GoHighLevel
 - No credit card required
 - URL: https://knowhowmarketinglab.com/courses/seo

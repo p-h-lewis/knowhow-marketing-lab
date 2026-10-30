@@ -329,8 +329,8 @@ export default function About() {
                 >
                   Visit Seymour Digital Media ↗
                 </a>
-                <a href="/courses/seo" className="btn-primary" aria-label="Start the AI + SEO course">
-                  Start AI + SEO Course →
+                <a href="/courses/seo" className="btn-primary" aria-label="Start the free course">
+                  Start SEO Starter, Free →
                 </a>
               </div>
             </div>
@@ -387,7 +387,7 @@ export default function About() {
             </h2>
             <div className="grid sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
               {[
-                { label: 'AI + SEO Course', href: '/courses/seo', desc: '5 modules, no credit card' },
+                { label: 'SEO Starter (Free)', href: '/courses/seo', desc: '5 days, no credit card' },
                 { label: 'Video Library', href: 'https://www.youtube.com/@KnowHowMarketingLab', desc: '60+ free lessons' },
                 { label: 'The Lab', href: '/pricing', desc: '$29 CAD/mo membership' },
                 { label: 'Free Resources', href: '/resources', desc: 'Official Google docs' },

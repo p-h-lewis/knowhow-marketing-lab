@@ -75,7 +75,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 list-none p-0 m-0">
               {[
-                { label: 'AI + SEO Course', href: '/courses/seo', internal: true },
+                { label: 'SEO Starter (Free)', href: '/courses/seo', internal: true },
                 { label: 'Video Library', href: 'https://www.youtube.com/@KnowHowMarketingLab', internal: false },
                 { label: 'Blog', href: '/blog', internal: true },
                 { label: 'Our Method', href: '/framework', internal: true },

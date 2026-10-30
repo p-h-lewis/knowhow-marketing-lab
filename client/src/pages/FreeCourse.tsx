@@ -8,19 +8,20 @@
 import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { MEMBER_LOGIN_URL, FREE_COURSE_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY, FREE_COURSE_DAYS } from '@/lib/freeCourse';
 
 
-const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google finds, reads, and ranks web pages - and how AI is changing the rules.', aiTip: 'Use ChatGPT to map search intent for any topic in seconds.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 - the two free tools every business needs.', aiTip: 'Ask AI to explain your GA4 reports in plain language.' },
-  { num: '03', title: 'Keyword Research Basics', desc: 'Find the exact words your customers type into Google using free tools.', aiTip: 'Use AI to generate 50 keyword variations from one seed term.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Title tags, meta descriptions, and internal links that help Google understand your site.', aiTip: 'Use AI to draft title tags and meta descriptions at scale.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your profile so you show up in local search and AI Overviews.', aiTip: 'AI Overviews now pull from your Business Profile - learn how to optimise for both.' },
-];
+// The five days of the free course, from @/lib/freeCourse (shared everywhere).
+const modules: { num: string; title: string; desc: string; aiTip: string }[] = FREE_COURSE_DAYS.map(d => ({
+  num: `0${d.day}`,
+  title: `Day ${d.day}: ${d.title}`,
+  desc: '',
+  aiTip: '',
+}));
 
 const faqs = [
-  { q: 'Is this course really free?', a: 'Yes - completely free. No credit card required. You get all 5 modules and access to the course platform at no cost.' },
-  { q: 'How long does it take?', a: 'Each module is 15-25 minutes. You can complete the full course in a weekend, or work through it at your own pace.' },
+  { q: 'Is this course really free?', a: `Yes, completely free. No credit card required. ${FREE_COURSE_SUMMARY}` },
+  { q: 'How long does it take?', a: FREE_COURSE_SUMMARY },
   { q: 'Who is this course for?', a: 'Marketing teams and business owners at medium-sized businesses who want to get more traffic from Google without guessing or paying for expensive agencies.' },
   { q: 'Do I need any prior SEO knowledge?', a: 'No. The course starts from the basics and builds up. If you know how to use Google, you can do this course.' },
   { q: 'What happens after I complete the course?', a: 'You can join The Lab for $29 CAD/month to get access to the full training library, and a live session every Tuesday, 12 to 1 pm Pacific: teaching or a tip, then Q&A and live audits.' },
@@ -32,7 +33,7 @@ const schema = {
     {
       "@type": "Course",
       "name": "Free AI + SEO Course for Medium-Sized Businesses",
-      "description": "A free 5-module course teaching medium-sized businesses how to use AI and SEO to get found on Google. Covers SEO fundamentals, GA4, keyword research, on-page SEO, and Google Business Profile.",
+      "description": FREE_COURSE_SUMMARY,
       "url": "https://knowhowmarketinglab.com/free-course",
       "provider": {
         "@type": "Organization",
@@ -54,7 +55,6 @@ const schema = {
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online",
-        "courseWorkload": "PT2H30M",
         "inLanguage": "en-CA"
       },
       "educationalLevel": "Beginner to Intermediate",
@@ -86,8 +86,8 @@ const schema = {
 
 export default function FreeCourse() {
   useSEO({
-    title: "Free AI + SEO Course for Medium-Sized Businesses",
-    description: "Learn how to use AI and SEO to get found on Google - free 5-module course by Pip Seymour and Phelan Lewis of Seymour Digital Media. No credit card required.",
+    title: "SEO Starter: Free 5-Day SEO Course",
+    description: "A free 5-day start to SEO for business owners who want to do their own. Each day is a few short videos (about 72 minutes in total) and one thing to do on your own website or Business Profile, with an AI prompt to help. Free, no credit card.",
     canonical: "https://knowhowmarketinglab.com/free-course",
     ogType: "website",
   });
@@ -156,13 +156,13 @@ export default function FreeCourse() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              A free 5-module course for medium-sized businesses. No jargon. No guesswork. Just a clear, data-driven method that actually works - taught by agency owners with 30+ years of combined experience.
+              SEO Starter: 5 Days, One Thing at a Time. No jargon. No guesswork. Taught by agency owners with 30+ years of combined experience.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-sm text-gray-500">
               <span className="flex items-center gap-1.5"><span className="text-green-500"></span> 100% free</span>
               <span className="flex items-center gap-1.5"><span className="text-green-500"></span> No credit card</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> 5 modules · ~2.5 hours</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500"></span> 5 days · about 72 minutes of video</span>
               <span className="flex items-center gap-1.5"><span className="text-green-500"></span> Instant access</span>
             </div>
 
@@ -192,7 +192,7 @@ export default function FreeCourse() {
               What You Will Learn
             </h2>
             <p className="text-gray-500 text-center mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Five practical modules - each with video lessons, a worksheet, and an AI tip you can use immediately.
+              {FREE_COURSE_SUMMARY}
             </p>
             <div className="space-y-4">
               {modules.map((m) => (
@@ -205,11 +205,13 @@ export default function FreeCourse() {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-bold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>{m.title}</h3>
-                    <p className="text-sm text-gray-500 leading-relaxed mb-2.5">{m.desc}</p>
+                    {m.desc && <p className="text-sm text-gray-500 leading-relaxed mb-2.5">{m.desc}</p>}
+                    {m.aiTip && (
                     <div className="flex items-start gap-1.5 bg-amber-50 rounded-lg px-2.5 py-1.5">
                       
                       <p className="text-xs text-amber-800 leading-snug"><strong>AI tip:</strong> {m.aiTip}</p>
                     </div>
+                    )}
                   </div>
                 </div>
               ))}
@@ -368,7 +370,7 @@ export default function FreeCourse() {
             >
               Start the Free Course →
             </a>
-            <p className="text-xs text-gray-500 mt-4">No credit card · Instant access · 5 modules</p>
+            <p className="text-xs text-gray-500 mt-4">No credit card · Instant access</p>
             <div className="mt-8 pt-8 border-t border-gray-800 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
               <Link href="/pricing" className="hover:text-gray-300 transition-colors">See The Lab →</Link>
               <Link href="/about" className="hover:text-gray-300 transition-colors">About Us →</Link>

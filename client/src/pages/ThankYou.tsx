@@ -1,5 +1,5 @@
 // KnowHow Marketing Lab - Thank You Page
-// Shown after AI + SEO course opt-in form submission
+// Shown after the free course (SEO Starter) sign-up
 // Confirms signup, delivers next steps, and soft-introduces The Lab
 // Schema: WebPage (noindex)
 
@@ -9,19 +9,14 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
 import { FREE_COURSE_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_NAME, FREE_COURSE_SUMMARY, FREE_COURSE_DAYS } from '@/lib/freeCourse';
 
-const modules = [
-  { num: '01', title: 'SEO Fundamentals', desc: 'How Google works, what SERPs are, and why search intent matters.' },
-  { num: '02', title: 'Setting Up Your SEO Tools', desc: 'Google Search Console and GA4 - the two free tools that show you exactly what is happening on your site.' },
-  { num: '03', title: 'Keyword Research Basics', desc: 'Find the keywords your customers are actually searching for using Google\'s free Keyword Planner.' },
-  { num: '04', title: 'On-Page SEO Essentials', desc: 'Write title tags and meta descriptions that get clicks, and build internal links that help Google understand your site.' },
-  { num: '05', title: 'Google Business Profile', desc: 'Optimise your Google Business Profile so you show up in local search results.' },
-];
+const modules = FREE_COURSE_DAYS.map(d => ({ num: `0${d.day}`, title: `Day ${d.day}: ${d.title}` }));
 
 export default function ThankYou() {
   useSEO({
-    title: "You're In, Start Your Free AI + SEO Course",
-    description: "You have successfully signed up for the free AI + SEO course from KnowHow Marketing Lab. Check your email for your access link.",
+    title: "You're In, Start SEO Starter",
+    description: "You have successfully signed up for SEO Starter, the free course from KnowHow Marketing Lab. Check your email for your access link.",
     canonical: "https://knowhowmarketinglab.com/thank-you",
     ogType: "website",
   });
@@ -40,7 +35,7 @@ export default function ThankYou() {
             "@type": "WebPage",
             "name": "Thank You - KnowHow Marketing Lab",
             "url": "https://knowhowmarketinglab.com/thank-you",
-            "description": "Confirmation page after signing up for the free AI + SEO course.",
+            "description": "Confirmation page after signing up for the free course.",
             "inLanguage": "en",
             "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" }
           })
@@ -77,7 +72,7 @@ export default function ThankYou() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-4 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              Your AI + SEO course access is on its way. Check your inbox for an email from Pip Seymour - it includes your login link and everything you need to get started.
+              Your free course access is on its way. Check your inbox for an email from Pip Seymour - it includes your login link and everything you need to get started.
             </p>
             <p className="text-base text-gray-500 mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Didn't get it? Check your spam folder, or{' '}
@@ -95,9 +90,9 @@ export default function ThankYou() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-4"
-              aria-label="Start the AI + SEO course now"
+              aria-label="Start the free course now"
             >
-              Start Your AI + SEO Course Now →
+              Start Day 1 Now →
             </a>
           </div>
         </section>
@@ -110,13 +105,13 @@ export default function ThankYou() {
               className="text-2xl font-extrabold text-gray-900 mb-2 text-center"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Here's what's inside your AI + SEO course
+              Here's what's inside {FREE_COURSE_NAME}
             </h2>
             <p className="text-gray-500 text-center mb-10" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-              5 modules. Go at your own pace. No deadline.
+              {FREE_COURSE_SUMMARY}
             </p>
 
-            <ol className="flex flex-col gap-4" aria-label="AI + SEO course modules">
+            <ol className="flex flex-col gap-4" aria-label="Free course days">
               {modules.map(mod => (
                 <li
                   key={mod.num}
@@ -132,9 +127,6 @@ export default function ThankYou() {
                   <div>
                     <p className="font-bold text-gray-900 mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
                       {mod.title}
-                    </p>
-                    <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      {mod.desc}
                     </p>
                   </div>
                 </li>

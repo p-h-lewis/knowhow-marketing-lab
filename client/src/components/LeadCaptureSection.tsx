@@ -4,7 +4,8 @@
 // Internal links: /pricing, /resources, /about, /blog
 
 import { useState } from 'react';
-import { FREE_COURSE_URL, FREE_COURSE_FORM_ID, GHL_LOCATION_ID, isUnset } from '@/lib/ghlLinks';
+import { FREE_COURSE_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_NAME, FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 const faqs = [
   {
@@ -12,12 +13,12 @@ const faqs = [
     a: 'KnowHow Marketing Lab is a free online training hub for business owners and marketing teams. It was created by Pip Seymour and Phelan Lewis - two Canadian digital marketing agency owners with 30+ years of combined experience. The platform offers AI + SEO courses, 60+ free YouTube video lessons, and a paid VIP community on GoHighLevel for deeper training in SEO, Google Ads, GA4, and AI marketing.',
   },
   {
-    q: 'Is the SEO course really free?',
-    a: 'Yes - the KnowHow Marketing Lab free SEO course is completely free. There is no credit card required and no trial period. You get full access to all 5 course modules, including lessons on SEO fundamentals, setting up your SEO tools, keyword research, on-page SEO essentials, and Google Business Profile.',
+    q: 'Is the free course really free?',
+    a: `Yes. ${FREE_COURSE_SUMMARY} Live sessions, site reviews and the full course library are in The Lab.`,
   },
   {
     q: 'How do I get started for free?',
-    a: 'The easiest free starting point is the Business Marketing Mixer Facebook group for ongoing community support. When you want live help, The Lab has a 14-day free trial with a live session every Tuesday, 12 to 1 pm Pacific. The free AI + SEO course and 60+ YouTube video lessons are also completely free.',
+    a: 'The easiest free starting point is the Business Marketing Mixer Facebook group for ongoing community support. When you want live help, The Lab has a 14-day free trial with a live session every Tuesday, 12 to 1 pm Pacific. The free course, SEO Starter, and 60+ YouTube video lessons are also completely free.',
   },
   {
     q: 'What is The Lab?',
@@ -41,67 +42,8 @@ const faqs = [
   },
 ];
 
-const CHALLENGES = [
-  { id: 'seo', label: 'SEO & getting found on Google', icon: '🔍' },
-  { id: 'ads', label: 'Google Ads & paid traffic', icon: '📢' },
-  { id: 'analytics', label: 'Understanding my analytics', icon: '📊' },
-  { id: 'ai', label: 'Using AI in my marketing', icon: '🤖' },
-  { id: 'website', label: 'My website not converting', icon: '🌐' },
-  { id: 'all', label: 'All of the above honestly', icon: '😅' },
-];
-
 export default function LeadCaptureSection() {
-  const [step, setStep] = useState<1 | 2 | 3>(1);
-  const [challenge, setChallenge] = useState('');
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-    setLoading(true);
-    setError(null);
-    // POST to the GHL form submission endpoint. Form and location ids come
-    // from @/lib/ghlLinks (KnowHow sub-account). Only redirect on success.
-    try {
-      if (isUnset(FREE_COURSE_FORM_ID) || isUnset(GHL_LOCATION_ID) || isUnset(FREE_COURSE_URL)) {
-        throw new Error('GHL form settings are not configured');
-      }
-      const res = await fetch(
-        'https://services.leadconnectorhq.com/forms/submit',
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            formId: FREE_COURSE_FORM_ID,
-            locationId: GHL_LOCATION_ID,
-            firstName: name,
-            email,
-            // Pass challenge as a custom field note
-            message: `Biggest challenge: ${challenge}`,
-          }),
-        }
-      );
-      if (!res.ok) {
-        throw new Error(`Form submit failed with status ${res.status}`);
-      }
-    } catch (err) {
-      console.error('Free course sign-up failed', err);
-      setLoading(false);
-      setError('Sorry, we could not sign you up just now. Please check your connection and try again.');
-      return;
-    }
-    setLoading(false);
-    setSubmitted(true);
-    // Redirect to the free course after a brief success flash
-    setTimeout(() => {
-      window.location.href = FREE_COURSE_URL;
-    }, 1800);
-  };
 
   return (
     <>
@@ -123,154 +65,32 @@ export default function LeadCaptureSection() {
               className="text-3xl md:text-4xl font-extrabold text-white mt-3 mb-4"
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              Tell us what you are working on.
+              Start with the free course.
             </h2>
             <p
               className="text-gray-300 text-lg mb-3"
               style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
-              We will match you with the right free training to get you moving in the next 20 minutes.
+              {FREE_COURSE_NAME}
             </p>
-            {/* Step indicator */}
-            {!submitted && (
-              <div className="flex items-center justify-center gap-2 mb-6">
-                {[1, 2].map(s => (
-                  <div key={s} className="flex items-center gap-2">
-                    <div
-                      className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold transition-all ${
-                        step >= s ? 'bg-[#E98C28] text-white' : 'bg-white/20 text-white/50'
-                      }`}
-                      style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                    >
-                      {s}
-                    </div>
-                    {s < 2 && <div className={`w-8 h-0.5 ${step > s ? 'bg-[#E98C28]' : 'bg-white/20'}`} />}
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {!submitted ? (
-              <div className="max-w-md mx-auto">
-                {/* Step 1: Challenge selector */}
-                {step === 1 && (
-                  <div>
-                    <p className="text-white font-bold text-lg mb-4" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      What is your biggest marketing challenge right now?
-                    </p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
-                      {CHALLENGES.map(c => (
-                        <button
-                          key={c.id}
-                          type="button"
-                          onClick={() => { setChallenge(c.label); setStep(2); }}
-                          className={`flex items-center gap-2.5 text-left px-4 py-3 rounded-xl border-2 transition-all text-sm font-medium ${
-                            challenge === c.label
-                              ? 'border-[#E98C28] bg-[#E98C28]/20 text-white'
-                              : 'border-white/20 bg-white/10 text-white hover:border-[#E98C28]/60 hover:bg-white/15'
-                          }`}
-                          style={{ fontFamily: 'DM Sans, sans-serif' }}
-                        >
-                          <span className="text-base flex-shrink-0" aria-hidden="true">{c.icon}</span>
-                          <span>{c.label}</span>
-                        </button>
-                      ))}
-                    </div>
-                    <p className="text-xs text-gray-400 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      We will tailor your free course access based on your answer.
-                    </p>
-                  </div>
-                )}
-
-                {/* Step 2: Name + email */}
-                {step === 2 && (
-                  <form onSubmit={handleSubmit} className="flex flex-col gap-3" aria-label="Free course sign-up form" noValidate>
-                    <p className="text-white font-bold text-lg mb-1" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                      Great choice. Where should we send your access?
-                    </p>
-                    <p className="text-gray-400 text-sm mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      You said: <span className="text-[#E98C28] font-medium">{challenge}</span>
-                    </p>
-                    <label htmlFor="lead-name" className="sr-only">Your first name</label>
-                    <input
-                      id="lead-name"
-                      name="firstName"
-                      type="text"
-                      value={name}
-                      onChange={e => setName(e.target.value)}
-                      placeholder="Your first name"
-                      className="lead-input"
-                      autoComplete="given-name"
-                      style={{ fontSize: '16px', minHeight: '52px' }}
-                    />
-                    <label htmlFor="lead-email" className="sr-only">Your email address</label>
-                    <input
-                      id="lead-email"
-                      name="email"
-                      type="email"
-                      value={email}
-                      onChange={e => setEmail(e.target.value)}
-                      placeholder="Your email address"
-                      className="lead-input"
-                      required
-                      autoComplete="email"
-                      aria-required="true"
-                      style={{ fontSize: '16px', minHeight: '52px' }}
-                    />
-                    <button
-                      type="submit"
-                      disabled={loading}
-                      className="btn-primary justify-center text-base py-4 pulse-cta disabled:opacity-70 disabled:cursor-not-allowed"
-                      aria-label="Start the free KnowHow Marketing Lab SEO course"
-                    >
-                      {loading ? 'Setting up your access…' : error ? 'Try Again →' : 'Get Free Access Now →'}
-                    </button>
-                    {error && (
-                      <div
-                        className="bg-red-500/15 border border-red-400/60 rounded-xl p-4 text-left"
-                        role="alert"
-                      >
-                        <p className="text-sm text-white" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                          {error}
-                        </p>
-                        <button
-                          type="submit"
-                          disabled={loading}
-                          className="mt-2 text-sm font-semibold text-[#E98C28] hover:underline disabled:opacity-70"
-                          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                        >
-                          Retry now
-                        </button>
-                      </div>
-                    )}
-                    <button
-                      type="button"
-                      onClick={() => setStep(1)}
-                      className="text-xs text-gray-400 hover:text-gray-300 underline text-center"
-                      style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    >
-                      ← Change my answer
-                    </button>
-                    <p className="text-xs text-gray-500 text-center" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      We respect your privacy. No spam. Unsubscribe anytime.
-                    </p>
-                  </form>
-                )}
-              </div>
-            ) : (
-              <div
-                className="bg-[#318599]/20 border border-[#318599] rounded-xl p-6 max-w-md mx-auto"
-                role="status"
-                aria-live="polite"
-              >
-                <p className="text-white font-bold text-lg" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  You are in! Welcome to KnowHow Marketing Lab.
-                </p>
-                <p className="text-gray-300 text-sm mt-2" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                  Your free access is opening now. Check your email for your access link.
-                </p>
-              </div>
-            )}
+            <p
+              className="text-gray-300 text-base mb-8"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
+            >
+              {FREE_COURSE_SUMMARY}
+            </p>
+            <a
+              href={FREE_COURSE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary justify-center text-base py-4 px-8"
+              aria-label={`Start the free course: ${FREE_COURSE_NAME}`}
+            >
+              Start the Free Course →
+            </a>
+            <p className="text-xs text-gray-500 mt-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+              You sign up with your name and email on the next page.
+            </p>
           </div>
         </div>
       </section>

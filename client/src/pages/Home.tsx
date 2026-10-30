@@ -17,6 +17,7 @@ import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
 import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
+import { FREE_COURSE_SUMMARY } from '@/lib/freeCourse';
 
 // Lightweight skeleton shown while below-fold sections load
 function SectionSkeleton() {
@@ -43,7 +44,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "KnowHow Marketing Lab - AI + SEO, Google Ads & AI Marketing Training",
-            "description": "Free expert training in SEO, GA4, and AI marketing. 60+ free video lessons, weekly live classes, and The Lab community on GoHighLevel. Built by agency veterans Pip Seymour and Phelan Lewis.",
+            "description": "Free expert training in SEO, GA4, and AI marketing. 60+ free video lessons, and The Lab community on GoHighLevel with a live session every Tuesday. Built by agency veterans Pip Seymour and Phelan Lewis.",
             "url": "https://knowhowmarketinglab.com/",
             "inLanguage": "en-US",
             "isPartOf": { "@type": "WebSite", "name": "KnowHow Marketing Lab", "url": "https://knowhowmarketinglab.com" },
@@ -82,7 +83,7 @@ export default function Home() {
                 "@type": "OfferCatalog",
                 "name": "KnowHow Marketing Lab Courses",
                 "itemListElement": [
-                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "AI + SEO Accelerator Course", "description": "Free 5-module course teaching the Data-First AI SEO Method for medium-sized businesses. Covers Google Search Console, GA4, keyword research, on-page SEO, and GEO.", "url": "https://knowhowmarketinglab.com/courses/seo" } },
+                  { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Free AI + SEO Course", "description": FREE_COURSE_SUMMARY, "url": "https://knowhowmarketinglab.com/courses/seo" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Google Ads Course", "description": "Google Ads course covering campaign types, bidding strategies, ad group structure, and AI tools for Google Ads optimisation. Included in The Lab membership at $29 CAD/mo.", "url": "https://knowhowmarketinglab.com/courses/google-ads" } },
                   { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "The Lab - VIP Marketing Community", "description": "$29 CAD/month community with one live session every Tuesday, 12 to 1 pm Pacific, courses, and private community access. 14-day free trial.", "url": "https://knowhowmarketinglab.com/pricing" } }
                 ]
@@ -115,7 +116,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
-            "description": "A 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimisation (GEO). No credit card required.",
+            "description": FREE_COURSE_SUMMARY,
             "url": FREE_COURSE_URL,
             "provider": {
               "@type": "Organization",
