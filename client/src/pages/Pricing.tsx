@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from "@/hooks/useSEO";
+import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 const communityFeatures = [
   { label: 'Complete SEO Course (5 modules)', included: true },
@@ -40,7 +41,7 @@ const pricingFaqs = [
   },
   {
     q: 'Is the community hosted on GoHighLevel?',
-    a: 'Yes. The Lab is hosted on the GoHighLevel platform at learnwith.seymourdigitalmedia.com. GoHighLevel provides a secure, all-in-one community and course platform.',
+    a: 'Yes. The Lab is hosted on the GoHighLevel platform. GoHighLevel provides a secure, all-in-one community and course platform.',
   },
   {
     q: 'Do I need any prior marketing experience?',
@@ -92,7 +93,7 @@ export default function Pricing() {
                 "price": "0",
                 "priceCurrency": "CAD",
                 "description": "Free access to the complete data-driven SEO course and 60+ YouTube video lessons.",
-                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                "url": FREE_COURSE_URL
               },
               {
                 "@type": "Offer",
@@ -100,7 +101,7 @@ export default function Pricing() {
                 "price": "29",
                 "priceCurrency": "CAD",
                 "description": "Monthly membership with one live session every Tuesday, 12 to 1 pm Pacific (teaching or a tip, then Q&A and live audits), the Google Ads and AI marketing courses, a private community, and session replays.",
-                "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                "url": LAB_TRIAL_URL
               }
             ]
           })
@@ -135,7 +136,7 @@ export default function Pricing() {
               <p className="text-xs text-gray-400 hidden sm:block" style={{ fontFamily: 'DM Sans, sans-serif' }}>Tuesday live sessions · Full Google Ads &amp; SEO courses · Private community</p>
             </div>
               <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={LAB_TRIAL_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-6 text-sm transition-all duration-200 whitespace-nowrap flex-shrink-0"
@@ -172,7 +173,7 @@ export default function Pricing() {
             </div>
             <div className="mt-6">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                href={LAB_TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3.5 px-7 text-base transition-all duration-200 shadow-md pulse-cta"
@@ -221,7 +222,7 @@ export default function Pricing() {
               <p className="text-white font-extrabold text-2xl" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>All of this for $29 CAD/month.</p>
               <p className="text-white/80 text-sm mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>No contracts. Cancel anytime.</p>
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                href={LAB_TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-4 bg-white text-[#E98C28] font-bold rounded-xl py-3 px-7 text-base transition-all duration-200 hover:bg-amber-50 shadow-md"
@@ -322,7 +323,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                  href={LAB_TRIAL_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full justify-center pulse-cta"

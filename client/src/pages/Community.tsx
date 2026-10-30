@@ -1,14 +1,14 @@
 // KnowHow Marketing Lab, Community Page (/community)
 // Design: Space Grotesk headings, DM Sans body, orange (#E98C28) + teal (#318599) brand palette
 // Purpose: Dedicated page explaining The Lab community, what's inside, and driving direct sign-ups to GoHighLevel
-// CTAs: All link directly to https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce
+// CTAs: All link to LAB_TRIAL_URL from @/lib/ghlLinks
 
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
+import { LAB_TRIAL_URL, LAB_TRIAL_URL as GHL_URL } from '@/lib/ghlLinks';
 
-const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 const perks = [
   {
@@ -741,7 +741,7 @@ export default function Community() {
                   ))}
                 </ul>
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                  href={LAB_TRIAL_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"

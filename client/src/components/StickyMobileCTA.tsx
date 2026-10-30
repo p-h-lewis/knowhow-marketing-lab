@@ -4,9 +4,7 @@
 
 import { useEffect, useState } from "react";
 import { useLocation } from "wouter";
-
-const GHL_JOIN_URL =
-  "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
+import { LAB_TRIAL_URL as GHL_JOIN_URL } from "@/lib/ghlLinks";
 
 export default function StickyMobileCTA() {
   const [visible, setVisible] = useState(false);

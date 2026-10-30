@@ -106,7 +106,7 @@ Your trial ends in 2 days. If you decide it's not for you, you can cancel in und
 
 But if you haven't tried the Thursday session yet, I'd encourage you to give it one shot first.
 
-[Join the next Thursday session →](https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce)
+[Join the next Thursday session →](LAB_TRIAL_URL: set in client/src/lib/ghlLinks.ts)
 
 Talk soon,
 Pip

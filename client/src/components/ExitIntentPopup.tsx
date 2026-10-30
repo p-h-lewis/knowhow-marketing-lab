@@ -6,9 +6,9 @@
 // Design: Space Grotesk / DM Sans, brand colors
 
 import { useState, useEffect, useCallback } from 'react';
+import { LAB_TRIAL_URL, FREE_COURSE_URL } from '@/lib/ghlLinks';
 
 const SESSION_KEY = 'kml_exit_popup_shown';
-const FREE_COURSE_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 export default function ExitIntentPopup() {
   const [visible, setVisible] = useState(false);
@@ -164,7 +164,7 @@ export default function ExitIntentPopup() {
 
             {/* Primary CTA: The Lab */}
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={LAB_TRIAL_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center py-3.5 px-6 rounded-xl font-bold text-white text-sm transition-all hover:opacity-90 hover:-translate-y-0.5 hover:shadow-lg mb-3"

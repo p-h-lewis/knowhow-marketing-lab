@@ -4,6 +4,7 @@
 // Grade 6 readability · Human-first copy · LLM-optimised semantic structure
 
 import { Link } from 'wouter';
+import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 export default function HeroSection() {
   return (
@@ -51,7 +52,7 @@ export default function HeroSection() {
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                href={LAB_TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-extrabold rounded-xl py-4 px-7 text-base sm:text-lg transition-all duration-200 shadow-md hover:shadow-lg pulse-cta"

@@ -8,6 +8,7 @@ const labPerks = [
   { icon: '💬', title: 'Private Community Group', desc: 'Ask questions, share wins, and get feedback from Pip, Phelan, and fellow marketers in the private GoHighLevel group.' },
   { icon: '🎬', title: 'Full Course Library', desc: 'All recorded sessions, advanced modules, and exclusive content, available on-demand anytime.' },
 ];
+import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 export default function CommunitySection() {
   return (
@@ -83,7 +84,7 @@ export default function CommunitySection() {
               ))}
             </ul>
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={LAB_TRIAL_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-[#E98C28] hover:bg-[#d4791f] text-white font-bold rounded-xl px-6 py-3.5 text-sm transition-all duration-200 shadow-md"

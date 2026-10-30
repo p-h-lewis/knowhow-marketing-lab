@@ -47,8 +47,6 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <link rel="dns-prefetch" href="https://crm.seymourdigitalmedia.com" />
-    <link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com" />
-    <link rel="dns-prefetch" href="https://widget.leadconnectorhq.com" />
     <!-- Self-hosted fonts: preloaded from CDN — zero external font request, no render-blocking -->
     <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/dm-sans-latin_a43d5814.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="https://d2xsxph8kpxj0f.cloudfront.net/310419663028389518/RfGSqQsChvaaheLhAWutyi/space-grotesk-latin_8def45d1.woff2" crossorigin />
@@ -157,7 +155,6 @@
       },
       "sameAs": [
         "https://www.youtube.com/@knowhowmarketinglab",
-        "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home",
         "https://seymourdigitalmedia.com/"
       ],
       "founder": [
@@ -189,7 +186,7 @@
             "description": "A complete 5-module SEO course covering SEO fundamentals, setting up free SEO tools (Google Search Console and GA4), keyword research, on-page SEO essentials, and Google Business Profile optimization. Free with no credit card required.",
             "provider": { "@type": "Organization", "name": "KnowHow Marketing Lab" },
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
-            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login",
+            "url": "https://knowhowmarketinglab.com/courses/seo",
             "numberOfCredits": 5,
             "hasCourseInstance": {
               "@type": "CourseInstance",
@@ -207,18 +204,18 @@
           {
             "@type": "Course",
             "name": "Google Ads Mastery Course",
-            "description": "Advanced Google Ads training covering Search campaigns, Performance Max, bidding strategy, and conversion tracking. Included in VIP Community membership.",
+            "description": "Advanced Google Ads training covering Search campaigns, Performance Max, bidding strategy, and conversion tracking. Included in The Lab membership.",
             "provider": { "@type": "Organization", "name": "KnowHow Marketing Lab" },
             "offers": { "@type": "Offer", "price": "29", "priceCurrency": "CAD" },
-            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+            "url": "https://knowhowmarketinglab.com/courses/google-ads"
           },
           {
             "@type": "Course",
             "name": "AI Marketing & Automation Course",
-            "description": "Practical AI marketing training covering ChatGPT, Gemini, Manus, AI agents, marketing automation, and Generative Engine Optimization (GEO). Included in VIP Community membership.",
+            "description": "Practical AI marketing training covering ChatGPT, Gemini, Manus, AI agents, marketing automation, and Generative Engine Optimization (GEO). Included in The Lab membership.",
             "provider": { "@type": "Organization", "name": "KnowHow Marketing Lab" },
             "offers": { "@type": "Offer", "price": "29", "priceCurrency": "CAD" },
-            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/communities/groups/know-how-marketing-lab/home"
+            "url": "https://knowhowmarketinglab.com/pricing"
           }
         ]
       }
@@ -253,14 +250,8 @@
         ghlScript.setAttribute('data-tracking-id', 'tk_6415a2a5069f4384b0d41a2fa6e81190');
         ghlScript.async = true;
         document.head.appendChild(ghlScript);
-
-        // GHL Live Chat Widget (deferred — loads after interaction so it doesn't block LCP)
-        var chatScript = document.createElement('script');
-        chatScript.src = 'https://widgets.leadconnectorhq.com/loader.js';
-        chatScript.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
-        chatScript.setAttribute('data-widget-id', 'Bk3wb95yNZ5UAEn0KG00');
-        chatScript.async = true;
-        document.head.appendChild(chatScript);
+        // GHL live chat widget removed (Oct 2026): it used the old account
+        // location id. Re-add from the new KnowHow sub-account when ready.
       }
 
       // Load on first user interaction: scroll, click, touch, or keydown

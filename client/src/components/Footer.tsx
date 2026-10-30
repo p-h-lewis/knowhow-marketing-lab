@@ -4,6 +4,7 @@
 // External (non-competing, authoritative): seymourdigitalmedia.com, youtube.com, support.google.com, developers.google.com, skillshop.withgoogle.com
 
 import { Link } from 'wouter';
+import { MEMBER_LOGIN_URL } from '@/lib/ghlLinks';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -123,7 +124,7 @@ export default function Footer() {
                 { label: 'Join Free Facebook Group', href: 'https://www.facebook.com/groups/businessmarketingmixer' },
                 { label: 'The Lab, $29 CAD/mo', href: '/community' },
                 { label: 'Free vs Paid, Compare', href: '/community' },
-                { label: 'Log In to Platform', href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login' },
+                { label: 'Log In to Platform', href: MEMBER_LOGIN_URL },
               ].map(link => (
                 <li key={link.label}>
                   {link.href.startsWith('http') ? (

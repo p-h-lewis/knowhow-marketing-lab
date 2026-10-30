@@ -2,7 +2,7 @@
 // Full conversion engine: Hero → Trust → AI + SEO Course → Videos → Courses → Community → Testimonials → About → Lead Capture → FAQ → Footer
 // Schema: WebPage, EducationalOrganization, Course, VideoObject, FAQPage, BreadcrumbList
 // Internal links: /pricing, /about, /resources, /#sections
-// External links: seymourdigitalmedia.com, youtube.com, learnwith.seymourdigitalmedia.com, support.google.com, developers.google.com
+// External links: seymourdigitalmedia.com, youtube.com, support.google.com, developers.google.com
 
 import { lazy, Suspense } from 'react';
 import Navbar from '@/components/Navbar';
@@ -16,6 +16,7 @@ const LeadCaptureSection = lazy(() => import('@/components/LeadCaptureSection'))
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
 import { useSEO } from "@/hooks/useSEO";
+import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 // Lightweight skeleton shown while below-fold sections load
 function SectionSkeleton() {
@@ -59,7 +60,6 @@ export default function Home() {
               "url": "https://knowhowmarketinglab.com",
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
-                "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce",
                 "https://seymourdigitalmedia.com/"
               ],
               "knowsAbout": [
@@ -116,7 +116,7 @@ export default function Home() {
             "@type": "Course",
             "name": "Free Data-Driven SEO Course",
             "description": "A 5-module AI + SEO course for medium-sized businesses. Covers keyword research, on-page SEO, Google Search Console, GA4, Google Business Profile, and Generative Engine Optimisation (GEO). No credit card required.",
-            "url": "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce",
+            "url": FREE_COURSE_URL,
             "provider": {
               "@type": "Organization",
               "name": "KnowHow Marketing Lab",
@@ -258,7 +258,7 @@ export default function Home() {
               </div>
               <div className="text-center mt-6">
                 <a
-                  href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                  href={LAB_TRIAL_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-3 px-7 text-sm transition-all duration-150 shadow-sm"

@@ -6,7 +6,7 @@ const courses = [
     subtitle: 'Keyword research, on-page SEO, GSC & GA4 - built for business owners.',
     level: 'Beginner → Advanced',
     cta: 'Enroll Free →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce',
+    href: FREE_COURSE_URL,
     free: true,
     color: '#318599',
   },
@@ -15,7 +15,7 @@ const courses = [
     subtitle: 'ChatGPT for brands, AI agents, automation workflows - inside The Lab.',
     level: 'Intermediate → Advanced',
     cta: 'Access in The Lab →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce',
+    href: LAB_TRIAL_URL,
     free: false,
     color: '#4F37D8',
   },
@@ -24,11 +24,12 @@ const courses = [
     subtitle: 'Search, Display & Performance Max. On demand inside The Lab.',
     level: 'All Levels',
     cta: 'Start Free Trial →',
-    href: 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce',
+    href: LAB_TRIAL_URL,
     free: false,
     color: '#E98C28',
   },
 ];
+import { FREE_COURSE_URL, LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 export default function CoursesSection() {
   return (

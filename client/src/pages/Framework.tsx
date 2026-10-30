@@ -10,9 +10,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { useState } from "react";
+import { FREE_COURSE_URL, LAB_TRIAL_URL as COMMUNITY_URL } from '@/lib/ghlLinks';
 
-const FREE_COURSE_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
-const COMMUNITY_URL = "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce";
 
 const steps = [
   {

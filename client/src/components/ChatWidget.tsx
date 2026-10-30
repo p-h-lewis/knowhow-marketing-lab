@@ -4,8 +4,8 @@
 // No backend required, all answers are pre-written and served client-side
 
 import { useState, useRef, useEffect } from 'react';
+import { LAB_TRIAL_URL as GHL_URL } from '@/lib/ghlLinks';
 
-const GHL_URL = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
 
 interface Message {
   role: 'bot' | 'user';

@@ -56,7 +56,6 @@ export default function About() {
               ],
               "sameAs": [
                 "https://www.youtube.com/@knowhowmarketinglab",
-                "https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce",
                 "https://seymourdigitalmedia.com/"
               ],
               "founder": [

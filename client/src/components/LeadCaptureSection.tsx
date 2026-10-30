@@ -4,6 +4,7 @@
 // Internal links: /pricing, /resources, /about, /blog
 
 import { useState } from 'react';
+import { FREE_COURSE_URL, FREE_COURSE_FORM_ID, GHL_LOCATION_ID, isUnset } from '@/lib/ghlLinks';
 
 const faqs = [
   {
@@ -57,23 +58,27 @@ export default function LeadCaptureSection() {
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
     setLoading(true);
-    // POST to GHL form submission endpoint
-    // Form ID: l71tHQPMO7st6TFSPmo5 (KnowHow Free Course Opt In)
-    // Location ID: Bk3wb95yNZ5UAEn0KG00
+    setError(null);
+    // POST to the GHL form submission endpoint. Form and location ids come
+    // from @/lib/ghlLinks (KnowHow sub-account). Only redirect on success.
     try {
-      await fetch(
+      if (isUnset(FREE_COURSE_FORM_ID) || isUnset(GHL_LOCATION_ID) || isUnset(FREE_COURSE_URL)) {
+        throw new Error('GHL form settings are not configured');
+      }
+      const res = await fetch(
         'https://services.leadconnectorhq.com/forms/submit',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            formId: 'l71tHQPMO7st6TFSPmo5',
-            locationId: 'Bk3wb95yNZ5UAEn0KG00',
+            formId: FREE_COURSE_FORM_ID,
+            locationId: GHL_LOCATION_ID,
             firstName: name,
             email,
             // Pass challenge as a custom field note
@@ -81,14 +86,20 @@ export default function LeadCaptureSection() {
           }),
         }
       );
-    } catch (_) {
-      // Silent fail, redirect still happens even if GHL is unreachable
+      if (!res.ok) {
+        throw new Error(`Form submit failed with status ${res.status}`);
+      }
+    } catch (err) {
+      console.error('Free course sign-up failed', err);
+      setLoading(false);
+      setError('Sorry, we could not sign you up just now. Please check your connection and try again.');
+      return;
     }
     setLoading(false);
     setSubmitted(true);
     // Redirect to the free course after a brief success flash
     setTimeout(() => {
-      window.location.href = 'https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce';
+      window.location.href = FREE_COURSE_URL;
     }, 1800);
   };
 
@@ -212,8 +223,26 @@ export default function LeadCaptureSection() {
                       className="btn-primary justify-center text-base py-4 pulse-cta disabled:opacity-70 disabled:cursor-not-allowed"
                       aria-label="Start the free KnowHow Marketing Lab SEO course"
                     >
-                      {loading ? 'Setting up your access…' : 'Get Free Access Now →'}
+                      {loading ? 'Setting up your access…' : error ? 'Try Again →' : 'Get Free Access Now →'}
                     </button>
+                    {error && (
+                      <div
+                        className="bg-red-500/15 border border-red-400/60 rounded-xl p-4 text-left"
+                        role="alert"
+                      >
+                        <p className="text-sm text-white" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                          {error}
+                        </p>
+                        <button
+                          type="submit"
+                          disabled={loading}
+                          className="mt-2 text-sm font-semibold text-[#E98C28] hover:underline disabled:opacity-70"
+                          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+                        >
+                          Retry now
+                        </button>
+                      </div>
+                    )}
                     <button
                       type="button"
                       onClick={() => setStep(1)}

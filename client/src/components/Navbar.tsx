@@ -5,6 +5,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'wouter';
+import { LAB_TRIAL_URL, MEMBER_LOGIN_URL } from '@/lib/ghlLinks';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -162,7 +163,7 @@ export default function Navbar() {
                   ))}
                   <div className="mx-4 mt-2 pt-2 border-t border-gray-100">
                     <a
-                      href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                      href={LAB_TRIAL_URL}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-between py-2 text-sm font-bold text-[#E98C28] hover:text-[#d47d20] transition-colors"
@@ -196,7 +197,7 @@ export default function Navbar() {
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+              href={MEMBER_LOGIN_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-700 text-sm font-medium transition-colors duration-150 whitespace-nowrap"
@@ -206,7 +207,7 @@ export default function Navbar() {
               Log In
             </a>
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={LAB_TRIAL_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-2.5 px-5 text-sm transition-all duration-150 shadow-sm whitespace-nowrap"
@@ -220,7 +221,7 @@ export default function Navbar() {
           {/* Mobile right side: CTA + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={LAB_TRIAL_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl text-xs py-2 px-3 whitespace-nowrap transition-all duration-150"
@@ -281,7 +282,7 @@ export default function Navbar() {
             {/* Bottom CTAs */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 pb-4">
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+                href={LAB_TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#E98C28] hover:bg-[#D47D1E] text-white font-bold rounded-xl py-4 text-base transition-all duration-150"
@@ -292,7 +293,7 @@ export default function Navbar() {
               </a>
               <p className="text-xs text-gray-400 text-center -mt-1" style={{ fontFamily: 'DM Sans, sans-serif' }}>Then $29 CAD/mo · Cancel anytime</p>
               <a
-                href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/login"
+                href={MEMBER_LOGIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 text-xs text-center py-2 hover:text-gray-700 transition-colors"

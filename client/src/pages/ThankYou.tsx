@@ -8,6 +8,7 @@ import { Link } from 'wouter';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useSEO } from '@/hooks/useSEO';
+import { FREE_COURSE_URL } from '@/lib/ghlLinks';
 
 const modules = [
   { num: '01', title: 'SEO Fundamentals', desc: 'How Google works, what SERPs are, and why search intent matters.' },
@@ -90,7 +91,7 @@ export default function ThankYou() {
             </p>
 
             <a
-              href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce"
+              href={FREE_COURSE_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-4"

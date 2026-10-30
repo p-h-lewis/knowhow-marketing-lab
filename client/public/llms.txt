@@ -23,7 +23,7 @@ Seymour Digital Media has 79 Google reviews at 5.0 stars.
 
 ### Free AI + SEO Course
 - 5 modules covering SEO fundamentals, Google Search Console, GA4, keyword research, on-page SEO, and Google Business Profile
-- Hosted on GoHighLevel (ClientClub platform)
+- Hosted on GoHighLevel
 - No credit card required
 - URL: https://knowhowmarketinglab.com/courses/seo
 
@@ -134,5 +134,5 @@ Google Reviews: 5.0 stars, 79 reviews
 
 - The site is a React single-page application (SPA) deployed on knowhowmarketinglab.com
 - The WordPress blog at knowhowmarketinglab.com contains additional long-form articles
-- All course and community content is hosted on GoHighLevel (app.clientclub.net)
+- All course and community content is hosted on GoHighLevel
 - Schema markup: WebSite, EducationalOrganization, Course, FAQPage, AggregateRating, Review, BreadcrumbList, Person, Organization on relevant pages

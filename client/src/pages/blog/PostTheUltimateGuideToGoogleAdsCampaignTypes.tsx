@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import Footer from '@/components/Footer';
 import { Link } from 'wouter';
+import { LAB_TRIAL_URL } from '@/lib/ghlLinks';
 
 const POST_CONTENT = `<p>Author: Know How Marketing Lab & Manus AI</p>
 
@@ -282,21 +283,21 @@ https://youtu.be/nzTa2wJEN9k
 
 <p>Choosing the campaign type is just step one. To truly succeed, you need to know how to structure your account, write killer ad copy, and optimise for ROI.</p>
 
-<p>Join the Know How Marketing Lab Community on Skool!</p>
+<p>Join The Lab, the KnowHow Marketing Lab community.</p>
 
 <p>Get access to:</p>
 
 <ul class="wp-block-list">
-<li> Full Google Ads Course (7 Modules)</li>
+<li> Full Google Ads Course</li>
 
-<li> Live Weekly Training & Q&A</li>
+<li> A live session every Tuesday, 12 to 1 pm Pacific: teaching or a tip, then Q&A and live audits</li>
 
 <li> Downloadable Templates & Checklists</li>
 
 <li> AI Prompt Library for Ad Copy</li>
 </ul>
 
-<p> <a href="https://bk3wb95ynz5uaen0kg00.app.clientclub.net/courses/offers/c289bef5-743c-4172-b386-1ca0a307b1ce" rel="noreferrer noopener" target="_blank">Join Know How Marketing Lab Now</a></p>
+<p> <a href="${LAB_TRIAL_URL}" rel="noreferrer noopener" target="_blank">Try The Lab free for 14 days</a></p>
 
 <h2 id="references">References</h2>
 
